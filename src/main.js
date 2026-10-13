@@ -58,7 +58,7 @@ const menuButton=document.querySelector('.menu-toggle');menuButton.addEventListe
 document.querySelectorAll('.navigation a').forEach(a=>a.addEventListener('click',()=>{menuButton.setAttribute('aria-expanded','false');document.querySelector('.navigation').classList.remove('open');}));
 function syncFields(){controls.querySelectorAll('[name]').forEach(input=>{input.value=data[input.name];});}
 let drawFrame=0;
-function draw(){cancelAnimationFrame(drawFrame);drawFrame=requestAnimationFrame(()=>renderInvitation(preview,selected,data,photo,750));}
+function draw(){cancelAnimationFrame(drawFrame);drawFrame=requestAnimationFrame(()=>renderInvitation(preview,selected,data,photo,1200));}
 function openEditor(id,button){
   selected=templates.find(t=>t.id===id);data=defaultData(selected);photo=null;focusReturn=button;
   try {const draft=JSON.parse(localStorage.getItem(`invitation-${id}`));if(draft&&typeof draft==='object'){for(const key of Object.keys(data)){if(typeof draft[key]===typeof data[key]){if(key==='bg'&&!/^#[0-9a-f]{6}$/i.test(draft[key]))continue;if(key.startsWith('photo')&&!Number.isFinite(draft[key]))continue;data[key]=draft[key];}}toast('Tvoj sačuvani tekst je vraćen. Fotografiju dodaj ponovo.');}}catch{}
