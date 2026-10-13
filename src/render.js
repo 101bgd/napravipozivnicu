@@ -1,6 +1,7 @@
 import { defaultData } from './templates.js';
 export const WIDTH = 1500;
 export const HEIGHT = 2100;
+const dateFormatter = new Intl.DateTimeFormat('sr-Latn-RS',{day:'numeric',month:'long',year:'numeric'});
 const families = { serif: 'Georgia, serif', sans: 'Arial, sans-serif', italic: 'Georgia, serif' };
 function star(c, x, y, r) {
   c.beginPath();
@@ -37,8 +38,12 @@ export function renderInvitation(canvas,template,data=defaultData(template),phot
   const bgLight=lightness(background),inkLight=lightness(template.ink);
   if(contrast(bgLight,inkLight)<4.5) template={...template,ink:bgLight>.35?'#344437':'#fff8eb'};
   if(background!==template.bg&&contrast(bgLight,lightness(template.accent))<1.5) template={...template,accent:bgLight>.35?'#8e9b81':'#d1c3a5'};
-  canvas.width=width;canvas.height=width*1.4;
-  const c=canvas.getContext('2d');c.scale(width/500,width/500); c.family=families[data.font]||families.serif;
+  const height=Math.round(width*1.4);
+  if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
+  const c=canvas.getContext('2d',{alpha:false});
+  c.save();
+  c.setTransform(width/500,0,0,width/500,0,0);
+  c.family=families[data.font]||families.serif;
   c.fillStyle=data.bg||template.bg;c.fillRect(0,0,500,700);
   c.fillStyle=template.accent;
   switch(template.style) {
@@ -88,9 +93,10 @@ export function renderInvitation(canvas,template,data=defaultData(template),phot
   wrap(c,data.note||'',lineY+30,370,13,withPhoto ? 3 : 4);
   const dateY=withPhoto ? 580 : 502;
   let formatted='';
-  if(data.date) {const date=new Date(`${data.date}T12:00:00`);if(!isNaN(date))formatted=new Intl.DateTimeFormat('sr-Latn-RS',{day:'numeric',month:'long',year:'numeric'}).format(date);}
+  if(data.date) {const date=new Date(`${data.date}T12:00:00`);if(!isNaN(date))formatted=dateFormatter.format(date);}
   fit(c,[formatted,data.time ? `u ${data.time}` : ''].filter(Boolean).join('  ·  '),dateY,375,'normal',16,11);
   fit(c,data.location||'',dateY+34,360,'normal',13,10);
   c.font=`italic 12px ${c.family}`;c.fillText('Radujemo se vašem dolasku',250,withPhoto ? 655 : 613);
+  c.restore();
   return canvas;
 }

@@ -19,7 +19,17 @@ npm run build
 npm run preview -- --port 4173
 ```
 
-Objavi sadržaj direktorijuma `dist/` na statičkom hostingu. Domen je kupljen; povezivanje domena i javna objava sajta još nisu urađeni. Fontovi i sve biblioteke se isporučuju sa sajtom; rad aplikacije ne zavisi od spoljašnjeg servisa.
+Cloudflare Pages objavljuje sadržaj direktorijuma `dist/` iz grane `main`; podešavanja su u `HOSTING.md`. Fontovi i sve biblioteke se isporučuju sa sajtom; rad aplikacije ne zavisi od spoljašnjeg servisa. Node.js se koristi samo tokom izgradnje sajta.
+
+## Brzina učitavanja
+
+- `vite.config.js` pri izgradnji pretvara `src/page.js` u gotov HTML. Naslovi, katalog i odgovori na pitanja dostupni su pre izvršavanja JavaScript-a.
+- `src/main.js` učitava editor iz `src/editor.js` tek nakon izbora pozivnice. PDF biblioteka se i dalje učitava samo pri izvozu PDF-a.
+- Pregledi šablona crtaju se kada priđu vidljivom delu stranice; do 24 nacrtana pregleda čuvaju se za ponovno filtriranje.
+- Editor ponovo koristi površinu za crtanje i spaja izmene unutar jednog kadra. Dimenzije izvoza ostaju 1500 × 2100 px.
+- `public/_headers` omogućava dugotrajno keširanje datoteka sa verzionisanim nazivima u `/assets/`; HTML se ponovo proverava pri poseti. Cloudflare Pages primenjuje ova pravila pri objavi.
+
+Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i proverava odloženo učitavanje. Ovo nije ograničenje ukupne veličine stranice: CSS, fontovi i kasnije učitan editor mere se odvojeno.
 
 ## Funkcije
 
@@ -47,10 +57,13 @@ Broj dizajna u katalogu ažurira se automatski.
 ```sh
 npm run build
 npm test
+npm run test:production
 ```
 
 Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, mobilni prikaz i meni, zatvaranje tastaturom i greške pregledača. Testne slike i PDF su u `/tmp/`.
 
+Produkcijski test pokreće zaseban preview na portu 5178. Proverava gotov HTML bez JavaScript-a, budžet početnog koda, odloženo učitavanje editora/PDF-a, pojavljivanje pregleda pri skrolovanju, filtriranje i ispravnost ponovljenog crtanja editora.
+
 ## Pre javnog lansiranja
 
-Povezati kupljeni domen `napravipozivnicu.com`, objaviti sajt i ubaciti konačne šablone. AdSense integracija je ostavljena za kasnije; trenutno nema reklamnih skripti, analitike ni kolačića za praćenje. Ako se uvedu oglasi, dodati odgovarajuće informacije o privatnosti i saglasnost za oglase prema njihovim zahtevima.
+Ubaciti konačne šablone. AdSense integracija je ostavljena za kasnije; trenutno nema reklamnih skripti, analitike ni kolačića za praćenje. Ako se uvedu oglasi, dodati odgovarajuće informacije o privatnosti i saglasnost za oglase prema njihovim zahtevima.
