@@ -84,6 +84,28 @@ try{
   await page.locator('[data-action="edit-example"][data-id="olive"]').click();await page.waitForFunction(()=>document.querySelector('#design-canvas')&&!document.querySelector('[data-action="save"]').disabled);
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
   const replaced=(await (await fetch(`${base}/api/catalog`)).json()).templates;assert.equal(replaced.length,12);assert.equal(replaced.some(t=>t.id==='olive'),false);assert.ok(replaced.some(t=>t.name==='Maslinova priča'&&t.style==='custom'));
+  await page.locator('[data-action="back"]').click();
+  for (const width of [320,390,1366]) { await page.setViewportSize({width,height:900}); assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Prepared layout overflow at ${width}`); }
+  await page.locator('#rose-bow-background').setInputFiles({name:'roze-pozadina.png',mimeType:'image/png',buffer:Buffer.from(background,'base64')});
+  await page.waitForFunction(()=>document.querySelector('[data-meta="name"]')?.value==='Roze mašna'&&!document.querySelector('[data-action="save"]').disabled);
+  assert.equal(await page.locator('[data-meta="category"]').inputValue(),'first');
+  assert.equal(await page.locator('#layers button').count(),8);
+  assert.equal(await page.locator('[data-prop="text"]').inputValue(),'Mila');
+  await page.locator('[data-prop="text"]').fill('Lena');
+  await page.locator('[data-action="publish"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
+  const rose=(await (await fetch(`${base}/api/admin/templates`)).json()).templates.find(t=>t.name==='Roze mašna');
+  assert.ok(rose.published);assert.equal(rose.category,'first');assert.ok(rose.draft.backgroundId);
+  assert.equal(rose.draft.layers.some(l=>l.type==='photo'),false);assert.ok(rose.draft.layers.every(l=>l.editable));
+  assert.equal(rose.draft.layers.find(l=>l.field==='names').text,'Lena');
+  await visitor.goto(`${base}/pozivnice/${rose.slug}/`);
+  await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
+  assert.equal(await visitor.locator('input[name="names"]').inputValue(),'Lena');
+  assert.ok(await visitor.evaluate(()=>document.fonts.check('58px "Libre Caslon Display"','Lena')),'Preset font must be loaded before rendering');
+  await visitor.locator('input[name="names"]').fill('Sofija');
+  const roseDownload=visitor.waitForEvent('download');await visitor.locator('.export-png').click();await (await roseDownload).saveAs('/tmp/napravi-rose-layout-test.png');
+  const rosePng=await fs.readFile('/tmp/napravi-rose-layout-test.png');assert.equal(rosePng.readUInt32BE(16),1500);assert.equal(rosePng.readUInt32BE(20),2100);
+  console.log('PASS: prepared first-birthday layout uploads a background, publishes eight editable text layers without a photo, loads its font, and exports a personalized PNG.');
   assert.deepEqual(errors,[]);
   console.log('PASS: published template SEO, lazy layout/font load, visitor effects/photo/PNG/PDF/draft, unchanged published snapshot after draft edits, duplicate/unpublish, sitemap removal and responsive admin.');
 }finally{await browser?.close();server?.kill('SIGTERM');await local.runtime.dispose();}

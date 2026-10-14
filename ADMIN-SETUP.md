@@ -83,6 +83,10 @@ Posle dodavanja bindings i promenljivih otvori **Deployments**, meni `…` posle
 
 Na listi možeš da dupliraš ili obrišeš šablon. U sekciji **Probni šabloni** možeš da isključiš sve primere ili klikneš **Uredi primer**. Primer se pretvara u šablon sa pozadinom i slojevima; nakon objavljivanja zamenjuje original u katalogu.
 
+### Pripremljeni šablon „Roze mašna“
+
+U panelu je dodat raspored za prvi rođendan, namenjen roze pozadini sa mašnom, balonima, medom i zekom. U sekciji **Pripremljeno za tvoju pozadinu** klikni **Dodaj pozadinu i otvori**, pa izaberi originalnu sliku sa uređaja. Otvara se šablon sa osam izmenjivih tekstualnih polja, bez fotografije. Proveri izgled i klikni **Objavi**. Pozadina i šablon postaju javni tek tom objavom; samo dodavanje rasporeda u kod ne objavljuje pozivnicu.
+
 ## Google
 
 - U [Google Search Console](https://search.google.com/search-console/) dodaj i potvrdi domen `napravipozivnicu.com`.

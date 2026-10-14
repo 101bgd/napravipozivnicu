@@ -10,6 +10,7 @@ import { renderInvitation } from './render.js';
 import { escapeHtml as esc } from './ui.js';
 import { newDesign, newTextLayer, normalizeDesign, BUILTIN_FONTS, FIELD_LABELS } from './template-schema.js';
 import { renderDesign, prepareDesign, designData, designAssetUrl, layerBounds, loadDesignFont } from './design-renderer.js';
+import { roseBowDesign } from './admin-presets.js';
 const app = document.querySelector('#admin-app');
 const categoryName = id => categories.find(c => c.id === id)?.label || id;
 const clone = value => structuredClone(value);
@@ -32,6 +33,7 @@ const statusLabel = item => item.published ? item.changed ? 'Objavljeno · novi 
 function renderList() {
   design = null; record = null; dirty = false;
   app.innerHTML = `${header()}<main class="admin-shell"><div class="catalog-toolbar"><input id="admin-search" type="search" placeholder="Pretraži šablone…" aria-label="Pretraži šablone" value="${esc(search)}"><select id="admin-status" aria-label="Status šablona"><option value="all">Svi šabloni</option><option value="draft">Nacrti</option><option value="published">Objavljeni</option></select><button class="primary" data-action="new">+ Novi šablon</button><button data-action="refresh">Osveži</button></div><div class="admin-grid" id="admin-grid"></div><section class="example-library"><h2>Probni šabloni</h2><label><input id="show-examples" type="checkbox" ${showExamples ? 'checked' : ''}> Prikaži probne šablone na javnom sajtu</label><p class="hint">Klikni „Uredi primer” da ga pretvoriš u svoj šablon. Objavljena verzija zameniće taj primer u katalogu.</p><div class="admin-grid" id="example-grid"></div></section></main>`;
+  document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="prepared-layout" aria-labelledby="prepared-layout-title"><div><span class="status">Pripremljeno za tvoju pozadinu</span><h2 id="prepared-layout-title">Roze mašna · 1. rođendan</h2><p>Gotov raspored teksta za roze pozadinu sa mašnom, balonima, medom i zekom. Bez fotografije. Ime, poruku, datum, vreme i mesto možeš da menjaš.</p><p class="layout-sample">„Mila slavi svoj 1. rođendan“</p></div><div class="layout-upload"><label class="upload-button">Dodaj pozadinu i otvori<input type="file" id="rose-bow-background" accept="image/png,image/jpeg,image/webp"></label><p class="hint">Izaberi svoju sliku, proveri izgled i klikni „Objavi“.<br>PNG, JPG ili WebP do 10 MB.</p></div></section>`);
   document.querySelector('#admin-status').value = statusFilter; renderListCards(); renderExamples();
 }
 function renderExamples() {
@@ -84,6 +86,18 @@ function updateSelection() {
 function applyRecord(item) { record = item; design = clone(item.draft); dirty = false; selectedId = design.layers[0]?.id; resetHistory(); renderStudio(); }
 async function refreshList() { ({ templates: records } = await api('/templates')); }
 async function upload(file,role,name) { const body = new FormData(); body.append('file',file); body.append('role',role); if (name) body.append('name',name); return api('/assets','POST',body); }
+async function uploadBackground(file) {
+  if (!file) return null;
+  if (!['image/png','image/jpeg','image/webp'].includes(file.type)) throw new Error('Izaberi PNG, JPG ili WebP sliku.');
+  if (file.size > 10*1024*1024) throw new Error('Pozadina može biti do 10 MB.');
+  const url = URL.createObjectURL(file), image = new Image();
+  try {
+    image.src = url; await image.decode();
+    if (image.width*image.height > 30_000_000) throw new Error('Smanji sliku na najviše 30 megapiksela.');
+    if (Math.abs(image.width/image.height-5/7) > .03) message('Pozadina će se prilagoditi formatu 5:7. Preporuka je 1500 × 2100 px.');
+  } finally { URL.revokeObjectURL(url); }
+  return upload(file,'background');
+}
 async function saveDraft() {
   checkpoint(); if (record && !dirty) return record;
   const snapshot = normalizeDesign(design), prepared = await prepareDesign(snapshot,true);
@@ -152,7 +166,8 @@ document.addEventListener('input',e=>{
 });
 document.addEventListener('change',e=>{
   const input=e.target;if(input.id==='show-examples'){void runAction(async()=>{({showExamples}=await api('/settings','PUT',{showExamples:input.checked}));message('Prikaz probnih šablona je ažuriran.');});return;}if(input.id==='admin-status'){statusFilter=input.value;renderListCards();return;}if(input.dataset.meta||input.dataset.prop)checkpoint();
-  if(input.id==='background-upload')void runAction(async()=>{const file=input.files[0];if(!file)return;if(file.size>10*1024*1024)throw new Error('Pozadina može biti do 10 MB.');const url=URL.createObjectURL(file),image=new Image();try{image.src=url;await image.decode();if(image.width*image.height>30_000_000)throw new Error('Smanji sliku na najviše 30 megapiksela.');if(Math.abs(image.width/image.height-5/7)>.03)message('Pozadina će se prilagoditi formatu 5:7. Preporuka je 1500 × 2100 px.');}finally{URL.revokeObjectURL(url);}const asset=await upload(file,'background');design.backgroundId=asset.id;checkpoint();markDirty();assets=await prepareDesign(design,true);renderStudio();});
+  if(input.id==='rose-bow-background')void runAction(async()=>{const asset=await uploadBackground(input.files[0]);if(!asset)return;record=null;design=roseBowDesign(asset.id);dirty=true;selectedId=design.layers.find(l=>l.field==='names').id;assets={};resetHistory();renderStudio();message('Raspored je spreman. Proveri tekst i klikni „Objavi“.');}).finally(()=>{input.value='';});
+  if(input.id==='background-upload')void runAction(async()=>{const asset=await uploadBackground(input.files[0]);if(!asset)return;design.backgroundId=asset.id;checkpoint();markDirty();assets=await prepareDesign(design,true);renderStudio();}).finally(()=>{input.value='';});
   if(input.id==='font-upload')void runAction(async()=>{const file=input.files[0];if(!file)return;const font=await upload(file,'font',file.name.replace(/\.[^.]+$/,''));await loadDesignFont(font,true);fontLibrary.unshift(font);design.fonts.push(clone(font));if(currentLayer()?.type==='text')currentLayer().family=font.family;checkpoint();markDirty();renderStudio();message('Font je dodat i dostupan u svim šablonima.');});
   if(input.id==='preview-photo')void runAction(async()=>{const file=input.files[0];if(!file)return;if(file.size>15*1024*1024)throw new Error('Fotografija može biti do 15 MB.');const url=URL.createObjectURL(file),image=new Image();try{image.src=url;await image.decode();previewPhoto=image;drawPreview();}finally{URL.revokeObjectURL(url);}});
 });

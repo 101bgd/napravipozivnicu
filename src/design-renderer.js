@@ -26,6 +26,11 @@ export async function prepareDesign(design, admin = false) {
   }
   const used = new Set(design.layers.filter(layer => layer.type === 'text').map(layer => layer.family));
   await Promise.all((design.fonts || []).filter(font => used.has(font.family)).map(font => loadDesignFont(font, admin)));
+  // Canvas does not redraw when a CSS font finishes loading. Wait before the
+  // first preview and export so the prepared typography stays consistent.
+  await Promise.all(design.layers.filter(layer => layer.type === 'text').map(layer =>
+    document.fonts.load(`${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${layer.size}px "${layer.family}"`, layer.text || 'ČćŠšŽžĐđ')
+  ));
   return { background };
 }
 export function designData(design) {
