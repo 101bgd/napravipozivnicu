@@ -31,7 +31,7 @@ function wrap(c,text,y,maxWidth,size,maxLines=4) {
   }
   lines.slice(0,maxLines).forEach((line,i)=>c.fillText(line,250,y+i*size*1.55,maxWidth));
 }
-export function renderInvitation(canvas,template,data=defaultData(template),photo=null,width=500) {
+export function renderInvitation(canvas,template,data=defaultData(template),photo=null,width=500,options={}) {
   const background=data.bg||template.bg;
   const lightness=color => {const rgb=color.match(/\w\w/g).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb[0]*.2126+rgb[1]*.7152+rgb[2]*.0722;};
   const contrast=(a,b)=>(Math.max(a,b)+.05)/(Math.min(a,b)+.05);
@@ -71,6 +71,7 @@ export function renderInvitation(canvas,template,data=defaultData(template),phot
     default:
       c.strokeStyle=template.accent;c.lineWidth=.7;c.beginPath();c.roundRect(38,30,424,640,210);c.stroke();star(c,250,88,10);
   }
+  if(options.decorationsOnly){c.restore();return canvas;}
   c.fillStyle=template.ink;c.textAlign='center';c.textBaseline='middle';
   const withPhoto=!!photo; const top=withPhoto ? 155 : 185;
   fit(c,String(data.title||''),top,350,'normal',15,11);

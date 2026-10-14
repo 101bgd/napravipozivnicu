@@ -3,3 +3,7 @@ dist/
 .env
 .env.*
 *.log
+
+.dev-data/
+.wrangler/
+.dev.vars*

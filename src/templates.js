@@ -7,7 +7,7 @@ export const categories = [
   { id: 'baptism', label: 'Krštenje', icon: 'leaf' },
   { id: 'baby', label: 'Rođenje deteta', icon: 'star' },
 ];
-// Nove šablone dodaj ovde. Svi koriste isti editor i PNG/PDF izvoz.
+// Ugrađeni primeri. Novi šabloni se dodaju kroz /admin/sabloni/.
 export const templates = [
   { id: 'olive', name: 'Maslinova priča', category: 'wedding', style: 'botanical', bg: '#f6f3e9', ink: '#43533e', accent: '#9ca582', title: 'Pozivamo vas na naše venčanje', names: 'Ana & Marko', note: 'Zajedno započinjemo našu najlepšu priču.\nBudite deo našeg posebnog dana.', badge: 'Omiljeni izbor' },
   { id: 'little-sun', name: 'Malo sunce', category: 'first', style: 'sun', bg: '#fbf0dd', ink: '#8f6840', accent: '#dca65b', title: 'Jedna godina ljubavi', names: 'Lukin', note: 'Mala torta, velika radost.\nDođite da zajedno proslavimo moj prvi rođendan!', badge: 'Popularno' },
@@ -22,4 +22,4 @@ export const templates = [
   { id: 'blessing', name: 'Mali blagoslov', category: 'baptism', style: 'minimal', bg: '#f6f2e9', ink: '#8b7e66', accent: '#bdb092', title: 'Jedan poseban dan', names: 'Petar', note: 'Pozivamo vas na krštenje našeg Petra.\nVaše prisustvo upotpuniće našu radost.' },
   { id: 'peach', name: 'Najlepši početak', category: 'baby', style: 'sun', bg: '#faf0e8', ink: '#9d7760', accent: '#dbb59a', title: 'Naš svet je postao lepši', names: 'Dobro došla, Mila', note: 'Mala devojčica, beskrajno velika ljubav.\nProslavimo zajedno njen dolazak.' },
 ];
-export const defaultData = t => ({ title: t.title, names: t.names, note: t.note, date: '2026-11-14', time: '17:00', location: t.category === 'wedding' ? 'Restoran Garden, Beograd' : 'Restoran Magnolia, Beograd', photoX: 50, photoY: 50, photoZoom: 100, font: 'serif', bg: t.bg });
+export const defaultData = t => t.style === 'custom' ? { bg: t.bg, photoX: 50, photoY: 50, photoZoom: 100, ...Object.fromEntries(t.layers.filter(l => l.type === 'text').map(l => [l.field, l.text])) } : ({ title: t.title, names: t.names, note: t.note, date: '2026-11-14', time: '17:00', location: t.category === 'wedding' ? 'Restoran Garden, Beograd' : 'Restoran Magnolia, Beograd', photoX: 50, photoY: 50, photoZoom: 100, font: 'serif', bg: t.bg });

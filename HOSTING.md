@@ -1,6 +1,6 @@
 # Objavljivanje na Cloudflare Pages
 
-Domen: `napravipozivnicu.com`. Preporuka: Cloudflare Pages, besplatan plan, GitHub integracija. Sadašnja aplikacija je statička, bez baze podataka i servera za uređivanje pozivnica.
+Domen: `napravipozivnicu.com`. Preporuka: Cloudflare Pages, besplatan plan, GitHub integracija. Javni editor radi u pregledaču. Nova verzija ima admin šablone, Cloudflare Pages Functions, D1 i R2. Za aktivaciju zaštićenog panela prati [ADMIN-SETUP.md](ADMIN-SETUP.md).
 
 ## Preduslov
 
