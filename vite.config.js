@@ -10,12 +10,16 @@ export default defineConfig({
     name: 'static-page-content',
     transformIndexHtml: { order: 'pre', handler(html, context) {
       if (!html.includes('<!--app-content-->')) return html;
-      const category = categoryFromPath(context.path) || 'all';
-      return html.replace('<!--app-content-->', renderPage({ category })).replace('<!--seo-content-->', renderHead(pageMeta({ category, catalog: templates })));
+      const requestPath = new URL(context.originalUrl || context.path, 'http://localhost').pathname;
+      const category = categoryFromPath(requestPath) || 'all';
+      const view = category !== 'all' || /^\/pozivnice\/?$/.test(requestPath) ? 'catalog' : 'landing';
+      return html.replace('<!--app-content-->', renderPage({ category, view })).replace('<!--seo-content-->', renderHead(pageMeta({ category, view, catalog: templates })));
     } },
     async closeBundle() {
       if (process.env.VITE_DEV_SERVER) return;
       let base; try { base = await fs.readFile('dist/index.html', 'utf8'); } catch { return; }
+      await fs.mkdir('dist/pozivnice', { recursive: true });
+      await fs.writeFile('dist/pozivnice/index.html', renderDocument(base, renderPage({ view: 'catalog' }), pageMeta({ view: 'catalog', catalog: templates })));
       for (const category of Object.keys(CATEGORY_CONTENT)) {
         const file = path.join('dist', categoryPath(category), 'index.html');
         await fs.mkdir(path.dirname(file), { recursive: true }); await fs.writeFile(file, renderDocument(base, renderPage({ category }), pageMeta({ category, catalog: templates })));

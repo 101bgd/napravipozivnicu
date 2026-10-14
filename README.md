@@ -1,6 +1,6 @@
 # Napravi pozivnicu
 
-Prva verzija sajta za domen `napravipozivnicu.com`. Sajt je na srpskom (latinica), prilagođen telefonu i računaru, sa neutralnim tonovima i blagim animacijama. Javni editor obrađuje tekst i fotografije u pregledaču. Admin šabloni koriste Cloudflare Pages Functions, D1 i R2; prijava administratora ide kroz Cloudflare Access. Posetioci nemaju naloge, plaćanje ili oglase.
+Sajt za domen `napravipozivnicu.com`, na srpskom (latinica), sa svetlim izgledom i rasporedom prvenstveno prilagođenim telefonu. Početna strana vodi preko glavnog dugmeta „Napravi pozivnicu“ u zaseban meni kategorija na `/pozivnice/`. Javni editor obrađuje tekst i fotografije u pregledaču. Admin šabloni koriste Cloudflare Pages Functions, D1 i R2; prijava administratora ide kroz Cloudflare Access. Posetioci nemaju naloge, plaćanje ili oglase.
 
 ## Pokretanje
 
@@ -23,8 +23,8 @@ Cloudflare Pages objavljuje sadržaj direktorijuma `dist/` iz grane `main`; pode
 
 ## Brzina učitavanja
 
-- `vite.config.js` pri izgradnji pretvara `src/page.js` u gotov HTML. Naslovi, katalog i odgovori na pitanja dostupni su pre izvršavanja JavaScript-a.
-- `src/main.js` učitava editor iz `src/editor.js` tek nakon izbora pozivnice. PDF biblioteka se i dalje učitava samo pri izvozu PDF-a.
+- `vite.config.js` pri izgradnji pretvara početnu stranu, `/pozivnice/`, kategorije i detalje dizajna u gotov HTML. Naslovi, katalog i odgovori na pitanja dostupni su pre izvršavanja JavaScript-a. Početna strana ne čita D1 katalog.
+- `src/main.js` učitava editor iz `src/editor.js`, njegov CSS i fontove pozivnica tek nakon izbora dizajna. PDF biblioteka se učitava samo pri izvozu PDF-a. Interfejs koristi lokalni Manrope sa latinicom i srpskim dijakriticima.
 - Pregledi novih dizajna su mali WebP fajlovi sa odloženim učitavanjem; raspored i sopstveni fontovi preuzimaju se tek pri otvaranju editora. Ugrađeni pregledi crtaju se kada priđu vidljivom delu stranice; do 24 nacrtana pregleda čuvaju se za ponovno filtriranje.
 - Editor ponovo koristi površinu za crtanje i spaja izmene unutar jednog kadra. Dimenzije izvoza ostaju 1500 × 2100 px.
 - `public/_headers` omogućava dugotrajno keširanje datoteka sa verzionisanim nazivima u `/assets/`; HTML se ponovo proverava pri poseti. Cloudflare Pages primenjuje ova pravila pri objavi.
@@ -41,6 +41,7 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 - Besplatan PNG 1500 × 2100 px i PDF 127 × 177,8 mm sa slikom u 300 dpi, bez vodenog žiga.
 - Nacrt teksta u lokalnom skladištu pregledača. Fotografija ostaje u memoriji i ne čuva se u nacrtu.
 - Podrška za tastaturu, modalni editor i smanjeno kretanje prema podešavanju uređaja.
+- Animirani glavni poziv na akciju, lebdeći pregledi, postepeno pojavljivanje sekcija i prelazi između stranica u pregledačima koji ih podržavaju. Na telefonu dugme za početak ostaje dostupno i pri skrolovanju početne strane.
 
 PDF je za štampu u stvarnoj veličini (100%), bez prepusta i oznaka za sečenje. Za štampariju koja zahteva prepust potrebno je naknadno dodati taj format.
 
@@ -75,7 +76,7 @@ npm run test:production
 npm run test:admin
 ```
 
-Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, mobilni prikaz i meni, zatvaranje tastaturom i greške pregledača. Testne slike i PDF su u `/tmp/`.
+Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava prelaz sa početne strane u katalog i povratak, svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, prikaze na 320/390/768/1440 px, mobilni meni, zatvaranje tastaturom, smanjeno kretanje i greške pregledača. Testne slike i PDF su u `/tmp/`.
 
 Produkcijski test pokreće zaseban preview na portu 5178. Proverava gotov HTML bez JavaScript-a, budžet početnog koda, odloženo učitavanje editora/PDF-a, pojavljivanje pregleda pri skrolovanju, filtriranje i ispravnost ponovljenog crtanja editora.
 

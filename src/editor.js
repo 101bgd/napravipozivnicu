@@ -1,3 +1,12 @@
+import '@fontsource/dm-sans/latin-400.css';
+import '@fontsource/dm-sans/latin-ext-400.css';
+import '@fontsource/dm-sans/latin-500.css';
+import '@fontsource/dm-sans/latin-ext-500.css';
+import '@fontsource/dm-sans/latin-600.css';
+import '@fontsource/dm-sans/latin-ext-600.css';
+import '@fontsource/libre-caslon-display/latin-400.css';
+import '@fontsource/libre-caslon-display/latin-ext-400.css';
+import './editor.css';
 import { templates } from './catalog-state.js';
 import { defaultData } from './templates.js';
 import { renderInvitation, WIDTH } from './render.js';

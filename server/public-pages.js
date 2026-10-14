@@ -32,18 +32,19 @@ export async function handlePublic(request, env, staticFetch) {
     const content = url.hostname === publicHost || url.hostname === `www.${publicHost}` || ['localhost', '127.0.0.1'].includes(url.hostname) ? `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /api/\nSitemap: ${siteUrl}/sitemap.xml\n` : 'User-agent: *\nDisallow: /\n';
     return new Response(request.method === 'HEAD' ? null : content, { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=300' } });
   }
-  const category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/);
-  if (path !== '/' && !category && !detail && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
-  if ((category || detail) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
-  const catalog = await publishedCatalog(env);
+  const category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/), collection = /^\/pozivnice\/?$/.test(path);
+  if (path !== '/' && !category && !detail && !collection && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
+  if ((category || detail || collection) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
+  const catalog = path === '/' ? [] : await publishedCatalog(env);
   if (path === '/api/catalog') return Response.json({ templates: catalog }, { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
   if (path === '/sitemap.xml') return new Response(request.method === 'HEAD' ? null : sitemap(catalog, siteUrl), { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=60' } });
   const template = detail ? catalog.find(t => (t.slug || t.id) === detail[1]) : null;
   if (detail && !template) throw new HttpError(404, 'Ova pozivnica trenutno nije dostupna.');
   const baseResponse = await staticFetch('/');
   if (!baseResponse.ok) throw new HttpError(503, 'Stranica trenutno nije dostupna.');
-  const content = template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog });
-  const html = renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', template, catalog, siteUrl }));
+  const view = category || collection ? 'catalog' : 'landing';
+  const content = template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog, view });
+  const html = renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', template, catalog, siteUrl, view }));
   const headers = { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'strict-origin-when-cross-origin' };
   if (url.hostname.endsWith('.pages.dev')) headers['X-Robots-Tag'] = 'noindex';
   return new Response(request.method === 'HEAD' ? null : html, { headers });

@@ -23,7 +23,7 @@ export default {
       if (!url.pathname.includes('.') && staticResponse.status === 200) return new Response('Stranica nije pronađena.', { status: 404, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
       return staticResponse;
     } catch (error) {
-      if (error.status === 404 && !url.pathname.startsWith('/api/')) return new Response('<!doctype html><html lang="sr-Latn"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Pozivnica nije dostupna</title><body style="font-family:Arial,sans-serif;background:#f8f7f3;color:#304e36;padding:10vh 8vw;line-height:1.7"><h1>Ova stranica trenutno nije dostupna.</h1><p>Pogledaj ostale pozivnice i pronađi dizajn za svoju proslavu.</p><a href="/">Prikaži sve pozivnice →</a></body></html>', { status: 404, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
+      if (error.status === 404 && !url.pathname.startsWith('/api/')) return new Response('<!doctype html><html lang="sr-Latn"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Pozivnica nije dostupna</title><body style="font-family:Arial,sans-serif;background:#f8f7f3;color:#304e36;padding:10vh 8vw;line-height:1.7"><h1>Ova stranica trenutno nije dostupna.</h1><p>Pogledaj ostale pozivnice i pronađi dizajn za svoju proslavu.</p><a href="/pozivnice/">Prikaži sve pozivnice →</a></body></html>', { status: 404, headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store', 'X-Robots-Tag': 'noindex' } });
       return errorResponse(error);
     }
   },

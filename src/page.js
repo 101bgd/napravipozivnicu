@@ -1,28 +1,54 @@
 import { categories, templates as builtinTemplates } from './templates.js';
-import { icon, brand } from './ui.js';
-import { renderCards } from './catalog-view.js';
-import { CATEGORY_CONTENT, categoryPath } from './seo-content.js';
+import { icon } from './ui.js';
+import { categoryPath } from './seo-content.js';
 import { catalogData, renderCategoryContent } from './seo.js';
-import { escapeHtml } from './ui.js';
+import { siteHeader, siteFooter } from './site-shell.js';
+import { renderCatalogPage } from './catalog-page.js';
 
-export function renderPage(options = {}) {
-  const templates = options.catalog || builtinTemplates;
-  const activeCategory = options.category || 'all';
-  const visibleTemplates = templates.filter(t => activeCategory === 'all' || t.category === activeCategory);
-  const categoryInfo = CATEGORY_CONTENT[activeCategory];
-  let html = `
-<header class="site-header"><div class="container header-inner"><a href="#" class="brand" aria-label="Napravi pozivnicu, početna">${brand}</a><nav class="navigation" id="navigation" aria-label="Glavna navigacija"><a href="#templates" class="nav-active">Pozivnice</a><a href="#how">Kako funkcioniše</a><a href="#faq">Česta pitanja</a></nav><a class="header-cta" href="#templates">Napravi pozivnicu ${icon('arrow')}</a><button class="menu-toggle icon-button" aria-label="Otvori meni" aria-expanded="false" aria-controls="navigation">${icon('menu')}</button></div></header>
-<main>
-<section class="hero container"><div class="hero-copy"><div class="eyebrow"><span class="tiny-spark">✦</span> ZA TRENUTKE KOJI SE PAMTE</div><h1>Veliki dan.<br>Posebna pozivnica.<br><em>Sasvim tvoja.</em></h1><p>Male proslave. Velike uspomene. Izaberi dizajn,<br class="desktop-break"> dodaj svoj pečat i pozovi ljude koje voliš.</p><div class="hero-actions"><a href="#templates" class="button primary">Pronađi svoju pozivnicu ${icon('arrow')}</a><span class="free-note">${icon('check')} Uvek besplatno</span></div><div class="hero-trust"><span>${icon('check')} Bez registracije</span><span>${icon('check')} Bez vodenog žiga</span><span>${icon('check')} Spremno za štampu</span></div></div><div class="hero-art" aria-label="Primeri pozivnica za venčanje i prvi rođendan"><div class="art-orbit"></div><span class="art-spark spark-one">✧</span><span class="art-spark spark-two">✧</span><div class="hero-card hero-card-back"><canvas width="650" height="910" id="hero-birthday" aria-label="Primer pozivnice za prvi rođendan"></canvas></div><div class="hero-card hero-card-front"><canvas width="700" height="980" id="hero-wedding" aria-label="Primer pozivnice za venčanje"></canvas></div><div class="art-label">${icon('heart')} Stvoreno s ljubavlju</div><span class="art-caption">tvoja priča, tvoj dizajn</span><svg class="art-arrow" viewBox="0 0 110 65" aria-hidden="true"><path d="M4 3q10 62 90 34m-11-9 14 7-7 13" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></div></section>
-<div class="occasion-strip"><div class="container"><span>Za svaki lep povod</span><span>Rođendani</span><i>✧</i><span>Venčanja</span><i>✧</i><span>Krštenja</span><i>✧</i><span>Novi počeci</span><i>✧</i><span>Vaše uspomene</span></div></div>
-<section class="catalog container" id="templates"><div class="section-heading"><div><div class="eyebrow">POZIVNICA PO TVOJOJ MERI</div><h2>Svaka proslava počinje <em>ovde.</em></h2><p>Pronađi onu koja priča tvoju priču. Ostalo je lako.</p></div><span class="catalog-count">${visibleTemplates.length} pažljivo osmišljenih dizajna</span></div><div class="category-tabs" role="group" aria-label="Kategorije pozivnica">${categories.map(c=>`<button class="category-tab ${c.id===activeCategory?'active':''}" data-category="${c.id}" aria-pressed="${c.id===activeCategory}">${icon(c.icon)} ${c.label}</button>`).join('')}</div><div class="catalog-tools"><span id="result-count" aria-live="polite">Prikazano ${visibleTemplates.length} pozivnica</span><label class="search-box">${icon('search')}<input id="search" type="search" placeholder="Pronađi svoj dizajn..." aria-label="Pretraži dizajne"></label></div><div class="template-grid" id="template-grid">${renderCards(visibleTemplates)}</div><div class="catalog-footnote">${icon('sparkles')} Svaki dizajn je početak. Ti mu daješ lični pečat.</div></section>
-<section class="how-section" id="how"><div class="container"><div class="section-heading centered"><div class="eyebrow">OD IDEJE DO POZIVNICE</div><h2>Tri mala koraka.<br><em>Jedna velika radost.</em></h2><p>Bez komplikovanih alata. Bez dizajnerskog iskustva.</p></div><div class="steps"><article><span class="step-icon">${icon('grid')}<b>01</b></span><h3>Pronađi svoj dizajn</h3><p>Izaberi povod i šablon koji ti se dopada.<br>Nežan, elegantan ili razigran — ti biraš.</p></article><article><span class="step-icon">${icon('edit')}<b>02</b></span><h3>Dodaj svoj pečat</h3><p>Upiši detalje, promeni tekst i dodaj sliku.<br>Uredi svaki detalj baš kako želiš.</p></article><article><span class="step-icon">${icon('download')}<b>03</b></span><h3>Preuzmi i podeli</h3><p>Sačuvaj sliku za slanje ili PDF za štampu.<br>Besplatno. I spremno za tvoje goste.</p></article></div></div></section>
-<section class="personal-banner container"><div class="banner-symbol">${icon('heart')}</div><div><span class="eyebrow">LEPE STVARI TREBA DELITI</span><h2>Najlepši trenuci nemaju cenu.</h2><p>Zato su sve naše pozivnice besplatne. Danas i za tvoju sledeću proslavu.</p></div><a href="#templates" class="button primary">Kreiraj svoju pozivnicu ${icon('arrow')}</a></section>
-${renderCategoryContent(activeCategory)}<nav class="category-links container" aria-label="Pozivnice po povodu">${categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${CATEGORY_CONTENT[c.id].title}</a>`).join('')}</nav><section class="faq container" id="faq"><div><div class="eyebrow">DOBRO JE ZNATI</div><h2>Mala pitanja.<br><em>Jasni odgovori.</em></h2><p>Sve što treba da znaš pre nego što<br>napraviš svoju prvu pozivnicu.</p></div><div class="faq-list"><details><summary>Da li je preuzimanje zaista besplatno? ${icon('plus')}</summary><p>Da. Svi dostupni dizajni, uređivanje i preuzimanje su besplatni. Nema plaćanja, registracije ni vodenog žiga.</p></details><details><summary>Mogu li da dodam svoju fotografiju? ${icon('plus')}</summary><p>Možeš! Dodaj JPG, PNG ili WebP fotografiju, pomeri je unutar okvira i prilagodi uvećanje. Fotografija se obrađuje samo u tvom pregledaču.</p></details><details><summary>Kako da odštampam pozivnicu? ${icon('plus')}</summary><p>U editoru izaberi PDF za štampu. Pozivnica je formata 12,7 × 17,78 cm u rezoluciji 300 dpi. Štampaj u stvarnoj veličini (100%). Za profesionalnu štampu sa prepustom proveri zahteve svoje štamparije.</p></details><details><summary>Da li mogu da koristim sajt na telefonu? ${icon('plus')}</summary><p>Da, ceo proces je prilagođen telefonu, tabletu i računaru. Preuzetu sliku možeš da pošalješ putem poruke ili društvenih mreža.</p></details><details><summary>Šta se dešava sa mojim podacima? ${icon('plus')}</summary><p>Tekst i fotografije obrađuju se na tvom uređaju. Ako izabereš „Sačuvaj nacrt”, tekst se čuva lokalno u ovom pregledaču. Fotografija se ne čuva u nacrtu. Trenutno nema oglasa ni praćenja.</p></details></div></section>
-</main><footer><div class="container footer-main"><a class="brand" href="#">${brand}</a><p>Mali detalj. Velika radost.</p><a href="#templates">Napravi nešto lepo ${icon('arrow')}</a></div><div class="container footer-bottom"><span>© ${new Date().getFullYear()} Napravi pozivnicu</span><span>Napravljeno za vaše najlepše trenutke ${icon('heart')}</span></div></footer>
-<div class="toast" id="toast" role="status" aria-live="polite"></div>`;
-  if (categoryInfo) {
-    html = html.replace('<h1>Veliki dan.<br>Posebna pozivnica.<br><em>Sasvim tvoja.</em></h1>', `<h1>${escapeHtml(categoryInfo.title)}.<br><em>Baš po tvojoj meri.</em></h1>`).replace('<p>Male proslave. Velike uspomene. Izaberi dizajn,<br class="desktop-break"> dodaj svoj pečat i pozovi ljude koje voliš.</p>', `<p>${escapeHtml(categoryInfo.description)}</p>`);
-  }
-  return html + catalogData(templates, activeCategory);
+const cta = (classes = '') => `<a href="/pozivnice/" class="button primary ${classes}"><span>Napravi pozivnicu</span><span class="button-arrow">${icon('arrow')}</span></a>`;
+const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${icon(c.icon)}<span>${c.label}</span>${icon('arrow')}</a>`).join('');
+
+function landing() {
+  return `<main class="landing" id="main-content">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-atmosphere" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="hero-copy container">
+    <div class="hero-kicker"><span class="status-dot"></span> Tvoj povod. Tvoj potpis.</div>
+    <h1 id="hero-title">Mali poziv.<br><span class="hero-title-soft">Veliki trenutak.</span></h1>
+    <p>Pozivnica koja liči na tebe.<br>Za ljude koji ti znače sve.</p>
+    <div class="hero-actions"><div class="cta-wrap"><span class="cta-aura" aria-hidden="true"></span>${cta('hero-cta')}</div><span class="free-note">Besplatno. Bez naloga. Bez vodenog žiga.</span></div>
+  </div>
+  <div class="hero-art" aria-label="Primeri pozivnica za prvi rođendan, venčanje i punoletstvo">
+    <div class="stage-ring" aria-hidden="true"></div><div class="stage-glow" aria-hidden="true"></div>
+    <div class="hero-card hero-card-back"><canvas width="600" height="840" id="hero-birthday" aria-label="Primer pozivnice za prvi rođendan"></canvas></div>
+    <div class="hero-card hero-card-third"><canvas width="600" height="840" id="hero-celebration" aria-label="Primer pozivnice za osamnaesti rođendan"></canvas></div>
+    <div class="hero-card hero-card-front"><canvas width="650" height="910" id="hero-wedding" aria-label="Primer pozivnice za venčanje"></canvas></div>
+    <span class="floating-chip chip-edit" aria-hidden="true"><span class="chip-icon">${icon('edit')}</span> Tvoje reči. Tvoja priča.</span>
+    <span class="floating-chip chip-ready" aria-hidden="true"><span class="chip-icon">${icon('check')}</span> Spremna za tvoje goste.</span>
+  </div>
+  <div class="hero-trust container"><span>${icon('check')} Napravi na telefonu</span><span>${icon('check')} Preuzmi PNG ili PDF</span><span>${icon('check')} Podeli radost</span></div>
+</section>
+<section class="occasion-section container" data-reveal><div class="eyebrow">ZA SVE TVOJE VELIKE MALE TRENUTKE</div><div class="occasion-links">${occasionLinks()}</div></section>
+<section class="experience-section container" id="how">
+  <div class="section-heading centered" data-reveal><div class="eyebrow">OD IDEJE DO „VIDIMO SE“</div><h2>Izgleda posebno.<br><span>A tako je jednostavno.</span></h2><p>Bez komplikovanih alata. Samo ti i tvoja ideja.</p></div>
+  <div class="experience-grid">
+    <article class="experience-card card-create" data-reveal><div class="experience-visual visual-choose" aria-hidden="true"><span class="mini-invitation mini-one">${icon('leaf')}<small>SLAVIMO LJUBAV</small><strong>Ana<br>& Marko</strong></span><span class="mini-invitation mini-two"><small>MOJ PRVI</small><strong>1.</strong><span>rođendan</span></span><span class="mini-invitation mini-three">${icon('sparkles')}<strong>18</strong><small>VREME JE ZA SLAVLJE</small></span></div><span class="step-number">01 — IZABERI</span><h3>Onaj pravi dizajn.</h3><p>Prva svećica, veliko „da“ ili još jedan razlog za slavlje. Pronađi pozivnicu za svoj trenutak.</p></article>
+    <article class="experience-card card-personal" data-reveal><div class="experience-visual visual-personal" aria-hidden="true"><div class="mini-field"><small>IME NA POZIVNICI</small><span>Mila<i class="typing-caret"></i></span></div><div class="mini-palette"><i style="--swatch:#ba7890"></i><i style="--swatch:#8a9b81"></i><i style="--swatch:#9891c8"></i><i style="--swatch:#d5b78c"></i></div><span class="mini-tool-chip">${icon('edit')} Malo tebe u svakom detalju.</span></div><span class="step-number">02 — UREDI</span><h3>Sada je sasvim tvoja.</h3><p>Upiši ime, datum i svoje reči. Izmeni boje i font, a fotografiju dodaj ako šablon ima okvir.</p></article>
+    <article class="experience-card card-download" data-reveal><div class="experience-visual visual-download" aria-hidden="true"><div class="download-orb">${icon('download')}</div><div class="download-files"><span>${icon('image')} PNG</span><span>${icon('file')} PDF</span></div><span class="download-check">${icon('check')} Još samo da ih pozoveš.</span></div><span class="step-number">03 — PODELI</span><h3>Neka radost krene.</h3><p>Sačuvaj sliku za poruku ili PDF za štampu. Besplatno, bez vodenog žiga, spremno za goste.</p></article>
+  </div>
+  <div class="section-action" data-reveal>${cta('')}<p>Veliki planovi počinju malim klikom.</p></div>
+</section>
+<section class="final-cta container" data-reveal><div class="cta-glow" aria-hidden="true"></div><div class="eyebrow">NAPRAVLJENO ZA TVOJE LJUDE</div><h2>Njihov osmeh.<br><span>Tvoj prvi klik.</span></h2><p>Ne moraš da budeš dizajner da napraviš nešto lepo.</p><div class="cta-wrap">${cta()}</div><span class="cta-note">Tvoja ideja. Tvoja pozivnica. Besplatno.</span></section>
+<section class="faq container" id="faq"><div class="faq-intro" data-reveal><div class="eyebrow">JOŠ NEŠTO TE ZANIMA?</div><h2>Mala pitanja.<br>Jasni odgovori.</h2></div><div class="faq-list" data-reveal>
+<details><summary>Da li je sve zaista besplatno? ${icon('plus')}</summary><p>Da. Izbor šablona, uređivanje i preuzimanje su besplatni. Nema registracije, plaćanja ni vodenog žiga.</p></details>
+<details><summary>Mogu li da dodam svoju fotografiju? ${icon('plus')}</summary><p>Da, na šablonima koji imaju okvir za fotografiju. Dodaj JPG, PNG ili WebP, pomeri sliku i podesi uvećanje. Fotografija se obrađuje samo u tvom pregledaču.</p></details>
+<details><summary>Kako da odštampam pozivnicu? ${icon('plus')}</summary><p>Izaberi PDF za štampu. Format je 12,7 × 17,78 cm, u rezoluciji 300 dpi. Štampaj u stvarnoj veličini (100%). Za profesionalnu štampu sa prepustom proveri zahteve štamparije.</p></details>
+<details><summary>Mogu li sve da uradim na telefonu? ${icon('plus')}</summary><p>Da. Izaberi šablon, unesi podatke i preuzmi pozivnicu direktno na telefon. Sliku zatim pošalji gostima kroz aplikaciju za poruke koju koristiš.</p></details>
+<details><summary>Da li se moji podaci čuvaju? ${icon('plus')}</summary><p>Podaci sa tvoje pozivnice i fotografije obrađuju se na tvom uređaju. Opcija „Sačuvaj nacrt“ čuva tekst samo u ovom pregledaču. Fotografija se ne čuva u nacrtu.</p></details>
+</div></section>
+</main><div class="mobile-create-bar" inert aria-hidden="true">${cta()}<span>Besplatno, od prvog klika.</span></div>`;
+}
+export function renderPage({catalog = builtinTemplates, category = 'all', view = category === 'all' ? 'landing' : 'catalog'} = {}) {
+  const content = view === 'landing' ? landing() : `<main id="main-content">${renderCatalogPage({catalog,category})}${renderCategoryContent(category)}</main>`;
+  return siteHeader(view === 'catalog' ? 'catalog' : '') + content + siteFooter() + '<div class="toast" id="toast" role="status" aria-live="polite"></div>' + catalogData(view === 'landing' ? [] : catalog,category,view);
 }

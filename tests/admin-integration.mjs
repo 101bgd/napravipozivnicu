@@ -4,6 +4,9 @@ import { spawn } from 'node:child_process';
 import { chromium } from 'playwright';
 import { SignJWT } from 'jose';
 import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
+import { pageMeta, renderDocument } from '../src/seo.js';
+const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
+assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
 let browser,server;
 try{
@@ -24,9 +27,23 @@ try{
   console.log('PASS: compiled Worker rejects missing, forged, expired, wrong-audience and unauthorized-email tokens; CSRF denied; admin HTML protected.');
   const unconfigured=await createLocalRuntime({configured:false});try{assert.equal((await unconfigured.runtime.dispatchFetch(`${origin}/admin/sabloni/`)).status,503);assert.equal((await unconfigured.runtime.dispatchFetch(`${origin}/`)).status,200);}finally{await unconfigured.runtime.dispose();}
   console.log('PASS: missing Access settings fail closed while the public site remains available.');
+  const catalogPayload=html=>JSON.parse(html.match(/<script id="catalog-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+  const landingResponse=await fetchWorker('/');assert.equal(landingResponse.status,200);const landingHtml=await landingResponse.text();
+  assert.match(landingHtml,/<link rel="canonical" href="https:\/\/napravipozivnicu.com\/">/);
+  assert.match(landingHtml,/<a href="\/pozivnice\/" class="button primary hero-cta"><span>Napravi pozivnicu/);
+  assert.equal(catalogPayload(landingHtml).pageType,'landing');assert.equal(landingHtml.includes('id="template-grid"'),false,'Landing CTA should lead to the dedicated catalog');
+  const catalogRedirect=await fetchWorker('/pozivnice?izvor=test',{redirect:'manual'});assert.equal(catalogRedirect.status,301);assert.equal(catalogRedirect.headers.get('Location'),`${origin}/pozivnice/?izvor=test`);
+  const catalogResponse=await fetchWorker('/pozivnice/');assert.equal(catalogResponse.status,200);const catalogHtml=await catalogResponse.text(),initialCatalog=await (await fetchWorker('/api/catalog')).json();
+  assert.match(catalogHtml,/<link rel="canonical" href="https:\/\/napravipozivnicu.com\/pozivnice\/">/);assert.match(catalogHtml,/<h1>Šta slavimo\?<\/h1>/);
+  assert.equal((catalogHtml.match(/<title>/g)||[]).length,1);assert.equal((catalogHtml.match(/rel="canonical"/g)||[]).length,1);
+  assert.equal(catalogPayload(catalogHtml).pageType,'catalog');assert.equal(catalogPayload(catalogHtml).category,'all');assert.deepEqual(catalogPayload(catalogHtml).templates,initialCatalog.templates);
+  assert.equal((catalogHtml.match(/data-category=/g)||[]).length,7);assert.equal((catalogHtml.match(/class="template-card /g)||[]).length,initialCatalog.templates.length);
+  assert.match(catalogHtml,/id="search"/);assert.match(catalogHtml,/ItemList/);assert.match(catalogHtml,/href="\/pozivnice\/olive\/"/);
+  assert.equal((await fetchWorker('/pozivnice/',{method:'HEAD'})).status,200);
+  console.log('PASS: landing CTA links to a dedicated server-rendered catalog, collection URL redirects canonically, and public HTML includes current templates, all seven filters and crawlable design links.');
   const categorySlugs=['pozivnice-za-prvi-rodjendan','pozivnice-za-18-rodjendan','pozivnice-za-rodjendan','pozivnice-za-vencanje','pozivnice-za-krstenje','pozivnice-za-rodjenje-deteta'];
   const descriptions=new Set();for(const slug of categorySlugs){const response=await fetchWorker(`/${slug}/`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`href="https://napravipozivnicu.com/${slug}/"`));assert.match(html,/<h1>/);assert.match(html,/Primer teksta za pozivnicu/);assert.match(html,/BreadcrumbList/);descriptions.add(html.match(/<meta name="description" content="([^"]+)/)[1]);}assert.equal(descriptions.size,6);
-  assert.equal((await fetchWorker('/pozivnice/nepostojece/')).status,404);const index=(await (await fetchWorker('/sitemap.xml')).text());assert.ok(index.includes('pozivnice-za-vencanje'));assert.equal(index.includes('/admin/'),false);
+  assert.equal((await fetchWorker('/pozivnice/nepostojece/')).status,404);const index=(await (await fetchWorker('/sitemap.xml')).text());assert.ok(index.includes('pozivnice-za-vencanje'));assert.ok(index.includes('<loc>https://napravipozivnicu.com/pozivnice/</loc>'));assert.equal(index.includes('/admin/'),false);
   console.log('PASS: six category HTML pages have unique descriptions, canonical URLs, useful content and breadcrumbs; sitemap excludes admin; missing designs return 404.');
 
   const port=5181,base=`http://127.0.0.1:${port}`;
@@ -55,6 +72,7 @@ try{
   await page.locator('[data-action="preview"]').click();await page.waitForFunction(()=>document.querySelector('#admin-preview')?.open);await page.locator('[data-preview-field="names"]').fill('Proba pregleda');const adminDownload=page.waitForEvent('download');await page.locator('[data-action="preview-png"]').click();await (await adminDownload).saveAs('/tmp/napravi-admin-export.png');const adminPng=await fs.readFile('/tmp/napravi-admin-export.png');assert.equal(adminPng.readUInt32BE(16),1500);assert.equal(adminPng.readUInt32BE(20),2100);await page.locator('[data-action="close-preview"]').click();
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
   collection=await (await fetch(`${base}/api/admin/templates`)).json();saved=collection.templates[0];catalog=await (await fetch(`${base}/api/catalog`)).json();assert.ok(catalog.templates.some(t=>t.id===saved.id));assert.equal(catalog.templates.find(t=>t.id===saved.id).layers,undefined,'Catalog must not download editor layouts');
+  const publishedCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.match(publishedCatalogHtml,/Cvetna test pozivnica/);assert.ok(publishedCatalogHtml.includes(`href="/pozivnice/${saved.slug}/"`));assert.ok(publishedCatalogHtml.includes(`src="/media/${saved.draft.thumbnailId}"`));assert.deepEqual(catalogPayload(publishedCatalogHtml).templates,catalog.templates,'Collection HTML must reflect newly published designs without a rebuild');
   const media=await fetch(`${base}/media/${saved.draft.thumbnailId}`);assert.equal(media.status,200);assert.match(media.headers.get('Cache-Control'),/immutable/);assert.equal((await fetch(`${base}/media/${saved.draft.thumbnailId}`,{headers:{'If-None-Match':media.headers.get('ETag')}})).status,304);
   const stale=await fetch(`${base}/api/admin/templates/${saved.id}`,{method:'PUT',headers:{'Content-Type':'application/json','X-Requested-With':'template-studio',Origin:base},body:JSON.stringify({version:1,draft:saved.draft})});assert.equal(stale.status,409);
   await page.screenshot({path:'/tmp/napravi-admin-desktop.png',fullPage:true});
@@ -76,10 +94,12 @@ try{
   await page.locator('[data-action="duplicate"]').click();await page.waitForFunction(()=>!document.querySelector('[data-action="save"]').disabled&&document.querySelector('[data-meta="name"]').value.includes('kopija'));assert.equal((await (await fetch(`${base}/api/admin/templates`)).json()).templates.length,2);
   await page.locator('[data-action="back"]').click();await page.locator(`[data-action="open"][data-id="${saved.id}"]`).click();await page.locator('[data-action="unpublish"]').click();await page.waitForFunction(()=>!document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
   assert.equal((await fetch(`${base}/api/templates/${saved.id}`)).status,404);assert.equal((await fetch(`${base}/pozivnice/${saved.slug}/`)).status,404);assert.equal((await fetch(`${base}/sitemap.xml`)).status,200);assert.equal((await (await fetch(`${base}/sitemap.xml`)).text()).includes(saved.slug),false);
+  const withdrawnCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(withdrawnCatalogHtml).templates.some(t=>t.id===saved.id),false);assert.equal(withdrawnCatalogHtml.includes(`href="/pozivnice/${saved.slug}/"`),false,'Withdrawn designs must disappear from the collection HTML');
   for(const width of [320,390,768,1366]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Admin overflow at ${width}`);}
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/napravi-admin-mobile.png',fullPage:true});
   await page.locator('[data-action="back"]').click();
   await page.locator('#show-examples').uncheck();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,0);
+  const emptyCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(emptyCatalogHtml).templates.length,0);assert.equal((emptyCatalogHtml.match(/class="template-card /g)||[]).length,0);assert.match(emptyCatalogHtml,/id="clear-search"/);
   await page.locator('#show-examples').check();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,12);
   await page.locator('[data-action="edit-example"][data-id="olive"]').click();await page.waitForFunction(()=>document.querySelector('#design-canvas')&&!document.querySelector('[data-action="save"]').disabled);
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
