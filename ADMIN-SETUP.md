@@ -29,8 +29,8 @@ Aplikacija javno prikazuje samo datoteke povezane sa objavljenim šablonom. Poza
 
 1. Iz Cloudflare kontrolne table otvori **Zero Trust**.
 2. Ako prvi put ulaziš, izaberi ime tima i odgovarajući plan. Za jednog administratora počni pregledom **Free** plana.
-3. Pronađi **Settings → Authentication → Login methods** i uključi **One-time PIN** ako nije uključen. Dobijaćeš kod na email.
-4. Otvori **Access → Applications → Add an application → Self-hosted**. U novijem prikazu ova sekcija može biti pod **Access controls**.
+3. Otvori **Integrations → Identity providers**. Pod **Your identity providers** klikni **Add new identity provider**, pa izaberi **One-time PIN**. U novim Zero Trust nalozima ta opcija nije dodata automatski. Dobijaćeš kod na email.
+4. Otvori **Access controls → Applications → Create new application → Self-hosted and private**, pa **Add public hostname**. Ako ti je prikazan stariji meni, nazivi su **Access → Applications → Add an application → Self-hosted**.
 5. Application name: `Napravi pozivnicu admin`. Session duration: npr. **8 hours**.
 6. Dodaj sledeće **Public hostname** stavke u **istu aplikaciju**:
 
