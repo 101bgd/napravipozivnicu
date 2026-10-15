@@ -38,7 +38,7 @@ try {
   await page.screenshot({ path: '/tmp/napravi-desktop.png', fullPage: true });
   await page.locator('.hero-cta').click();
   await page.waitForURL(`${origin}/pozivnice/`);
-  assert.equal(await page.locator('.template-card').count(), 12);
+  assert.equal(await page.locator('.template-card').count(), 13);
   await page.goBack();
   await page.waitForURL(`${origin}/`);
   assert.ok(await page.locator('.hero-cta').isVisible(), 'Browser Back should return to the landing page');
@@ -47,7 +47,7 @@ try {
 
   for (const category of ['first', 'eighteen', 'birthday', 'wedding', 'baptism', 'baby']) {
     await categoryButton(page, category).click();
-    assert.equal(await page.locator('.template-card').count(), 2);
+    assert.equal(await page.locator('.template-card').count(), category === 'wedding' ? 3 : 2);
     assert.equal(await categoryButton(page, category).getAttribute('aria-pressed'), 'true');
   }
   await categoryButton(page, 'all').click();
@@ -56,7 +56,7 @@ try {
   await page.locator('#search').fill('nepostoji');
   assert.equal(await page.locator('.empty-state').count(), 1);
   await page.locator('#clear-search').click();
-  assert.equal(await page.locator('.template-card').count(), 12);
+  assert.equal(await page.locator('.template-card').count(), 13);
   assert.ok(await page.locator('#search').evaluate(input => input === document.activeElement), 'Clearing an empty result must keep keyboard focus on the search field');
   await page.locator('[data-template="olive"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
@@ -128,7 +128,7 @@ try {
     await page.locator('.hero-cta').click();
     await page.waitForURL(`${origin}/pozivnice/`);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Catalog overflows at ${viewport.width}px`);
-    assert.equal(await page.locator('.template-card').count(), 12);
+    assert.equal(await page.locator('.template-card').count(), 13);
     await categoryButton(page, 'first').click();
     assert.equal(await page.locator('.template-card').count(), 2);
     if (viewport.width === 390) await page.screenshot({ path: '/tmp/napravi-mobile-catalog.png', fullPage: true });
@@ -159,7 +159,7 @@ try {
   assert.equal(reducedMotionState.longRunning, 0, 'Reduced motion must stop long-running hero animations');
   assert.ok(reducedMotionState.headingOpacity > 0 && reducedMotionState.ctaOpacity > 0, 'Reduced motion must leave key content visible');
   assert.deepEqual(errors, []);
-  console.log('PASS: landing CTA and browser Back, 12 templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.');
+  console.log('PASS: landing CTA and browser Back, 13 templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.');
 } finally {
   await browser?.close(); server.kill('SIGTERM');
 }

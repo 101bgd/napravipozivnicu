@@ -1,7 +1,8 @@
 import { DESIGN_WIDTH as W, DESIGN_HEIGHT as H } from './template-schema.js';
+import { curatedAssetUrl } from './curated-assets.js';
 const images = new Map(), fonts = new Map();
 const formatDate = new Intl.DateTimeFormat('sr-Latn-RS', { day: 'numeric', month: 'long', year: 'numeric' });
-export const designAssetUrl = (id, admin = false) => admin ? `/api/admin/assets/${id}/file` : `/media/${id}`;
+export const designAssetUrl = (id, admin = false) => curatedAssetUrl(id) || (admin ? `/api/admin/assets/${id}/file` : `/media/${id}`);
 export async function loadDesignFont(font, admin = false) {
   const key = `${font.assetId}:${admin}`;
   if (!fonts.has(key)) {

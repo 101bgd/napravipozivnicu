@@ -98,12 +98,12 @@ try{
   for(const width of [320,390,768,1366]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Admin overflow at ${width}`);}
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/napravi-admin-mobile.png',fullPage:true});
   await page.locator('[data-action="back"]').click();
-  await page.locator('#show-examples').uncheck();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,0);
-  const emptyCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(emptyCatalogHtml).templates.length,0);assert.equal((emptyCatalogHtml.match(/class="template-card /g)||[]).length,0);assert.match(emptyCatalogHtml,/id="clear-search"/);
-  await page.locator('#show-examples').check();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,12);
+  await page.locator('#show-examples').uncheck();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,1);
+  const emptyCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(emptyCatalogHtml).templates.length,1);assert.equal((emptyCatalogHtml.match(/class="template-card /g)||[]).length,1);assert.match(emptyCatalogHtml,/Ponoćna elegancija/);
+  await page.locator('#show-examples').check();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,13);
   await page.locator('[data-action="edit-example"][data-id="olive"]').click();await page.waitForFunction(()=>document.querySelector('#design-canvas')&&!document.querySelector('[data-action="save"]').disabled);
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
-  const replaced=(await (await fetch(`${base}/api/catalog`)).json()).templates;assert.equal(replaced.length,12);assert.equal(replaced.some(t=>t.id==='olive'),false);assert.ok(replaced.some(t=>t.name==='Maslinova priča'&&t.style==='custom'));
+  const replaced=(await (await fetch(`${base}/api/catalog`)).json()).templates;assert.equal(replaced.length,13);assert.equal(replaced.some(t=>t.id==='olive'),false);assert.ok(replaced.some(t=>t.name==='Maslinova priča'&&t.style==='custom'));
   await page.locator('[data-action="back"]').click();
   for (const width of [320,390,1366]) { await page.setViewportSize({width,height:900}); assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Prepared layout overflow at ${width}`); }
   await page.locator('#rose-bow-background').setInputFiles({name:'roze-pozadina.png',mimeType:'image/png',buffer:Buffer.from(background,'base64')});
@@ -126,6 +126,27 @@ try{
   const roseDownload=visitor.waitForEvent('download');await visitor.locator('.export-png').click();await (await roseDownload).saveAs('/tmp/napravi-rose-layout-test.png');
   const rosePng=await fs.readFile('/tmp/napravi-rose-layout-test.png');assert.equal(rosePng.readUInt32BE(16),1500);assert.equal(rosePng.readUInt32BE(20),2100);
   console.log('PASS: prepared first-birthday layout uploads a background, publishes eight editable text layers without a photo, loads its font, and exports a personalized PNG.');
+  await page.locator('[data-action="back"]').click();
+  await page.locator('[data-action="edit-curated"][data-id="ponocna-elegancija"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-meta="name"]')?.value==='Ponoćna elegancija'&&!document.querySelector('[data-action="save"]').disabled);
+  assert.equal(await page.locator('#layers button').count(),13);
+  await page.locator('[data-prop="text"]').fill('Tamara');
+  await page.locator('[data-action="save"]').click();
+  await page.waitForFunction(()=>document.querySelector('#save-state')?.textContent==='Nacrt'&&!document.querySelector('[data-action="save"]').disabled);
+  const wedding=(await (await fetch(`${base}/api/admin/templates`)).json()).templates.find(t=>t.draft.builtinSource==='ponocna-elegancija');
+  assert.equal(wedding.slug,'ponocna-elegancija');assert.equal(wedding.published,false);
+  assert.equal(wedding.draft.layers.some(l=>l.type==='photo'),false);
+  assert.ok((await (await fetch(`${base}/api/catalog`)).json()).templates.some(t=>t.id==='ponocna-elegancija'),'Saving a draft keeps the shipped design public');
+  await page.locator('[data-action="publish"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
+  const weddingCatalog=(await (await fetch(`${base}/api/catalog`)).json()).templates.filter(t=>t.slug==='ponocna-elegancija');
+  assert.equal(weddingCatalog.length,1);assert.equal(weddingCatalog[0].id,wedding.id);
+  assert.equal((await fetch(`${base}/api/templates/ponocna-elegancija`)).status,404);
+  await visitor.goto(`${base}/pozivnice/ponocna-elegancija/`);
+  await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
+  assert.equal(await visitor.locator('input[name="bride"]').inputValue(),'Tamara');
+  assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
+  console.log('PASS: shipped wedding layout copies assets into the admin, draft stays private, publishing replaces the original without changing its URL.');
   assert.deepEqual(errors,[]);
   console.log('PASS: published template SEO, lazy layout/font load, visitor effects/photo/PNG/PDF/draft, unchanged published snapshot after draft edits, duplicate/unpublish, sitemap removal and responsive admin.');
 }finally{await browser?.close();server?.kill('SIGTERM');await local.runtime.dispose();}

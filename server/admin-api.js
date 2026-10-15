@@ -1,5 +1,6 @@
 import { HttpError, json, checkMutation, noStoreHeaders } from './auth.js';
 import { normalizeDesign, referencedAssets, isAssetId } from '../src/template-schema.js';
+import { curatedTemplates } from '../src/curated-catalog.js';
 const now = () => new Date().toISOString();
 const rowInfo = row => ({ id: row.id, slug: row.slug, name: row.name, category: row.category, version: row.version, published: Boolean(row.published_json), changed: Boolean(row.published_json && row.draft_json !== row.published_json), updatedAt: row.updated_at, publishedAt: row.published_at, draft: JSON.parse(row.draft_json) });
 async function bodyBytes(request, limit) {
@@ -99,7 +100,9 @@ export async function handleAdminApi(request, env, identity) {
     if (method === 'POST') {
       const design = normalize((await readJson(request)).draft); await requireAssets(env.DB, design);
       const id = crypto.randomUUID(), stamp = now();
-      const slug = `${design.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'dj').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70) || 'pozivnica'}-${id.slice(0, 6)}`;
+      const curated = curatedTemplates.find(t => t.id === design.builtinSource);
+      const slug = curated?.slug || `${design.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'dj').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70) || 'pozivnica'}-${id.slice(0, 6)}`;
+      if (curated && await env.DB.prepare('SELECT id FROM templates WHERE slug = ?').bind(slug).first()) throw new HttpError(409, 'Ovaj dizajn već ima sačuvan nacrt. Osveži listu i otvori postojeću verziju.');
       await env.DB.prepare('INSERT INTO templates (id, slug, name, category, draft_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)').bind(id, slug, design.name, design.category, JSON.stringify(design), stamp, stamp).run();
       return json(rowInfo(await getRow(env.DB, id)), 201);
     }

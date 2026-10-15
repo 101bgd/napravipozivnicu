@@ -37,7 +37,7 @@ try {
   assert.equal(await staticPage.locator('#template-grid').count(), 0, 'The landing page should lead to a dedicated catalog');
   await staticPage.locator('.hero-cta').click();
   await staticPage.waitForURL(`${origin}/pozivnice/`);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 12);
+  assert.equal(await staticPage.locator('.template-card h3').count(), 13);
   assert.equal(await staticPage.locator('h1').count(), 1);
   assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/');
   await staticPage.goto(`${origin}/pozivnice-za-prvi-rodjendan/`);
@@ -103,6 +103,29 @@ try {
   assert.equal(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), initialPreview,
     'Repeated draws must not accumulate transforms or leave old text behind');
   await page.keyboard.press('Escape');
+
+  // The shipped wedding design must work without a database or an admin upload.
+  await page.goto(`${origin}/pozivnice/ponocna-elegancija/`);
+  assert.equal(await page.locator('h1').innerText(), 'Ponoćna elegancija');
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/ponocna-elegancija/');
+  const metadata = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());
+  assert.ok(metadata['@graph'].some(item => item['@type'] === 'ImageObject'));
+  const design = await (await fetch(`${origin}/api/templates/ponocna-elegancija`)).json();
+  assert.equal(design.layers.filter(layer => layer.type === 'photo').length, 0);
+  await page.locator('[data-open-template]').click();
+  await page.waitForFunction(() => document.querySelector('#editor')?.open);
+  assert.equal(await page.locator('#tab-photo').isVisible(), false);
+  assert.equal(await page.locator('#panel-text [name]').count(), 11);
+  assert.ok(await page.evaluate(family => [...document.fonts].some(font => font.family === family && font.status === 'loaded'), design.fonts[0].family));
+  await page.locator('input[name="bride"]').fill('Anđela');
+  await page.locator('input[name="groom"]').fill('Đorđe');
+  const weddingDownload = page.waitForEvent('download');
+  await page.locator('.export-png').click();
+  await (await weddingDownload).saveAs('/tmp/napravi-wedding-published.png');
+  const weddingPng = await fs.readFile('/tmp/napravi-wedding-published.png');
+  assert.equal(weddingPng.readUInt32BE(16), 1500); assert.equal(weddingPng.readUInt32BE(20), 2100);
+  await page.keyboard.press('Escape');
+  console.log('PASS: shipped wedding design, stable SEO URL, custom font, no photo field, editable names with Serbian diacritics and actual PNG export.');
   assert.deepEqual(errors, []);
 
   console.log(`PASS: landing/catalog/category HTML without JS, ${landingGzip}/${catalogGzip} bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.`);

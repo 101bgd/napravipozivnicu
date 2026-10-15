@@ -35,6 +35,7 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
 - Dvanaest probnih šablona, filtriranje i pretraga.
+- Gotova pozivnica za venčanje „Ponoćna elegancija“, bez fotografije, sa zasebno izmenjivim imenima, kaligrafskim fontom i optimizovanom WebP pozadinom. Dostupna je i kada su probni šabloni sakriveni.
 - Editor naslova, imena, poruke, datuma, vremena i mesta proslave sa pregledom uživo.
 - JPG/PNG/WebP fotografija do 15 MB, kružni okvir, pomeranje prevlačenjem ili klizačima i uvećanje.
 - Izbor fonta i pozadine; boja teksta se prilagođava kontrastu.
@@ -52,6 +53,8 @@ Panel `/admin/sabloni/` ima listu, pretragu, nacrte, objavljene verzije, duplira
 `Sačuvaj nacrt` ne menja javnu verziju. `Objavi` čuva snimak dizajna, označava njegove datoteke kao javne i uključuje ga u katalog/SEO. Verzije sprečavaju prepisivanje promena iz drugog prozora. `Povuci sa sajta` zadržava nacrt. Objavljene datoteke mogu ostati u kešu i nakon povlačenja.
 
 Probni dizajni mogu da se sakriju ili pretvore u svoje šablone kroz `Uredi primer`. Objavljena prerada zamenjuje odgovarajući primer.
+
+Sekcija **Gotovi dizajni → Uredi dizajn** otvara pripremljene javne dizajne, poput „Ponoćne elegancije“. Pozadina i font se kopiraju u zaštićene admin datoteke. Čuvanje nacrta ne menja javnu verziju; „Objavi“ je zamenjuje i zadržava adresu `/pozivnice/ponocna-elegancija/`. Metapodaci su u `src/curated-catalog.js`, raspored se učitava odvojeno, a javne datoteke sa verzionisanim nazivima isporučuje Cloudflare Pages bez R2 zahteva za ovu početnu verziju.
 
 Za lokalni razvoj celog panela:
 

@@ -1,4 +1,5 @@
-import { categories, templates as builtinTemplates } from './templates.js';
+import { categories } from './templates.js';
+import { publicTemplates as builtinTemplates } from './curated-catalog.js';
 import { renderCards } from './catalog-view.js';
 import { CATEGORY_CONTENT, categoryPath } from './seo-content.js';
 import { icon, escapeHtml as esc } from './ui.js';

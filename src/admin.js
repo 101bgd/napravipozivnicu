@@ -11,6 +11,7 @@ import { escapeHtml as esc } from './ui.js';
 import { newDesign, newTextLayer, normalizeDesign, BUILTIN_FONTS, FIELD_LABELS } from './template-schema.js';
 import { renderDesign, prepareDesign, designData, designAssetUrl, layerBounds, loadDesignFont } from './design-renderer.js';
 import { roseBowDesign } from './admin-presets.js';
+import { curatedTemplates } from './curated-catalog.js';
 const app = document.querySelector('#admin-app');
 const categoryName = id => categories.find(c => c.id === id)?.label || id;
 const clone = value => structuredClone(value);
@@ -35,6 +36,7 @@ function renderList() {
   app.innerHTML = `${header()}<main class="admin-shell"><div class="catalog-toolbar"><input id="admin-search" type="search" placeholder="Pretraži šablone…" aria-label="Pretraži šablone" value="${esc(search)}"><select id="admin-status" aria-label="Status šablona"><option value="all">Svi šabloni</option><option value="draft">Nacrti</option><option value="published">Objavljeni</option></select><button class="primary" data-action="new">+ Novi šablon</button><button data-action="refresh">Osveži</button></div><div class="admin-grid" id="admin-grid"></div><section class="example-library"><h2>Probni šabloni</h2><label><input id="show-examples" type="checkbox" ${showExamples ? 'checked' : ''}> Prikaži probne šablone na javnom sajtu</label><p class="hint">Klikni „Uredi primer” da ga pretvoriš u svoj šablon. Objavljena verzija zameniće taj primer u katalogu.</p><div class="admin-grid" id="example-grid"></div></section></main>`;
   document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="prepared-layout" aria-labelledby="prepared-layout-title"><div><span class="status">Pripremljeno za tvoju pozadinu</span><h2 id="prepared-layout-title">Roze mašna · 1. rođendan</h2><p>Gotov raspored teksta za roze pozadinu sa mašnom, balonima, medom i zekom. Bez fotografije. Ime, poruku, datum, vreme i mesto možeš da menjaš.</p><p class="layout-sample">„Mila slavi svoj 1. rođendan“</p></div><div class="layout-upload"><label class="upload-button">Dodaj pozadinu i otvori<input type="file" id="rose-bow-background" accept="image/png,image/jpeg,image/webp"></label><p class="hint">Izaberi svoju sliku, proveri izgled i klikni „Objavi“.<br>PNG, JPG ili WebP do 10 MB.</p></div></section>`);
   document.querySelector('#admin-status').value = statusFilter; renderListCards(); renderExamples();
+  document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="example-library" aria-label="Gotovi dizajni"><h2>Gotovi dizajni</h2><p class="hint">Ovi dizajni su već na sajtu. Otvori dizajn, sačuvaj svoje izmene i klikni „Objavi“ da zameniš javnu verziju.</p><div class="admin-grid">${curatedTemplates.map(t => `<article class="admin-card"><div class="card-preview"><img src="${esc(t.thumbnail)}" alt="${esc(t.name)}" width="500" height="700" loading="lazy"></div><div class="card-content"><h3>${esc(t.name)}</h3><p>${esc(categoryName(t.category))}</p><button data-action="edit-curated" data-id="${t.id}">Uredi dizajn</button></div></article>`).join('')}</div></section>`);
 }
 function renderExamples() {
   const remaining = builtinTemplates.filter(t => !records.some(r => r.draft.builtinSource === t.id));
@@ -123,6 +125,30 @@ async function exportPreview(type) {
 }
 const confirmLeave = () => !dirty || window.confirm('Imaš nesačuvane izmene. Želiš da ih odbaciš?');
 const actions = {
+  async 'edit-curated'(button) {
+    if (!confirmLeave()) return;
+    const existing = records.find(r => r.draft.builtinSource === button.dataset.id);
+    if (existing) { applyRecord(await api(`/templates/${existing.id}`)); return; }
+    const { curatedDesign } = await import('./curated-designs.js');
+    const source = curatedDesign(button.dataset.id);
+    if (!source) throw new Error('Dizajn nije pronađen.');
+    const copyAsset = async (id, role, name) => {
+      const response = await fetch(designAssetUrl(id));
+      if (!response.ok) throw new Error('Datoteka dizajna nije mogla da se učita.');
+      const blob = await response.blob();
+      return upload(new File([blob], name, { type: blob.type }), role, name);
+    };
+    const background = await copyAsset(source.backgroundId, 'background', `${source.id}.webp`);
+    const families = new Map(), fonts = [];
+    for (const original of source.fonts) {
+      const font = await copyAsset(original.assetId, 'font', original.name);
+      families.set(original.family, font.family); fonts.push(font); fontLibrary.unshift(font);
+    }
+    record = null;
+    design = normalizeDesign({ ...source, backgroundId: background.id, thumbnailId: null, fonts, layers: source.layers.map(layer => ({ ...layer, family: families.get(layer.family) || layer.family })) });
+    dirty = true; selectedId = design.layers.find(layer => layer.field === 'bride')?.id || design.layers[0].id;
+    assets = {}; resetHistory(); renderStudio();
+  },
   async 'edit-example'(button) {
     if(!confirmLeave())return;
     const template=builtinTemplates.find(t=>t.id===button.dataset.id), canvas=renderInvitation(document.createElement('canvas'),template,defaultData(template),null,1500,{decorationsOnly:true});
