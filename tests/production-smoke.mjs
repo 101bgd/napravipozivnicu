@@ -4,6 +4,8 @@ import fs from 'node:fs/promises';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
+import { publicTemplates } from '../src/curated-catalog.js';
+import { birthdayTemplates } from '../src/birthday-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -37,12 +39,12 @@ try {
   assert.equal(await staticPage.locator('#template-grid').count(), 0, 'The landing page should lead to a dedicated catalog');
   await staticPage.locator('.hero-cta').click();
   await staticPage.waitForURL(`${origin}/pozivnice/`);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 13);
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.length);
   assert.equal(await staticPage.locator('h1').count(), 1);
   assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/');
-  await staticPage.goto(`${origin}/pozivnice-za-prvi-rodjendan/`);
-  assert.match(await staticPage.locator('h1').innerText(), /prvi rođendan/i);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 2);
+  await staticPage.goto(`${origin}/pozivnice-za-rodjendan/`);
+  assert.match(await staticPage.locator('h1').innerText(), /dečiji rođendan/i);
+  assert.equal(await staticPage.locator('.template-card h3').count(), 4);
   await noJs.close();
 
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
@@ -79,13 +81,13 @@ try {
         canvas.getContext('2d').getImageData(250, 350, 1, 1).data[3] === 255;
     }, await canvas.getAttribute('data-canvas'));
   }
-  const originalThumbnail = await page.locator('[data-canvas="olive"]').evaluate(canvas => canvas.toDataURL());
-  await page.locator('.category-tabs [data-category="wedding"]').click();
+  const originalThumbnail = await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL());
+  await page.locator('.category-tabs [data-category="baptism"]').click();
   await page.locator('.category-tabs [data-category="all"]').click();
-  assert.equal(await page.locator('[data-canvas="olive"]').evaluate(canvas => canvas.toDataURL()), originalThumbnail,
+  assert.equal(await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL()), originalThumbnail,
     'Filtering must preserve a previously rendered preview');
 
-  await page.locator('[data-template="olive"]').first().click();
+  await page.locator('[data-template="bloom"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
   assert.ok([...scripts].some(path => /editor-/.test(path)));
   assert.equal([...scripts].some(path => /jspdf/.test(path)), false);
@@ -126,6 +128,38 @@ try {
   assert.equal(weddingPng.readUInt32BE(16), 1500); assert.equal(weddingPng.readUInt32BE(20), 2100);
   await page.keyboard.press('Escape');
   console.log('PASS: shipped wedding design, stable SEO URL, custom font, no photo field, editable names with Serbian diacritics and actual PNG export.');
+  for (const birthday of birthdayTemplates) {
+    await page.goto(`${origin}/pozivnice/${birthday.slug}/`);
+    assert.equal(await page.locator('h1').innerText(), birthday.name);
+    assert.equal(await page.title(), birthday.seoTitle);
+    assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), birthday.description);
+    assert.equal(await page.locator('.detail-preview img').getAttribute('alt'), birthday.imageAlt);
+    const layout = await (await fetch(`${origin}/api/templates/${birthday.id}`)).json();
+    assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    await page.locator('input[name="names"]').fill('Đorđe');
+    await page.locator('input[name="age"]').fill('7');
+    await page.locator('input[name="location"]').fill('Igraonica Čarolija, Niš');
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/${birthday.id}-export.png`);
+    const pngBytes = await fs.readFile(`/tmp/${birthday.id}-export.png`);
+    assert.equal(pngBytes.readUInt32BE(16), 1500); assert.equal(pngBytes.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/${birthday.id}-export.pdf`);
+    const pdfBytes = await fs.readFile(`/tmp/${birthday.id}-export.pdf`);
+    assert.ok(pdfBytes.toString('latin1').startsWith('%PDF'));
+    const box = pdfBytes.toString('latin1').match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1])-360)<.001 && Math.abs(Number(box[2])-504)<.001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape');
+  }
+  const map = await fs.readFile(`${root}dist/sitemap.xml`, 'utf8');
+  for (const birthday of birthdayTemplates) assert.ok(map.includes(`/pozivnice/${birthday.slug}/`));
+  for (const id of ['olive', 'vows', 'confetti', 'garden', 'little-sun', 'moon']) assert.equal(map.includes(`/pozivnice/${id}/`), false);
+  console.log('PASS: four birthday designs have unique SEO text, descriptive image alt, editable age/name, loaded fonts, no photo slot, mobile layouts and valid PNG/PDF downloads; removed examples are absent from the sitemap.');
   assert.deepEqual(errors, []);
 
   console.log(`PASS: landing/catalog/category HTML without JS, ${landingGzip}/${catalogGzip} bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.`);

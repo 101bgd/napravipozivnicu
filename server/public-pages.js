@@ -7,14 +7,15 @@ import { renderDocument, pageMeta, renderTemplatePage, sitemap } from '../src/se
 import { publicTemplate } from '../src/template-schema.js';
 import { serveAsset } from './admin-api.js';
 import { HttpError } from './auth.js';
+import { isRetiredRecord } from '../src/retired-templates.js';
 export async function publishedCatalog(env) {
   if (!env.DB) return publicTemplates;
   try {
-  const { results } = await env.DB.prepare('SELECT id, slug, published_json, published_at FROM templates WHERE published_json IS NOT NULL ORDER BY published_at DESC LIMIT 500').all();
+  const { results } = await env.DB.prepare('SELECT id, slug, name, draft_json, published_json, published_at, created_at, updated_at FROM templates WHERE published_json IS NOT NULL ORDER BY published_at DESC LIMIT 500').all();
   const settings = (await env.DB.prepare('SELECT key, value FROM settings').all()).results;
   const visibleBuiltins = settings.some(s => s.key === 'show_examples' && s.value === 'false') ? [] : builtins.filter(t => !settings.some(s => s.key === `example_hidden:${t.id}` && s.value === 'true'));
   const visibleCurated = curatedTemplates.filter(t => !settings.some(s => s.key === `example_hidden:${t.id}` && s.value === 'true'));
-  return [...results.map(row => { const full = publicTemplate(row); return { id: full.id, slug: full.slug, name: full.name, category: full.category, style: full.style, description: full.description, thumbnail: full.thumbnail, hasPhoto: full.layers.some(layer => layer.type === 'photo'), updatedAt: full.updatedAt }; }), ...visibleCurated, ...visibleBuiltins];
+  return [...results.filter(row => !isRetiredRecord(row)).map(row => { const full = publicTemplate(row); return { id: full.id, slug: full.slug, name: full.name, category: full.category, style: full.style, description: full.description, imageAlt: full.imageAlt, seoTitle: full.seoTitle, details: full.details, thumbnail: full.thumbnail, hasPhoto: full.layers.some(layer => layer.type === 'photo'), updatedAt: full.updatedAt }; }), ...visibleCurated, ...visibleBuiltins];
   } catch (error) { if (String(error.message).includes('no such table')) return publicTemplates; throw error; }
 }
 export async function handlePublic(request, env, staticFetch) {
@@ -30,8 +31,8 @@ export async function handlePublic(request, env, staticFetch) {
     }
     const builtin = builtins.some(t => t.id === templateApi[1]) ? (await publishedCatalog(env)).find(t => t.style !== 'custom' && t.id === templateApi[1]) : null;
     if (builtin) return Response.json(builtin, { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
-    const row = env.DB ? await env.DB.prepare('SELECT id, slug, published_json, published_at FROM templates WHERE id = ? AND published_json IS NOT NULL').bind(templateApi[1]).first() : null;
-    if (!row) throw new HttpError(404, 'Ova pozivnica trenutno nije dostupna.');
+    const row = env.DB ? await env.DB.prepare('SELECT * FROM templates WHERE id = ? AND published_json IS NOT NULL').bind(templateApi[1]).first() : null;
+    if (!row || isRetiredRecord(row)) throw new HttpError(404, 'Ova pozivnica trenutno nije dostupna.');
     return Response.json(publicTemplate(row), { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
   }
   if (path === '/robots.txt') {

@@ -34,7 +34,8 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 ## Funkcije
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
-- Dvanaest probnih šablona, filtriranje i pretraga.
+- Šest preostalih probnih šablona, filtriranje i pretraga po nazivu, kategoriji i opisu.
+- Četiri dečje pozivnice u kategoriji Rođendani: Dino avantura, Svemirska misija, Mala sirena i Čarobni ringišpil. Imaju izmenjivo ime i godine, razigrane fontove Baloo 2/DynaPuff i nemaju okvir za fotografiju. Pozadine su 86–92% manje od originala, uz iste dimenzije.
 - Gotova pozivnica za venčanje „Ponoćna elegancija“, bez fotografije, sa zasebno izmenjivim imenima, kaligrafskim fontom i optimizovanom WebP pozadinom. Dostupna je i kada su probni šabloni sakriveni.
 - Editor naslova, imena, poruke, datuma, vremena i mesta proslave sa pregledom uživo.
 - JPG/PNG/WebP fotografija do 15 MB, kružni okvir, pomeranje prevlačenjem ili klizačima i uvećanje.
@@ -55,6 +56,8 @@ Panel `/admin/sabloni/` ima listu, pretragu, nacrte, objavljene verzije, duplira
 Probni dizajni mogu da se sakriju ili pretvore u svoje šablone kroz `Uredi primer`. Objavljena prerada zamenjuje odgovarajući primer.
 
 Sekcija **Gotovi dizajni → Uredi dizajn** otvara pripremljene javne dizajne, poput „Ponoćne elegancije“. Pozadina i font se kopiraju u zaštićene admin datoteke. Čuvanje nacrta ne menja javnu verziju; „Objavi“ je zamenjuje i zadržava adresu `/pozivnice/ponocna-elegancija/`. Metapodaci su u `src/curated-catalog.js`, raspored se učitava odvojeno, a javne datoteke sa verzionisanim nazivima isporučuje Cloudflare Pages bez R2 zahteva za ovu početnu verziju.
+
+Dečji dizajni koriste isti postupak; SEO naslov i alt tekst mogu da se menjaju u panelu i ostaju sačuvani pri objavi. Uklanjanje sedam ranije navedenih pozivnica opisano je u [content/birthday-batch/README.md](content/birthday-batch/README.md): javni prikaz ih odmah izostavlja, a zaštićeni admin pri sledećem otvaranju završava jednokratno brisanje starih zapisa iz D1.
 
 Za lokalni razvoj celog panela:
 

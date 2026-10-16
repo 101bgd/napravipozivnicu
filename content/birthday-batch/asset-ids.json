@@ -1,0 +1,24 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc"
+  },
+  "designs": {
+    "dino-avantura": {
+      "background": "245bccee-3a56-46b1-bec5-83a023bcceb1",
+      "thumbnail": "2c8be302-3077-4613-8600-c403001a198d"
+    },
+    "svemirska-misija": {
+      "background": "75e874a5-c77d-4ff3-af5a-5f70de886406",
+      "thumbnail": "ca5499b1-e2be-479f-bdf6-a88641a87c10"
+    },
+    "mala-sirena": {
+      "background": "e1c0c460-8fb5-4891-ac88-50a5a9f705a5",
+      "thumbnail": "c32cef1e-ee47-4945-8b2f-417e4e6432dc"
+    },
+    "carobni-ringispil": {
+      "background": "e7a1d418-8626-4f0c-8ac4-b18f3c19e52b",
+      "thumbnail": "05bdc884-8529-4d72-a90e-4809bde29c5b"
+    }
+  }
+}

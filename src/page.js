@@ -1,5 +1,6 @@
 import { categories } from './templates.js';
 import { publicTemplates as builtinTemplates } from './curated-catalog.js';
+import { escapeHtml as esc } from './ui.js';
 import { icon } from './ui.js';
 import { categoryPath } from './seo-content.js';
 import { catalogData, renderCategoryContent } from './seo.js';
@@ -10,6 +11,10 @@ const cta = (classes = '') => `<a href="/pozivnice/" class="button primary ${cla
 const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${icon(c.icon)}<span>${c.label}</span>${icon('arrow')}</a>`).join('');
 
 function landing() {
+  const preview = id => {
+    const template = builtinTemplates.find(item => item.id === id);
+    return `<img src="${esc(template.thumbnail)}" width="500" height="700" alt="${esc(template.imageAlt || template.name)}" decoding="async">`;
+  };
   return `<main class="landing" id="main-content">
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero-atmosphere" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -19,11 +24,11 @@ function landing() {
     <p>Pozivnica koja liči na tebe.<br>Za ljude koji ti znače sve.</p>
     <div class="hero-actions"><div class="cta-wrap"><span class="cta-aura" aria-hidden="true"></span>${cta('hero-cta')}</div><span class="free-note">Besplatno. Bez naloga. Bez vodenog žiga.</span></div>
   </div>
-  <div class="hero-art" aria-label="Primeri pozivnica za prvi rođendan, venčanje i punoletstvo">
+  <div class="hero-art" aria-label="Primeri pozivnica za dečiji rođendan i venčanje">
     <div class="stage-ring" aria-hidden="true"></div><div class="stage-glow" aria-hidden="true"></div>
-    <div class="hero-card hero-card-back"><canvas width="600" height="840" id="hero-birthday" aria-label="Primer pozivnice za prvi rođendan"></canvas></div>
-    <div class="hero-card hero-card-third"><canvas width="600" height="840" id="hero-celebration" aria-label="Primer pozivnice za osamnaesti rođendan"></canvas></div>
-    <div class="hero-card hero-card-front"><canvas width="650" height="910" id="hero-wedding" aria-label="Primer pozivnice za venčanje"></canvas></div>
+    <div class="hero-card hero-card-back">${preview('dino-avantura')}</div>
+    <div class="hero-card hero-card-third">${preview('mala-sirena')}</div>
+    <div class="hero-card hero-card-front">${preview('ponocna-elegancija')}</div>
     <span class="floating-chip chip-edit" aria-hidden="true"><span class="chip-icon">${icon('edit')}</span> Tvoje reči. Tvoja priča.</span>
     <span class="floating-chip chip-ready" aria-hidden="true"><span class="chip-icon">${icon('check')}</span> Spremna za tvoje goste.</span>
   </div>

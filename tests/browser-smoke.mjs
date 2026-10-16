@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { publicTemplates } from '../src/curated-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5175';
@@ -38,7 +39,7 @@ try {
   await page.screenshot({ path: '/tmp/napravi-desktop.png', fullPage: true });
   await page.locator('.hero-cta').click();
   await page.waitForURL(`${origin}/pozivnice/`);
-  assert.equal(await page.locator('.template-card').count(), 13);
+  assert.equal(await page.locator('.template-card').count(), publicTemplates.length);
   await page.goBack();
   await page.waitForURL(`${origin}/`);
   assert.ok(await page.locator('.hero-cta').isVisible(), 'Browser Back should return to the landing page');
@@ -47,18 +48,18 @@ try {
 
   for (const category of ['first', 'eighteen', 'birthday', 'wedding', 'baptism', 'baby']) {
     await categoryButton(page, category).click();
-    assert.equal(await page.locator('.template-card').count(), category === 'wedding' ? 3 : 2);
+    assert.equal(await page.locator('.template-card').count(), publicTemplates.filter(t => t.category === category).length);
     assert.equal(await categoryButton(page, category).getAttribute('aria-pressed'), 'true');
   }
   await categoryButton(page, 'all').click();
-  await page.locator('#search').fill('Maslinova');
+  await page.locator('#search').fill('Nezno cvece');
   assert.equal(await page.locator('.template-card').count(), 1);
   await page.locator('#search').fill('nepostoji');
   assert.equal(await page.locator('.empty-state').count(), 1);
   await page.locator('#clear-search').click();
-  assert.equal(await page.locator('.template-card').count(), 13);
+  assert.equal(await page.locator('.template-card').count(), publicTemplates.length);
   assert.ok(await page.locator('#search').evaluate(input => input === document.activeElement), 'Clearing an empty result must keep keyboard focus on the search field');
-  await page.locator('[data-template="olive"]').first().click();
+  await page.locator('[data-template="bloom"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
   await page.locator('input[name="names"]').fill('Milena & Stefan');
   await page.locator('input[name="title"]').fill('Slavimo ljubav');
@@ -99,7 +100,7 @@ try {
   const box = pdfBytes.toString('latin1').match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
   assert.ok(box); assert.ok(Math.abs(Number(box[1]) - 360) < .001); assert.ok(Math.abs(Number(box[2]) - 504) < .001);
   await page.locator('.close-editor').click();
-  await page.locator('[data-template="olive"]').first().click();
+  await page.locator('[data-template="bloom"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
   assert.equal(await page.locator('input[name="names"]').inputValue(), 'Milena & Stefan');
   await page.keyboard.press('Escape');
@@ -128,14 +129,14 @@ try {
     await page.locator('.hero-cta').click();
     await page.waitForURL(`${origin}/pozivnice/`);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Catalog overflows at ${viewport.width}px`);
-    assert.equal(await page.locator('.template-card').count(), 13);
-    await categoryButton(page, 'first').click();
-    assert.equal(await page.locator('.template-card').count(), 2);
+    assert.equal(await page.locator('.template-card').count(), publicTemplates.length);
+    await categoryButton(page, 'birthday').click();
+    assert.equal(await page.locator('.template-card').count(), 4);
     if (viewport.width === 390) await page.screenshot({ path: '/tmp/napravi-mobile-catalog.png', fullPage: true });
   }
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(`${origin}/pozivnice/`);
-  await page.locator('[data-template="little-sun"]').first().click();
+  await page.locator('[data-template="dino-avantura"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
   await page.locator('input[name="names"]').fill('Lena');
   assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
@@ -159,7 +160,7 @@ try {
   assert.equal(reducedMotionState.longRunning, 0, 'Reduced motion must stop long-running hero animations');
   assert.ok(reducedMotionState.headingOpacity > 0 && reducedMotionState.ctaOpacity > 0, 'Reduced motion must leave key content visible');
   assert.deepEqual(errors, []);
-  console.log('PASS: landing CTA and browser Back, 13 templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.');
+  console.log('PASS: landing CTA and browser Back, 11 templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.');
 } finally {
   await browser?.close(); server.kill('SIGTERM');
 }

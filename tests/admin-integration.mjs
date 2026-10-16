@@ -5,6 +5,8 @@ import { chromium } from 'playwright';
 import { SignJWT } from 'jose';
 import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { pageMeta, renderDocument } from '../src/seo.js';
+import { publicTemplates, curatedTemplates } from '../src/curated-catalog.js';
+import { newDesign } from '../src/template-schema.js';
 const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
 assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
@@ -38,13 +40,44 @@ try{
   assert.equal((catalogHtml.match(/<title>/g)||[]).length,1);assert.equal((catalogHtml.match(/rel="canonical"/g)||[]).length,1);
   assert.equal(catalogPayload(catalogHtml).pageType,'catalog');assert.equal(catalogPayload(catalogHtml).category,'all');assert.deepEqual(catalogPayload(catalogHtml).templates,initialCatalog.templates);
   assert.equal((catalogHtml.match(/data-category=/g)||[]).length,7);assert.equal((catalogHtml.match(/class="template-card /g)||[]).length,initialCatalog.templates.length);
-  assert.match(catalogHtml,/id="search"/);assert.match(catalogHtml,/ItemList/);assert.match(catalogHtml,/href="\/pozivnice\/olive\/"/);
+  assert.match(catalogHtml,/id="search"/);assert.match(catalogHtml,/ItemList/);assert.match(catalogHtml,/href="\/pozivnice\/bloom\/"/);
   assert.equal((await fetchWorker('/pozivnice/',{method:'HEAD'})).status,200);
   console.log('PASS: landing CTA links to a dedicated server-rendered catalog, collection URL redirects canonically, and public HTML includes current templates, all seven filters and crawlable design links.');
   const categorySlugs=['pozivnice-za-prvi-rodjendan','pozivnice-za-18-rodjendan','pozivnice-za-rodjendan','pozivnice-za-vencanje','pozivnice-za-krstenje','pozivnice-za-rodjenje-deteta'];
   const descriptions=new Set();for(const slug of categorySlugs){const response=await fetchWorker(`/${slug}/`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`href="https://napravipozivnicu.com/${slug}/"`));assert.match(html,/<h1>/);assert.match(html,/Primer teksta za pozivnicu/);assert.match(html,/BreadcrumbList/);descriptions.add(html.match(/<meta name="description" content="([^"]+)/)[1]);}assert.equal(descriptions.size,6);
   assert.equal((await fetchWorker('/pozivnice/nepostojece/')).status,404);const index=(await (await fetchWorker('/sitemap.xml')).text());assert.ok(index.includes('pozivnice-za-vencanje'));assert.ok(index.includes('<loc>https://napravipozivnicu.com/pozivnice/</loc>'));assert.equal(index.includes('/admin/'),false);
   console.log('PASS: six category HTML pages have unique descriptions, canonical URLs, useful content and breadcrumbs; sitemap excludes admin; missing designs return 404.');
+
+  // Existing database copies must disappear as well as the shipped examples.
+  const deletedNames = ['Nova pozivnica', 'Razlog za slavlje', 'U zelenom vrtu', 'Maslinova prica', 'Zauvek zajedno', 'Malo sunce', 'Pod malim zvezdama'];
+  const retiredIds = [];
+  for (const [i, name] of deletedNames.entries()) {
+    const id = crypto.randomUUID(); retiredIds.push(id);
+    const design = { ...newDesign(), name };
+    await local.db.prepare('INSERT INTO templates (id, slug, name, category, draft_json, published_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)').bind(id, `retired-${i}`, name, 'first', JSON.stringify(design), JSON.stringify(design), '2026-10-15T00:00:00Z', '2026-10-15T00:00:00Z').run();
+  }
+  const futureDraft = crypto.randomUUID(), unrelatedDraft = crypto.randomUUID();
+  for (const [id, name, stamp] of [[futureDraft, 'Nova pozivnica', '2026-10-17T00:00:00Z'], [unrelatedDraft, 'Sačuvaj ovaj dizajn', '2026-10-15T00:00:00Z']]) {
+    await local.db.prepare('INSERT INTO templates (id, slug, name, category, draft_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)').bind(id, `keep-${id}`, name, 'first', JSON.stringify({ ...newDesign(), name }), stamp, stamp).run();
+  }
+  const filteredCatalog = await (await fetchWorker('/api/catalog')).json();
+  assert.equal(filteredCatalog.templates.some(t => retiredIds.includes(t.id)), false);
+  for (const [i, id] of retiredIds.entries()) {
+    assert.equal((await fetchWorker(`/api/templates/${id}`)).status, 404);
+    assert.equal((await fetchWorker(`/pozivnice/retired-${i}/`)).status, 404);
+  }
+  for (const id of ['olive', 'vows', 'confetti', 'garden', 'little-sun', 'moon']) {
+    assert.equal((await fetchWorker(`/api/templates/${id}`)).status, 404);
+    assert.equal((await fetchWorker(`/pozivnice/${id}/`)).status, 404);
+  }
+  assert.equal((await fetchWorker('/api/admin/maintenance/retired-templates', { method: 'POST', headers: authHeaders })).status, 403);
+  const cleanup = await fetchWorker('/api/admin/maintenance/retired-templates', { method: 'POST', headers: { ...authHeaders, Origin: origin, 'X-Requested-With': 'template-studio' } });
+  assert.equal(cleanup.status, 200); assert.equal((await cleanup.json()).removed, 7);
+  const remainingIds = (await local.db.prepare('SELECT id FROM templates').all()).results.map(row => row.id);
+  assert.deepEqual(new Set(remainingIds), new Set([futureDraft, unrelatedDraft]));
+  const repeatedCleanup = await fetchWorker('/api/admin/maintenance/retired-templates', { method: 'POST', headers: { ...authHeaders, Origin: origin, 'X-Requested-With': 'template-studio' } });
+  assert.equal((await repeatedCleanup.json()).removed, 0);
+  console.log('PASS: seven named records and removed examples disappear from catalog/API/SEO; authenticated cleanup deletes only matching old records and preserves future and unrelated drafts.');
 
   const port=5181,base=`http://127.0.0.1:${port}`;
   server=spawn(process.execPath,['scripts/admin-preview.mjs'],{cwd:root,env:{...process.env,ADMIN_PREVIEW_PORT:String(port),ADMIN_PREVIEW_PERSIST:'false'},stdio:['ignore','pipe','pipe']});
@@ -98,12 +131,12 @@ try{
   for(const width of [320,390,768,1366]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Admin overflow at ${width}`);}
   await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/napravi-admin-mobile.png',fullPage:true});
   await page.locator('[data-action="back"]').click();
-  await page.locator('#show-examples').uncheck();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,1);
-  const emptyCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(emptyCatalogHtml).templates.length,1);assert.equal((emptyCatalogHtml.match(/class="template-card /g)||[]).length,1);assert.match(emptyCatalogHtml,/Ponoćna elegancija/);
-  await page.locator('#show-examples').check();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,13);
-  await page.locator('[data-action="edit-example"][data-id="olive"]').click();await page.waitForFunction(()=>document.querySelector('#design-canvas')&&!document.querySelector('[data-action="save"]').disabled);
+  await page.locator('#show-examples').uncheck();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,curatedTemplates.length);
+  const emptyCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.equal(catalogPayload(emptyCatalogHtml).templates.length,curatedTemplates.length);assert.equal((emptyCatalogHtml.match(/class="template-card /g)||[]).length,curatedTemplates.length);assert.match(emptyCatalogHtml,/Ponoćna elegancija/);
+  await page.locator('#show-examples').check();await page.waitForFunction(()=>!document.querySelector('#show-examples').disabled);assert.equal((await (await fetch(`${base}/api/catalog`)).json()).templates.length,publicTemplates.length);
+  await page.locator('[data-action="edit-example"][data-id="bloom"]').click();await page.waitForFunction(()=>document.querySelector('#design-canvas')&&!document.querySelector('[data-action="save"]').disabled);
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
-  const replaced=(await (await fetch(`${base}/api/catalog`)).json()).templates;assert.equal(replaced.length,13);assert.equal(replaced.some(t=>t.id==='olive'),false);assert.ok(replaced.some(t=>t.name==='Maslinova priča'&&t.style==='custom'));
+  const replaced=(await (await fetch(`${base}/api/catalog`)).json()).templates;assert.equal(replaced.length,publicTemplates.length);assert.equal(replaced.some(t=>t.id==='bloom'),false);assert.ok(replaced.some(t=>t.name==='Nežno cveće'&&t.style==='custom'));
   await page.locator('[data-action="back"]').click();
   for (const width of [320,390,1366]) { await page.setViewportSize({width,height:900}); assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Prepared layout overflow at ${width}`); }
   await page.locator('#rose-bow-background').setInputFiles({name:'roze-pozadina.png',mimeType:'image/png',buffer:Buffer.from(background,'base64')});

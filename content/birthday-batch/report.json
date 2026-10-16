@@ -1,0 +1,46 @@
+[
+  {
+    "id": "dino-avantura",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2205432,
+    "backgroundBytes": 244760,
+    "thumbnailBytes": 50142,
+    "reductionPercent": 88.9,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani/dino-avantura-pregled-39f3f587486f.webp"
+  },
+  {
+    "id": "svemirska-misija",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2100204,
+    "backgroundBytes": 220428,
+    "thumbnailBytes": 48010,
+    "reductionPercent": 89.5,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani/svemirska-misija-pregled-57eb4c79a653.webp"
+  },
+  {
+    "id": "mala-sirena",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2428086,
+    "backgroundBytes": 347658,
+    "thumbnailBytes": 74968,
+    "reductionPercent": 85.7,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/mala-sirena-pozadina-7751e875ecd8.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani/mala-sirena-pregled-b5e4225c0998.webp"
+  },
+  {
+    "id": "carobni-ringispil",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1856402,
+    "backgroundBytes": 146484,
+    "thumbnailBytes": 42084,
+    "reductionPercent": 92.1,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pregled-404cc4309a44.webp"
+  }
+]

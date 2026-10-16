@@ -1,6 +1,8 @@
 import { HttpError, json, checkMutation, noStoreHeaders } from './auth.js';
 import { normalizeDesign, referencedAssets, isAssetId } from '../src/template-schema.js';
 import { curatedTemplates } from '../src/curated-catalog.js';
+import { isRetiredRecord } from '../src/retired-templates.js';
+import { removeRetiredTemplates } from './retired-cleanup.js';
 const now = () => new Date().toISOString();
 const rowInfo = row => ({ id: row.id, slug: row.slug, name: row.name, category: row.category, version: row.version, published: Boolean(row.published_json), changed: Boolean(row.published_json && row.draft_json !== row.published_json), updatedAt: row.updated_at, publishedAt: row.published_at, draft: JSON.parse(row.draft_json) });
 async function bodyBytes(request, limit) {
@@ -18,7 +20,7 @@ async function readJson(request) {
   catch (error) { if (error instanceof HttpError) throw error; throw new HttpError(400, 'Neispravan zahtev.'); }
 }
 function normalize(input) { try { return normalizeDesign(input); } catch (error) { throw new HttpError(400, error.message); } }
-async function getRow(db, id) { const row = await db.prepare('SELECT * FROM templates WHERE id = ?').bind(id).first(); if (!row) throw new HttpError(404, 'Šablon ne postoji.'); return row; }
+async function getRow(db, id) { const row = await db.prepare('SELECT * FROM templates WHERE id = ?').bind(id).first(); if (!row || isRetiredRecord(row)) throw new HttpError(404, 'Šablon ne postoji.'); return row; }
 async function requireAssets(db, design, publishing = false) {
   if (publishing && !design.thumbnailId) throw new HttpError(400, 'Sačuvaj pregled šablona pre objavljivanja.');
   const fontIds = new Set(design.fonts.map(font => font.assetId));
@@ -74,6 +76,7 @@ export async function handleAdminApi(request, env, identity) {
   checkMutation(request);
   if (!env.DB || !env.MEDIA) throw new HttpError(503, 'Poveži Cloudflare D1 bazu DB i R2 prostor MEDIA prema ADMIN-SETUP.md.');
   const path = new URL(request.url).pathname.replace(/\/$/, ''), method = request.method;
+  if (path === '/api/admin/maintenance/retired-templates' && method === 'POST') return json(await removeRetiredTemplates(env.DB));
   if (path === '/api/admin/session' && method === 'GET') return json({ email: identity.email });
   if (path === '/api/admin/assets' && method === 'POST') return uploadAsset(request, env);
   if (path === '/api/admin/fonts' && method === 'GET') {
@@ -95,7 +98,7 @@ export async function handleAdminApi(request, env, identity) {
   if (path === '/api/admin/templates') {
     if (method === 'GET') {
       const { results } = await env.DB.prepare('SELECT * FROM templates ORDER BY updated_at DESC LIMIT 500').all();
-      return json({ templates: results.map(rowInfo) });
+      return json({ templates: results.filter(row => !isRetiredRecord(row)).map(rowInfo) });
     }
     if (method === 'POST') {
       const design = normalize((await readJson(request)).draft); await requireAssets(env.DB, design);

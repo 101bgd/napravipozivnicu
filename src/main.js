@@ -1,6 +1,6 @@
 import './fonts.css';
 import './style.css';
-import { categories, templates as builtins, defaultData } from './templates.js';
+import { categories, defaultData } from './templates.js';
 import { templates, initialCategory } from './catalog-state.js';
 import { renderInvitation } from './render.js';
 import { renderCards } from './catalog-view.js';
@@ -46,7 +46,7 @@ async function openEditor(id,button) {
 }
 
 function renderGrid(){
-  const shown=templates.filter(t=>(activeCategory==='all'||t.category===activeCategory)&&searchable(`${t.name} ${categories.find(c=>c.id===t.category)?.label||''}`).includes(search));
+  const shown=templates.filter(t=>(activeCategory==='all'||t.category===activeCategory)&&searchable(`${t.name} ${t.description||''} ${categories.find(c=>c.id===t.category)?.label||''}`).includes(search));
   if(document.querySelector('#result-count'))document.querySelector('#result-count').textContent=`Prikazano ${shown.length} pozivnica`;
   const grid=document.querySelector('#template-grid');
   if(!grid)return;
@@ -54,9 +54,6 @@ function renderGrid(){
   observeThumbnails();
   if(!reducedMotion.matches)grid.animate([{opacity:.35,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:320,easing:'cubic-bezier(.22,1,.36,1)'});
 }
-if(document.querySelector('#hero-wedding'))renderInvitation(document.querySelector('#hero-wedding'),builtins[0],defaultData(builtins[0]),null,600);
-if(document.querySelector('#hero-celebration'))renderInvitation(document.querySelector('#hero-celebration'),builtins[8],{...defaultData(builtins[8]),names:'Sara'},null,600);
-if(document.querySelector('#hero-birthday'))renderInvitation(document.querySelector('#hero-birthday'),builtins[1],{...defaultData(builtins[1]),names:'Mila',title:'Naša mala velika radost'},null,650);
 observeThumbnails();
 document.querySelector('.category-tabs')?.addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;if(initialCategory!=='all'&&b.dataset.category!==initialCategory){location.href=b.dataset.categoryUrl;return;}activeCategory=b.dataset.category;document.querySelectorAll('.category-tab').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',el===b);});renderGrid();document.querySelector('#designs-title')?.focus({preventScroll:true});document.querySelector('#designs')?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});});
 document.querySelector('#search')?.addEventListener('input',e=>{search=searchable(e.target.value.trim());renderGrid();});
