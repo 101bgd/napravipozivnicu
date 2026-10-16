@@ -1,0 +1,49 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "script": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "savanska-druzina": {
+      "background": "55b26200-bce1-4722-bd07-09faff18ce96",
+      "thumbnail": "da6a9e72-f016-4918-aa77-49e924bc69b3"
+    },
+    "vozic-prve-radosti": {
+      "background": "81538141-daed-4ad8-bbae-dac668ad501f",
+      "thumbnail": "3cd878b8-19d4-4632-a3e3-55aab0ffb755"
+    },
+    "labudova-neznost": {
+      "background": "e69214ac-654d-45e3-ae82-91ec062886e1",
+      "thumbnail": "e6fb1743-5628-41f2-96ec-b056204e249e"
+    },
+    "vilina-prva-carolija": {
+      "background": "8092e0a1-6e92-4de8-985d-79f6a2ca1662",
+      "thumbnail": "7685c7da-eafe-40a2-b079-34a5e817bd31"
+    },
+    "kitov-prvi-talas": {
+      "background": "2a82db2a-a211-4f69-9406-13a470a1501d",
+      "thumbnail": "9cfabbed-f8a2-454f-87e6-40d874c45fa5"
+    },
+    "mali-pilot": {
+      "background": "80ddc990-2929-4b18-ba18-d754e7049e2d",
+      "thumbnail": "4cb1094c-e2e3-47d5-ae4b-76ce3a49e116"
+    },
+    "medin-mesecev-san": {
+      "background": "136ab479-852b-41e5-ab99-243b45e0ced1",
+      "thumbnail": "bd8dac6c-5dbb-44fc-b56d-222fff8cbc84"
+    },
+    "zeka-medju-oblacima": {
+      "background": "e7bfac59-e8c2-4917-8681-e9f551247f33",
+      "thumbnail": "b49191e6-2769-48da-9133-01070941ea9e"
+    },
+    "zekin-prvi-let": {
+      "background": "6b92ff5b-a335-4fef-9b5f-49572274e287",
+      "thumbnail": "444c8e7b-a9ac-4957-8abe-39124baf9a4f"
+    },
+    "prva-tresnjica": {
+      "background": "9f5ac7de-39ac-4729-a328-207257494964",
+      "thumbnail": "46ab9144-02f5-457a-94ef-0419e792ebc9"
+    }
+  }
+}

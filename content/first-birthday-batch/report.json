@@ -1,0 +1,112 @@
+[
+  {
+    "id": "savanska-druzina",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2097408,
+    "backgroundBytes": 176248,
+    "thumbnailBytes": 32188,
+    "reductionPercent": 91.6,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/savanska-druzina-pozadina-af7b6822e950.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/savanska-druzina-pregled-3ef39e15e060.webp"
+  },
+  {
+    "id": "vozic-prve-radosti",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2010065,
+    "backgroundBytes": 181038,
+    "thumbnailBytes": 42622,
+    "reductionPercent": 91,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pregled-eb403b90460c.webp"
+  },
+  {
+    "id": "labudova-neznost",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2176545,
+    "backgroundBytes": 224688,
+    "thumbnailBytes": 39326,
+    "reductionPercent": 89.7,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/labudova-neznost-pozadina-817079b2e7fd.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/labudova-neznost-pregled-0e623c87415b.webp"
+  },
+  {
+    "id": "vilina-prva-carolija",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2371712,
+    "backgroundBytes": 293698,
+    "thumbnailBytes": 55440,
+    "reductionPercent": 87.6,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/vilina-prva-carolija-pozadina-e5cd7e6ae764.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/vilina-prva-carolija-pregled-cf41fae60d68.webp"
+  },
+  {
+    "id": "kitov-prvi-talas",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2134718,
+    "backgroundBytes": 187058,
+    "thumbnailBytes": 32160,
+    "reductionPercent": 91.2,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/kitov-prvi-talas-pozadina-a7542916225b.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/kitov-prvi-talas-pregled-d254daa15631.webp"
+  },
+  {
+    "id": "mali-pilot",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1700614,
+    "backgroundBytes": 90110,
+    "thumbnailBytes": 26516,
+    "reductionPercent": 94.7,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/mali-pilot-pregled-9db4c185e69c.webp"
+  },
+  {
+    "id": "medin-mesecev-san",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1859997,
+    "backgroundBytes": 108642,
+    "thumbnailBytes": 21526,
+    "reductionPercent": 94.2,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pozadina-1334329de2a3.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pregled-8dc1a4aeadc7.webp"
+  },
+  {
+    "id": "zeka-medju-oblacima",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1675709,
+    "backgroundBytes": 108198,
+    "thumbnailBytes": 30668,
+    "reductionPercent": 93.5,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/zeka-medju-oblacima-pozadina-0df8d93c5880.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/zeka-medju-oblacima-pregled-504412192533.webp"
+  },
+  {
+    "id": "zekin-prvi-let",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1760861,
+    "backgroundBytes": 115372,
+    "thumbnailBytes": 32794,
+    "reductionPercent": 93.4,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/zekin-prvi-let-pozadina-5529110606ed.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/zekin-prvi-let-pregled-ea905eb71246.webp"
+  },
+  {
+    "id": "prva-tresnjica",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1872348,
+    "backgroundBytes": 115330,
+    "thumbnailBytes": 21618,
+    "reductionPercent": 93.8,
+    "backgroundUrl": "/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+    "thumbnailUrl": "/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pregled-f99f8c5bd6cf.webp"
+  }
+]

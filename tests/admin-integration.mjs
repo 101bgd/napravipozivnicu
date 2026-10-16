@@ -9,6 +9,7 @@ import { publicTemplates, curatedTemplates } from '../src/curated-catalog.js';
 import { newDesign } from '../src/template-schema.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
+import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
 const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
 assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
@@ -287,6 +288,37 @@ try{
   assert.equal(await visitor.locator('input[name="bride"]').inputValue(),'Anđela');assert.equal(await visitor.locator('input[name="groom"]').inputValue(),'Marko');
   assert.equal(await visitor.locator('input[name="ceremony_time"]').inputValue(),'16:00');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
   console.log('PASS: all eight wedding designs have Worker routes, layouts and sitemap entries, appear in admin, and a clone publishes edited names at its original URL with private font copies and preserved SEO.');
+  await page.locator('[data-action="back"]').click();
+  await page.locator('[data-action="edit-curated"][data-id="prva-tresnjica"]').waitFor({state:'visible'});
+  for(const template of firstBirthdayTemplates){
+    assert.equal(await page.locator(`[data-action="edit-curated"][data-id="${template.id}"]`).count(),1);
+    const response=await fetch(`${base}/api/templates/${template.id}`);assert.equal(response.status,200);
+    const layout=await response.json();assert.equal(layout.category,'first');assert.equal(layout.fonts.length,2);assert.equal(layout.layers.some(layer=>layer.type==='photo'),false);
+  }
+  await page.locator('[data-action="edit-curated"][data-id="prva-tresnjica"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-meta="name"]')?.value==='Prva trešnjica'&&!document.querySelector('[data-action="save"]').disabled);
+  assert.equal(await page.locator('[data-meta="category"]').inputValue(),'first');
+  const firstTitle=await page.locator('[data-meta="seoTitle"]').inputValue(),firstAlt=await page.locator('[data-meta="imageAlt"]').inputValue();
+  await page.locator('#layers button').filter({hasText:'Ime deteta'}).click();
+  await page.locator('[data-prop="text"]').fill('Anđela');
+  await page.locator('[data-action="save"]').click();
+  await page.waitForFunction(()=>document.querySelector('#save-state')?.textContent==='Nacrt'&&!document.querySelector('[data-action="save"]').disabled);
+  const firstBirthday=(await (await fetch(`${base}/api/admin/templates`)).json()).templates.find(t=>t.draft.builtinSource==='prva-tresnjica');
+  assert.equal(firstBirthday.slug,'pozivnica-za-1-rodjendan-tresnjice-masna');assert.equal(firstBirthday.draft.fonts.length,2);
+  assert.equal((await fetch(`${base}/media/${firstBirthday.draft.backgroundId}`)).status,404);
+  for(const font of firstBirthday.draft.fonts)assert.equal((await fetch(`${base}/media/${font.assetId}`)).status,404);
+  assert.ok((await (await fetch(`${base}/api/catalog`)).json()).templates.some(t=>t.id==='prva-tresnjica'));
+  await page.locator('[data-action="publish"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
+  const firstPublic=(await (await fetch(`${base}/api/catalog`)).json()).templates.filter(t=>t.slug===firstBirthday.slug);
+  assert.equal(firstPublic.length,1);assert.equal(firstPublic[0].id,firstBirthday.id);assert.equal(firstPublic[0].seoTitle,firstTitle);
+  assert.equal((await fetch(`${base}/api/templates/prva-tresnjica`)).status,404);
+  await visitor.goto(`${base}/pozivnice/${firstBirthday.slug}/`);
+  assert.equal(await visitor.title(),firstTitle);assert.equal(await visitor.locator('.detail-preview img').getAttribute('alt'),firstAlt);
+  assert.equal(await visitor.locator('.ad-placement[hidden]').count(),1);
+  await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
+  assert.equal(await visitor.locator('input[name="names"]').inputValue(),'Anđela');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
+  console.log('PASS: all ten first-birthday designs appear in admin and API; private assets and fonts, edited name, original URL, SEO and ad placement survive publication.');
   assert.deepEqual(errors,[]);
   console.log('PASS: published template SEO, lazy layout/font load, visitor effects/photo/PNG/PDF/draft, unchanged published snapshot after draft edits, duplicate/unpublish, sitemap removal and responsive admin.');
 }finally{await browser?.close();server?.kill('SIGTERM');await local.runtime.dispose();}

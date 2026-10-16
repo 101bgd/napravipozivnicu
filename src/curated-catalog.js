@@ -4,9 +4,10 @@ import { birthdayTemplates } from './birthday-catalog.js';
 import { baptismTemplates } from './baptism-catalog.js';
 import { eighteenTemplates } from './eighteen-catalog.js';
 import { weddingTemplates } from './wedding-catalog.js';
+import { firstBirthdayTemplates } from './first-birthday-catalog.js';
 
 // Metadata only: full layouts and font files load when the editor opens.
-export const curatedTemplates = [...birthdayTemplates, ...baptismTemplates, ...eighteenTemplates, ...weddingTemplates, {
+export const curatedTemplates = [...firstBirthdayTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenTemplates, ...weddingTemplates, {
   id: 'ponocna-elegancija',
   slug: 'ponocna-elegancija',
   name: 'Ponoćna elegancija',

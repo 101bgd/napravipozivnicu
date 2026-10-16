@@ -10,6 +10,7 @@ import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
+import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -76,6 +77,19 @@ try {
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
+  }
+  await staticPage.goto(`${origin}/pozivnice-za-prvi-rodjendan/`);
+  assert.equal(await staticPage.locator('h1').innerText(), 'Pozivnice za prvi rođendan');
+  assert.equal(await staticPage.title(), 'Pozivnice za 1. rođendan — besplatni šabloni online');
+  assert.equal(await staticPage.locator('.template-card h3').count(), firstBirthdayTemplates.length);
+  for (const template of firstBirthdayTemplates) {
+    await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.title(), template.seoTitle);
+    assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
+    assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.locator('.ad-placement[hidden]').count(), 1);
   }
   for (const infoPage of INFO_PAGES) {
     await staticPage.locator(`footer a[href="${infoPage.path}"]`).click();
@@ -389,6 +403,53 @@ try {
     await page.keyboard.press('Escape'); page.off('request', watch);
   }
   console.log('PASS: eight wedding designs have crawlable SEO pages, image metadata, lazy backgrounds, loaded fonts, independently editable names/ceremony/reception/RSVP, local drafts and valid PNG/PDF exports at 320px without photo fields.');
+  for (const template of firstBirthdayTemplates) {
+    assert.ok(map.includes(`/pozivnice/${template.slug}/`));
+    await page.setViewportSize({ width: 320, height: 740 });
+    const backgrounds = [];
+    const watch = request => { if (request.url().includes('/prvi-rodjendan/') && request.url().includes('-pozadina-')) backgrounds.push(request.url()); };
+    page.on('request', watch);
+    await page.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
+    assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === template.imageAlt));
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    assert.deepEqual(backgrounds, [], 'First-birthday detail must use the small thumbnail');
+    assert.equal(await page.locator('.ad-placement[hidden]').count(), 1);
+    const layout = await (await fetch(`${origin}/api/templates/${template.id}`)).json();
+    assert.equal(layout.category, 'first'); assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    assert.equal(layout.fonts.length, 2); assert.equal(layout.layers.find(layer => layer.field === 'age').text, '1.');
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing(); assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    const before = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    await page.locator('input[name="names"]').fill('Anđela');
+    await page.locator('input[name="date"]').fill('2027-05-15');
+    await page.locator('input[name="time"]').fill('16:30');
+    await page.locator('input[name="location"]').fill('Igraonica Čarolija, Niš');
+    await page.locator('input[name="rsvp"]').fill('Potvrdite dolazak do 1. maja.');
+    await page.locator('textarea[name="note"]').fill('Jedna svećica i mnogo osmeha!\nProslavi sa mnom moj prvi rođendan.');
+    await finishDrawing(); assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), before);
+    await page.locator('.save-draft').click(); await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('input[name="names"]').inputValue(), 'Anđela');
+    assert.equal(await page.locator('input[name="date"]').inputValue(), '2027-05-15');
+    assert.equal(await page.locator('input[name="location"]').inputValue(), 'Igraonica Čarolija, Niš');
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/first-birthday-${template.id}.png`);
+    const png = await fs.readFile(`/tmp/first-birthday-${template.id}.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/first-birthday-${template.id}.pdf`);
+    const pdf = (await fs.readFile(`/tmp/first-birthday-${template.id}.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape'); page.off('request', watch);
+  }
+  console.log('PASS: ten first-birthday designs have crawlable pages, unique SEO/image metadata, shared local fonts, lazy backgrounds, editable details, local drafts, valid PNG/PDF exports at 320px, no photo slot and a global ad placement on every page.');
   for (const infoPage of INFO_PAGES) {
     assert.ok(map.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
     await page.goto(`${origin}${infoPage.path}`);

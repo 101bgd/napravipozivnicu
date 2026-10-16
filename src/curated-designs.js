@@ -9,12 +9,15 @@ import { eighteenAssetIds } from './eighteen-assets.js';
 import { eighteenDesign } from '../content/eighteen-batch/designs.mjs';
 import { weddingAssetIds } from './wedding-assets.js';
 import { weddingDesign } from '../content/wedding-collection/designs.mjs';
+import { firstBirthdayAssetIds } from './first-birthday-assets.js';
+import { firstBirthdayDesign } from '../content/first-birthday-batch/designs.mjs';
 
 const batches = [
   { assets: birthdayAssetIds, build: birthdayDesign },
   { assets: baptismAssetIds, build: baptismDesign },
   { assets: eighteenAssetIds, build: eighteenDesign },
   { assets: weddingAssetIds, build: weddingDesign },
+  { assets: firstBirthdayAssetIds, build: firstBirthdayDesign },
 ];
 
 export function curatedDesign(id) {

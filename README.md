@@ -34,6 +34,7 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 ## Funkcije
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
+- Deset pozivnica za prvi rođendan: safari, vozić, labudovi, vila, kit, psić pilot, meda na Mesecu, dve varijante zeke u balonu i trešnjice. Bez fotografije, sa čitljivim razigranim/rukopisnim fontovima i izmenjivim imenom, brojem, datumom, vremenom, lokacijom i potvrdom dolaska. Pozadine su 88–95% manje uz iste dimenzije; [priprema i SEO istraživanje](content/first-birthday-batch/README.md). Nove stranice koriste ista globalna AdSense podešavanja iz admina.
 - Šest preostalih probnih šablona, filtriranje i pretraga po nazivu, kategoriji i opisu.
 - Četiri dečje pozivnice u kategoriji Rođendani: Dino avantura, Svemirska misija, Mala sirena i Čarobni ringišpil. Imaju izmenjivo ime i godine, razigrane fontove Baloo 2/DynaPuff i nemaju okvir za fotografiju. Pozadine su 86–92% manje od originala, uz iste dimenzije.
 - Četiri svečane pozivnice za krštenje: Anđeoski blagoslov, Golubica mira, Put svetlosti i Svetlost krštenja. Bez fotografije, sa odvojenim detaljima obreda i proslave, serifnim i kaligrafskim fontovima za srpsku ćirilicu i latinicu. Pozadine su 86–91% manje; priprema i licence opisane su u [content/baptism-batch/README.md](content/baptism-batch/README.md).
