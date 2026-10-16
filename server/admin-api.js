@@ -3,6 +3,8 @@ import { normalizeDesign, referencedAssets, isAssetId } from '../src/template-sc
 import { curatedTemplates } from '../src/curated-catalog.js';
 import { isRetiredRecord } from '../src/retired-templates.js';
 import { removeRetiredTemplates } from './retired-cleanup.js';
+import { readAdSense } from './adsense.js';
+import { normalizeAdSense, adSenseCode } from '../src/adsense-config.js';
 const now = () => new Date().toISOString();
 const rowInfo = row => ({ id: row.id, slug: row.slug, name: row.name, category: row.category, version: row.version, published: Boolean(row.published_json), changed: Boolean(row.published_json && row.draft_json !== row.published_json), updatedAt: row.updated_at, publishedAt: row.published_at, draft: JSON.parse(row.draft_json) });
 async function bodyBytes(request, limit) {
@@ -78,6 +80,17 @@ export async function handleAdminApi(request, env, identity) {
   const path = new URL(request.url).pathname.replace(/\/$/, ''), method = request.method;
   if (path === '/api/admin/maintenance/retired-templates' && method === 'POST') return json(await removeRetiredTemplates(env.DB));
   if (path === '/api/admin/session' && method === 'GET') return json({ email: identity.email });
+  if (path === '/api/admin/adsense' && method === 'GET') {
+    const settings = await readAdSense(env, true);
+    return json({ ...settings, code: adSenseCode(settings) });
+  }
+  if (path === '/api/admin/adsense' && method === 'PUT') {
+    let settings;
+    try { settings = normalizeAdSense(await readJson(request)); }
+    catch (error) { if (error instanceof HttpError) throw error; throw new HttpError(400, error.message); }
+    await env.DB.prepare("INSERT INTO settings (key, value) VALUES ('adsense', ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value").bind(JSON.stringify(settings)).run();
+    return json({ ...settings, code: adSenseCode(settings) });
+  }
   if (path === '/api/admin/assets' && method === 'POST') return uploadAsset(request, env);
   if (path === '/api/admin/fonts' && method === 'GET') {
     const { results } = await env.DB.prepare("SELECT id, name, size FROM assets WHERE role = 'font' ORDER BY created_at DESC LIMIT 200").all();

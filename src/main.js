@@ -6,6 +6,8 @@ import { renderInvitation } from './render.js';
 import { renderCards } from './catalog-view.js';
 import { toast } from './ui.js';
 
+if (document.querySelector('#adsense-config')) void import('./adsense.js').then(module => module.initializeAds());
+
 let activeCategory=initialCategory, search='';
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 const searchable=value=>value.toLocaleLowerCase('sr').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replaceAll('đ','dj');

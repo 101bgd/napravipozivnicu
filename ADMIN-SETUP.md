@@ -106,3 +106,11 @@ Zvanična dokumentacija:
 - [Access applications](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/self-hosted-public-app/)
 - [D1](https://developers.cloudflare.com/d1/get-started/)
 - [R2](https://developers.cloudflare.com/r2/get-started/)
+
+## AdSense kod i prikaz oglasa
+
+Posle standardnog povezivanja panela, otvori **Admin → AdSense reklame**, ili `/admin/sabloni/#adsense`. U Google AdSense nalogu izaberi **Oglasi → Po oglasnoj jedinici → Prikazni oglasi**, napravi prilagodljivu jedinicu i nalepi ceo kod u panel. Uključi prikaz i klikni **Sačuvaj podešavanja reklama**. Za početnu proveru sajta možeš sačuvati samo kod naloga i ostaviti oglase isključenim.
+
+Podešavanja ostaju u postojećoj tabeli `settings`. Nije potreban novi SQL, Cloudflare binding niti deployment za promenu koda. Meta oznaka za nalog i `/ads.txt` generišu se automatski. Bez koda blokovi ne zauzimaju prostor i nema Google zahteva. Oglasi se uključuju samo na javnom produkcijskom domenu, pre podnožja; admin, editor i preuzete pozivnice ih ne sadrže.
+
+Za posetioce iz regiona u kojima je saglasnost potrebna, u **AdSense → Privatnost i poruke** podesi Googleovu sertifikovanu poruku o privatnosti/CMP. Odobrenje naloga i prikaz oglasa zavise od Google-a.

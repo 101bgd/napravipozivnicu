@@ -10,6 +10,7 @@ import { HttpError } from './auth.js';
 import { isRetiredRecord } from '../src/retired-templates.js';
 import { infoPageFromPath } from '../src/info-content.js';
 import { renderInfoPage } from '../src/info-page.js';
+import { readAdSense, applyAdSense, adSenseHost } from './adsense.js';
 export async function publishedCatalog(env) {
   if (!env.DB) return publicTemplates;
   try {
@@ -23,6 +24,11 @@ export async function publishedCatalog(env) {
 export async function handlePublic(request, env, staticFetch) {
   const url = new URL(request.url), path = url.pathname, siteUrl = new URL(env.SITE_URL || SITE_URL).origin;
   if (!['GET', 'HEAD'].includes(request.method)) throw new HttpError(405, 'Metoda nije podržana.');
+  if (path === '/ads.txt') {
+    const adsense = await readAdSense(env);
+    const body = adsense.publisherId ? `google.com, ${adsense.publisherId.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n` : '# AdSense publisher nije podešen.\n';
+    return new Response(request.method === 'HEAD' ? null : body, { status: adsense.publisherId ? 200 : 404, headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'X-Content-Type-Options': 'nosniff' } });
+  }
   const media = path.match(/^\/media\/([a-f0-9-]+)$/);
   if (media) return serveAsset(request, env, media[1]);
   const templateApi = path.match(/^\/api\/templates\/([a-z0-9-]+)$/);
@@ -54,7 +60,8 @@ export async function handlePublic(request, env, staticFetch) {
   if (!baseResponse.ok) throw new HttpError(503, 'Stranica trenutno nije dostupna.');
   const view = category || collection ? 'catalog' : 'landing';
   const content = infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog, view });
-  const html = renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, template, catalog, siteUrl, view }));
+  const adsense = await readAdSense(env);
+  const html = applyAdSense(renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, template, catalog, siteUrl, view })), adsense, adSenseHost(url, siteUrl));
   const headers = { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'strict-origin-when-cross-origin' };
   if (url.hostname.endsWith('.pages.dev')) headers['X-Robots-Tag'] = 'noindex';
   return new Response(request.method === 'HEAD' ? null : html, { headers });

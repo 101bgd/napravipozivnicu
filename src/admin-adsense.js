@@ -1,0 +1,34 @@
+import { adSenseCode, parseAdSenseCode } from './adsense-config.js';
+import { escapeHtml as esc } from './ui.js';
+
+export function renderAdSenseAdmin(settings) {
+  return `<details class="adsense-settings" id="adsense-settings"><summary><span><strong>AdSense reklame</strong><span class="hint">Kod i prikaz oglasa na svim javnim stranicama</span></span><span class="status ${settings.enabled ? 'published' : ''}">${settings.enabled ? 'Uključene' : 'Isključene'}</span></summary><form id="adsense-form"><p>U AdSense nalogu otvori <strong>Oglasi → Po oglasnoj jedinici → Prikazni oglasi</strong>, napravi prilagodljivu jedinicu i ovde nalepi ceo njen kod.</p><label for="adsense-code">AdSense kod</label><textarea id="adsense-code" name="code" rows="10" maxlength="20000" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Nalepi Google AdSense kod…">${esc(adSenseCode(settings))}</textarea><p class="hint">Za početnu proveru sajta možeš sačuvati i samo kod naloga. Za prikaz bloka potreban je kod reklamne jedinice sa data-ad-slot. Prepoznajemo samo AdSense identifikatore; dodatne skripte se ne izvršavaju.</p><output id="adsense-identified" aria-live="polite"></output><label class="adsense-toggle"><input type="checkbox" name="enabled" ${settings.enabled ? 'checked' : ''}> Prikaži oglase na javnim stranicama</label><p class="hint">Blok je odvojen od dugmadi i ne ulazi u pozivnicu, PNG ili PDF. Oglasi se ne prikazuju u adminu i na pages.dev pregledima. Prazni ili blokirani oglasi se sakrivaju.</p><p class="hint">U AdSense → Privatnost i poruke podesi Googleovu sertifikovanu poruku o saglasnosti za regione gde je potrebna. AdSense odlučuje kada je nalog odobren i koji oglas će se prikazati.</p><div class="button-row"><button class="primary" type="submit">Sačuvaj podešavanja reklama</button><a href="https://adsense.google.com/" target="_blank" rel="noopener noreferrer">Otvori AdSense ↗</a></div><p id="adsense-result" role="status" aria-live="polite"></p></form></details>`;
+}
+
+export function bindAdSenseAdmin({ api, onSaved }) {
+  const form = document.querySelector('#adsense-form'), code = form.querySelector('[name="code"]');
+  const identified = form.querySelector('#adsense-identified'), result = form.querySelector('#adsense-result');
+  function identify() {
+    try {
+      const config = parseAdSenseCode(code.value);
+      identified.textContent = config.publisherId ? `Nalog: ${config.publisherId} · Jedinica: ${config.slotId || 'nije dodata'}` : 'Kod još nije dodat. Oglasi ostaju isključeni.';
+    } catch (error) { identified.textContent = error.message; }
+  }
+  const markDirty = () => { form.dataset.dirty = 'true'; result.textContent = 'Nesačuvane izmene.'; };
+  code.addEventListener('input', () => { markDirty(); identify(); });
+  form.querySelector('[name="enabled"]').addEventListener('change', markDirty);
+  form.addEventListener('keydown', event => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 's') { event.preventDefault(); form.requestSubmit(); } });
+  identify();
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    const button = form.querySelector('[type="submit"]'); button.disabled = true; result.textContent = 'Čuvanje…';
+    try {
+      const settings = await api('/adsense', 'PUT', { code: code.value, enabled: form.elements.enabled.checked });
+      onSaved(settings); code.value = adSenseCode(settings); identify();
+      delete form.dataset.dirty;
+      const badge = form.closest('details').querySelector('.status'); badge.textContent = settings.enabled ? 'Uključene' : 'Isključene'; badge.classList.toggle('published', settings.enabled);
+      result.textContent = settings.enabled ? 'Sačuvano. Oglasi su uključeni na javnom domenu.' : 'Sačuvano. Oglasi su isključeni.';
+    } catch (error) { result.textContent = error.message; }
+    finally { button.disabled = false; }
+  });
+}

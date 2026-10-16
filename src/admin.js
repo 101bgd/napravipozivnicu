@@ -12,12 +12,15 @@ import { newDesign, newTextLayer, normalizeDesign, BUILTIN_FONTS, DATE_LOCALES, 
 import { renderDesign, prepareDesign, designData, designAssetUrl, layerBounds, loadDesignFont } from './design-renderer.js';
 import { roseBowDesign } from './admin-presets.js';
 import { curatedTemplates } from './curated-catalog.js';
+import { DEFAULT_ADSENSE } from './adsense-config.js';
+import { renderAdSenseAdmin, bindAdSenseAdmin } from './admin-adsense.js';
 const app = document.querySelector('#admin-app');
 const categoryName = id => categories.find(c => c.id === id)?.label || id;
 const clone = value => structuredClone(value);
 let records = [], fontLibrary = [], email = '', record = null, design = null, selectedId = null;
 let dirty = false, busy = false, assets = {}, frame = 0, loadRequest = 0, drag = null;
 let undoStack = [], redoStack = [], lastSnapshot = '', messageTimer, search = '', statusFilter = 'all', showExamples = true;
+let adsenseSettings = { ...DEFAULT_ADSENSE };
 async function api(path, method = 'GET', body) {
   const headers = { 'X-Requested-With': 'template-studio' };
   if (body && !(body instanceof FormData)) headers['Content-Type'] = 'application/json';
@@ -29,7 +32,7 @@ function message(text) {
   document.querySelector('.admin-message')?.remove(); const el = document.createElement('div'); el.className = 'admin-message'; el.setAttribute('role', 'status'); el.textContent = text; document.body.append(el);
   clearTimeout(messageTimer); messageTimer = setTimeout(() => el.remove(), 6000);
 }
-const header = () => `<header class="admin-header"><div><h1>Tvoji šabloni</h1><p>Napravi pozivnicu · ${esc(email)}</p></div><div class="header-actions"><a href="/" target="_blank" rel="noopener">Otvori sajt ↗</a><a href="/cdn-cgi/access/logout">Odjavi se</a></div></header>`;
+const header = () => `<header class="admin-header"><div><h1>Tvoji šabloni</h1><p>Napravi pozivnicu · ${esc(email)}</p></div><div class="header-actions"><button data-action="adsense">AdSense reklame</button><a href="/" target="_blank" rel="noopener">Otvori sajt ↗</a><a href="/cdn-cgi/access/logout">Odjavi se</a></div></header>`;
 const statusLabel = item => item.published ? item.changed ? 'Objavljeno · novi nacrt' : 'Objavljeno' : 'Nacrt';
 function renderList() {
   design = null; record = null; dirty = false;
@@ -37,6 +40,9 @@ function renderList() {
   document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="prepared-layout" aria-labelledby="prepared-layout-title"><div><span class="status">Pripremljeno za tvoju pozadinu</span><h2 id="prepared-layout-title">Roze mašna · 1. rođendan</h2><p>Gotov raspored teksta za roze pozadinu sa mašnom, balonima, medom i zekom. Bez fotografije. Ime, poruku, datum, vreme i mesto možeš da menjaš.</p><p class="layout-sample">„Mila slavi svoj 1. rođendan“</p></div><div class="layout-upload"><label class="upload-button">Dodaj pozadinu i otvori<input type="file" id="rose-bow-background" accept="image/png,image/jpeg,image/webp"></label><p class="hint">Izaberi svoju sliku, proveri izgled i klikni „Objavi“.<br>PNG, JPG ili WebP do 10 MB.</p></div></section>`);
   document.querySelector('#admin-status').value = statusFilter; renderListCards(); renderExamples();
   document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="example-library" aria-label="Gotovi dizajni"><h2>Gotovi dizajni</h2><p class="hint">Ovi dizajni su već na sajtu. Otvori dizajn, sačuvaj svoje izmene i klikni „Objavi“ da zameniš javnu verziju.</p><div class="admin-grid">${curatedTemplates.map(t => `<article class="admin-card"><div class="card-preview"><img src="${esc(t.thumbnail)}" alt="${esc(t.name)}" width="500" height="700" loading="lazy"></div><div class="card-content"><h3>${esc(t.name)}</h3><p>${esc(categoryName(t.category))}</p><button data-action="edit-curated" data-id="${t.id}">Uredi dizajn</button></div></article>`).join('')}</div></section>`);
+  document.querySelector('.catalog-toolbar').insertAdjacentHTML('beforebegin', renderAdSenseAdmin(adsenseSettings));
+  bindAdSenseAdmin({ api, onSaved: settings => { adsenseSettings = settings; } });
+  if (location.hash === '#adsense') document.querySelector('#adsense-settings').open = true;
 }
 function renderExamples() {
   const remaining = builtinTemplates.filter(t => !records.some(r => r.draft.builtinSource === t.id));
@@ -123,7 +129,8 @@ async function exportPreview(type) {
   if (type === 'pdf') { const { jsPDF } = await import('jspdf'); const pdf = new jsPDF({orientation:'portrait',unit:'mm',format:[127,177.8],compress:true}); pdf.addImage(canvas.toDataURL('image/png'),'PNG',0,0,127,177.8); pdf.save('probna-pozivnica.pdf'); }
   else { const blob = await new Promise(resolve => canvas.toBlob(resolve,'image/png')); if (!blob) throw new Error('Preuzimanje nije uspelo.'); const url = URL.createObjectURL(blob), link = document.createElement('a'); link.href = url; link.download = 'probna-pozivnica.png'; link.click(); setTimeout(() => URL.revokeObjectURL(url),30_000); }
 }
-const confirmLeave = () => !dirty || window.confirm('Imaš nesačuvane izmene. Želiš da ih odbaciš?');
+const hasUnsavedChanges = () => dirty || document.querySelector('#adsense-form')?.dataset.dirty === 'true';
+const confirmLeave = () => !hasUnsavedChanges() || window.confirm('Imaš nesačuvane izmene. Želiš da ih odbaciš?');
 const actions = {
   async 'edit-curated'(button) {
     if (!confirmLeave()) return;
@@ -162,8 +169,9 @@ const actions = {
   },
   new() { if (!confirmLeave()) return; record=null; design=newDesign(); dirty=true; selectedId=design.layers[0].id; assets={}; resetHistory(); renderStudio(); },
   async open(b) { if (!confirmLeave()) return; applyRecord(await api(`/templates/${b.dataset.id}`)); },
-  async refresh() { await refreshList(); renderList(); },
+  async refresh() { if (!confirmLeave()) return; await refreshList(); adsenseSettings = await api('/adsense'); renderList(); },
   async back() { if (!confirmLeave()) return; await refreshList(); renderList(); },
+  async adsense() { if (!confirmLeave()) return; adsenseSettings = await api('/adsense'); renderList(); const panel = document.querySelector('#adsense-settings'); panel.open = true; panel.scrollIntoView({ block: 'start' }); panel.querySelector('textarea').focus({ preventScroll: true }); },
   select(b) { selectedId=b.dataset.layer; renderLayers(); renderInspector(); updateSelection(); },
   'add-text'() { if(design.layers.length>=32)throw new Error('Najviše 32 elementa.'); const l=newTextLayer(`custom_${crypto.randomUUID().slice(0,8)}`); design.layers.push(l); selectedId=l.id; checkpoint(); markDirty(); renderLayers(); renderInspector(); },
   'add-photo'() { if(design.layers.some(l=>l.type==='photo'))throw new Error('Šablon već ima okvir za fotografiju.'); const l={id:crypto.randomUUID(),type:'photo',label:'Fotografija',x:50,y:35,width:34,height:25,shape:'circle',rotation:0,opacity:1,borderColor:'#9ca582',borderWidth:1}; design.layers.push(l); selectedId=l.id; checkpoint(); markDirty(); renderLayers(); renderInspector(); },
@@ -211,6 +219,6 @@ document.addEventListener('keydown',e=>{
   if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='z'){e.preventDefault();undo(e.shiftKey);return;}
   if(currentLayer()&&['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();const l=currentLayer(),d=e.shiftKey?2:.2;if(e.key==='ArrowLeft')l.x-=d;if(e.key==='ArrowRight')l.x+=d;if(e.key==='ArrowUp')l.y-=d;if(e.key==='ArrowDown')l.y+=d;l.x=Math.max(0,Math.min(100,l.x));l.y=Math.max(0,Math.min(100,l.y));checkpoint();markDirty();renderInspector();}
 });
-window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
-try{await api('/maintenance/retired-templates','POST');const [session,collection,fonts,settings]=await Promise.all([api('/session'),api('/templates'),api('/fonts'),api('/settings')]);email=session.email;records=collection.templates;fontLibrary=fonts.fonts;showExamples=settings.showExamples;renderList();}
+window.addEventListener('beforeunload',e=>{if(hasUnsavedChanges()){e.preventDefault();e.returnValue='';}});
+try{await api('/maintenance/retired-templates','POST');const [session,collection,fonts,settings,adsense]=await Promise.all([api('/session'),api('/templates'),api('/fonts'),api('/settings'),api('/adsense')]);email=session.email;records=collection.templates;fontLibrary=fonts.fonts;showExamples=settings.showExamples;adsenseSettings=adsense;renderList();}
 catch(error){app.innerHTML=`<main class="admin-shell"><h1>Pristup šablonima</h1><div class="error-message">${esc(error.message)}</div><p><a href="/admin/sabloni/">Ponovo otvori panel</a> · <a href="/">Vrati se na sajt</a></p></main>`;}
