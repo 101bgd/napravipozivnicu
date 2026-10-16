@@ -1,7 +1,7 @@
-import { DESIGN_WIDTH as W, DESIGN_HEIGHT as H } from './template-schema.js';
+import { DESIGN_WIDTH as W, DESIGN_HEIGHT as H, DATE_LOCALES } from './template-schema.js';
 import { curatedAssetUrl } from './curated-assets.js';
 const images = new Map(), fonts = new Map();
-const formatDate = new Intl.DateTimeFormat('sr-Latn-RS', { day: 'numeric', month: 'long', year: 'numeric' });
+const dateFormatters = new Map(DATE_LOCALES.map(({ id }) => [id, new Intl.DateTimeFormat(id, { day: 'numeric', month: 'long', year: 'numeric' })]));
 export const designAssetUrl = (id, admin = false) => curatedAssetUrl(id) || (admin ? `/api/admin/assets/${id}/file` : `/media/${id}`);
 export async function loadDesignFont(font, admin = false) {
   const key = `${font.assetId}:${admin}`;
@@ -35,7 +35,7 @@ export async function prepareDesign(design, admin = false) {
   return { background };
 }
 export function designData(design) {
-  const data = { photoX: 50, photoY: 50, photoZoom: 100, bg: design.bg };
+  const data = { photoX: 50, photoY: 50, photoZoom: 100, bg: design.bg, locale: design.locale || 'sr-Latn-RS' };
   for (const layer of design.layers) if (layer.type === 'text') data[layer.field] = layer.text;
   return data;
 }
@@ -55,7 +55,7 @@ function photoPath(c, layer, width, height) {
 function textValue(layer, data) {
   let value = String(layer.editable && data?.[layer.field] !== undefined ? data[layer.field] : layer.text);
   if (layer.field === 'date' && /^\d{4}-\d{2}-\d{2}$/.test(value)) {
-    const date = new Date(`${value}T12:00:00`); if (!isNaN(date)) value = formatDate.format(date);
+    const date = new Date(`${value}T12:00:00`); if (!isNaN(date)) value = (dateFormatters.get(data?.locale) || dateFormatters.get('sr-Latn-RS')).format(date);
   }
   return layer.uppercase ? value.toLocaleUpperCase('sr') : value;
 }

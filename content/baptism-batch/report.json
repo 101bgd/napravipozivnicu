@@ -1,0 +1,46 @@
+[
+  {
+    "id": "andjeoski-blagoslov",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2057506,
+    "backgroundBytes": 188534,
+    "thumbnailBytes": 36428,
+    "reductionPercent": 90.8,
+    "backgroundUrl": "/assets/pozivnice/krstenje/andjeoski-blagoslov-pozadina-399587047218.webp",
+    "thumbnailUrl": "/assets/pozivnice/krstenje/andjeoski-blagoslov-pregled-7fdf2d8c7ef0.webp"
+  },
+  {
+    "id": "golubica-mira",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2524668,
+    "backgroundBytes": 289588,
+    "thumbnailBytes": 47010,
+    "reductionPercent": 88.5,
+    "backgroundUrl": "/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+    "thumbnailUrl": "/assets/pozivnice/krstenje/golubica-mira-pregled-96a1037bd2c8.webp"
+  },
+  {
+    "id": "put-svetlosti",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2480061,
+    "backgroundBytes": 358318,
+    "thumbnailBytes": 68324,
+    "reductionPercent": 85.6,
+    "backgroundUrl": "/assets/pozivnice/krstenje/put-svetlosti-pozadina-9292cae4ceb5.webp",
+    "thumbnailUrl": "/assets/pozivnice/krstenje/put-svetlosti-pregled-87fb51b8bfa1.webp"
+  },
+  {
+    "id": "svetlost-krstenja",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2107841,
+    "backgroundBytes": 205550,
+    "thumbnailBytes": 40658,
+    "reductionPercent": 90.2,
+    "backgroundUrl": "/assets/pozivnice/krstenje/svetlost-krstenja-pozadina-f853891a444a.webp",
+    "thumbnailUrl": "/assets/pozivnice/krstenje/svetlost-krstenja-pregled-69ac001b18ad.webp"
+  }
+]

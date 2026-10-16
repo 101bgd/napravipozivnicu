@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
+import { baptismTemplates } from '../src/baptism-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -45,6 +46,14 @@ try {
   await staticPage.goto(`${origin}/pozivnice-za-rodjendan/`);
   assert.match(await staticPage.locator('h1').innerText(), /dečiji rođendan/i);
   assert.equal(await staticPage.locator('.template-card h3').count(), 4);
+  await staticPage.goto(`${origin}/pozivnice-za-krstenje/`);
+  assert.equal(await staticPage.locator('.template-card h3').count(), 6);
+  for (const baptism of baptismTemplates) {
+    await staticPage.goto(`${origin}/pozivnice/${baptism.slug}/`);
+    assert.equal(await staticPage.title(), baptism.seoTitle);
+    assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), baptism.imageAlt);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${baptism.slug}/`);
+  }
   await noJs.close();
 
   const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
@@ -160,6 +169,75 @@ try {
   for (const birthday of birthdayTemplates) assert.ok(map.includes(`/pozivnice/${birthday.slug}/`));
   for (const id of ['olive', 'vows', 'confetti', 'garden', 'little-sun', 'moon']) assert.equal(map.includes(`/pozivnice/${id}/`), false);
   console.log('PASS: four birthday designs have unique SEO text, descriptive image alt, editable age/name, loaded fonts, no photo slot, mobile layouts and valid PNG/PDF downloads; removed examples are absent from the sitemap.');
+  for (const baptism of baptismTemplates) {
+    assert.ok(map.includes(`/pozivnice/${baptism.slug}/`));
+    await page.goto(`${origin}/pozivnice/${baptism.slug}/`);
+    assert.equal(await page.locator('h1').innerText(), baptism.name);
+    assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), baptism.description);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), baptism.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === baptism.imageAlt));
+    const layout = await (await fetch(`${origin}/api/templates/${baptism.id}`)).json();
+    assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    // Observe actual painted text, including the formatted month, rather than
+    // testing an isolated formatter that might not be used by the editor.
+    await page.evaluate(() => {
+      window.drawnEditorText = [];
+      const original = CanvasRenderingContext2D.prototype.fillText;
+      CanvasRenderingContext2D.prototype.fillText = function(text, ...args) {
+        if (this.canvas.id === 'editor-canvas') window.drawnEditorText.push(text);
+        return original.call(this, text, ...args);
+      };
+    });
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing();
+    assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    for (const layer of layout.layers.filter(layer => layer.type === 'text' && layer.editable && layer.text.includes('\n'))) {
+      assert.equal(await page.locator(`#panel-text textarea[name="${layer.field}"]`).inputValue(), layer.text,
+        'Multiline invitation text must remain editable without joining words');
+    }
+    const cyrillic = layout.locale === 'sr-Cyrl-RS';
+    assert.ok(await page.evaluate(month => window.drawnEditorText.some(text => text.includes(month)), cyrillic ? 'новембар' : 'novembar'));
+    await page.locator('input[name="names"]').fill(cyrillic ? 'Ђорђе' : 'Đorđe');
+    await page.locator('[name="location"]').fill(cyrillic ? 'Храм Светог Ђорђа, Ниш' : 'Hram Svetog Đorđa, Niš');
+    await page.locator('input[name="celebration"]').fill(cyrillic ? 'Ресторан Љиљан' : 'Restoran Ljiljan');
+    await page.locator('input[name="celebration_time"]').fill('14:30');
+    for (const font of layout.fonts.filter(font => layout.layers.some(layer => layer.family === font.family))) {
+      assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    }
+    await page.locator('[data-panel="style"]').click();
+    assert.equal(await page.locator('select[name="locale"]').inputValue(), layout.locale);
+    await finishDrawing();
+    const beforeScriptChange = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    const otherLocale = cyrillic ? 'sr-Latn-RS' : 'sr-Cyrl-RS';
+    await page.evaluate(() => window.drawnEditorText = []);
+    await page.locator('select[name="locale"]').selectOption(otherLocale);
+    await finishDrawing();
+    assert.ok(await page.evaluate(month => window.drawnEditorText.some(text => text.includes(month)), cyrillic ? 'novembar' : 'новембар'));
+    assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), beforeScriptChange);
+    await page.locator('.save-draft').click();
+    await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await page.locator('[data-panel="style"]').click();
+    assert.equal(await page.locator('select[name="locale"]').inputValue(), otherLocale, 'Date script is restored with the local draft');
+    await page.locator('.reset-design').click();
+    assert.equal(await page.locator('select[name="locale"]').inputValue(), layout.locale);
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/${baptism.id}-export.png`);
+    const png = await fs.readFile(`/tmp/${baptism.id}-export.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/${baptism.id}-export.pdf`);
+    const pdf = (await fs.readFile(`/tmp/${baptism.id}-export.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape');
+  }
+  console.log('PASS: four baptism designs have crawlable SEO pages, image metadata, Cyrillic/Latin fonts and date switching, editable ceremony/reception, local drafts, no photo slot and valid mobile PNG/PDF downloads.');
   assert.deepEqual(errors, []);
 
   console.log(`PASS: landing/catalog/category HTML without JS, ${landingGzip}/${catalogGzip} bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.`);

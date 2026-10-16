@@ -9,6 +9,7 @@ export const BUILTIN_FONTS = [
   { family: 'Libre Caslon Display', name: 'Libre Caslon Display' },
 ];
 export const TEXT_EFFECTS = ['none', 'shadow', 'outline', 'glow', 'lift', 'gradient'];
+export const DATE_LOCALES = [{ id: 'sr-Latn-RS', name: 'Latinica' }, { id: 'sr-Cyrl-RS', name: 'Ćirilica' }];
 export const FIELD_LABELS = { title: 'Uvodni tekst', names: 'Ime ili naslov', note: 'Poruka', date: 'Datum', time: 'Vreme', location: 'Mesto proslave' };
 const assetPattern = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/;
 export const isAssetId = value => typeof value === 'string' && assetPattern.test(value);
@@ -46,7 +47,7 @@ export function normalizeDesign(input) {
     return { ...base, field: /^[a-z][a-z0-9_]{0,40}$/.test(layer.field || '') ? layer.field : `text_${index}`, text: text(layer.text, 1500), editable: layer.editable !== false, size: number(layer.size, 8, 120, 24), family: families.has(layer.family) ? layer.family : 'Georgia', color: color(layer.color, '#344437'), align: ['left', 'center', 'right'].includes(layer.align) ? layer.align : 'center', bold: Boolean(layer.bold), italic: Boolean(layer.italic), underline: Boolean(layer.underline), uppercase: Boolean(layer.uppercase), lineHeight: number(layer.lineHeight, .8, 2.5, 1.35), letterSpacing: number(layer.letterSpacing, -2, 12, 0), effect: TEXT_EFFECTS.includes(layer.effect) ? layer.effect : 'none', effectColor: color(layer.effectColor, '#9ca582'), effectSize: number(layer.effectSize, 0, 20, 2) };
   });
   if (layers.filter(l => l.type === 'photo').length > 1) throw new Error('Trenutno je podržan jedan okvir za fotografiju po šablonu.');
-  return { schemaVersion: 1, builtinSource: [...builtinTemplates, ...curatedTemplates].some(t => t.id === input.builtinSource) ? input.builtinSource : null, name, category: input.category, description: text(input.description, 1000), imageAlt: text(input.imageAlt, 300), seoTitle: text(input.seoTitle, 150), details: text(input.details, 1500), bg: color(input.bg, '#f6f3e9'), backgroundId: isAssetId(input.backgroundId) ? input.backgroundId : null, thumbnailId: isAssetId(input.thumbnailId) ? input.thumbnailId : null, fonts, layers };
+  return { schemaVersion: 1, builtinSource: [...builtinTemplates, ...curatedTemplates].some(t => t.id === input.builtinSource) ? input.builtinSource : null, name, category: input.category, description: text(input.description, 1000), imageAlt: text(input.imageAlt, 300), seoTitle: text(input.seoTitle, 150), details: text(input.details, 1500), locale: DATE_LOCALES.some(locale => locale.id === input.locale) ? input.locale : 'sr-Latn-RS', bg: color(input.bg, '#f6f3e9'), backgroundId: isAssetId(input.backgroundId) ? input.backgroundId : null, thumbnailId: isAssetId(input.thumbnailId) ? input.thumbnailId : null, fonts, layers };
 }
 export function referencedAssets(design) {
   const usedFonts = new Set(design.layers.filter(l => l.type === 'text').map(l => l.family));

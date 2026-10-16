@@ -36,10 +36,12 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
 - Šest preostalih probnih šablona, filtriranje i pretraga po nazivu, kategoriji i opisu.
 - Četiri dečje pozivnice u kategoriji Rođendani: Dino avantura, Svemirska misija, Mala sirena i Čarobni ringišpil. Imaju izmenjivo ime i godine, razigrane fontove Baloo 2/DynaPuff i nemaju okvir za fotografiju. Pozadine su 86–92% manje od originala, uz iste dimenzije.
+- Četiri svečane pozivnice za krštenje: Anđeoski blagoslov, Golubica mira, Put svetlosti i Svetlost krštenja. Bez fotografije, sa odvojenim detaljima obreda i proslave, serifnim i kaligrafskim fontovima za srpsku ćirilicu i latinicu. Pozadine su 86–91% manje; priprema i licence opisane su u [content/baptism-batch/README.md](content/baptism-batch/README.md).
 - Gotova pozivnica za venčanje „Ponoćna elegancija“, bez fotografije, sa zasebno izmenjivim imenima, kaligrafskim fontom i optimizovanom WebP pozadinom. Dostupna je i kada su probni šabloni sakriveni.
 - Editor naslova, imena, poruke, datuma, vremena i mesta proslave sa pregledom uživo.
 - JPG/PNG/WebP fotografija do 15 MB, kružni okvir, pomeranje prevlačenjem ili klizačima i uvećanje.
 - Izbor fonta i pozadine; boja teksta se prilagođava kontrastu.
+- Izbor ćirilice ili latinice za naziv meseca u datumu sopstvenih šablona, u javnom editoru i adminu; izbor ostaje sačuvan u nacrtu i pri objavljivanju.
 - Besplatan PNG 1500 × 2100 px i PDF 127 × 177,8 mm sa slikom u 300 dpi, bez vodenog žiga.
 - Nacrt teksta u lokalnom skladištu pregledača. Fotografija ostaje u memoriji i ne čuva se u nacrtu.
 - Podrška za tastaturu, modalni editor i smanjeno kretanje prema podešavanju uređaja.
