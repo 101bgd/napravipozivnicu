@@ -5,20 +5,27 @@ import { birthdayAssetIds } from './birthday-assets.js';
 import { birthdayDesign } from '../content/birthday-batch/designs.mjs';
 import { baptismAssetIds } from './baptism-assets.js';
 import { baptismDesign } from '../content/baptism-batch/designs.mjs';
+import { eighteenAssetIds } from './eighteen-assets.js';
+import { eighteenDesign } from '../content/eighteen-batch/designs.mjs';
+
+const batches = [
+  { assets: birthdayAssetIds, build: birthdayDesign },
+  { assets: baptismAssetIds, build: baptismDesign },
+  { assets: eighteenAssetIds, build: eighteenDesign },
+];
 
 export function curatedDesign(id) {
   const metadata = curatedTemplates.find(template => template.id === id);
   if (!metadata) return null;
-  const birthday = birthdayAssetIds.designs[id];
-  const baptism = baptismAssetIds.designs[id];
-  const design = birthday
-    ? birthdayDesign(id, { backgroundId: birthday.background, fontIds: birthdayAssetIds.fonts })
-    : baptism ? baptismDesign(id, { backgroundId: baptism.background, fontIds: baptismAssetIds.fonts })
+  const batch = batches.find(item => item.assets.designs[id]);
+  const assets = batch?.assets.designs[id] || midnightAssetIds;
+  const design = batch
+    ? batch.build(id, { backgroundId: assets.background, fontIds: batch.assets.fonts })
     : midnightEleganceDesign({ backgroundId: midnightAssetIds.background, scriptFontId: midnightAssetIds.font });
   return {
     ...design,
     ...metadata,
-    thumbnailId: birthday?.thumbnail || baptism?.thumbnail || midnightAssetIds.thumbnail,
+    thumbnailId: assets.thumbnail,
     builtinSource: id,
   };
 }

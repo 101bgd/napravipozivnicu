@@ -2,9 +2,10 @@ import { templates as examples } from './templates.js';
 import { curatedAssetUrl, midnightAssetIds } from './curated-assets.js';
 import { birthdayTemplates } from './birthday-catalog.js';
 import { baptismTemplates } from './baptism-catalog.js';
+import { eighteenTemplates } from './eighteen-catalog.js';
 
 // Metadata only: full layouts and font files load when the editor opens.
-export const curatedTemplates = [...birthdayTemplates, ...baptismTemplates, {
+export const curatedTemplates = [...birthdayTemplates, ...baptismTemplates, ...eighteenTemplates, {
   id: 'ponocna-elegancija',
   slug: 'ponocna-elegancija',
   name: 'Ponoćna elegancija',

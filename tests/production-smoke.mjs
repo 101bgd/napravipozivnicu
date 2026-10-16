@@ -7,6 +7,7 @@ import { gzipSync } from 'node:zlib';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
+import { eighteenTemplates } from '../src/eighteen-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -53,6 +54,16 @@ try {
     assert.equal(await staticPage.title(), baptism.seoTitle);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), baptism.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${baptism.slug}/`);
+  }
+  await staticPage.goto(`${origin}/pozivnice-za-18-rodjendan/`);
+  assert.match(await staticPage.locator('h1').innerText(), /18\. rođendan i punoletstvo/);
+  assert.equal(await staticPage.title(), 'Pozivnice za 18. rođendan i punoletstvo — besplatno');
+  assert.equal(await staticPage.locator('.template-card h3').count(), 5);
+  for (const template of eighteenTemplates) {
+    await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.title(), template.seoTitle);
+    assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
   }
   await noJs.close();
 
@@ -238,6 +249,59 @@ try {
     await page.keyboard.press('Escape');
   }
   console.log('PASS: four baptism designs have crawlable SEO pages, image metadata, Cyrillic/Latin fonts and date switching, editable ceremony/reception, local drafts, no photo slot and valid mobile PNG/PDF downloads.');
+  for (const template of eighteenTemplates) {
+    assert.ok(map.includes(`/pozivnice/${template.slug}/`));
+    await page.setViewportSize({ width: 320, height: 740 });
+    const backgroundRequests = [];
+    const watchBackgrounds = request => { if (request.url().includes('/punoletstvo/') && request.url().includes('-pozadina-')) backgroundRequests.push(request.url()); };
+    page.on('request', watchBackgrounds);
+    await page.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await page.locator('h1').innerText(), template.name);
+    assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), template.description);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
+    assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === template.imageAlt));
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    assert.deepEqual(backgroundRequests, [], 'Full invitation backgrounds load only after opening the editor');
+    const layout = await (await fetch(`${origin}/api/templates/${template.id}`)).json();
+    assert.equal(layout.category, 'eighteen');
+    assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing();
+    assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    assert.equal(await page.locator('input[name="age"]').inputValue(), '18');
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    if (template.id === 'disko-sjaj') assert.ok(await page.evaluate(() => document.fonts.check('700 120px "DM Sans"', '18')));
+    const before = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    await page.locator('input[name="names"]').fill('Đorđe');
+    await page.locator('[name="location"]').fill('Restoran Čarolija, Niš');
+    await page.locator('input[name="rsvp"]').fill('Potvrdi dolazak do 1. novembra.');
+    await page.locator('textarea[name="note"]').fill('Osamnaest želja.\nProslavi ih sa mnom!');
+    await finishDrawing();
+    assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), before);
+    await page.locator('.save-draft').click();
+    await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('input[name="names"]').inputValue(), 'Đorđe');
+    assert.equal(await page.locator('input[name="rsvp"]').inputValue(), 'Potvrdi dolazak do 1. novembra.');
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/${template.id}-export.png`);
+    const png = await fs.readFile(`/tmp/${template.id}-export.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/${template.id}-export.pdf`);
+    const pdf = (await fs.readFile(`/tmp/${template.id}-export.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape');
+    page.off('request', watchBackgrounds);
+  }
+  console.log('PASS: three eighteenth-birthday designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, loaded fonts, editable names/RSVP, local drafts, no photo slot and valid PNG/PDF exports at 320px.');
   assert.deepEqual(errors, []);
 
   console.log(`PASS: landing/catalog/category HTML without JS, ${landingGzip}/${catalogGzip} bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.`);

@@ -6,7 +6,7 @@ export const safeJson = value => JSON.stringify(value).replace(/</g, '\\u003c').
 export function pageMeta({ category = 'all', template = null, catalog = [], siteUrl = SITE_URL, view = 'landing' } = {}) {
   const info = CATEGORY_CONTENT[category];
   const path = template ? `/pozivnice/${template.slug || template.id}/` : info ? categoryPath(category) : view === 'catalog' ? '/pozivnice/' : '/';
-  const title = template ? template.seoTitle || `${template.name} — ${CATEGORY_CONTENT[template.category].title}` : info ? `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
+  const title = template ? template.seoTitle || `${template.name} — ${CATEGORY_CONTENT[template.category].title}` : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
   const description = template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || 'Napravi besplatnu pozivnicu za rođendan, venčanje, krštenje ili rođenje deteta. Uredi tekst i fotografiju i preuzmi PNG ili PDF, bez registracije.';
   const url = `${siteUrl}${path}`;
   const image = `${siteUrl}${template?.thumbnail || '/social-preview.png'}`;

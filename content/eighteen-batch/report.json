@@ -1,0 +1,35 @@
+[
+  {
+    "id": "disko-sjaj",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1879589,
+    "backgroundBytes": 139480,
+    "thumbnailBytes": 40548,
+    "reductionPercent": 92.6,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo/disko-sjaj-pozadina-fb5103d072c1.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo/disko-sjaj-pregled-9132471522a9.webp"
+  },
+  {
+    "id": "saten-i-biseri",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2212888,
+    "backgroundBytes": 211084,
+    "thumbnailBytes": 39514,
+    "reductionPercent": 90.5,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo/saten-i-biseri-pozadina-8d5283cae12f.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo/saten-i-biseri-pregled-e14b7b1c997a.webp"
+  },
+  {
+    "id": "zlatni-trenutak",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1757766,
+    "backgroundBytes": 94822,
+    "thumbnailBytes": 23194,
+    "reductionPercent": 94.6,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo/zlatni-trenutak-pozadina-ce7d11697ede.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo/zlatni-trenutak-pregled-738b4d6fa142.webp"
+  }
+]
