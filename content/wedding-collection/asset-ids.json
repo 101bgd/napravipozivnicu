@@ -1,0 +1,40 @@
+{
+  "fonts": {
+    "serif": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "script": "a8a45639-0d15-4793-a5ea-9c806c035b17"
+  },
+  "designs": {
+    "zavet-u-prirodi": {
+      "background": "8d701348-4fac-49ba-a09f-6c3b28a75955",
+      "thumbnail": "4712e6f6-b704-4424-87dd-dea39e64cbf5"
+    },
+    "maslinov-zavet": {
+      "background": "fba5b956-1caa-4e33-a701-82bf70e88b7f",
+      "thumbnail": "ec6a5e8d-f64c-4e74-b9ce-19837daaee92"
+    },
+    "zlatna-obala": {
+      "background": "e3aad59d-a99d-411a-b43c-a2add6102213",
+      "thumbnail": "ddc7c7b5-cf40-492f-8494-a674fd3b0ed6"
+    },
+    "beli-cvet-i-zlato": {
+      "background": "d0b58d30-c32d-4780-8b24-9df603fd2e96",
+      "thumbnail": "e3020b15-a413-47c6-8bb6-d6a0fa38096b"
+    },
+    "vece-pod-fenjerima": {
+      "background": "69fb1327-5fbc-4a8d-8a2b-3baf894688ee",
+      "thumbnail": "f6a17ba0-00c2-4059-a7bf-eddbf5b3d164"
+    },
+    "smaragdni-zavet": {
+      "background": "efffe927-ba95-4c0e-9f0d-8727a956ee08",
+      "thumbnail": "cea8e331-f5e2-483e-bc68-4ee1fcc7e189"
+    },
+    "sapat-bozura": {
+      "background": "97314a12-52a1-465c-9015-6da91bcda0e6",
+      "thumbnail": "b09624a8-2587-4637-9d89-62de4f33754e"
+    },
+    "pismo-ljubavi": {
+      "background": "8120e8e8-e6d0-4cc0-a0f2-594f038537bc",
+      "thumbnail": "6c4c7019-1289-4aea-adf9-cb0e1150b8d3"
+    }
+  }
+}

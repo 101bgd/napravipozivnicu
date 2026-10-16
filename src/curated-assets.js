@@ -3,6 +3,7 @@
 import { birthdayAssets } from './birthday-assets.js';
 import { baptismAssets } from './baptism-assets.js';
 import { eighteenAssets } from './eighteen-assets.js';
+import { weddingAssets } from './wedding-assets.js';
 const base = '/assets/pozivnice/ponocna-elegancija/';
 export const midnightAssetIds = {
   background: 'a602e85c-3f52-43b8-a2ed-362f3fb9528a',
@@ -13,6 +14,7 @@ const assets = new Map([
   ...birthdayAssets,
   ...baptismAssets,
   ...eighteenAssets,
+  ...weddingAssets,
   [midnightAssetIds.background, `${base}pozadina-bd7ed2b4f10e.webp`],
   [midnightAssetIds.font, `${base}great-vibes-sr-7ec0bdb540f9.woff2`],
   [midnightAssetIds.thumbnail, `${base}pregled-7de7cf723b25.webp`],

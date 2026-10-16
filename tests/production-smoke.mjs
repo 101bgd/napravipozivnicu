@@ -9,6 +9,7 @@ import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
+import { weddingTemplates } from '../src/wedding-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -62,6 +63,16 @@ try {
   assert.equal(await staticPage.locator('.template-card h3').count(), 5);
   for (const template of eighteenTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.title(), template.seoTitle);
+    assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
+  }
+  await staticPage.goto(`${origin}/pozivnice-za-vencanje/`);
+  assert.match(await staticPage.locator('h1').innerText(), /venčanje i svadbu/);
+  assert.equal(await staticPage.locator('.template-card h3').count(), 9);
+  for (const template of weddingTemplates) {
+    await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.locator('h1').innerText(), template.name);
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
@@ -327,6 +338,57 @@ try {
     page.off('request', watchBackgrounds);
   }
   console.log('PASS: three eighteenth-birthday designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, loaded fonts, editable names/RSVP, local drafts, no photo slot and valid PNG/PDF exports at 320px.');
+  for (const template of weddingTemplates) {
+    assert.ok(map.includes(`/pozivnice/${template.slug}/`));
+    await page.setViewportSize({ width: 320, height: 740 });
+    const backgroundRequests = [];
+    const watch = request => { if (request.url().includes('/vencanje/') && request.url().includes('-pozadina-')) backgroundRequests.push(request.url()); };
+    page.on('request', watch);
+    await page.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), template.description);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
+    assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === template.imageAlt));
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    assert.deepEqual(backgroundRequests, [], 'Gallery and detail use thumbnails instead of full wedding backgrounds');
+    const layout = await (await fetch(`${origin}/api/templates/${template.id}`)).json();
+    assert.equal(layout.category, 'wedding'); assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing();
+    assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    const before = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    await page.locator('input[name="bride"]').fill('Anđela');
+    await page.locator('input[name="groom"]').fill('Đorđe');
+    await page.locator('input[name="date"]').fill('2027-08-28');
+    await page.locator('input[name="ceremony_time"]').fill('15:30');
+    await page.locator('input[name="ceremony_location"]').fill('Crkva Svetog Đorđa, Niš');
+    await page.locator('input[name="time"]').fill('18:30');
+    await page.locator('input[name="location"]').fill('Restoran Čarolija, Niš');
+    await page.locator('input[name="rsvp"]').fill('Potvrda dolaska do 1. avgusta.');
+    await finishDrawing();
+    assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), before);
+    await page.locator('.save-draft').click(); await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('input[name="bride"]').inputValue(), 'Anđela');
+    assert.equal(await page.locator('input[name="groom"]').inputValue(), 'Đorđe');
+    assert.equal(await page.locator('input[name="ceremony_time"]').inputValue(), '15:30');
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/wedding-${template.id}.png`);
+    const png = await fs.readFile(`/tmp/wedding-${template.id}.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/wedding-${template.id}.pdf`);
+    const pdf = (await fs.readFile(`/tmp/wedding-${template.id}.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape'); page.off('request', watch);
+  }
+  console.log('PASS: eight wedding designs have crawlable SEO pages, image metadata, lazy backgrounds, loaded fonts, independently editable names/ceremony/reception/RSVP, local drafts and valid PNG/PDF exports at 320px without photo fields.');
   for (const infoPage of INFO_PAGES) {
     assert.ok(map.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
     await page.goto(`${origin}${infoPage.path}`);

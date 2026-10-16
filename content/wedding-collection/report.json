@@ -1,0 +1,90 @@
+[
+  {
+    "id": "zavet-u-prirodi",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2947578,
+    "backgroundBytes": 460390,
+    "thumbnailBytes": 86296,
+    "reductionPercent": 84.4,
+    "backgroundUrl": "/assets/pozivnice/vencanje/zavet-u-prirodi-pozadina-bd265e38ec77.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/zavet-u-prirodi-pregled-2f70bf6a0888.webp"
+  },
+  {
+    "id": "maslinov-zavet",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 3046527,
+    "backgroundBytes": 483580,
+    "thumbnailBytes": 62608,
+    "reductionPercent": 84.1,
+    "backgroundUrl": "/assets/pozivnice/vencanje/maslinov-zavet-pozadina-4ef6bffa0980.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/maslinov-zavet-pregled-c1717f8f6a98.webp"
+  },
+  {
+    "id": "zlatna-obala",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2495253,
+    "backgroundBytes": 363878,
+    "thumbnailBytes": 78552,
+    "reductionPercent": 85.4,
+    "backgroundUrl": "/assets/pozivnice/vencanje/zlatna-obala-pozadina-b664537cdb38.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/zlatna-obala-pregled-fb0eb923e4cb.webp"
+  },
+  {
+    "id": "beli-cvet-i-zlato",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2509538,
+    "backgroundBytes": 306522,
+    "thumbnailBytes": 50244,
+    "reductionPercent": 87.8,
+    "backgroundUrl": "/assets/pozivnice/vencanje/beli-cvet-i-zlato-pozadina-6091f46f9498.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/beli-cvet-i-zlato-pregled-627e6baaa45f.webp"
+  },
+  {
+    "id": "vece-pod-fenjerima",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2540977,
+    "backgroundBytes": 371340,
+    "thumbnailBytes": 91122,
+    "reductionPercent": 85.4,
+    "backgroundUrl": "/assets/pozivnice/vencanje/vece-pod-fenjerima-pozadina-5efd7ee00fad.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/vece-pod-fenjerima-pregled-20903d941d51.webp"
+  },
+  {
+    "id": "smaragdni-zavet",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2625393,
+    "backgroundBytes": 373226,
+    "thumbnailBytes": 64272,
+    "reductionPercent": 85.8,
+    "backgroundUrl": "/assets/pozivnice/vencanje/smaragdni-zavet-pozadina-877d880e1135.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/smaragdni-zavet-pregled-366588ac0fe6.webp"
+  },
+  {
+    "id": "sapat-bozura",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2449834,
+    "backgroundBytes": 301378,
+    "thumbnailBytes": 55502,
+    "reductionPercent": 87.7,
+    "backgroundUrl": "/assets/pozivnice/vencanje/sapat-bozura-pozadina-76f23ac15b5f.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/sapat-bozura-pregled-92ef43b4d364.webp"
+  },
+  {
+    "id": "pismo-ljubavi",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 3211072,
+    "backgroundBytes": 526546,
+    "thumbnailBytes": 77550,
+    "reductionPercent": 83.6,
+    "backgroundUrl": "/assets/pozivnice/vencanje/pismo-ljubavi-pozadina-7cce67a3e01a.webp",
+    "thumbnailUrl": "/assets/pozivnice/vencanje/pismo-ljubavi-pregled-4f6dd3732450.webp"
+  }
+]

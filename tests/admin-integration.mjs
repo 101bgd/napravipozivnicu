@@ -8,6 +8,7 @@ import { pageMeta, renderDocument } from '../src/seo.js';
 import { publicTemplates, curatedTemplates } from '../src/curated-catalog.js';
 import { newDesign } from '../src/template-schema.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
+import { weddingTemplates } from '../src/wedding-catalog.js';
 const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
 assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
@@ -58,6 +59,13 @@ try{
   console.log('PASS: public privacy/about/contact routes have their own HTML and canonical URLs, support HEAD and slash redirects, omit admin identity, and keep pages.dev previews out of search.');
   assert.equal((await fetchWorker('/pozivnice/nepostojece/')).status,404);const index=(await (await fetchWorker('/sitemap.xml')).text());assert.ok(index.includes('pozivnice-za-vencanje'));assert.ok(index.includes('<loc>https://napravipozivnicu.com/pozivnice/</loc>'));assert.equal(index.includes('/admin/'),false);
   for(const infoPage of INFO_PAGES)assert.ok(index.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
+  for(const template of weddingTemplates){
+    assert.ok(index.includes(`<loc>https://napravipozivnicu.com/pozivnice/${template.slug}/</loc>`));
+    const html=await (await fetchWorker(`/pozivnice/${template.slug}/`)).text();
+    assert.ok(html.includes(`<title>${template.seoTitle}</title>`));assert.ok(html.includes(template.imageAlt));
+    const response=await fetchWorker(`/api/templates/${template.id}`);assert.equal(response.status,200);
+    const design=await response.json();assert.equal(design.category,'wedding');assert.equal(design.fonts.length,2);assert.equal(design.layers.some(layer=>layer.type==='photo'),false);
+  }
   console.log('PASS: six category HTML pages have unique descriptions, canonical URLs, useful content and breadcrumbs; sitemap excludes admin; missing designs return 404.');
 
   // Existing database copies must disappear as well as the shipped examples.
@@ -251,6 +259,34 @@ try{
   await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
   assert.equal(await visitor.locator('input[name="names"]').inputValue(),'Željana');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
   console.log('PASS: all three eighteenth-birthday designs appear in admin; clone copies shared fonts privately and publication preserves the URL, SEO metadata and editable name.');
+  await page.locator('[data-action="back"]').click();
+  await page.locator('[data-action="edit-curated"][data-id="maslinov-zavet"]').waitFor({state:'visible'});
+  for(const template of weddingTemplates)assert.equal(await page.locator(`[data-action="edit-curated"][data-id="${template.id}"]`).count(),1);
+  await page.locator('[data-action="edit-curated"][data-id="maslinov-zavet"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-meta="name"]')?.value==='Maslinov zavet'&&!document.querySelector('[data-action="save"]').disabled);
+  assert.equal(await page.locator('[data-meta="category"]').inputValue(),'wedding');
+  assert.equal(await page.locator('[data-prop="text"]').inputValue(),'Jelena');
+  const newWeddingTitle=await page.locator('[data-meta="seoTitle"]').inputValue(),newWeddingAlt=await page.locator('[data-meta="imageAlt"]').inputValue();
+  await page.locator('[data-prop="text"]').fill('Anđela');
+  await page.locator('[data-action="save"]').click();
+  await page.waitForFunction(()=>document.querySelector('#save-state')?.textContent==='Nacrt'&&!document.querySelector('[data-action="save"]').disabled);
+  const newWedding=(await (await fetch(`${base}/api/admin/templates`)).json()).templates.find(t=>t.draft.builtinSource==='maslinov-zavet');
+  assert.equal(newWedding.slug,'pozivnica-za-svadbu-pergament-maslina');assert.equal(newWedding.draft.fonts.length,2);
+  assert.equal(newWedding.draft.layers.some(layer=>layer.type==='photo'),false);
+  assert.equal((await fetch(`${base}/media/${newWedding.draft.backgroundId}`)).status,404);
+  for(const font of newWedding.draft.fonts)assert.equal((await fetch(`${base}/media/${font.assetId}`)).status,404);
+  assert.ok((await (await fetch(`${base}/api/catalog`)).json()).templates.some(t=>t.id==='maslinov-zavet'));
+  await page.locator('[data-action="publish"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
+  const newWeddingPublic=(await (await fetch(`${base}/api/catalog`)).json()).templates.filter(t=>t.slug===newWedding.slug);
+  assert.equal(newWeddingPublic.length,1);assert.equal(newWeddingPublic[0].id,newWedding.id);assert.equal(newWeddingPublic[0].seoTitle,newWeddingTitle);
+  assert.equal((await fetch(`${base}/api/templates/maslinov-zavet`)).status,404);
+  await visitor.goto(`${base}/pozivnice/${newWedding.slug}/`);
+  assert.equal(await visitor.title(),newWeddingTitle);assert.equal(await visitor.locator('.detail-preview img').getAttribute('alt'),newWeddingAlt);
+  await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
+  assert.equal(await visitor.locator('input[name="bride"]').inputValue(),'Anđela');assert.equal(await visitor.locator('input[name="groom"]').inputValue(),'Marko');
+  assert.equal(await visitor.locator('input[name="ceremony_time"]').inputValue(),'16:00');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
+  console.log('PASS: all eight wedding designs have Worker routes, layouts and sitemap entries, appear in admin, and a clone publishes edited names at its original URL with private font copies and preserved SEO.');
   assert.deepEqual(errors,[]);
   console.log('PASS: published template SEO, lazy layout/font load, visitor effects/photo/PNG/PDF/draft, unchanged published snapshot after draft edits, duplicate/unpublish, sitemap removal and responsive admin.');
 }finally{await browser?.close();server?.kill('SIGTERM');await local.runtime.dispose();}

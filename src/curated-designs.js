@@ -7,11 +7,14 @@ import { baptismAssetIds } from './baptism-assets.js';
 import { baptismDesign } from '../content/baptism-batch/designs.mjs';
 import { eighteenAssetIds } from './eighteen-assets.js';
 import { eighteenDesign } from '../content/eighteen-batch/designs.mjs';
+import { weddingAssetIds } from './wedding-assets.js';
+import { weddingDesign } from '../content/wedding-collection/designs.mjs';
 
 const batches = [
   { assets: birthdayAssetIds, build: birthdayDesign },
   { assets: baptismAssetIds, build: baptismDesign },
   { assets: eighteenAssetIds, build: eighteenDesign },
+  { assets: weddingAssetIds, build: weddingDesign },
 ];
 
 export function curatedDesign(id) {

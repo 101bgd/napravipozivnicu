@@ -168,7 +168,7 @@ try {
   assert.equal(reducedMotionState.longRunning, 0, 'Reduced motion must stop long-running hero animations');
   assert.ok(reducedMotionState.headingOpacity > 0 && reducedMotionState.ctaOpacity > 0, 'Reduced motion must leave key content visible');
   assert.deepEqual(errors, []);
-  console.log('PASS: landing CTA and browser Back, 18 templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.');
+  console.log(`PASS: landing CTA and browser Back, ${publicTemplates.length} templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.`);
 } finally {
   await browser?.close(); server.kill('SIGTERM');
 }

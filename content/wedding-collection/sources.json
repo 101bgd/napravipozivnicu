@@ -1,0 +1,66 @@
+[
+  {
+    "source": 0,
+    "fileName": "Pozivnica za svadbu.png",
+    "bytes": 2947578,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "05f2884d16908d400a3cdc262acd3c8f6de922066bb109c522eb0262a6744f7e"
+  },
+  {
+    "source": 1,
+    "fileName": "Pozivnica za svadbu 1.png",
+    "bytes": 3046527,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "7103c727ce661261452470d057462b28e27c5f56efee6ad8fc107e60b091a97a"
+  },
+  {
+    "source": 5,
+    "fileName": "Pozivnica za svadbu 5.png",
+    "bytes": 2495253,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "6fe8795f3176e8d41fb877bb7d903a91c1d340363a33c0ed6c6984919c41625b"
+  },
+  {
+    "source": 6,
+    "fileName": "Pozivnica za svadbu 6.png",
+    "bytes": 2509538,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "b90981a72c70974959501d380ebb8c668d1795f8a0bec1ca56bd4526199aac33"
+  },
+  {
+    "source": 7,
+    "fileName": "Pozivnica za svadbu 7.png",
+    "bytes": 2540977,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "97b497c8622ccf58988f5f8452ea611886796a613cda2c639f90ad6a04d7af3a"
+  },
+  {
+    "source": 8,
+    "fileName": "Pozivnica za svadbu 8.png",
+    "bytes": 2625393,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "93006df4a10177eaa5b8f707d411038eeaf7c08e66caa04f3746ab9c98c07ad7"
+  },
+  {
+    "source": 9,
+    "fileName": "Pozivnica za svadbu 9.png",
+    "bytes": 2449834,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "16953c8566784d64b5a88f0e759d0b392eb221ec551d5720bf53532875c47347"
+  },
+  {
+    "source": 10,
+    "fileName": "Pozivnica za svadbu 10.png",
+    "bytes": 3211072,
+    "width": 1060,
+    "height": 1484,
+    "sha256": "025fb402b3605eddcfefdf985631dcd38c4d62629bb0db40c7fe0c00add5c847"
+  }
+]
