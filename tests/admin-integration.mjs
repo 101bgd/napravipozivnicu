@@ -7,6 +7,7 @@ import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { pageMeta, renderDocument } from '../src/seo.js';
 import { publicTemplates, curatedTemplates } from '../src/curated-catalog.js';
 import { newDesign } from '../src/template-schema.js';
+import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
 assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
@@ -45,7 +46,18 @@ try{
   console.log('PASS: landing CTA links to a dedicated server-rendered catalog, collection URL redirects canonically, and public HTML includes current templates, all seven filters and crawlable design links.');
   const categorySlugs=['pozivnice-za-prvi-rodjendan','pozivnice-za-18-rodjendan','pozivnice-za-rodjendan','pozivnice-za-vencanje','pozivnice-za-krstenje','pozivnice-za-rodjenje-deteta'];
   const descriptions=new Set();for(const slug of categorySlugs){const response=await fetchWorker(`/${slug}/`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`href="https://napravipozivnicu.com/${slug}/"`));assert.match(html,/<h1>/);assert.match(html,/Primer teksta za pozivnicu/);assert.match(html,/BreadcrumbList/);descriptions.add(html.match(/<meta name="description" content="([^"]+)/)[1]);}assert.equal(descriptions.size,6);
+  for(const infoPage of INFO_PAGES){
+    const response=await fetchWorker(infoPage.path);assert.equal(response.status,200);assert.equal(response.headers.get('X-Robots-Tag'),null);
+    const html=await response.text();assert.ok(html.includes(`<h1>${infoPage.title}</h1>`));assert.ok(html.includes(CONTACT_EMAIL));
+    assert.ok(html.includes(`href="https://napravipozivnicu.com${infoPage.path}"`));assert.equal((html.match(/<title>/g)||[]).length,1);
+    assert.equal(html.includes('id="template-grid"'),false);assert.equal(html.includes(local.email),false);
+    const head=await fetchWorker(infoPage.path,{method:'HEAD'});assert.equal(head.status,200);assert.equal(await head.text(),'');
+    const redirect=await fetchWorker(`${infoPage.path.slice(0,-1)}?izvor=test`,{redirect:'manual'});assert.equal(redirect.status,301);assert.equal(redirect.headers.get('Location'),`${origin}${infoPage.path}?izvor=test`);
+    const preview=await local.runtime.dispatchFetch(`https://preview.pages.dev${infoPage.path}`);assert.equal(preview.status,200);assert.equal(preview.headers.get('X-Robots-Tag'),'noindex');
+  }
+  console.log('PASS: public privacy/about/contact routes have their own HTML and canonical URLs, support HEAD and slash redirects, omit admin identity, and keep pages.dev previews out of search.');
   assert.equal((await fetchWorker('/pozivnice/nepostojece/')).status,404);const index=(await (await fetchWorker('/sitemap.xml')).text());assert.ok(index.includes('pozivnice-za-vencanje'));assert.ok(index.includes('<loc>https://napravipozivnicu.com/pozivnice/</loc>'));assert.equal(index.includes('/admin/'),false);
+  for(const infoPage of INFO_PAGES)assert.ok(index.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
   console.log('PASS: six category HTML pages have unique descriptions, canonical URLs, useful content and breadcrumbs; sitemap excludes admin; missing designs return 404.');
 
   // Existing database copies must disappear as well as the shipped examples.

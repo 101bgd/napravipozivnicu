@@ -2,16 +2,18 @@ import { SITE_URL, CATEGORY_CONTENT, categoryPath } from './seo-content.js';
 import { escapeHtml as esc } from './ui.js';
 import { renderCards } from './catalog-view.js';
 import { siteHeader, siteFooter } from './site-shell.js';
+import { INFO_PAGES } from './info-content.js';
 export const safeJson = value => JSON.stringify(value).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
-export function pageMeta({ category = 'all', template = null, catalog = [], siteUrl = SITE_URL, view = 'landing' } = {}) {
+export function pageMeta({ category = 'all', template = null, infoPage = null, catalog = [], siteUrl = SITE_URL, view = 'landing' } = {}) {
   const info = CATEGORY_CONTENT[category];
-  const path = template ? `/pozivnice/${template.slug || template.id}/` : info ? categoryPath(category) : view === 'catalog' ? '/pozivnice/' : '/';
-  const title = template ? template.seoTitle || `${template.name} — ${CATEGORY_CONTENT[template.category].title}` : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
-  const description = template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || 'Napravi besplatnu pozivnicu za rođendan, venčanje, krštenje ili rođenje deteta. Uredi tekst i fotografiju i preuzmi PNG ili PDF, bez registracije.';
+  const path = infoPage?.path || (template ? `/pozivnice/${template.slug || template.id}/` : info ? categoryPath(category) : view === 'catalog' ? '/pozivnice/' : '/');
+  const title = infoPage ? `${infoPage.title} — Napravi pozivnicu` : template ? template.seoTitle || `${template.name} — ${CATEGORY_CONTENT[template.category].title}` : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
+  const description = infoPage?.description || (template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || 'Napravi besplatnu pozivnicu za rođendan, venčanje, krštenje ili rođenje deteta. Uredi tekst i fotografiju i preuzmi PNG ili PDF, bez registracije.');
   const url = `${siteUrl}${path}`;
   const image = `${siteUrl}${template?.thumbnail || '/social-preview.png'}`;
   const imageAlt = template?.imageAlt || template?.name || 'Napravi pozivnicu — besplatne pozivnice za tvoju proslavu';
-  const graph = [{ '@type': 'WebSite', '@id': `${siteUrl}/#website`, url: `${siteUrl}/`, name: 'Napravi pozivnicu', inLanguage: 'sr-Latn' }, { '@type': 'WebPage', '@id': `${url}#page`, url, name: title, description, inLanguage: 'sr-Latn', isPartOf: { '@id': `${siteUrl}/#website` } }];
+  const graph = [{ '@type': 'WebSite', '@id': `${siteUrl}/#website`, url: `${siteUrl}/`, name: 'Napravi pozivnicu', inLanguage: 'sr-Latn' }, { '@type': infoPage?.schemaType || 'WebPage', '@id': `${url}#page`, url, name: title, description, inLanguage: 'sr-Latn', isPartOf: { '@id': `${siteUrl}/#website` } }];
+  if (infoPage) graph.push({ '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Napravi pozivnicu', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: infoPage.title, item: url }] });
   if (template?.thumbnail) {
     graph[1].primaryImageOfPage = { '@id': `${url}#image` };
     graph.push({ '@type': 'ImageObject', '@id': `${url}#image`, contentUrl: image, caption: imageAlt, width: 500, height: 700 });
@@ -42,6 +44,6 @@ export function renderTemplatePage(template, catalog) {
   return `${siteHeader('catalog')}<main id="main-content" class="container template-detail"><nav class="breadcrumbs" aria-label="Putanja"><a href="/pozivnice/">Sve pozivnice</a> / <a href="${categoryPath(template.category)}">${esc(info.title)}</a> / <span>${esc(template.name)}</span></nav><div class="detail-layout"><section><h1>${esc(template.name)}</h1><p>${esc(template.description || info.intro)}</p>${template.details ? `<p>${esc(template.details)}</p>` : ''}<p>${template.hasPhoto === false ? 'Promeni imena, poruku, datum i mesto proslave. Ovaj dizajn je osmišljen bez fotografije.' : 'Promeni tekst, unesi datum i mesto proslave i dodaj fotografiju ako dizajn ima okvir.'} Sve izmene vidiš odmah, a gotovu pozivnicu preuzimaš besplatno.</p><button class="button primary" data-open-template="${template.id}">Uredi ovu pozivnicu</button><p class="detail-benefits">Bez registracije · Bez vodenog žiga · PNG i PDF</p><h2>Preuzimanje i štampa</h2><p>PNG ima 1500 × 2100 piksela. PDF je pripremljen za štampu u formatu 12,7 × 17,78 cm, u 300 dpi. Za štampu sa prepustom proveri zahteve štamparije.</p><p><a href="${categoryPath(template.category)}">Pogledaj još pozivnica za ovaj povod →</a></p></section><div class="detail-preview">${renderCards([template])}</div></div><section class="detail-related"><h2>Još dizajna za tvoju proslavu</h2><div class="template-grid" id="template-grid">${renderCards(catalog.filter(t => t.category === template.category && t.id !== template.id).slice(0, 4))}</div></section></main>${siteFooter()}<div class="toast" id="toast" role="status" aria-live="polite"></div>${catalogData(catalog, template.category, 'detail')}`;
 }
 export function sitemap(catalog, siteUrl = SITE_URL) {
-  const entries = [{ path: '/' }, { path: '/pozivnice/' }, ...Object.keys(CATEGORY_CONTENT).map(id => ({ path: categoryPath(id) })), ...catalog.map(t => ({ path: `/pozivnice/${t.slug || t.id}/`, updatedAt: t.updatedAt }))];
+  const entries = [{ path: '/' }, { path: '/pozivnice/' }, ...INFO_PAGES.map(page => ({ path: page.path, updatedAt: page.updatedAt })), ...Object.keys(CATEGORY_CONTENT).map(id => ({ path: categoryPath(id) })), ...catalog.map(t => ({ path: `/pozivnice/${t.slug || t.id}/`, updatedAt: t.updatedAt }))];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries.map(e => `<url><loc>${esc(`${siteUrl}${e.path}`)}</loc>${e.updatedAt ? `<lastmod>${esc(e.updatedAt.slice(0, 10))}</lastmod>` : ''}</url>`).join('')}</urlset>`;
 }

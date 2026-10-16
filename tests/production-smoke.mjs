@@ -8,6 +8,7 @@ import { publicTemplates } from '../src/curated-catalog.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
+import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -64,6 +65,30 @@ try {
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
+  }
+  for (const infoPage of INFO_PAGES) {
+    await staticPage.locator(`footer a[href="${infoPage.path}"]`).click();
+    await staticPage.waitForURL(`${origin}${infoPage.path}`);
+    assert.equal(await staticPage.locator('h1').innerText(), infoPage.title);
+    assert.equal(await staticPage.title(), `${infoPage.title} — Napravi pozivnicu`);
+    assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), infoPage.description);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com${infoPage.path}`);
+    assert.equal(await staticPage.locator('main').count(), 1);
+    assert.equal(await staticPage.locator('#template-grid').count(), 0);
+    assert.equal(await staticPage.locator(`.info-nav a[aria-current="page"]`).getAttribute('href'), infoPage.path);
+    const infoGraph = JSON.parse(await staticPage.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(infoGraph.some(item => item['@type'] === infoPage.schemaType && item.url === `https://napravipozivnicu.com${infoPage.path}`));
+    assert.ok(infoGraph.some(item => item['@type'] === 'BreadcrumbList'));
+    assert.ok(await staticPage.locator('main').innerText().then(text => text.includes(CONTACT_EMAIL)));
+    if (infoPage.id === 'privacy') {
+      assert.match(await staticPage.locator('main').innerText(), /localStorage/);
+      assert.match(await staticPage.locator('main').innerText(), /trenutno nema Google AdSense oglase/);
+    }
+    if (infoPage.id === 'contact') {
+      assert.equal(await staticPage.locator('.contact-email').getAttribute('href'), `mailto:${CONTACT_EMAIL}`);
+      assert.equal(await staticPage.locator('.contact-email').innerText(), CONTACT_EMAIL);
+      assert.equal(await staticPage.locator('form').count(), 0);
+    }
   }
   await noJs.close();
 
@@ -302,6 +327,20 @@ try {
     page.off('request', watchBackgrounds);
   }
   console.log('PASS: three eighteenth-birthday designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, loaded fonts, editable names/RSVP, local drafts, no photo slot and valid PNG/PDF exports at 320px.');
+  for (const infoPage of INFO_PAGES) {
+    assert.ok(map.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
+    await page.goto(`${origin}${infoPage.path}`);
+    for (const width of [320, 390, 768, 1440]) {
+      await page.setViewportSize({ width, height: 900 });
+      assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${infoPage.title} must fit at ${width}px`);
+      assert.equal(await page.locator('.info-nav a[aria-current="page"]').count(), 1);
+    }
+    if (infoPage.id === 'contact') {
+      await page.setViewportSize({ width: 320, height: 900 });
+      await page.screenshot({ path: '/tmp/napravi-contact-mobile.png', fullPage: true });
+    }
+  }
+  console.log('PASS: privacy/about/contact work without JS, footer navigation, visible mailto contact, unique SEO and structured page types, sitemap and 320–1440px layouts.');
   assert.deepEqual(errors, []);
 
   console.log(`PASS: landing/catalog/category HTML without JS, ${landingGzip}/${catalogGzip} bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.`);

@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { publicTemplates } from '../src/curated-catalog.js';
+import { INFO_PAGES } from '../src/info-content.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5175';
@@ -24,6 +25,13 @@ try {
     await new Promise(resolve => setTimeout(resolve, 100));
   }
   assert.ok(ready, 'Development server did not start');
+  for (const infoPage of INFO_PAGES) {
+    const response = await fetch(`${origin}${infoPage.path}`);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.ok(html.includes(`<h1>${infoPage.title}</h1>`), 'Development routes render information pages instead of the homepage');
+    assert.ok(html.includes(`href="https://napravipozivnicu.com${infoPage.path}"`));
+  }
   browser = await chromium.launch({
     executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium',
     headless: true, args: ['--no-sandbox'],

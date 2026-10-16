@@ -6,6 +6,8 @@ import { publicTemplates as templates, curatedTemplates } from './src/curated-ca
 import { curatedDesign } from './src/curated-designs.js';
 import { CATEGORY_CONTENT, SITE_URL, categoryPath, categoryFromPath } from './src/seo-content.js';
 import { pageMeta, renderHead, renderDocument, renderTemplatePage, sitemap } from './src/seo.js';
+import { INFO_PAGES, infoPageFromPath } from './src/info-content.js';
+import { renderInfoPage } from './src/info-page.js';
 function localCuratedApi(server) {
   server.middlewares.use((request, response, next) => {
     const match = new URL(request.url, 'http://localhost').pathname.match(/^\/api\/templates\/([a-z0-9-]+)$/);
@@ -26,13 +28,18 @@ export default defineConfig({
       const category = categoryFromPath(requestPath) || 'all';
       const view = category !== 'all' || /^\/pozivnice\/?$/.test(requestPath) ? 'catalog' : 'landing';
       const template = templates.find(t => requestPath === `/pozivnice/${t.slug || t.id}/`);
-      return html.replace('<!--app-content-->', () => template ? renderTemplatePage(template, templates) : renderPage({ category, view })).replace('<!--seo-content-->', () => renderHead(pageMeta({ category, view, template, catalog: templates })));
+      const infoPage = infoPageFromPath(requestPath);
+      return html.replace('<!--app-content-->', () => infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, templates) : renderPage({ category, view })).replace('<!--seo-content-->', () => renderHead(pageMeta({ category, view, template, infoPage, catalog: templates })));
     } },
     async closeBundle() {
       if (process.env.VITE_DEV_SERVER) return;
       let base; try { base = await fs.readFile('dist/index.html', 'utf8'); } catch { return; }
       await fs.mkdir('dist/pozivnice', { recursive: true });
       await fs.writeFile('dist/pozivnice/index.html', renderDocument(base, renderPage({ view: 'catalog' }), pageMeta({ view: 'catalog', catalog: templates })));
+      for (const infoPage of INFO_PAGES) {
+        const file = path.join('dist', infoPage.path, 'index.html');
+        await fs.mkdir(path.dirname(file), { recursive: true }); await fs.writeFile(file, renderDocument(base, renderInfoPage(infoPage), pageMeta({ infoPage })));
+      }
       for (const category of Object.keys(CATEGORY_CONTENT)) {
         const file = path.join('dist', categoryPath(category), 'index.html');
         await fs.mkdir(path.dirname(file), { recursive: true }); await fs.writeFile(file, renderDocument(base, renderPage({ category }), pageMeta({ category, catalog: templates })));

@@ -76,6 +76,14 @@ Svih šest kategorija i svaki dizajn imaju zasebnu HTML stranicu. Naslovi, opisi
 
 Build čuva statičke primerke osnovnih stranica, a Worker dodaje objavljene šablone pri zahtevu. Za nove šablone ne treba ponavljati build. Prijava i baze moraju se aktivirati prema `ADMIN-SETUP.md`.
 
+## Informacije o sajtu
+
+`/politika-privatnosti/`, `/o-sajtu/` i `/kontakt/` imaju zaseban gotov HTML, naslov, opis, canonical, strukturirane podatke i unose u sitemap. Povezane su iz podnožja na svim javnim stranicama i dostupne bez JavaScript-a ili prijave. Worker ih prikazuje bez čitanja kataloga iz D1.
+
+Metapodaci i javna adresa `kontakt@napravipozivnicu.com` su u `src/info-content.js`, a tekst u `src/info-page.js`. Stranice se predstavljaju u ime brenda Napravi pozivnicu, bez imena i prezimena vlasnika. Kontakt koristi običan `mailto:` link; aplikacija ne šalje mejl niti prikuplja podatke preko kontakt forme. Dostava mejla zavisi od podešavanja mejl usluge za domen.
+
+Politika privatnosti opisuje sadašnju obradu u javnom editoru, lokalni nacrt, Cloudflare, kontakt poruke i odsustvo oglasa/analitike. Datum teksta je 16. oktobar 2026. Pre dodavanja reklamnih ili analitičkih usluga treba uskladiti politiku i potrebne izbore saglasnosti sa stvarnim podešavanjima.
+
 ## Provere
 
 ```sh
@@ -93,4 +101,4 @@ Admin test koristi kompajlirani Worker u Miniflare okruženju, stvarnu lokalnu D
 
 ## Pre javnog lansiranja
 
-Ubaciti konačne šablone. AdSense integracija je ostavljena za kasnije; trenutno nema reklamnih skripti, analitike ni kolačića za praćenje. Ako se uvedu oglasi, dodati odgovarajuće informacije o privatnosti i saglasnost za oglase prema njihovim zahtevima.
+Ubaciti konačne šablone. AdSense integracija je ostavljena za kasnije; trenutno nema reklamnih skripti, analitike ni kolačića za praćenje. Pre uključivanja oglasa ažurirati postojeću Politiku privatnosti i podesiti potrebna obaveštenja i saglasnosti prema uslugama koje se uvode.
