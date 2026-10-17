@@ -1,0 +1,68 @@
+[
+  {
+    "id": "zvezda-naseg-neba",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1932342,
+    "backgroundBytes": 147188,
+    "thumbnailBytes": 33870,
+    "reductionPercent": 92.4,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/zvezda-naseg-neba-pozadina-d9f85704fc10.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/zvezda-naseg-neba-pregled-d5a6d2855fcb.webp"
+  },
+  {
+    "id": "rodin-mali-dar",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1891921,
+    "backgroundBytes": 108294,
+    "thumbnailBytes": 20758,
+    "reductionPercent": 94.3,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pozadina-8fe0d49d00d7.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pregled-e2ac7d44f09e.webp"
+  },
+  {
+    "id": "mali-konjic-velika-radost",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2227914,
+    "backgroundBytes": 204416,
+    "thumbnailBytes": 28430,
+    "reductionPercent": 90.8,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/mali-konjic-velika-radost-pozadina-16f7b3c3d402.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/mali-konjic-velika-radost-pregled-0ddbc202e457.webp"
+  },
+  {
+    "id": "cvet-nase-porodice",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2237536,
+    "backgroundBytes": 212206,
+    "thumbnailBytes": 37820,
+    "reductionPercent": 90.5,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/cvet-nase-porodice-pozadina-3c1ac37803dd.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/cvet-nase-porodice-pregled-1134a0ea9ff4.webp"
+  },
+  {
+    "id": "prvi-mali-koraci",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1983015,
+    "backgroundBytes": 128928,
+    "thumbnailBytes": 20646,
+    "reductionPercent": 93.5,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pozadina-563a30ede5ca.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pregled-55fbab547746.webp"
+  },
+  {
+    "id": "kolevka-puna-ljubavi",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2208680,
+    "backgroundBytes": 217528,
+    "thumbnailBytes": 31330,
+    "reductionPercent": 90.2,
+    "backgroundUrl": "/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+    "thumbnailUrl": "/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pregled-99d0bba7909e.webp"
+  }
+]

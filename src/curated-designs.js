@@ -11,6 +11,8 @@ import { weddingAssetIds } from './wedding-assets.js';
 import { weddingDesign } from '../content/wedding-collection/designs.mjs';
 import { firstBirthdayAssetIds } from './first-birthday-assets.js';
 import { firstBirthdayDesign } from '../content/first-birthday-batch/designs.mjs';
+import { babyAssetIds } from './baby-assets.js';
+import { babyDesign } from '../content/baby-batch/designs.mjs';
 
 const batches = [
   { assets: birthdayAssetIds, build: birthdayDesign },
@@ -18,6 +20,7 @@ const batches = [
   { assets: eighteenAssetIds, build: eighteenDesign },
   { assets: weddingAssetIds, build: weddingDesign },
   { assets: firstBirthdayAssetIds, build: firstBirthdayDesign },
+  { assets: babyAssetIds, build: babyDesign },
 ];
 
 export function curatedDesign(id) {

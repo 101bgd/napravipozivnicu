@@ -1,0 +1,56 @@
+[
+  {
+    "source": 1,
+    "fileName": "Rođenje deteta 1.png",
+    "path": "sources/original-1.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1932342,
+    "sha256": "daa7e2850ee4e37c12f79866354f5d6daa1e01a2704bed03a1d8119f41ce7a4b"
+  },
+  {
+    "source": 2,
+    "fileName": "Rođenje deteta 2.png",
+    "path": "sources/original-2.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1891921,
+    "sha256": "244a91982b55d97bfa9b172a1091cbd97a48a7cab5cfc5b1162ba545734e133b"
+  },
+  {
+    "source": 3,
+    "fileName": "Rođenje deteta 3.png",
+    "path": "sources/original-3.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2227914,
+    "sha256": "aac936c2686c98c4054a100fa44f779544be935ead771485819379126a3402fa"
+  },
+  {
+    "source": 4,
+    "fileName": "Rođenje deteta 4.png",
+    "path": "sources/original-4.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2237536,
+    "sha256": "464da7a13ec4bf358fb2c0ea04f4893101a35a76f83c60f0b3c4472d625eeef5"
+  },
+  {
+    "source": 5,
+    "fileName": "Rođenje deteta 5.png",
+    "path": "sources/original-5.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1983015,
+    "sha256": "def59e16eb824673172ba926deccf065fc67ae3f4d2730e29836e76eb648d8b2"
+  },
+  {
+    "source": 6,
+    "fileName": "Rođenje deteta 6.png",
+    "path": "sources/original-6.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2208680,
+    "sha256": "5d84ccb68c52a0b0e0c92af16f2396554b0da561ef1221a45a90efbdc99d1fb7"
+  }
+]

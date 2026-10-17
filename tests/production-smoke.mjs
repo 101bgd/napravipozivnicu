@@ -11,6 +11,7 @@ import { eighteenTemplates } from '../src/eighteen-catalog.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
 import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
+import { babyTemplates } from '../src/baby-catalog.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5178';
@@ -90,6 +91,18 @@ try {
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
     assert.equal(await staticPage.locator('.ad-placement[hidden]').count(), 1);
+  }
+  await staticPage.goto(`${origin}/pozivnice-za-rodjenje-deteta/`);
+  assert.equal(await staticPage.locator('h1').innerText(), 'Pozivnice za rođenje deteta');
+  assert.equal(await staticPage.title(), 'Pozivnice za rođenje deteta i bebe — besplatno online');
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(template => template.category === 'baby').length);
+  for (const template of babyTemplates) {
+    await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.title(), template.seoTitle);
+    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
+    assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
+    assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
   }
   for (const infoPage of INFO_PAGES) {
     await staticPage.locator(`footer a[href="${infoPage.path}"]`).click();
@@ -450,6 +463,53 @@ try {
     await page.keyboard.press('Escape'); page.off('request', watch);
   }
   console.log('PASS: ten first-birthday designs have crawlable pages, unique SEO/image metadata, shared local fonts, lazy backgrounds, editable details, local drafts, valid PNG/PDF exports at 320px, no photo slot and a global ad placement on every page.');
+  for (const template of babyTemplates) {
+    assert.ok(map.includes(`/pozivnice/${template.slug}/`));
+    await page.setViewportSize({ width: 320, height: 740 });
+    const backgrounds = [];
+    const watch = request => { if (request.url().includes('/rodjenje-deteta/') && request.url().includes('-pozadina-')) backgrounds.push(request.url()); };
+    page.on('request', watch);
+    await page.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
+    assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === template.imageAlt));
+    assert.ok(graph.some(item => item['@type'] === 'BreadcrumbList'));
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    assert.deepEqual(backgrounds, [], 'Birth invitation pages use thumbnails before the editor opens');
+    assert.equal(await page.locator('.ad-placement[hidden]').count(), 1);
+    const layout = await (await fetch(`${origin}/api/templates/${template.id}`)).json();
+    assert.equal(layout.category, 'baby'); assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing(); assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    for (const layer of layout.layers.filter(layer => layer.text.includes('\n'))) assert.equal(await page.locator(`#panel-text textarea[name="${layer.field}"]`).inputValue(), layer.text);
+    const before = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    await page.locator('input[name="names"]').fill('Anđela');
+    await page.locator('input[name="date"]').fill('2027-05-15');
+    await page.locator('input[name="time"]').fill('16:30');
+    await page.locator('[name="location"]').fill('Restoran Čarolija\nCvetna 8, Niš');
+    await page.locator('input[name="rsvp"]').fill('Javite nam do 8. maja.');
+    await page.locator('textarea[name="note"]').fill('Stigla je naša mala radost.\nProslavimo zajedno!');
+    await finishDrawing(); assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), before);
+    await page.locator('.save-draft').click(); await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('input[name="names"]').inputValue(), 'Anđela');
+    assert.equal(await page.locator('[name="location"]').inputValue(), 'Restoran Čarolija\nCvetna 8, Niš');
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/baby-${template.id}.png`);
+    const png = await fs.readFile(`/tmp/baby-${template.id}.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/baby-${template.id}.pdf`);
+    const pdf = (await fs.readFile(`/tmp/baby-${template.id}.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape'); page.off('request', watch);
+  }
+  console.log('PASS: six birth invitation designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, local fonts, editable multiline details, saved drafts, valid mobile PNG/PDF downloads, no photo field and one global ad placement per page.');
   for (const infoPage of INFO_PAGES) {
     assert.ok(map.includes(`<loc>https://napravipozivnicu.com${infoPage.path}</loc>`));
     await page.goto(`${origin}${infoPage.path}`);

@@ -10,6 +10,7 @@ import { newDesign } from '../src/template-schema.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
 import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
+import { babyTemplates } from '../src/baby-catalog.js';
 const literalName="Mila $& $` $'",literalDocument=renderDocument('<html><head><!--seo-start--><title>OLD_TITLE</title><!--seo-end--></head><body>OLD_BODY</body></html>',`<main>${literalName}</main>`,{...pageMeta(),title:literalName});
 assert.ok(literalDocument.includes(`<main>${literalName}</main>`));assert.equal(literalDocument.includes('OLD_TITLE'),false);assert.equal(literalDocument.includes('OLD_BODY'),false);
 const local=await createLocalRuntime(),origin='http://localhost';
@@ -319,6 +320,39 @@ try{
   await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
   assert.equal(await visitor.locator('input[name="names"]').inputValue(),'Anđela');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
   console.log('PASS: all ten first-birthday designs appear in admin and API; private assets and fonts, edited name, original URL, SEO and ad placement survive publication.');
+  await page.locator('[data-action="back"]').click();
+  await page.locator('[data-action="edit-curated"][data-id="rodin-mali-dar"]').waitFor({state:'visible'});
+  const babyMap=await (await fetch(`${base}/sitemap.xml`)).text();
+  for(const template of babyTemplates){
+    assert.equal(await page.locator(`[data-action="edit-curated"][data-id="${template.id}"]`).count(),1);
+    const response=await fetch(`${base}/api/templates/${template.id}`);assert.equal(response.status,200);
+    const layout=await response.json();assert.equal(layout.category,'baby');assert.equal(layout.layers.some(layer=>layer.type==='photo'),false);
+    const responsePage=await fetch(`${base}/pozivnice/${template.slug}/`);assert.equal(responsePage.status,200);
+    const html=await responsePage.text();assert.ok(html.includes(`<title>${template.seoTitle}</title>`));assert.ok(html.includes(template.imageAlt));assert.ok(html.includes(template.details));
+    assert.ok(babyMap.includes(`/pozivnice/${template.slug}/`));
+  }
+  await page.locator('[data-action="edit-curated"][data-id="rodin-mali-dar"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-meta="name"]')?.value==='Rodin mali dar'&&!document.querySelector('[data-action="save"]').disabled);
+  assert.equal(await page.locator('[data-meta="category"]').inputValue(),'baby');
+  await page.locator('#layers button').filter({hasText:'Ime deteta'}).click();
+  await page.locator('[data-prop="text"]').fill('Anđela');
+  await page.locator('[data-action="save"]').click();
+  await page.waitForFunction(()=>document.querySelector('#save-state')?.textContent==='Nacrt'&&!document.querySelector('[data-action="save"]').disabled);
+  const baby=(await (await fetch(`${base}/api/admin/templates`)).json()).templates.find(t=>t.draft.builtinSource==='rodin-mali-dar');
+  assert.equal(baby.slug,'pozivnica-za-proslavu-rodjenja-bebe-roda');assert.equal(baby.draft.fonts.length,1);
+  assert.equal((await fetch(`${base}/media/${baby.draft.backgroundId}`)).status,404);
+  for(const font of baby.draft.fonts)assert.equal((await fetch(`${base}/media/${font.assetId}`)).status,404);
+  await page.locator('[data-action="publish"]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
+  const babyPublic=(await (await fetch(`${base}/api/catalog`)).json()).templates.filter(t=>t.slug===baby.slug);
+  assert.equal(babyPublic.length,1);assert.equal(babyPublic[0].id,baby.id);
+  assert.equal(babyPublic[0].seoTitle,baby.draft.seoTitle);assert.equal(babyPublic[0].details,baby.draft.details);
+  await visitor.goto(`${base}/pozivnice/${baby.slug}/`);
+  assert.equal(await visitor.title(),baby.draft.seoTitle);assert.equal(await visitor.locator('.detail-preview img').getAttribute('alt'),baby.draft.imageAlt);
+  assert.equal(await visitor.locator('.ad-placement[hidden]').count(),1);
+  await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);
+  assert.equal(await visitor.locator('input[name="names"]').inputValue(),'Anđela');assert.equal(await visitor.locator('#tab-photo').isVisible(),false);
+  console.log('PASS: six birth designs have Worker pages, descriptions and sitemap entries; admin edit copies assets/fonts privately and publishes the changed name at the same URL with SEO and ad placement preserved.');
   assert.deepEqual(errors,[]);
   console.log('PASS: published template SEO, lazy layout/font load, visitor effects/photo/PNG/PDF/draft, unchanged published snapshot after draft edits, duplicate/unpublish, sitemap removal and responsive admin.');
 }finally{await browser?.close();server?.kill('SIGTERM');await local.runtime.dispose();}

@@ -1,0 +1,87 @@
+// Metadata only; layouts and fonts load when the editor opens.
+export const babyTemplates = [
+  {
+    "id": "zvezda-naseg-neba",
+    "name": "Zvezda našeg neba",
+    "slug": "pozivnica-za-rodjenje-deteta-beba-zvezdano-nebo",
+    "seoTitle": "Pozivnica za rođenje deteta — Zvezda našeg neba",
+    "description": "Pozivnica za rođenje bebe sa zvezdanim nebom i uspavanom bebom na oblaku. Uredi ime i detalje proslave, pa besplatno preuzmi PNG ili PDF za štampu.",
+    "imageAlt": "Pozivnica za rođenje deteta sa uspavanom bebom u plavom povoju na oblaku, tamnoplavim zvezdanim nebom i svetlim rukopisnim imenom",
+    "details": "Uspavana beba na mekom oblaku i sitne zlatne zvezde uokviruju poziv na proslavu rođenja. Svetlo rukopisno ime ističe se na tamnoplavom nebu, a datum i vreme stoje jedan pored drugog. Ilustracija je deo pozadine; lična fotografija se ne dodaje.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/zvezda-naseg-neba-pregled-d5a6d2855fcb.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  },
+  {
+    "id": "rodin-mali-dar",
+    "name": "Rodin mali dar",
+    "slug": "pozivnica-za-proslavu-rodjenja-bebe-roda",
+    "seoTitle": "Pozivnica za proslavu rođenja bebe sa rodom — besplatno",
+    "description": "Besplatna pozivnica za proslavu rođenja bebe sa rodom u krem i zelenim tonovima. Promeni ime, poruku i mesto okupljanja i preuzmi sliku ili PDF.",
+    "imageAlt": "Krem pozivnica za proslavu rođenja bebe sa belom rodom koja nosi zavežljaj, nežnim zelenim oblacima i kaligrafskim imenom ispod ilustracije",
+    "details": "Bela roda nosi mali zavežljaj iznad toplog krem neba. Kaligrafsko ime i maslinastozeleni tekst smešteni su ispod njenih krila, tako da ilustracija ostane potpuno vidljiva. Promeni poruku za porodičnu proslavu ili babine. Šablon nema mesto za fotografiju.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pregled-e2ac7d44f09e.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  },
+  {
+    "id": "mali-konjic-velika-radost",
+    "name": "Mali konjić, velika radost",
+    "slug": "pozivnica-za-rodjenje-decaka-bodic-konjic",
+    "seoTitle": "Pozivnica za rođenje dečaka sa konjićem — besplatno",
+    "description": "Plava pozivnica za rođenje dečaka sa bodićem i drvenim konjićem. Upiši ime bebe i podatke proslave, pa preuzmi besplatan PNG ili PDF za štampu.",
+    "imageAlt": "Plava pozivnica za rođenje dečaka sa bodićem na vešalici, drvenim konjićem za ljuljanje i dugmićima levo, uz zaobljeno ime i podatke desno",
+    "details": "Plavi bodić, konjić za ljuljanje i mala dugmad prate levu ivicu pozivnice. Desno ostaje miran krem prostor za zaobljeno ime deteta, kratku poruku i pregledne podatke o proslavi. Tekst se uređuje odvojeno, bez dodavanja lične fotografije.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/mali-konjic-velika-radost-pregled-0ddbc202e457.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  },
+  {
+    "id": "cvet-nase-porodice",
+    "name": "Cvet naše porodice",
+    "slug": "pozivnica-za-rodjenje-devojcice-roze-bozur",
+    "seoTitle": "Pozivnica za rođenje devojčice — Cvet naše porodice",
+    "description": "Roze pozivnica za rođenje devojčice sa bebom u božuru i svečanim rukopisnim imenom. Uredi tekst i besplatno preuzmi sliku ili PDF, bez fotografije.",
+    "imageAlt": "Roze pozivnica za rođenje devojčice sa uspavanom bebom u cvetu božura na desnoj strani, tamnoružičastim kaligrafskim imenom i tekstom levo",
+    "details": "Veliki roze božur čuva uspavanu bebu, dok se levo nižu kaligrafsko ime i kratki podaci o okupljanju. Tamnoružičasta slova daju kontrast mekoj cvetnoj pozadini. Beba u cvetu je deo originalne ilustracije; ovaj dizajn nema okvir za ličnu fotografiju.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/cvet-nase-porodice-pregled-1134a0ea9ff4.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  },
+  {
+    "id": "prvi-mali-koraci",
+    "name": "Prvi mali koraci",
+    "slug": "pozivnica-za-rodjenje-bebe-pletene-patofnice",
+    "seoTitle": "Pozivnica za rođenje bebe sa patofnicama — besplatno",
+    "description": "Minimalistička pozivnica za rođenje bebe sa pletenim patofnicama i toplim peščanim tonovima. Prilagodi ime i proslavu i preuzmi besplatan PNG ili PDF.",
+    "imageAlt": "Minimalistička pozivnica za rođenje bebe sa krem pletenim patofnicama i pamukom dole desno, zelenim suncem i velikim smeđim imenom u sredini",
+    "details": "Krem papir, peščani oblici, diskretno zeleno sunce i par pletenih patofnica stvaraju topao, jednostavan okvir. Krupno ime u klasičnom fontu ostaje u središtu, a kratka rukopisna poruka je izdvojena dole levo. Poziv za devojčicu ili dečaka, bez mesta za fotografiju.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pregled-55fbab547746.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  },
+  {
+    "id": "kolevka-puna-ljubavi",
+    "name": "Kolevka puna ljubavi",
+    "slug": "pozivnica-za-rodjenje-deteta-roze-kolevka",
+    "seoTitle": "Pozivnica za rođenje deteta sa kolevkom — besplatno",
+    "description": "Pozivnica za rođenje deteta sa pletenom kolevkom i roze baldahinom. Izmeni ime, datum i mesto proslave i besplatno preuzmi PNG ili PDF za štampu.",
+    "imageAlt": "Pozivnica za rođenje deteta sa pletenom kolevkom, roze baldahinom i medom dole levo, rukopisnim imenom iznad i podacima o proslavi desno",
+    "details": "Pletena kolevka, roze baldahin i mali meda ostaju u donjem levom delu. Rukopisno ime i poruka nalaze se iznad kolevke, dok su datum, vreme i adresa poravnati u zaseban desni blok. Prilagodi poziv za proslavu rođenja ili babine, bez ubacivanja fotografije.",
+    "category": "baby",
+    "style": "custom",
+    "thumbnail": "/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pregled-99d0bba7909e.webp",
+    "hasPhoto": false,
+    "updatedAt": "2026-10-17T00:00:00Z"
+  }
+];

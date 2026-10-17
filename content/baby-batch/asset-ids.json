@@ -1,0 +1,33 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "script": "727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+    "calligraphy": "a8a45639-0d15-4793-a5ea-9c806c035b17"
+  },
+  "designs": {
+    "zvezda-naseg-neba": {
+      "background": "28ff47de-a763-496c-985f-345b78903790",
+      "thumbnail": "814ad4db-e229-498a-906e-0571971916a7"
+    },
+    "rodin-mali-dar": {
+      "background": "3ae15948-6db7-4e2d-8bb4-c977b6b964cb",
+      "thumbnail": "625880cf-7d96-4adf-8304-32f217fe5310"
+    },
+    "mali-konjic-velika-radost": {
+      "background": "6fe214aa-f00d-4855-9177-7640f29bc377",
+      "thumbnail": "6ccab1ed-bf7d-4a29-ab41-77e5ad01cbc4"
+    },
+    "cvet-nase-porodice": {
+      "background": "dd16f205-a21b-44a2-a251-c592e2f06ebf",
+      "thumbnail": "ef057c7f-b066-4b87-8401-9adccbd58bf4"
+    },
+    "prvi-mali-koraci": {
+      "background": "9624c7d2-52ff-412f-882e-0167a60fd247",
+      "thumbnail": "9c9fdbda-bb04-4e4b-99e8-10de27cac5ca"
+    },
+    "kolevka-puna-ljubavi": {
+      "background": "10212dc9-b770-48b7-9357-73d4408de57f",
+      "thumbnail": "6b9acd4f-6909-4a78-bf92-382d1bc56f27"
+    }
+  }
+}
