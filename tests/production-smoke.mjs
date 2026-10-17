@@ -8,6 +8,7 @@ import { publicTemplates } from '../src/curated-catalog.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
+import { eighteenCollectionTemplates } from '../src/eighteen-collection-catalog.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
 import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
@@ -62,12 +63,15 @@ try {
   await staticPage.goto(`${origin}/pozivnice-za-18-rodjendan/`);
   assert.match(await staticPage.locator('h1').innerText(), /18\. rođendan i punoletstvo/);
   assert.equal(await staticPage.title(), 'Pozivnice za 18. rođendan i punoletstvo — besplatno');
-  assert.equal(await staticPage.locator('.template-card h3').count(), 5);
-  for (const template of eighteenTemplates) {
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(template => template.category === 'eighteen').length);
+  for (const template of [...eighteenTemplates, ...eighteenCollectionTemplates]) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.locator('h1').innerText(), template.name);
     assert.equal(await staticPage.title(), template.seoTitle);
+    assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
+    assert.equal(await staticPage.locator('.ad-placement[hidden]').count(), 1);
   }
   await staticPage.goto(`${origin}/pozivnice-za-vencanje/`);
   assert.match(await staticPage.locator('h1').innerText(), /venčanje i svadbu/);
@@ -365,6 +369,75 @@ try {
     page.off('request', watchBackgrounds);
   }
   console.log('PASS: three eighteenth-birthday designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, loaded fonts, editable names/RSVP, local drafts, no photo slot and valid PNG/PDF exports at 320px.');
+  for (const template of eighteenCollectionTemplates) {
+    assert.ok(map.includes(`/pozivnice/${template.slug}/`));
+    await page.setViewportSize({ width: 320, height: 740 });
+    const backgrounds = [];
+    const watch = request => { if (request.url().includes('/punoletstvo-kolekcija/') && request.url().includes('-pozadina-')) backgrounds.push(request.url()); };
+    page.on('request', watch);
+    await page.goto(`${origin}/pozivnice/${template.slug}/`);
+    assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
+    assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
+    const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
+    assert.ok(graph.some(item => item['@type'] === 'ImageObject' && item.caption === template.imageAlt));
+    assert.ok(graph.some(item => item['@type'] === 'BreadcrumbList'));
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    assert.deepEqual(backgrounds, [], 'Eighteenth-birthday detail pages use thumbnails before opening the editor');
+    assert.equal(await page.locator('.ad-placement[hidden]').count(), 1);
+    const layout = await (await fetch(`${origin}/api/templates/${template.id}`)).json();
+    assert.equal(layout.category, 'eighteen');
+    assert.equal(layout.layers.some(layer => layer.type === 'photo'), false);
+    // Observe the text actually drawn, including letter-spaced names, instead
+    // of checking only the form values before export.
+    await page.evaluate(() => {
+      window.drawnCollectionText = [];
+      const original = CanvasRenderingContext2D.prototype.fillText;
+      CanvasRenderingContext2D.prototype.fillText = function(text, ...args) {
+        if (this.canvas.id === 'editor-canvas') window.drawnCollectionText.push(String(text));
+        return original.call(this, text, ...args);
+      };
+    });
+    await page.locator('[data-open-template]').click();
+    await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    await finishDrawing();
+    assert.ok(backgrounds.length > 0, 'The full background loads when opening the editor');
+    assert.equal(await page.locator('#tab-photo').isVisible(), false);
+    assert.equal(await page.locator('input[name="age"]').inputValue(), '18');
+    for (const font of layout.fonts) assert.ok(await page.evaluate(family => [...document.fonts].some(face => face.family === family && face.status === 'loaded'), font.family));
+    for (const layer of layout.layers.filter(layer => layer.type === 'text' && layer.editable && layer.text.includes('\n'))) {
+      assert.equal(await page.locator(`#panel-text textarea[name="${layer.field}"]`).inputValue(), layer.text);
+    }
+    const before = await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL());
+    await page.locator('input[name="names"]').fill('Đorđe');
+    await page.locator('input[name="date"]').fill('2027-05-15');
+    await page.locator('input[name="time"]').fill('20:30');
+    await page.locator('textarea[name="location"]').fill('Restoran Čarolija\nCvetna 8, Niš');
+    await page.locator('[name="rsvp"]').fill('Potvrdi dolazak do 8. maja.');
+    await page.locator('textarea[name="note"]').fill('Osamnaest želja.\nProslavi ih sa mnom!');
+    await finishDrawing();
+    assert.notEqual(await page.locator('#editor-canvas').evaluate(canvas => canvas.toDataURL()), before);
+    assert.ok(await page.evaluate(() => window.drawnCollectionText.join('').toLocaleLowerCase('sr').includes('đorđe')),
+      'Serbian diacritics must reach the canvas renderer');
+    await page.locator('.save-draft').click(); await page.keyboard.press('Escape');
+    await page.locator('[data-open-template]').click(); await page.waitForFunction(() => document.querySelector('#editor')?.open);
+    assert.equal(await page.locator('input[name="names"]').inputValue(), 'Đorđe');
+    assert.equal(await page.locator('textarea[name="location"]').inputValue(), 'Restoran Čarolija\nCvetna 8, Niš');
+    assert.equal(await page.locator('textarea[name="note"]').inputValue(), 'Osamnaest želja.\nProslavi ih sa mnom!');
+    assert.equal(await page.locator('[name="rsvp"]').inputValue(), 'Potvrdi dolazak do 8. maja.');
+    const pngDownload = page.waitForEvent('download'); await page.locator('.export-png').click();
+    await (await pngDownload).saveAs(`/tmp/eighteen-collection-${template.id}.png`);
+    const png = await fs.readFile(`/tmp/eighteen-collection-${template.id}.png`);
+    assert.equal(png.readUInt32BE(16), 1500); assert.equal(png.readUInt32BE(20), 2100);
+    const pdfDownload = page.waitForEvent('download'); await page.locator('.export-pdf').click();
+    await (await pdfDownload).saveAs(`/tmp/eighteen-collection-${template.id}.pdf`);
+    const pdf = (await fs.readFile(`/tmp/eighteen-collection-${template.id}.pdf`)).toString('latin1');
+    assert.ok(pdf.startsWith('%PDF'));
+    const box = pdf.match(/\/MediaBox \[0 0 ([\d.]+) ([\d.]+)\]/);
+    assert.ok(box && Math.abs(Number(box[1]) - 360) < .001 && Math.abs(Number(box[2]) - 504) < .001);
+    assert.ok(await page.locator('#editor').evaluate(dialog => dialog.scrollWidth <= dialog.clientWidth));
+    await page.keyboard.press('Escape'); page.off('request', watch);
+  }
+  console.log('PASS: nine new eighteenth-birthday designs have crawlable SEO pages, image metadata, lazy full backgrounds, loaded fonts, rendered Serbian diacritics, editable multiline locations/notes, local drafts, no photo field, ad placements and real PNG/PDF downloads at 320px.');
   for (const template of weddingTemplates) {
     assert.ok(map.includes(`/pozivnice/${template.slug}/`));
     await page.setViewportSize({ width: 320, height: 740 });

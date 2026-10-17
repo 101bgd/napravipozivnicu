@@ -1,0 +1,101 @@
+[
+  {
+    "id": "terakota-ritam",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2193521,
+    "backgroundBytes": 191926,
+    "thumbnailBytes": 35192,
+    "reductionPercent": 91.3,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/terakota-ritam-pozadina-de8ed7e00446.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/terakota-ritam-pregled-bea8f012abc8.webp"
+  },
+  {
+    "id": "ledeni-hologram",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1727944,
+    "backgroundBytes": 96728,
+    "thumbnailBytes": 28214,
+    "reductionPercent": 94.4,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pozadina-f0ce23fe9003.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pregled-f6a14c14149d.webp"
+  },
+  {
+    "id": "zlatni-disko-ritam",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2532945,
+    "backgroundBytes": 350202,
+    "thumbnailBytes": 29746,
+    "reductionPercent": 86.2,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/zlatni-disko-ritam-pozadina-dfc85eb5d23e.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/zlatni-disko-ritam-pregled-08bb3c918ff0.webp"
+  },
+  {
+    "id": "masna-u-ponoc",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2107487,
+    "backgroundBytes": 157648,
+    "thumbnailBytes": 26982,
+    "reductionPercent": 92.5,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/masna-u-ponoc-pozadina-0315e238b8d2.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/masna-u-ponoc-pregled-5d0873b86cb1.webp"
+  },
+  {
+    "id": "bordo-nokturno",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2015359,
+    "backgroundBytes": 172938,
+    "thumbnailBytes": 35774,
+    "reductionPercent": 91.4,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/bordo-nokturno-pozadina-9b87a98d1c4e.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/bordo-nokturno-pregled-bdbccff9c437.webp"
+  },
+  {
+    "id": "leptirov-novi-let",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1892175,
+    "backgroundBytes": 143864,
+    "thumbnailBytes": 30470,
+    "reductionPercent": 92.4,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pozadina-488e613c1176.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pregled-3789010b24c7.webp"
+  },
+  {
+    "id": "smaragdna-premijera",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2379361,
+    "backgroundBytes": 289380,
+    "thumbnailBytes": 46474,
+    "reductionPercent": 87.8,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/smaragdna-premijera-pozadina-b5940e8056ee.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/smaragdna-premijera-pregled-c951d8519027.webp"
+  },
+  {
+    "id": "pun-gas-do-osamnaeste",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2683988,
+    "backgroundBytes": 367228,
+    "thumbnailBytes": 51668,
+    "reductionPercent": 86.3,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pregled-d83988a51875.webp"
+  },
+  {
+    "id": "kobaltna-noc",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1791390,
+    "backgroundBytes": 160586,
+    "thumbnailBytes": 34736,
+    "reductionPercent": 91,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-kolekcija/kobaltna-noc-pozadina-23d817595141.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-kolekcija/kobaltna-noc-pregled-17b3cabd3038.webp"
+  }
+]

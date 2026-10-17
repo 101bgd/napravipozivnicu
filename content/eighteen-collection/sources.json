@@ -1,0 +1,83 @@
+[
+  {
+    "source": 1,
+    "fileName": "Terakota sunce i šahovski talas-1.png",
+    "path": "sources/original-1.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2193521,
+    "sha256": "32e681ca435c1e5150c3712339b4afac724422c28dc50e27d9603cb679eb92ae"
+  },
+  {
+    "source": 2,
+    "fileName": "Holografske trake u ledenom plavetnilu-2.png",
+    "path": "sources/original-2.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1727944,
+    "sha256": "d24937a0422066ce01b95520ae2d313a60bab13e95d01f52c6ced933a9f7079f"
+  },
+  {
+    "source": 3,
+    "fileName": "Retro disko kugla na zlatnoj pozadini-3.png",
+    "path": "sources/original-3.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2532945,
+    "sha256": "a55ea64b68f53fc368d68b4cd75586b467cd98ce17a3d26193a425b40e40f29a"
+  },
+  {
+    "source": 4,
+    "fileName": "Ružičasta elegancija sa crnom mašnom-4.png",
+    "path": "sources/original-4.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2107487,
+    "sha256": "76a25827f495aded60728ecc657aff8981d13e55bac17b79821e7ff4d49a8c96"
+  },
+  {
+    "source": 5,
+    "fileName": "Bordo ruža u svilenom sumraku-5.png",
+    "path": "sources/original-5.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2015359,
+    "sha256": "60b1e7ff65bd1c8890093eb313ddedf740b81a09600ddd39472ac2be28f6888d"
+  },
+  {
+    "source": 6,
+    "fileName": "Stakleni leptiri na lavandinoj organzi-6.png",
+    "path": "sources/original-6.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1892175,
+    "sha256": "752a8a0da36e476a7ed52b0263ab6820225f38bc8be351192f8e5fd820e8cdfc"
+  },
+  {
+    "source": 7,
+    "fileName": "Smaragdni art deko sa zlatnim zracima-7.png",
+    "path": "sources/original-7.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2379361,
+    "sha256": "d00299049bc86b579e973cbcf0706ca4bcdf254e27f9a17642b2e9520591dc76"
+  },
+  {
+    "source": 8,
+    "fileName": "Crvena trkačka pruga i šahovnica-8.png",
+    "path": "sources/original-8.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2683988,
+    "sha256": "a39cf3bec34114e7c846706277d0ed017d2de7dbb6592aa2e4b54737fefbf4d5"
+  },
+  {
+    "source": 9,
+    "fileName": "Platinasti zraci nad kobaltnom noći-9.png",
+    "path": "sources/original-9.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1791390,
+    "sha256": "62311b9228ef6d77d97f709f278bfb845971a3870927ef61cddcc15380f60b2d"
+  }
+]
