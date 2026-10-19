@@ -169,8 +169,8 @@ try {
     }, await canvas.getAttribute('data-canvas'));
   }
   const originalThumbnail = await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL());
-  await page.locator('.category-tabs [data-category="baptism"]').click();
-  await page.locator('.category-tabs [data-category="all"]').click();
+  await page.locator('#search').fill('Nezno cvece');
+  await page.locator('#search').fill('');
   assert.equal(await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL()), originalThumbnail,
     'Filtering must preserve a previously rendered preview');
 

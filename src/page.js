@@ -3,9 +3,10 @@ import { publicTemplates as builtinTemplates } from './curated-catalog.js';
 import { escapeHtml as esc } from './ui.js';
 import { icon } from './ui.js';
 import { categoryPath } from './seo-content.js';
-import { catalogData, renderCategoryContent } from './seo.js';
+import { catalogData } from './seo.js';
 import { siteHeader, siteFooter } from './site-shell.js';
 import { renderCatalogPage } from './catalog-page.js';
+import { renderCategoryPage } from './category-page.js';
 
 const cta = (classes = '') => `<a href="/pozivnice/" class="button primary ${classes}"><span>Napravi pozivnicu</span><span class="button-arrow">${icon('arrow')}</span></a>`;
 const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${icon(c.icon)}<span>${c.label}</span>${icon('arrow')}</a>`).join('');
@@ -55,6 +56,8 @@ function landing() {
 </main><div class="mobile-create-bar" inert aria-hidden="true">${cta()}<span>Besplatno, od prvog klika.</span></div>`;
 }
 export function renderPage({catalog = builtinTemplates, category = 'all', view = category === 'all' ? 'landing' : 'catalog'} = {}) {
-  const content = view === 'landing' ? landing() : `<main id="main-content">${renderCatalogPage({catalog,category})}${renderCategoryContent(category)}</main>`;
-  return siteHeader(view === 'catalog' ? 'catalog' : '') + content + siteFooter() + '<div class="toast" id="toast" role="status" aria-live="polite"></div>' + catalogData(view === 'landing' ? [] : catalog,category,view);
+  const isCategory = category !== 'all';
+  const content = isCategory ? renderCategoryPage({ catalog, category }) : view === 'landing' ? landing() : `<main id="main-content">${renderCatalogPage({catalog,category})}</main>`;
+  const pageCatalog = view === 'landing' ? [] : isCategory ? catalog.filter(t => t.category === category) : catalog;
+  return siteHeader(view === 'catalog' ? 'catalog' : '', isCategory ? '#designs' : '/pozivnice/') + content + siteFooter('', isCategory ? '#designs' : '/pozivnice/') + '<div class="toast" id="toast" role="status" aria-live="polite"></div>' + catalogData(pageCatalog,category,view);
 }

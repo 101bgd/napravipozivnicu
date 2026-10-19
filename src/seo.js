@@ -3,6 +3,7 @@ import { escapeHtml as esc } from './ui.js';
 import { renderCards } from './catalog-view.js';
 import { siteHeader, siteFooter } from './site-shell.js';
 import { INFO_PAGES } from './info-content.js';
+import { categoryHighlights } from './category-content.js';
 export const safeJson = value => JSON.stringify(value).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026');
 export function pageMeta({ category = 'all', template = null, infoPage = null, catalog = [], siteUrl = SITE_URL, view = 'landing' } = {}) {
   const info = CATEGORY_CONTENT[category];
@@ -10,11 +11,12 @@ export function pageMeta({ category = 'all', template = null, infoPage = null, c
   const title = infoPage ? `${infoPage.title} — Napravi pozivnicu` : template ? template.seoTitle || `${template.name} — ${CATEGORY_CONTENT[template.category].title}` : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
   const description = infoPage?.description || (template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || 'Napravi besplatnu pozivnicu za rođendan, venčanje, krštenje ili rođenje deteta. Uredi tekst i fotografiju i preuzmi PNG ili PDF, bez registracije.');
   const url = `${siteUrl}${path}`;
-  const image = `${siteUrl}${template?.thumbnail || '/social-preview.png'}`;
-  const imageAlt = template?.imageAlt || template?.name || 'Napravi pozivnicu — besplatne pozivnice za tvoju proslavu';
-  const graph = [{ '@type': 'WebSite', '@id': `${siteUrl}/#website`, url: `${siteUrl}/`, name: 'Napravi pozivnicu', inLanguage: 'sr-Latn' }, { '@type': infoPage?.schemaType || 'WebPage', '@id': `${url}#page`, url, name: title, description, inLanguage: 'sr-Latn', isPartOf: { '@id': `${siteUrl}/#website` } }];
+  const featured = template || (info ? categoryHighlights(catalog, category)[0] : null);
+  const image = `${siteUrl}${featured?.thumbnail || '/social-preview.png'}`;
+  const imageAlt = featured?.imageAlt || featured?.name || 'Napravi pozivnicu — besplatne pozivnice za tvoju proslavu';
+  const graph = [{ '@type': 'WebSite', '@id': `${siteUrl}/#website`, url: `${siteUrl}/`, name: 'Napravi pozivnicu', inLanguage: 'sr-Latn' }, { '@type': infoPage?.schemaType || (!template && (info || view === 'catalog') ? 'CollectionPage' : 'WebPage'), '@id': `${url}#page`, url, name: title, description, inLanguage: 'sr-Latn', isPartOf: { '@id': `${siteUrl}/#website` } }];
   if (infoPage) graph.push({ '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Napravi pozivnicu', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: infoPage.title, item: url }] });
-  if (template?.thumbnail) {
+  if (featured?.thumbnail) {
     graph[1].primaryImageOfPage = { '@id': `${url}#image` };
     graph.push({ '@type': 'ImageObject', '@id': `${url}#image`, contentUrl: image, caption: imageAlt, width: 500, height: 700 });
   }
@@ -23,20 +25,20 @@ export function pageMeta({ category = 'all', template = null, infoPage = null, c
     if (template) items.push({ '@type': 'ListItem', position: 3, name: template.name, item: url });
     graph.push({ '@type': 'BreadcrumbList', itemListElement: items });
   }
-  if (!template && (info || view === 'catalog')) graph.push({ '@type': 'ItemList', itemListElement: catalog.filter(t => category === 'all' || t.category === category).map((t, index) => ({ '@type': 'ListItem', position: index + 1, name: t.name, url: `${siteUrl}/pozivnice/${t.slug || t.id}/` })) });
-  return { title, description, url, image, imageAlt, structured: { '@context': 'https://schema.org', '@graph': graph } };
+  if (!template && (info || view === 'catalog')) {
+    const items = catalog.filter(t => category === 'all' || t.category === category);
+    graph[1].mainEntity = { '@id': `${url}#designs` };
+    graph.push({ '@type': 'ItemList', '@id': `${url}#designs`, numberOfItems: items.length, itemListElement: items.map((t, index) => ({ '@type': 'ListItem', position: index + 1, name: t.name, url: `${siteUrl}/pozivnice/${t.slug || t.id}/` })) });
+  }
+  return { title, description, url, image, imageAlt, preloadImage: info && !template ? featured?.thumbnail : null, structured: { '@context': 'https://schema.org', '@graph': graph } };
 }
 export function renderHead(meta) {
-  return `<title>${esc(meta.title)}</title><meta name="description" content="${esc(meta.description)}"><link rel="canonical" href="${esc(meta.url)}"><meta property="og:type" content="website"><meta property="og:locale" content="sr_RS"><meta property="og:site_name" content="Napravi pozivnicu"><meta property="og:title" content="${esc(meta.title)}"><meta property="og:description" content="${esc(meta.description)}"><meta property="og:url" content="${esc(meta.url)}"><meta property="og:image" content="${esc(meta.image)}"><meta property="og:image:alt" content="${esc(meta.imageAlt || meta.title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(meta.title)}"><meta name="twitter:description" content="${esc(meta.description)}"><meta name="twitter:image" content="${esc(meta.image)}"><meta name="twitter:image:alt" content="${esc(meta.imageAlt || meta.title)}"><script type="application/ld+json">${safeJson(meta.structured)}</script>`;
+  return `${meta.preloadImage ? `<link rel="preload" as="image" href="${esc(meta.preloadImage)}" fetchpriority="high">` : ''}<title>${esc(meta.title)}</title><meta name="description" content="${esc(meta.description)}"><link rel="canonical" href="${esc(meta.url)}"><meta property="og:type" content="website"><meta property="og:locale" content="sr_RS"><meta property="og:site_name" content="Napravi pozivnicu"><meta property="og:title" content="${esc(meta.title)}"><meta property="og:description" content="${esc(meta.description)}"><meta property="og:url" content="${esc(meta.url)}"><meta property="og:image" content="${esc(meta.image)}"><meta property="og:image:alt" content="${esc(meta.imageAlt || meta.title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(meta.title)}"><meta name="twitter:description" content="${esc(meta.description)}"><meta name="twitter:image" content="${esc(meta.image)}"><meta name="twitter:image:alt" content="${esc(meta.imageAlt || meta.title)}"><script type="application/ld+json">${safeJson(meta.structured)}</script>`;
 }
 export function renderDocument(baseHtml, content, meta) {
   const body = baseHtml.match(/<body[^>]*>([\s\S]*)<\/body>/i)?.[1] || '';
   const scripts = [...body.matchAll(/<script\b[^>]*\bsrc=[^>]*>[\s\S]*?<\/script>/gi)].map(match => match[0]).join('');
   return baseHtml.replace(/<!--seo-start-->[\s\S]*?<!--seo-end-->/, () => `<!--seo-start-->${renderHead(meta)}<!--seo-end-->`).replace(/<body[^>]*>[\s\S]*<\/body>/i, () => `<body><div id="app">${content}</div>${scripts}</body>`);
-}
-export function renderCategoryContent(category) {
-  const info = CATEGORY_CONTENT[category]; if (!info) return '';
-  return `<section class="category-guide container"><h2>Kako napraviti pozivnicu: ${esc(info.title.toLowerCase())}</h2><p>${esc(info.intro)}</p><h3>Primer teksta za pozivnicu</h3><blockquote>${esc(info.sample)}</blockquote><h3>Šta napisati na pozivnici?</h3><p>${esc(info.tip)}</p><p>Izaberite dizajn, unesite podatke i proverite pregled. PNG je namenjen deljenju, a PDF je u formatu 12,7 × 17,78 cm za štampu u stvarnoj veličini.</p></section>`;
 }
 export function catalogData(catalog, category = 'all', pageType = 'catalog') { return `<script id="catalog-data" type="application/json">${safeJson({ templates: catalog, category, pageType })}</script>`; }
 export function renderTemplatePage(template, catalog) {

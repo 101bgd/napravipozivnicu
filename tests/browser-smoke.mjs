@@ -5,6 +5,7 @@ import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { INFO_PAGES } from '../src/info-content.js';
+import { categoryPath } from '../src/seo-content.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const origin = 'http://127.0.0.1:5175';
@@ -57,7 +58,8 @@ try {
   for (const category of ['first', 'eighteen', 'birthday', 'wedding', 'baptism', 'baby']) {
     await categoryButton(page, category).click();
     assert.equal(await page.locator('.template-card').count(), publicTemplates.filter(t => t.category === category).length);
-    assert.equal(await categoryButton(page, category).getAttribute('aria-pressed'), 'true');
+    await page.waitForURL(`${origin}${categoryPath(category)}`);
+    assert.equal(await categoryButton(page, category).getAttribute('aria-current'), 'page');
   }
   await categoryButton(page, 'all').click();
   await page.locator('#search').fill('Nezno cvece');
@@ -168,7 +170,7 @@ try {
   assert.equal(reducedMotionState.longRunning, 0, 'Reduced motion must stop long-running hero animations');
   assert.ok(reducedMotionState.headingOpacity > 0 && reducedMotionState.ctaOpacity > 0, 'Reduced motion must leave key content visible');
   assert.deepEqual(errors, []);
-  console.log(`PASS: landing CTA and browser Back, ${publicTemplates.length} templates, 6 category filters, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.`);
+  console.log(`PASS: landing CTA and browser Back, ${publicTemplates.length} templates, 6 category landing pages and native navigation, search/empty state, text/style edits, photo upload/drag/zoom, local draft restore, 1500×2100 PNG, 127×177.8 mm PDF, 320/390/768/1440px layouts, mobile menu/editor, reduced motion, no browser errors.`);
 } finally {
   await browser?.close(); server.kill('SIGTERM');
 }

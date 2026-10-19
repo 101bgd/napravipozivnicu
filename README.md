@@ -35,7 +35,7 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
 - Deset pozivnica za prvi rođendan: safari, vozić, labudovi, vila, kit, psić pilot, meda na Mesecu, dve varijante zeke u balonu i trešnjice. Bez fotografije, sa čitljivim razigranim/rukopisnim fontovima i izmenjivim imenom, brojem, datumom, vremenom, lokacijom i potvrdom dolaska. Pozadine su 88–95% manje uz iste dimenzije; [priprema i SEO istraživanje](content/first-birthday-batch/README.md). Nove stranice koriste ista globalna AdSense podešavanja iz admina.
-- Šest preostalih probnih šablona, filtriranje i pretraga po nazivu, kategoriji i opisu.
+- Šest preostalih probnih šablona; pretraga po nazivu, kategoriji i opisu. Meni kategorija koristi obične linkove do zasebnih landing stranica, dostupne i bez JavaScript-a.
 - Četiri dečje pozivnice u kategoriji Rođendani: Dino avantura, Svemirska misija, Mala sirena i Čarobni ringišpil. Imaju izmenjivo ime i godine, razigrane fontove Baloo 2/DynaPuff i nemaju okvir za fotografiju. Pozadine su 86–92% manje od originala, uz iste dimenzije.
 - Četiri svečane pozivnice za krštenje: Anđeoski blagoslov, Golubica mira, Put svetlosti i Svetlost krštenja. Bez fotografije, sa odvojenim detaljima obreda i proslave, serifnim i kaligrafskim fontovima za srpsku ćirilicu i latinicu. Pozadine su 86–91% manje; priprema i licence opisane su u [content/baptism-batch/README.md](content/baptism-batch/README.md).
 - Tri pozivnice za 18. rođendan i punoletstvo: Disko sjaj, Saten i biseri i Zlatni trenutak. Bez fotografije, sa velikim brojem 18, izmenjivim imenom i potvrdom dolaska. Koriste postojeće lokalne fontove; pozadine su 90–95% manje. Detalji i ograničenje istraživanja ključnih reči su u [content/eighteen-batch/README.md](content/eighteen-batch/README.md).
@@ -74,7 +74,9 @@ Otvori `http://127.0.0.1:5180/admin/sabloni/`. Koristi stvarni kompajlirani Work
 
 ## SEO
 
-Svih šest kategorija i svaki dizajn imaju zasebnu HTML stranicu. Naslovi, opisi, canonical, Open Graph, JSON-LD i sitemap prate objavljene šablone. Admin, API i `pages.dev` pregledi nisu namenjeni indeksiranju. `src/seo-content.js` sadrži tekstove kategorija, a `src/seo.js` generiše metapodatke. Server vraća isti katalog koji posetilac vidi; samo objavljene verzije dostupne su javno.
+Svih šest kategorija ima poseban landing page na postojećoj adresi: uvod i paletu za svoju priliku, animirane preglede trenutno objavljenih dizajna, dugme do izbora šablona na istoj stranici, primere teksta sa kopiranjem, praktične savete i pitanja. Svaki dizajn i dalje ima zasebnu HTML stranicu. Naslovi, opisi, canonical, Open Graph, JSON-LD i sitemap prate objavljene šablone. Admin, API i `pages.dev` pregledi nisu namenjeni indeksiranju. `src/seo-content.js` sadrži SEO metapodatke, `src/category-content.js` tekstove i izbor pregleda, `src/category-page.js` prikaz kategorija, a `src/seo.js` generiše metapodatke i strukturirane podatke. `CollectionPage`, `ItemList`, `BreadcrumbList` i `ImageObject` opisuju stvarno vidljiv sadržaj. Glavna slika kategorije ima prioritetno učitavanje i odgovara slici za deljenje. Katalog prosleđen editoru ograničen je na aktivnu kategoriju; editor, fontovi pozivnice i PDF kod ostaju odloženi. Server vraća isti katalog koji posetilac vidi; samo objavljene verzije dostupne su javno.
+
+Animacije kategorija koriste CSS transformacije i providnost, bez dodatne biblioteke ili video fajlova. Pauziraju se izvan ekrana, na skrivenoj kartici i dok je editor otvoren. Posetilac može da ih pauzira, a sistemsko smanjeno kretanje ih isključuje. Obični linkovi rade i u pregledačima bez podrške za prelaze između dokumenata.
 
 Build čuva statičke primerke osnovnih stranica, a Worker dodaje objavljene šablone pri zahtevu. Za nove šablone ne treba ponavljati build. Prijava i baze moraju se aktivirati prema `ADMIN-SETUP.md`.
 
@@ -104,9 +106,10 @@ npm test
 npm run test:production
 npm run test:admin
 npm run test:adsense
+node tests/category-landings.mjs # nakon build-a
 ```
 
-Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava prelaz sa početne strane u katalog i povratak, svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, prikaze na 320/390/768/1440 px, mobilni meni, zatvaranje tastaturom, smanjeno kretanje i greške pregledača. Testne slike i PDF su u `/tmp/`.
+Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava prelaz sa početne strane u katalog i povratak, navigaciju do svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, prikaze na 320/390/768/1440 px, mobilni meni, zatvaranje tastaturom, smanjeno kretanje i greške pregledača. Testne slike i PDF su u `/tmp/`.
 
 Produkcijski test pokreće zaseban preview na portu 5178. Proverava gotov HTML bez JavaScript-a, budžet početnog koda, odloženo učitavanje editora/PDF-a, pojavljivanje pregleda pri skrolovanju, filtriranje i ispravnost ponovljenog crtanja editora.
 
@@ -117,3 +120,5 @@ AdSense test koristi stvarni lokalni Worker/D1 i Chromium, uz presretnut Google 
 ## Pre javnog lansiranja
 
 Ubaciti konačne šablone. Za oglase dodati stvarni AdSense kod u zaštićeni panel i podesiti potrebne Google poruke o saglasnosti. Analitika nije uključena; pri dodavanju novih usluga uskladiti Politiku privatnosti sa stvarnom obradom.
+
+Test `tests/category-landings.mjs` koristi kompajlirani Worker i proverava šest kategorija bez JavaScript-a, metapodatke i sitemap, trenutno objavljene hero preglede, 24 kombinacije kategorije i širine ekrana, početni JS ispod 10 KB gzip, odloženo učitavanje editora, pretragu unutar kategorije, tastaturu, povratak u pregledaču, stvarno kopiranje primera teksta, pauzu animacija i smanjeno kretanje. SEO provere potvrđuju tehničku dostupnost sadržaja; ne garantuju indeksiranje ili pozicije na Google-u.

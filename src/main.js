@@ -1,5 +1,6 @@
 import './fonts.css';
 import './style.css';
+import './category.css';
 import { categories, defaultData } from './templates.js';
 import { templates, initialCategory } from './catalog-state.js';
 import { renderInvitation } from './render.js';
@@ -57,9 +58,16 @@ function renderGrid(){
   if(!reducedMotion.matches)grid.animate([{opacity:.35,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:320,easing:'cubic-bezier(.22,1,.36,1)'});
 }
 observeThumbnails();
-document.querySelector('.category-tabs')?.addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(!b)return;if(initialCategory!=='all'&&b.dataset.category!==initialCategory){location.href=b.dataset.categoryUrl;return;}activeCategory=b.dataset.category;document.querySelectorAll('.category-tab').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',el===b);});renderGrid();document.querySelector('#designs-title')?.focus({preventScroll:true});document.querySelector('#designs')?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});});
 document.querySelector('#search')?.addEventListener('input',e=>{search=searchable(e.target.value.trim());renderGrid();});
-document.querySelector('#template-grid')?.addEventListener('click',e=>{const b=e.target.closest('[data-template]');if(b)openEditor(b.dataset.template,b);if(e.target.closest('#clear-search')){if(!document.querySelector('#search')||initialCategory!=='all'){location.href='/pozivnice/';return;}activeCategory='all';search='';if(document.querySelector('#search'))document.querySelector('#search').value='';document.querySelectorAll('.category-tab').forEach(b=>{b.classList.toggle('active',b.dataset.category==='all');b.setAttribute('aria-pressed',b.dataset.category==='all');});renderGrid();document.querySelector('#search')?.focus();}});
+document.querySelector('#template-grid')?.addEventListener('click',e=>{
+  const button=e.target.closest('[data-template]');
+  if(button)openEditor(button.dataset.template,button);
+  if(e.target.closest('#clear-search')){
+    const input=document.querySelector('#search');
+    if(!input){location.href='/pozivnice/';return;}
+    activeCategory=initialCategory;search='';input.value='';renderGrid();input.focus();
+  }
+});
 const menuButton=document.querySelector('.menu-toggle'),navigation=document.querySelector('.navigation');
 function toggleMenu(open){menuButton?.setAttribute('aria-expanded',String(open));menuButton?.setAttribute('aria-label',open?'Zatvori meni':'Otvori meni');navigation?.classList.toggle('open',open);}
 menuButton?.addEventListener('click',()=>toggleMenu(menuButton.getAttribute('aria-expanded')!=='true'));
@@ -74,8 +82,14 @@ const revealObserver=new IntersectionObserver(entries=>{for(const entry of entri
 document.querySelectorAll('[data-reveal]').forEach(el=>revealObserver.observe(el));
 document.documentElement.classList.add('motion-ready');
 const heroCta=document.querySelector('.hero-cta'),mobileBar=document.querySelector('.mobile-create-bar');
-if(heroCta&&mobileBar){new IntersectionObserver(([entry])=>{const show=!entry.isIntersecting&&entry.boundingClientRect.bottom<0;document.body.classList.toggle('show-mobile-cta',show);mobileBar.inert=!show;mobileBar.setAttribute('aria-hidden',String(!show));},{threshold:0}).observe(heroCta);}
-const heroArt=document.querySelector('.hero-art');
+if(heroCta&&mobileBar){
+  let pastHero=false,designsVisible=false;
+  const syncBar=()=>{const show=pastHero&&!designsVisible;document.body.classList.toggle('show-mobile-cta',show);mobileBar.inert=!show;mobileBar.setAttribute('aria-hidden',String(!show));};
+  new IntersectionObserver(([entry])=>{pastHero=!entry.isIntersecting&&entry.boundingClientRect.bottom<0;syncBar();}).observe(heroCta);
+  const designs=document.querySelector('.collection-catalog');
+  if(designs)new IntersectionObserver(([entry])=>{designsVisible=entry.isIntersecting;syncBar();}).observe(designs);
+}
+const heroArt=document.querySelector('.hero-art,.collection-stage');
 if(heroArt){
   let pointerFrame=0;
   heroArt.addEventListener('pointermove',e=>{if(reducedMotion.matches||e.pointerType!=='mouse')return;cancelAnimationFrame(pointerFrame);pointerFrame=requestAnimationFrame(()=>{const rect=heroArt.getBoundingClientRect();heroArt.style.setProperty('--pointer-x',`${((e.clientX-rect.left)/rect.width-.5)*12}px`);heroArt.style.setProperty('--pointer-y',`${((e.clientY-rect.top)/rect.height-.5)*12}px`);});});
@@ -83,4 +97,27 @@ if(heroArt){
   new IntersectionObserver(([entry])=>heroArt.classList.toggle('is-paused',!entry.isIntersecting)).observe(heroArt);
 }
 
-document.querySelector('.catalog-change')?.addEventListener('click',()=>{document.querySelector('.category-tab.active')?.focus({preventScroll:true});document.querySelector('.occasion-picker')?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});});
+document.querySelector('button.catalog-change')?.addEventListener('click',()=>{document.querySelector('.category-tab.active')?.focus({preventScroll:true});document.querySelector('.occasion-picker')?.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});});
+
+// Category interactions add no framework, scroll loop, or animation dependency.
+const collection=document.querySelector('.category-landing');
+if(collection){
+  const scenes=new IntersectionObserver(entries=>{for(const entry of entries)entry.target.classList.toggle('is-scene-paused',!entry.isIntersecting);});
+  collection.querySelectorAll('[data-motion-scene]').forEach(scene=>scenes.observe(scene));
+  document.addEventListener('visibilitychange',()=>document.documentElement.classList.toggle('page-motion-paused',document.hidden));
+  const toggle=collection.querySelector('[data-motion-toggle]');
+  toggle.hidden=false;
+  toggle.addEventListener('click',()=>{
+    const paused=collection.classList.toggle('is-motion-paused');
+    toggle.setAttribute('aria-pressed',String(paused));
+    toggle.textContent=paused?'Pokreni animacije':'Pauziraj animacije';
+  });
+  collection.querySelectorAll('[data-copy-text]').forEach(button=>{
+    if(!navigator.clipboard)return;
+    button.hidden=false;
+    button.addEventListener('click',async()=>{
+      try{await navigator.clipboard.writeText(document.getElementById(button.dataset.copyText).textContent);toast('Tekst je kopiran. Dodaj svoje podatke i prilagodi ga.');}
+      catch{toast('Označi tekst primera i kopiraj ga kroz meni pregledača.');}
+    });
+  });
+}

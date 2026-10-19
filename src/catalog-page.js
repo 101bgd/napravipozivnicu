@@ -43,7 +43,6 @@ function designCount(count) {
 
 export function renderCatalogPage({ catalog = builtinTemplates, category = 'all' } = {}) {
   const activeCategory = categories.some(c => c.id === category) ? category : 'all';
-  const visible = catalog.filter(t => activeCategory === 'all' || t.category === activeCategory);
   const heading = CATEGORY_CONTENT[activeCategory]?.title || 'Šta slavimo?';
   return `<section class="catalog-page container" id="templates">
     <header class="catalog-intro">
@@ -58,25 +57,30 @@ export function renderCatalogPage({ catalog = builtinTemplates, category = 'all'
       </ol>
     </header>
 
-    <div class="category-tabs occasion-picker" role="group" aria-label="Kategorije pozivnica">
-      <div class="occasion-picker-heading"><h2>Jedan lep povod.</h2><button class="category-tab category-all ${activeCategory === 'all' ? 'active' : ''}" data-category="all" data-category-url="/pozivnice/" aria-pressed="${activeCategory === 'all'}">${icon('grid')} Sve pozivnice <span>${catalog.length}</span></button></div>
+    <nav class="category-tabs occasion-picker" aria-label="Kategorije pozivnica">
+      <div class="occasion-picker-heading"><h2>Jedan lep povod.</h2><a href="/pozivnice/" class="category-tab category-all ${activeCategory === 'all' ? 'active' : ''}" data-category="all" data-category-url="/pozivnice/" ${activeCategory === 'all' ? 'aria-current="page"' : ''}>${icon('grid')} Sve pozivnice <span>${catalog.length}</span></a></div>
       <div class="occasion-grid">${categories.filter(c => c.id !== 'all').map(c => {
         const count = catalog.filter(t => t.category === c.id).length;
-        return `<button class="category-tab occasion-card occasion-${c.id} ${activeCategory === c.id ? 'active' : ''}" data-category="${c.id}" data-category-url="${categoryPath(c.id)}" aria-pressed="${activeCategory === c.id}">
+        return `<a href="${categoryPath(c.id)}" class="category-tab occasion-card occasion-${c.id} ${activeCategory === c.id ? 'active' : ''}" data-category="${c.id}" data-category-url="${categoryPath(c.id)}" ${activeCategory === c.id ? 'aria-current="page"' : ''}>
           <span class="occasion-art">${occasionArt(c.id)}</span>
           <span class="occasion-copy"><span class="occasion-name">${esc(c.label)}</span><span class="occasion-description">${occasionCopy[c.id]}</span><span class="occasion-count">${designCount(count)}</span></span>
           <span class="occasion-selected">${icon('check')}</span>
-        </button>`;
+        </a>`;
       }).join('')}</div>
-    </div>
+    </nav>
 
-    <section class="catalog-designs" id="designs" aria-labelledby="designs-title">
+    ${renderDesigns(catalog, activeCategory)}
+  </section>`;
+}
+
+export function renderDesigns(catalog, category, categoryLanding = false) {
+  const visible = catalog.filter(t => category === 'all' || t.category === category);
+  return `    <section class="catalog-designs" id="designs" tabindex="-1" aria-labelledby="designs-title">
       <div class="catalog-tools">
-        <div class="catalog-results"><span class="eyebrow">MALI DETALJI. VELIKI UTISAK.</span><h2 id="designs-title" tabindex="-1">Pronađi svoj dizajn.</h2><span id="result-count" aria-live="polite">Prikazano ${visible.length} pozivnica</span><button class="catalog-change" type="button">Promeni povod ↑</button></div>
+        <div class="catalog-results"><span class="eyebrow">MALI DETALJI. VELIKI UTISAK.</span><h2 id="designs-title" tabindex="-1">Pronađi svoj dizajn.</h2><span id="result-count" aria-live="polite">Prikazano ${visible.length} pozivnica</span>${categoryLanding ? '<a class="catalog-change" href="/pozivnice/">Drugi povod →</a>' : '<button class="catalog-change" type="button">Promeni povod ↑</button>'}</div>
         <label class="search-box">${icon('search')}<input id="search" type="search" placeholder="Pronađi dizajn…" aria-label="Pretraži dizajne" autocomplete="off"></label>
       </div>
       <div class="template-grid" id="template-grid">${renderCards(visible)}</div>
       <div class="catalog-footnote"><span>${icon('check')} Besplatno preuzimanje</span><span>${icon('check')} Bez registracije</span><span>${icon('check')} PNG i PDF</span></div>
-    </section>
-  </section>`;
+    </section>`;
 }

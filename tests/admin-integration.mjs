@@ -47,9 +47,9 @@ try{
   assert.equal((catalogHtml.match(/data-category=/g)||[]).length,7);assert.equal((catalogHtml.match(/class="template-card /g)||[]).length,initialCatalog.templates.length);
   assert.match(catalogHtml,/id="search"/);assert.match(catalogHtml,/ItemList/);assert.match(catalogHtml,/href="\/pozivnice\/bloom\/"/);
   assert.equal((await fetchWorker('/pozivnice/',{method:'HEAD'})).status,200);
-  console.log('PASS: landing CTA links to a dedicated server-rendered catalog, collection URL redirects canonically, and public HTML includes current templates, all seven filters and crawlable design links.');
+  console.log('PASS: landing CTA links to a dedicated server-rendered catalog, collection URL redirects canonically, and public HTML includes current templates, all seven collection links and crawlable design links.');
   const categorySlugs=['pozivnice-za-prvi-rodjendan','pozivnice-za-18-rodjendan','pozivnice-za-rodjendan','pozivnice-za-vencanje','pozivnice-za-krstenje','pozivnice-za-rodjenje-deteta'];
-  const descriptions=new Set();for(const slug of categorySlugs){const response=await fetchWorker(`/${slug}/`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`href="https://napravipozivnicu.com/${slug}/"`));assert.match(html,/<h1>/);assert.match(html,/Primer teksta za pozivnicu/);assert.match(html,/BreadcrumbList/);descriptions.add(html.match(/<meta name="description" content="([^"]+)/)[1]);}assert.equal(descriptions.size,6);
+  const descriptions=new Set();for(const slug of categorySlugs){const response=await fetchWorker(`/${slug}/`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`href="https://napravipozivnicu.com/${slug}/"`));assert.match(html,/<h1\b[^>]*>/);assert.match(html,/Primeri teksta za pozivnicu/);assert.match(html,/BreadcrumbList/);descriptions.add(html.match(/<meta name="description" content="([^"]+)/)[1]);}assert.equal(descriptions.size,6);
   for(const infoPage of INFO_PAGES){
     const response=await fetchWorker(infoPage.path);assert.equal(response.status,200);assert.equal(response.headers.get('X-Robots-Tag'),null);
     const html=await response.text();assert.ok(html.includes(`<h1>${infoPage.title}</h1>`));assert.ok(html.includes(CONTACT_EMAIL));
