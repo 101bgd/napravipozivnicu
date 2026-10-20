@@ -25,7 +25,59 @@
     "female": 3
   },
   "lastSuccessfulBatch": null,
-  "batches": [],
+  "batches": [
+    {
+      "id": "2026-10-21",
+      "date": "2026-10-21",
+      "timezone": "Asia/Tokyo",
+      "status": "planned",
+      "audience": "male",
+      "birthdayAge": 3,
+      "requiredCount": 6,
+      "completedCount": 0,
+      "path": "content/robi-batches/2026-10-21",
+      "startedAt": "2026-10-20T23:00:06Z",
+      "deadlineAt": "2026-10-21T10:00:00+09:00",
+      "designs": [
+        {
+          "id": "jeziceva-radost",
+          "category": "first",
+          "name": "Ježićeva radost",
+          "status": "planned"
+        },
+        {
+          "id": "noc-na-vinilu",
+          "category": "eighteen",
+          "name": "Noć na vinilu",
+          "status": "planned"
+        },
+        {
+          "id": "zabac-zove-drugare",
+          "category": "birthday",
+          "name": "Žabac zove drugare",
+          "status": "planned"
+        },
+        {
+          "id": "narova-prica",
+          "category": "wedding",
+          "name": "Narova priča",
+          "status": "planned"
+        },
+        {
+          "id": "tihi-izvor",
+          "category": "baptism",
+          "name": "Tihi izvor",
+          "status": "planned"
+        },
+        {
+          "id": "lastino-malo-cudo",
+          "category": "baby",
+          "name": "Lastino malo čudo",
+          "status": "planned"
+        }
+      ]
+    }
+  ],
   "history": [
     {
       "id": "cancelled-premature-calibration",
@@ -73,8 +125,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "scheduled",
-  "activeBatch": null,
+  "status": "planned",
+  "activeBatch": "2026-10-21",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -83,7 +135,7 @@
     "requiredCount": 6,
     "audience": "male",
     "birthdayAge": 3,
-    "status": "scheduled",
+    "status": "planned",
     "requiresFreshGeneration": true
   },
   "initialUserReview": {
@@ -92,5 +144,5 @@
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-20T16:00:22Z"
+  "updatedAt": "2026-10-20T23:00:06Z"
 }
