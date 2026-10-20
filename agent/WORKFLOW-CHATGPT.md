@@ -1,6 +1,6 @@
 # Usvojeni workflow i samokontrola
 
-Ovaj dokument beleži odluke korisnika i specifikaciju kontrole kvaliteta. Nije potvrda da je dnevna automatizacija aktivna. Mašinski čitljiva pravila su u `workflow-policy.json`. Raniji CLI koji koristi OpenAI Images API nije izabrani kanal za svakodnevno generisanje: korisnik je izabrao ChatGPT.
+Ovaj dokument beleži odluke korisnika i specifikaciju kontrole kvaliteta. Zakazani ChatGPT poslovi su kreirani: izrada u 08:00 i završna kontrola u 10:00 po Tokiju. Početna kalibraciona serija mora proći zajedničku ocenu pre redovnog automatskog objavljivanja. Mašinski čitljiva pravila su u `workflow-policy.json`. Raniji CLI koji koristi OpenAI Images API nije izabrani kanal za svakodnevno generisanje: korisnik je izabrao ChatGPT.
 
 Agent nosi ime **Robi**. Njegov identitet i glavni prompt su u [ROBI-PROMPT.md](ROBI-PROMPT.md), a operativna quality check lista je u [QUALITY-CHECKLIST.md](QUALITY-CHECKLIST.md).
 
@@ -27,7 +27,7 @@ Agent nosi ime **Robi**. Njegov identitet i glavni prompt su u [ROBI-PROMPT.md](
 5. **Pripremi šablone:** dodaj zasebna tekstualna polja, odgovarajuće podatke za događaj i dozvoljene fontove. Testiraj srpska slova, duža imena i lokacije, mobilni prikaz i stvarne PNG/PDF datoteke. Proveri kontrast i izbegni preklapanja. Sačuvaj dokaz za svaki test.
 6. **Pripremi stranicu:** optimizuj WebP i preglede, napiši jedinstven naziv, SEO naslov, opis, alt i vidljiv tekst; proveri canonical, strukturirane podatke, kategoriju i sitemap.
 7. **Proveri AdSense:** nasledi postojeća globalna podešavanja i proveri stvarno podešen nalog. Isključena ili nedostajuća konfiguracija mora biti jasno prijavljena. Mrežna isporuka oglasa i blokiranje oglasa u pregledaču nisu dokaz da je kod izostavljen. Oglas ne ulazi u PNG/PDF.
-8. **Dozvoli kompletnu objavu:** svih šest moraju proći sve obavezne provere pre objave. Provere javnih URL-ova rade se po objavi i uslov su za označavanje konačnog uspeha. Zahtev za grupnom objavom mora biti tehnički sproveden jednom transakcijom; šest pojedinačnih objava nisu atomska serija. Izvorne datoteke i nacrti pripremaju se pre javne objave.
+8. **Dozvoli kompletnu objavu:** svih šest moraju proći sve obavezne provere pre objave. Provere javnih URL-ova rade se po objavi i uslov su za označavanje konačnog uspeha. Proveren je GitHub pristup sa pravom upisa; put objave je jedan commit cele serije na main i jedan deployment kroz postojeći Cloudflare Pages projekat. Šest pojedinačnih objava nisu celovita serija. Izvorne datoteke i nacrti pripremaju se na kontrolnoj grani `robi-agent` pre javne objave. Detalji izvršavanja su u RUNBOOK.md.
 9. **Proveri javni rezultat:** proveri svih šest javnih URL-ova, kategorije, editor, slike, preuzimanja, SEO i sitemap. Ne označavaj dnevni posao završenim dok ova provera ne prođe.
 10. **Sačuvaj izveštaj:** svaki zahtev dobija status PROŠLO, PALO ili NEPROVERENO, uz dokaz i razlog. PALO i NEPROVERENO blokiraju objavu. Ne računaj prosečnu ocenu kojom bi se prikrio obavezan zahtev koji nije zadovoljen.
 
@@ -62,4 +62,4 @@ Samostalno unapređivanje znači čuvanje konkretnih grešaka, uzroka, uspešnih
 
 Poslednja korisnikova odluka je da se prva serija od šest oceni zajedno, bez dostavljanja postojećih referentnih pozivnica. Sve nastaje iznova prema promptu, uz samostalnu kontrolu i unapređivanje kroz evidenciju. Rok za svih šest objava i obaveštenje je 10:00 po Tokiju. Agent ima identitet Robi, a korisnik može dodeliti i bonus poen. Trenutno nema otvorenih pitanja o identitetu, kreativnim pravilima ili roku.
 
-Pre aktiviranja potrebno je proveriti da zakazano ChatGPT izvršavanje ima dostupno generisanje slika i trajni pristup datotekama/istoriji, povezati i proveriti autentifikovan pristup sajtu, implementirati atomsku objavu šest šablona i povezati provere sa stvarnim dokazima. Trenutni prototip nema sve ove mogućnosti; dokumentovana pravila ih ne aktiviraju automatski. OpenAI API ključ nije zahtev za korisnikov izabrani ChatGPT kanal generisanja.
+Zakazivanje je aktivno, a GitHub pristup sa pravom upisa je proveren stvarnim čitanjem i upisom. Robijeva pravila i stanje trajno su sačuvani na grani `robi-agent`. Prvo izvršavanje proverava dostupnost generisanja i priprema stvarnu kalibracionu seriju. Tehničke provere i zajednička ocena ostaju uslov za redovno automatsko objavljivanje. OpenAI API ključ nije zahtev za korisnikov izabrani ChatGPT kanal generisanja.

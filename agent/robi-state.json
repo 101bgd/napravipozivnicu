@@ -13,9 +13,25 @@
     "approval": null
   },
   "nextAudience": "male",
-  "nextBirthdayAgeByAudience": {"male": 3, "female": 3},
+  "nextBirthdayAgeByAudience": {
+    "male": 3,
+    "female": 3
+  },
   "lastSuccessfulBatch": null,
   "batches": [],
   "history": [],
-  "automations": {}
+  "automations": {
+    "production": {
+      "title": "Robi — izrada pozivnica",
+      "enabled": true,
+      "localStart": "08:00",
+      "timezone": "Asia/Tokyo"
+    },
+    "deadline": {
+      "title": "Robi — završna kontrola",
+      "enabled": true,
+      "localStart": "10:00",
+      "timezone": "Asia/Tokyo"
+    }
+  }
 }
