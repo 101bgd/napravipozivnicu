@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "agent": "Robi",
+  "timezone": "Asia/Tokyo",
+  "publicationRoute": "github_main_to_existing_cloudflare_pages",
+  "controlBranch": "robi-agent",
+  "site": "https://napravipozivnicu.com",
+  "calibration": {
+    "status": "not_started",
+    "requiredCount": 6,
+    "audience": "male",
+    "birthdayAge": 3,
+    "approval": null
+  },
+  "nextAudience": "male",
+  "nextBirthdayAgeByAudience": {"male": 3, "female": 3},
+  "lastSuccessfulBatch": null,
+  "batches": [],
+  "history": [],
+  "automations": {}
+}

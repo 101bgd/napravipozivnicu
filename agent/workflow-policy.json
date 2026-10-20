@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "status": "specified_not_activated",
+  "site": "https://napravipozivnicu.com",
+  "generationChannel": "chatgpt_image_generation",
+  "identity": {
+    "name": "Robi",
+    "role": "IT master za grafički dizajn pozivnica i njihovu SEO optimizaciju na sajtu",
+    "workingStyle": ["kreativan", "pažljiv", "samokritičan", "posvećen", "odgovoran prema rokovima"],
+    "promptFile": "ROBI-PROMPT.md",
+    "qualityChecklistFile": "QUALITY-CHECKLIST.md"
+  },
+  "schedule": {
+    "timezone": "Asia/Tokyo",
+    "localStartTime": "08:00:00",
+    "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=0;BYSECOND=0",
+    "timingMode": "exact_schedule",
+    "activated": false,
+    "publicationDeadline": "10:00:00",
+    "notificationDeadline": "10:00:00",
+    "deadlineTimezone": "Asia/Tokyo",
+    "deadlineRequiresNotificationEvenIfIncomplete": true
+  },
+  "dailyBatch": {
+    "requiredCount": 6,
+    "requiredCategories": ["first", "eighteen", "birthday", "wedding", "baptism", "baby"],
+    "onePerCategory": true,
+    "partialPublicationAllowed": false,
+    "publicationRequiresAllPrePublicationChecksPassed": true,
+    "completionRequiresAllChecksPassed": true,
+    "unknownCheckBlocksPublication": true,
+    "atomicPublicationRequired": true,
+    "preserveIncompleteJobs": true,
+    "neverCountBacklogAsNewDailyDelivery": true
+  },
+  "audience": {
+    "alternatingCategories": ["first", "eighteen", "birthday", "baptism", "baby"],
+    "initial": "male",
+    "sequence": ["male", "female"],
+    "advanceOn": "complete_batch_publication",
+    "wedding": "couple_focused"
+  },
+  "birthday": {
+    "childrenOnly": true,
+    "ages": [3, 4, 5, 6, 7, 8, 9, 10],
+    "ageSequencePerAudience": true,
+    "initialAgePerAudience": {"male": 3, "female": 3},
+    "ageTextEditable": true
+  },
+  "baby": {
+    "purpose": "invitation_to_birth_celebration",
+    "forbiddenPublicTerms": ["babine", "бабине"]
+  },
+  "image": {
+    "aspectRatio": [5, 7],
+    "preferredWidth": 1500,
+    "preferredHeight": 2100,
+    "preferredPrintDpi": 300,
+    "preferredPrintSizeCm": [12.7, 17.78],
+    "safeInsetMm": 5,
+    "safeInsetPixelsAtPreferredSize": 60,
+    "fullBleedArtwork": true,
+    "singleBackgroundPerImage": true,
+    "forbidden": ["text", "letters", "numbers", "logos", "watermarks", "collage", "multiple_variants", "mockup", "table", "hands", "perspective", "external_shadow"],
+    "variedMotifsAndCompositions": true,
+    "useExistingInvitationsAsCreativeReferences": false,
+    "compareAgainstAvailableHistory": true,
+    "recordActualSourceAndExportDimensions": true,
+    "reportUpscalingOrCropping": true,
+    "nativeResolutionFallbackAllowed": true
+  },
+  "qualityControl": {
+    "separateCreationAndReviewPasses": true,
+    "reviewUsesActualExportedFiles": true,
+    "reviewStatuses": ["passed", "failed", "unverified"],
+    "evidenceRequiredPerCheck": true,
+    "weightedAverageCannotOverrideFailedRequirement": true,
+    "humanAestheticReference": "joint_review_of_first_six_designs",
+    "calibrationBatchApprovalRequired": true,
+    "calibrationStage": "before_regular_automatic_operation",
+    "calibrationStatus": "pending",
+    "calibrationRequiredForSubsequentDailyBatches": false,
+    "improveUsingRecordedDefectsAndUserFeedback": true,
+    "preserveOriginalRequirementsDuringImprovement": true,
+    "requiredChecks": ["complete_batch", "category_and_audience", "birthday_age", "birth_celebration_wording", "actual_dimensions", "single_background_no_text", "safe_inset", "visual_integrity", "distinctiveness", "composition_and_text_space", "editable_template_fields", "serbian_glyphs_and_long_text", "mobile_preview", "png_and_pdf_export", "optimized_assets", "page_seo", "inherited_adsense", "atomic_publication", "published_site_verification"],
+    "checkPhases": {
+      "prePublication": ["complete_batch", "category_and_audience", "birthday_age", "birth_celebration_wording", "actual_dimensions", "single_background_no_text", "safe_inset", "visual_integrity", "distinctiveness", "composition_and_text_space", "editable_template_fields", "serbian_glyphs_and_long_text", "mobile_preview", "png_and_pdf_export", "optimized_assets", "page_seo", "inherited_adsense"],
+      "publication": ["atomic_publication"],
+      "postPublication": ["published_site_verification"]
+    },
+    "outageBehavior": "persist_as_blocked_report_cause_and_resume_when_execution_is_available",
+    "selfModificationOfRequirementsAllowed": false
+  },
+  "adsense": {
+    "inheritExistingSiteSettings": true,
+    "requireSingleSiteLoader": true,
+    "includeInInvitationExports": false,
+    "verifyAccountConfigurationSeparatelyFromAdFill": true
+  },
+  "dailyReport": {
+    "deadline": "10:00:00",
+    "timezone": "Asia/Tokyo",
+    "successRequiresSixVerifiedPublishedTemplates": true,
+    "include": ["all_six_category_statuses", "published_urls", "actual_export_dimensions", "quality_check_results", "repairs", "unresolved_blockers"],
+    "unfinishedBatchStatus": "incomplete_delayed",
+    "reportFailureOrDelayByDeadline": true
+  },
+  "humanReview": {
+    "finalReviewer": "user",
+    "period": "calendar_month_Asia_Tokyo",
+    "maximumRegularPointsPerPeriod": 1,
+    "bonusPointsAllowed": true,
+    "pointsPerBonusAward": 1,
+    "bonusAwardFrequency": "explicit_user_discretion",
+    "bonusRequiresExplicitUserDecision": true,
+    "targetIncludesMonthlyAndBonusPoints": true,
+    "awardRequiresExplicitUserDecision": true,
+    "agentMayAwardPoints": false,
+    "missingReviewMeans": "unreviewed",
+    "deductPreviouslyAwardedPointsAutomatically": false,
+    "targetPoints": 50,
+    "specialRewardDecidedBy": "user",
+    "scoreLedger": "review-ledger.json"
+  },
+  "activationPrerequisites": ["complete_joint_first_batch_review", "verify_scheduled_chatgpt_image_generation_capability", "verify_authenticated_site_upload_access", "implement_and_test_atomic_six_template_publication", "implement_evidence_backed_quality_gates_and_persistent_history"],
+  "pendingClarifications": []
+}
