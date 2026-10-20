@@ -141,7 +141,7 @@ try {
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Catalog overflows at ${viewport.width}px`);
     assert.equal(await page.locator('.template-card').count(), publicTemplates.length);
     await categoryButton(page, 'birthday').click();
-    assert.equal(await page.locator('.template-card').count(), 4);
+    assert.equal(await page.locator('.template-card').count(), publicTemplates.filter(t => t.category === 'birthday').length);
     if (viewport.width === 390) await page.screenshot({ path: '/tmp/napravi-mobile-catalog.png', fullPage: true });
   }
   await page.setViewportSize({ width: 390, height: 844 });

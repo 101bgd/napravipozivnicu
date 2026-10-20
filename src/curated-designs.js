@@ -16,7 +16,11 @@ import { babyDesign } from '../content/baby-batch/designs.mjs';
 import { eighteenCollectionAssetIds } from './eighteen-collection-assets.js';
 import { eighteenCollectionDesign } from '../content/eighteen-collection/designs.mjs';
 
+import { birthdayCollectionAssetIds } from './birthday-collection-assets.js';
+import { birthdayCollectionDesign } from '../content/birthday-collection/designs.mjs';
+
 const batches = [
+  { assets: birthdayCollectionAssetIds, build: birthdayCollectionDesign },
   { assets: birthdayAssetIds, build: birthdayDesign },
   { assets: baptismAssetIds, build: baptismDesign },
   { assets: eighteenAssetIds, build: eighteenDesign },

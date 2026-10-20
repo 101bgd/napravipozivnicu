@@ -44,7 +44,7 @@ export const CATEGORY_EXPERIENCE = {
     kicker: 'Velika mašta. Još veći osmeh.',
     lead: 'Jedan klik do sveta dinosaurusa, sirena i svemirskih avantura. Izaberi omiljenu temu i napravi pozivnicu za sledeći veliki dečiji dan.',
     signature: 'Ovde počinje rođendanska avantura.', symbol: '★',
-    highlights: ['dino-avantura', 'mala-sirena', 'svemirska-misija'],
+    highlights: ['dino-ekspedicija', 'biserna-bajka', 'galakticka-posada'],
     edit: 'Ime, broj godina, datum i adresa igraonice ili proslave.',
     guideTitle: 'Njihova omiljena tema. Tvoje reči.',
     guide: 'Pozivnicu za dečiji rođendan lako je uklopiti sa tortom i dekoracijom. Dinosaurusi pozivaju na istraživanje, svemir na novu misiju, a sirena i ringišpil u svet bajke. Broj godina je izmenjiv, pa odabrani dizajn može da prati različite dečije rođendane.',
@@ -57,7 +57,7 @@ export const CATEGORY_EXPERIENCE = {
       ['Za koji uzrast su ovi šabloni?', 'Broj godina i ime menjaju se u editoru, pa su dizajni prilagodljivi različitim dečijim rođendanima. Za prvi rođendan postoji i posebna kolekcija sa motivima za najmlađe.'],
       ['Mogu li da promenim broj godina na pozivnici?', 'Da. Otvori šablon i promeni polje sa brojem godina. Promenu odmah vidiš u pregledu; zatim proveri da li ostatak poruke odgovara novom broju.'],
       ['Kako da navedem igraonicu?', 'Upiši naziv igraonice i ulicu sa brojem, a po potrebi i grad. Ako postoje posebna pravila dolaska ili preuzimanja dece, dodaj ih kao kratku napomenu.'],
-      ['Da li su dizajni bez fotografije?', 'Četiri pripremljena dizajna sa dinosaurusima, svemirom, sirenom i ringišpilom imaju ilustracije i nemaju okvir za fotografiju. Uređuješ tekst preko odabrane pozadine.'],
+      ['Da li su dizajni bez fotografije?', 'Pripremljeni dizajni sa dinosaurusima, svemirom, sirenom i ringišpilom imaju ilustracije i nemaju okvir za fotografiju. Uređuješ tekst preko odabrane pozadine.'],
     ],
   },
   wedding: {

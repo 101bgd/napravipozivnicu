@@ -1,6 +1,7 @@
 // Public, versioned assets shipped with the site. These IDs are separate from
 // private uploads; only this explicit list can resolve to a static asset.
 import { birthdayAssets } from './birthday-assets.js';
+import { birthdayCollectionAssets } from './birthday-collection-assets.js';
 import { baptismAssets } from './baptism-assets.js';
 import { eighteenAssets } from './eighteen-assets.js';
 import { weddingAssets } from './wedding-assets.js';
@@ -15,6 +16,7 @@ export const midnightAssetIds = {
 };
 const assets = new Map([
   ...birthdayAssets,
+  ...birthdayCollectionAssets,
   ...baptismAssets,
   ...eighteenAssets,
   ...weddingAssets,

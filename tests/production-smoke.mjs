@@ -51,7 +51,7 @@ try {
   assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/');
   await staticPage.goto(`${origin}/pozivnice-za-rodjendan/`);
   assert.match(await staticPage.locator('h1').innerText(), /dečiji rođendan/i);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 4);
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'birthday').length);
   await staticPage.goto(`${origin}/pozivnice-za-krstenje/`);
   assert.equal(await staticPage.locator('.template-card h3').count(), 6);
   for (const baptism of baptismTemplates) {

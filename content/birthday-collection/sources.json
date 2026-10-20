@@ -1,0 +1,38 @@
+[
+  {
+    "source": 1,
+    "originalName": "Pozivnica za deciji rodjendan 1.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2205432,
+    "sha256": "7e75de41ea9492b87cd85746b8e1865329de7d1b7db644a78a81e8d97e57add7",
+    "reusedSource": "content/birthday-batch/sources/original-1.png"
+  },
+  {
+    "source": 2,
+    "originalName": "Pozivnica za deciji rodjendan 2.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2100204,
+    "sha256": "ab012e9c7af43e0aa1112436ab20e18f9bb25f2f5e3b73e8db3b31076e5f6cf8",
+    "reusedSource": "content/birthday-batch/sources/original-2.png"
+  },
+  {
+    "source": 3,
+    "originalName": "Pozivnica za deciji rodjendan 3.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 2428086,
+    "sha256": "e8b0085c1f339dba73180ba10195d22482a258ede59820ec9cfa80e991b80c6b",
+    "reusedSource": "content/birthday-batch/sources/original-3.png"
+  },
+  {
+    "source": 4,
+    "originalName": "Pozivnica za deciji rodjendan 4.png",
+    "width": 1060,
+    "height": 1484,
+    "bytes": 1856402,
+    "sha256": "50e95ada1c97e2c12b7cfbf76bfd5e77fc4ba3980da580da903fda2e234150b4",
+    "reusedSource": "content/birthday-batch/sources/original-4.png"
+  }
+]

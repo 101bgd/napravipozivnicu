@@ -1,6 +1,7 @@
 import { templates as examples } from './templates.js';
 import { curatedAssetUrl, midnightAssetIds } from './curated-assets.js';
 import { birthdayTemplates } from './birthday-catalog.js';
+import { birthdayCollectionTemplates } from './birthday-collection-catalog.js';
 import { baptismTemplates } from './baptism-catalog.js';
 import { eighteenTemplates } from './eighteen-catalog.js';
 import { weddingTemplates } from './wedding-catalog.js';
@@ -9,7 +10,7 @@ import { babyTemplates } from './baby-catalog.js';
 import { eighteenCollectionTemplates } from './eighteen-collection-catalog.js';
 
 // Metadata only: full layouts and font files load when the editor opens.
-export const curatedTemplates = [...firstBirthdayTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenCollectionTemplates, ...eighteenTemplates, ...weddingTemplates, ...babyTemplates, {
+export const curatedTemplates = [...firstBirthdayTemplates, ...birthdayCollectionTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenCollectionTemplates, ...eighteenTemplates, ...weddingTemplates, ...babyTemplates, {
   id: 'ponocna-elegancija',
   slug: 'ponocna-elegancija',
   name: 'Ponoćna elegancija',

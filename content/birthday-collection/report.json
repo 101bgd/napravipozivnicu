@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dino-ekspedicija",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2205432,
+    "backgroundBytes": 244760,
+    "thumbnailBytes": 50946,
+    "reusedBackground": true,
+    "reductionPercent": 88.9,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani-kolekcija/dino-ekspedicija-pregled-10b821c48fed.webp"
+  },
+  {
+    "id": "galakticka-posada",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2100204,
+    "backgroundBytes": 220428,
+    "thumbnailBytes": 52638,
+    "reusedBackground": true,
+    "reductionPercent": 89.5,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani-kolekcija/galakticka-posada-pregled-626fc111a863.webp"
+  },
+  {
+    "id": "biserna-bajka",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2428086,
+    "backgroundBytes": 347658,
+    "thumbnailBytes": 75568,
+    "reusedBackground": true,
+    "reductionPercent": 85.7,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/mala-sirena-pozadina-7751e875ecd8.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani-kolekcija/biserna-bajka-pregled-53651ab86b20.webp"
+  },
+  {
+    "id": "krug-srece",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 1856402,
+    "backgroundBytes": 146484,
+    "thumbnailBytes": 42676,
+    "reusedBackground": true,
+    "reductionPercent": 92.1,
+    "backgroundUrl": "/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+    "thumbnailUrl": "/assets/pozivnice/deciji-rodjendani-kolekcija/krug-srece-pregled-5410d76d4077.webp"
+  }
+]
