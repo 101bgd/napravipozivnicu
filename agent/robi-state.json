@@ -30,7 +30,7 @@
       "id": "2026-10-21",
       "date": "2026-10-21",
       "timezone": "Asia/Tokyo",
-      "status": "planned",
+      "status": "generating",
       "audience": "male",
       "birthdayAge": 3,
       "requiredCount": 6,
@@ -43,7 +43,7 @@
           "id": "jeziceva-radost",
           "category": "first",
           "name": "Ježićeva radost",
-          "status": "planned"
+          "status": "generating"
         },
         {
           "id": "noc-na-vinilu",
@@ -125,7 +125,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "planned",
+  "status": "generating",
   "activeBatch": "2026-10-21",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -144,5 +144,5 @@
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-20T23:00:06Z"
+  "updatedAt": "2026-10-20T23:01:24.595Z"
 }
