@@ -30,7 +30,7 @@
       "id": "2026-10-21",
       "date": "2026-10-21",
       "timezone": "Asia/Tokyo",
-      "status": "generating",
+      "status": "checking",
       "audience": "male",
       "birthdayAge": 3,
       "requiredCount": 6,
@@ -43,37 +43,53 @@
           "id": "jeziceva-radost",
           "category": "first",
           "name": "Ježićeva radost",
-          "status": "generating"
+          "status": "checking"
         },
         {
           "id": "noc-na-vinilu",
           "category": "eighteen",
           "name": "Noć na vinilu",
-          "status": "planned"
+          "status": "checking"
         },
         {
           "id": "zabac-zove-drugare",
           "category": "birthday",
           "name": "Žabac zove drugare",
-          "status": "planned"
+          "status": "checking"
         },
         {
           "id": "narova-prica",
           "category": "wedding",
           "name": "Narova priča",
-          "status": "planned"
+          "status": "checking"
         },
         {
           "id": "tihi-izvor",
           "category": "baptism",
           "name": "Tihi izvor",
-          "status": "planned"
+          "status": "checking"
         },
         {
           "id": "lastino-malo-cudo",
           "category": "baby",
           "name": "Lastino malo čudo",
-          "status": "planned"
+          "status": "checking"
+        }
+      ],
+      "generatedCount": 6,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "interruptions": [
+        {
+          "step": "github_binary_upload",
+          "status": "interrupted",
+          "detail": "Earlier binary upload tool call interrupted without confirmation; no upload success assumed."
         }
       ]
     }
@@ -125,7 +141,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-21",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -144,5 +160,5 @@
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-20T23:01:24.595Z"
+  "updatedAt": "2026-10-20T23:47:42.378Z"
 }
