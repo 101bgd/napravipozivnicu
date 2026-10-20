@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "scheduled_calibration_pending",
+  "status": "scheduled",
   "site": "https://napravipozivnicu.com",
   "generationChannel": "chatgpt_image_generation",
   "identity": {
@@ -25,7 +25,11 @@
     "publicationDeadline": "10:00:00",
     "notificationDeadline": "10:00:00",
     "deadlineTimezone": "Asia/Tokyo",
-    "deadlineRequiresNotificationEvenIfIncomplete": true
+    "deadlineRequiresNotificationEvenIfIncomplete": true,
+    "firstRunDate": "2026-10-21",
+    "firstRunLocal": "2026-10-21T08:00:00+09:00",
+    "firstDeadlineLocal": "2026-10-21T10:00:00+09:00",
+    "immediateTrialCancelled": true
   },
   "dailyBatch": {
     "requiredCount": 6,
@@ -137,10 +141,10 @@
     ],
     "evidenceRequiredPerCheck": true,
     "weightedAverageCannotOverrideFailedRequirement": true,
-    "humanAestheticReference": "joint_review_of_first_six_designs",
-    "calibrationBatchApprovalRequired": true,
-    "calibrationStage": "before_regular_automatic_operation",
-    "calibrationStatus": "pending",
+    "humanAestheticReference": "user_review_after_publication",
+    "calibrationBatchApprovalRequired": false,
+    "calibrationStage": "after_first_publication",
+    "calibrationStatus": "cancelled_trial_post_publication_review_pending",
     "calibrationRequiredForSubsequentDailyBatches": false,
     "improveUsingRecordedDefectsAndUserFeedback": true,
     "preserveOriginalRequirementsDuringImprovement": true,
@@ -193,7 +197,8 @@
       ]
     },
     "outageBehavior": "persist_as_blocked_report_cause_and_resume_when_execution_is_available",
-    "selfModificationOfRequirementsAllowed": false
+    "selfModificationOfRequirementsAllowed": false,
+    "userReviewBlocksPublication": false
   },
   "adsense": {
     "inheritExistingSiteSettings": true,
@@ -231,10 +236,10 @@
     "deductPreviouslyAwardedPointsAutomatically": false,
     "targetPoints": 50,
     "specialRewardDecidedBy": "user",
-    "scoreLedger": "review-ledger.json"
+    "scoreLedger": "review-ledger.json",
+    "initialReviewStage": "after_first_batch_publication"
   },
   "activationPrerequisites": [
-    "complete_joint_first_batch_review",
     "verify_scheduled_chatgpt_image_generation_capability",
     "verify_authenticated_site_upload_access",
     "implement_and_test_atomic_six_template_publication",

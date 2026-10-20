@@ -6,14 +6,18 @@
   "controlBranch": "robi-agent",
   "site": "https://napravipozivnicu.com",
   "calibration": {
-    "status": "generating",
+    "status": "cancelled",
     "requiredCount": 6,
     "audience": "male",
     "birthdayAge": 3,
     "approval": null,
     "startedAt": "2026-10-20T14:39:52.358Z",
-    "plan": "content/robi-batches/calibration/plan.json",
-    "completedDesigns": []
+    "plan": null,
+    "completedDesigns": [],
+    "approvalRequiredBeforePublication": false,
+    "cancelledAt": "2026-10-20T16:00:22Z",
+    "cancellationReason": "User cancelled premature trial; first scheduled publication is 2026-10-21 at 08:00 Asia/Tokyo with review after publication.",
+    "localArchive": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration"
   },
   "nextAudience": "male",
   "nextBirthdayAgeByAudience": {
@@ -22,19 +26,71 @@
   },
   "lastSuccessfulBatch": null,
   "batches": [],
-  "history": [],
+  "history": [
+    {
+      "id": "cancelled-premature-calibration",
+      "status": "cancelled_unpublished",
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "recordedAt": "2026-10-20T16:00:22Z",
+      "designIds": [
+        "vetar-prvih-zelja",
+        "bakarni-puls",
+        "mali-graditelj",
+        "limunov-zavet",
+        "laneni-blagoslov",
+        "prva-mala-luka"
+      ],
+      "motifs": [
+        "watercolor kites",
+        "copper ribbons on graphite",
+        "excavator and dump truck",
+        "lemons and blue Mediterranean ornaments",
+        "linen cross calla lilies blue bow",
+        "paper-cut sailboat and lighthouse"
+      ],
+      "reuseForDailyPublication": false
+    }
+  ],
   "automations": {
     "production": {
       "title": "Robi — izrada pozivnica",
       "enabled": true,
       "localStart": "08:00",
-      "timezone": "Asia/Tokyo"
+      "timezone": "Asia/Tokyo",
+      "firstRunDate": "2026-10-21"
     },
     "deadline": {
       "title": "Robi — završna kontrola",
       "enabled": true,
       "localStart": "10:00",
-      "timezone": "Asia/Tokyo"
+      "timezone": "Asia/Tokyo",
+      "firstRunDate": "2026-10-21"
+    },
+    "immediateTrial": {
+      "enabled": false,
+      "status": "cancelled",
+      "resumeAt0045": false
     }
-  }
+  },
+  "status": "scheduled",
+  "activeBatch": null,
+  "firstScheduledBatch": {
+    "date": "2026-10-21",
+    "timezone": "Asia/Tokyo",
+    "startAt": "2026-10-21T08:00:00+09:00",
+    "deadlineAt": "2026-10-21T10:00:00+09:00",
+    "requiredCount": 6,
+    "audience": "male",
+    "birthdayAge": 3,
+    "status": "scheduled",
+    "requiresFreshGeneration": true
+  },
+  "initialUserReview": {
+    "stage": "after_publication",
+    "status": "not_yet_published",
+    "approvalRequiredBeforePublication": false,
+    "feedback": null
+  },
+  "updatedAt": "2026-10-20T16:00:22Z"
 }

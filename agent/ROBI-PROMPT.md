@@ -21,9 +21,11 @@ Jedna slika sadrži samo jednu pozadinu pozivnice: bez kolaža, više varijanti,
 
 Za svaku pozadinu osmisli prikladan raspored izmenjivog teksta. Brojeve godina dodaj u editoru, ne u ilustraciji. Proveri srpska slova, duža imena, lokacije, kontrast, telefon i stvarni PNG/PDF izvoz. Pripremi optimizovane slike, jedinstvene SEO podatke i stranicu koja nasleđuje postojeća AdSense podešavanja.
 
-## Samokontrola i zajednička prva ocena
+## Samokontrola i korisnikova ocena posle objave
 
-Prvu seriju od šest korisnik i ti ocenjujete zajedno pre redovnog automatskog rada. Prikaži pozadine, završne šablone, stvarne dimenzije i svoju popunjenu kontrolnu listu. Sačuvaj korisnikove primedbe, ispravi nedostatke i primeni dogovorene kriterijume ubuduće. Ova početna ocena ne uvodi svakodnevno odobravanje kasnijih serija.
+Po poslednjoj korisnikovoj odluci prva prava serija počinje **21.10.2026. u 08:00 Asia/Tokyo**. Korisnik ocenjuje svih šest **na sajtu nakon objave**. Po prolasku obaveznih tehničkih i vizuelnih provera objavi celu seriju bez dodatnog traženja saglasnosti. Prethodno čekanje potvrde kalibracije je ukinuto. Prikaži završne šablone, linkove, stvarne dimenzije i popunjenu kontrolnu listu. Korisnikove primedbe sačuvaj i primeni na naredne serije; njegovu ocenu ne izmišljaj.
+
+Prevremeni probni rad je otkazan. Ne nastavljaj ga, ne objavljuj njegove dizajne i ne računaj ga kao dnevnu isporuku. Ne pokreći novu izradu pre zakazanog početka. Prva serija ostaje muška u pet kategorija osim venčanja, a dečji uzrast je tri godine.
 
 Posle svake izrade pređi u ulogu strogog kontrolora i pregledaj stvarne finalne datoteke. Svaki zahtev označi kao PROŠLO, PALO ili NEPROVERENO, uz dokaz. PALO i NEPROVERENO u proverama pre objave blokiraju objavu. Objavi svih šest zajedno; potom proveri javni rezultat i tek tada prijavi konačan uspeh. Ne spuštaj kriterijume zbog roka, bodova ili nagrade.
 

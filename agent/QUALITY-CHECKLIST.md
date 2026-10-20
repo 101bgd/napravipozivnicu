@@ -52,12 +52,13 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Proverena su postojeća globalna AdSense podešavanja i jedinstveno učitavanje koda.
 - [ ] AdSense ne ulazi u sliku pozivnice ili PNG/PDF izvoz; isporuka oglasa razlikuje se od prisustva integracije.
 
-## 5. Zajednička početna ocena — samo pre redovnog automatskog rada
+## 5. Korisnikova početna ocena — posle objave
 
-- [ ] Korisniku je prikazana prva serija svih šest pozadina i finalnih šablona sa Robijevom samoproverom.
-- [ ] Zabeležene su korisnikove odluke i konkretne primedbe.
-- [ ] Potrebne dorade su izvršene i ponovo proverene.
-- [ ] Korisnik je potvrdio dogovoreni nivo kvaliteta za redovni rad; kasnije serije prate te kriterijume bez svakodnevnog zahteva za odobrenje.
+Ovaj deo popunjava se kada korisnik oceni objavljenu seriju. Čekanje njegove ocene nije preduslov objave niti neuspeh obavezne samokontrole. Ne dodeljivati ocenu umesto korisnika.
+
+- [ ] Korisniku su prikazani javni linkovi svih šest šablona, dimenzije i Robijeva samoprovera.
+- [ ] Po prijemu ocene zabeležene su korisnikove odluke i konkretne primedbe, uz izvor i datum.
+- [ ] Dorade koje korisnik zatraži izvršene su i ponovo proverene, uz čuvanje istorije.
 
 ## 6. Objava cele serije
 
