@@ -30,7 +30,7 @@
       "id": "2026-10-21",
       "date": "2026-10-21",
       "timezone": "Asia/Tokyo",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "audience": "male",
       "birthdayAge": 3,
       "requiredCount": 6,
@@ -43,37 +43,37 @@
           "id": "jeziceva-radost",
           "category": "first",
           "name": "Ježićeva radost",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         },
         {
           "id": "noc-na-vinilu",
           "category": "eighteen",
           "name": "Noć na vinilu",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         },
         {
           "id": "zabac-zove-drugare",
           "category": "birthday",
           "name": "Žabac zove drugare",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         },
         {
           "id": "narova-prica",
           "category": "wedding",
           "name": "Narova priča",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         },
         {
           "id": "tihi-izvor",
           "category": "baptism",
           "name": "Tihi izvor",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         },
         {
           "id": "lastino-malo-cudo",
           "category": "baby",
           "name": "Lastino malo čudo",
-          "status": "ready_to_publish"
+          "status": "deploy_pending"
         }
       ],
       "generatedCount": 6,
@@ -106,6 +106,13 @@
       "liveVerification": {
         "status": "unverified",
         "reason": "Network policy denies napravipozivnicu.com (proxy CONNECT 403)."
+      },
+      "mainCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+      "mainUpdatedAt": "2026-10-21T00:11:30.448Z",
+      "publication": {
+        "status": "main_updated_deploy_pending",
+        "atomic": true,
+        "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0"
       }
     }
   ],
@@ -156,7 +163,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-21",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -166,7 +173,7 @@
     "requiredCount": 6,
     "audience": "male",
     "birthdayAge": 3,
-    "status": "ready_to_publish",
+    "status": "publishing",
     "requiresFreshGeneration": true
   },
   "initialUserReview": {
@@ -175,5 +182,5 @@
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-21T00:10:36.255Z"
+  "updatedAt": "2026-10-21T00:11:30.766Z"
 }
