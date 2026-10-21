@@ -56,7 +56,7 @@ ${renderGuideSection({ id: 'vodici' })}
 <details><summary>Mogu li da dodam svoju fotografiju? ${icon('plus')}</summary><p>Da, na šablonima koji imaju okvir za fotografiju. Dodaj JPG, PNG ili WebP, pomeri sliku i podesi uvećanje. Fotografija se obrađuje samo u tvom pregledaču.</p></details>
 <details><summary>Kako da odštampam pozivnicu? ${icon('plus')}</summary><p>Izaberi PDF za štampu. Format je 12,7 × 17,78 cm, u rezoluciji 300 dpi. Štampaj u stvarnoj veličini (100%). Za profesionalnu štampu sa prepustom proveri zahteve štamparije.</p></details>
 <details><summary>Mogu li sve da uradim na telefonu? ${icon('plus')}</summary><p>Da. Izaberi šablon, unesi podatke i preuzmi pozivnicu direktno na telefon. Sliku zatim pošalji gostima kroz aplikaciju za poruke koju koristiš.</p></details>
-<details><summary>Da li se moji podaci čuvaju? ${icon('plus')}</summary><p>Podaci sa tvoje pozivnice i fotografije obrađuju se na tvom uređaju. Opcija „Sačuvaj nacrt“ čuva tekst samo u ovom pregledaču. Fotografija se ne čuva u nacrtu.</p></details>
+<details><summary>Da li se moji podaci čuvaju? ${icon('plus')}</summary><p>Podaci sa tvoje pozivnice i fotografije obrađuju se na tvom uređaju. Izmene teksta automatski se čuvaju samo u ovom pregledaču. Čuvanje možeš isključiti, a nacrt obrisati u editoru. Fotografija se ne čuva u nacrtu.</p></details>
 </div></section>
 </main><div class="mobile-create-bar" inert aria-hidden="true">${cta()}<span>Besplatno, od prvog klika.</span></div>`;
 }

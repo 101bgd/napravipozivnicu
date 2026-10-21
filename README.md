@@ -96,7 +96,7 @@ Build čuva statičke primerke osnovnih stranica, a Worker dodaje objavljene ša
 
 Metapodaci i javna adresa `kontakt@napravipozivnicu.com` su u `src/info-content.js`, a tekst u `src/info-page.js`. Stranice se predstavljaju u ime brenda Napravi pozivnicu, bez imena i prezimena vlasnika. Kontakt koristi običan `mailto:` link; aplikacija ne šalje mejl niti prikuplja podatke preko kontakt forme. Dostava mejla zavisi od podešavanja mejl usluge za domen.
 
-Politika privatnosti opisuje obradu u javnom editoru, lokalni nacrt, Cloudflare, kontakt poruke i opcione AdSense oglase, uz veze ka Google pravilima i podešavanjima privatnosti. Datum teksta je 16. oktobar 2026. Google Analytics nije uključen.
+Politika privatnosti opisuje obradu u javnom editoru, lokalni nacrt, Cloudflare, kontakt poruke i opcione AdSense oglase, uz veze ka Google pravilima i podešavanjima privatnosti. Datum teksta je 21. oktobar 2026. Google Analytics nije uključen.
 
 ## AdSense reklame
 
@@ -132,6 +132,17 @@ AdSense test koristi stvarni lokalni Worker/D1 i Chromium, uz presretnut Google 
 
 ## Pre javnog lansiranja
 
-Ubaciti konačne šablone. Za oglase dodati stvarni AdSense kod u zaštićeni panel i podesiti potrebne Google poruke o saglasnosti. Analitika nije uključena; pri dodavanju novih usluga uskladiti Politiku privatnosti sa stvarnom obradom.
+Ubaciti konačne šablone. Za oglase dodati stvarni AdSense kod u zaštićeni panel i podesiti potrebne Google poruke o saglasnosti. Uključeni su sopstveni zbirni brojači radnji opisani ispod; pri dodavanju novih usluga uskladiti Politiku privatnosti sa stvarnom obradom.
 
 Test `tests/category-landings.mjs` koristi kompajlirani Worker i proverava šest kategorija bez JavaScript-a, metapodatke i sitemap, trenutno objavljene hero preglede, 24 kombinacije kategorije i širine ekrana, početni JS ispod 10 KB gzip, odloženo učitavanje editora, pretragu unutar kategorije, tastaturu, povratak u pregledaču, stvarno kopiranje primera teksta, pauzu animacija i smanjeno kretanje. SEO provere potvrđuju tehničku dostupnost sadržaja; ne garantuju indeksiranje ili pozicije na Google-u.
+
+
+## Editor i statistika radnji
+
+- Na detalju šablona glavno dugme je uz pregled; donje dugme na telefonu pojavljuje se tek posle njega i sklanja kod podnožja ili otvaranja editora. Javne adrese i SEO naslovi ostaju isti.
+- Mobilni editor ima kompaktan pregled koji se uvećava jednim dodirom, osnovne podatke ispred ostalih tekstova, odvojene napredne stilove, undo/redo za tekst/stil i upozorenje na tekst koji prerasta predviđen prostor. Upozorenje je pomoć pri pregledu, ne garancija protiv svakog mogućeg preklapanja.
+- Tekst i stil čuvaju se lokalno posle izmene (450 ms, uz završno čuvanje pri zatvaranju/sakrivanju stranice), po šablonu. Postojeći ručni nacrti ostaju kompatibilni. Automatsko čuvanje može da se isključi; brisanje nacrta ga isključuje, ali ostavlja trenutni tekst za preuzimanje. Fotografije nisu deo nacrta niti istorije. Neuspeh skladišta ne blokira izvoz.
+- `/api/usage` prihvata samo javni ID šablona i jednu od pet radnji: izbor, otvaranje editora, pokretanje PNG/PDF preuzimanja i neuspešan izvoz. Samo produkcioni domeni, isti origin, bez kolačića, identifikatora, teksta, URL-a ili poruke greške. DNT/GPC isključuju slanje. Zbirni brojači nisu jedinstveni posetioci, niti potvrda čuvanja datoteke na uređaju; blokatori i ponovljene radnje utiču na brojke. Javni endpoint nije dokaz ljudske posete i može sadržati automatizovane radnje.
+- **Admin → Statistika** (`/admin/sabloni/#statistika`) prikazuje poslednjih 7/30/90 dana, ukupno i po šablonu. Zaštićen je postojećim Cloudflare Access pristupom. D1 tabela `usage_daily` sadrži samo dan UTC, ID javnog šablona, vrstu radnje i zbir. Kreira se automatski pri prvom zahtevu; `migrations/0002_usage.sql` je ista šema za ručnu instalaciju. Čisti podatke starije od poslednjih 90 kalendarskih dana pri prvom zahtevu tog dana. Nema istorijskih podataka pre ovog izdanja. Potrebna je postojeća D1 veza `DB`; na probnim domenima se ništa ne šalje. Svaka prihvaćena radnja troši jedan D1 upis i Worker zahtev.
+
+Provera ovog paketa: `npm run test:first-package`. Koristi kompajlirani Worker, privremenu D1/R2 bazu, Chromium i lokalno presretanje produkcionog domena; ne šalje test događaje na javni sajt. Pokriva i kvar skladišta/izvoza/mreže, privatnost zahteva i zaštićenu statistiku.

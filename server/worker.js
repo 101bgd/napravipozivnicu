@@ -1,6 +1,7 @@
 import { authenticate, errorResponse, noStoreHeaders } from './auth.js';
 import { handleAdminApi } from './admin-api.js';
-import { handlePublic } from './public-pages.js';
+import { handlePublic, publishedCatalog } from './public-pages.js';
+import { recordUsage } from './usage.js';
 const adminCsp = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'";
 export default {
   async fetch(request, env) {
@@ -16,6 +17,7 @@ export default {
         headers.set('Content-Security-Policy', adminCsp);
         return new Response(response.body, { status: response.status, headers });
       }
+      if (url.pathname === '/api/usage') return await recordUsage(request, env, publishedCatalog);
       const response = await handlePublic(request, env, path => env.ASSETS.fetch(new Request(new URL(path, request.url), request)));
       if (response) return response;
       const staticResponse = await env.ASSETS.fetch(request);

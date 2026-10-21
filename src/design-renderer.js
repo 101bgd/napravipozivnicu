@@ -60,7 +60,7 @@ function textValue(layer, data) {
   return layer.uppercase ? value.toLocaleUpperCase('sr') : value;
 }
 function textWidth(c, value, spacing) { return c.measureText(value).width + Math.max(0, [...value].length - 1) * spacing; }
-function linesFor(c, value, width, spacing) {
+function linesFor(c, value, width, spacing, limit = 24) {
   const lines = [];
   for (const paragraph of value.split('\n')) {
     let line = '';
@@ -71,7 +71,27 @@ function linesFor(c, value, width, spacing) {
     }
     lines.push(line);
   }
-  return lines.slice(0, 24);
+  return lines.slice(0, limit);
+}
+// Diagnose edited fields against their original layout without altering exports.
+export function designTextWarnings(design, data, original, canvas) {
+  const c = canvas.getContext('2d'), warnings = [];
+  c.save();
+  for (const layer of design.layers.filter(l => l.type === 'text' && l.editable)) {
+    const baseline = original.layers.find(l => l.id === layer.id);
+    if (!baseline || (textValue(layer, data) === textValue(baseline, {}) && !data.layerStyles?.[layer.id])) continue;
+    c.font = `${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${layer.size}px "${layer.family}"`;
+    const width = layer.width / 100 * W, lines = linesFor(c, textValue(layer, data), width, layer.letterSpacing, Infinity);
+    const measured = Math.max(...lines.map(line => textWidth(c, line, layer.letterSpacing)));
+    const height = Math.max(layer.size * 1.2, lines.length * layer.size * layer.lineHeight);
+    const angle = layer.rotation * Math.PI / 180;
+    const rotatedHeight = Math.abs(Math.cos(angle)) * height + Math.abs(Math.sin(angle)) * measured;
+    const rotatedWidth = Math.abs(Math.cos(angle)) * measured + Math.abs(Math.sin(angle)) * height;
+    const x = layer.x / 100 * W + (layer.align === 'left' ? (measured - width) / 2 : layer.align === 'right' ? (width - measured) / 2 : 0), y = layer.y / 100 * H;
+    const originalHeight = layerBounds(baseline, {}, canvas).height;
+    if (measured > width + 2 || lines.length > 24 || x - rotatedWidth / 2 < 0 || x + rotatedWidth / 2 > W || y - rotatedHeight / 2 < 0 || y + rotatedHeight / 2 > H || height > originalHeight + baseline.size * baseline.lineHeight + 1) warnings.push(layer.field);
+  }
+  c.restore(); return [...new Set(warnings)];
 }
 function paintLine(c, text, x, y, spacing, stroke = false) {
   if (!spacing) { c[stroke ? 'strokeText' : 'fillText'](text, x, y); return; }

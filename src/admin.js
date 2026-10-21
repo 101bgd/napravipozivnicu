@@ -14,6 +14,7 @@ import { renderDesign, prepareDesign, designData, designAssetUrl, layerBounds, l
 import { roseBowDesign } from './admin-presets.js';
 import { curatedTemplates } from './curated-catalog.js';
 import { DEFAULT_ADSENSE } from './adsense-config.js';
+import { mountStatistics } from './admin-statistics.js';
 import { renderAdSenseAdmin, bindAdSenseAdmin } from './admin-adsense.js';
 const app = document.querySelector('#admin-app');
 const categoryName = id => categories.find(c => c.id === id)?.label || id;
@@ -33,7 +34,7 @@ function message(text) {
   document.querySelector('.admin-message')?.remove(); const el = document.createElement('div'); el.className = 'admin-message'; el.setAttribute('role', 'status'); el.textContent = text; document.body.append(el);
   clearTimeout(messageTimer); messageTimer = setTimeout(() => el.remove(), 6000);
 }
-const header = () => `<header class="admin-header"><div><h1>Tvoji šabloni</h1><p>Napravi pozivnicu · ${esc(email)}</p></div><div class="header-actions"><button data-action="adsense">AdSense reklame</button><a href="/" target="_blank" rel="noopener">Otvori sajt ↗</a><a href="/cdn-cgi/access/logout">Odjavi se</a></div></header>`;
+const header = () => `<header class="admin-header"><div><h1>Tvoji šabloni</h1><p>Napravi pozivnicu · ${esc(email)}</p></div><div class="header-actions"><button data-action="statistics">Statistika</button><button data-action="adsense">AdSense reklame</button><a href="/" target="_blank" rel="noopener">Otvori sajt ↗</a><a href="/cdn-cgi/access/logout">Odjavi se</a></div></header>`;
 const statusLabel = item => item.published ? item.changed ? 'Objavljeno · novi nacrt' : 'Objavljeno' : 'Nacrt';
 function renderList() {
   design = null; record = null; dirty = false;
@@ -43,6 +44,8 @@ function renderList() {
   document.querySelector('.example-library').insertAdjacentHTML('beforebegin', `<section class="example-library" aria-label="Gotovi dizajni"><h2>Gotovi dizajni</h2><p class="hint">Ovi dizajni su već na sajtu. Otvori dizajn, sačuvaj svoje izmene i klikni „Objavi“ da zameniš javnu verziju.</p><div class="admin-grid">${curatedTemplates.map(t => `<article class="admin-card"><div class="card-preview"><img src="${esc(t.thumbnail)}" alt="${esc(t.name)}" width="500" height="700" loading="lazy"></div><div class="card-content"><h3>${esc(t.name)}</h3><p>${esc(categoryName(t.category))}</p><button data-action="edit-curated" data-id="${t.id}">Uredi dizajn</button></div></article>`).join('')}</div></section>`);
   document.querySelector('.catalog-toolbar').insertAdjacentHTML('beforebegin', renderAdSenseAdmin(adsenseSettings));
   bindAdSenseAdmin({ api, onSaved: settings => { adsenseSettings = settings; } });
+  mountStatistics({before:document.querySelector('.catalog-toolbar'),api,templates:[...records,...curatedTemplates,...builtinTemplates]});
+  if(location.hash==='#statistika')document.querySelector('#usage-statistics').open=true;
   if (location.hash === '#adsense') document.querySelector('#adsense-settings').open = true;
 }
 function renderExamples() {
@@ -133,6 +136,7 @@ async function exportPreview(type) {
 const hasUnsavedChanges = () => dirty || document.querySelector('#adsense-form')?.dataset.dirty === 'true';
 const confirmLeave = () => !hasUnsavedChanges() || window.confirm('Imaš nesačuvane izmene. Želiš da ih odbaciš?');
 const actions = {
+  statistics() { if(!confirmLeave())return;renderList();const panel=document.querySelector('#usage-statistics');panel.open=true;panel.scrollIntoView({block:'start'});panel.querySelector('summary').focus({preventScroll:true}); },
   async 'edit-curated'(button) {
     if (!confirmLeave()) return;
     const existing = records.find(r => r.draft.builtinSource === button.dataset.id);

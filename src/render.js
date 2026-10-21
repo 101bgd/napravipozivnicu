@@ -24,12 +24,27 @@ function fit(c,text,y,maxWidth,font,size,min=14) {
   while(c.measureText(text).width>maxWidth && n>min) { n--; c.font=`${font} ${n}px ${c.family}`; }
   c.fillText(text,250,y,maxWidth);
 }
-function wrap(c,text,y,maxWidth,size,maxLines=4) {
-  c.font=`${size}px ${c.family}`; const lines=[];
+function wrappedLines(c,text,maxWidth) {
+  const lines=[];
   for(const paragraph of String(text).split('\n')) {
     let line=''; for(const word of paragraph.split(/\s+/)) { const next=line ? `${line} ${word}` : word; if(c.measureText(next).width>maxWidth && line) { lines.push(line);line=word; } else line=next; } lines.push(line);
   }
-  lines.slice(0,maxLines).forEach((line,i)=>c.fillText(line,250,y+i*size*1.55,maxWidth));
+  return lines;
+}
+function wrap(c,text,y,maxWidth,size,maxLines=4) {
+  c.font=`${size}px ${c.family}`;
+  wrappedLines(c,text,maxWidth).slice(0,maxLines).forEach((line,i)=>c.fillText(line,250,y+i*size*1.55,maxWidth));
+}
+export function invitationTextWarnings(canvas,data,withPhoto) {
+  const c=canvas.getContext('2d'),warnings=[];c.save();
+  for(const [field,size,width] of [['title',11,350],['names',20,385],['location',10,360]]) {
+    c.font=`${size}px ${families[data.font]||families.serif}`;
+    if(c.measureText(data[field]||'').width>width)warnings.push(field);
+  }
+  c.font=`13px ${families[data.font]||families.serif}`;
+  const lines=wrappedLines(c,String(data.note||''),370);
+  if(lines.length>(withPhoto?3:4)||lines.some(line=>c.measureText(line).width>370))warnings.push('note');
+  c.restore();return warnings;
 }
 export function renderInvitation(canvas,template,data=defaultData(template),photo=null,width=500,options={}) {
   const background=data.bg||template.bg;

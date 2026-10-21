@@ -2,12 +2,12 @@ export const CONTACT_EMAIL = 'kontakt@napravipozivnicu.com';
 
 export const INFO_PAGES = [
   {
-    id: 'privacy', path: '/politika-privatnosti/', title: 'Politika privatnosti', schemaType: 'WebPage', updatedAt: '2026-10-16',
+    id: 'privacy', path: '/politika-privatnosti/', title: 'Politika privatnosti', schemaType: 'WebPage', updatedAt: '2026-10-21',
     description: 'Kako Napravi pozivnicu obrađuje podatke, fotografije, lokalne nacrte i kontakt poruke. Informacije o privatnosti, čuvanju podataka i pravima korisnika.',
     lead: 'Ovde objašnjavamo kako se koriste podaci dok pravite pozivnicu, čuvate nacrt ili nam pišete.',
   },
   {
-    id: 'about', path: '/o-sajtu/', title: 'O sajtu', schemaType: 'AboutPage', updatedAt: '2026-10-16',
+    id: 'about', path: '/o-sajtu/', title: 'O sajtu', schemaType: 'AboutPage', updatedAt: '2026-10-21',
     description: 'Napravi pozivnicu je besplatan online alat na srpskom za rođendane, venčanja, krštenja i druge proslave. Uredi dizajn i preuzmi PNG ili PDF bez registracije.',
     lead: 'Za trenutke koje jedva čekate i ljude sa kojima želite da ih podelite.',
   },

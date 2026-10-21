@@ -51,7 +51,7 @@ document.querySelectorAll('.navigation a').forEach(a=>a.addEventListener('click'
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menuButton?.getAttribute('aria-expanded')==='true'){toggleMenu(false);menuButton.focus();}});
 document.addEventListener('click',e=>{if(!e.target.closest('.header-inner'))toggleMenu(false);});
 
-document.addEventListener('click',e=>{const b=e.target.closest('[data-open-template],.detail-preview [data-template]');if(b)openEditor(b.dataset.openTemplate||b.dataset.template,b);});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-open-template],[data-detail-edit],.detail-preview [data-template]');if(b)openEditor(b.dataset.openTemplate||b.dataset.detailEdit||b.dataset.template,b);});
 
 // Native links remain normal navigation; all motion is progressive enhancement.
 const revealObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}},{threshold:.08,rootMargin:'0px 0px -20px'});
@@ -99,3 +99,11 @@ document.querySelectorAll('[data-copy-text]').forEach(button=>{
       catch{toast('Označi tekst primera i kopiraj ga kroz meni pregledača.');}
     });
 });
+
+const detailAction=document.querySelector('.detail-edit-action'),detailBar=document.querySelector('.detail-mobile-action');
+if(detailAction&&detailBar){
+  let pastAction=false,footerVisible=false;
+  const sync=()=>{const show=pastAction&&!footerVisible;detailBar.classList.toggle('is-visible',show);detailBar.inert=!show;detailBar.setAttribute('aria-hidden',String(!show));};
+  new IntersectionObserver(([entry])=>{pastAction=!entry.isIntersecting&&entry.boundingClientRect.bottom<0;sync();}).observe(detailAction);
+  const footer=document.querySelector('footer');if(footer)new IntersectionObserver(([entry])=>{footerVisible=entry.isIntersecting;sync();}).observe(footer);
+}

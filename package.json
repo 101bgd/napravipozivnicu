@@ -11,7 +11,8 @@
     "test:production": "npm run build && node tests/production-smoke.mjs",
     "dev:admin": "npm run build && node scripts/admin-preview.mjs",
     "test:admin": "npm run build && node tests/admin-integration.mjs",
-    "test:adsense": "npm run build && node tests/adsense-integration.mjs"
+    "test:adsense": "npm run build && node tests/adsense-integration.mjs",
+    "test:first-package": "npm run build && node tests/first-package.mjs"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",
