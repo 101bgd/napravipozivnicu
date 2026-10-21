@@ -198,7 +198,27 @@
     },
     "outageBehavior": "persist_as_blocked_report_cause_and_resume_when_execution_is_available",
     "selfModificationOfRequirementsAllowed": false,
-    "userReviewBlocksPublication": false
+    "userReviewBlocksPublication": false,
+    "textLayoutReview": {
+      "source": "content/robi-batches/2026-10-21/user-review.json",
+      "authorizedBy": "explicit_user_feedback_2026-10-21",
+      "effectiveFrom": "next_batch",
+      "requirements": [
+        "Text should occupy more of the available clear background area with larger, balanced typography.",
+        "Group editable age and birthday label closely and clearly where applicable.",
+        "For centered compositions, visually verify optical alignment of the complete rendered text block and individual lines.",
+        "Preserve distinct compositions, safe margins, contrast, illustration clearance, Serbian glyphs and long-text fitting."
+      ],
+      "evidence": [
+        "actual_mobile_preview",
+        "actual_png_pdf",
+        "font_sizes_and_rendered_text_bounds",
+        "age_label_spacing_where_applicable",
+        "optical_alignment_review_where_applicable"
+      ],
+      "numericThresholds": "No fixed font size, occupancy ratio or spacing threshold was specified by the user; choose per design and record actual values.",
+      "currentBatchEditsBy": "user_in_editor"
+    }
   },
   "adsense": {
     "inheritExistingSiteSettings": true,

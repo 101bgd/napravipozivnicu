@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "user-review-2026-10-21",
+  "batchId": "2026-10-21",
+  "dateTokyo": "2026-10-21",
+  "recordedAt": "2026-10-21T03:43:31Z",
+  "reviewer": "user",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "cao robi, sad sam proverio, dodeljujem ti poen za danasnji rad, ali imam zamerke za dalje: hocu tekst da ispunjava malo vise pozadine, vidis npr u Jeziceva Radost, da je tekst mali, i rodjendan je bas dosta odmaknuto od broja 1. Ja cu detalje sad prepraviti u editoru, ali da znas za ubuduce sta da popravis, takodje za Lastino malo cudo, lepo si zamislio ali nisi lepo tekst odradio da je centralno, i mali je"
+  },
+  "status": "reviewed_with_feedback",
+  "award": {
+    "points": 1,
+    "type": "regular_monthly",
+    "period": "2026-10",
+    "explicitlyAwardedBy": "user",
+    "bonus": false
+  },
+  "assessment": "User awards one point for today's work and requests typography improvements; this is not a claim that everything is perfect.",
+  "findings": [
+    {
+      "id": "text_scale_and_space",
+      "scope": "future_batches",
+      "affectedDesigns": [
+        "jeziceva-radost",
+        "lastino-malo-cudo"
+      ],
+      "problem": "Tekst je premali i zauzima premalo raspoloživog prostora.",
+      "action": "Povećaj tekst i prilagodi širinu/visinu bloka slobodnom prostoru konkretne pozadine; zadrži hijerarhiju, čitljivost, kontrast i sigurne margine."
+    },
+    {
+      "id": "age_event_grouping",
+      "scope": "future_applicable_birthday_templates",
+      "affectedDesigns": [
+        "jeziceva-radost"
+      ],
+      "problem": "Reč rođendan je previše odmaknuta od broja 1.",
+      "action": "Broj uzrasta i reč rođendan vizuelno poveži u jednu grupu manjim smislenim razmakom; proveri da nema preklapanja."
+    },
+    {
+      "id": "text_block_alignment",
+      "scope": "future_centered_compositions",
+      "affectedDesigns": [
+        "lastino-malo-cudo"
+      ],
+      "problem": "Tekst nije pravilno centriran.",
+      "action": "Optički centriraj stvarni tekst i uskladi redove oko zajedničke ose u raspoloživom prostoru. Centar praznog tekstualnog okvira nije dovoljan dokaz."
+    }
+  ],
+  "application": {
+    "effectiveFrom": "next_batch",
+    "currentBatchEditsBy": "user_in_editor",
+    "robiCurrentBatchEditsRequested": false,
+    "readBeforeEachNewBatch": true
+  },
+  "evidenceRequiredNextBatch": [
+    "Actual mobile preview and PNG/PDF after text sizing changes",
+    "Font sizes and actual rendered text bounds relative to available text area",
+    "Age/event spacing and shared visual group where applicable",
+    "Optical alignment review of complete text block where centered composition is used"
+  ],
+  "technicalVerification": {
+    "changed": false,
+    "userReportedViewingSite": true,
+    "allSixPagesEditorsAndExportsExplicitlyConfirmed": false,
+    "remainingTechnicalBlockersPreserved": true
+  }
+}

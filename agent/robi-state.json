@@ -150,6 +150,14 @@
         "preparedAt": "2026-10-21T00:28:03.199Z",
         "deadline": "2026-10-21T10:00:00+09:00",
         "deliveryConfirmation": "Task response delivery is separate; not claimed merely from report creation."
+      },
+      "userReview": {
+        "status": "reviewed_with_feedback",
+        "recordedAt": "2026-10-21T03:43:31Z",
+        "evidence": "content/robi-batches/2026-10-21/user-review.json",
+        "awardLedgerEntry": "user-review-2026-10-21",
+        "currentBatchEditsBy": "user_in_editor",
+        "robiCurrentBatchEditsRequested": false
       }
     }
   ],
@@ -240,9 +248,30 @@
   },
   "initialUserReview": {
     "stage": "after_publication",
-    "status": "awaiting_post_publication_user_review",
+    "status": "reviewed_with_feedback",
     "approvalRequiredBeforePublication": false,
-    "feedback": null
+    "feedback": "content/robi-batches/2026-10-21/user-review.json",
+    "reviewedDateTokyo": "2026-10-21",
+    "recordedAt": "2026-10-21T03:43:31Z",
+    "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-21T00:28:03.199Z"
+  "updatedAt": "2026-10-21T03:43:31Z",
+  "latestUserFeedback": {
+    "dateTokyo": "2026-10-21",
+    "source": "content/robi-batches/2026-10-21/user-review.json",
+    "effectiveFrom": "next_batch",
+    "requiredImprovements": [
+      "larger_text_and_better_space_use",
+      "closer_age_and_birthday_group",
+      "optical_centering_for_centered_compositions"
+    ]
+  },
+  "score": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "totalPoints": 1,
+    "targetPoints": 50,
+    "ledger": "agent/review-ledger.json",
+    "updatedAt": "2026-10-21T03:43:31Z"
+  }
 }

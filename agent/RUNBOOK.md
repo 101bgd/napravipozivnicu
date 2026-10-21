@@ -8,6 +8,8 @@ Robijevi prompt, pravila, check lista i stanje čuvaju se na kontrolnoj grani **
 
 Fajlovi: `agent/ROBI-PROMPT.md`, `agent/QUALITY-CHECKLIST.md`, `agent/workflow-policy.json`, `agent/robi-state.json` i `agent/review-ledger.json`.
 
+Pre nove serije pročitaj i `latestUserFeedback.source` iz stanja, uključujući `content/robi-batches/2026-10-21/user-review.json`. Primeni zahteve za krupniji tekst, smislenije povezivanje uzrasta i događaja i optičko centriranje gde kompozicija to zahteva. Korisnik sam dorađuje seriju 21.10.2026. u editoru; ne prepisuj njegove izmene. Izričito dodeljen bod evidentiraj zajedno sa primedbama; bod nije dokaz završenih tehničkih provera.
+
 ## Zakazani početak i stvaran posao
 
 Prvo redovno pokretanje je **21.10.2026. u 08:00 po Tokiju** i pravi **svih šest novih pozadina kroz ChatGPT alat za generisanje slika**, sa muškom publikom gde je primenljivo i dečjim uzrastom tri godine. Ne završavaj samo opisom plana. Svaki poziv alata traži jednu zasebnu pozadinu, nikada kolaž ili kontakt-list. Bez API generisanja koje bi zahtevalo OpenAI API ključ.

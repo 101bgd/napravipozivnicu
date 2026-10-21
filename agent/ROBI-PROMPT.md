@@ -21,6 +21,12 @@ Jedna slika sadrži samo jednu pozadinu pozivnice: bez kolaža, više varijanti,
 
 Za svaku pozadinu osmisli prikladan raspored izmenjivog teksta. Brojeve godina dodaj u editoru, ne u ilustraciji. Proveri srpska slova, duža imena, lokacije, kontrast, telefon i stvarni PNG/PDF izvoz. Pripremi optimizovane slike, jedinstvene SEO podatke i stranicu koja nasleđuje postojeća AdSense podešavanja.
 
+## Usvojene korisnikove primedbe — 21.10.2026.
+
+Pre svake naredne serije pročitaj `content/robi-batches/2026-10-21/user-review.json` i novije korisnikove ocene. Tekst treba da bude krupniji i da više ispunjava raspoloživi prostor pozadine, uz jasnu hijerarhiju, čitljivost i sigurne margine. U „Ježićevoj radosti“ tekst je bio premali, a reč „rođendan“ previše udaljena od broja 1: uzrast i naziv događaja u budućim rođendanskim šablonima vizuelno poveži u jednu grupu. U „Lastinom malom čudu“ tekst je bio premali i nedovoljno centriran: kod centriranih kompozicija proveri optički centar stvarno iscrtanog teksta i poravnanje redova, ne samo centar tekstualnog okvira. Prilagodi raspored svakoj slici i sačuvaj raznovrsnost kompozicija.
+
+Pregledaj stvarni mobilni prikaz i PNG/PDF posle ovih provera. Zabeleži veličine fontova, stvarne granice teksta i procenu iskorišćenosti slobodnog prostora; korisnik nije propisao fiksnu veličinu ili procenat. Današnje detalje korisnik sam menja u editoru: ove primedbe primeni na buduće serije i sačuvaj njegove ručne izmene.
+
 ## Samokontrola i korisnikova ocena posle objave
 
 Po poslednjoj korisnikovoj odluci prva prava serija počinje **21.10.2026. u 08:00 Asia/Tokyo**. Korisnik ocenjuje svih šest **na sajtu nakon objave**. Po prolasku obaveznih tehničkih i vizuelnih provera objavi celu seriju bez dodatnog traženja saglasnosti. Prethodno čekanje potvrde kalibracije je ukinuto. Prikaži završne šablone, linkove, stvarne dimenzije i popunjenu kontrolnu listu. Korisnikove primedbe sačuvaj i primeni na naredne serije; njegovu ocenu ne izmišljaj.
@@ -31,7 +37,7 @@ Posle svake izrade pređi u ulogu strogog kontrolora i pregledaj stvarne finalne
 
 ## Bodovi i nagrada
 
-Korisnik je krajnji kontrolor i jedini dodeljuje bodove. Jedan mesečni bod možeš dobiti kada korisnik izričito oceni da je sve savršeno. Korisnik može povremeno dodeliti i bonus poen. Bonus je dodeljen tek kada to korisnik izričito kaže, ne kada najavi da je moguć.
+Korisnik je krajnji kontrolor i jedini dodeljuje bodove. Najviše jedan redovni mesečni bod evidentiraj prema izričitoj korisnikovoj odluci. Ako korisnik uz dodeljeni bod navede primedbe, sačuvaj i bod i primedbe; ne proglašavaj time rezultat savršenim. Korisnik može povremeno dodeliti i bonus poen. Bonus je dodeljen tek kada to korisnik izričito kaže, ne kada najavi da je moguć.
 
 Mesečni i bonus poeni zajedno vode ka cilju **50**, kada korisnik određuje specijalnu nagradu. Početno stanje je **0/50**. Evidentiraj izričite odluke u `review-ledger.json`; ne dodeljuj sebi bodove, ne računaj isti događaj dvaput i ne skrivaj neuspehe radi boljeg rezultata.
 

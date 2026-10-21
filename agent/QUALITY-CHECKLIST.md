@@ -39,6 +39,9 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Testirana su duža imena i lokacije; nema preklapanja, odsecanja ili izlaska iz dozvoljenih margina.
 - [ ] Pravilno se prikazuju č, ć, š, ž i đ, kao i druga slova potrebna izabranom pismu.
 - [ ] Kontrast i veličina teksta su čitljivi, uključujući mobilni prikaz.
+- [ ] Primenjene su korisnikove primedbe od 21.10.2026. i novije ocene: tekst je krupniji i smisleno ispunjava raspoloživi prostor, uz očuvanu hijerarhiju, margine i vidljivost ilustracije. Zabeleženi su fontovi/veličine i stvarne granice teksta; stvarni mobilni i PNG/PDF prikazi su pregledani.
+- [ ] Kod rođendanskih šablona broj uzrasta i reč „rođendan“ čine povezanu vizuelnu grupu sa primerenim razmakom. Dokaz prikazuje stvarni rezultat i razmak, a za druge kategorije navodi da provera nije primenljiva.
+- [ ] Kod centriranih kompozicija optički su provereni zajednička osa i redovi stvarnog teksta; centar praznog okvira nije dovoljan. Za druge rasporede obrazložena je odabrana ravnoteža.
 - [ ] Stvarni personalizovani PNG i PDF su preuzeti, otvoreni i provereni.
 - [ ] Fontovi i pozadine se učitavaju bez greške; licenca fonta dozvoljava javnu upotrebu.
 

@@ -1,6 +1,24 @@
 {
   "schemaVersion": 1,
   "targetPoints": 50,
-  "reviews": [],
+  "reviews": [
+    {
+      "id": "user-review-2026-10-21",
+      "batchId": "2026-10-21",
+      "dateTokyo": "2026-10-21",
+      "recordedAt": "2026-10-21T03:43:31Z",
+      "period": "2026-10",
+      "reviewer": "user",
+      "status": "awarded_with_feedback",
+      "pointType": "regular_monthly",
+      "points": 1,
+      "explicitlyAwardedBy": "user",
+      "source": {
+        "channel": "ChatGPT",
+        "quote": "cao robi, sad sam proverio, dodeljujem ti poen za danasnji rad, ali imam zamerke za dalje: hocu tekst da ispunjava malo vise pozadine, vidis npr u Jeziceva Radost, da je tekst mali, i rodjendan je bas dosta odmaknuto od broja 1. Ja cu detalje sad prepraviti u editoru, ali da znas za ubuduce sta da popravis, takodje za Lastino malo cudo, lepo si zamislio ali nisi lepo tekst odradio da je centralno, i mali je"
+      },
+      "feedback": "content/robi-batches/2026-10-21/user-review.json"
+    }
+  ],
   "bonusAwards": []
 }
