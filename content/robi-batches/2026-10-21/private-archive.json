@@ -1,7 +1,7 @@
 {
   "path": "/workspace/artifacts/robi-2026-10-21/Robi-21-10-2026-pozivnice-i-izvori.zip",
-  "bytes": 46201805,
-  "sha256": "1fd1dc42cd78a1d41f5c232bf710a7d7819818a1c7676ac62614b32fa9a6c57c",
+  "bytes": 46174612,
+  "sha256": "446023a660bad08a80a80529ec1b0b6229814a5a472446570c14f5b200aa16e2",
   "publiclyUploaded": false,
-  "purpose": "Complete local handoff to user while public GitHub archive upload is blocked by automatic approval review."
+  "purpose": "Complete local handoff to user while public GitHub source archive upload is blocked by automatic approval review."
 }

@@ -30,7 +30,7 @@
       "id": "2026-10-21",
       "date": "2026-10-21",
       "timezone": "Asia/Tokyo",
-      "status": "publishing",
+      "status": "blocked",
       "audience": "male",
       "birthdayAge": 3,
       "requiredCount": 6,
@@ -43,37 +43,37 @@
           "id": "jeziceva-radost",
           "category": "first",
           "name": "Ježićeva radost",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         },
         {
           "id": "noc-na-vinilu",
           "category": "eighteen",
           "name": "Noć na vinilu",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         },
         {
           "id": "zabac-zove-drugare",
           "category": "birthday",
           "name": "Žabac zove drugare",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         },
         {
           "id": "narova-prica",
           "category": "wedding",
           "name": "Narova priča",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         },
         {
           "id": "tihi-izvor",
           "category": "baptism",
           "name": "Tihi izvor",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         },
         {
           "id": "lastino-malo-cudo",
           "category": "baby",
           "name": "Lastino malo čudo",
-          "status": "deploy_pending"
+          "status": "deployed_unverified"
         }
       ],
       "generatedCount": 6,
@@ -109,14 +109,21 @@
       },
       "liveVerification": {
         "status": "unverified",
-        "reason": "Network policy denies napravipozivnicu.com (proxy CONNECT 403)."
+        "evidence": "content/robi-batches/2026-10-21/public-live-checks.json",
+        "reason": "All six live URL checks blocked by allowed tool/network access; public editor/exports and production ad fill not verified."
       },
       "mainCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
       "mainUpdatedAt": "2026-10-21T00:11:30.448Z",
       "publication": {
-        "status": "main_updated_deploy_pending",
+        "status": "deployed",
         "atomic": true,
-        "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0"
+        "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+        "cloudflareCheckId": 118964417839,
+        "cloudflareConclusion": "success",
+        "completedAt": "2026-10-21T00:22:55Z",
+        "completedAtTokyo": "2026-10-21T09:22:55+09:00",
+        "completedBeforeDeadline": true,
+        "evidence": "content/robi-batches/2026-10-21/deployment-check.json"
       },
       "blockers": [
         {
@@ -129,11 +136,21 @@
         }
       ],
       "resumeActions": [
-        "Check Cloudflare deployment for main commit 099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0.",
-        "Verify all six existing published URLs/editor/exports when allowed network access is available.",
-        "Resume public source archive upload only after automatic approval block is resolved; use upload-progress and existing SHA objects.",
-        "Do not regenerate or republish 2026-10-21 designs. Do not advance audience/age or mark full success without confirmed publication verification."
-      ]
+        "Do not regenerate or republish the six 2026-10-21 designs: main commit is deployed successfully.",
+        "Verify all six existing public pages/editor/exports when permitted network access is available.",
+        "Resume public source archive upload only after automatic approval review block is resolved; exact archive provenance and uploaded SHA objects are saved.",
+        "Do not mark full success or advance audience/age until complete publication verification is confirmed."
+      ],
+      "blockedStage": "post_publication_verification",
+      "deployedCount": 6,
+      "verifiedPublicCount": 0,
+      "completionVerified": false,
+      "notification": {
+        "channel": "ChatGPT",
+        "preparedAt": "2026-10-21T00:28:03.199Z",
+        "deadline": "2026-10-21T10:00:00+09:00",
+        "deliveryConfirmation": "Task response delivery is separate; not claimed merely from report creation."
+      }
     }
   ],
   "history": [
@@ -163,7 +180,7 @@
     },
     {
       "id": "2026-10-21",
-      "status": "main_updated_deploy_pending",
+      "status": "deployed_verification_blocked",
       "countsAsDailyDelivery": false,
       "source": "content/robi-batches/2026-10-21/plan.json",
       "motifs": [
@@ -183,7 +200,8 @@
         "lastino-malo-cudo"
       ],
       "mainCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
-      "reuseForDailyPublication": false
+      "reuseForDailyPublication": false,
+      "deployedAt": "2026-10-21T00:22:55Z"
     }
   ],
   "automations": {
@@ -207,7 +225,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-21",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -217,14 +235,14 @@
     "requiredCount": 6,
     "audience": "male",
     "birthdayAge": 3,
-    "status": "publishing",
+    "status": "blocked",
     "requiresFreshGeneration": true
   },
   "initialUserReview": {
     "stage": "after_publication",
-    "status": "not_yet_published",
+    "status": "awaiting_post_publication_user_review",
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-21T00:21:49.265Z"
+  "updatedAt": "2026-10-21T00:28:03.199Z"
 }

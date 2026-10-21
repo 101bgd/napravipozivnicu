@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-21T00:27:20.976Z",
+  "afterConfirmedDeployment": true,
+  "results": [
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    },
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-vinil-ploca/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    },
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zabac-lokvanji/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    },
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-nar-botanicka/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    },
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-krst-krstionica/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    },
+    {
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-laste/",
+      "status": "NEPROVERENO",
+      "reason": "Approved web read tool reports URL inaccessible; executor proxy returns CONNECT 403 for host outside allowlist."
+    }
+  ],
+  "publicEditorAndExportsVerified": false,
+  "productionAdFillVerified": false,
+  "noNetworkBypassAttempted": true
+}

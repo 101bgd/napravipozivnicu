@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-21T00:27:20.976Z",
+  "repository": "101bgd/napravipozivnicu",
+  "branch": "main",
+  "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+  "checkId": 118964417839,
+  "checkName": "Cloudflare Pages",
+  "status": "completed",
+  "conclusion": "success",
+  "completedAt": "2026-10-21T00:22:55Z",
+  "evidenceUrl": "https://api.github.com/repos/101bgd/napravipozivnicu/commits/main/check-runs",
+  "githubCheckUrl": "https://github.com/101bgd/napravipozivnicu/runs/118964417839",
+  "cloudflareDetailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/acf01038-85fc-4a21-907e-2d874847b626",
+  "previewUrl": "https://acf01038.napravipozivnicu.pages.dev",
+  "matchesAllSixTestedTemplates": true,
+  "sourceChecks": [
+    {
+      "path": "content/robi-batches/2026-10-21/designs.mjs",
+      "sha": "0bccfaeddb4e1a302d9d6bd5f2550579b638cc8a",
+      "matchesTestedSource": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/asset-ids.json",
+      "sha": "7e96dfeffe13fdaf1168f514779a81a4af0d227b",
+      "matchesTestedSource": true
+    },
+    {
+      "path": "src/robi-designs.js",
+      "sha": "1c07de064b0f600cfebfc7a924c967947c2d7e8e",
+      "matchesTestedSource": true
+    },
+    {
+      "path": "src/robi-assets.js",
+      "sha": "74c06106862b1bc0abb892fa7be01a215da8e20c",
+      "matchesTestedSource": true
+    },
+    {
+      "path": "src/robi-catalog.js",
+      "sha": "e4659e18285e0060278a60292017339a491ad3b0",
+      "matchesTestedSource": true
+    }
+  ]
+}
