@@ -4,7 +4,8 @@ export const babyDrafts = [
   {
     id: 'zvezda-naseg-neba', source: 1, name: 'Zvezda našeg neba',
     slug: 'pozivnica-za-rodjenje-deteta-beba-zvezdano-nebo',
-    seoTitle: 'Pozivnica za rođenje deteta — Zvezda našeg neba',
+    motif: 'sa bebom na zvezdanom oblaku',
+    seoTitle: 'Pozivnica za rođenje deteta sa bebom na zvezdanom oblaku — Zvezda našeg neba',
     description: 'Pozivnica za rođenje bebe sa zvezdanim nebom i uspavanom bebom na oblaku. Uredi ime i detalje proslave, pa besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođenje deteta sa uspavanom bebom na oblaku, plavim povojem, zvezdanim nebom i svetlim rukopisnim imenom',
     details: 'Uspavana beba na mekom oblaku i sitne zlatne zvezde uokviruju poziv na proslavu rođenja. Svetlo rukopisno ime ističe se na tamnoplavom nebu, a datum i vreme stoje jedan pored drugog. Ilustracija je deo pozadine; lična fotografija se ne dodaje.',
@@ -13,7 +14,8 @@ export const babyDrafts = [
   {
     id: 'rodin-mali-dar', source: 2, name: 'Rodin mali dar',
     slug: 'pozivnica-za-proslavu-rodjenja-bebe-roda',
-    seoTitle: 'Pozivnica za proslavu rođenja bebe sa rodom — besplatno',
+    motif: 'sa rodom i zavežljajem',
+    seoTitle: 'Pozivnica za rođenje deteta sa rodom i zavežljajem — Rodin mali dar',
     description: 'Besplatna pozivnica za proslavu rođenja bebe sa rodom u krem i zelenim tonovima. Promeni ime, poruku i mesto okupljanja i preuzmi sliku ili PDF.',
     imageAlt: 'Pozivnica za rođenje deteta sa belom rodom koja nosi zavežljaj, zelenim oblacima i kaligrafskim imenom na krem pozadini',
     details: 'Bela roda nosi mali zavežljaj iznad toplog krem neba. Kaligrafsko ime i maslinastozeleni tekst smešteni su ispod njenih krila, tako da ilustracija ostane potpuno vidljiva. Promeni poruku za porodičnu proslavu ili babine. Šablon nema mesto za fotografiju.',
@@ -22,7 +24,8 @@ export const babyDrafts = [
   {
     id: 'mali-konjic-velika-radost', source: 3, name: 'Mali konjić, velika radost',
     slug: 'pozivnica-za-rodjenje-decaka-bodic-konjic',
-    seoTitle: 'Pozivnica za rođenje dečaka sa konjićem — besplatno',
+    motif: 'sa plavim bodićem i konjićem',
+    seoTitle: 'Pozivnica za rođenje deteta sa plavim bodićem i konjićem — Mali konjić, velika radost',
     description: 'Plava pozivnica za rođenje dečaka sa bodićem i drvenim konjićem. Upiši ime bebe i podatke proslave, pa preuzmi besplatan PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođenje deteta sa plavim bodićem, drvenim konjićem za ljuljanje i dugmićima levo, uz ime i podatke desno',
     details: 'Plavi bodić, konjić za ljuljanje i mala dugmad prate levu ivicu pozivnice. Desno ostaje miran krem prostor za zaobljeno ime deteta, kratku poruku i pregledne podatke o proslavi. Tekst se uređuje odvojeno, bez dodavanja lične fotografije.',
@@ -31,7 +34,8 @@ export const babyDrafts = [
   {
     id: 'cvet-nase-porodice', source: 4, name: 'Cvet naše porodice',
     slug: 'pozivnica-za-rodjenje-devojcice-roze-bozur',
-    seoTitle: 'Pozivnica za rođenje devojčice — Cvet naše porodice',
+    motif: 'sa bebom u cvetu božura',
+    seoTitle: 'Pozivnica za rođenje deteta sa bebom u cvetu božura — Cvet naše porodice',
     description: 'Roze pozivnica za rođenje devojčice sa bebom u božuru i svečanim rukopisnim imenom. Uredi tekst i besplatno preuzmi sliku ili PDF, bez fotografije.',
     imageAlt: 'Pozivnica za rođenje deteta sa uspavanom bebom u cvetu božura, roze pozadinom i tamnoružičastim rukopisnim imenom',
     details: 'Veliki roze božur čuva uspavanu bebu, dok se levo nižu kaligrafsko ime i kratki podaci o okupljanju. Tamnoružičasta slova daju kontrast mekoj cvetnoj pozadini. Beba u cvetu je deo originalne ilustracije; ovaj dizajn nema okvir za ličnu fotografiju.',
@@ -40,7 +44,8 @@ export const babyDrafts = [
   {
     id: 'prvi-mali-koraci', source: 5, name: 'Prvi mali koraci',
     slug: 'pozivnica-za-rodjenje-bebe-pletene-patofnice',
-    seoTitle: 'Pozivnica za rođenje bebe sa patofnicama — besplatno',
+    motif: 'sa pletenim patofnicama',
+    seoTitle: 'Pozivnica za rođenje deteta sa pletenim patofnicama — Prvi mali koraci',
     description: 'Minimalistička pozivnica za rođenje bebe sa pletenim patofnicama i toplim peščanim tonovima. Prilagodi ime i proslavu i preuzmi besplatan PNG ili PDF.',
     imageAlt: 'Pozivnica za rođenje deteta sa krem pletenim patofnicama, pamukom, zelenim suncem i velikim smeđim imenom',
     details: 'Krem papir, peščani oblici, diskretno zeleno sunce i par pletenih patofnica stvaraju topao, jednostavan okvir. Krupno ime u klasičnom fontu ostaje u središtu, a kratka rukopisna poruka je izdvojena dole levo. Poziv za devojčicu ili dečaka, bez mesta za fotografiju.',
@@ -49,7 +54,8 @@ export const babyDrafts = [
   {
     id: 'kolevka-puna-ljubavi', source: 6, name: 'Kolevka puna ljubavi',
     slug: 'pozivnica-za-rodjenje-deteta-roze-kolevka',
-    seoTitle: 'Pozivnica za rođenje deteta sa kolevkom — besplatno',
+    motif: 'sa kolevkom i roze baldahinom',
+    seoTitle: 'Pozivnica za rođenje deteta sa kolevkom i roze baldahinom — Kolevka puna ljubavi',
     description: 'Pozivnica za rođenje deteta sa pletenom kolevkom i roze baldahinom. Izmeni ime, datum i mesto proslave i besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođenje deteta sa pletenom kolevkom, roze baldahinom, medom i rukopisnim imenom iznad ilustracije',
     details: 'Pletena kolevka, roze baldahin i mali meda ostaju u donjem levom delu. Rukopisno ime i poruka nalaze se iznad kolevke, dok su datum, vreme i adresa poravnati u zaseban desni blok. Prilagodi poziv za proslavu rođenja ili babine, bez ubacivanja fotografije.',
@@ -127,5 +133,5 @@ export function babyDesign(id, { backgroundId, fontIds } = {}) {
     { assetId: fontIds.script, family: script, name: 'Napravi Rukopis — nežni' },
     { assetId: fontIds.calligraphy, family: calligraphy, name: 'Great Vibes — svečani' },
   ].filter(font => usedFamilies.has(font.family));
-  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'baby', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
+  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'baby', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
 }

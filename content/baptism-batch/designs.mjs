@@ -4,7 +4,8 @@ export const baptismDrafts = [
   {
     id: 'andjeoski-blagoslov', source: 1, name: 'Anđeoski blagoslov',
     slug: 'pozivnica-za-krstenje-andjeo', locale: 'sr-Cyrl-RS',
-    seoTitle: 'Pozivnica za krštenje sa anđelom — Anđeoski blagoslov',
+    motif: 'sa anđelom i krstom',
+    seoTitle: 'Pozivnica za krštenje sa anđelom i krstom — Anđeoski blagoslov',
     description: 'Besplatna pozivnica za krštenje deteta sa anđelom i roze oblacima. Uredi ćirilični tekst, ime, crkvu i mesto proslave, pa preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za krštenje sa anđelom koji drži zlatni krst, belom golubicom, roze oblacima i ćiriličnim rukopisnim imenom',
     details: 'Anđeo, golubica i topli oblaci uokviruju svečan tekst na ćirilici. Ime deteta je ispisano mekom kaligrafijom, dok su datum, vreme obreda, crkva i mesto ručka jasno odvojeni. Šablon je bez fotografije; možeš uneti i tekst na latinici.',
@@ -13,7 +14,8 @@ export const baptismDrafts = [
   {
     id: 'golubica-mira', source: 2, name: 'Golubica mira',
     slug: 'pozivnica-za-krstenje-golubica-maslina', locale: 'sr-Latn-RS',
-    seoTitle: 'Pozivnica za krštenje sa golubicom i maslinom — besplatno',
+    motif: 'sa golubicom i maslinom',
+    seoTitle: 'Pozivnica za krštenje sa golubicom i maslinom — Golubica mira',
     description: 'Elegantna pozivnica za pravoslavno krštenje sa golubicom, maslinom i zlatnim krstom. Izmeni ime, datum i lokacije i besplatno preuzmi sliku ili PDF.',
     imageAlt: 'Pozivnica za krštenje sa belom golubicom, maslinovim grančicama, zlatnim krstom i svečanim tekstom na desnoj strani',
     details: 'Bela golubica i maslinove grančice ostaju u prvom planu, a klasična serifna slova prate slobodan prostor desno. Maslinastozeleni i bronzani tonovi daju svečan izgled. Odvojeno uredi crkvu i mesto porodične proslave, bez dodavanja fotografije.',
@@ -22,7 +24,8 @@ export const baptismDrafts = [
   {
     id: 'put-svetlosti', source: 3, name: 'Put svetlosti',
     slug: 'pozivnica-za-pravoslavno-krstenje-crkva', locale: 'sr-Cyrl-RS',
-    seoTitle: 'Pozivnica za pravoslavno krštenje sa crkvom — Put svetlosti',
+    motif: 'sa pravoslavnom crkvom',
+    seoTitle: 'Pozivnica za krštenje sa pravoslavnom crkvom — Put svetlosti',
     description: 'Napravi pozivnicu za pravoslavno krštenje deteta sa crkvom i zlatnim nebom. Uredi ime na ćirilici, obred i proslavu i preuzmi besplatan PNG ili PDF.',
     imageAlt: 'Pozivnica za krštenje sa pravoslavnom crkvom, kupolom i krstom, golubicama, zlatnim zracima i ćiriličnim tekstom',
     details: 'Pravoslavna crkva i staza pod svetlim nebom prate priču o početku duhovnog puta. Veliko ime na ćirilici nalazi se iznad hrama, a detalji obreda i proslave u dva bloka desno. Topla smeđa slova čuvaju čitljivost na zlatnom nebu; šablon nema okvir za fotografiju.',
@@ -31,6 +34,7 @@ export const baptismDrafts = [
   {
     id: 'svetlost-krstenja', source: 4, name: 'Svetlost krštenja',
     slug: 'pozivnica-za-krstenje-krst-sveca', locale: 'sr-Latn-RS',
+    motif: 'sa krstom i svećom',
     seoTitle: 'Pozivnica za krštenje sa krstom i svećom — Svetlost krštenja',
     description: 'Besplatna pozivnica za krštenje sa pravoslavnim krstom, svećom i plavom trakom. Personalizuj ime, poruku i lokacije i preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za krštenje sa pravoslavnim krstom, upaljenom svećom, maslinom, plavom svilenom trakom i tamnoplavim slovima',
@@ -103,7 +107,7 @@ export function baptismDesign(id, { backgroundId, fontIds } = {}) {
   ];
   return normalizeDesign({
     schemaVersion: 1, name: metadata.name, category: 'baptism', locale: metadata.locale,
-    description: metadata.description, imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details,
+    description: metadata.description, imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details,
     bg: metadata.bg, backgroundId, thumbnailId: null,
     fonts: [{ assetId: fontIds.cormorant, family: serif, name: 'Cormorant Garamond — svečani' }, { assetId: fontIds.marckscript, family: script, name: 'Napravi rukopis — kaligrafski' }],
     layers,

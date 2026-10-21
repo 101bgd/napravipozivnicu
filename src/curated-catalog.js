@@ -14,7 +14,7 @@ import { robiTemplates } from './robi-catalog.js';
 export const curatedTemplates = [...robiTemplates, ...firstBirthdayTemplates, ...birthdayCollectionTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenCollectionTemplates, ...eighteenTemplates, ...weddingTemplates, ...babyTemplates, {
   id: 'ponocna-elegancija',
   slug: 'ponocna-elegancija',
-  name: 'Ponoćna elegancija',
+  name: 'Ponoćna elegancija', motif: 'sa plavim cvećem i zlatom', seoTitle: 'Pozivnica za venčanje sa plavim cvećem i zlatom — Ponoćna elegancija',
   category: 'wedding',
   style: 'custom',
   description: 'Elegantna pozivnica za svadbu sa tamnoplavim cvećem, zlatnim detaljima i kaligrafskim imenima. Uredi tekst bez fotografije i preuzmi besplatan PNG ili PDF.',

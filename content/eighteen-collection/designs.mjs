@@ -4,7 +4,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'terakota-ritam', source: 1, name: 'Terakota ritam',
     slug: 'pozivnica-za-18-rodjendan-retro-sahovnica',
-    seoTitle: 'Retro pozivnica za 18. rođendan — Terakota ritam',
+    motif: 'sa retro šahovnicom',
+    seoTitle: 'Pozivnica za 18. rođendan sa retro šahovnicom — Terakota ritam',
     description: 'Retro pozivnica za 18. rođendan sa šahovnicom i terakota suncem. Promeni ime i detalje punoletstva i besplatno preuzmi PNG ili PDF, bez fotografije.',
     imageAlt: 'Pozivnica za 18. rođendan sa crno-belom talasastom šahovnicom, terakota suncem i krupnim brojem 18 na krem pozadini',
     details: 'Talasasta šahovnica i terakota sunce uokviruju razigran retro poziv. Uvod prati uspravnu liniju pored šahovnice, dok su ime, zaobljeni broj 18 i podaci o proslavi desno. Tamna slova ostaju jasna na krem papiru. Šablon nema mesto za fotografiju.',
@@ -13,7 +14,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'ledeni-hologram', source: 2, name: 'Ledeni hologram',
     slug: 'moderna-pozivnica-za-punoletstvo-holografska',
-    seoTitle: 'Moderna pozivnica za punoletstvo — Ledeni hologram',
+    motif: 'sa holografskim trakama',
+    seoTitle: 'Pozivnica za 18. rođendan sa holografskim trakama — Ledeni hologram',
     description: 'Holografska pozivnica za punoletstvo u ledenoplavim tonovima. Uredi ime, poruku i podatke 18. rođendana i besplatno preuzmi sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa hromiranim holografskim trakama, plavo-ljubičastim brojem 18 i tamnim tekstom ispod',
     details: 'Holografske trake ostaju u gornjem delu, a slobodan plavi prostor nosi moderan raspored: veliki broj levo, kratku poruku desno i ime preko širine pozivnice. Tamnoplava i ljubičasta tipografija čuvaju kontrast na svetlim odsjajima. Lična fotografija se ne dodaje.',
@@ -22,7 +24,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'zlatni-disko-ritam', source: 3, name: 'Zlatni disko ritam',
     slug: 'pozivnica-za-18-rodjendan-retro-disko',
-    seoTitle: 'Disko pozivnica za 18. rođendan — retro zlatni ritam',
+    motif: 'sa zlatnom disko kuglom',
+    seoTitle: 'Pozivnica za 18. rođendan sa zlatnom disko kuglom — Zlatni disko ritam',
     description: 'Narandžasta disko pozivnica za 18. rođendan sa zlatnom kuglom i retro slovima. Prilagodi ime i proslavu, pa preuzmi besplatan PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa zlatnom disko kuglom levo, žutim retro talasima i tamnosmeđim imenom desno',
     details: 'Zlatna disko kugla i narandžasti talasi donose ritam sedamdesetih. Zaobljeno ime i klasičan veliki broj imaju različite uloge, a podaci o proslavi prate desnu stranu pored kugle. Tamnosmeđa slova ističu se na narandžastoj podlozi. Dizajn je bez okvira za fotografiju.',
@@ -31,7 +34,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'masna-u-ponoc', source: 4, name: 'Mašna u ponoć',
     slug: 'elegantna-pozivnica-za-punoletstvo-crna-masna',
-    seoTitle: 'Elegantna pozivnica za punoletstvo sa crnom mašnom',
+    motif: 'sa crnom satenskom mašnom',
+    seoTitle: 'Pozivnica za 18. rođendan sa crnom satenskom mašnom — Mašna u ponoć',
     description: 'Roze pozivnica za punoletstvo sa crnom satenskom mašnom i kaligrafskim imenom. Upiši detalje 18. rođendana i besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa crnom satenskom mašnom, kaligrafskim imenom i klasičnim brojem 18 na roze pozadini',
     details: 'Crna satenska mašna i biseri ostaju vidljivi na levoj strani. Desno se smenjuju kaligrafsko ime, klasičan broj 18 i kratka rukopisna poruka, uz odvojene podatke za goste. Gotovo crna slova daju izražen kontrast roze svili. Nema mesta za ličnu fotografiju.',
@@ -40,7 +44,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'bordo-nokturno', source: 5, name: 'Bordo nokturno',
     slug: 'pozivnica-za-18-rodjendan-bordo-ruza',
-    seoTitle: 'Bordo pozivnica za 18. rođendan sa ružom — besplatno',
+    motif: 'sa bordo ružom i svilom',
+    seoTitle: 'Pozivnica za 18. rođendan sa bordo ružom i svilom — Bordo nokturno',
     description: 'Svečana pozivnica za 18. rođendan sa bordo ružom i svilenim naborima. Izmeni ime, tekst i mesto punoletstva i besplatno preuzmi sliku ili PDF.',
     imageAlt: 'Pozivnica za 18. rođendan sa crvenom ružom, bordo svilenim naborima, svetlim svečanim imenom i podacima levo',
     details: 'Bordo ruža i svila ostaju u donjem desnom uglu. Svetlo ime je visoko iznad njih, broj 18 i poruka dele sredinu, a datum i adresa nalaze se u uskoj levoj koloni. Krem i šampanj tonovi izdvajaju tekst iz tamne pozadine. Pozivnica nema foto okvir.',
@@ -49,7 +54,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'leptirov-novi-let', source: 6, name: 'Leptirov novi let',
     slug: 'pozivnica-za-punoletstvo-lavanda-leptiri',
-    seoTitle: 'Pozivnica za punoletstvo sa leptirima — lavanda',
+    motif: 'sa staklenim leptirima',
+    seoTitle: 'Pozivnica za 18. rođendan sa staklenim leptirima — Leptirov novi let',
     description: 'Pozivnica za punoletstvo sa staklenim leptirima i lavandinom organzom. Uredi ime i tekst 18. rođendana i preuzmi besplatan PNG ili PDF, bez fotografije.',
     imageAlt: 'Pozivnica za 18. rođendan sa providnim staklenim leptirima, ljubičastim rukopisnim imenom i brojem 18 na lavandinoj pozadini',
     details: 'Stakleni leptiri i providna organza uokviruju miran gornji i desni deo. Rukopisno ime, izdvojena poruka o novom letu i broj 18 nisu u istoj koloni. Tamnoljubičasti podaci ostaju čitljivi na svetloj lavandi. Personalizacija je tekstualna, bez dodavanja fotografije.',
@@ -58,7 +64,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'smaragdna-premijera', source: 7, name: 'Smaragdna premijera',
     slug: 'luksuzna-pozivnica-za-18-rodjendan-art-deko',
-    seoTitle: 'Art deko pozivnica za 18. rođendan — smaragd i zlato',
+    motif: 'sa zlatnim art deko zracima',
+    seoTitle: 'Pozivnica za 18. rođendan sa zlatnim art deko zracima — Smaragdna premijera',
     description: 'Smaragdna pozivnica za 18. rođendan sa zlatnim art deko zracima i svečanim slovima. Uredi ime i detalje punoletstva i besplatno preuzmi PNG ili PDF.',
     imageAlt: 'Pozivnica za 18. rođendan sa zlatnim art deko zracima, velikim brojem 18 i svečanim imenom na smaragdnozelenoj pozadini',
     details: 'Zlatni art deko zraci izlaze iz levog ugla preko smaragdnog kamena. Kompozicija je pomerena desno i naniže: veliki svečani broj, razmaknuta slova imena i datum i vreme u odvojenim kolonama. Svetla krem slova imaju jak kontrast. Šablon je bez fotografije.',
@@ -67,7 +74,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'pun-gas-do-osamnaeste', source: 8, name: 'Pun gas do osamnaeste',
     slug: 'pozivnica-za-punoletstvo-trkacka-sahovnica',
-    seoTitle: 'Trkačka pozivnica za punoletstvo — Pun gas do 18.',
+    motif: 'sa trkačkom šahovnicom',
+    seoTitle: 'Pozivnica za 18. rođendan sa trkačkom šahovnicom — Pun gas do osamnaeste',
     description: 'Trkačka pozivnica za punoletstvo sa crvenom prugom i šahovnicom. Personalizuj ime i podatke 18. rođendana i besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa crvenom trkačkom prugom, šahovnicom, velikim crvenim brojem 18 i sportskim slovima',
     details: 'Crvena pruga i šahovnica ostaju pri dnu, dok je sav važan tekst u slobodnom gornjem delu. Kosa sportska slova, veliki crveni broj 18, ime desno i dva kratka bloka podataka daju izgled trkačkog postera. Crna i tamnocrvena čuvaju čitljivost. Nema mesta za fotografiju.',
@@ -76,7 +84,8 @@ export const eighteenCollectionDrafts = [
   {
     id: 'kobaltna-noc', source: 9, name: 'Kobaltna noć',
     slug: 'plava-pozivnica-za-18-rodjendan-platinasti-sjaj',
-    seoTitle: 'Plava pozivnica za 18. rođendan — Kobaltna noć',
+    motif: 'sa platinastim kristalima',
+    seoTitle: 'Pozivnica za 18. rođendan sa platinastim kristalima — Kobaltna noć',
     description: 'Plava pozivnica za 18. rođendan sa platinastim kristalima i svetlosnim zracima. Upiši ime i detalje punoletstva i preuzmi besplatan PNG ili PDF.',
     imageAlt: 'Pozivnica za 18. rođendan sa platinastim kristalima i zracima desno, svetlim brojem 18 i imenom na kobaltnoplavoj pozadini',
     details: 'Platinasti kristali, kobaltno svetlo i odsjaj na podu prave scenu za noćnu proslavu. Ime i veliki svetli broj nalaze se levo, naziv punoletstva prati uspravnu liniju, a podaci su u donjem tamnom delu. Tipografija je jasna i bez preteranog sjaja. Fotografija se ne dodaje.',
@@ -190,5 +199,5 @@ export function eighteenCollectionDesign(id, { backgroundId, fontIds } = {}) {
     { assetId: fontIds.hand, family: hand, name: 'Napravi Rukopis — slobodni' },
     { assetId: fontIds.puff, family: puff, name: 'DynaPuff — retro' },
   ].filter(font => usedFamilies.has(font.family));
-  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'eighteen', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
+  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'eighteen', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
 }

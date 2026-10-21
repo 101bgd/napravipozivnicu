@@ -3,7 +3,7 @@ import { isAssetId, newTextLayer, normalizeDesign } from '../../src/template-sch
 // Editable layout shared by the published design and local asset preparation.
 // Asset IDs bind to either the explicit shipped-asset map or authenticated uploads.
 export const midnightElegance = {
-  name: 'Ponoćna elegancija',
+  name: 'Ponoćna elegancija', motif: 'sa plavim cvećem i zlatom', seoTitle: 'Pozivnica za venčanje sa plavim cvećem i zlatom — Ponoćna elegancija',
   category: 'wedding',
   description: 'Elegantna pozivnica za svadbu sa tamnoplavim cvećem, zlatnim detaljima i kaligrafskim imenima. Uredi tekst bez fotografije i preuzmi besplatan PNG ili PDF.',
   backgroundFile: 'ponocna-elegancija-pozadina.webp',
@@ -26,6 +26,8 @@ export function midnightEleganceDesign({ backgroundId, scriptFontId } = {}) {
     schemaVersion: 1,
     name: midnightElegance.name,
     category: midnightElegance.category,
+    motif: midnightElegance.motif,
+    seoTitle: midnightElegance.seoTitle,
     description: midnightElegance.description,
     bg: '#f5f0e6', backgroundId, thumbnailId: null,
     fonts: [{ assetId: scriptFontId, family: script, name: 'Great Vibes' }],

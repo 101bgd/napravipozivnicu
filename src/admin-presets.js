@@ -11,6 +11,7 @@ export function roseBowDesign(backgroundId) {
     schemaVersion: 1,
     name: 'Roze mašna',
     category: 'first',
+    motif: 'sa roze mašnom, medom i zekom',
     description: 'Pozivnica za prvi rođendan u nežnim roze tonovima, sa velikom mašnom, balonima, cvećem, medom i zekom. Personalizujte ime deteta, poruku, datum, vreme i mesto proslave.',
     bg: '#fff7f0', backgroundId, thumbnailId: null, fonts: [],
     layers: [

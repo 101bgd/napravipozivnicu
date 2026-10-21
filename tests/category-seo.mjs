@@ -75,6 +75,7 @@ try {
       assert.deepEqual(detailEntry.images, [origin + template.thumbnail]);
       const asset = await request(template.thumbnail);
       assert.equal(asset.status, 200); assert.match(asset.headers.get('Content-Type'), /image\/webp/);
+      await asset.arrayBuffer();
       imageCount++;
     }
   }

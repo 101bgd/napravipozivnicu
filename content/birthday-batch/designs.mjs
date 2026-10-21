@@ -4,6 +4,7 @@ export const birthdayDrafts = [
   {
     id: 'dino-avantura', source: 1, name: 'Dino avantura',
     slug: 'pozivnica-za-rodjendan-dinosaurusi',
+    motif: 'sa dinosaurusima',
     seoTitle: 'Pozivnica za dečiji rođendan sa dinosaurusima — Dino avantura',
     description: 'Besplatna pozivnica za dečiji rođendan sa dinosaurusima. Upiši ime, broj godina i detalje dino žurke, pa preuzmi PNG za slanje ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođendan sa zelenim i narandžastim dinosaurusima, tropskim lišćem i razigranim slovima na žutoj pozadini',
@@ -13,7 +14,8 @@ export const birthdayDrafts = [
   {
     id: 'svemirska-misija', source: 2, name: 'Svemirska misija',
     slug: 'pozivnica-za-rodjendan-svemir',
-    seoTitle: 'Pozivnica za dečiji rođendan: svemir i raketa — besplatno',
+    motif: 'sa raketom i planetama',
+    seoTitle: 'Pozivnica za dečiji rođendan sa raketom i planetama — Svemirska misija',
     description: 'Napravi svemirsku pozivnicu za dečiji rođendan sa raketom, planetama i zvezdama. Izmeni ime, godine, datum i mesto, pa preuzmi besplatan PNG ili PDF.',
     imageAlt: 'Pozivnica za rođendan sa narandžastom raketom, planetom sa prstenovima, Mesecom i velikim zlatnim brojem godina',
     details: 'Za male astronaute i rođendan sa svemirskom temom. Podaci su raspoređeni levo, uz raketu i planete; svetla slova ostaju jasna na tamnoplavom nebu. Dodaj adresu igraonice i vreme polaska na rođendansku misiju.',
@@ -22,7 +24,8 @@ export const birthdayDrafts = [
   {
     id: 'mala-sirena', source: 3, name: 'Mala sirena',
     slug: 'pozivnica-za-rodjendan-mala-sirena',
-    seoTitle: 'Pozivnica za dečiji rođendan Mala sirena — besplatno online',
+    motif: 'sa malom sirenom',
+    seoTitle: 'Pozivnica za dečiji rođendan sa malom sirenom — Mala sirena',
     description: 'Pozivnica Mala sirena za dečiji rođendan u tirkiznim i ljubičastim bojama. Uredi ime, godine i poruku i preuzmi besplatnu sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođendan sa malom sirenom, ljubičastim repom, školjkom sa biserom i mehurićima na tirkiznoj pozadini',
     details: 'Podvodna pozivnica za rođendan sa sirenama, biserima i mehurićima. Tekst se nalazi u otvorenom delu mora, tako da ilustracija sirene ostaje vidljiva. Svaku poruku i broj godina možeš da promeniš bez dodavanja fotografije.',
@@ -31,7 +34,8 @@ export const birthdayDrafts = [
   {
     id: 'carobni-ringispil', source: 4, name: 'Čarobni ringišpil',
     slug: 'pozivnica-za-rodjendan-konjici-ringispil',
-    seoTitle: 'Pozivnica za dečiji rođendan sa konjićima — Čarobni ringišpil',
+    motif: 'sa konjićima i mašnama',
+    seoTitle: 'Pozivnica za dečiji rođendan sa konjićima i mašnama — Čarobni ringišpil',
     description: 'Besplatna pozivnica za dečiji rođendan sa konjićima i roze ringišpilom. Dodaj ime, godine, datum i mesto proslave i preuzmi sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za rođendan sa dva konjića na roze i zlatnom ringišpilu, mašnama i veselim slovima na svetložutoj pozadini',
     details: 'Vesela pozivnica sa konjićima, mašnama i ringišpilom za rođendan u bajkovitom stilu. Ime je istaknuto ispod ilustracije, a datum i vreme su u dva odvojena bloka. Svetla pozadina čuva čitljivost i na telefonu i na papiru.',
@@ -100,7 +104,7 @@ export function birthdayDesign(id, { backgroundId, fontIds } = {}) {
   ];
   return normalizeDesign({
     schemaVersion: 1, name: metadata.name, category: 'birthday', description: metadata.description,
-    imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details,
+    imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details,
     bg: metadata.bg, backgroundId, thumbnailId: null,
     fonts: [{ assetId: fontIds.baloo2, family: baloo, name: 'Baloo 2 — razigrani' }, { assetId: fontIds.dynapuff, family: puff, name: 'DynaPuff — oblačići' }],
     layers,

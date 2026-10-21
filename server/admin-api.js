@@ -1,12 +1,12 @@
 import { HttpError, json, checkMutation, noStoreHeaders } from './auth.js';
-import { normalizeDesign, referencedAssets, isAssetId } from '../src/template-schema.js';
+import { normalizeDesign, referencedAssets, isAssetId, upgradeTemplateTitle } from '../src/template-schema.js';
 import { curatedTemplates } from '../src/curated-catalog.js';
 import { isRetiredRecord } from '../src/retired-templates.js';
 import { removeRetiredTemplates } from './retired-cleanup.js';
 import { readAdSense } from './adsense.js';
 import { normalizeAdSense, adSenseCode } from '../src/adsense-config.js';
 const now = () => new Date().toISOString();
-const rowInfo = row => ({ id: row.id, slug: row.slug, name: row.name, category: row.category, version: row.version, published: Boolean(row.published_json), changed: Boolean(row.published_json && row.draft_json !== row.published_json), updatedAt: row.updated_at, publishedAt: row.published_at, draft: JSON.parse(row.draft_json) });
+const rowInfo = row => ({ id: row.id, slug: row.slug, name: row.name, category: row.category, version: row.version, published: Boolean(row.published_json), changed: Boolean(row.published_json && row.draft_json !== row.published_json), updatedAt: row.updated_at, publishedAt: row.published_at, draft: upgradeTemplateTitle(JSON.parse(row.draft_json)) });
 async function bodyBytes(request, limit) {
   if (Number(request.headers.get('Content-Length')) > limit) throw new HttpError(413, 'Datoteka ili šablon su preveliki.');
   const reader = request.body?.getReader();

@@ -20,7 +20,7 @@ export async function publishedCatalog(env) {
   const settings = (await env.DB.prepare('SELECT key, value FROM settings').all()).results;
   const visibleBuiltins = settings.some(s => s.key === 'show_examples' && s.value === 'false') ? [] : builtins.filter(t => !settings.some(s => s.key === `example_hidden:${t.id}` && s.value === 'true'));
   const visibleCurated = curatedTemplates.filter(t => !settings.some(s => s.key === `example_hidden:${t.id}` && s.value === 'true'));
-  return [...results.filter(row => !isRetiredRecord(row)).map(row => { const full = publicTemplate(row); return { id: full.id, slug: full.slug, name: full.name, category: full.category, style: full.style, description: full.description, imageAlt: full.imageAlt, seoTitle: full.seoTitle, details: full.details, thumbnail: full.thumbnail, hasPhoto: full.layers.some(layer => layer.type === 'photo'), updatedAt: full.updatedAt }; }), ...visibleCurated, ...visibleBuiltins];
+  return [...results.filter(row => !isRetiredRecord(row)).map(row => { const full = publicTemplate(row); return { id: full.id, slug: full.slug, name: full.name, category: full.category, motif: full.motif, style: full.style, description: full.description, imageAlt: full.imageAlt, seoTitle: full.seoTitle, details: full.details, thumbnail: full.thumbnail, hasPhoto: full.layers.some(layer => layer.type === 'photo'), updatedAt: full.updatedAt }; }), ...visibleCurated, ...visibleBuiltins];
   } catch (error) { if (String(error.message).includes('no such table')) return publicTemplates; throw error; }
 }
 export async function handlePublic(request, env, staticFetch) {

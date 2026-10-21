@@ -1,4 +1,6 @@
 import { templateImageAlt } from './image-metadata.js';
+import { buildTemplateTitle, templateTitle } from './template-titles.js';
+import { legacyTemplateTitles } from './legacy-template-titles.js';
 import { templates as builtinTemplates } from './templates.js';
 import { curatedTemplates } from './curated-catalog.js';
 export const DESIGN_WIDTH = 500;
@@ -27,10 +29,21 @@ export function newDesign() {
   const date = { ...newTextLayer('date'), text: '2026-11-14', y: 66, size: 17 };
   const location = { ...newTextLayer('location'), text: 'Restoran, Beograd', y: 73, size: 16 };
   const note = { ...newTextLayer('note'), text: 'Radujemo se vašem dolasku!', y: 82, size: 15 };
-  return { schemaVersion: 1, name: 'Nova pozivnica', category: 'first', description: '', bg: '#f6f3e9', backgroundId: null, thumbnailId: null, fonts: [], layers: [title, names, date, location, note] };
+  return { schemaVersion: 1, name: 'Nova pozivnica', category: 'first', motif: '', seoTitle: '', description: '', bg: '#f6f3e9', backgroundId: null, thumbnailId: null, fonts: [], layers: [title, names, date, location, note] };
+}
+// Recognize only unchanged titles shipped before the naming update. Keep custom
+// titles, published dates, URLs and invitation artwork intact.
+export function upgradeTemplateTitle(input) {
+  const source = [...builtinTemplates, ...curatedTemplates].find(template => template.id === input.builtinSource);
+  const motif = text(input.motif, 100, source?.motif || '').trim();
+  const previous = source && legacyTemplateTitles[source.id];
+  const seoTitle = previous && input.seoTitle === previous && previous !== source.seoTitle
+    ? buildTemplateTitle({ ...input, motif }) : text(input.seoTitle, 150).trim();
+  return { ...input, motif, seoTitle };
 }
 export function normalizeDesign(input) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw new Error('Šablon mora biti objekat.');
+  input = upgradeTemplateTitle(input);
   if (!['first', 'eighteen', 'birthday', 'wedding', 'baptism', 'baby'].includes(input.category)) throw new Error('Izaberi kategoriju.');
   const name = text(input.name, 100).trim();
   if (!name) throw new Error('Upiši naziv šablona.');
@@ -48,15 +61,15 @@ export function normalizeDesign(input) {
     return { ...base, field: /^[a-z][a-z0-9_]{0,40}$/.test(layer.field || '') ? layer.field : `text_${index}`, text: text(layer.text, 1500), editable: layer.editable !== false, size: number(layer.size, 8, 120, 24), family: families.has(layer.family) ? layer.family : 'Georgia', color: color(layer.color, '#344437'), align: ['left', 'center', 'right'].includes(layer.align) ? layer.align : 'center', bold: Boolean(layer.bold), italic: Boolean(layer.italic), underline: Boolean(layer.underline), uppercase: Boolean(layer.uppercase), lineHeight: number(layer.lineHeight, .8, 2.5, 1.35), letterSpacing: number(layer.letterSpacing, -2, 12, 0), effect: TEXT_EFFECTS.includes(layer.effect) ? layer.effect : 'none', effectColor: color(layer.effectColor, '#9ca582'), effectSize: number(layer.effectSize, 0, 20, 2) };
   });
   if (layers.filter(l => l.type === 'photo').length > 1) throw new Error('Trenutno je podržan jedan okvir za fotografiju po šablonu.');
-  return { schemaVersion: 1, builtinSource: [...builtinTemplates, ...curatedTemplates].some(t => t.id === input.builtinSource) ? input.builtinSource : null, name, category: input.category, description: text(input.description, 1000), imageAlt: text(input.imageAlt, 300), seoTitle: text(input.seoTitle, 150), details: text(input.details, 1500), locale: DATE_LOCALES.some(locale => locale.id === input.locale) ? input.locale : 'sr-Latn-RS', bg: color(input.bg, '#f6f3e9'), backgroundId: isAssetId(input.backgroundId) ? input.backgroundId : null, thumbnailId: isAssetId(input.thumbnailId) ? input.thumbnailId : null, fonts, layers };
+  return { schemaVersion: 1, builtinSource: [...builtinTemplates, ...curatedTemplates].some(t => t.id === input.builtinSource) ? input.builtinSource : null, name, category: input.category, motif: input.motif, description: text(input.description, 1000), imageAlt: text(input.imageAlt, 300), seoTitle: input.seoTitle, details: text(input.details, 1500), locale: DATE_LOCALES.some(locale => locale.id === input.locale) ? input.locale : 'sr-Latn-RS', bg: color(input.bg, '#f6f3e9'), backgroundId: isAssetId(input.backgroundId) ? input.backgroundId : null, thumbnailId: isAssetId(input.thumbnailId) ? input.thumbnailId : null, fonts, layers };
 }
 export function referencedAssets(design) {
   const usedFonts = new Set(design.layers.filter(l => l.type === 'text').map(l => l.family));
   return [...new Set([design.backgroundId, design.thumbnailId, ...design.fonts.filter(f => usedFonts.has(f.family)).map(f => f.assetId)].filter(Boolean))];
 }
 export function publicTemplate(record) {
-  const design = JSON.parse(record.published_json);
+  const design = upgradeTemplateTitle(JSON.parse(record.published_json));
   const usedFonts = new Set(design.layers.filter(l => l.type === 'text').map(l => l.family));
   design.fonts = design.fonts.filter(f => usedFonts.has(f.family));
-  return { ...design, imageAlt: templateImageAlt(design), id: record.id, slug: record.slug, style: 'custom', ink: '#344437', accent: '#9ca582', thumbnail: assetUrl(design.thumbnailId), updatedAt: record.published_at };
+  return { ...design, seoTitle: templateTitle(design), imageAlt: templateImageAlt(design), id: record.id, slug: record.slug, style: 'custom', ink: '#344437', accent: '#9ca582', thumbnail: assetUrl(design.thumbnailId), updatedAt: record.published_at };
 }

@@ -4,7 +4,8 @@ export const eighteenDrafts = [
   {
     id: 'disko-sjaj', source: 1, name: 'Disko sjaj',
     slug: 'pozivnica-za-18-rodjendan-disko',
-    seoTitle: 'Pozivnica za 18. rođendan — Disko sjaj, besplatno',
+    motif: 'sa ljubičastom disko kuglom',
+    seoTitle: 'Pozivnica za 18. rođendan sa ljubičastom disko kuglom — Disko sjaj',
     description: 'Napravi pozivnicu za 18. rođendan sa disko kuglom i ljubičastim sjajem. Uredi ime, tekst i mesto punoletstva i besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa disko kuglom, roze svetlosnim zracima, velikim brojem 18 i rukopisnim imenom na ljubičastoj pozadini',
     details: 'Disko kugla i metalik talas uokviruju pozivnicu za punoletstvo u ljubičastim i ružičastim tonovima. Krupan geometrijski broj i svetao tekst ostaju čitljivi na tamnoj pozadini, a ime u kaligrafiji daje svečan detalj. Izmeni podatke proslave i rok za potvrdu dolaska; fotografija nije potrebna.',
@@ -13,7 +14,8 @@ export const eighteenDrafts = [
   {
     id: 'saten-i-biseri', source: 2, name: 'Saten i biseri',
     slug: 'pozivnica-za-punoletstvo-saten-biseri',
-    seoTitle: 'Pozivnica za punoletstvo — Saten i biseri, besplatno',
+    motif: 'sa roze satenom i biserima',
+    seoTitle: 'Pozivnica za 18. rođendan sa roze satenom i biserima — Saten i biseri',
     description: 'Elegantna pozivnica za punoletstvo sa roze satenom, biserima i leptirom. Upiši ime i detalje 18. rođendana i preuzmi besplatnu sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za 18. rođendan sa satenskom trakom, biserima, zlatnim leptirom, božurom i kaligrafskim imenom na roze pozadini',
     details: 'Roze saten, biseri, božur i zlatni leptir daju romantičan izgled pozivnici za 18. rođendan. Tekst je pomeren u slobodan deo desno: ime u kaligrafiji, klasičan broj 18 i odvojeni podaci o proslavi. Topli tamni tonovi slova čuvaju kontrast. Šablon je osmišljen bez fotografije.',
@@ -22,7 +24,8 @@ export const eighteenDrafts = [
   {
     id: 'zlatni-trenutak', source: 3, name: 'Zlatni trenutak',
     slug: 'elegantna-pozivnica-za-18-rodjendan-zlatna',
-    seoTitle: 'Elegantna pozivnica za 18. rođendan — Zlatni trenutak',
+    motif: 'sa zlatnim satenom',
+    seoTitle: 'Pozivnica za 18. rođendan sa zlatnim satenom — Zlatni trenutak',
     description: 'Zlatna pozivnica za 18. rođendan i punoletstvo, sa satenom i svečanim slovima. Personalizuj tekst, datum i lokaciju i besplatno preuzmi PNG ili PDF.',
     imageAlt: 'Pozivnica za 18. rođendan sa zlatnim satenskim talasom, biserima, bronzanim brojem 18 i asimetričnim tekstom',
     details: 'Krem pozadina i zlatni saten prate svečan početak novog poglavlja. Asimetričan raspored spaja veliko ime i broj 18 sa diskretnom kaligrafijom, dok su datum, vreme i adresa u zasebnom bloku. Ova pozivnica za punoletstvo nema okvir za fotografiju i može da se preuzme za slanje ili štampu.',
@@ -80,7 +83,7 @@ export function eighteenDesign(id, { backgroundId, fontIds } = {}) {
   ];
   return normalizeDesign({
     schemaVersion: 1, name: metadata.name, category: 'eighteen', locale: 'sr-Latn-RS',
-    description: metadata.description, imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details,
+    description: metadata.description, imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details,
     bg: metadata.bg, backgroundId, thumbnailId: null,
     fonts: [{ assetId: fontIds.serif, family: serif, name: 'Cormorant Garamond — svečani' }, { assetId: fontIds.script, family: script, name: 'Great Vibes — kaligrafski' }],
     layers,

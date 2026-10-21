@@ -4,7 +4,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'savanska-druzina', source: 1, name: 'Savanska družina',
     slug: 'pozivnica-za-prvi-rodjendan-safari-zirafa-slon',
-    seoTitle: 'Safari pozivnica za prvi rođendan — Savanska družina',
+    motif: 'sa žirafom i slončetom',
+    seoTitle: 'Pozivnica za 1. rođendan sa žirafom i slončetom — Savanska družina',
     description: 'Besplatna safari pozivnica za prvi rođendan sa žirafom i slončetom. Uredi ime, datum i mesto proslave i preuzmi PNG ili PDF za štampu, bez fotografije.',
     imageAlt: 'Pozivnica za 1. rođendan sa žirafom i slončetom u savani, žutim suncem i razigranim zelenim i narandžastim slovima',
     details: 'Žirafa i slonče stoje ispod otvorenog krem neba. Ime i velika prva svećica nalaze se iznad njih, dok podaci o proslavi prate slobodan prostor pored žirafe. Šablon za safari proslavu je bez mesta za fotografiju.',
@@ -13,7 +14,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'vozic-prve-radosti', source: 2, name: 'Vozić prve radosti',
     slug: 'pozivnica-za-1-rodjendan-vozic-meda',
-    seoTitle: 'Pozivnica za 1. rođendan sa vozićem — besplatno',
+    motif: 'sa vozićem i medom',
+    seoTitle: 'Pozivnica za 1. rođendan sa vozićem i medom — Vozić prve radosti',
     description: 'Pozivnica za 1. rođendan sa drvenim vozićem i medom. Promeni ime deteta, vreme i adresu proslave i besplatno preuzmi sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za 1. rođendan sa plavim drvenim vozićem, medom u vagonu, livadom i velikim narandžastim brojem jedan',
     details: 'Drveni vozić prolazi kroz livadu, sa medom i šarenim lopticama u vagonima. Plava imena i topla narandžasta jedinica prate boje lokomotive. Tekst ostaje u svetlom nebu, bez zaklanjanja vozića i bez okvira za fotografiju.',
@@ -22,7 +24,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'labudova-neznost', source: 3, name: 'Labudova nežnost',
     slug: 'pozivnica-za-prvi-rodjendan-labudovi',
-    seoTitle: 'Pozivnica za prvi rođendan sa labudovima — besplatno',
+    motif: 'sa labudovima',
+    seoTitle: 'Pozivnica za 1. rođendan sa labudovima — Labudova nežnost',
     description: 'Nežna pozivnica za prvi rođendan sa labudovima na roze jezeru. Dodaj ime i detalje proslave i preuzmi besplatan PNG ili PDF, bez ubacivanja fotografije.',
     imageAlt: 'Pozivnica za 1. rođendan sa belim labudom i mladunčetom na roze jezeru, lokvanjima i rukopisnim imenom u boji maline',
     details: 'Labud i mladunče na mirnom jezeru uokvireni su roze oblacima i lokvanjima. Rukopisno ime je u nebu, a vreme i lokacija izdvojeni su levo od labudova. Malinasta slova čuvaju čitljivost na nežnoj pozadini. Fotografija se ne dodaje.',
@@ -31,7 +34,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'vilina-prva-carolija', source: 4, name: 'Vilina prva čarolija',
     slug: 'pozivnica-za-1-rodjendan-vila-leptiri',
-    seoTitle: 'Pozivnica za 1. rođendan sa vilom — Vilina prva čarolija',
+    motif: 'sa vilom i leptirima',
+    seoTitle: 'Pozivnica za 1. rođendan sa vilom i leptirima — Vilina prva čarolija',
     description: 'Bajkovita pozivnica za 1. rođendan sa vilom, leptirima i cvećem. Personalizuj ime i podatke proslave i besplatno preuzmi PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 1. rođendan sa vilom na pečurki, ljubičastim cvećem, leptirima i tekstom u desnom delu ilustracije',
     details: 'Mala vila, leptiri i cvetna staza najavljuju proslavu u bajkovitom stilu. Rukopisno ime i velika jedinica smešteni su desno, tako da vilina krila i lice ostanu vidljivi. Svi podaci su izmenjivi, a mesto za fotografiju nije predviđeno.',
@@ -40,7 +44,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'kitov-prvi-talas', source: 5, name: 'Kitov prvi talas',
     slug: 'pozivnica-za-prvi-rodjendan-kit-more',
-    seoTitle: 'Morska pozivnica za prvi rođendan — Kitov prvi talas',
+    motif: 'sa plavim kitom',
+    seoTitle: 'Pozivnica za 1. rođendan sa plavim kitom — Kitov prvi talas',
     description: 'Besplatna pozivnica za prvi rođendan sa plavim kitom i talasima. Unesi ime, datum i adresu i preuzmi PNG ili PDF za štampu, bez fotografije.',
     imageAlt: 'Pozivnica za 1. rođendan sa plavim kitom, kapljicama i talasima, plavim slovima i velikom jedinicom na krem pozadini',
     details: 'Plavi kit izranja iz akvarelnih talasa, ispod malog oblačka. Krupno ime, jedinica i podaci nalaze se u slobodnom krem delu iznad mora. Za prvi rođendan sa morskom temom, bez fotografije i bez zaklanjanja kita.',
@@ -49,7 +54,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'mali-pilot', source: 6, name: 'Mali pilot',
     slug: 'pozivnica-za-1-rodjendan-avion-psic',
-    seoTitle: 'Pozivnica za 1. rođendan sa avionom — Mali pilot',
+    motif: 'sa psićem pilotom',
+    seoTitle: 'Pozivnica za 1. rođendan sa psićem pilotom — Mali pilot',
     description: 'Pozivnica za 1. rođendan sa psićem u plavom avionu. Uredi ime malog pilota i detalje proslave i preuzmi besplatnu sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za 1. rođendan sa psićem pilotom u avionu, crvenim šalom, belim oblačićima i razigranim imenom ispod aviona',
     details: 'Psić sa pilotskim naočarima leti iznad oblaka u plavom avionu. Tekst počinje ispod ilustracije, uz blago nagnuto ime i veliku prvu rođendansku jedinicu. Uredi poziv na poletanje, datum i mesto proslave. Dizajn nema okvir za fotografiju.',
@@ -58,7 +64,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'medin-mesecev-san', source: 7, name: 'Medin mesečev san',
     slug: 'pozivnica-za-prvi-rodjendan-meda-mesec',
-    seoTitle: 'Pozivnica za prvi rođendan sa medom — Medin mesečev san',
+    motif: 'sa medom na Mesecu',
+    seoTitle: 'Pozivnica za 1. rođendan sa medom na Mesecu — Medin mesečev san',
     description: 'Topla pozivnica za prvi rođendan sa medom na Mesecu i zvezdicama. Izmeni ime, poruku i mesto slavlja i preuzmi besplatan PNG ili PDF za štampu.',
     imageAlt: 'Pozivnica za 1. rođendan sa uspavanim medom na zlatnom polumesecu, zvezdicama, oblačićima i velikim brojem jedan',
     details: 'Meda drema na zlatnom polumesecu iznad oblaka. Topla smeđa slova, zaobljeno ime i rukopisna završna poruka prate mirnu ilustraciju. Podaci su u slobodnom donjem delu pozadine. Ovaj šablon za prvu svećicu je bez fotografije.',
@@ -67,7 +74,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'zeka-medju-oblacima', source: 8, name: 'Zeka među oblacima',
     slug: 'pozivnica-za-1-rodjendan-zeka-balon-oblaci',
-    seoTitle: 'Pozivnica za 1. rođendan sa zekom i balonom — besplatno',
+    motif: 'sa zekom u balonu',
+    seoTitle: 'Pozivnica za 1. rođendan sa zekom u balonu — Zeka među oblacima',
     description: 'Pozivnica za 1. rođendan sa zekom u šarenom balonu. Upiši ime, datum i mesto okupljanja i besplatno preuzmi PNG ili PDF, bez mesta za fotografiju.',
     imageAlt: 'Pozivnica za 1. rođendan sa belim zekom u pastelnom balonu, plavim nebom, roze oblacima i tekstom desno',
     details: 'Zeka u pastelnom balonu lebdi levo, dok ime i poziv na slavlje prate otvoreno nebo desno. Svetla jedinica sa plavom konturom ističe prvi rođendan. Boje teksta prate plave i krem tonove balona; fotografija nije deo šablona.',
@@ -76,7 +84,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'zekin-prvi-let', source: 9, name: 'Zekin prvi let',
     slug: 'pozivnica-za-prvi-rodjendan-zeka-veliki-balon',
-    seoTitle: 'Pozivnica za prvi rođendan sa balonom — Zekin prvi let',
+    motif: 'sa zekom i velikim balonom',
+    seoTitle: 'Pozivnica za 1. rođendan sa zekom i velikim balonom — Zekin prvi let',
     description: 'Pozivnica za prvi rođendan sa velikim balonom i veselim zekom. Personalizuj ime i detalje proslave i preuzmi besplatnu sliku ili PDF za štampu.',
     imageAlt: 'Pozivnica za 1. rođendan sa velikim pastelnim balonom, zekom u korpi, zlatnim zalaskom i podacima ispod balona',
     details: 'Krupniji balon i nasmejani zeka daju ovoj varijanti drugačiji raspored. Velika jedinica i ime stoje desno, a podaci o okupljanju u širokom bloku ispod korpe. Uredi poruku za svoju prvu rođendansku avanturu, bez dodavanja fotografije.',
@@ -85,7 +94,8 @@ export const firstBirthdayDrafts = [
   {
     id: 'prva-tresnjica', source: 10, name: 'Prva trešnjica',
     slug: 'pozivnica-za-1-rodjendan-tresnjice-masna',
-    seoTitle: 'Pozivnica za 1. rođendan sa trešnjicama — Prva trešnjica',
+    motif: 'sa trešnjicama i mašnom',
+    seoTitle: 'Pozivnica za 1. rođendan sa trešnjicama i mašnom — Prva trešnjica',
     description: 'Vesela pozivnica za 1. rođendan sa trešnjicama i roze mašnom. Izmeni ime, datum i lokaciju i preuzmi besplatan PNG ili PDF za štampu, bez fotografije.',
     imageAlt: 'Pozivnica za 1. rođendan sa crvenim trešnjicama, roze kariranom mašnom, talasastom ivicom i razigranim crvenim slovima',
     details: 'Trešnjice i karirana mašna uokvirene su roze i žutim tonovima. Ime i velika crvena jedinica nalaze se ispod ilustracije, u vedrom rasporedu nalik dečjoj slikovnici. Prilagodi podatke o proslavi i potvrdu dolaska. Nema mesta za fotografiju.',
@@ -204,5 +214,5 @@ export function firstBirthdayDesign(id, { backgroundId, fontIds } = {}) {
   ];
   const usedFamilies = new Set(layers.map(layer => layer.family));
   const fonts = [{ assetId: fontIds.baloo2, family: baloo, name: 'Baloo 2 — razigrani' }, { assetId: fontIds.dynapuff, family: puff, name: 'DynaPuff — oblačići' }, { assetId: fontIds.script, family: script, name: 'Napravi Rukopis — nežni' }].filter(font => usedFamilies.has(font.family));
-  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'first', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
+  return normalizeDesign({ schemaVersion: 1, name: metadata.name, category: 'first', locale: 'sr-Latn-RS', description: metadata.description, imageAlt: metadata.imageAlt, motif: metadata.motif, seoTitle: metadata.seoTitle, details: metadata.details, bg: metadata.bg, backgroundId, thumbnailId: null, fonts, layers });
 }

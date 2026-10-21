@@ -7,6 +7,7 @@ import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { pageMeta, renderDocument } from '../src/seo.js';
 import { publicTemplates, curatedTemplates } from '../src/curated-catalog.js';
 import { newDesign } from '../src/template-schema.js';
+import { buildTemplateTitle } from '../src/template-titles.js';
 import { INFO_PAGES, CONTACT_EMAIL } from '../src/info-content.js';
 import { weddingTemplates } from '../src/wedding-catalog.js';
 import { firstBirthdayTemplates } from '../src/first-birthday-catalog.js';
@@ -110,6 +111,12 @@ try{
   const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('dialog',d=>d.accept());
   await page.goto(`${base}/admin/sabloni/`);await page.locator('[data-action="new"]').first().click();
   await page.locator('[data-meta="name"]').fill('Cvetna test pozivnica');await page.locator('[data-meta="category"]').selectOption('wedding');await page.locator('[data-meta="description"]').fill('Elegantna cvetna pozivnica sa fotografijom i tekstom koji možete prilagoditi svom venčanju.');
+  await page.locator('[data-meta="motif"]').fill('sa cvećem i zelenim okvirom');
+  assert.equal(await page.locator('#seo-title-preview').innerText(),'Pozivnica za venčanje sa cvećem i zelenim okvirom — Cvetna test pozivnica');
+  await page.locator('[data-meta="seoTitle"]').fill('Posebna cvetna pozivnica za venčanje');
+  await page.locator('[data-meta="motif"]').fill('sa cvećem i tankim zelenim okvirom');
+  assert.equal(await page.locator('#seo-title-preview').innerText(),'Posebna cvetna pozivnica za venčanje');
+  await page.locator('[data-meta="seoTitle"]').fill('');
   const background=await page.evaluate(()=>{const c=document.createElement('canvas');c.width=500;c.height=700;const x=c.getContext('2d');x.fillStyle='#f6e9dc';x.fillRect(0,0,500,700);x.strokeStyle='#869b6d';x.lineWidth=10;x.strokeRect(20,20,460,660);return c.toDataURL('image/png').split(',')[1];});
   await page.locator('#background-upload').setInputFiles({name:'pozadina.png',mimeType:'image/png',buffer:Buffer.from(background,'base64')});
   await page.waitForFunction(()=>!document.querySelector('[data-action="save"]').disabled&&document.querySelector('.metadata').textContent.includes('Zameni pozadinu'));
@@ -122,12 +129,12 @@ try{
   await page.locator('[data-action="undo"]').click();assert.equal(Number(await page.locator('[data-prop="x"]').inputValue()),beforeX);await page.locator('[data-action="redo"]').click();assert.ok(Number(await page.locator('[data-prop="x"]').inputValue())>beforeX);
   await page.locator('[data-action="add-photo"]').click();await page.locator('[data-prop="y"]').fill('18');await page.locator('[data-prop="width"]').fill('30');await page.locator('[data-prop="height"]').fill('22');
   await page.locator('[data-action="save"]').click();await page.waitForFunction(()=>!document.querySelector('[data-action="save"]').disabled&&document.querySelector('#save-state').textContent==='Nacrt');
-  let collection=await (await fetch(`${base}/api/admin/templates`)).json(),saved=collection.templates[0];assert.equal(saved.draft.layers.find(l=>l.field==='names').effect,'gradient');assert.equal(saved.published,false);
+  let collection=await (await fetch(`${base}/api/admin/templates`)).json(),saved=collection.templates[0];assert.equal(saved.draft.layers.find(l=>l.field==='names').effect,'gradient');assert.equal(saved.published,false);assert.equal(saved.draft.motif,'sa cvećem i tankim zelenim okvirom');assert.equal(saved.draft.seoTitle,'');
   assert.equal((await fetch(`${base}/media/${saved.draft.thumbnailId}`)).status,404);
   let catalog=await (await fetch(`${base}/api/catalog`)).json();assert.equal(catalog.templates.some(t=>t.id===saved.id),false);
   await page.locator('[data-action="preview"]').click();await page.waitForFunction(()=>document.querySelector('#admin-preview')?.open);await page.locator('[data-preview-field="names"]').fill('Proba pregleda');const adminDownload=page.waitForEvent('download');await page.locator('[data-action="preview-png"]').click();await (await adminDownload).saveAs('/tmp/napravi-admin-export.png');const adminPng=await fs.readFile('/tmp/napravi-admin-export.png');assert.equal(adminPng.readUInt32BE(16),1500);assert.equal(adminPng.readUInt32BE(20),2100);await page.locator('[data-action="close-preview"]').click();
   await page.locator('[data-action="publish"]').click();await page.waitForFunction(()=>document.querySelector('[data-action="unpublish"]')&&!document.querySelector('[data-action="save"]').disabled);
-  collection=await (await fetch(`${base}/api/admin/templates`)).json();saved=collection.templates[0];catalog=await (await fetch(`${base}/api/catalog`)).json();assert.ok(catalog.templates.some(t=>t.id===saved.id));assert.equal(catalog.templates.find(t=>t.id===saved.id).layers,undefined,'Catalog must not download editor layouts');
+  collection=await (await fetch(`${base}/api/admin/templates`)).json();saved=collection.templates[0];catalog=await (await fetch(`${base}/api/catalog`)).json();assert.ok(catalog.templates.some(t=>t.id===saved.id));assert.equal(catalog.templates.find(t=>t.id===saved.id).seoTitle,buildTemplateTitle(saved.draft));assert.equal(catalog.templates.find(t=>t.id===saved.id).layers,undefined,'Catalog must not download editor layouts');
   const publishedCatalogHtml=await (await fetch(`${base}/pozivnice/`)).text();assert.match(publishedCatalogHtml,/Cvetna test pozivnica/);assert.ok(publishedCatalogHtml.includes(`href="/pozivnice/${saved.slug}/"`));assert.ok(publishedCatalogHtml.includes(`src="/media/${saved.draft.thumbnailId}"`));assert.deepEqual(catalogPayload(publishedCatalogHtml).templates,catalog.templates,'Collection HTML must reflect newly published designs without a rebuild');
   const media=await fetch(`${base}/media/${saved.draft.thumbnailId}`);assert.equal(media.status,200);assert.match(media.headers.get('Cache-Control'),/immutable/);assert.equal((await fetch(`${base}/media/${saved.draft.thumbnailId}`,{headers:{'If-None-Match':media.headers.get('ETag')}})).status,304);
   const stale=await fetch(`${base}/api/admin/templates/${saved.id}`,{method:'PUT',headers:{'Content-Type':'application/json','X-Requested-With':'template-studio',Origin:base},body:JSON.stringify({version:1,draft:saved.draft})});assert.equal(stale.status,409);
@@ -136,7 +143,7 @@ try{
 
   const visitor=await browser.newPage({viewport:{width:390,height:844}});visitor.on('pageerror',e=>errors.push(e.message));
   const requested=[];visitor.on('request',r=>requested.push(r.url()));
-  await visitor.goto(`${base}/pozivnice/${saved.slug}/`);assert.equal(await visitor.locator('h1').innerText(),'Cvetna test pozivnica');assert.equal(await visitor.locator('link[rel="canonical"]').getAttribute('href'),`https://napravipozivnicu.com/pozivnice/${saved.slug}/`);
+  await visitor.goto(`${base}/pozivnice/${saved.slug}/`);assert.equal(await visitor.locator('h1').innerText(),buildTemplateTitle(saved.draft));assert.equal(await visitor.locator('link[rel="canonical"]').getAttribute('href'),`https://napravipozivnicu.com/pozivnice/${saved.slug}/`);
   assert.equal(requested.some(url=>url.includes(`/api/templates/${saved.id}`)),false);
   await visitor.locator('[data-open-template]').click();await visitor.waitForFunction(()=>document.querySelector('#editor')?.open);assert.ok(requested.some(url=>url.includes(`/api/templates/${saved.id}`)));
   await visitor.locator('input[name="names"]').fill('Milena i Stefan');
@@ -242,7 +249,7 @@ try{
   assert.equal(await page.locator('[data-meta="category"]').inputValue(),'eighteen');
   assert.equal(await page.locator('[data-prop="text"]').inputValue(),'Anđela');
   const eighteenTitle=await page.locator('[data-meta="seoTitle"]').inputValue(),eighteenAlt=await page.locator('[data-meta="imageAlt"]').inputValue();
-  assert.match(eighteenTitle,/punoletstvo/);
+  assert.match(eighteenTitle,/18\. rođendan/);
   await page.locator('[data-prop="text"]').fill('Željana');
   await page.locator('[data-action="save"]').click();
   await page.waitForFunction(()=>document.querySelector('#save-state')?.textContent==='Nacrt'&&!document.querySelector('[data-action="save"]').disabled);

@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { CATEGORY_CONTENT } from '../src/seo-content.js';
+import { templateTitle } from '../src/template-titles.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
@@ -67,7 +68,7 @@ try {
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(template => template.category === 'eighteen').length);
   for (const template of [...eighteenTemplates, ...eighteenCollectionTemplates]) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
-    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.locator('h1').innerText(), templateTitle(template));
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
@@ -79,7 +80,7 @@ try {
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'wedding').length);
   for (const template of weddingTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
-    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.locator('h1').innerText(), templateTitle(template));
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
@@ -90,7 +91,7 @@ try {
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'first').length);
   for (const template of firstBirthdayTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
-    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.locator('h1').innerText(), templateTitle(template));
     assert.equal(await staticPage.title(), template.seoTitle);
     assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
@@ -104,7 +105,7 @@ try {
   for (const template of babyTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
     assert.equal(await staticPage.title(), template.seoTitle);
-    assert.equal(await staticPage.locator('h1').innerText(), template.name);
+    assert.equal(await staticPage.locator('h1').innerText(), templateTitle(template));
     assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), template.description);
     assert.equal(await staticPage.locator('.detail-preview img').getAttribute('alt'), template.imageAlt);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
@@ -191,7 +192,7 @@ try {
 
   // The shipped wedding design must work without a database or an admin upload.
   await page.goto(`${origin}/pozivnice/ponocna-elegancija/`);
-  assert.equal(await page.locator('h1').innerText(), 'Ponoćna elegancija');
+  assert.equal(await page.locator('h1').innerText(), templateTitle(publicTemplates.find(t => t.id === 'ponocna-elegancija')));
   assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/ponocna-elegancija/');
   const metadata = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());
   assert.ok(metadata['@graph'].some(item => item['@type'] === 'ImageObject'));
@@ -213,7 +214,7 @@ try {
   console.log('PASS: shipped wedding design, stable SEO URL, custom font, no photo field, editable names with Serbian diacritics and actual PNG export.');
   for (const birthday of birthdayTemplates) {
     await page.goto(`${origin}/pozivnice/${birthday.slug}/`);
-    assert.equal(await page.locator('h1').innerText(), birthday.name);
+    assert.equal(await page.locator('h1').innerText(), templateTitle(birthday));
     assert.equal(await page.title(), birthday.seoTitle);
     assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), birthday.description);
     assert.equal(await page.locator('.detail-preview img').getAttribute('alt'), birthday.imageAlt);
@@ -246,7 +247,7 @@ try {
   for (const baptism of baptismTemplates) {
     assert.ok(map.includes(`/pozivnice/${baptism.slug}/`));
     await page.goto(`${origin}/pozivnice/${baptism.slug}/`);
-    assert.equal(await page.locator('h1').innerText(), baptism.name);
+    assert.equal(await page.locator('h1').innerText(), templateTitle(baptism));
     assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), baptism.description);
     assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), baptism.imageAlt);
     const graph = JSON.parse(await page.locator('script[type="application/ld+json"]').textContent())['@graph'];
@@ -319,7 +320,7 @@ try {
     const watchBackgrounds = request => { if (request.url().includes('/punoletstvo/') && request.url().includes('-pozadina-')) backgroundRequests.push(request.url()); };
     page.on('request', watchBackgrounds);
     await page.goto(`${origin}/pozivnice/${template.slug}/`);
-    assert.equal(await page.locator('h1').innerText(), template.name);
+    assert.equal(await page.locator('h1').innerText(), templateTitle(template));
     assert.equal(await page.locator('meta[name="description"]').getAttribute('content'), template.description);
     assert.equal(await page.locator('meta[property="og:image:alt"]').getAttribute('content'), template.imageAlt);
     assert.equal(await page.locator('meta[name="twitter:image:alt"]').getAttribute('content'), template.imageAlt);
