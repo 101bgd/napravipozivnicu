@@ -1,3 +1,4 @@
+import { templateImageAlt } from './image-metadata.js';
 import { categories } from './templates.js';
 import { publicTemplates as builtinTemplates } from './curated-catalog.js';
 import { escapeHtml as esc } from './ui.js';
@@ -16,7 +17,7 @@ const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="
 function landing(catalog) {
   const preview = id => {
     const template = builtinTemplates.find(item => item.id === id);
-    return `<img src="${esc(template.thumbnail)}" width="500" height="700" alt="${esc(template.imageAlt || template.name)}" decoding="async">`;
+    return `<img src="${esc(template.thumbnail)}" width="500" height="700" alt="${esc(templateImageAlt(template))}" decoding="async">`;
   };
   return `<main class="landing" id="main-content">
 <section class="hero" aria-labelledby="hero-title">

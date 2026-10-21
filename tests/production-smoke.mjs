@@ -5,6 +5,7 @@ import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import { publicTemplates } from '../src/curated-catalog.js';
+import { CATEGORY_CONTENT } from '../src/seo-content.js';
 import { birthdayTemplates } from '../src/birthday-catalog.js';
 import { baptismTemplates } from '../src/baptism-catalog.js';
 import { eighteenTemplates } from '../src/eighteen-catalog.js';
@@ -50,7 +51,7 @@ try {
   assert.equal(await staticPage.locator('h1').count(), 1);
   assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), 'https://napravipozivnicu.com/pozivnice/');
   await staticPage.goto(`${origin}/pozivnice-za-rodjendan/`);
-  assert.match(await staticPage.locator('h1').innerText(), /dečiji rođendan/i);
+  assert.match(await staticPage.locator('h1').innerText(), /Pozivnice za rođendan/i);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'birthday').length);
   await staticPage.goto(`${origin}/pozivnice-za-krstenje/`);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'baptism').length);
@@ -61,8 +62,8 @@ try {
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${baptism.slug}/`);
   }
   await staticPage.goto(`${origin}/pozivnice-za-18-rodjendan/`);
-  assert.match(await staticPage.locator('h1').innerText(), /18\. rođendan i punoletstvo/);
-  assert.equal(await staticPage.title(), 'Pozivnice za 18. rođendan i punoletstvo — besplatno');
+  assert.match(await staticPage.locator('h1').innerText(), /18\. rođendan/);
+  assert.equal(await staticPage.title(), CATEGORY_CONTENT.eighteen.seoTitle);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(template => template.category === 'eighteen').length);
   for (const template of [...eighteenTemplates, ...eighteenCollectionTemplates]) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
@@ -74,7 +75,7 @@ try {
     assert.equal(await staticPage.locator('.ad-placement[hidden]').count(), 1);
   }
   await staticPage.goto(`${origin}/pozivnice-za-vencanje/`);
-  assert.match(await staticPage.locator('h1').innerText(), /venčanje i svadbu/);
+  assert.match(await staticPage.locator('h1').innerText(), /venčanje/);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'wedding').length);
   for (const template of weddingTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
@@ -84,8 +85,8 @@ try {
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), `https://napravipozivnicu.com/pozivnice/${template.slug}/`);
   }
   await staticPage.goto(`${origin}/pozivnice-za-prvi-rodjendan/`);
-  assert.equal(await staticPage.locator('h1').innerText(), 'Pozivnice za prvi rođendan');
-  assert.equal(await staticPage.title(), 'Pozivnice za 1. rođendan — besplatni šabloni online');
+  assert.equal(await staticPage.locator('h1').innerText(), CATEGORY_CONTENT.first.title);
+  assert.equal(await staticPage.title(), CATEGORY_CONTENT.first.seoTitle);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'first').length);
   for (const template of firstBirthdayTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
@@ -98,7 +99,7 @@ try {
   }
   await staticPage.goto(`${origin}/pozivnice-za-rodjenje-deteta/`);
   assert.equal(await staticPage.locator('h1').innerText(), 'Pozivnice za rođenje deteta');
-  assert.equal(await staticPage.title(), 'Pozivnice za rođenje deteta i bebe — besplatno online');
+  assert.equal(await staticPage.title(), CATEGORY_CONTENT.baby.seoTitle);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(template => template.category === 'baby').length);
   for (const template of babyTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
@@ -157,22 +158,17 @@ try {
   await page.waitForURL(`${origin}/pozivnice/`);
   await page.evaluate(() => document.fonts.ready);
   const catalogGzip = await initialScriptSize('catalog');
-  assert.ok(await page.locator('[data-canvas][data-rendered]').count() < 12,
-    'Do not draw the whole catalog on a phone before scrolling');
-
-  for (const canvas of await page.locator('[data-canvas]').all()) {
-    await canvas.scrollIntoViewIfNeeded();
-    await page.waitForFunction(id => {
-      const canvas = document.querySelector(`[data-canvas="${id}"]`);
-      return canvas.dataset.rendered === 'true' &&
-        canvas.getContext('2d').getImageData(250, 350, 1, 1).data[3] === 255;
-    }, await canvas.getAttribute('data-canvas'));
+  assert.equal(await page.locator('[data-canvas]').count(), 0, 'All catalog previews must be indexable static images');
+  for (const img of await page.locator('.template-card img').all()) {
+    await img.scrollIntoViewIfNeeded();
+    await img.evaluate(img => img.decode());
+    assert.ok(await img.evaluate(img => img.naturalWidth === 500 && img.naturalHeight === 700));
   }
-  const originalThumbnail = await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL());
+  const bloomImage = page.locator('[data-template="bloom"] img');
+  const originalThumbnail = await bloomImage.getAttribute('src');
   await page.locator('#search').fill('Nezno cvece');
   await page.locator('#search').fill('');
-  assert.equal(await page.locator('[data-canvas="bloom"]').evaluate(canvas => canvas.toDataURL()), originalThumbnail,
-    'Filtering must preserve a previously rendered preview');
+  assert.equal(await bloomImage.getAttribute('src'), originalThumbnail, 'Filtering must preserve the versioned preview URL');
 
   await page.locator('[data-template="bloom"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);

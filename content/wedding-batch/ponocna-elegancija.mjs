@@ -8,7 +8,7 @@ export const midnightElegance = {
   description: 'Elegantna pozivnica za svadbu sa tamnoplavim cvećem, zlatnim detaljima i kaligrafskim imenima. Uredi tekst bez fotografije i preuzmi besplatan PNG ili PDF.',
   backgroundFile: 'ponocna-elegancija-pozadina.webp',
   fontFile: 'fonts/great-vibes-sr-latin.woff2',
-  imageAlt: 'Pozivnica za venčanje Ponoćna elegancija sa plavim i belim cvećem, zlatnim grančicama i dijagonalno raspoređenim imenima mladenaca',
+  imageAlt: 'Pozivnica za venčanje sa plavim i belim cvećem, zlatnim grančicama i dijagonalno raspoređenim imenima mladenaca',
 };
 
 export function midnightEleganceDesign({ backgroundId, scriptFontId } = {}) {

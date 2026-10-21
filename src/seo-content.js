@@ -1,13 +1,79 @@
 export const SITE_URL = 'https://napravipozivnicu.com';
-// Change this only when the landing page's own content changes.
+// Change these dates only when the corresponding content actually changes.
 export const LANDING_UPDATED_AT = '2026-10-21T00:00:00Z';
 export const CATEGORY_CONTENT = {
-  first: { slug: 'pozivnice-za-prvi-rodjendan', title: 'Pozivnice za prvi rođendan', seoTitle: 'Pozivnice za 1. rođendan — besplatni šabloni online', description: 'Besplatne pozivnice za prvi rođendan: safari, vozić, labudovi, vila, kit, avion, meda, zeka i trešnjice. Uredi ime i tekst, pa preuzmi PNG ili PDF za štampu.', intro: 'Za proslavu 1. rođendana izaberite safari družinu, vozić sa medom, labudove, malu vilu, plavog kita, psića pilota, medu na Mesecu, zeku u balonu ili trešnjice. Deset pripremljenih dizajna ima čitljive, razigrane fontove i nema mesto za fotografiju. Upišite ime deteta, datum, vreme i tačnu adresu okupljanja, prilagodite poruku i rok za potvrdu dolaska. Pozivnicu za prvi rođendan možete napraviti na telefonu, bez registracije i plaćanja.', sample: 'Godina osmeha, zagrljaja i prvih koraka! Pozivamo vas da zajedno proslavimo moj prvi rođendan.', tip: 'Uz datum navedite početak proslave i naziv i adresu igraonice ili restorana. Dodajte rok i kontakt za potvrdu dolaska, a pre preuzimanja proverite tekst. PNG je praktičan za slanje porodici i prijateljima, dok je PDF pripremljen za štampu u stvarnoj veličini.' },
-  eighteen: { slug: 'pozivnice-za-18-rodjendan', title: 'Pozivnice za 18. rođendan i punoletstvo', seoTitle: 'Pozivnice za 18. rođendan i punoletstvo — besplatno', description: 'Besplatne pozivnice za 18. rođendan i punoletstvo: disko, mašne, leptiri, art deko i trkački stil. Uredi tekst online i preuzmi PNG ili PDF, bez registracije.', intro: 'Izaberite pozivnicu za punoletstvo koja prati vašu proslavu: terakota šahovnica, holografski plavi odsjaj, retro disko, roze svila sa crnom mašnom, bordo ruža, stakleni leptiri, smaragdni art deko, crvena trkačka pruga ili kobaltno svetlo. Tu su i raniji dizajni sa ljubičastom disko kuglom, satenom i biserima i zlatnim detaljima. Svih dvanaest pripremljenih dizajna za 18. rođendan ima zasebnu tipografiju i raspored teksta, bez mesta za fotografiju. Upišite ime, datum, vreme, tačnu adresu i rok za potvrdu dolaska. Pregled se menja odmah, a sliku ili PDF preuzimate besplatno.', sample: 'Jedno novo poglavlje. Jedna noć za pamćenje. Pozivam te da zajedno proslavimo moj 18. rođendan — uz muziku, drage ljude i osmeh koji ostaje.', tip: 'Dodajte naziv i adresu restorana ili kluba, vreme početka i kontakt za potvrdu dolaska. Ako postoji dogovoren stil oblačenja, navedite ga u poruci. Proverite čitljivost imena i duže adrese pre preuzimanja. PNG pošaljite gostima porukom, a PDF odštampajte u stvarnoj veličini.' },
-  birthday: { slug: 'pozivnice-za-rodjendan', title: 'Pozivnice za dečiji rođendan', description: 'Besplatne pozivnice za dečiji rođendan: dinosaurusi, svemir, mala sirena i ringišpil. Upiši ime i godine, pa preuzmi sliku ili PDF za štampu.', intro: 'Izaberite pozivnicu za dečiji rođendan sa dinosaurusima, raketom i planetama, malom sirenom ili konjićima na ringišpilu. Upišite ime deteta, broj godina, datum, vreme i adresu igraonice. Osam šablona nudi različite rasporede i čitljive razigrane, moderne ili rukopisne fontove, bez mesta za fotografiju.', sample: 'Torta, muzika i ljudi koje volim — sve je lepše kada ste tu! Pozivam vas na svoj rođendan.', tip: 'Proverite datum, početak proslave i lokaciju pre preuzimanja. Za slanje porukom izaberite PNG, a za štampanje PDF.' },
-  wedding: { slug: 'pozivnice-za-vencanje', title: 'Pozivnice za venčanje i svadbu', seoTitle: 'Pozivnice za venčanje i svadbu — besplatno', description: 'Besplatne pozivnice za venčanje i svadbu: cveće, maslina, more, fenjeri i smaragdno zlato. Uredi imena i obe lokacije online, pa preuzmi PNG ili PDF za štampu.', intro: 'Izaberite pozivnicu za venčanje koja prati vašu proslavu: mladenci u prirodi, pergament sa maslinom, zlatna obala, belo cveće, fenjeri u sumrak, smaragdni luk, roze božuri ili romantična čipka. Svaki dizajn ima svečanu tipografiju i prilagođen raspored bez okvira za fotografiju. Imena mladenaca menjaju se odvojeno, kao i datum, mesto i vreme ceremonije, restoran i potvrda dolaska. Pozivnicu za svadbu preuzmite besplatno, bez registracije.', sample: 'Sa radošću vas pozivamo da budete deo naše najlepše priče. Pridružite nam se na venčanju!', tip: 'Navedite vreme i tačnu adresu ceremonije, a zatim početak i mesto svadbene proslave. Dodajte rok i kontakt za potvrdu dolaska. Pregledajte tekst pre preuzimanja: PNG je praktičan za slanje gostima, a PDF za štampu u stvarnoj veličini.' },
-  baptism: { slug: 'pozivnice-za-krstenje', title: 'Pozivnice za krštenje', description: 'Besplatne pozivnice za krštenje deteta: anđeo, golubica, pravoslavna crkva i krst. Uredi tekst na ćirilici ili latinici i preuzmi PNG ili PDF za štampu.', intro: 'Pripremite svečanu pozivnicu za pravoslavno krštenje deteta sa anđelom, golubicom i maslinom, crkvom ili krstom i svećom. Ova četiri šablona su bez fotografije, sa klasičnim i kaligrafskim fontovima koji podržavaju srpsku ćirilicu i latinicu. Upišite ime deteta i odvojeno navedite detalje obreda i porodične proslave.', sample: 'Sa ljubavlju vas pozivamo na krštenje našeg deteta. Vaše prisustvo upotpuniće radost ovog posebnog dana.', tip: 'Navedite naziv i adresu crkve, datum i vreme obreda, a zatim mesto i početak ručka. U podešavanjima dizajna možete izabrati i pismo naziva meseca. Proverite podatke pre slanja slike gostima ili štampanja PDF-a.' },
-  baby: { slug: 'pozivnice-za-rodjenje-deteta', title: 'Pozivnice za rođenje deteta', seoTitle: 'Pozivnice za rođenje deteta i bebe — besplatno online', description: 'Besplatne pozivnice za rođenje deteta: roda, zvezdano nebo, konjić, božur, patofnice i kolevka. Uredi ime i tekst online, pa preuzmi PNG ili PDF za štampu.', intro: 'Dolazak bebe proslavite uz pozivnicu sa zvezdanim nebom, rodom, plavim bodićem i konjićem, roze božurom, pletenim patofnicama ili kolevkom. Šest novih dizajna za rođenje deteta ima zaseban raspored teksta, čitljiva klasična ili rukopisna slova i nema mesto za ličnu fotografiju. Izaberite pozivnicu za devojčicu ili dečaka, unesite ime bebe, datum i vreme proslave i tačnu adresu okupljanja. Sve možete urediti na telefonu i besplatno preuzeti, bez registracije.', sample: 'Naš svet je postao lepši! Sa radošću vas pozivamo da zajedno proslavimo rođenje naše bebe. Čekamo vas na danu punom ljubavi i osmeha.', tip: 'Za proslavu rođenja bebe navedite početak, lokaciju i kontakt za potvrdu dolaska. Ako pozivate na babine, prilagodite poruku i dogovorite termin posete sa porodicom. Ime deteta i detalji su izmenjivi; PNG je praktičan za slanje porukom, a PDF za štampu u stvarnoj veličini.' },
+  "birthday": {
+    "slug": "pozivnice-za-rodjendan",
+    "title": "Pozivnice za rođendan",
+    "keyword": "Pozivnice za rođendan",
+    "imageLabel": "Pozivnica za rođendan",
+    "seoTitle": "Pozivnice za rođendan — besplatni šabloni online",
+    "description": "Pozivnice za rođendan sa dinosaurusima, sirenom, žapcem ili svemirom. Uredi ime, godine i tekst online, pa besplatno preuzmi PNG ili PDF za štampu.",
+    "intro": "Pozivnice za rođendan napravi na telefonu ili računaru, bez registracije i plaćanja. Za dečiju proslavu izaberi dinosauruse, raketu, sirenu, žapca ili ringišpil. Upiši ime deteta, broj godina, datum, vreme i punu adresu igraonice. Svaki dizajn ima svoj raspored i boje, a ti prilagođavaš tekst i podatke o proslavi. Gotovu pozivnicu preuzmi kao PNG za poruke ili PDF za štampu.",
+    "sample": "Torta, muzika i ljudi koje volim — sve je lepše kada ste tu! Pozivam vas na svoj rođendan.",
+    "tip": "Proveri datum, vreme i adresu pre preuzimanja. Za slanje porukom izaberi PNG, a za štampu PDF.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  },
+  "eighteen": {
+    "slug": "pozivnice-za-18-rodjendan",
+    "title": "Pozivnice za 18. rođendan",
+    "keyword": "Pozivnice za 18. rođendan",
+    "imageLabel": "Pozivnica za 18. rođendan",
+    "seoTitle": "Pozivnice za 18. rođendan — besplatno online",
+    "description": "Pozivnice za 18. rođendan i punoletstvo: disko, vinil, mašne, leptiri i art deko. Promeni ime i tekst, pa besplatno preuzmi PNG ili PDF bez registracije.",
+    "intro": "Pozivnice za 18. rođendan najavljuju tvoje punoletstvo i atmosferu proslave. Izaberi disko kuglu, vinilnu ploču, mašnu, staklene leptire, art deko ili trkački motiv. Promeni ime, poruku, datum, vreme, mesto i rok za potvrdu dolaska. Dizajni za osamnaesti rođendan imaju istaknut broj 18 i različite rasporede teksta. Uređivanje i preuzimanje PNG slike ili PDF-a su besplatni, bez naloga.",
+    "sample": "Jedno novo poglavlje. Jedna noć za pamćenje. Pozivam te da zajedno proslavimo moj 18. rođendan — uz muziku, drage ljude i osmeh koji ostaje.",
+    "tip": "Dodaj tačnu adresu restorana ili kluba i kontakt za potvrdu dolaska. Ako postoji dogovoren stil oblačenja, navedi ga u poruci.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  },
+  "first": {
+    "slug": "pozivnice-za-prvi-rodjendan",
+    "title": "Pozivnice za 1. rođendan",
+    "keyword": "Pozivnice za 1. rođendan",
+    "imageLabel": "Pozivnica za 1. rođendan",
+    "seoTitle": "Pozivnice za 1. rođendan — besplatni šabloni online",
+    "description": "Pozivnice za 1. rođendan sa ježićem, safari družinom, zekom ili medom. Uredi ime i tekst za prvi rođendan, pa besplatno preuzmi sliku ili PDF.",
+    "intro": "Pozivnice za 1. rođendan pripremi uz motive za prvu veliku proslavu: ježića, safari družinu, vozić, labudove, vilu, kita, psića pilota, medu, zeku ili trešnjice. Dizajni za prvi rođendan imaju ilustracije, čitljive fontove i prostor za tvoju poruku. Unesi ime deteta, datum, vreme, mesto i potvrdu dolaska. Sve uređuješ online, a gotov PNG ili PDF preuzimaš besplatno, bez registracije.",
+    "sample": "Godina osmeha, zagrljaja i prvih koraka! Pozivamo vas da zajedno proslavimo moj prvi rođendan.",
+    "tip": "Navedi početak proslave, naziv i adresu prostora i rok za potvrdu dolaska. Pre preuzimanja proveri tekst na telefonu.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  },
+  "wedding": {
+    "slug": "pozivnice-za-vencanje",
+    "title": "Pozivnice za venčanje",
+    "keyword": "Pozivnice za venčanje",
+    "imageLabel": "Pozivnica za venčanje",
+    "seoTitle": "Pozivnice za venčanje — besplatni šabloni online",
+    "description": "Pozivnice za venčanje sa cvećem, maslinom, narom ili zlatnim detaljima. Uredite imena, obred i svadbenu proslavu, pa preuzmite besplatan PNG ili PDF.",
+    "intro": "Pozivnice za venčanje mogu da prate vašu svadbu kroz cvetne ilustracije, maslinove grančice, nar, obalu, fenjere ili zlatne detalje. Izaberite dizajn i odvojeno upišite imena mladenaca, vreme i mesto ceremonije, restoran i potvrdu dolaska. Prilagodite tekst i font dok pratite pregled uživo. Digitalnu pozivnicu pošaljite gostima kao PNG, a PDF sačuvajte za štampu. Izrada i preuzimanje su besplatni, bez registracije.",
+    "sample": "Sa radošću vas pozivamo da budete deo naše najlepše priče. Pridružite nam se na venčanju!",
+    "tip": "Navedite vreme i adresu ceremonije i svadbene proslave. Za profesionalnu štampu prethodno proverite zahteve štamparije.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  },
+  "baptism": {
+    "slug": "pozivnice-za-krstenje",
+    "title": "Pozivnice za krštenje",
+    "keyword": "Pozivnice za krštenje",
+    "imageLabel": "Pozivnica za krštenje",
+    "seoTitle": "Pozivnice za krštenje — besplatni šabloni online",
+    "description": "Pozivnice za krštenje sa anđelom, golubicom, krstionicom ili pravoslavnom crkvom. Prilagodi ime, obred i proslavu, pa preuzmi besplatan PNG ili PDF.",
+    "intro": "Pozivnice za krštenje biraj među svečanim motivima anđela, golubice, pravoslavne crkve, krsta i krstionice. Upiši ime deteta, datum i vreme obreda, naziv hrama i podatke o porodičnoj proslavi. Za ćirilicu izaberi font koji podržava srpska slova i proveri prikaz meseca u datumu. Tekst uređuješ na telefonu ili računaru, bez registracije. Gotovu pozivnicu preuzmi kao PNG ili PDF, besplatno.",
+    "sample": "Sa ljubavlju vas pozivamo na krštenje našeg deteta. Vaše prisustvo upotpuniće radost ovog posebnog dana.",
+    "tip": "Odvojeno navedi crkvu i mesto porodične proslave, sa vremenom i adresom za svaku lokaciju.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  },
+  "baby": {
+    "slug": "pozivnice-za-rodjenje-deteta",
+    "title": "Pozivnice za rođenje deteta",
+    "keyword": "Pozivnice za rođenje",
+    "imageLabel": "Pozivnica za rođenje deteta",
+    "seoTitle": "Pozivnice za rođenje deteta — besplatno online",
+    "description": "Pozivnice za rođenje deteta sa lastama, rodom, kolevkom ili bebom na oblaku. Uredi ime i detalje proslave rođenja, pa besplatno preuzmi PNG ili PDF.",
+    "intro": "Pozivnice za rođenje deteta pripremi za okupljanje porodice i prijatelja povodom dolaska bebe. Izaberi laste u gnezdu, rodu, zvezdano nebo, konjića, božur, patofnice ili kolevku. Upiši ime bebe, ličnu poruku, datum, vreme i adresu proslave rođenja. Nežni ili vedriji dizajni mogu da prate vaš porodični stil, a tekst prilagođavaš svom povodu. PNG i PDF preuzimaš besplatno, bez naloga i vodenog žiga.",
+    "sample": "Naš svet je postao lepši! Sa radošću vas pozivamo da zajedno proslavimo rođenje naše bebe. Čekamo vas na danu punom ljubavi i osmeha.",
+    "tip": "Za proslavu rođenja bebe navedi početak, lokaciju i kontakt za potvrdu dolaska. Za babine prilagodi poruku i termin posete.",
+    "updatedAt": "2026-10-21T00:00:00Z"
+  }
 };
 export const categoryPath = id => CATEGORY_CONTENT[id] ? `/${CATEGORY_CONTENT[id].slug}/` : '/';
 export const categoryFromPath = path => Object.keys(CATEGORY_CONTENT).find(id => categoryPath(id) === `${path.replace(/\/$/, '')}/`);

@@ -1,3 +1,4 @@
+import { examplePreviews } from './example-previews.js';
 export const categories = [
   { id: 'all', label: 'Sve pozivnice', icon: 'grid' },
   { id: 'first', label: '1. rođendan', icon: 'cake' },
@@ -15,5 +16,5 @@ export const templates = [
   { id: 'rose', name: 'Puder i zlato', category: 'eighteen', style: 'confetti', bg: '#f4e7e4', ink: '#976f68', accent: '#bf9990', title: 'Moja posebna noć', names: 'Sara', note: 'Osamnaest želja i jedna nezaboravna proslava.\nVidimo se na mom rođendanu!' },
   { id: 'blessing', name: 'Mali blagoslov', category: 'baptism', style: 'minimal', bg: '#f6f2e9', ink: '#8b7e66', accent: '#bdb092', title: 'Jedan poseban dan', names: 'Petar', note: 'Pozivamo vas na krštenje našeg Petra.\nVaše prisustvo upotpuniće našu radost.' },
   { id: 'peach', name: 'Najlepši početak', category: 'baby', style: 'sun', bg: '#faf0e8', ink: '#9d7760', accent: '#dbb59a', title: 'Naš svet je postao lepši', names: 'Dobro došla, Mila', note: 'Mala devojčica, beskrajno velika ljubav.\nProslavimo zajedno njen dolazak.' },
-];
+].map(template => ({ ...template, ...examplePreviews[template.id] }));
 export const defaultData = t => t.style === 'custom' ? { bg: t.bg, locale: t.locale || 'sr-Latn-RS', photoX: 50, photoY: 50, photoZoom: 100, ...Object.fromEntries(t.layers.filter(l => l.type === 'text').map(l => [l.field, l.text])) } : ({ title: t.title, names: t.names, note: t.note, date: '2026-11-14', time: '17:00', location: t.category === 'wedding' ? 'Restoran Garden, Beograd' : 'Restoran Magnolia, Beograd', photoX: 50, photoY: 50, photoZoom: 100, font: 'serif', bg: t.bg });

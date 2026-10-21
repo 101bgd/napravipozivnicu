@@ -3,9 +3,8 @@ import './style.css';
 import './category.css';
 import './latest.css';
 import './guides.css';
-import { categories, defaultData } from './templates.js';
+import { categories } from './templates.js';
 import { templates, initialCategory } from './catalog-state.js';
-import { renderInvitation } from './render.js';
 import { renderCards } from './catalog-view.js';
 import { toast } from './ui.js';
 
@@ -14,29 +13,6 @@ if (document.querySelector('#adsense-config')) void import('./adsense.js').then(
 let activeCategory=initialCategory, search='';
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 const searchable=value=>value.toLocaleLowerCase('sr').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replaceAll('đ','dj');
-const thumbnailCache=new Map();
-const templateById=new Map(templates.map(t=>[t.id,t]));
-const thumbnailObserver=new IntersectionObserver(entries=>{
-  for(const {target,isIntersecting} of entries) {
-    if(!isIntersecting)continue;
-    const template=templateById.get(target.dataset.canvas);
-    if(!template)continue;
-    renderInvitation(target,template,defaultData(template),null,500);
-    target.dataset.rendered='true';
-    thumbnailCache.set(template.id,target);
-    // Bound memory if the catalog grows; visible canvases remain in the DOM.
-    if(thumbnailCache.size>24)thumbnailCache.delete(thumbnailCache.keys().next().value);
-    thumbnailObserver.unobserve(target);
-  }
-},{rootMargin:'200px 0px'});
-function observeThumbnails() {
-  thumbnailObserver.disconnect();
-  document.querySelectorAll('[data-canvas]').forEach(canvas=>{
-    const cached=thumbnailCache.get(canvas.dataset.canvas);
-    if(cached&&cached!==canvas)canvas.replaceWith(cached);
-    else if(!cached)thumbnailObserver.observe(canvas);
-  });
-}
 let editorModule;
 let openRequest=0;
 async function openEditor(id,button) {
@@ -56,10 +32,8 @@ function renderGrid(){
   const grid=document.querySelector('#template-grid');
   if(!grid)return;
   grid.innerHTML=renderCards(shown);
-  observeThumbnails();
   if(!reducedMotion.matches)grid.animate([{opacity:.35,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:320,easing:'cubic-bezier(.22,1,.36,1)'});
 }
-observeThumbnails();
 document.querySelector('#search')?.addEventListener('input',e=>{search=searchable(e.target.value.trim());renderGrid();});
 document.querySelector('#template-grid')?.addEventListener('click',e=>{
   const button=e.target.closest('[data-template]');

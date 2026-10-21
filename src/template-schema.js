@@ -1,3 +1,4 @@
+import { templateImageAlt } from './image-metadata.js';
 import { templates as builtinTemplates } from './templates.js';
 import { curatedTemplates } from './curated-catalog.js';
 export const DESIGN_WIDTH = 500;
@@ -57,5 +58,5 @@ export function publicTemplate(record) {
   const design = JSON.parse(record.published_json);
   const usedFonts = new Set(design.layers.filter(l => l.type === 'text').map(l => l.family));
   design.fonts = design.fonts.filter(f => usedFonts.has(f.family));
-  return { ...design, id: record.id, slug: record.slug, style: 'custom', ink: '#344437', accent: '#9ca582', thumbnail: assetUrl(design.thumbnailId), updatedAt: record.published_at };
+  return { ...design, imageAlt: templateImageAlt(design), id: record.id, slug: record.slug, style: 'custom', ink: '#344437', accent: '#9ca582', thumbnail: assetUrl(design.thumbnailId), updatedAt: record.published_at };
 }

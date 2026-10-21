@@ -1,3 +1,4 @@
+import { templateImageAlt } from './image-metadata.js';
 import { categories } from './templates.js';
 import { CATEGORY_CONTENT, categoryPath } from './seo-content.js';
 import { CATEGORY_EXPERIENCE, categoryHighlights } from './category-content.js';
@@ -14,7 +15,7 @@ function categoryArt(catalog, category) {
     <div class="collection-aura" aria-hidden="true"></div>
     <svg class="collection-orbit" viewBox="0 0 600 450" fill="none" aria-hidden="true"><ellipse cx="300" cy="230" rx="275" ry="150" transform="rotate(-18 300 230)"/><ellipse cx="300" cy="230" rx="225" ry="197" transform="rotate(24 300 230)"/><circle cx="535" cy="130" r="5"/><circle cx="75" cy="321" r="3"/></svg>
     <span class="collection-symbol" aria-hidden="true">${content.symbol}</span>
-    <div class="collection-cards">${previews.map((t, index) => `<a class="collection-card collection-card-${index}" href="/pozivnice/${esc(t.slug || t.id)}/" aria-label="Pogledaj pozivnicu ${esc(t.name)}"><span><img src="${esc(t.thumbnail)}" alt="${esc(t.imageAlt || t.name)}" width="500" height="700" loading="eager" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async"></span></a>`).join('')}</div>
+    <div class="collection-cards">${previews.map((t, index) => `<a class="collection-card collection-card-${index}" href="/pozivnice/${esc(t.slug || t.id)}/" aria-label="Pogledaj pozivnicu ${esc(t.name)}"><span><img src="${esc(t.thumbnail)}" alt="${esc(templateImageAlt(t))}" width="500" height="700" loading="eager" fetchpriority="${index === 0 ? 'high' : 'low'}" decoding="async"></span></a>`).join('')}</div>
     <span class="collection-seal" aria-hidden="true">${icon('check')} Tvoj tekst. Tvoj trenutak.</span>
     <div class="collection-stage-footer"><span>${esc(content.signature)}</span><button type="button" class="motion-toggle" data-motion-toggle aria-pressed="false" hidden>Pauziraj animacije</button></div>
   </div>`;
@@ -54,7 +55,7 @@ export function renderCategoryPage({ catalog, category }) {
     </section>
 
     <section class="collection-guide container" aria-labelledby="guide-title">
-      <div class="collection-guide-copy" data-reveal><div class="eyebrow">DOBAR POZIV JE U DETALJIMA</div><h2 id="guide-title">${esc(content.guideTitle)}</h2><p>${esc(content.guide)}</p><h3>Šta napisati na pozivnici?</h3><ul class="collection-checklist">${content.checklist.map(line => `<li>${icon('check')}<span>${esc(line)}</span></li>`).join('')}</ul><p class="collection-print-note">${icon('file')} PNG za poruke. PDF za štampu u formatu 12,7 × 17,78 cm, u stvarnoj veličini. Za prepust proveri zahteve štamparije.</p></div>
+      <div class="collection-guide-copy" data-reveal><div class="eyebrow">DOBAR POZIV JE U DETALJIMA</div><h2 id="guide-title">${esc(content.guideTitle)}</h2><p>${esc(info.intro)}</p><p>${esc(content.guide)}</p><h3>Šta napisati na pozivnici?</h3><ul class="collection-checklist">${content.checklist.map(line => `<li>${icon('check')}<span>${esc(line)}</span></li>`).join('')}</ul><p class="collection-print-note">${icon('file')} PNG za poruke. PDF za štampu u formatu 12,7 × 17,78 cm, u stvarnoj veličini. Za prepust proveri zahteve štamparije.</p></div>
       <div class="collection-examples" data-reveal><h3>Primeri teksta za pozivnicu</h3><p>Uzmi ideju, dodaj svoje podatke i napiši je svojim rečima.</p>${content.examples.map(([title, text], index) => `<article class="invitation-example"><div class="example-heading"><span>${esc(title)}</span><button type="button" data-copy-text="example-${index}" hidden aria-label="Kopiraj tekst: ${esc(title)}">Kopiraj ${icon('file')}</button></div><blockquote id="example-${index}">${esc(text)}</blockquote></article>`).join('')}</div>
     </section>
 

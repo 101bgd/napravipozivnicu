@@ -19,7 +19,7 @@ export const curatedTemplates = [...robiTemplates, ...firstBirthdayTemplates, ..
   style: 'custom',
   description: 'Elegantna pozivnica za svadbu sa tamnoplavim cvećem, zlatnim detaljima i kaligrafskim imenima. Uredi tekst bez fotografije i preuzmi besplatan PNG ili PDF.',
   thumbnail: curatedAssetUrl(midnightAssetIds.thumbnail),
-  imageAlt: 'Pozivnica za venčanje Ponoćna elegancija sa plavim i belim cvećem, zlatnim grančicama i dijagonalno raspoređenim imenima mladenaca',
+  imageAlt: 'Pozivnica za venčanje sa plavim i belim cvećem, zlatnim grančicama i dijagonalno raspoređenim imenima mladenaca',
   hasPhoto: false,
   updatedAt: '2026-10-15T00:00:00Z',
 }];

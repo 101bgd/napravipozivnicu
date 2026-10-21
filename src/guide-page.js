@@ -1,3 +1,4 @@
+import { templateImageAlt } from './image-metadata.js';
 import { GUIDES, GUIDE_HUB } from './guide-catalog.js';
 import { GUIDE_CONTENT } from './guide-content.js';
 import { renderGuideCards, renderGuideSection } from './guide-links.js';
@@ -9,7 +10,7 @@ const dateText = date => new Intl.DateTimeFormat('sr-Latn-RS', { day: 'numeric',
 function relatedTemplates(guide, catalog) {
   const templates = catalog.filter(t => t.thumbnail && (!guide.categories.length || guide.categories.includes(t.category))).slice(0, 3);
   if (!templates.length) return '';
-  return `<section class="guide-designs" aria-labelledby="guide-designs-title"><h2 id="guide-designs-title">Od ideje do tvoje pozivnice</h2><p>Pronađi dizajn, unesi svoje podatke i prati pregled uživo.</p><div class="guide-design-grid">${templates.map(t => `<a href="/pozivnice/${esc(t.slug || t.id)}/"><img src="${esc(t.thumbnail)}" alt="${esc(t.imageAlt || t.name)}" width="500" height="700" loading="lazy" decoding="async"><span>${esc(t.name)} ${icon('arrow')}</span></a>`).join('')}</div></section>`;
+  return `<section class="guide-designs" aria-labelledby="guide-designs-title"><h2 id="guide-designs-title">Od ideje do tvoje pozivnice</h2><p>Pronađi dizajn, unesi svoje podatke i prati pregled uživo.</p><div class="guide-design-grid">${templates.map(t => `<a href="/pozivnice/${esc(t.slug || t.id)}/"><img src="${esc(t.thumbnail)}" alt="${esc(templateImageAlt(t))}" width="500" height="700" loading="lazy" decoding="async"><span>${esc(t.name)} ${icon('arrow')}</span></a>`).join('')}</div></section>`;
 }
 export function renderGuidePage(guide, catalog = []) {
   if (guide.id === GUIDE_HUB.id) return `${siteHeader('guides')}<main class="guide-index container" id="main-content"><nav class="breadcrumbs" aria-label="Putanja"><a href="/">Početna</a> / <span aria-current="page">Vodiči</span></nav><header class="guide-index-intro"><div class="eyebrow">DOBAR POZIV POČINJE DOBROM IDEJOM</div><h1>${esc(guide.title)}<span>.</span></h1><p>${esc(guide.lead)}</p></header><section aria-labelledby="guide-index-title"><h2 id="guide-index-title" class="guide-index-title">Šta želiš da pripremiš?</h2><div class="guide-card-grid guide-index-grid">${renderGuideCards(GUIDES)}</div></section><section class="guide-index-action"><h2>Sada je red na tvoju pozivnicu.</h2><p>Izaberi stil, dodaj svoje podatke i preuzmi PNG ili PDF.</p><a class="button primary" href="/pozivnice/">Napravi pozivnicu ${icon('arrow')}</a></section></main>${siteFooter('guides')}${catalogData([], 'all', 'guides')}`;
