@@ -136,15 +136,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/"
@@ -281,15 +287,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-vinil-ploca/"
@@ -426,15 +438,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zabac-lokvanji/"
@@ -571,15 +589,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-nar-botanicka/"
@@ -716,15 +740,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-krst-krstionica/"
@@ -861,15 +891,21 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "Not published yet; requires one complete main commit."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+          "detail": "One complete main commit containing six designs and twelve verified optimized images; update_ref used expected SHA and force=false."
         }
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "NEPROVERENO",
+          "detail": "Cloudflare Pages check 118960562621 is Building as of this report."
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+          "detail": "Executor proxy denies domain access (CONNECT 403); web read tool also cannot open the new page or sitemap. Public editor/exports/ad fill not verified."
         }
       ],
       "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-laste/"
@@ -907,5 +943,12 @@
     "status": "not_received",
     "points": 0,
     "target": 50
+  },
+  "updatedAt": "2026-10-21T00:19:37.626882+00:00",
+  "archivePersistence": {
+    "status": "blocked_by_automatic_approval_review",
+    "verifiedLocalArchive": "private-archive.json",
+    "publicMultipartArchiveIncomplete": true,
+    "requiredPublicApproval": "Public upload of the exact generated invitation PNG/PDF archive (see archive-provenance.json); earlier request exists but automatic approval review still rejected opaque chunks."
   }
 }

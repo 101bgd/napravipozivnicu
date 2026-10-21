@@ -97,11 +97,15 @@
       "report": "content/robi-batches/2026-10-21/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-21/quality-checklist.json",
       "artifactPersistence": {
-        "status": "in_progress",
-        "confirmedBlobs": 23,
-        "totalBlobs": 241,
-        "archiveIndex": "content/robi-batches/2026-10-21/archive-index.json",
-        "localCheckpoint": "work/robi-2026-10-21/uploaded-blobs.json"
+        "status": "blocked_by_automatic_approval_review",
+        "confirmedBlobObjects": 27,
+        "totalPlannedBlobObjects": 241,
+        "committedArchiveParts": 11,
+        "totalArchiveParts": 229,
+        "provenance": "content/robi-batches/2026-10-21/archive-provenance.json",
+        "progress": "content/robi-batches/2026-10-21/upload-progress.json",
+        "completeLocalArchive": "/workspace/artifacts/robi-2026-10-21/Robi-21-10-2026-pozivnice-i-izvori.zip",
+        "reason": "Automatic approval review rejected opaque binary parts 0014 and 0016 despite verified PNG/PDF provenance; no workaround used. Public archive upload awaits resolution."
       },
       "liveVerification": {
         "status": "unverified",
@@ -113,7 +117,23 @@
         "status": "main_updated_deploy_pending",
         "atomic": true,
         "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0"
-      }
+      },
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "reason": "Network allowlist excludes napravipozivnicu.com; proxy CONNECT 403 and web read tool unavailable."
+        },
+        {
+          "step": "public_archive_upload",
+          "reason": "Automatic approval review rejected public upload of opaque binary archive parts; exact archive provenance saved and private full ZIP provided."
+        }
+      ],
+      "resumeActions": [
+        "Check Cloudflare deployment for main commit 099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0.",
+        "Verify all six existing published URLs/editor/exports when allowed network access is available.",
+        "Resume public source archive upload only after automatic approval block is resolved; use upload-progress and existing SHA objects.",
+        "Do not regenerate or republish 2026-10-21 designs. Do not advance audience/age or mark full success without confirmed publication verification."
+      ]
     }
   ],
   "history": [
@@ -139,6 +159,30 @@
         "linen cross calla lilies blue bow",
         "paper-cut sailboat and lighthouse"
       ],
+      "reuseForDailyPublication": false
+    },
+    {
+      "id": "2026-10-21",
+      "status": "main_updated_deploy_pending",
+      "countsAsDailyDelivery": false,
+      "source": "content/robi-batches/2026-10-21/plan.json",
+      "motifs": [
+        "hedgehog with pear and acorn",
+        "vinyl record and sound waves",
+        "frog with lily pads and dragonfly",
+        "botanical pomegranates",
+        "baptismal font with cross and water",
+        "swallows, chick and nest"
+      ],
+      "designIds": [
+        "jeziceva-radost",
+        "noc-na-vinilu",
+        "zabac-zove-drugare",
+        "narova-prica",
+        "tihi-izvor",
+        "lastino-malo-cudo"
+      ],
+      "mainCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
       "reuseForDailyPublication": false
     }
   ],
@@ -182,5 +226,5 @@
     "approvalRequiredBeforePublication": false,
     "feedback": null
   },
-  "updatedAt": "2026-10-21T00:11:30.766Z"
+  "updatedAt": "2026-10-21T00:21:49.265Z"
 }

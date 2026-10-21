@@ -1,0 +1,156 @@
+{
+  "updatedAt": "2026-10-21T00:19:37.626882+00:00",
+  "status": "blocked_by_automatic_approval_review",
+  "confirmedBlobObjects": 27,
+  "totalPlannedBlobObjects": 241,
+  "objects": [
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-background-095363be68cb.webp",
+      "sha": "14e484d7528c494c5243e732afd7359e17ca0c3a",
+      "bytes": 208606
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-thumbnail-bd4447195b6e.webp",
+      "sha": "e2d6e3da3d51e4ad2ba46f964fc7f1eb140b2de5",
+      "bytes": 39014
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+      "sha": "6b5fa10bdaf7295b47ab6bb47d83263ed7cdb8b8",
+      "bytes": 151566
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-thumbnail-c05d6647a4cb.webp",
+      "sha": "fba4d5432a31087ddafbc521cde05f7e762f1c60",
+      "bytes": 29550
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/narova-prica-background-1728b424cc73.webp",
+      "sha": "37d20c459eac1b2c21ac5c3590a99d5903c01932",
+      "bytes": 170356
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/narova-prica-thumbnail-f2c7499721dc.webp",
+      "sha": "4e583d00169dcd4a68a56e1d01d85165b6c919a7",
+      "bytes": 33310
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/noc-na-vinilu-background-de3fd431795c.webp",
+      "sha": "164501327283d0d30737e74cd3b09182b6d1ad1d",
+      "bytes": 105208
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/noc-na-vinilu-thumbnail-c08df3bf946e.webp",
+      "sha": "42d58d60cb88c6558a144cee6495199271eac08d",
+      "bytes": 24736
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+      "sha": "6c43b5e66ff5e700521ac12d6e050e5b70f74288",
+      "bytes": 189766
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-thumbnail-76216a74238d.webp",
+      "sha": "7babbce11ce0c2a76f6973f2d8e25b0ad365d3d5",
+      "bytes": 35380
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/zabac-zove-drugare-background-d3ea225bed2c.webp",
+      "sha": "a371cc3784522d672e039090c0121f21d17819be",
+      "bytes": 137120
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/zabac-zove-drugare-thumbnail-3d9e0b67124b.webp",
+      "sha": "071b15a58301620c5819e56247bae38938fda8c2",
+      "bytes": 32744
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0000",
+      "sha": "6fe3c927b2b5db37f3b4fc4aff9e9742606ea9fd",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0001",
+      "sha": "0cf6969926b7dcd27d8ee7453900134ce73365d2",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0002",
+      "sha": "b5e4bbba72600086918956ef1baab2b4b86be17a",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0003",
+      "sha": "7f309791577064678c2abfb594df6d1c5259be63",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0004",
+      "sha": "ddcf848eb68c87a472a6aa25214a1788d6e8de3e",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0005",
+      "sha": "9c09390b98516b58490a02c92ee0eeebaf594a4f",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0006",
+      "sha": "37403a56ebf727e1ca4d9720218f8898db5b79dc",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0007",
+      "sha": "ce1f3ebac5317e2a29fd19ab7660226920b3ceff",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0008",
+      "sha": "1ca7d3df4a602607835dadf1baed093d3202783d",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0009",
+      "sha": "835c5a70bc404ca631e74c5915a5a3b029387975",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0010",
+      "sha": "f36de5653b073a1d6e79d51750b4a4c34eaa98cc",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0011",
+      "sha": "51042670992ba54891d06bc698b6366984dba54d",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0012",
+      "sha": "f6fc5b1b54de1681ae8edf3c3e97859e294645d1",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0013",
+      "sha": "edcd0999c6ade560e7f501ec89f95718f841e1bc",
+      "bytes": 196608
+    },
+    {
+      "path": "content/robi-batches/2026-10-21/archive/evidence.tar.zst.part-0015",
+      "sha": "f90fd6b2e02360b09521629e80b9470e7438918a",
+      "bytes": 196608
+    }
+  ],
+  "rejectedParts": [
+    14,
+    16
+  ],
+  "provenance": "archive-provenance.json",
+  "completeLocalArchive": {
+    "path": "/workspace/artifacts/robi-2026-10-21/Robi-21-10-2026-pozivnice-i-izvori.zip",
+    "bytes": 46201805,
+    "sha256": "1fd1dc42cd78a1d41f5c232bf710a7d7819818a1c7676ac62614b32fa9a6c57c",
+    "publiclyUploaded": false,
+    "purpose": "Complete local handoff to user while public GitHub archive upload is blocked by automatic approval review."
+  },
+  "resume": "Do not regenerate or republish this batch. Resume source archive upload only when public-upload approval is resolved."
+}

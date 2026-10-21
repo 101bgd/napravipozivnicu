@@ -1,0 +1,248 @@
+{
+  "batch": "2026-10-21",
+  "intendedDestination": "user-owned public repository 101bgd/napravipozivnicu, control branch robi-agent",
+  "authorization": "User explicitly requested original images, final files, prompts, previews, PNG/PDF examples and checklist saved on control branch. Publication of new invitations is explicitly authorized.",
+  "archiveSha256": "2d82710865c04e54b54b4dc0f7d248c0ff825f55720e54125a74b5d0e2283a21",
+  "source": "Only the new 2026-10-21 invitation batch; cancelled trial is excluded.",
+  "verifiedMembers": [
+    {
+      "path": "sources/jeziceva-radost.png",
+      "type": "PNG",
+      "sha256": "254f351e9dd5b7db2b5a1aee6d061bff97a41eeed53b1a5fb5b4fc47c96a3e8f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/lastino-malo-cudo-original.png",
+      "type": "PNG",
+      "sha256": "c3bae91678d19d80d0db703db0b5f1de3c75721f107629df448727fa839ff797",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/lastino-malo-cudo.png",
+      "type": "PNG",
+      "sha256": "c682dbf0b9626885c417101d351f4129fb39f73f6242d617863c0216b2f68ef9",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/narova-prica-original.png",
+      "type": "PNG",
+      "sha256": "726f86b98c204a3f7671cef4a217842a9451deb8ac89e1a84246a0264818bb46",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/narova-prica.png",
+      "type": "PNG",
+      "sha256": "1a81f5dc1789c963d8d0703e7eba21e73ad8e51c588bb3b0a7cf2bcfb3ca654c",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/noc-na-vinilu-original.png",
+      "type": "PNG",
+      "sha256": "ac2d713bd4c220591a942d922ba607cf15fca87a767076520d24030f1ce0e6ae",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/noc-na-vinilu.png",
+      "type": "PNG",
+      "sha256": "c626a6d4b939a62653c058a7251a5a80571f68593f064eb189658df3b6f7384f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/tihi-izvor.png",
+      "type": "PNG",
+      "sha256": "6790c748a2857bf4174e5d82c899c1f753daee2a4fe195b14f538bf96b2445f6",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "sources/zabac-zove-drugare.png",
+      "type": "PNG",
+      "sha256": "4add57ec8575e785e5d1ce1736c7f423be0a0bf522fbf391059f6930924cec97",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/jeziceva-radost.png",
+      "type": "PNG",
+      "sha256": "fdec47c29b54c346df4aca62f1c7a0eb28de919314e11892ff9ff8bfdbe756a1",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/noc-na-vinilu.png",
+      "type": "PNG",
+      "sha256": "5fc758ad7a222e90fd0ec32f589f0ea56f4d6583a1dfa91b0e4ec84bbb5b9308",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/zabac-zove-drugare.png",
+      "type": "PNG",
+      "sha256": "2c968e1f831333bbd998aaad9ccc042094bd138a605d6fed98604b4e46da40f5",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/narova-prica.png",
+      "type": "PNG",
+      "sha256": "8d8d0490d749a8c7bce5c488cb971329a402385828e71d82c543b79117c4124f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/tihi-izvor.png",
+      "type": "PNG",
+      "sha256": "259544cc575b080221baf9f0daae8741ffd5295b6119c55d0b6735a71bb9577e",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/lastino-malo-cudo.png",
+      "type": "PNG",
+      "sha256": "c54ee031779492417431624d086731c983720512d34c11fbde032c35bf795265",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/jeziceva-radost-editor.pdf",
+      "type": "PDF",
+      "sha256": "b0cdd4d27ff6f849f62fd4ef6fe41aaf5f1a246ca000c46029785ceb504e5678",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/jeziceva-radost.pdf",
+      "type": "PDF",
+      "sha256": "04730870c3310989712c73968ac4a4f909bcbb7ecce16a567d9b7e43ec03fb85",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/lastino-malo-cudo-editor.pdf",
+      "type": "PDF",
+      "sha256": "1f0a37e8c089ec7e9623ed5af5459d5eabea5d34c27dfb7d6702ee1abc935bb8",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/lastino-malo-cudo.pdf",
+      "type": "PDF",
+      "sha256": "ae6848d3b8de58dbee9acb7acc64030114a532f8e327246cb375f6530de98668",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/narova-prica-editor.pdf",
+      "type": "PDF",
+      "sha256": "25f13544a549da65d22c984b76ae90d4f2ee65a135bc4d9507534b9254bc0099",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/narova-prica.pdf",
+      "type": "PDF",
+      "sha256": "fcf26fec636f93fee211747ece95a4fbe77886d2a92326205494759e404435db",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/noc-na-vinilu-editor.pdf",
+      "type": "PDF",
+      "sha256": "8de707df64357b3081d20f63ab7a988424e5154e72d8e443d7a3d37743218c97",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/noc-na-vinilu.pdf",
+      "type": "PDF",
+      "sha256": "445f07da82b8ad2f8410e068cb0bcc770e179c812ea7ae6e57128721372571da",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/tihi-izvor-editor.pdf",
+      "type": "PDF",
+      "sha256": "3b60dfe45d037cb448c2e95afc0d095a4771a7f1ef154b0a68c4fe4aefc8cb62",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/tihi-izvor.pdf",
+      "type": "PDF",
+      "sha256": "1f4e5afbd8f2e160ac696262f7cf3789db47654b77b4d153163c9e6254a79ff6",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/zabac-zove-drugare-editor.pdf",
+      "type": "PDF",
+      "sha256": "c67bcc8125929056cfad184ccad47b90d90c101c41784bb45bd393546eda4526",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "examples/zabac-zove-drugare.pdf",
+      "type": "PDF",
+      "sha256": "8c6194a5a4cf5dd61d3118a361d08f6e816bb98f0335a0fae779667550f57fb4",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/jeziceva-radost-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "5fd1f70428126a05e8161e21754baea3a801bfde6f21886b3b4696f68a9a573a",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/jeziceva-radost-mobile.png",
+      "type": "PNG",
+      "sha256": "498d479eb524532dca2ee691a8fceab675de054d83820d5087b021a4c34dce27",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/lastino-malo-cudo-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "35545980d399085171567e91e0767a5f1c56b1a1eeebb8cd69f33a90dcf7cc1f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/lastino-malo-cudo-mobile.png",
+      "type": "PNG",
+      "sha256": "ddd102eb33d67775902dd22e8d6264b8702583e57cec89d356501c16c0186ae4",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/narova-prica-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "e6a89e517fe237c1abc8ef1ef6e90109f33d7f8f38acf06ecbcf13c9fc62a80d",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/narova-prica-mobile.png",
+      "type": "PNG",
+      "sha256": "c3add8f7ef9c926f97a298e84a4f238612cef4c56c58c410b6e97cc16738a8cc",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/noc-na-vinilu-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "b50c515c452ff75f9d1312820739b53a891d29c537d1875939d0475093d3ba6f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/noc-na-vinilu-mobile.png",
+      "type": "PNG",
+      "sha256": "3ad93ed9ee8460678501027258d45d8295ef59fd80da3f277213fe6dab38a264",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/tihi-izvor-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "a0a31f82a29554023b2c53f7e9df4f48a1ee1011da31cae27a0ff7c20c3ab7aa",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/tihi-izvor-mobile.png",
+      "type": "PNG",
+      "sha256": "5b3b636df3429997526d289ff2645a8f4d2a2dedf3cb4f845cdd6692126b791f",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/zabac-zove-drugare-editor-pdf.png",
+      "type": "PNG",
+      "sha256": "49c6bb88421719dc4b2f20e089e9081c5398fc60d7b15bac3628a0da039d3649",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    },
+    {
+      "path": "previews/zabac-zove-drugare-mobile.png",
+      "type": "PNG",
+      "sha256": "105f43db8fc5ab9b6609a8ee51af84305ea7a0be59a0a218eb20af05d4d361f3",
+      "provenance": "newly generated invitation artwork or renderer/browser test export using fictional sample event details"
+    }
+  ],
+  "fileCount": 39,
+  "containsOnlyPNGandPDF": true,
+  "containsCredentialsOrEnvironmentFiles": false,
+  "containsCustomerUploads": false,
+  "containsExecutableCode": false
+}
