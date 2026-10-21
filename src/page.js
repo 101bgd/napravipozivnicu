@@ -7,11 +7,12 @@ import { catalogData } from './seo.js';
 import { siteHeader, siteFooter } from './site-shell.js';
 import { renderCatalogPage } from './catalog-page.js';
 import { renderCategoryPage } from './category-page.js';
+import { renderLatestSection } from './latest-section.js';
 
 const cta = (classes = '') => `<a href="/pozivnice/" class="button primary ${classes}"><span>Napravi pozivnicu</span><span class="button-arrow">${icon('arrow')}</span></a>`;
 const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${icon(c.icon)}<span>${c.label}</span>${icon('arrow')}</a>`).join('');
 
-function landing() {
+function landing(catalog) {
   const preview = id => {
     const template = builtinTemplates.find(item => item.id === id);
     return `<img src="${esc(template.thumbnail)}" width="500" height="700" alt="${esc(template.imageAlt || template.name)}" decoding="async">`;
@@ -36,6 +37,7 @@ function landing() {
   <div class="hero-trust container"><span>${icon('check')} Napravi na telefonu</span><span>${icon('check')} Preuzmi PNG ili PDF</span><span>${icon('check')} Podeli radost</span></div>
 </section>
 <section class="occasion-section container" data-reveal><div class="eyebrow">ZA SVE TVOJE VELIKE MALE TRENUTKE</div><div class="occasion-links">${occasionLinks()}</div></section>
+${renderLatestSection(catalog)}
 <section class="experience-section container" id="how">
   <div class="section-heading centered" data-reveal><div class="eyebrow">OD IDEJE DO „VIDIMO SE“</div><h2>Izgleda posebno.<br><span>A tako je jednostavno.</span></h2><p>Bez komplikovanih alata. Samo ti i tvoja ideja.</p></div>
   <div class="experience-grid">
@@ -57,7 +59,7 @@ function landing() {
 }
 export function renderPage({catalog = builtinTemplates, category = 'all', view = category === 'all' ? 'landing' : 'catalog'} = {}) {
   const isCategory = category !== 'all';
-  const content = isCategory ? renderCategoryPage({ catalog, category }) : view === 'landing' ? landing() : `<main id="main-content">${renderCatalogPage({catalog,category})}</main>`;
+  const content = isCategory ? renderCategoryPage({ catalog, category }) : view === 'landing' ? landing(catalog) : `<main id="main-content">${renderCatalogPage({catalog,category})}</main>`;
   const pageCatalog = view === 'landing' ? [] : isCategory ? catalog.filter(t => t.category === category) : catalog;
   return siteHeader(view === 'catalog' ? 'catalog' : '', isCategory ? '#designs' : '/pozivnice/') + content + siteFooter('', isCategory ? '#designs' : '/pozivnice/') + '<div class="toast" id="toast" role="status" aria-live="polite"></div>' + catalogData(pageCatalog,category,view);
 }

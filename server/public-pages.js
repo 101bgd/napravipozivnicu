@@ -51,7 +51,7 @@ export async function handlePublic(request, env, staticFetch) {
   const infoPage = infoPageFromPath(path), category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/), collection = /^\/pozivnice\/?$/.test(path);
   if (path !== '/' && !infoPage && !category && !detail && !collection && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
   if ((infoPage || category || detail || collection) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
-  const catalog = path === '/' || infoPage ? [] : await publishedCatalog(env);
+  const catalog = infoPage ? [] : await publishedCatalog(env);
   if (path === '/api/catalog') return Response.json({ templates: catalog }, { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
   if (path === '/sitemap.xml') return new Response(request.method === 'HEAD' ? null : sitemap(catalog, siteUrl), { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=60' } });
   const template = detail ? catalog.find(t => (t.slug || t.id) === detail[1]) : null;

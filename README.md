@@ -34,6 +34,9 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 ## Funkcije
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
+- Početna sadrži „Najnovije pozivnice“: po jedan najnoviji javni dizajn iz svake kategorije, zajedno u mreži od najviše šest kartica, sortiranoj po datumu objave. Datumi istog uvoza zadržavaju redosled kataloga. Ugrađeni dizajni koriste `updatedAt`, a admin šabloni datum objavljene verzije; privatne izmene nacrta ne menjaju izbor. Povučeni i sakriveni dizajni ustupaju mesto sledećem dostupnom šablonu. Ako kategorija nema javnih šablona, njena kartica se izostavlja. Objave kroz admin menjaju početnu bez novog builda.
+- Kartice najnovijih imaju obične linkove, WebP preglede sa dimenzijama/alt tekstom, vidljive opise i odgovarajući `ItemList`. HTML postoji u statičkom buildu i odgovoru Workera, radi bez JavaScript-a i ne učitava editor ili ceo katalog na početnoj. `src/latest-templates.js` bira dizajne, `src/latest-section.js` prikazuje kartice, a `src/latest.css` čuva prilagodljivi izgled i poštuje smanjeno kretanje.
+- Datum početne u sitemap-u prati promene njenog sadržaja i novije objave iz ove sekcije. Osnovni `LANDING_UPDATED_AT` u `src/seo-content.js` menja se samo uz stvarnu izmenu početne; privatni nacrti i svakodnevni deploy ne menjaju automatski datum.
 - Deset pozivnica za prvi rođendan: safari, vozić, labudovi, vila, kit, psić pilot, meda na Mesecu, dve varijante zeke u balonu i trešnjice. Bez fotografije, sa čitljivim razigranim/rukopisnim fontovima i izmenjivim imenom, brojem, datumom, vremenom, lokacijom i potvrdom dolaska. Pozadine su 88–95% manje uz iste dimenzije; [priprema i SEO istraživanje](content/first-birthday-batch/README.md). Nove stranice koriste ista globalna AdSense podešavanja iz admina.
 - Šest preostalih probnih šablona; pretraga po nazivu, kategoriji i opisu. Meni kategorija koristi obične linkove do zasebnih landing stranica, dostupne i bez JavaScript-a.
 - Četiri dečje pozivnice u kategoriji Rođendani: Dino avantura, Svemirska misija, Mala sirena i Čarobni ringišpil. Imaju izmenjivo ime i godine, razigrane fontove Baloo 2/DynaPuff i nemaju okvir za fotografiju. Pozadine su 86–92% manje od originala, uz iste dimenzije.
@@ -108,6 +111,7 @@ npm run test:production
 npm run test:admin
 npm run test:adsense
 node tests/category-landings.mjs # nakon build-a
+node tests/latest-home.mjs # nakon build-a
 ```
 
 Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava prelaz sa početne strane u katalog i povratak, navigaciju do svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, prikaze na 320/390/768/1440 px, mobilni meni, zatvaranje tastaturom, smanjeno kretanje i greške pregledača. Testne slike i PDF su u `/tmp/`.

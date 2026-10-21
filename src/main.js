@@ -1,6 +1,7 @@
 import './fonts.css';
 import './style.css';
 import './category.css';
+import './latest.css';
 import { categories, defaultData } from './templates.js';
 import { templates, initialCategory } from './catalog-state.js';
 import { renderInvitation } from './render.js';
