@@ -8,9 +8,10 @@ import { weddingTemplates } from './wedding-catalog.js';
 import { firstBirthdayTemplates } from './first-birthday-catalog.js';
 import { babyTemplates } from './baby-catalog.js';
 import { eighteenCollectionTemplates } from './eighteen-collection-catalog.js';
+import { robiTemplates } from './robi-catalog.js';
 
 // Metadata only: full layouts and font files load when the editor opens.
-export const curatedTemplates = [...firstBirthdayTemplates, ...birthdayCollectionTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenCollectionTemplates, ...eighteenTemplates, ...weddingTemplates, ...babyTemplates, {
+export const curatedTemplates = [...robiTemplates, ...firstBirthdayTemplates, ...birthdayCollectionTemplates, ...birthdayTemplates, ...baptismTemplates, ...eighteenCollectionTemplates, ...eighteenTemplates, ...weddingTemplates, ...babyTemplates, {
   id: 'ponocna-elegancija',
   slug: 'ponocna-elegancija',
   name: 'Ponoćna elegancija',

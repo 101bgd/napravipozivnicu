@@ -1,0 +1,34 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "jeziceva-radost": {
+      "background": "aaaca0c8-d5e0-543f-8604-1c34e2eeaea8",
+      "thumbnail": "e9b8e809-3d8b-55eb-a58a-d2bdf6853389"
+    },
+    "noc-na-vinilu": {
+      "background": "b78d1a14-5e7a-5709-b1e1-91cc28697b9c",
+      "thumbnail": "ad99c985-bf76-5923-b712-147a1ec08abc"
+    },
+    "zabac-zove-drugare": {
+      "background": "e8a45d03-829d-56ac-a8e9-705ddf4a6369",
+      "thumbnail": "f801fc32-b5fc-549f-a72a-e8bf09d22782"
+    },
+    "narova-prica": {
+      "background": "1bf6067a-699b-5106-b93a-6254f28ad3cb",
+      "thumbnail": "0ce7c98c-4e73-54ee-b111-0ac4ff1c71e3"
+    },
+    "lastino-malo-cudo": {
+      "background": "ef7efe74-77e9-5469-b659-6d5100896647",
+      "thumbnail": "b897a8a9-40b7-5cd5-a0e5-8223422369b4"
+    },
+    "tihi-izvor": {
+      "background": "ec178496-0ef3-5428-aa12-186272390677",
+      "thumbnail": "8e8c7e38-61af-5a58-a344-a9f6583a4bc7"
+    }
+  }
+}

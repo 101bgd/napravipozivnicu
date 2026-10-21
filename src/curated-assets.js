@@ -8,6 +8,7 @@ import { weddingAssets } from './wedding-assets.js';
 import { firstBirthdayAssets } from './first-birthday-assets.js';
 import { babyAssets } from './baby-assets.js';
 import { eighteenCollectionAssets } from './eighteen-collection-assets.js';
+import { robiAssets } from './robi-assets.js';
 const base = '/assets/pozivnice/ponocna-elegancija/';
 export const midnightAssetIds = {
   background: 'a602e85c-3f52-43b8-a2ed-362f3fb9528a',
@@ -15,6 +16,7 @@ export const midnightAssetIds = {
   thumbnail: 'dd4f312a-b7ce-45db-b30d-96c92c125874',
 };
 const assets = new Map([
+  ...robiAssets,
   ...birthdayAssets,
   ...birthdayCollectionAssets,
   ...baptismAssets,

@@ -53,7 +53,7 @@ try {
   assert.match(await staticPage.locator('h1').innerText(), /dečiji rođendan/i);
   assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'birthday').length);
   await staticPage.goto(`${origin}/pozivnice-za-krstenje/`);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 6);
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'baptism').length);
   for (const baptism of baptismTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${baptism.slug}/`);
     assert.equal(await staticPage.title(), baptism.seoTitle);
@@ -75,7 +75,7 @@ try {
   }
   await staticPage.goto(`${origin}/pozivnice-za-vencanje/`);
   assert.match(await staticPage.locator('h1').innerText(), /venčanje i svadbu/);
-  assert.equal(await staticPage.locator('.template-card h3').count(), 9);
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'wedding').length);
   for (const template of weddingTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
     assert.equal(await staticPage.locator('h1').innerText(), template.name);
@@ -86,7 +86,7 @@ try {
   await staticPage.goto(`${origin}/pozivnice-za-prvi-rodjendan/`);
   assert.equal(await staticPage.locator('h1').innerText(), 'Pozivnice za prvi rođendan');
   assert.equal(await staticPage.title(), 'Pozivnice za 1. rođendan — besplatni šabloni online');
-  assert.equal(await staticPage.locator('.template-card h3').count(), firstBirthdayTemplates.length);
+  assert.equal(await staticPage.locator('.template-card h3').count(), publicTemplates.filter(t => t.category === 'first').length);
   for (const template of firstBirthdayTemplates) {
     await staticPage.goto(`${origin}/pozivnice/${template.slug}/`);
     assert.equal(await staticPage.locator('h1').innerText(), template.name);
