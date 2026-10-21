@@ -11,6 +11,8 @@ import { isRetiredRecord } from '../src/retired-templates.js';
 import { infoPageFromPath } from '../src/info-content.js';
 import { renderInfoPage } from '../src/info-page.js';
 import { readAdSense, applyAdSense, adSenseHost } from './adsense.js';
+import { guidePageFromPath } from '../src/guide-catalog.js';
+import { renderGuidePage } from '../src/guide-page.js';
 export async function publishedCatalog(env) {
   if (!env.DB) return publicTemplates;
   try {
@@ -48,10 +50,10 @@ export async function handlePublic(request, env, staticFetch) {
     const content = url.hostname === publicHost || url.hostname === `www.${publicHost}` || ['localhost', '127.0.0.1'].includes(url.hostname) ? `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /api/\nSitemap: ${siteUrl}/sitemap.xml\n` : 'User-agent: *\nDisallow: /\n';
     return new Response(request.method === 'HEAD' ? null : content, { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=300' } });
   }
-  const infoPage = infoPageFromPath(path), category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/), collection = /^\/pozivnice\/?$/.test(path);
-  if (path !== '/' && !infoPage && !category && !detail && !collection && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
-  if ((infoPage || category || detail || collection) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
-  const catalog = infoPage ? [] : await publishedCatalog(env);
+  const infoPage = infoPageFromPath(path), guidePage = guidePageFromPath(path), category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/), collection = /^\/pozivnice\/?$/.test(path);
+  if (path !== '/' && !infoPage && !guidePage && !category && !detail && !collection && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
+  if ((infoPage || guidePage || category || detail || collection) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
+  const catalog = (infoPage || guidePage?.id === 'guides') ? [] : await publishedCatalog(env);
   if (path === '/api/catalog') return Response.json({ templates: catalog }, { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
   if (path === '/sitemap.xml') return new Response(request.method === 'HEAD' ? null : sitemap(catalog, siteUrl), { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=60' } });
   const template = detail ? catalog.find(t => (t.slug || t.id) === detail[1]) : null;
@@ -59,9 +61,9 @@ export async function handlePublic(request, env, staticFetch) {
   const baseResponse = await staticFetch('/');
   if (!baseResponse.ok) throw new HttpError(503, 'Stranica trenutno nije dostupna.');
   const view = category || collection ? 'catalog' : 'landing';
-  const content = infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog, view });
+  const content = guidePage ? renderGuidePage(guidePage, catalog) : infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog, view });
   const adsense = await readAdSense(env);
-  const html = applyAdSense(renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, template, catalog, siteUrl, view })), adsense, adSenseHost(url, siteUrl));
+  const html = applyAdSense(renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, guidePage, template, catalog, siteUrl, view })), adsense, adSenseHost(url, siteUrl));
   const headers = { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'strict-origin-when-cross-origin' };
   if (url.hostname.endsWith('.pages.dev')) headers['X-Robots-Tag'] = 'noindex';
   return new Response(request.method === 'HEAD' ? null : html, { headers });

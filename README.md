@@ -34,6 +34,9 @@ Produkcijski test ograničava početni JavaScript na manje od 10 KB gzip i prove
 ## Funkcije
 
 - Šest kategorija: 1. rođendan, 18. rođendan, ostali rođendani, venčanje, krštenje, rođenje deteta.
+- Četiri originalna vodiča (oko 745–890 reči svaki) u `/vodici/`: sedam rođendanskih tekstova, primeri za krštenje sa ćirilicom, slanje preko Vibera/WhatsApp-a i štampa u tačnoj veličini. Svaki ima zasebnu stranicu, sadržaj sa sidrima, potpis brenda i datum, canonical, Article/Breadcrumb metapodatke i unos u sitemap. Hub koristi CollectionPage/ItemList. Primeri se mogu kopirati kada je clipboard dostupan; bez JavaScript-a ostaju čitljivi i mogu ručno da se označe.
+- Vodiči su dostupni u glavnom meniju i footeru, na početnoj i kao tematske preporuke na kategorijama i stranicama šablona. Članci vraćaju posetioca na aktuelne javne dizajne i relevantne kategorije. Svih pet novih stranica koriste isti globalni AdSense blok i podešavanja, bez dodatnih oglasa u primerima teksta.
+- `src/guide-catalog.js` čuva adrese, metapodatke i povezivanje; `src/guide-articles/` sadrži autorski tekst, `src/guide-page.js` prikaz, a `src/guide-seo.js` strukturirane podatke. Datum se menja pri stvarnoj izmeni sadržaja. Server i statički build generišu pun članak; tekstovi ne ulaze u početni JavaScript. Vodiči ne koriste spoljni video, font servis ili analitiku. Uputstva o veličini i rezoluciji proverena su prema izvozu editora; PDF je raster, bez automatskog prepusta/CMYK pripreme.
 - Početna sadrži „Najnovije pozivnice“: po jedan najnoviji javni dizajn iz svake kategorije, zajedno u mreži od najviše šest kartica, sortiranoj po datumu objave. Datumi istog uvoza zadržavaju redosled kataloga. Ugrađeni dizajni koriste `updatedAt`, a admin šabloni datum objavljene verzije; privatne izmene nacrta ne menjaju izbor. Povučeni i sakriveni dizajni ustupaju mesto sledećem dostupnom šablonu. Ako kategorija nema javnih šablona, njena kartica se izostavlja. Objave kroz admin menjaju početnu bez novog builda.
 - Kartice najnovijih imaju obične linkove, WebP preglede sa dimenzijama/alt tekstom, vidljive opise i odgovarajući `ItemList`. HTML postoji u statičkom buildu i odgovoru Workera, radi bez JavaScript-a i ne učitava editor ili ceo katalog na početnoj. `src/latest-templates.js` bira dizajne, `src/latest-section.js` prikazuje kartice, a `src/latest.css` čuva prilagodljivi izgled i poštuje smanjeno kretanje.
 - Datum početne u sitemap-u prati promene njenog sadržaja i novije objave iz ove sekcije. Osnovni `LANDING_UPDATED_AT` u `src/seo-content.js` menja se samo uz stvarnu izmenu početne; privatni nacrti i svakodnevni deploy ne menjaju automatski datum.
@@ -112,6 +115,7 @@ npm run test:admin
 npm run test:adsense
 node tests/category-landings.mjs # nakon build-a
 node tests/latest-home.mjs # nakon build-a
+node tests/guides.mjs # nakon build-a
 ```
 
 Test koristi instalirani Chromium iz `/usr/bin/chromium` (drugu lokaciju postavi kroz `CHROMIUM_PATH`). Sam pokreće Vite na portu 5175 i gasi svoj server po završetku. Proverava prelaz sa početne strane u katalog i povratak, navigaciju do svih šest kategorija, pretragu, editor, fotografiju, prevlačenje i zumiranje, vraćanje nacrta, stvarne PNG/PDF datoteke i njihove dimenzije, prikaze na 320/390/768/1440 px, mobilni meni, zatvaranje tastaturom, smanjeno kretanje i greške pregledača. Testne slike i PDF su u `/tmp/`.

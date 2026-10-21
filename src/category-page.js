@@ -3,6 +3,7 @@ import { CATEGORY_CONTENT, categoryPath } from './seo-content.js';
 import { CATEGORY_EXPERIENCE, categoryHighlights } from './category-content.js';
 import { renderDesigns } from './catalog-page.js';
 import { escapeHtml as esc, icon } from './ui.js';
+import { renderGuideSection } from './guide-links.js';
 
 const createLink = (classes = '') => `<a class="button primary ${classes}" href="#designs" data-category-cta><span>Napravi pozivnicu</span><span class="button-arrow">${icon('arrow')}</span></a>`;
 
@@ -57,6 +58,7 @@ export function renderCategoryPage({ catalog, category }) {
       <div class="collection-examples" data-reveal><h3>Primeri teksta za pozivnicu</h3><p>Uzmi ideju, dodaj svoje podatke i napiši je svojim rečima.</p>${content.examples.map(([title, text], index) => `<article class="invitation-example"><div class="example-heading"><span>${esc(title)}</span><button type="button" data-copy-text="example-${index}" hidden aria-label="Kopiraj tekst: ${esc(title)}">Kopiraj ${icon('file')}</button></div><blockquote id="example-${index}">${esc(text)}</blockquote></article>`).join('')}</div>
     </section>
 
+    ${renderGuideSection({ category, title: 'Dobre reči. Laki sledeći koraci.' })}
     <section class="faq container collection-faq" aria-labelledby="category-faq-title"><div class="faq-intro" data-reveal><div class="eyebrow">JOŠ SAMO PAR DETALJA</div><h2 id="category-faq-title">Tvoja pitanja.<br>Jasni odgovori.</h2><p>Sve o izradi, tekstu i deljenju pozivnice za ovaj povod.</p></div><div class="faq-list" data-reveal>${[...content.faqs, ['Da li su izrada i preuzimanje besplatni?', 'Da. Izbor šablona, uređivanje i preuzimanje PNG slike ili PDF-a su besplatni. Nije potreban nalog i na pozivnici nema vodenog žiga.']].map(([q, a]) => `<details><summary>${esc(q)} ${icon('plus')}</summary><p>${esc(a)}</p></details>`).join('')}</div></section>
 
     <section class="collection-finale container" data-reveal><div class="eyebrow">TVOJI LJUDI. TVOJ POZIV.</div><h2>Još samo da ih pozoveš.</h2><p>${count ? 'Tvoj dizajn te čeka. Dodaj mu svoj potpis.' : 'Istraži kolekciju i pronađi inspiraciju za svoj poziv.'}</p>${createLink()}<span>Besplatno, od prve ideje do preuzimanja.</span></section>

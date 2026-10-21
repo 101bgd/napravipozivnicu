@@ -8,6 +8,7 @@ import { siteHeader, siteFooter } from './site-shell.js';
 import { renderCatalogPage } from './catalog-page.js';
 import { renderCategoryPage } from './category-page.js';
 import { renderLatestSection } from './latest-section.js';
+import { renderGuideSection } from './guide-links.js';
 
 const cta = (classes = '') => `<a href="/pozivnice/" class="button primary ${classes}"><span>Napravi pozivnicu</span><span class="button-arrow">${icon('arrow')}</span></a>`;
 const occasionLinks = () => categories.filter(c=>c.id!=='all').map(c=>`<a href="${categoryPath(c.id)}">${icon(c.icon)}<span>${c.label}</span>${icon('arrow')}</a>`).join('');
@@ -47,6 +48,7 @@ ${renderLatestSection(catalog)}
   </div>
   <div class="section-action" data-reveal>${cta('')}<p>Veliki planovi počinju malim klikom.</p></div>
 </section>
+${renderGuideSection({ id: 'vodici' })}
 <section class="final-cta container" data-reveal><div class="cta-glow" aria-hidden="true"></div><div class="eyebrow">NAPRAVLJENO ZA TVOJE LJUDE</div><h2>Njihov osmeh.<br><span>Tvoj prvi klik.</span></h2><p>Ne moraš da budeš dizajner da napraviš nešto lepo.</p><div class="cta-wrap">${cta()}</div><span class="cta-note">Tvoja ideja. Tvoja pozivnica. Besplatno.</span></section>
 <section class="faq container" id="faq"><div class="faq-intro" data-reveal><div class="eyebrow">JOŠ NEŠTO TE ZANIMA?</div><h2>Mala pitanja.<br>Jasni odgovori.</h2></div><div class="faq-list" data-reveal>
 <details><summary>Da li je sve zaista besplatno? ${icon('plus')}</summary><p>Da. Izbor šablona, uređivanje i preuzimanje su besplatni. Nema registracije, plaćanja ni vodenog žiga.</p></details>

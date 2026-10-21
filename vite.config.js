@@ -8,6 +8,8 @@ import { CATEGORY_CONTENT, SITE_URL, categoryPath, categoryFromPath } from './sr
 import { pageMeta, renderHead, renderDocument, renderTemplatePage, sitemap } from './src/seo.js';
 import { INFO_PAGES, infoPageFromPath } from './src/info-content.js';
 import { renderInfoPage } from './src/info-page.js';
+import { GUIDE_HUB, GUIDES, guidePageFromPath } from './src/guide-catalog.js';
+import { renderGuidePage } from './src/guide-page.js';
 function localCuratedApi(server) {
   server.middlewares.use((request, response, next) => {
     const match = new URL(request.url, 'http://localhost').pathname.match(/^\/api\/templates\/([a-z0-9-]+)$/);
@@ -29,7 +31,8 @@ export default defineConfig({
       const view = category !== 'all' || /^\/pozivnice\/?$/.test(requestPath) ? 'catalog' : 'landing';
       const template = templates.find(t => requestPath === `/pozivnice/${t.slug || t.id}/`);
       const infoPage = infoPageFromPath(requestPath);
-      return html.replace('<!--app-content-->', () => infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, templates) : renderPage({ category, view })).replace('<!--seo-content-->', () => renderHead(pageMeta({ category, view, template, infoPage, catalog: templates })));
+      const guidePage = guidePageFromPath(requestPath);
+      return html.replace('<!--app-content-->', () => guidePage ? renderGuidePage(guidePage, templates) : infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, templates) : renderPage({ category, view })).replace('<!--seo-content-->', () => renderHead(pageMeta({ category, view, template, infoPage, guidePage, catalog: templates })));
     } },
     async closeBundle() {
       if (process.env.VITE_DEV_SERVER) return;
@@ -39,6 +42,11 @@ export default defineConfig({
       for (const infoPage of INFO_PAGES) {
         const file = path.join('dist', infoPage.path, 'index.html');
         await fs.mkdir(path.dirname(file), { recursive: true }); await fs.writeFile(file, renderDocument(base, renderInfoPage(infoPage), pageMeta({ infoPage })));
+      }
+      for (const guidePage of [GUIDE_HUB, ...GUIDES]) {
+        const file = path.join('dist', guidePage.path, 'index.html');
+        await fs.mkdir(path.dirname(file), { recursive: true });
+        await fs.writeFile(file, renderDocument(base, renderGuidePage(guidePage, templates), pageMeta({ guidePage })));
       }
       for (const category of Object.keys(CATEGORY_CONTENT)) {
         const file = path.join('dist', categoryPath(category), 'index.html');

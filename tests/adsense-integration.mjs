@@ -5,6 +5,7 @@ import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { CATEGORY_CONTENT, categoryPath } from '../src/seo-content.js';
 import { INFO_PAGES } from '../src/info-content.js';
+import { GUIDE_HUB, GUIDES } from '../src/guide-catalog.js';
 import { adSenseCode } from '../src/adsense-config.js';
 
 const origin = 'https://napravipozivnicu.com';
@@ -18,7 +19,7 @@ try {
   const worker = (path, init = {}) => local.runtime.dispatchFetch(`${origin}${path}`, init);
   const save = input => worker('/api/admin/adsense', { method: 'PUT', headers, body: JSON.stringify(input) });
   const saved = async () => (await worker('/api/admin/adsense', { headers })).json();
-  const paths = ['/', '/pozivnice/', ...Object.keys(CATEGORY_CONTENT).map(categoryPath), ...INFO_PAGES.map(page => page.path), ...publicTemplates.map(template => `/pozivnice/${template.slug || template.id}/`)];
+  const paths = ['/', '/pozivnice/', ...Object.keys(CATEGORY_CONTENT).map(categoryPath), ...INFO_PAGES.map(page => page.path), ...[GUIDE_HUB, ...GUIDES].map(page => page.path), ...publicTemplates.map(template => `/pozivnice/${template.slug || template.id}/`)];
   assert.equal((await worker('/api/admin/adsense')).status, 401);
   assert.equal((await worker('/api/admin/adsense', { method: 'PUT', body: '{}' })).status, 401);
   assert.equal((await worker('/api/admin/adsense', { method: 'PUT', headers: { ...headers, Origin: 'https://stranger.invalid' }, body: '{}' })).status, 403);

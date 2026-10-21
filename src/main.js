@@ -2,6 +2,7 @@ import './fonts.css';
 import './style.css';
 import './category.css';
 import './latest.css';
+import './guides.css';
 import { categories, defaultData } from './templates.js';
 import { templates, initialCategory } from './catalog-state.js';
 import { renderInvitation } from './render.js';
@@ -113,12 +114,14 @@ if(collection){
     toggle.setAttribute('aria-pressed',String(paused));
     toggle.textContent=paused?'Pokreni animacije':'Pauziraj animacije';
   });
-  collection.querySelectorAll('[data-copy-text]').forEach(button=>{
+}
+
+// Examples remain readable without JS; copying is available on secure pages.
+document.querySelectorAll('[data-copy-text]').forEach(button=>{
     if(!navigator.clipboard)return;
     button.hidden=false;
     button.addEventListener('click',async()=>{
       try{await navigator.clipboard.writeText(document.getElementById(button.dataset.copyText).textContent);toast('Tekst je kopiran. Dodaj svoje podatke i prilagodi ga.');}
       catch{toast('Označi tekst primera i kopiraj ga kroz meni pregledača.');}
     });
-  });
-}
+});
