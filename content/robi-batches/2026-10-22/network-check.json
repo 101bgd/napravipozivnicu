@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-21T23:00:12Z",
+  "timezone": "Asia/Tokyo",
+  "localDate": "2026-10-22",
+  "policy": {
+    "observationsCurrent": true,
+    "state": "enforced",
+    "mode": "restricted",
+    "domainAllowed": false,
+    "customAllowedHosts": []
+  },
+  "sessionNetworkPermission": {
+    "granted": true,
+    "scope": "turn",
+    "changedCloudHostPolicy": false
+  },
+  "attempt": {
+    "method": "HEAD",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/",
+    "transport": "existing inherited proxy",
+    "result": "CONNECT 403",
+    "curlExitCode": 56
+  },
+  "noBypassAttempted": true,
+  "currentMain": {
+    "sha": "9c2a5a7457e721caf4d9672a3eadda601506abb1",
+    "cloudflareCheckId": 119305349188,
+    "conclusion": "success",
+    "completedAt": "2026-10-21T15:17:13Z"
+  },
+  "priorDailyPublication": {
+    "commit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+    "completedAt": "2026-10-21T00:22:55Z",
+    "countsAsNewDeliveryToday": false
+  }
+}

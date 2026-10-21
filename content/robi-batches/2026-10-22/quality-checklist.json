@@ -1,0 +1,152 @@
+{
+  "batch": "2026-10-22",
+  "reviewedAt": "2026-10-21T23:02:17.563Z",
+  "overallStatus": "BLOCKED_BEFORE_GENERATION",
+  "categoryCount": 6,
+  "generatedCount": 0,
+  "allPrePublicationChecksPassed": false,
+  "checks": [
+    {
+      "category": "first",
+      "label": "Prvi rođendan",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    },
+    {
+      "category": "eighteen",
+      "label": "18. rođendan",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    },
+    {
+      "category": "birthday",
+      "label": "Dečji rođendan (3–10)",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    },
+    {
+      "category": "wedding",
+      "label": "Venčanje",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    },
+    {
+      "category": "baptism",
+      "label": "Krštenje",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    },
+    {
+      "category": "baby",
+      "label": "Proslava rođenja deteta",
+      "status": "NEPROVERENO",
+      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+      "sourceDimensions": null,
+      "exportDimensions": null,
+      "requiredChecksNotRun": [
+        "image_generation",
+        "background_visual_review",
+        "editable_text_layout",
+        "larger_text_and_space_use",
+        "age_event_grouping_where_applicable",
+        "optical_alignment_where_applicable",
+        "mobile",
+        "png_pdf",
+        "build",
+        "seo",
+        "publication"
+      ],
+      "evidence": "network-check.json"
+    }
+  ],
+  "userReviewLedger": "agent/review-ledger.json",
+  "points": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50
+  },
+  "pointsAwardedThisRun": 0,
+  "publicationAttempted": false,
+  "duplicateGeneration": false
+}

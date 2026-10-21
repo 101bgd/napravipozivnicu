@@ -158,6 +158,148 @@
         "awardLedgerEntry": "user-review-2026-10-21",
         "currentBatchEditsBy": "user_in_editor",
         "robiCurrentBatchEditsRequested": false
+      },
+      "latestVerificationAttempt": {
+        "status": "blocked",
+        "at": "2026-10-21T23:02:17.563Z",
+        "evidence": "content/robi-batches/2026-10-22/verification-attempt/public-verification.json",
+        "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+      }
+    },
+    {
+      "id": "2026-10-22",
+      "date": "2026-10-22",
+      "timezone": "Asia/Tokyo",
+      "status": "generating",
+      "path": "content/robi-batches/2026-10-22",
+      "requiredCount": 6,
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "preflightStartedAt": "2026-10-21T22:59:13Z",
+      "scheduledStartAt": "2026-10-22T08:00:00+09:00",
+      "startedAt": "2026-10-21T23:00:12Z",
+      "deadlineAt": "2026-10-22T10:00:00+09:00",
+      "blockedStage": "previous_batch_public_verification",
+      "dependsOnBatch": "2026-10-21",
+      "audience": null,
+      "birthdayAge": null,
+      "audienceAssignment": "pending_previous_batch_verified_publication",
+      "candidateAudienceFromUnadvancedState": "male",
+      "designs": [
+        {
+          "category": "first",
+          "categoryLabel": "Prvi rođendan",
+          "id": null,
+          "name": null,
+          "status": "blocked_not_started",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        },
+        {
+          "category": "eighteen",
+          "categoryLabel": "18. rođendan",
+          "id": null,
+          "name": null,
+          "status": "blocked_not_started",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        },
+        {
+          "category": "birthday",
+          "categoryLabel": "Dečji rođendan (3–10)",
+          "id": null,
+          "name": null,
+          "status": "blocked_not_started",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        },
+        {
+          "category": "wedding",
+          "categoryLabel": "Venčanje",
+          "id": "paunova-elegancija",
+          "name": "Paunova elegancija",
+          "status": "generating",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        },
+        {
+          "category": "baptism",
+          "categoryLabel": "Krštenje",
+          "id": null,
+          "name": null,
+          "status": "blocked_not_started",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        },
+        {
+          "category": "baby",
+          "categoryLabel": "Proslava rođenja deteta",
+          "id": null,
+          "name": null,
+          "status": "blocked_not_started",
+          "sourceDimensions": null,
+          "exportDimensions": null,
+          "preview": null,
+          "publicUrl": null,
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena."
+        }
+      ],
+      "blockers": [
+        {
+          "step": "previous_batch_public_verification",
+          "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
+          "evidence": "content/robi-batches/2026-10-22/verification-attempt/public-verification.json",
+          "networkEvidence": "content/robi-batches/2026-10-22/network-check.json"
+        }
+      ],
+      "report": "content/robi-batches/2026-10-22/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-22/quality-checklist.json",
+      "startedGeneration": true,
+      "productionModified": false,
+      "userFeedbackAppliedToPlan": {
+        "source": "content/robi-batches/2026-10-21/user-review.json",
+        "requirementsRead": true,
+        "renderedOutputChecked": false
+      },
+      "resumeActions": [
+        "Dozvoliti HTTPS pristup napravipozivnicu.com u podržanim cloud mrežnim podešavanjima; ne zaobilaziti postojeći proxy/politiku.",
+        "Pokrenuti sačuvanu rutinu nad manifestom prethodne serije i pregledati stvarne javne rezultate, editor, PNG/PDF i kategorije.",
+        "Tek nakon potpune potvrde prethodne objave ažurirati redosled publike/uzrasta, zatim pripremiti šest novih za 2026-10-22 bez dupliranja jučerašnjih.",
+        "Primeni već sačuvane zahteve za krupniji tekst, grupisanje uzrasta i naziva događaja i optičko centriranje.",
+        "Javnu izvornu arhivu prethodne serije nastaviti tek nakon razrešenja postojeće automatske blokade."
+      ],
+      "notification": {
+        "channel": "ChatGPT",
+        "preparedAt": "2026-10-21T23:02:17.563Z",
+        "deadline": "2026-10-22T10:00:00+09:00",
+        "deliveryConfirmation": "Prepared report is not a delivery receipt; final ChatGPT response follows."
+      },
+      "independentWork": {
+        "category": "wedding",
+        "id": "paunova-elegancija",
+        "name": "Paunova elegancija",
+        "status": "preparing",
+        "reason": "Wedding preparation does not depend on the unresolved audience alternation.",
+        "preparationStartedAt": "2026-10-21T23:05:47Z"
       }
     }
   ],
@@ -234,7 +376,7 @@
     }
   },
   "status": "blocked",
-  "activeBatch": "2026-10-21",
+  "activeBatch": "2026-10-22",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -255,7 +397,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-21T03:43:31Z",
+  "updatedAt": "2026-10-21T23:05:47Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-21",
     "source": "content/robi-batches/2026-10-21/user-review.json",

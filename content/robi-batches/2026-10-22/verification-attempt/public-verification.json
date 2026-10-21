@@ -1,0 +1,66 @@
+{
+  "batch": "2026-10-21",
+  "startedAt": "2026-10-21T23:02:17.562Z",
+  "finishedAt": "2026-10-21T23:02:17.563Z",
+  "status": "blocked",
+  "allSixVerified": false,
+  "productionModified": false,
+  "adFill": "NEPROVERENO",
+  "results": [
+    {
+      "id": "jeziceva-radost",
+      "name": "Ježićeva radost",
+      "category": "first",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    },
+    {
+      "id": "noc-na-vinilu",
+      "name": "Noć na vinilu",
+      "category": "eighteen",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-vinil-ploca/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    },
+    {
+      "id": "zabac-zove-drugare",
+      "name": "Žabac zove drugare",
+      "category": "birthday",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zabac-lokvanji/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    },
+    {
+      "id": "narova-prica",
+      "name": "Narova priča",
+      "category": "wedding",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-nar-botanicka/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    },
+    {
+      "id": "tihi-izvor",
+      "name": "Tihi izvor",
+      "category": "baptism",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-krst-krstionica/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    },
+    {
+      "id": "lastino-malo-cudo",
+      "name": "Lastino malo čudo",
+      "category": "baby",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-laste/",
+      "status": "NEPROVERENO",
+      "lastConfirmedStep": "manifest_loaded",
+      "reason": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+    }
+  ],
+  "blocker": "Enforced network policy does not allow napravipozivnicu.com; configure allowed HTTPS destination before running live verification."
+}

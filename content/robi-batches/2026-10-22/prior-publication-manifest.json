@@ -1,0 +1,43 @@
+{
+  "batch": "2026-10-21",
+  "sourceCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+  "site": "https://napravipozivnicu.com",
+  "designs": [
+    {
+      "id": "jeziceva-radost",
+      "name": "Ježićeva radost",
+      "category": "first",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/"
+    },
+    {
+      "id": "noc-na-vinilu",
+      "name": "Noć na vinilu",
+      "category": "eighteen",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-vinil-ploca/"
+    },
+    {
+      "id": "zabac-zove-drugare",
+      "name": "Žabac zove drugare",
+      "category": "birthday",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zabac-lokvanji/"
+    },
+    {
+      "id": "narova-prica",
+      "name": "Narova priča",
+      "category": "wedding",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-nar-botanicka/"
+    },
+    {
+      "id": "tihi-izvor",
+      "name": "Tihi izvor",
+      "category": "baptism",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-krst-krstionica/"
+    },
+    {
+      "id": "lastino-malo-cudo",
+      "name": "Lastino malo čudo",
+      "category": "baby",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-laste/"
+    }
+  ]
+}
