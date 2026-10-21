@@ -1,0 +1,68 @@
+[
+  {
+    "id": "jeziceva-radost",
+    "source": "content/robi-batches/2026-10-21/sources/jeziceva-radost.png",
+    "generatedPath": "/workspace/generated_images/exec-35be10bd-de43-44cd-b7ee-d274e34ffc10.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "254f351e9dd5b7db2b5a1aee6d061bff97a41eeed53b1a5fb5b4fc47c96a3e8f",
+    "revisedForSafeInset": false
+  },
+  {
+    "id": "noc-na-vinilu",
+    "source": "content/robi-batches/2026-10-21/sources/noc-na-vinilu.png",
+    "generatedPath": "/workspace/generated_images/exec-0b3d8a61-0a3f-4f0e-b78a-e285450ab1cb.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "c626a6d4b939a62653c058a7251a5a80571f68593f064eb189658df3b6f7384f",
+    "revisedForSafeInset": true
+  },
+  {
+    "id": "zabac-zove-drugare",
+    "source": "content/robi-batches/2026-10-21/sources/zabac-zove-drugare.png",
+    "generatedPath": "/workspace/generated_images/exec-4e02a4e3-55e9-40df-a7bf-ef5aea7213ad.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "4add57ec8575e785e5d1ce1736c7f423be0a0bf522fbf391059f6930924cec97",
+    "revisedForSafeInset": false
+  },
+  {
+    "id": "narova-prica",
+    "source": "content/robi-batches/2026-10-21/sources/narova-prica.png",
+    "generatedPath": "/workspace/generated_images/exec-c66a1948-88c6-4b8d-a664-c86642ecd448.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "1a81f5dc1789c963d8d0703e7eba21e73ad8e51c588bb3b0a7cf2bcfb3ca654c",
+    "revisedForSafeInset": true
+  },
+  {
+    "id": "lastino-malo-cudo",
+    "source": "content/robi-batches/2026-10-21/sources/lastino-malo-cudo.png",
+    "generatedPath": "/workspace/generated_images/exec-577f06ac-8e15-4c9c-a612-202b8acfe639.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "c682dbf0b9626885c417101d351f4129fb39f73f6242d617863c0216b2f68ef9",
+    "revisedForSafeInset": true
+  },
+  {
+    "id": "tihi-izvor",
+    "source": "content/robi-batches/2026-10-21/sources/tihi-izvor.png",
+    "generatedPath": "/workspace/generated_images/exec-72331f7c-966d-4340-a271-2b5ee84ceeeb.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "6790c748a2857bf4174e5d82c899c1f753daee2a4fe195b14f538bf96b2445f6",
+    "revisedForSafeInset": false
+  }
+]

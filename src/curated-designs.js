@@ -18,8 +18,10 @@ import { eighteenCollectionDesign } from '../content/eighteen-collection/designs
 
 import { birthdayCollectionAssetIds } from './birthday-collection-assets.js';
 import { birthdayCollectionDesign } from '../content/birthday-collection/designs.mjs';
+import { robiBatches } from './robi-designs.js';
 
 const batches = [
+  ...robiBatches,
   { assets: birthdayCollectionAssetIds, build: birthdayCollectionDesign },
   { assets: birthdayAssetIds, build: birthdayDesign },
   { assets: baptismAssetIds, build: baptismDesign },

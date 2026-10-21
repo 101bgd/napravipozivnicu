@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-10-21T00:09:38.611622+00:00",
+  "checks": [
+    {
+      "command": "npm run build",
+      "status": "PROŠLO",
+      "evidence": "Client and Worker builds completed after on-demand layout fix."
+    },
+    {
+      "command": "node tests/production-smoke.mjs",
+      "status": "PROŠLO",
+      "evidence": "Full existing catalog, SEO, all historical batch editors/exports, responsive layouts and lazy-load checks passed. Initial JS gzip 8925 bytes for landing and catalog."
+    },
+    {
+      "command": "node tests/adsense-integration.mjs",
+      "status": "PROŠLO",
+      "evidence": "72 public pages; one placement/SDK; mocked enabled/disabled/blocked/unfilled; admin auth and valid settings; no real Google ad requests."
+    },
+    {
+      "command": "node content/robi-batches/2026-10-21/verify.mjs",
+      "status": "PROŠLO",
+      "evidence": "All six production preview mobile editors, edits, actual PNG/PDF downloads, SEO and sitemap."
+    },
+    {
+      "command": "node content/robi-batches/2026-10-21/verify-worker.mjs",
+      "status": "PROŠLO",
+      "evidence": "Actual local Cloudflare Worker starts and serves six new template APIs, SEO pages and sitemap."
+    },
+    {
+      "command": "node content/robi-batches/2026-10-21/restore-evidence.mjs",
+      "status": "PROŠLO",
+      "evidence": "All 39 exact original archive files restored; every part/archive/file SHA-256 verified."
+    },
+    {
+      "command": "curl -I --max-time 15 https://napravipozivnicu.com/",
+      "status": "NEPROVERENO",
+      "phase": "live_public_check",
+      "evidence": "Proxy CONNECT 403; domain is absent from environment allowlist. No bypass attempted."
+    }
+  ]
+}

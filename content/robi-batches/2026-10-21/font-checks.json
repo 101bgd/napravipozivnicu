@@ -1,0 +1,35 @@
+[
+  {
+    "font": "Baloo 2",
+    "path": "public/assets/pozivnice/deciji-rodjendani/baloo2-600-sr-1281ff97216e.woff2",
+    "testedGlyphs": "ČĆŠŽĐčćšžđ",
+    "missingGlyphs": [],
+    "passed": true,
+    "licenseMetadata": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  {
+    "font": "Cormorant Garamond",
+    "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
+    "testedGlyphs": "ČĆŠŽĐčćšžđ",
+    "missingGlyphs": [],
+    "passed": true,
+    "licenseMetadata": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+      "https://openfontlicense.org"
+    ]
+  },
+  {
+    "font": "Marck Script",
+    "path": "public/assets/pozivnice/krstenje/rukopis-400-sr-fc70639fc26a.woff2",
+    "testedGlyphs": "ČĆŠŽĐčćšžđ",
+    "missingGlyphs": [],
+    "passed": true,
+    "licenseMetadata": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
+      "http://scripts.sil.org/OFL"
+    ]
+  }
+]

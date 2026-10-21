@@ -1,0 +1,50 @@
+[
+  {
+    "id": "jeziceva-radost",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "noc-na-vinilu",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "zabac-zove-drugare",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "narova-prica",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "tihi-izvor",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "lastino-malo-cudo",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  }
+]

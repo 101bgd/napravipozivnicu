@@ -1,0 +1,228 @@
+{
+  "algorithm": "63-bit DCT perceptual hash plus separate subject/composition visual review; distances are similarity hints, not aesthetic scores",
+  "previousBackgroundsCompared": 45,
+  "results": [
+    {
+      "id": "jeziceva-radost",
+      "sourceSha256": "254f351e9dd5b7db2b5a1aee6d061bff97a41eeed53b1a5fb5b4fc47c96a3e8f",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pozadina-563a30ede5ca.webp",
+          "hammingDistance": 20
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/cvet-nase-porodice-pozadina-3c1ac37803dd.webp",
+          "hammingDistance": 26
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "laneni-blagoslov",
+          "distance": 12
+        }
+      ]
+    },
+    {
+      "id": "lastino-malo-cudo",
+      "sourceSha256": "c682dbf0b9626885c417101d351f4129fb39f73f6242d617863c0216b2f68ef9",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/krstenje/svetlost-krstenja-pozadina-f853891a444a.webp",
+          "hammingDistance": 20
+        },
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pozadina-8fe0d49d00d7.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pozadina-1334329de2a3.webp",
+          "hammingDistance": 26
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "vetar-prvih-zelja",
+          "distance": 28
+        }
+      ]
+    },
+    {
+      "id": "narova-prica",
+      "sourceSha256": "1a81f5dc1789c963d8d0703e7eba21e73ad8e51c588bb3b0a7cf2bcfb3ca654c",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pozadina-563a30ede5ca.webp",
+          "hammingDistance": 20
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+          "hammingDistance": 22
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/maslinov-zavet-pozadina-4ef6bffa0980.webp",
+          "hammingDistance": 22
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "limunov-zavet",
+          "distance": 12
+        }
+      ]
+    },
+    {
+      "id": "noc-na-vinilu",
+      "sourceSha256": "c626a6d4b939a62653c058a7251a5a80571f68593f064eb189658df3b6f7384f",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pozadina-1334329de2a3.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/disko-sjaj-pozadina-fb5103d072c1.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/krstenje/andjeoski-blagoslov-pozadina-399587047218.webp",
+          "hammingDistance": 26
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "laneni-blagoslov",
+          "distance": 30
+        }
+      ]
+    },
+    {
+      "id": "tihi-izvor",
+      "sourceSha256": "6790c748a2857bf4174e5d82c899c1f753daee2a4fe195b14f538bf96b2445f6",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+          "hammingDistance": 22
+        },
+        {
+          "file": "public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+          "hammingDistance": 24
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "mali-graditelj",
+          "distance": 26
+        }
+      ]
+    },
+    {
+      "id": "zabac-zove-drugare",
+      "sourceSha256": "4add57ec8575e785e5d1ce1736c7f423be0a0bf522fbf391059f6930924cec97",
+      "nearestPrevious": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vilina-prva-carolija-pozadina-e5cd7e6ae764.webp",
+          "hammingDistance": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/bordo-nokturno-pozadina-9b87a98d1c4e.webp",
+          "hammingDistance": 24
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/zavet-u-prirodi-pozadina-bd265e38ec77.webp",
+          "hammingDistance": 24
+        }
+      ],
+      "cancelledTrialNearest": [
+        {
+          "id": "prva-mala-luka",
+          "distance": 26
+        }
+      ]
+    }
+  ],
+  "cancelledTrialCompared": 6,
+  "newBatchPairwise": [
+    {
+      "a": "jeziceva-radost",
+      "b": "lastino-malo-cudo",
+      "distance": 30
+    },
+    {
+      "a": "jeziceva-radost",
+      "b": "narova-prica",
+      "distance": 26
+    },
+    {
+      "a": "jeziceva-radost",
+      "b": "noc-na-vinilu",
+      "distance": 32
+    },
+    {
+      "a": "jeziceva-radost",
+      "b": "tihi-izvor",
+      "distance": 28
+    },
+    {
+      "a": "jeziceva-radost",
+      "b": "zabac-zove-drugare",
+      "distance": 34
+    },
+    {
+      "a": "lastino-malo-cudo",
+      "b": "narova-prica",
+      "distance": 32
+    },
+    {
+      "a": "lastino-malo-cudo",
+      "b": "noc-na-vinilu",
+      "distance": 48
+    },
+    {
+      "a": "lastino-malo-cudo",
+      "b": "tihi-izvor",
+      "distance": 26
+    },
+    {
+      "a": "lastino-malo-cudo",
+      "b": "zabac-zove-drugare",
+      "distance": 26
+    },
+    {
+      "a": "narova-prica",
+      "b": "noc-na-vinilu",
+      "distance": 34
+    },
+    {
+      "a": "narova-prica",
+      "b": "tihi-izvor",
+      "distance": 28
+    },
+    {
+      "a": "narova-prica",
+      "b": "zabac-zove-drugare",
+      "distance": 36
+    },
+    {
+      "a": "noc-na-vinilu",
+      "b": "tihi-izvor",
+      "distance": 34
+    },
+    {
+      "a": "noc-na-vinilu",
+      "b": "zabac-zove-drugare",
+      "distance": 38
+    },
+    {
+      "a": "tihi-izvor",
+      "b": "zabac-zove-drugare",
+      "distance": 30
+    }
+  ]
+}

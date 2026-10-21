@@ -1,0 +1,911 @@
+{
+  "batch": "2026-10-21",
+  "reviewedAt": "2026-10-21T00:09:38.611622+00:00",
+  "separateVisualReview": true,
+  "allPrePublicationChecksPassed": true,
+  "checks": [
+    {
+      "id": "jeziceva-radost",
+      "category": "first",
+      "name": "Ježićeva radost",
+      "audience": "male",
+      "age": 1,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "hedgehog with pear and acorn",
+        "review": "One clear hedgehog and pear; main ornaments are inset; peripheral watercolor foliage is full bleed. No source text, collage, mockup or watermark.",
+        "mainBoundsSourcePx": [
+          620,
+          950,
+          985,
+          1400
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "first / male"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/jeziceva-radost.png",
+          "detail": "One clear hedgehog and pear; main ornaments are inset; peripheral watercolor foliage is full bleed. No source text, collage, mockup or watermark."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/jeziceva-radost.png",
+          "detail": "One clear hedgehog and pear; main ornaments are inset; peripheral watercolor foliage is full bleed. No source text, collage, mockup or watermark."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/jeziceva-radost.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-jezic-kruska/"
+    },
+    {
+      "id": "noc-na-vinilu",
+      "category": "eighteen",
+      "name": "Noć na vinilu",
+      "audience": "male",
+      "age": 18,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "vinyl record and sound waves",
+        "review": "Blank record label; record and complete wave paths safely inset after revision; no lettering or mockup.",
+        "mainBoundsSourcePx": [
+          497,
+          269,
+          938,
+          744
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "eighteen / male"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/noc-na-vinilu.png",
+          "detail": "Blank record label; record and complete wave paths safely inset after revision; no lettering or mockup."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/noc-na-vinilu.png",
+          "detail": "Blank record label; record and complete wave paths safely inset after revision; no lettering or mockup."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/noc-na-vinilu.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-vinil-ploca/"
+    },
+    {
+      "id": "zabac-zove-drugare",
+      "category": "birthday",
+      "name": "Žabac zove drugare",
+      "audience": "male",
+      "age": 3,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "frog, water lily and dragonfly",
+        "review": "Single coherent frog and dragonfly; main figures and pond flower inset. Peripheral water/lily foliage extends full bleed.",
+        "mainBoundsSourcePx": [
+          115,
+          886,
+          470,
+          1205
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "birthday / male"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/zabac-zove-drugare.png",
+          "detail": "Single coherent frog and dragonfly; main figures and pond flower inset. Peripheral water/lily foliage extends full bleed."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/zabac-zove-drugare.png",
+          "detail": "Single coherent frog and dragonfly; main figures and pond flower inset. Peripheral water/lily foliage extends full bleed."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/zabac-zove-drugare.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zabac-lokvanji/"
+    },
+    {
+      "id": "narova-prica",
+      "category": "wedding",
+      "name": "Narova priča",
+      "audience": "couple",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "pomegranates and botanical branches",
+        "review": "Two botanical clusters belong to one full invitation background; complete fruit safely inset after revision. No text or paper mockup.",
+        "mainBoundsSourcePx": [
+          80,
+          330,
+          275,
+          526
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "wedding / couple"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/narova-prica.png",
+          "detail": "Two botanical clusters belong to one full invitation background; complete fruit safely inset after revision. No text or paper mockup."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/narova-prica.png",
+          "detail": "Two botanical clusters belong to one full invitation background; complete fruit safely inset after revision. No text or paper mockup."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/narova-prica.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-nar-botanicka/"
+    },
+    {
+      "id": "tihi-izvor",
+      "category": "baptism",
+      "name": "Tihi izvor",
+      "audience": "male",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "silver baptismal font, water and Orthodox cross",
+        "review": "Coherent bowl/pedestal and cross; the bowl begins about 46 px inside source left edge (about 65 px at export). Water wash and secondary foliage form full bleed ground.",
+        "mainBoundsSourcePx": [
+          46,
+          930,
+          448,
+          1320
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "baptism / male"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/tihi-izvor.png",
+          "detail": "Coherent bowl/pedestal and cross; the bowl begins about 46 px inside source left edge (about 65 px at export). Water wash and secondary foliage form full bleed ground."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/tihi-izvor.png",
+          "detail": "Coherent bowl/pedestal and cross; the bowl begins about 46 px inside source left edge (about 65 px at export). Water wash and secondary foliage form full bleed ground."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/tihi-izvor.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-krst-krstionica/"
+    },
+    {
+      "id": "lastino-malo-cudo",
+      "category": "baby",
+      "name": "Lastino malo čudo",
+      "audience": "male",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "visualReview": {
+        "motif": "two swallows, one chick and a nest",
+        "review": "Family of two birds and one chick, clear forms; all birds and nest well inside margins after revision; small feather inset.",
+        "mainBoundsSourcePx": [
+          454,
+          215,
+          925,
+          535
+        ]
+      },
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "Six separate backgrounds and six templates, one per required category."
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json",
+          "detail": "baby / male"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Male child birthday starts at 3; other numbers are separate editable fields."
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.mjs",
+          "detail": "Birth design explicitly invites to a celebration; prohibited term absent from all new public metadata/layers."
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json",
+          "detail": "Source 1060x1484; WebP and PNG export 1500x2100; upscale without crop; PDF 127x177.8 mm."
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "sources/lastino-malo-cudo.png",
+          "detail": "Family of two birds and one chick, clear forms; all birds and nest well inside margins after revision; small feather inset."
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "All text pixel bounds pass proportional 60 px margin. Primary decorative motifs visually checked in source; bounds are visual estimates, not automated segmentation."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "sources/lastino-malo-cudo.png",
+          "detail": "Family of two birds and one chick, clear forms; all birds and nest well inside margins after revision; small feather inset."
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json",
+          "detail": "45 catalog backgrounds plus 6 cancelled designs compared; new batch minimum pairwise DCT hash distance 26/63; motifs/compositions reviewed separately."
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "previews/lastino-malo-cudo.webp",
+          "detail": "Separate text layout for this image; all default/long-text contrast and nonoverlap checks pass."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json",
+          "detail": "Real Worker API supplies separate editable names/date/time/location; age and ceremony fields where required."
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json",
+          "detail": "Actual font cmap includes ČĆŠŽĐčćšžđ; long names/locations and actual editor name Đorđe tested."
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "390x844 mobile editor, no horizontal overflow, real edits and downloads, no browser errors."
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Actual 1500x2100 PNG; PDF MediaBox 360x504 pt. All six exported PDFs opened with pdftoppm; previews archived."
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Content-hashed WebP backgrounds and 500x700 previews; existing licensed shared fonts."
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json",
+          "detail": "Unique title/description/alt/visible details, canonical, ImageObject/BreadcrumbList, categories and sitemap tested."
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global integration and settings reader inherited; mocked enabled/disabled/blocked SDK tests passed on 72 pages. Live account/ad fill remains unverified, no account IDs changed."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "Not published yet; requires one complete main commit."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Pending deploy. Current domain access blocked by enforced network allowlist (proxy CONNECT 403)."
+        }
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-laste/"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "noc-na-vinilu",
+      "action": "Shrink/inset record and waves using image generation edit.",
+      "resolved": true
+    },
+    {
+      "id": "narova-prica",
+      "action": "Inset botanical clusters using image generation edit.",
+      "resolved": true
+    },
+    {
+      "id": "lastino-malo-cudo",
+      "action": "Inset birds/nest using image generation edit.",
+      "resolved": true
+    },
+    {
+      "id": "jeziceva-radost",
+      "action": "Move time/location to clear area after measured contrast failure.",
+      "resolved": true
+    },
+    {
+      "id": "worker_startup",
+      "action": "Build designs on demand; remove top-level random UUID generation. Actual Worker API and AdSense runtime retested successfully.",
+      "resolved": true
+    }
+  ],
+  "userReview": {
+    "stage": "after_publication",
+    "status": "not_received",
+    "points": 0,
+    "target": 50
+  }
+}
