@@ -115,7 +115,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -241,7 +241,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -367,7 +367,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -492,7 +492,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -617,7 +617,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -742,7 +742,7 @@
           "check": "atomic_publication",
           "status": "PROŠLO",
           "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
-          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
+          "detail": "All six in one fast-forward main commit; Cloudflare deploy success confirmed at 13:34:57 Asia/Tokyo."
         }
       ],
       "postPublication": [
@@ -766,5 +766,8 @@
     "met": false,
     "original": "2026-10-22T10:00:00+09:00",
     "userRequestedRestartAt": "2026-10-22T04:02:49Z"
-  }
+  },
+  "updatedAt": "2026-10-22T05:08:11Z",
+  "requiredArtifactPersistence": "PROŠLO"
 }
+

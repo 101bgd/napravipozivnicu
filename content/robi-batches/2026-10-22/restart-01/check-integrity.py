@@ -25,8 +25,8 @@ pairs=[{'a':a,'b':b,'distance63':int(np.count_nonzero(new[a]!=new[b]))} for i,a 
 assert all(p['distance63']>0 for p in pairs)
 (folder/'similarity-checks.json').write_text(json.dumps({'designs':results,'newPairwise':pairs,'visualReview':'Six separate original backgrounds and distinct motifs/compositions visually reviewed; source images not taken from catalog or cancelled drafts. Hash distance alone is not aesthetic approval.'},ensure_ascii=False,indent=2)+'\n')
 font_paths=list((root/'node_modules/@fontsource/dm-sans/files').glob('*-400-normal.woff2'))
-for pattern in ['*baloo*woff2','*cormorant*woff2','*marck*woff2']:
- font_paths+=list((root/'public/assets').rglob(pattern))
+for font in json.loads((folder/'used-fonts.json').read_text()):
+ font_paths.append(root/font['path'])
 checks=[]
 for p in font_paths:
  f=TTFont(p);cmap=f.getBestCmap();missing=[c for c in 'ČĆŠŽĐčćšžđ' if ord(c) not in cmap];f.close()

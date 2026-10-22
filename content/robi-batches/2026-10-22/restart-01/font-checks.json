@@ -1,34 +1,37 @@
 {
-  "customFonts": [
+  "fonts": [
     {
-      "assetId": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
-      "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
-      "name": "Baloo 2",
-      "url": "/media/48a03fa0-af48-4b3b-809c-7182a31d1c86",
+      "path": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2",
+      "missing": [
+        "Č",
+        "Ć",
+        "Š",
+        "Ž",
+        "Đ",
+        "č",
+        "ć",
+        "š",
+        "ž",
+        "đ"
+      ]
+    },
+    {
+      "path": "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff2",
+      "missing": []
+    },
+    {
       "path": "public/assets/pozivnice/deciji-rodjendani/baloo2-600-sr-1281ff97216e.woff2",
-      "missing": [],
-      "status": "passed"
+      "missing": []
     },
     {
-      "assetId": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
-      "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
-      "name": "Cormorant Garamond",
-      "url": "/media/36abdc26-d404-4d00-b4c0-e402b72a8de0",
       "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
-      "missing": [],
-      "status": "passed"
+      "missing": []
     },
     {
-      "assetId": "727f2a76-fb57-45d9-815f-ba85d1fd0c07",
-      "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
-      "name": "Marck Script",
-      "url": "/media/727f2a76-fb57-45d9-815f-ba85d1fd0c07",
       "path": "public/assets/pozivnice/krstenje/rukopis-400-sr-fc70639fc26a.woff2",
-      "missing": [],
-      "status": "passed"
+      "missing": []
     }
   ],
-  "serbianGlyphs": "ČĆŠŽĐčćšžđ",
-  "licenses": "Existing SIL OFL 1.1 licenses preserved in shipped font collections.",
-  "builtin": "DM Sans latin and latin-ext fonts loaded in actual renderer/editor tests."
+  "licenses": "Existing SIL OFL 1.1 fonts reused; licenses remain in existing font collections/packages.",
+  "source": "Actual WOFF2 cmap read; DM Sans latin and latin-ext used together."
 }

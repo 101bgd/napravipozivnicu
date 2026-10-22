@@ -1,0 +1,334 @@
+{
+  "batch": "2026-10-22",
+  "attempt": "restart-01",
+  "updatedAt": "2026-10-22T05:06:01Z",
+  "status": "required_artifacts_uploaded",
+  "confirmedBlobs": 33,
+  "nativePng": [
+    {
+      "id": "puzicina-jagodica",
+      "stage": "final",
+      "file": "sources/puzicina-jagodica.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1916261,
+      "sha256": "77e7bda587e8a984879d5c39b21451d1c4bc601fd550cc1c0db620bbe3a1c7aa",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "3bdf44cb17194f49502519196b61e64a946fbd1f",
+      "blobSha": "3bdf44cb17194f49502519196b61e64a946fbd1f"
+    },
+    {
+      "id": "kraljica-veceri",
+      "stage": "original",
+      "file": "sources/kraljica-veceri-original.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2068310,
+      "sha256": "d56b4040ae337314fecb41c03705db9ac5a18e5a19e1a7791bfa455c3758214d",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "5762d71c903a8a888bf8842989dd11a069ae16b7",
+      "blobSha": "5762d71c903a8a888bf8842989dd11a069ae16b7"
+    },
+    {
+      "id": "kraljica-veceri",
+      "stage": "final",
+      "file": "sources/kraljica-veceri.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1944245,
+      "sha256": "69917484dd1aa8cca5bcfb53879bd1a750e5eec6b58c9fead26042c8f384f2ea",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "b292b3b09d7e00ba881d7f8256cbc5fe1d75ce22",
+      "blobSha": "b292b3b09d7e00ba881d7f8256cbc5fe1d75ce22"
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "stage": "original",
+      "file": "sources/rakunicina-sarena-zurka-original.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2055188,
+      "sha256": "e893489ef4901668527b11712426cd1e324dd8c1f2fbba761a3c9eb62cb25680",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "cb0bc719f6cbc7d2d2ad0841f1799667bc1c197b",
+      "blobSha": "cb0bc719f6cbc7d2d2ad0841f1799667bc1c197b"
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "stage": "final",
+      "file": "sources/rakunicina-sarena-zurka.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1792772,
+      "sha256": "4e01e1d3c33172cc862e7ee7a205506cba8d59506421d3a1d3f5cdb5fef3712a",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "69242ab0b4c603ce0ced822267f737d56abc46e4",
+      "blobSha": "69242ab0b4c603ce0ced822267f737d56abc46e4"
+    },
+    {
+      "id": "ahatni-zavet",
+      "stage": "final",
+      "file": "sources/ahatni-zavet.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2034108,
+      "sha256": "4a4981e3f2fd92ebbb1aac67b3c0e3197026fa2180978fc6651f40a4f990c841",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "622416bbeb1dec1c111f7971810a084b5658628b",
+      "blobSha": "622416bbeb1dec1c111f7971810a084b5658628b"
+    },
+    {
+      "id": "bademov-blagoslov",
+      "stage": "original",
+      "file": "sources/bademov-blagoslov-original.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1896775,
+      "sha256": "f6eb784cad72a4e807a824c64205888cba17d5cfab8079817c62cc7b6b07c60f",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "a627b14626ed75547d56c948e517f09b0d653061",
+      "blobSha": "a627b14626ed75547d56c948e517f09b0d653061"
+    },
+    {
+      "id": "bademov-blagoslov",
+      "stage": "final",
+      "file": "sources/bademov-blagoslov.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1720882,
+      "sha256": "4294c4f5468eb37ad14b529ce98572d1674590a8481a4038f8dd34bad834a577",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "f45f7fa90cb7aff38f884bc65b3324ae888e90cd",
+      "blobSha": "f45f7fa90cb7aff38f884bc65b3324ae888e90cd"
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "stage": "final",
+      "file": "sources/kolica-puna-radosti.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 1830486,
+      "sha256": "783942f2699e4891798c3f4c08a12c80f4a83deb69afe87f643cf165a92a0e96",
+      "generator": "ChatGPT image generation",
+      "gitBlobSha": "e533068e3e090e5aa16218443e24de232ff866ac",
+      "blobSha": "e533068e3e090e5aa16218443e24de232ff866ac"
+    }
+  ],
+  "optimizedPublicAssets": [
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/puzicina-jagodica-background-2913ab647a96.webp",
+      "id": "4beb8291-89b6-50ea-a76a-c3fcff2aea54",
+      "bytes": 120816,
+      "sha256": "2913ab647a96d48cd7d4592ac2eddbeda9977d7cd4de28c0b5773322f9c9b8ee",
+      "gitBlobSha": "84adbf6ab1112379a5cf12106acc047ccb194135",
+      "blobSha": "84adbf6ab1112379a5cf12106acc047ccb194135"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/puzicina-jagodica-thumbnail-e94a64894473.webp",
+      "id": "b36b8e70-508b-5804-a53a-c5c39c06cd0c",
+      "bytes": 29412,
+      "sha256": "e94a6489447328769e4cfd3bab99ae3ad0e0317ed4e7a496bf36f4698f03f381",
+      "gitBlobSha": "5f5ba3eae8c7d083d7333cacd77ac50274b83bc2",
+      "blobSha": "5f5ba3eae8c7d083d7333cacd77ac50274b83bc2"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/kraljica-veceri-background-4cca50799f13.webp",
+      "id": "08fffdde-2d86-5dab-a278-a810aae3ec1a",
+      "bytes": 169624,
+      "sha256": "4cca50799f136a0900a03a89bededf6af9a677746efac7fcab438b4c32af2e61",
+      "gitBlobSha": "1cdbdb93f1ca68b02bf4201b43d60a100712ef85",
+      "blobSha": "1cdbdb93f1ca68b02bf4201b43d60a100712ef85"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/kraljica-veceri-thumbnail-db46a375f19a.webp",
+      "id": "1a52fd39-f436-5fbd-aaaf-1cd3dbeec443",
+      "bytes": 40560,
+      "sha256": "db46a375f19ac0732f5a00e14f94830fa6bde126ecb0b9db6abd56638135c068",
+      "gitBlobSha": "0cc82efa18d8bb3523186b4a7898a85b167a279b",
+      "blobSha": "0cc82efa18d8bb3523186b4a7898a85b167a279b"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/rakunicina-sarena-zurka-background-e0251f26851f.webp",
+      "id": "6e298af5-9396-5ad9-aa20-ac0a1db30a46",
+      "bytes": 109628,
+      "sha256": "e0251f26851f69741ad67c215cac3286422c88902cb0a9799c8e7a896cc235a8",
+      "gitBlobSha": "d6ce1b8483ae119d92d479c94cdf274e3daf9546",
+      "blobSha": "d6ce1b8483ae119d92d479c94cdf274e3daf9546"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/rakunicina-sarena-zurka-thumbnail-44b4d05d5e5b.webp",
+      "id": "c199cd2a-3acf-54e4-ad2e-12279f956d04",
+      "bytes": 31254,
+      "sha256": "44b4d05d5e5b0332c7492fe9bb2ca9a9db32eba5948fdb25d581fdd4f3958844",
+      "gitBlobSha": "e4513634928bda52fbcadc6489d3e11c1e077768",
+      "blobSha": "e4513634928bda52fbcadc6489d3e11c1e077768"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/ahatni-zavet-background-f6079f822fe7.webp",
+      "id": "ca66005e-44fb-54ff-aca9-f36de6b94e4c",
+      "bytes": 181570,
+      "sha256": "f6079f822fe78426d9402cf3c762e14d073f4009ced63b1785c8e8a76080cf3e",
+      "gitBlobSha": "f9e319eae26852ff216bbc3ab11ad36670b94c5a",
+      "blobSha": "f9e319eae26852ff216bbc3ab11ad36670b94c5a"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/ahatni-zavet-thumbnail-8788bbf181e5.webp",
+      "id": "2096b287-05ed-559e-a860-20528f8b08cd",
+      "bytes": 42782,
+      "sha256": "8788bbf181e5ce5088bcdbc12fdfcbeef33f11c15e5711b7be67283b45b03921",
+      "gitBlobSha": "c7a4ff67530d81b5e3c1b041c487b3adb5143f7e",
+      "blobSha": "c7a4ff67530d81b5e3c1b041c487b3adb5143f7e"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/bademov-blagoslov-background-4602553b6f17.webp",
+      "id": "69ddee74-3afe-5252-a3c8-c0863f62a2ba",
+      "bytes": 102480,
+      "sha256": "4602553b6f176e63a468f5a1f3f295e798d1fb697eee27eaa1c0b00735b11a09",
+      "gitBlobSha": "0d11d2f86b73cc59f51c355617a84c985aca6114",
+      "blobSha": "0d11d2f86b73cc59f51c355617a84c985aca6114"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/bademov-blagoslov-thumbnail-714868a51b56.webp",
+      "id": "456897c8-9442-5101-a1b0-5f62393ae563",
+      "bytes": 27062,
+      "sha256": "714868a51b564c0d0647784d61b73675295a07184a3ea564713e5886d0b74215",
+      "gitBlobSha": "b9284326abab49aee4cf2f0cb7b92197266c3f46",
+      "blobSha": "b9284326abab49aee4cf2f0cb7b92197266c3f46"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/kolica-puna-radosti-background-49a04352c77a.webp",
+      "id": "7df10794-e26a-54ae-ab52-1d8db6aa73da",
+      "bytes": 102886,
+      "sha256": "49a04352c77a21be56c14a5b3ff9d313a325e469bbead31ab39807e6fd9395f4",
+      "gitBlobSha": "4edfd1113a8ad811a2dcb4c7aaece1cac6444cf8",
+      "blobSha": "4edfd1113a8ad811a2dcb4c7aaece1cac6444cf8"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-22/kolica-puna-radosti-thumbnail-f4d9d5c7189d.webp",
+      "id": "ba1be0f9-e78b-5f41-a503-64d274075ba2",
+      "bytes": 24694,
+      "sha256": "f4d9d5c7189dc02f139b04382c6742b207d34b430585e20378c777a05cac0571",
+      "gitBlobSha": "2029a8cd3557a6246e40b6cdc22e629f23cc7610",
+      "blobSha": "2029a8cd3557a6246e40b6cdc22e629f23cc7610"
+    }
+  ],
+  "requiredExamples": [
+    {
+      "id": "puzicina-jagodica",
+      "file": "examples/puzicina-jagodica.png",
+      "bytes": 1733463,
+      "sha256": "19299ec758de6e89553c1d12c108c522e1aee2202333561248cdc9e5d21e6e46",
+      "gitBlobSha": "6d746177f656c8a281b639466039d222cf65ef67",
+      "blobSha": "6d746177f656c8a281b639466039d222cf65ef67"
+    },
+    {
+      "id": "puzicina-jagodica",
+      "file": "examples/puzicina-jagodica.pdf",
+      "bytes": 368020,
+      "sha256": "3b1991488bb6ae0a2ad02de8eb82a256f5b0db918582d61e99815df33b652f57",
+      "gitBlobSha": "dfd35778c8a9061351ab3c5ab707aacefb57ad3d",
+      "blobSha": "dfd35778c8a9061351ab3c5ab707aacefb57ad3d"
+    },
+    {
+      "id": "kraljica-veceri",
+      "file": "examples/kraljica-veceri.png",
+      "bytes": 2318379,
+      "sha256": "cd543f983ca2f171d39e1e14ea24dd4f1f57e019fc797c72df69fabdb8aab3e6",
+      "gitBlobSha": "83e62afbe86d32e47142c25a61549e63122977fc",
+      "blobSha": "83e62afbe86d32e47142c25a61549e63122977fc"
+    },
+    {
+      "id": "kraljica-veceri",
+      "file": "examples/kraljica-veceri.pdf",
+      "bytes": 449268,
+      "sha256": "399cf67d0a4ca2ccab28753e3273ddfdb1cdc391b55881791b8c604c19ff29bb",
+      "gitBlobSha": "f4cbe2da413ba5924b3d663934ff789e5f4874b3",
+      "blobSha": "f4cbe2da413ba5924b3d663934ff789e5f4874b3"
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "file": "examples/rakunicina-sarena-zurka.png",
+      "bytes": 1242522,
+      "sha256": "07eb37c5eb44e103133f079e6b1164609dfa3934ca0b0cec05b89b5b2cfc5d60",
+      "gitBlobSha": "5fb840bda63e33c0293ef3c73eea302926395053",
+      "blobSha": "5fb840bda63e33c0293ef3c73eea302926395053"
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "file": "examples/rakunicina-sarena-zurka.pdf",
+      "bytes": 309970,
+      "sha256": "39d5438f1db01f424bde7dd1813b0dd6093b4916b0ec563fc8b6d304fbc022bb",
+      "gitBlobSha": "b28599aa51ed6e5b77cce590fc5ab7f3b81aee5b",
+      "blobSha": "b28599aa51ed6e5b77cce590fc5ab7f3b81aee5b"
+    },
+    {
+      "id": "ahatni-zavet",
+      "file": "examples/ahatni-zavet.png",
+      "bytes": 2397032,
+      "sha256": "8bb5f41769ac18e8349a8c0589f6d5b2f95c8e27ad7bf8bd52fa975b5690993d",
+      "gitBlobSha": "91afd2f8ed27a28300d2bb66f9ee7dfc35e721c4",
+      "blobSha": "91afd2f8ed27a28300d2bb66f9ee7dfc35e721c4"
+    },
+    {
+      "id": "ahatni-zavet",
+      "file": "examples/ahatni-zavet.pdf",
+      "bytes": 473721,
+      "sha256": "9c28b89ab82a34e9a87ea09c7ea80ee8358567e1e33184f320ef19b9f581b592",
+      "gitBlobSha": "1096f1bb81bea5bebe8fac88c14e4d7966e2e960",
+      "blobSha": "1096f1bb81bea5bebe8fac88c14e4d7966e2e960"
+    },
+    {
+      "id": "bademov-blagoslov",
+      "file": "examples/bademov-blagoslov.png",
+      "bytes": 1462266,
+      "sha256": "eb0d4c4325313c76efde6fbec32444dddc40296945924156e5a9c2bbefd6ade7",
+      "gitBlobSha": "00e0cbcce83c176c77fcd71f5470e4655bf42bcb",
+      "blobSha": "00e0cbcce83c176c77fcd71f5470e4655bf42bcb"
+    },
+    {
+      "id": "bademov-blagoslov",
+      "file": "examples/bademov-blagoslov.pdf",
+      "bytes": 353047,
+      "sha256": "54772a29534b8ddfa5fab2c87efefb60eed7fa03445b075953eb12985c28c1dd",
+      "gitBlobSha": "3cb176b4aa526fb520c39bb80d99b494d9ebb32c",
+      "blobSha": "3cb176b4aa526fb520c39bb80d99b494d9ebb32c"
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "file": "examples/kolica-puna-radosti.png",
+      "bytes": 1411497,
+      "sha256": "c83266307f27dea598806b001466eddbca4782f088ba733587ee3b82ec1b54e3",
+      "gitBlobSha": "0ecd5d7fa3b55e08d00cdf22402a60f2be553443",
+      "blobSha": "0ecd5d7fa3b55e08d00cdf22402a60f2be553443"
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "file": "examples/kolica-puna-radosti.pdf",
+      "bytes": 332829,
+      "sha256": "d48671c030c7a984b49b856bd1e1dd692bc2d20a5e803891864d88066feebbc2",
+      "gitBlobSha": "5434673ab0fedf6fb6f8cd4c085321900132f5c6",
+      "blobSha": "5434673ab0fedf6fb6f8cd4c085321900132f5c6"
+    }
+  ],
+  "allHashChecksPassed": true,
+  "supplementalFilesLocation": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip"
+}
+

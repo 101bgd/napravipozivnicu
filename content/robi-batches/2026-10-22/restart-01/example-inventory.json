@@ -1,0 +1,86 @@
+[
+  {
+    "id": "puzicina-jagodica",
+    "file": "examples/puzicina-jagodica.png",
+    "bytes": 1733463,
+    "sha256": "19299ec758de6e89553c1d12c108c522e1aee2202333561248cdc9e5d21e6e46",
+    "gitBlobSha": "6d746177f656c8a281b639466039d222cf65ef67"
+  },
+  {
+    "id": "puzicina-jagodica",
+    "file": "examples/puzicina-jagodica.pdf",
+    "bytes": 368020,
+    "sha256": "3b1991488bb6ae0a2ad02de8eb82a256f5b0db918582d61e99815df33b652f57",
+    "gitBlobSha": "dfd35778c8a9061351ab3c5ab707aacefb57ad3d"
+  },
+  {
+    "id": "kraljica-veceri",
+    "file": "examples/kraljica-veceri.png",
+    "bytes": 2318379,
+    "sha256": "cd543f983ca2f171d39e1e14ea24dd4f1f57e019fc797c72df69fabdb8aab3e6",
+    "gitBlobSha": "83e62afbe86d32e47142c25a61549e63122977fc"
+  },
+  {
+    "id": "kraljica-veceri",
+    "file": "examples/kraljica-veceri.pdf",
+    "bytes": 449268,
+    "sha256": "399cf67d0a4ca2ccab28753e3273ddfdb1cdc391b55881791b8c604c19ff29bb",
+    "gitBlobSha": "f4cbe2da413ba5924b3d663934ff789e5f4874b3"
+  },
+  {
+    "id": "rakunicina-sarena-zurka",
+    "file": "examples/rakunicina-sarena-zurka.png",
+    "bytes": 1242522,
+    "sha256": "07eb37c5eb44e103133f079e6b1164609dfa3934ca0b0cec05b89b5b2cfc5d60",
+    "gitBlobSha": "5fb840bda63e33c0293ef3c73eea302926395053"
+  },
+  {
+    "id": "rakunicina-sarena-zurka",
+    "file": "examples/rakunicina-sarena-zurka.pdf",
+    "bytes": 309970,
+    "sha256": "39d5438f1db01f424bde7dd1813b0dd6093b4916b0ec563fc8b6d304fbc022bb",
+    "gitBlobSha": "b28599aa51ed6e5b77cce590fc5ab7f3b81aee5b"
+  },
+  {
+    "id": "ahatni-zavet",
+    "file": "examples/ahatni-zavet.png",
+    "bytes": 2397032,
+    "sha256": "8bb5f41769ac18e8349a8c0589f6d5b2f95c8e27ad7bf8bd52fa975b5690993d",
+    "gitBlobSha": "91afd2f8ed27a28300d2bb66f9ee7dfc35e721c4"
+  },
+  {
+    "id": "ahatni-zavet",
+    "file": "examples/ahatni-zavet.pdf",
+    "bytes": 473721,
+    "sha256": "9c28b89ab82a34e9a87ea09c7ea80ee8358567e1e33184f320ef19b9f581b592",
+    "gitBlobSha": "1096f1bb81bea5bebe8fac88c14e4d7966e2e960"
+  },
+  {
+    "id": "bademov-blagoslov",
+    "file": "examples/bademov-blagoslov.png",
+    "bytes": 1462266,
+    "sha256": "eb0d4c4325313c76efde6fbec32444dddc40296945924156e5a9c2bbefd6ade7",
+    "gitBlobSha": "00e0cbcce83c176c77fcd71f5470e4655bf42bcb"
+  },
+  {
+    "id": "bademov-blagoslov",
+    "file": "examples/bademov-blagoslov.pdf",
+    "bytes": 353047,
+    "sha256": "54772a29534b8ddfa5fab2c87efefb60eed7fa03445b075953eb12985c28c1dd",
+    "gitBlobSha": "3cb176b4aa526fb520c39bb80d99b494d9ebb32c"
+  },
+  {
+    "id": "kolica-puna-radosti",
+    "file": "examples/kolica-puna-radosti.png",
+    "bytes": 1411497,
+    "sha256": "c83266307f27dea598806b001466eddbca4782f088ba733587ee3b82ec1b54e3",
+    "gitBlobSha": "0ecd5d7fa3b55e08d00cdf22402a60f2be553443"
+  },
+  {
+    "id": "kolica-puna-radosti",
+    "file": "examples/kolica-puna-radosti.pdf",
+    "bytes": 332829,
+    "sha256": "d48671c030c7a984b49b856bd1e1dd692bc2d20a5e803891864d88066feebbc2",
+    "gitBlobSha": "5434673ab0fedf6fb6f8cd4c085321900132f5c6"
+  }
+]

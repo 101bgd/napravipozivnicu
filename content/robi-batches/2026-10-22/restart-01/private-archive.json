@@ -1,0 +1,10 @@
+{
+  "path": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip",
+  "bytes": 86963739,
+  "sha256": "a5564c6470f628c61b74be11774ab6804f368d52ba4bbbda8ac24c2261f511f5",
+  "files": 105,
+  "batch": "2026-10-22",
+  "attempt": "restart-01",
+  "requiredGitHubArtifactsComplete": true,
+  "supplementalTestVariantsAlsoInZip": true
+}

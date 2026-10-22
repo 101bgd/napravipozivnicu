@@ -49,3 +49,10 @@ Redovni posao počinje u 08:00 po Tokiju. Rok za svih šest i obaveštenje je 10
 Izveštaj sadrži svih šest kategorija i statusa, linkove do pregleda/javnih stranica, stvarne dimenzije, rezultate provera, dorade i tačne blokade. Zaostala serija se ne predstavlja kao nova isporuka. Ne tvrdi da je obaveštenje dostavljeno samo zato što je tekst pripremljen; dostava zadatka ide kroz ChatGPT.
 
 Korisnik dodeljuje najviše jedan redovni bod za ocenjeni mesec i može izričito dodeliti bonus poen. Broj poena je zbir potvrđenih odluka u `review-ledger.json`, početno 0/50. Ne dodaj bod za samo kreiranje ili pokretanje Robija. Pri zbiru 50 evidentiraj cilj; nagradu odlučuje korisnik.
+
+
+## Dopuna po izričitom korisnikovom nalogu 22.10.2026.
+
+Korisnik je zatražio da se ceo posao ponovo uradi i da se 403 rešava kasnije. Postpublična mrežna provera ne sme da zaustavi generisanje i lokalnu pripremu. Svih šest i sve provere pre objave ostaju obavezni. Zajednički produkcijski commit i Cloudflare uspeh prijavi tačno; javne stranice/editor/izvoz ostaju NEPROVERENO kada nisu provereni. Ne zaobilazi mrežna pravila.
+
+Dok se javna verifikacija čeka, kreativni plan sledeće serije vodi odvojeno u plannedNextAudience i plannedNextBirthdayAgeByAudience, na osnovu stvarno kompletno deploy-ovanih serija. Ne tvrdi da je potvrđeni redosled napredovao dok uslovi verifikacije nisu ispunjeni. Za 23.10. plan je muška publika i dečji uzrast četiri godine; prethodne deploy-ovane serije su muška/tri i ženska/tri. Ne vraćaj otkazane ili zamenjene pokušaje i ne dupliraj već objavljene šablone.

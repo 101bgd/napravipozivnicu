@@ -184,11 +184,10 @@
       "startedAt": "2026-10-21T23:00:12Z",
       "deadlineAt": "2026-10-22T10:00:00+09:00",
       "blockedStage": "post_publication_verification_deferred",
-      "dependsOnBatch": "2026-10-21",
+      "dependsOnBatch": null,
       "audience": "female",
       "birthdayAge": 3,
       "audienceAssignment": "planned_from_last_deployed_male_batch_user_requested_restart",
-      "candidateAudienceFromUnadvancedState": "male",
       "designs": [
         {
           "id": "puzicina-jagodica",
@@ -296,7 +295,13 @@
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/kolica-puna-radosti.webp"
         }
       ],
-      "blockers": [],
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "status": "deferred_by_user",
+          "reason": "Public page/editor/export checks remain unperformed under the known 403 restriction, explicitly left for later by the user."
+        }
+      ],
       "report": "content/robi-batches/2026-10-22/restart-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-22/restart-01/quality-checklist.json",
       "startedGeneration": true,
@@ -307,52 +312,57 @@
         "renderedOutputChecked": true
       },
       "resumeActions": [
-        "Keep the one prepared wedding draft; do not regenerate it or count the 21 October designs as today's delivery.",
-        "Prepare the remaining five as drafts using the agreed audience alternation and recorded typography feedback. Do not confuse planning an audience with advancing confirmed sequence state.",
-        "Resolve permitted access to napravipozivnicu.com for live page/editor/export verification; do not bypass proxy policy.",
-        "Do not publish a partial batch. New public routes, SEO, registry integration and production verification remain unfinished.",
-        "Complete binary evidence persistence separately; do not claim the private ZIP is fully uploaded to GitHub."
+        "Do not regenerate or republish this six-template batch; confirmed production commit 2db38bdb96ef8285f32342f0da93a47609d5ae3b is deployed.",
+        "User explicitly deferred the 403 work. Perform the remaining public live page/editor/export checks when allowed access is available; never invent a pass.",
+        "Keep planned creative audience/age progression separate from the unadvanced verified sequence. Next planned batch is male, age 4.",
+        "Record only explicit user aesthetic feedback and point awards."
       ],
       "notification": {
         "channel": "ChatGPT",
         "deploymentAnnouncedAt": "2026-10-22T05:00:29Z",
         "originalDeadline": "2026-10-22T10:00:00+09:00",
-        "onTime": false
-      },
-      "independentWork": {
-        "category": "wedding",
-        "id": "paunova-elegancija",
-        "name": "Paunova elegancija",
-        "status": "prepared_unpublished",
-        "preparedAt": "2026-10-21T23:13:32.455Z",
-        "preview": "content/robi-batches/2026-10-22/previews/paunova-elegancija.webp",
-        "design": "content/robi-batches/2026-10-22/designs.json",
-        "validation": "content/robi-batches/2026-10-22/wedding-browser-checks.json"
+        "onTime": false,
+        "finalReportPreparedAt": "2026-10-22T05:10:45Z"
       },
       "preparedAt": "2026-10-22T04:33:26Z",
       "prePublicationChecks": "passed",
       "artifactPersistence": {
-        "status": "in_progress",
-        "nativeSourcePngCount": 9,
-        "optimizedAssetCount": 12,
-        "examplesOnGitHub": "pending",
-        "fullLocalArchive": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip"
+        "status": "required_artifacts_saved",
+        "controlPath": "content/robi-batches/2026-10-22/restart-01",
+        "nativePngFiles": 9,
+        "optimizedBackgroundWebp": 6,
+        "templatePreviewWebp": 6,
+        "pngExamples": 6,
+        "pdfExamples": 6,
+        "layouts": 6,
+        "promptsAndDimensions": true,
+        "qualityChecklist": true,
+        "allUploadedBlobHashesMatched": true,
+        "fullLocalArchive": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip",
+        "supplementalStressEditorScreenshotsAndPdfRenders": "retained in the full local ZIP; required default PNG/PDF samples are also on GitHub",
+        "localArchive": {
+          "path": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip",
+          "bytes": 86963739,
+          "sha256": "a5564c6470f628c61b74be11774ab6804f368d52ba4bbbda8ac24c2261f511f5",
+          "files": 105,
+          "batch": "2026-10-22",
+          "attempt": "restart-01",
+          "requiredGitHubArtifactsComplete": true,
+          "supplementalTestVariantsAlsoInZip": true
+        },
+        "completedAt": "2026-10-22T05:10:45Z"
       },
       "audit": {
-        "checkedAt": "2026-10-22T03:59:07Z",
-        "timezone": "Asia/Tokyo",
-        "status": "incomplete_delayed",
+        "checkedAt": "2026-10-22T05:08:11Z",
+        "status": "deployed_delayed_live_verification_deferred",
+        "requiredCount": 6,
+        "preparedCount": 6,
+        "deployedCount": 6,
+        "verifiedPublicCount": 0,
         "deadlineMet": false,
-        "lateAtAuditSeconds": 10747,
-        "newProductionChangesThisAudit": false,
-        "pointsAwardedThisAudit": 0,
-        "lastConfirmedPreparation": "2026-10-21T23:13:32.455Z"
-      },
-      "executionFinding": {
-        "type": "self_imposed_production_gate",
-        "finding": "I incorrectly treated unresolved live verification as a reason to stop preparation of the remaining five designs. The network denial affects live verification; it does not itself prevent image generation. Only one wedding draft was prepared.",
-        "effect": "Five categories were not created and the 10:00 deadline was missed.",
-        "recordedAt": "2026-10-22T03:59:07Z"
+        "actualDeploy": "2026-10-22T04:34:57Z",
+        "actualDeployTokyo": "2026-10-22T13:34:57+09:00",
+        "pointsAwarded": 0
       },
       "attemptHistory": [
         {
@@ -362,8 +372,37 @@
           "designIds": [
             "paunova-elegancija"
           ],
-          "report": "content/robi-batches/2026-10-22/REPORT.md",
-          "countsAsDailyDelivery": false
+          "report": "content/robi-batches/2026-10-22/attempt-history/morning-audit.md",
+          "countsAsDailyDelivery": false,
+          "audit": {
+            "checkedAt": "2026-10-22T03:59:07Z",
+            "timezone": "Asia/Tokyo",
+            "status": "incomplete_delayed",
+            "deadlineMet": false,
+            "lateAtAuditSeconds": 10747,
+            "newProductionChangesThisAudit": false,
+            "pointsAwardedThisAudit": 0,
+            "lastConfirmedPreparation": "2026-10-21T23:13:32.455Z"
+          },
+          "executionFinding": {
+            "type": "self_imposed_production_gate",
+            "finding": "I incorrectly treated unresolved live verification as a reason to stop preparation of the remaining five designs. The network denial affects live verification; it does not itself prevent image generation. Only one wedding draft was prepared.",
+            "effect": "Five categories were not created and the 10:00 deadline was missed.",
+            "recordedAt": "2026-10-22T03:59:07Z"
+          },
+          "independentWork": {
+            "category": "wedding",
+            "id": "paunova-elegancija",
+            "name": "Paunova elegancija",
+            "status": "prepared_unpublished",
+            "preparedAt": "2026-10-21T23:13:32.455Z",
+            "preview": "content/robi-batches/2026-10-22/previews/paunova-elegancija.webp",
+            "design": "content/robi-batches/2026-10-22/designs.json",
+            "validation": "content/robi-batches/2026-10-22/wedding-browser-checks.json"
+          },
+          "motifs": [
+            "teal peacock feathers and muted gold branches"
+          ]
         }
       ],
       "restart": {
@@ -399,6 +438,12 @@
       "liveVerification": {
         "status": "deferred_by_user",
         "reason": "Explicit user instruction to do the work now and address 403 later; no public page/editor/export success asserted."
+      },
+      "finalReport": "content/robi-batches/2026-10-22/restart-01/REPORT.md",
+      "userReview": {
+        "status": "awaiting_post_publication_user_review",
+        "aestheticApprovalAssumed": false,
+        "pointsAwardedThisBatch": 0
       }
     }
   ],
@@ -478,6 +523,20 @@
       "reuseForDailyPublication": false,
       "mainCommit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
       "deployedAt": "2026-10-22T04:34:57Z"
+    },
+    {
+      "id": "2026-10-22-superseded-wedding",
+      "status": "superseded_unpublished",
+      "countsAsDailyDelivery": false,
+      "designIds": [
+        "paunova-elegancija"
+      ],
+      "motifs": [
+        "teal peacock feathers and muted gold branches"
+      ],
+      "reuseForDailyPublication": false,
+      "advanceAudience": false,
+      "reason": "User explicitly requested a full fresh restart of all six invitations."
     }
   ],
   "automations": {
@@ -523,7 +582,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T05:00:29Z",
+  "updatedAt": "2026-10-22T05:10:45Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-21",
     "source": "content/robi-batches/2026-10-21/user-review.json",
@@ -547,5 +606,6 @@
     "male": 4,
     "female": 4
   },
-  "planningNote": "Planned creative sequence derives from the actually deployed male age-3 batch on 21 October and female age-3 batch on 22 October. Confirmed nextAudience/age remains unchanged until required verification; pending live checks must not stop creative production per explicit user direction."
+  "planningNote": "Planned creative sequence derives from the actually deployed male age-3 batch on 21 October and female age-3 batch on 22 October. Confirmed nextAudience/age remains unchanged until required verification; pending live checks must not stop creative production per explicit user direction.",
+  "lastPublishedBatch": "2026-10-22"
 }
