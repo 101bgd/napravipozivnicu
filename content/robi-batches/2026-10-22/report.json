@@ -1,0 +1,320 @@
+[
+  {
+    "id": "paunova-elegancija",
+    "category": "wedding",
+    "name": "Paunova elegancija",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 151,
+          "right": 352,
+          "top": 67,
+          "bottom": 76,
+          "minimumContrast": 8.4,
+          "p05Contrast": 8.55,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "bride",
+          "left": 188,
+          "right": 312,
+          "top": 119,
+          "bottom": 159,
+          "minimumContrast": 8.48,
+          "p05Contrast": 8.56,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "join",
+          "left": 240,
+          "right": 259,
+          "top": 189,
+          "bottom": 206,
+          "minimumContrast": 4.26,
+          "p05Contrast": 4.28,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "groom",
+          "left": 190,
+          "right": 311,
+          "top": 227,
+          "bottom": 267,
+          "minimumContrast": 8.61,
+          "p05Contrast": 8.64,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 170,
+          "right": 329,
+          "top": 298,
+          "bottom": 331,
+          "minimumContrast": 8.42,
+          "p05Contrast": 8.55,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 194,
+          "right": 305,
+          "top": 362,
+          "bottom": 382,
+          "minimumContrast": 8.55,
+          "p05Contrast": 8.63,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 84,
+          "right": 195,
+          "top": 408,
+          "bottom": 420,
+          "minimumContrast": 8.19,
+          "p05Contrast": 8.33,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 306,
+          "right": 413,
+          "top": 410,
+          "bottom": 419,
+          "minimumContrast": 8.1,
+          "p05Contrast": 8.48,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 86,
+          "right": 194,
+          "top": 441,
+          "bottom": 469,
+          "minimumContrast": 8.2,
+          "p05Contrast": 8.37,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 317,
+          "right": 402,
+          "top": 441,
+          "bottom": 469,
+          "minimumContrast": 8.4,
+          "p05Contrast": 8.55,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 200,
+          "right": 300,
+          "top": 489,
+          "bottom": 517,
+          "minimumContrast": 8.26,
+          "p05Contrast": 8.41,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 151,
+          "right": 352,
+          "top": 67,
+          "bottom": 76,
+          "minimumContrast": 8.4,
+          "p05Contrast": 8.55,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "bride",
+          "left": 136,
+          "right": 360,
+          "top": 119,
+          "bottom": 159,
+          "minimumContrast": 8.42,
+          "p05Contrast": 8.55,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "join",
+          "left": 240,
+          "right": 259,
+          "top": 189,
+          "bottom": 206,
+          "minimumContrast": 4.26,
+          "p05Contrast": 4.28,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "groom",
+          "left": 145,
+          "right": 355,
+          "top": 229,
+          "bottom": 267,
+          "minimumContrast": 8.48,
+          "p05Contrast": 8.63,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 170,
+          "right": 329,
+          "top": 298,
+          "bottom": 331,
+          "minimumContrast": 8.42,
+          "p05Contrast": 8.55,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 194,
+          "right": 305,
+          "top": 362,
+          "bottom": 382,
+          "minimumContrast": 8.55,
+          "p05Contrast": 8.63,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 84,
+          "right": 195,
+          "top": 408,
+          "bottom": 420,
+          "minimumContrast": 8.19,
+          "p05Contrast": 8.33,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 306,
+          "right": 413,
+          "top": 410,
+          "bottom": 419,
+          "minimumContrast": 8.1,
+          "p05Contrast": 8.48,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 70,
+          "right": 209,
+          "top": 440,
+          "bottom": 469,
+          "minimumContrast": 8.04,
+          "p05Contrast": 8.3,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 286,
+          "right": 433,
+          "top": 440,
+          "bottom": 469,
+          "minimumContrast": 8.07,
+          "p05Contrast": 8.37,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 190,
+          "right": 309,
+          "top": 489,
+          "bottom": 517,
+          "minimumContrast": 8.27,
+          "p05Contrast": 8.42,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [],
+    "sourceSha256": "60e64793aff9f2de04d411dce186e0b7e36547ab04c4c625a001690049392c26",
+    "sourceBytes": 2023854,
+    "files": {
+      "backgrounds/paunova-elegancija.webp": {
+        "bytes": 205412,
+        "sha256": "00bd48cede24d0419062e492437ff666d5377ec4300f350d8ec0c62abbea451c"
+      },
+      "backgrounds/paunova-elegancija.png": {
+        "bytes": 4382626,
+        "sha256": "2d257a6ca8ed5f55c415488bbb1bec22739831a93ae7777bfb95b048c4cba7ea"
+      },
+      "previews/paunova-elegancija.webp": {
+        "bytes": 45688,
+        "sha256": "24a1dc27b6112a9504f7be09a6ddda8d053bfc385ded190115d5180eb4bdc511"
+      },
+      "examples/paunova-elegancija.png": {
+        "bytes": 2564262,
+        "sha256": "718afb436491973aa04deaf7048cdc5cdc169cc7cbe9a5b15d0ee17d0f548c62"
+      },
+      "examples/paunova-elegancija-long-text.png": {
+        "bytes": 2599548,
+        "sha256": "490bae1da5e9bfb5a25823a3d1ac97a0db08be43588c8d2c1e749f1b70c1ac9a"
+      },
+      "examples/paunova-elegancija.pdf": {
+        "bytes": 509873,
+        "sha256": "7a05c16c2ae296b6c0bfc8b9fd452253cfbca187b965895f15949acca673cd73"
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "paunova-elegancija",
+  "scope": "local_editor_using_existing_project_components",
+  "mobile": "PROŠLO",
+  "editableFields": "PROŠLO",
+  "longText": "PROŠLO",
+  "png": {
+    "width": 1500,
+    "height": 2100,
+    "bytes": 2231046
+  },
+  "pdf": {
+    "widthPoints": 360,
+    "heightPoints": 504,
+    "bytes": 1827337
+  },
+  "browserErrors": [],
+  "productionModified": false,
+  "completedAt": "2026-10-21T23:13:32.455Z"
+}

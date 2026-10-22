@@ -1,0 +1,39 @@
+{
+  "finalSource": "sources/paunova-elegancija.png",
+  "sources": [
+    {
+      "file": "sources/paunova-elegancija-original.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2601135,
+      "sha256": "da2b81fd1304201c0f971b6ddad263589a594a9210fc6c3bc5241acc475d54e9",
+      "fileCreatedAt": "2026-10-21T23:09:52.663939+00:00",
+      "generator": "ChatGPT image generation"
+    },
+    {
+      "file": "sources/paunova-elegancija-revision-1.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2164238,
+      "sha256": "29cd7a6d7467d2dc20029aa8671960eb95fc655fe1850052368eef6b0d16984d",
+      "fileCreatedAt": "2026-10-21T23:09:52.668787+00:00",
+      "generator": "ChatGPT image generation"
+    },
+    {
+      "file": "sources/paunova-elegancija.png",
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "bytes": 2023854,
+      "sha256": "60e64793aff9f2de04d411dce186e0b7e36547ab04c4c625a001690049392c26",
+      "fileCreatedAt": "2026-10-21T23:09:52.673533+00:00",
+      "generator": "ChatGPT image generation"
+    }
+  ],
+  "processing": "Final native source enlarged from 1060x1484 to 1500x2100 without crop; original retained byte-exact."
+}

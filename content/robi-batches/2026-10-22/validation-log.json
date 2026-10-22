@@ -1,0 +1,43 @@
+{
+  "batch": "2026-10-22",
+  "scope": "one unpublished wedding draft",
+  "renderer": {
+    "command": "node content/robi-batches/2026-10-22/prepare.mjs",
+    "result": "passed",
+    "defaultText": true,
+    "longText": true,
+    "sourceDimensions": [
+      1060,
+      1484
+    ],
+    "exportDimensions": [
+      1500,
+      2100
+    ],
+    "processing": "upscale_without_crop"
+  },
+  "editor": {
+    "command": "node content/robi-batches/2026-10-22/verify-wedding.mjs",
+    "result": "passed",
+    "completedAt": "2026-10-21T23:13:32.455Z",
+    "browserErrors": []
+  },
+  "pdfFilesOpened": {
+    "command": "pdftoppm",
+    "result": "passed",
+    "files": [
+      "examples/paunova-elegancija.pdf",
+      "examples/paunova-elegancija-editor.pdf"
+    ]
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "sourceMainCommit": "9c2a5a7457e721caf4d9672a3eadda601506abb1",
+    "draftRegistryIntegration": "not_done",
+    "note": "Existing main build passed; the new draft was not registered in the public catalog."
+  },
+  "nativeSourceAndOptimizedBlobHashesVerified": true,
+  "publicPageEditorExports": "NEPROVERENO",
+  "productionChanges": false
+}

@@ -1,0 +1,24 @@
+{
+  "textBounds500x700": {
+    "left": 84,
+    "right": 413,
+    "top": 67,
+    "bottom": 517
+  },
+  "fontSizesAt500Width": {
+    "names": 54,
+    "body": 15.5,
+    "date": 23,
+    "locations": 13.2,
+    "rsvp": 12.8
+  },
+  "comparedWithPreviousWedding": {
+    "names": "40 -> 54 (+35%)",
+    "body": "11 -> 15.5 (+41%)",
+    "locations": "10.5 -> 13.2 (+26%)",
+    "rsvp": "8 -> 12.8 (+60%)"
+  },
+  "alignment": "Names, join, invitation paragraph, date and RSVP centered at x=50%; two equally balanced location columns at x=28% and x=72%; actual default and long-text PNG/PDF inspected.",
+  "visualMarginReview": "Important feather motifs fully inset after two image-generation edits; visual estimates, not automatic segmentation.",
+  "userAestheticApproval": "not_requested_or_assumed"
+}

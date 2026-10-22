@@ -1,152 +1,109 @@
 {
   "batch": "2026-10-22",
-  "reviewedAt": "2026-10-21T23:02:17.563Z",
-  "overallStatus": "BLOCKED_BEFORE_GENERATION",
-  "categoryCount": 6,
-  "generatedCount": 0,
+  "reviewedAt": "2026-10-22T03:59:07Z",
+  "overallStatus": "INCOMPLETE_DELAYED_BLOCKED",
   "allPrePublicationChecksPassed": false,
+  "completeBatch": {
+    "status": "PALO",
+    "actual": 1,
+    "required": 6
+  },
   "checks": [
     {
       "category": "first",
-      "label": "Prvi rođendan",
       "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "reason": "Not generated; no dimensions, preview or public URL."
     },
     {
       "category": "eighteen",
-      "label": "18. rođendan",
       "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "reason": "Not generated; no dimensions, preview or public URL."
     },
     {
       "category": "birthday",
-      "label": "Dečji rođendan (3–10)",
       "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "reason": "Not generated; no dimensions, preview or public URL."
     },
     {
       "category": "wedding",
-      "label": "Venčanje",
-      "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "id": "paunova-elegancija",
+      "status": "PARTIAL_DRAFT_CHECKS_PASSED",
+      "preparationChecks": [
+        {
+          "check": "background_visual_integrity_no_text_single_image",
+          "status": "PROŠLO",
+          "evidence": "sources/paunova-elegancija.png"
+        },
+        {
+          "check": "aspect_ratio_dimensions_processing",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "safe_text_margins_contrast_long_text",
+          "status": "PROŠLO",
+          "evidence": "report.json"
+        },
+        {
+          "check": "decorative_margins",
+          "status": "PROŠLO",
+          "evidence": "previews/paunova-elegancija.webp",
+          "method": "separate visual review; bounds visually estimated after two image-generation edits"
+        },
+        {
+          "check": "serbian_fonts_and_license",
+          "status": "PROŠLO",
+          "evidence": "wedding-integrity.json"
+        },
+        {
+          "check": "distinct_motif",
+          "status": "PROŠLO",
+          "evidence": "wedding-integrity.json"
+        },
+        {
+          "check": "larger_text_space_and_centering",
+          "status": "PROŠLO",
+          "evidence": "typography-review.json"
+        },
+        {
+          "check": "editable_mobile_png_pdf",
+          "status": "PROŠLO",
+          "evidence": "wedding-browser-checks.json"
+        },
+        {
+          "check": "new_public_page_seo_and_adsense_integration",
+          "status": "NEPROVERENO",
+          "reason": "Metadata prepared; public catalog registration not done."
+        },
+        {
+          "check": "atomic_six_publication",
+          "status": "PALO",
+          "reason": "Only one draft, no publication attempted."
+        },
+        {
+          "check": "live_verification",
+          "status": "NEPROVERENO",
+          "evidence": "network-check.json"
+        }
+      ]
     },
     {
       "category": "baptism",
-      "label": "Krštenje",
       "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "reason": "Not generated; no dimensions, preview or public URL."
     },
     {
       "category": "baby",
-      "label": "Proslava rođenja deteta",
       "status": "NEPROVERENO",
-      "reason": "Javna provera serije 2026-10-21 nije potvrđena. Važeća mrežna politika ne dozvoljava napravipozivnicu.com; poslednji pokušaj kroz postojeći proxy završio se sa CONNECT 403. Opšta mrežna dozvola za ovaj rad nije izmenila enforced listu domena.",
-      "sourceDimensions": null,
-      "exportDimensions": null,
-      "requiredChecksNotRun": [
-        "image_generation",
-        "background_visual_review",
-        "editable_text_layout",
-        "larger_text_and_space_use",
-        "age_event_grouping_where_applicable",
-        "optical_alignment_where_applicable",
-        "mobile",
-        "png_pdf",
-        "build",
-        "seo",
-        "publication"
-      ],
-      "evidence": "network-check.json"
+      "reason": "Not generated; no dimensions, preview or public URL."
     }
   ],
-  "userReviewLedger": "agent/review-ledger.json",
+  "userAestheticReview": "not_given_for_new_draft",
   "points": {
     "regular": 1,
     "bonus": 0,
     "total": 1,
     "target": 50
   },
-  "pointsAwardedThisRun": 0,
-  "publicationAttempted": false,
-  "duplicateGeneration": false
+  "pointsAwardedThisAudit": 0
 }

@@ -1,0 +1,53 @@
+{
+  "id": "paunova-elegancija",
+  "sourceDimensions": [
+    1060,
+    1484
+  ],
+  "sourceSha256": "60e64793aff9f2de04d411dce186e0b7e36547ab04c4c625a001690049392c26",
+  "comparisonCount": 57,
+  "nearest": [
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+      "distance63": 16
+    },
+    {
+      "path": "public/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+      "distance63": 22
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-21/narova-prica-background-1728b424cc73.webp",
+      "distance63": 22
+    },
+    {
+      "path": "public/assets/pozivnice/vencanje/maslinov-zavet-pozadina-4ef6bffa0980.webp",
+      "distance63": 24
+    },
+    {
+      "path": "public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+      "distance63": 24
+    }
+  ],
+  "duplicate": false,
+  "motifReview": "Peacock feathers not present among the 61 recorded catalog motifs or cancelled trial motifs. Similarity hash is supporting evidence, not aesthetic approval.",
+  "fonts": [
+    {
+      "family": "Libre Caslon Display",
+      "missingSerbianGlyphs": [],
+      "license": "SIL OFL 1.1",
+      "cmapCheckedFiles": [
+        "node_modules/@fontsource/libre-caslon-display/files/libre-caslon-display-latin-400-normal.woff2",
+        "node_modules/@fontsource/libre-caslon-display/files/libre-caslon-display-latin-ext-400-normal.woff2"
+      ]
+    },
+    {
+      "family": "DM Sans",
+      "missingSerbianGlyphs": [],
+      "license": "SIL OFL 1.1",
+      "cmapCheckedFiles": [
+        "node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2",
+        "node_modules/@fontsource/dm-sans/files/dm-sans-latin-ext-400-normal.woff2"
+      ]
+    }
+  ]
+}
