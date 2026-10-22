@@ -455,7 +455,7 @@
       "id": "2026-10-23",
       "date": "2026-10-23",
       "path": "content/robi-batches/2026-10-23",
-      "status": "planned",
+      "status": "generating",
       "requiredCount": 6,
       "generatedCount": 0,
       "preparedCount": 0,
@@ -537,7 +537,8 @@
       "liveVerification": {
         "status": "pending",
         "knownPriorNetworkIssue": "Public checks on earlier dates deferred; not a creative production gate."
-      }
+      },
+      "startedAt": "2026-10-22T23:01:46Z"
     }
   ],
   "history": [
@@ -653,7 +654,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "planned",
+  "status": "generating",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -675,7 +676,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T23:01:11Z",
+  "updatedAt": "2026-10-22T23:01:46Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
