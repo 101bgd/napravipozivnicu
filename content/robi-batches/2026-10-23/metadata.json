@@ -1,0 +1,77 @@
+[
+  {
+    "id": "tukanova-prva-fiesta",
+    "name": "Tukanova prva fiesta",
+    "category": "first",
+    "audience": "male",
+    "age": 1,
+    "motif": "sa tukanom i tropskim listovima",
+    "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
+    "description": "Šarena pozivnica za prvi rođendan dečaka sa tukanom i tropskim listovima. Uredi ime i detalje proslave i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za prvi rođendan sa tukanom i tirkiznim tropskim listovima na koralnoj podlozi, sa velikim tamnoplavim izmenjivim tekstom",
+    "details": "Planirani tukan zauzima donji levi deo, a veliko ime, povezan broj jedan i naziv rođendana gornji deo. Datum je u sredini, dok su vreme, adresa i potvrda dolaska desno od ilustracije.",
+    "bg": "#fb765b"
+  },
+  {
+    "id": "elektricni-ritam",
+    "name": "Električni ritam",
+    "category": "eighteen",
+    "audience": "male",
+    "age": 18,
+    "motif": "sa električnim talasima i narandžastim akcentima",
+    "slug": "pozivnica-18-rodjendan-elektricni-talasi",
+    "description": "Pozivnica za 18. rođendan dečaka sa električnim talasima u cijan i narandžastoj boji na tamnoplavoj podlozi. Uredi tekst i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za osamnaesti rođendan sa cijan i narandžastim apstraktnim talasima na tamnoplavoj podlozi i krupnim svetlim tekstom",
+    "details": "Asimetrični plan ostavlja gornji levi deo za veliko ime i povezan broj 18 i naziv događaja. Vreme, adresa i potvrda dolaska smešteni su u miran donji desni deo.",
+    "bg": "#101d42"
+  },
+  {
+    "id": "zmajev-sareni-let",
+    "name": "Zmajev šareni let",
+    "category": "birthday",
+    "audience": "male",
+    "age": 4,
+    "motif": "sa zelenim zmajićem i šarenim brdima",
+    "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
+    "description": "Vesela pozivnica za dečji rođendan sa zelenim zmajićem i šarenim brdima. Primer je za četiri godine; ime, uzrast 3–10 i detalji su izmenjivi.",
+    "imageAlt": "Dečja pozivnica sa zelenim zmajićem, jarkožutim i crvenim brdima na plavoj podlozi i velikim tamnim tekstom za četvrti rođendan",
+    "details": "Krupno ime, uzrast i poruka raspoređeni su iznad planiranog zmajića. Detalji proslave ostaju čitljivi u levom delu. Broj četiri je zaseban sloj i može da se zameni uzrastom od tri do deset.",
+    "bg": "#269ce4"
+  },
+  {
+    "id": "zavet-pod-bugenvilijom",
+    "name": "Zavet pod bugenvilijom",
+    "category": "wedding",
+    "audience": "couple",
+    "motif": "sa bugenvilijom na tirkiznoj podlozi",
+    "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
+    "description": "Pozivnica za venčanje sa fuksija bugenvilijom na dubokoj tirkiznoj podlozi. Uredi imena mladenaca, obred i svadbenu proslavu i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za venčanje sa magenta bugenvilijom i zlatnim grančicama na tamnoj tirkiznoj podlozi, sa velikim svetlim imenima",
+    "details": "Asimetričan cvetni plan u gornjem levom delu ostavlja prostor desno za imena mladenaca. Podaci o obredu i proslavi imaju zasebna polja u dve kolone, a datum i potvrda dolaska povezuju kompoziciju.",
+    "bg": "#07545c"
+  },
+  {
+    "id": "plavi-vitraz",
+    "name": "Plavi vitraž",
+    "category": "baptism",
+    "audience": "male",
+    "motif": "sa plavim vitražom i zlatnim krstom",
+    "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
+    "description": "Pozivnica za krštenje dečaka sa plavim vitražom i zlatnim krstom. Uredi ime, crkvu i porodičnu proslavu i preuzmi PNG ili PDF za štampu.",
+    "imageAlt": "Pozivnica za krštenje sa kobaltnim i cijan vitražom, malim zlatnim krstom i velikim centriranim tekstom u svetloplavom središtu",
+    "details": "Geometrijski vitraž planiran je uz ivice, a mali krst iznad centriranog imena. Ime, obred, crkva i porodična proslava uređuju se zasebno u čistom plavom središtu.",
+    "bg": "#d3edf7"
+  },
+  {
+    "id": "vidrin-mali-zagrljaj",
+    "name": "Vidrin mali zagrljaj",
+    "category": "baby",
+    "audience": "male",
+    "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
+    "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
+    "description": "Pozivnica za proslavu rođenja dečaka sa vidrom i mladunčetom na tirkiznoj reci. Uredi ime bebe i podatke proslave i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za proslavu rođenja dečaka sa vidrom koja drži mladunče na tirkiznoj reci i velikim tamnim imenom ispod ilustracije",
+    "details": "Zagrljaj vidre i mladunčeta planiran je u gornjoj trećini. Veliko ime i poziv na proslavu rođenja ispod ilustracije imaju zajedničku optičku osu, uz jasno odvojene datum, vreme i adresu.",
+    "bg": "#9eddd1"
+  }
+]

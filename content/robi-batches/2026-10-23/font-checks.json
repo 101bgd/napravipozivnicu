@@ -1,0 +1,27 @@
+{
+  "scope": "existing_fonts_used_by_six_draft_layouts",
+  "fonts": [
+    {
+      "name": "Baloo 2",
+      "path": "public/assets/pozivnice/deciji-rodjendani/baloo2-600-sr-1281ff97216e.woff2",
+      "missingSerbianGlyphs": [],
+      "license": "public/assets/pozivnice/deciji-rodjendani/OFL-baloo2.txt",
+      "licensePresent": true
+    },
+    {
+      "name": "Cormorant Garamond",
+      "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
+      "missingSerbianGlyphs": [],
+      "license": "public/assets/pozivnice/krstenje/OFL-cormorant.txt",
+      "licensePresent": true
+    },
+    {
+      "name": "Marck Script",
+      "path": "public/assets/pozivnice/krstenje/rukopis-400-sr-fc70639fc26a.woff2",
+      "missingSerbianGlyphs": [],
+      "license": "public/assets/pozivnice/krstenje/OFL-marckscript.txt",
+      "licensePresent": true
+    }
+  ],
+  "status": "passed"
+}

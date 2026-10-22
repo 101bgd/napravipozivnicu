@@ -1,0 +1,38 @@
+[
+  {
+    "id": "elektricni-ritam",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  },
+  {
+    "id": "plavi-vitraz",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  },
+  {
+    "id": "tukanova-prva-fiesta",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  },
+  {
+    "id": "vidrin-mali-zagrljaj",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  },
+  {
+    "id": "zavet-pod-bugenvilijom",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  },
+  {
+    "id": "zmajev-sareni-let",
+    "scope": "diagnostic text-only PDF without original illustration",
+    "openedWith": "pdftoppm",
+    "status": "passed"
+  }
+]

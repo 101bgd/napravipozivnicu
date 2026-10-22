@@ -552,9 +552,50 @@
       "startedAt": "2026-10-22T23:01:46Z",
       "blockedStage": "original_image_generation",
       "independentWork": {
-        "status": "preparing_six_draft_layouts_and_repeatable_renderer",
-        "finalArtworkAvailable": false
-      }
+        "status": "draft_layouts_checked",
+        "draftSchemas": 6,
+        "seoMetadataDrafts": 6,
+        "defaultAndLongTextDiagnostics": "passed",
+        "serbianGlyphsAndFonts": "passed",
+        "diagnosticPngs": 12,
+        "diagnosticPdfs": 6,
+        "diagnosticPdfsOpened": 6,
+        "finalArtworkAvailable": false,
+        "finalArtworkOrPublicChecks": "unverified"
+      },
+      "draftLayoutCount": 6,
+      "report": "content/robi-batches/2026-10-23/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-23/quality-checklist.json",
+      "generationError": "content/robi-batches/2026-10-23/generation-error.json",
+      "prePublicationChecks": "not_passed_incomplete_batch",
+      "userReview": {
+        "status": "not_requested_incomplete_batch",
+        "pointsAwardedThisBatch": 0,
+        "aestheticApprovalAssumed": false
+      },
+      "notification": {
+        "channel": "ChatGPT",
+        "blockerProgressNoticeSentBeforeDeadline": true,
+        "finalReportPreparedAt": "2026-10-22T23:11:21Z",
+        "finalDeliveryTimeNotInferred": true
+      },
+      "artifactPersistence": {
+        "status": "text_ready_binary_upload_in_progress",
+        "controlPath": "content/robi-batches/2026-10-23",
+        "originalImages": 0,
+        "finalAssets": 0,
+        "diagnosticBinaryFilesUploaded": 7,
+        "diagnosticBinaryFilesRequired": 24,
+        "originalDimensionStatus": "unavailable",
+        "finalDimensionStatus": "unavailable"
+      },
+      "resumeActions": [
+        "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
+        "Retry ChatGPT image generation only when usable; save actual original files as sources/<id>.png and exact returned dimensions/prompts.",
+        "Run normal prepare.mjs with real originals; adjust text positions/colors to actual images, then rerun all final/mobile/PNG/PDF/palette/similarity/SEO/AdSense checks.",
+        "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
+        "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
+      ]
     }
   ],
   "history": [
@@ -692,7 +733,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T23:04:01Z",
+  "updatedAt": "2026-10-22T23:15:20Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",

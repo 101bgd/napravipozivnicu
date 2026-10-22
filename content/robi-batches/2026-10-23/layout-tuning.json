@@ -1,0 +1,32 @@
+{
+  "tukanova-prva-fiesta": {
+    "age": {
+      "x": 25.21905517578125,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 54.621603393554686
+    }
+  },
+  "elektricni-ritam": {
+    "age": {
+      "x": 16.597564697265625,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 47.0248046875
+    }
+  },
+  "zmajev-sareni-let": {
+    "age": {
+      "x": 26.731446838378908,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.133995056152344
+    }
+  },
+  "zavet-pod-bugenvilijom": {},
+  "plavi-vitraz": {},
+  "vidrin-mali-zagrljaj": {}
+}

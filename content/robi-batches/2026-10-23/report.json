@@ -1,0 +1,204 @@
+{
+  "dateTokyo": "2026-10-23",
+  "checkedAt": "2026-10-22T23:11:21Z",
+  "deadlineAt": "2026-10-23T10:00:00+09:00",
+  "status": "blocked",
+  "stage": "original_image_generation",
+  "requiredCount": 6,
+  "generatedCount": 0,
+  "preparedCount": 0,
+  "draftLayoutCount": 6,
+  "deployedCount": 0,
+  "verifiedPublicCount": 0,
+  "deadlineStatus": "not_due_at_report_preparation",
+  "blockers": [
+    {
+      "step": "original_image_generation",
+      "status": "blocked",
+      "httpStatus": 400,
+      "error": "Unknown parameter: 'reasoning'.",
+      "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
+      "retry": "A separate single-image call with only prompt also returned the same error.",
+      "observedAt": "2026-10-22T23:04:01Z",
+      "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned."
+    }
+  ],
+  "designs": [
+    {
+      "id": "tukanova-prva-fiesta",
+      "name": "Tukanova prva fiesta",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-tukan-tropski-listovi/",
+      "preview": "diagnostics/previews/tukanova-prva-fiesta.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "elektricni-ritam",
+      "name": "Električni ritam",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-elektricni-talasi/",
+      "preview": "diagnostics/previews/elektricni-ritam.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "zmajev-sareni-let",
+      "name": "Zmajev šareni let",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda/",
+      "preview": "diagnostics/previews/zmajev-sareni-let.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "zavet-pod-bugenvilijom",
+      "name": "Zavet pod bugenvilijom",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bugenvilija-tirkizna/",
+      "preview": "diagnostics/previews/zavet-pod-bugenvilijom.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "plavi-vitraz",
+      "name": "Plavi vitraž",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-plavi-vitraz-zlatni-krst/",
+      "preview": "diagnostics/previews/plavi-vitraz.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "name": "Vidrin mali zagrljaj",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "status": "blocked_missing_original_background",
+      "layoutStatus": "draft_schema_and_diagnostic_checks_passed",
+      "publicUrl": null,
+      "plannedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-vidra-mladunce/",
+      "preview": "diagnostics/previews/vidrin-mali-zagrljaj.webp",
+      "previewScope": "Text-only diagnostic on flat planned ground color; NOT a generated/final invitation.",
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    }
+  ],
+  "checks": {
+    "draftSchema": "passed",
+    "fontsAndSerbianGlyphs": "passed",
+    "defaultAndLongTextBounds": "passed_in_diagnostics",
+    "diagnosticPngPdf": "passed",
+    "finalBackgroundAndPalette": "unverified",
+    "publicIntegrationAndExports": "unverified"
+  },
+  "repairs": [
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "field": "rsvp",
+      "issue": "Long-text variant exceeded the60px safe inset at bottom.",
+      "change": "Moved RSVP from95.5% to94% y.",
+      "rechecked": "Both default and long-text diagnostic checks passed."
+    }
+  ],
+  "points": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50,
+    "awardedThisRun": 0
+  },
+  "productionModified": false,
+  "resumeActions": [
+    "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
+    "Retry ChatGPT image generation only when usable; save actual original files as sources/<id>.png and exact returned dimensions/prompts.",
+    "Run normal prepare.mjs with real originals; adjust text positions/colors to actual images, then rerun all final/mobile/PNG/PDF/palette/similarity/SEO/AdSense checks.",
+    "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
+    "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
+  ],
+  "notification": {
+    "channel": "ChatGPT",
+    "progressBlockerNoticeSent": true,
+    "finalReportPreparedAt": "2026-10-22T23:11:21Z",
+    "finalDeliveryTimeNotInferred": true
+  }
+}

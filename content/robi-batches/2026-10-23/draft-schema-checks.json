@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "six draft schemas and unique SEO metadata only; original artwork and public integration unverified",
+  "designs": [
+    {
+      "id": "tukanova-prva-fiesta",
+      "category": "first",
+      "seoTitle": "Pozivnica za 1. rođendan sa tukanom i tropskim listovima — Tukanova prva fiesta",
+      "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi"
+    },
+    {
+      "id": "elektricni-ritam",
+      "category": "eighteen",
+      "seoTitle": "Pozivnica za 18. rođendan sa električnim talasima i narandžastim akcentima — Električni ritam",
+      "slug": "pozivnica-18-rodjendan-elektricni-talasi"
+    },
+    {
+      "id": "zmajev-sareni-let",
+      "category": "birthday",
+      "seoTitle": "Pozivnica za dečiji rođendan sa zelenim zmajićem i šarenim brdima — Zmajev šareni let",
+      "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda"
+    },
+    {
+      "id": "zavet-pod-bugenvilijom",
+      "category": "wedding",
+      "seoTitle": "Pozivnica za venčanje sa bugenvilijom na tirkiznoj podlozi — Zavet pod bugenvilijom",
+      "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna"
+    },
+    {
+      "id": "plavi-vitraz",
+      "category": "baptism",
+      "seoTitle": "Pozivnica za krštenje sa plavim vitražom i zlatnim krstom — Plavi vitraž",
+      "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst"
+    },
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "category": "baby",
+      "seoTitle": "Pozivnica za rođenje deteta sa vidrom i mladunčetom na tirkiznoj reci — Vidrin mali zagrljaj",
+      "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce"
+    }
+  ]
+}

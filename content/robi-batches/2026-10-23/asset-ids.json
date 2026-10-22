@@ -1,0 +1,33 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "tukanova-prva-fiesta": {
+      "background": "d9726104-9b6c-51d2-985e-32baf25f967b",
+      "thumbnail": "186af3e7-fdb3-5e6a-b012-1b4050725db5"
+    },
+    "elektricni-ritam": {
+      "background": "19cbf5d6-131e-5eb7-be56-bacc17062d80",
+      "thumbnail": "6450d656-f851-5f28-9f42-990d57223613"
+    },
+    "zmajev-sareni-let": {
+      "background": "b7000558-74f8-5b2c-b0b3-d9c8f979f14b",
+      "thumbnail": "ea24bf22-8543-5650-9473-1bbb7e314793"
+    },
+    "zavet-pod-bugenvilijom": {
+      "background": "59a53f62-6d9d-50ba-9a83-ed5f9ed7e3d5",
+      "thumbnail": "ca94bc10-996c-56d4-906a-b3041d6da018"
+    },
+    "plavi-vitraz": {
+      "background": "aae78c5f-df11-5a23-9b1e-080b54d5ae25",
+      "thumbnail": "3669b808-edbf-55b4-ab44-05267b3aabdb"
+    },
+    "vidrin-mali-zagrljaj": {
+      "background": "a87f67cf-4487-5d4a-afa5-88d9a2f7fdba",
+      "thumbnail": "63f30617-4677-52b2-be5b-2e7969dae55e"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "scope": "draft code, diagnostic evidence only; no original or final illustrations exist",
+  "files": [
+    {
+      "path": "content/robi-batches/2026-10-23/README.md",
+      "bytes": 2620,
+      "gitBlobSha": "e07559c47bbd8ef345fe174ff13ad19efc9d614e",
+      "sha256": "c1e064bcaf0d026c7a71f033fba1aaf2fb768e998fcbc333f4e792760aef5c2e",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/REPORT.md",
+      "bytes": 3971,
+      "gitBlobSha": "0df8bbd4130606ff7e90134390a32e81ebb5f209",
+      "sha256": "5d1a802a1fd6df701d82a408d1673f42924635d70899ff97118cf3dc5cea6c28",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/asset-ids.json",
+      "bytes": 1126,
+      "gitBlobSha": "0f4f25d28f4d5d695423a41e00f5c4638f0c7778",
+      "sha256": "a8a4b86778950ae82d60cd40c392277a99b39a05e7ae462e481dbc622bd90545",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/designs.json",
+      "bytes": 47659,
+      "gitBlobSha": "4b24874dcb76b94fe95decbabc4d2c5ad684113c",
+      "sha256": "25271186824de96afc5e456f6d49eed2cfd02540fc722665324d63f6f6bf8dcc",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/designs.mjs",
+      "bytes": 6061,
+      "gitBlobSha": "a97aea98b401b70da383e3e6b53372fd4b3be48c",
+      "sha256": "11494f4e2785349aca29199756bcefb53ae269b890adea87a78e19cd12610f52",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam-long-text.png",
+      "bytes": 215601,
+      "gitBlobSha": "48403d6b5a0a2fc2194cb3e7adf9c0beccaed809",
+      "sha256": "1f0cf46a9b21a5d4d34dc27e0b387cbce6ca6f19c9d5799b8a5ac0cced77f4e5",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam.pdf",
+      "bytes": 124671,
+      "gitBlobSha": "a78deda4f056712a866e261be8154b3d2b0098a0",
+      "sha256": "0b84e77f587116b53498bc0d0f608f1c465ee891d3fcb674a10f97e20486c6e2",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam.png",
+      "bytes": 175543,
+      "gitBlobSha": "d13c75ac45bbaf27ebf777b278051102d014dad5",
+      "sha256": "dc537f4ef24072d790ab82e79c36d846ba36146dbf131e249da8f22cdcf9059b",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz-long-text.png",
+      "bytes": 252431,
+      "gitBlobSha": "bd6a91bb8a1ad2d8bf77af2d1fbe1fbcb43568b9",
+      "sha256": "049cc0984d0ff112eb633d0a557e0815a96260ebc31c1b4e22a8db0d5586934a",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz.pdf",
+      "bytes": 144527,
+      "gitBlobSha": "c2f6ca44c3fb8fd62e7e4493cd8eb8056703b1c5",
+      "sha256": "b7ecd68ec7dfab4b7e54e47c8da7eb414b2a049fd4fdfd2c190ccf5e38b593c5",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz.png",
+      "bytes": 210000,
+      "gitBlobSha": "38803ce5b964095e5ab7cd20c9d64666eacd626b",
+      "sha256": "f4d1d20e09d973987c2af1ccdd19da224d5bb1698cbbf1627fee86a5ad954b28",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta-long-text.png",
+      "bytes": 209931,
+      "gitBlobSha": "85741a070376a749b8c103915040cb249963dd91",
+      "sha256": "dad8d9b5c77fce6c028a499d031d0539769b2749faf4a451a2de0e5d707263c3",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta.pdf",
+      "bytes": 126895,
+      "gitBlobSha": "098581f52432818ec51ceb28f724e54478e4367b",
+      "sha256": "9ac81fb384d68f2f35ed45819ad239c253659796515e99328827078c81b7d5cd",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta.png",
+      "bytes": 162690,
+      "gitBlobSha": "e0bf7516dc7ab584b5ca27edf1deba8d1744355a",
+      "sha256": "49e97fe72e29a8a96d15ab1c6de928d1759c02ab770609426c87cc2d6201d38c",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj-long-text.png",
+      "bytes": 234272,
+      "gitBlobSha": "e4c1091b5dd41ce8a44d1e90e2e57b449b3a70b3",
+      "sha256": "fee99eb66904a5277def3d8b1e0a6987c99150d4db57ffbf7533b3e744cc5195",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj.pdf",
+      "bytes": 135804,
+      "gitBlobSha": "9b02710e70cf8aef01fd677ca89c41d06405d101",
+      "sha256": "29d5823be5f5240c3870335feec37a1c86eaf3c6da576bbf68500443306d0e17",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj.png",
+      "bytes": 205852,
+      "gitBlobSha": "02dfbe248489f17c87be4f19fdbd234164e0c232",
+      "sha256": "eb4dfe036906225a12136eaa73c2f0a18af54cec743e61d2f1943357588ffb98",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom-long-text.png",
+      "bytes": 268368,
+      "gitBlobSha": "b31138ea75b9a6d1050026f41879fa53b32d13e1",
+      "sha256": "762bb22a6b0d7284ac67a90772f5f52d41095fa407a27f56dc1fbf6ecd37d4bf",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom.pdf",
+      "bytes": 184972,
+      "gitBlobSha": "be1fb74f001401526a37af2a7d4ce510434f4aa2",
+      "sha256": "04ed492ad424f5c994927e07248b0d3b1b8965a7e7fc88a5a76530ba7929e02e",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom.png",
+      "bytes": 221027,
+      "gitBlobSha": "cb0b87d8d2dcd83a317493d4778af0b147b7701b",
+      "sha256": "1b7f75bb9b420981464260d30802f4ae163af30481481283ebdca7d86a3aeebe",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let-long-text.png",
+      "bytes": 220862,
+      "gitBlobSha": "fcd175cca3054db401ae1f09a1735e4c67892aa1",
+      "sha256": "6658c8f0610e36c9f0444ca225758bc2250b64ddb5e5cfbcc3c5decb8e4368d0",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let.pdf",
+      "bytes": 124890,
+      "gitBlobSha": "0ed27173170a367fb03f5fc9979d8aa0b4fda135",
+      "sha256": "0b31d7a561cf1ca8808f7fb0b7091a7e9a2e5dabe7af07d8f1995a5c1cca82d2",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let.png",
+      "bytes": 172879,
+      "gitBlobSha": "0c2befe2aad82b583792c33a285ea2cd965f01e9",
+      "sha256": "82e3fbb88ad44491b40fa393f0890d770276ab01bae73da3468d37d1d500df22",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/pdf-open-checks.json",
+      "bytes": 992,
+      "gitBlobSha": "26b155b18797139f1f39ba5f588bc06d1aa02ce4",
+      "sha256": "f76ab2c00ca7d6dc69310143acfa1a4eb340a40f5577005e8c0b7ce77770adf9",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/elektricni-ritam.webp",
+      "bytes": 12624,
+      "gitBlobSha": "68aafdb8b899919c1a432278b1046b55f329fbf6",
+      "sha256": "538bdfe013bd04d43b2b88791a2345e938e58449cbf32d4420a5991dd476a32a",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/plavi-vitraz.webp",
+      "bytes": 15484,
+      "gitBlobSha": "be7a3dcb036c7d72a4678a370c532b3c3c93bb10",
+      "sha256": "4dce01f3429930502951e99d06d722d1b01e8a75b70f21066cd43a42b4cd7e02",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/tukanova-prva-fiesta.webp",
+      "bytes": 12772,
+      "gitBlobSha": "0a2f6f82a86a928fb194c27b5b05d1023c78d985",
+      "sha256": "4c5cb8a51ea7a56d1ae7e81393918e9d3e69cab409192d789588945306f7aca8",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/vidrin-mali-zagrljaj.webp",
+      "bytes": 13742,
+      "gitBlobSha": "71e7eb699930b348cfeeb08b37163f35623e9175",
+      "sha256": "df4954ec1d5d539425c43f059607b64c642288ac6e1275d8e76f8d21ce6fa7f8",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/zavet-pod-bugenvilijom.webp",
+      "bytes": 20640,
+      "gitBlobSha": "eb31bcb2f72c574f81ffa1cf48f43f1fa996d443",
+      "sha256": "65e80e2e0534aff2be529fb71df0107691bfd7111378abc404b6daa9440a8e5c",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/zmajev-sareni-let.webp",
+      "bytes": 13268,
+      "gitBlobSha": "095ed61df98d4194c4506d0061bd352f982edc41",
+      "sha256": "d75f60ff67c973b1ac50cc65b5d7e9e3e9bd05de3b899c13d93179364d80e89d",
+      "binary": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/report.json",
+      "bytes": 44677,
+      "gitBlobSha": "92be0ea9bb38ea2fb54ea6fec1746efb8730d548",
+      "sha256": "6d3b737d2340feab3ec208026a90d92a5f9cd0c07f71bbc08dd807a29fe171d4",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/draft-schema-checks.json",
+      "bytes": 1648,
+      "gitBlobSha": "92d4f1dd612d0d8e296a7d6cd147752e414743c6",
+      "sha256": "e09fea48e3c02c704a39e369c0e35b09618d092f17664b19a0a87339961dc42b",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/font-checks.json",
+      "bytes": 899,
+      "gitBlobSha": "4b826f0e78c169e89d5a7bf3699a2ccf2d1a0b70",
+      "sha256": "bc8631d1fbc43c82b3ca2ee75a3f0e8ad1987e5e0df049445356edd8dbd99eba",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/generation-error.json",
+      "bytes": 488,
+      "gitBlobSha": "9a5beaf27ae0a1756b8d2c0266b9f8cd40c32dd2",
+      "sha256": "1dbdebd90ab42cd5f093ea26ff91db92fbbb50e4a9dfa6587675acde197223ab",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/image-prompts.json",
+      "bytes": 12447,
+      "gitBlobSha": "1cb870163c432cfeb6e77d6882ac03a7f5803973",
+      "sha256": "d0e5dfe681f19a86774fc32927a3d4573a4ee76f29f4789d579c0ce5c3b1fefd",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/layout-tuning.json",
+      "bytes": 557,
+      "gitBlobSha": "32d06eb309ce460884c1fc0459540ccb89a78ea4",
+      "sha256": "07f98309ef7fa1af237b4b1a4b75547fca6ba20403b6f57d52144d6135af8302",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/metadata.json",
+      "bytes": 4720,
+      "gitBlobSha": "d2e502c8450ac84423d36a25d1865436c6cd036b",
+      "sha256": "b5738d6dcac922401035c5c838c11ea554782b74cea135fe62b2e3c935d8d88a",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/plan.json",
+      "bytes": 13605,
+      "gitBlobSha": "b382af3fe622f326e23569c954e16fe8bf833499",
+      "sha256": "325fea624a0a3e3b3510fa88687227ebba37d9eff856f0c9b937757ecc6518bd",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/prepare.mjs",
+      "bytes": 11136,
+      "gitBlobSha": "3b4843e7862b6b94fa3eac1994f6e754f739c259",
+      "sha256": "50891e76cb95a42edc736d742d9430658d943d4b7d37079302d7eab29b0c2020",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/quality-checklist.json",
+      "bytes": 33780,
+      "gitBlobSha": "b02d6e9262b27e27ec4757ad15b488f88a74958e",
+      "sha256": "b468fab40c337d031a7788bd4a3068baa603cc8db09b6762713ce884c3179b80",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/renderer-entry.mjs",
+      "bytes": 122,
+      "gitBlobSha": "3ad50c45598a57e5cee7a9caa051cd4cb4b64373",
+      "sha256": "df800201ff9f900d68d01e795e00861c4c71c081c0659af2bdd88edea09c94e9",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/report.json",
+      "bytes": 7364,
+      "gitBlobSha": "81339d5360fccdeee350fc957bc6353aff0f4571",
+      "sha256": "8ef8606fc5b5e244ae6e0ef0ec5d6fd703cab9c3921ebf5938a6117421ecfc01",
+      "binary": false
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/used-fonts.json",
+      "bytes": 891,
+      "gitBlobSha": "d6cf535db76cac022288a086a2caa3f90e8da91d",
+      "sha256": "65eda2e0619e29f5b73b60674bd155b2cfd75f626c86d8c998f94b7cd347f843",
+      "binary": false
+    }
+  ]
+}
