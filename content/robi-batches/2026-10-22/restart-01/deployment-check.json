@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-22T05:00:29Z",
+  "repository": "101bgd/napravipozivnicu",
+  "branch": "main",
+  "commit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+  "checkId": 119641059677,
+  "status": "completed",
+  "conclusion": "success",
+  "completedAt": "2026-10-22T04:34:57Z",
+  "githubCheckUrl": "https://github.com/101bgd/napravipozivnicu/runs/119641059677",
+  "cloudflareDetailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e6208012-3954-4b1a-b029-b96ff8963543",
+  "previewUrl": "https://e6208012.napravipozivnicu.pages.dev",
+  "allSixAtomic": true,
+  "publicLiveVerification": "deferred_by_user",
+  "deadlineMet": false
+}

@@ -170,12 +170,12 @@
       "id": "2026-10-22",
       "date": "2026-10-22",
       "timezone": "Asia/Tokyo",
-      "status": "publishing",
+      "status": "blocked",
       "path": "content/robi-batches/2026-10-22/restart-01",
       "requiredCount": 6,
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -183,7 +183,7 @@
       "scheduledStartAt": "2026-10-22T08:00:00+09:00",
       "startedAt": "2026-10-21T23:00:12Z",
       "deadlineAt": "2026-10-22T10:00:00+09:00",
-      "blockedStage": null,
+      "blockedStage": "post_publication_verification_deferred",
       "dependsOnBatch": "2026-10-21",
       "audience": "female",
       "birthdayAge": 3,
@@ -194,7 +194,7 @@
           "id": "puzicina-jagodica",
           "name": "Pužicina jagodica",
           "category": "first",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "female",
           "age": 1,
           "sourceDimensions": [
@@ -212,7 +212,7 @@
           "id": "kraljica-veceri",
           "name": "Kraljica večeri",
           "category": "eighteen",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "female",
           "age": 18,
           "sourceDimensions": [
@@ -230,7 +230,7 @@
           "id": "rakunicina-sarena-zurka",
           "name": "Rakuničina šarena žurka",
           "category": "birthday",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "female",
           "age": 3,
           "sourceDimensions": [
@@ -248,7 +248,7 @@
           "id": "ahatni-zavet",
           "name": "Ahatni zavet",
           "category": "wedding",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "couple",
           "sourceDimensions": [
             1060,
@@ -265,7 +265,7 @@
           "id": "bademov-blagoslov",
           "name": "Bademov blagoslov",
           "category": "baptism",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "female",
           "sourceDimensions": [
             1060,
@@ -282,7 +282,7 @@
           "id": "kolica-puna-radosti",
           "name": "Kolica puna radosti",
           "category": "baby",
-          "status": "deployment_pending",
+          "status": "deployed_live_verification_deferred",
           "audience": "female",
           "sourceDimensions": [
             1060,
@@ -315,12 +315,9 @@
       ],
       "notification": {
         "channel": "ChatGPT",
-        "preparedAt": "2026-10-22T03:59:07Z",
-        "deadline": "2026-10-22T10:00:00+09:00",
-        "deliveryConfirmation": "Full final ChatGPT report follows this saved audit, after 10:00; file preparation is not a delivery receipt.",
-        "initialPreparedAt": "2026-10-21T23:02:17.563Z",
-        "finalReportByDeadline": false,
-        "intermediateUpdatesBeforeDeadline": true
+        "deploymentAnnouncedAt": "2026-10-22T05:00:29Z",
+        "originalDeadline": "2026-10-22T10:00:00+09:00",
+        "onTime": false
       },
       "independentWork": {
         "category": "wedding",
@@ -336,9 +333,10 @@
       "prePublicationChecks": "passed",
       "artifactPersistence": {
         "status": "in_progress",
-        "optimizedAssets": "12 verified uploaded WebP blobs; commit now",
-        "nativeSources": "all nine native generation/edit PNG files saved locally; GitHub upload follows publication",
-        "examples": "actual PNG/PDF examples saved locally; GitHub upload follows publication"
+        "nativeSourcePngCount": 9,
+        "optimizedAssetCount": 12,
+        "examplesOnGitHub": "pending",
+        "fullLocalArchive": "/workspace/artifacts/robi-2026-10-22/restart-01/Robi-22-10-2026-sest-pozivnica.zip"
       },
       "audit": {
         "checkedAt": "2026-10-22T03:59:07Z",
@@ -386,11 +384,21 @@
       "mainCommit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
       "mainUpdatedAt": "2026-10-22T04:34:18Z",
       "publication": {
-        "status": "deployment_pending",
+        "status": "deployed",
         "atomic": true,
         "commit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
         "expectedParent": "9c2a5a7457e721caf4d9672a3eadda601506abb1",
-        "mainUpdatedAt": "2026-10-22T04:34:18Z"
+        "mainUpdatedAt": "2026-10-22T04:34:18Z",
+        "cloudflareCheckId": 119641059677,
+        "cloudflareConclusion": "success",
+        "completedAt": "2026-10-22T04:34:57Z",
+        "completedAtTokyo": "2026-10-22T13:34:57+09:00",
+        "completedBeforeDeadline": false,
+        "evidence": "content/robi-batches/2026-10-22/restart-01/deployment-check.json"
+      },
+      "liveVerification": {
+        "status": "deferred_by_user",
+        "reason": "Explicit user instruction to do the work now and address 403 later; no public page/editor/export success asserted."
       }
     }
   ],
@@ -446,18 +454,30 @@
     },
     {
       "id": "2026-10-22",
-      "status": "incomplete_delayed",
+      "status": "deployed_verification_deferred",
       "countsAsDailyDelivery": false,
       "designIds": [
-        "paunova-elegancija"
+        "puzicina-jagodica",
+        "kraljica-veceri",
+        "rakunicina-sarena-zurka",
+        "ahatni-zavet",
+        "bademov-blagoslov",
+        "kolica-puna-radosti"
       ],
       "motifs": [
-        "teal peacock feathers and muted gold branches"
+        "sa pužicom i jagodom",
+        "sa šahovskom kraljicom i orhidejom",
+        "sa rakunicom slikarkom i bojama",
+        "sa slojevima ahata i zlatnim linijama",
+        "sa bademovim cvetom i krstom",
+        "sa roze kolicima i malim srcem"
       ],
-      "source": "content/robi-batches/2026-10-22/designs.json",
-      "published": false,
+      "source": "content/robi-batches/2026-10-22/restart-01/plan.json",
+      "published": true,
       "advanceAudience": false,
-      "reuseForDailyPublication": false
+      "reuseForDailyPublication": false,
+      "mainCommit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+      "deployedAt": "2026-10-22T04:34:57Z"
     }
   ],
   "automations": {
@@ -481,7 +501,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-22",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -503,7 +523,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T04:34:18Z",
+  "updatedAt": "2026-10-22T05:00:29Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-21",
     "source": "content/robi-batches/2026-10-21/user-review.json",
@@ -521,5 +541,11 @@
     "targetPoints": 50,
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
-  }
+  },
+  "plannedNextAudience": "male",
+  "plannedNextBirthdayAgeByAudience": {
+    "male": 4,
+    "female": 4
+  },
+  "planningNote": "Planned creative sequence derives from the actually deployed male age-3 batch on 21 October and female age-3 batch on 22 October. Confirmed nextAudience/age remains unchanged until required verification; pending live checks must not stop creative production per explicit user direction."
 }

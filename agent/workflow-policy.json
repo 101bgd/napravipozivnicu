@@ -265,5 +265,14 @@
     "implement_and_test_atomic_six_template_publication",
     "implement_evidence_backed_quality_gates_and_persistent_history"
   ],
-  "pendingClarifications": []
+  "pendingClarifications": [],
+  "activeUserDirective": {
+    "dateTokyo": "2026-10-22",
+    "source": "ChatGPT",
+    "quote": "Okej, kreni sa poslom ispocetka, sve sto si trebao od jutros sad kreni, posle cemo videti za taj 403, sad se fokusiraj na svoj posao",
+    "creativeWorkMustContinueWhenLiveChecksBlocked": true,
+    "live403ResolutionDeferred": true,
+    "allSixPrePublicationChecksStillRequired": true,
+    "doNotClaimUnperformedLiveChecks": true
+  }
 }

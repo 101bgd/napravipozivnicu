@@ -120,9 +120,14 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     },
@@ -241,9 +246,14 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     },
@@ -362,9 +372,14 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     },
@@ -482,9 +497,14 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     },
@@ -602,9 +622,14 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     },
@@ -722,14 +747,19 @@
       ],
       "postPublication": [
         {
+          "check": "deployment",
+          "status": "PROŠLO",
+          "evidence": "deployment-check.json"
+        },
+        {
           "check": "published_site_verification",
           "status": "NEPROVERENO",
-          "detail": "Explicitly deferred by user while 403 is unresolved."
+          "detail": "Deferred by explicit user instruction; 403 not bypassed."
         }
       ]
     }
   ],
-  "overallStatus": "PUBLISHING",
+  "overallStatus": "DEPLOYED_LIVE_VERIFICATION_DEFERRED",
   "userAestheticApproval": "not_assumed",
   "pointsAwarded": 0,
   "deadline": {
