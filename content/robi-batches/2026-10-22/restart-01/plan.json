@@ -1,0 +1,61 @@
+{
+  "batch": "2026-10-22",
+  "attempt": "restart-01",
+  "userRequestedFullRestart": true,
+  "dateTimezone": "Asia/Tokyo",
+  "plannedAudience": "female",
+  "birthdayAge": 3,
+  "designs": [
+    {
+      "id": "puzicina-jagodica",
+      "name": "Pužicina jagodica",
+      "category": "first",
+      "audience": "female",
+      "age": 1,
+      "motif": "sa pužicom i jagodom",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: a tender first birthday for a little girl. One charming tiny snail with a softly peach shell beside ONE ripe strawberry and a small strawberry blossom, illustrated in refined opaque storybook gouache, warm ivory, pale mint, muted strawberry red. Place the complete little scene in the LOWER RIGHT quadrant, within x=62–88%, y=73–90%. A few very small soft mint leaves at upper left, safely inset. Keep central/upper 80% of the page pale ivory and calm; no dense surrounding floral frame. Gentle playful handmade brush shapes, no childish lettering, no candles, no birthday numerals. The snail and strawberry are readable cute characters with sound anatomy. Compositional emphasis is asymmetrical lower-right; leave especially clear space at upper center and lower left."
+    },
+    {
+      "id": "kraljica-veceri",
+      "name": "Kraljica večeri",
+      "category": "eighteen",
+      "audience": "female",
+      "age": 18,
+      "motif": "sa šahovskom kraljicom i orhidejom",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: a sophisticated eighteenth birthday for a young woman, fashion editorial illustration. A sculptural matte black CHESS QUEEN (not a king, no religious cross, no lettering), beside one magenta orchid bloom on a restrained curved stem. Clean elegant vector-like shapes with refined material accents; palette blush ivory, black ink, deep fuchsia and a small muted gold accent. Both objects fully inside the RIGHTMOST quarter, x=68–88%, y=52–86%, queen tall but confined to that quarter. A small abstract muted coral circle near upper right x=82%, y=15%, no other symbols. Broad LEFT AND CENTRAL region x=10–66%, y=10–88% is a light quiet blush-ivory field for a large left-aligned name and large editable age, followed by invitation details. No checkerboard, no crown floating separately, no numbers, no text. Chic and celebratory, not dark or sinister."
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "name": "Rakuničina šarena žurka",
+      "category": "birthday",
+      "audience": "female",
+      "age": 3,
+      "motif": "sa rakunicom slikarkom i bojama",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: a playful third birthday for a little girl. One adorable fluffy gray raccoon artist in a tiny coral apron holding a single paintbrush, with three small paint pots in turquoise, sunflower yellow and coral. Joyful bold children's gouache illustration with neat shapes, warm cream ground, no text or markings on pots. Raccoon scene centered ONLY in the BOTTOM band x=28–73%, y=73–91%; paintbrush tip also stays in this band, all parts fully inset. A few isolated soft paint dabs near side margins x=10% and x=90% at y=25% and y=55%; leave central x=15–85% and y=10–69% very clean for a large centered name, editable age with birthday word grouped together and event details. The raccoon has two arms and clear friendly eyes, no extra limbs, no hands of real people. Do not make a collage."
+    },
+    {
+      "id": "ahatni-zavet",
+      "name": "Ahatni zavet",
+      "category": "wedding",
+      "audience": "couple",
+      "motif": "sa slojevima ahata i zlatnim linijama",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: refined contemporary wedding stationery. A flat painted mineral agate composition: elegant flowing bands of dusty plum, blush, mauve, warm ivory and very fine muted gold veins. One modest agate-shaped cluster near UPPER LEFT x=8–27%, y=8–24%, another balancing cluster near LOWER RIGHT x=72–91%, y=79–91%. Important veins and contours fully inside generous margins. These are decorative FLAT abstract mineral forms, not photographs of rocks, no 3D geode objects, no perspective, no crystals floating, no gemstones laid on paper. Faint tonal wisps can extend to edges but CENTRAL region x=16–84%, y=15–79% must remain almost uniform warm ivory for LARGE centered names and wedding details. Modern painterly texture and gentle organic geometry, airy yet distinctive, no botanical or peacock motifs."
+    },
+    {
+      "id": "bademov-blagoslov",
+      "name": "Bademov blagoslov",
+      "category": "baptism",
+      "audience": "female",
+      "motif": "sa bademovim cvetom i krstom",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: a little girl's Serbian Orthodox baptism, delicate watercolor and fine botanical drawing. One small plain uninscribed Orthodox cross in pearl ivory and soft champagne gold centered at x=50%, y=14%, no writing, no figure, no logos. Cross silhouette is simple and proportionate, fully within x=44–56%, y=8–20%. Small delicate almond blossom branches with pale blush flowers and sage buds near LOWER LEFT x=10–27%, y=77–90% and LOWER RIGHT x=75–89%, y=81–90%. Quiet warm white ground, a very faint blush watercolor wash, no drapery, no ribbons, no baptismal font, no church building or angels. CENTRAL region x=15–85%, y=25–76% is clear for large centered editable name, occasion and ceremony details. Keep flower branches modest, not a dense rectangular floral frame."
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "name": "Kolica puna radosti",
+      "category": "baby",
+      "audience": "female",
+      "motif": "sa roze kolicima i malim srcem",
+      "prompt": "Create ONE completely original invitation BACKGROUND, one single full-bleed upright image, EXACT 5:7 aspect ratio, preferred 1500x2100 pixels. No text, letters, numbers, logo, signature, watermark, pseudo-writing or printed labels. No collage, grid, panels or multiple variants. No mockup, paper sheet, tabletop, hands, perspective view of stationery, external shadow or border frame. Flat straight-on artwork filling the canvas. All important ornaments MUST be fully visible, uncropped and at least 8% of the image width away from EVERY edge; ground and faint texture alone may reach edges. Keep a broad genuinely calm high-contrast area for LARGE editable invitation text; do not fill it with details. Elegant crisp forms suitable for mobile and print. Do not render any concept title. Theme: invitation to a celebration of the birth of a baby girl. Delicate ink-and-wash vintage-inspired illustration of ONE small dusty-rose baby pram in FLAT SIDE PROFILE with two clearly drawn wheels and a curved hood, no visible baby, no people or human hands, no brand labels. Pram centered in the UPPER THIRD, wholly within x=33–67%, y=16–34%. A single tiny warm-gold heart floats gently above it, fully inset. Warm creamy-white ground with a faint peach wash and a few barely visible soft dots, no bow, no stars, no flowers, no knitted booties, no cradle or birds. Leave x=12–88%, y=40–91% calm and open for a LARGE centered baby name, invitation to birth celebration and event details. Clean gentle linework and softly pigmented rose, mocha and cream. One whole flat invitation background, no separate objects photographed on a desk."
+    }
+  ]
+}
