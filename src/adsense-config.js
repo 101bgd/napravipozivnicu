@@ -1,5 +1,5 @@
 // Only these identifiers are persisted. Pasted HTML/JavaScript is never executed.
-export const DEFAULT_ADSENSE = Object.freeze({ enabled: false, publisherId: '', slotId: '' });
+export const DEFAULT_ADSENSE = Object.freeze({ scriptEnabled: true, enabled: false, publisherId: 'ca-pub-6151181163851577', slotId: '' });
 const publisherPattern = /^ca-pub-\d{16}$/;
 const slotPattern = /^\d{10}$/;
 
@@ -16,16 +16,26 @@ export function parseAdSenseCode(code) {
 
 export function normalizeAdSense(input) {
   if (!input || typeof input.enabled !== 'boolean') throw new Error('Izaberi da li su oglasi uključeni.');
+  const scriptEnabled = input.scriptEnabled ?? true;
+  if (typeof scriptEnabled !== 'boolean') throw new Error('Izaberi da li je AdSense kod u zaglavlju uključen.');
   const ids = 'code' in input ? parseAdSenseCode(input.code) : { publisherId: input.publisherId, slotId: input.slotId };
   if (typeof ids.publisherId !== 'string' || (ids.publisherId && !publisherPattern.test(ids.publisherId))) throw new Error('Publisher ID treba da počinje sa ca-pub- i ima 16 cifara.');
   if (typeof ids.slotId !== 'string' || (ids.slotId && !slotPattern.test(ids.slotId))) throw new Error('ID reklamne jedinice treba da ima 10 cifara.');
   if (ids.slotId && !ids.publisherId) throw new Error('Nedostaje AdSense publisher ID.');
+  if (scriptEnabled && !ids.publisherId) throw new Error('Za kod u zaglavlju dodaj AdSense publisher ID.');
+  if (input.enabled && !scriptEnabled) throw new Error('Za prikaz reklamnog bloka uključi i AdSense kod u zaglavlju.');
   if (input.enabled && (!ids.publisherId || !ids.slotId)) throw new Error('Za uključivanje nalepi ceo kod prikaznog oglasa iz AdSense → Oglasi → Po oglasnoj jedinici.');
-  return { enabled: input.enabled, ...ids };
+  return { scriptEnabled, enabled: input.enabled, ...ids };
 }
 
 export function storedAdSense(value) {
-  try { return normalizeAdSense(JSON.parse(value)); } catch { return { ...DEFAULT_ADSENSE }; }
+  try {
+    const input = JSON.parse(value);
+    // Older installations can contain a saved, empty configuration. Activate
+    // the supplied site account on deployment without overwriting configured IDs.
+    if (input && !('scriptEnabled' in input) && input.enabled === false && input.publisherId === '' && input.slotId === '') return { ...DEFAULT_ADSENSE };
+    return normalizeAdSense(input);
+  } catch { return { ...DEFAULT_ADSENSE }; }
 }
 
 export function adSenseCode({ publisherId, slotId }) {

@@ -1,6 +1,6 @@
 # Napravi pozivnicu
 
-Sajt za domen `napravipozivnicu.com`, na srpskom (latinica), sa svetlim izgledom i rasporedom prvenstveno prilagođenim telefonu. Početna strana vodi preko glavnog dugmeta „Napravi pozivnicu“ u zaseban meni kategorija na `/pozivnice/`. Javni editor obrađuje tekst i fotografije u pregledaču. Admin šabloni koriste Cloudflare Pages Functions, D1 i R2; prijava administratora ide kroz Cloudflare Access. Posetioci nemaju naloge ni plaćanje. AdSense blokovi su pripremljeni na svim javnim stranicama, a oglasi su isključeni dok se ne podese u adminu.
+Sajt za domen `napravipozivnicu.com`, na srpskom (latinica), sa svetlim izgledom i rasporedom prvenstveno prilagođenim telefonu. Početna strana vodi preko glavnog dugmeta „Napravi pozivnicu“ u zaseban meni kategorija na `/pozivnice/`. Javni editor obrađuje tekst i fotografije u pregledaču. Admin šabloni koriste Cloudflare Pages Functions, D1 i R2; prijava administratora ide kroz Cloudflare Access. Posetioci nemaju naloge ni plaćanje. AdSense kod naloga je u zaglavlju svih javnih produkcionih stranica; ručni reklamni blok uključuje se zasebno u adminu.
 
 ## Pokretanje
 
@@ -96,15 +96,19 @@ Build čuva statičke primerke osnovnih stranica, a Worker dodaje objavljene ša
 
 Metapodaci i javna adresa `kontakt@napravipozivnicu.com` su u `src/info-content.js`, a tekst u `src/info-page.js`. Stranice se predstavljaju u ime brenda Napravi pozivnicu, bez imena i prezimena vlasnika. Kontakt koristi običan `mailto:` link; aplikacija ne šalje mejl niti prikuplja podatke preko kontakt forme. Dostava mejla zavisi od podešavanja mejl usluge za domen.
 
-Politika privatnosti opisuje obradu u javnom editoru, lokalni nacrt, Cloudflare, kontakt poruke i opcione AdSense oglase, uz veze ka Google pravilima i podešavanjima privatnosti. Datum teksta je 21. oktobar 2026. Google Analytics nije uključen.
+Politika privatnosti opisuje obradu u javnom editoru, lokalni nacrt, Cloudflare, kontakt poruke i opcione AdSense oglase, uz veze ka Google pravilima i podešavanjima privatnosti. Datum Politike privatnosti je 22. oktobar 2026. Google Analytics nije uključen.
 
 ## AdSense reklame
 
 U `/admin/sabloni/` kliknuti **AdSense reklame** (direktno `/admin/sabloni/#adsense`), nalepiti kod prilagodljive prikazne reklamne jedinice iz Google AdSense naloga, uključiti prikaz i sačuvati. Podešavanja se čuvaju u postojećoj tabeli D1 `settings`, pod ključem `adsense`; nova migracija i ponovno objavljivanje nisu potrebni. Isti blok nalazi se pre podnožja na početnoj strani, katalogu, šest kategorija, svim stranicama pozivnica i stranicama o sajtu/privatnosti/kontaktu. Ne pojavljuje se u adminu, editoru, izvozu, na `pages.dev` ili drugim preglednim domenima.
 
-Sistem iz koda prepoznaje jedan `ca-pub-` identifikator (16 cifara) i jednu `data-ad-slot` jedinicu (10 cifara). Čuvaju se samo ti identifikatori i prekidač. Proizvoljni HTML i JavaScript iz nalepljenog teksta se ne izvršavaju. Sačuvan kod ostaje dostupan u adminu u standardnom Google formatu. Za proveru vlasništva može se sačuvati samo kod naloga, sa isključenim prikazom; na javnom domenu se tada dodaje `google-adsense-account` meta oznaka. `/ads.txt` se automatski generiše iz sačuvanog naloga.
+Podrazumevani nalog je `ca-pub-6151181163851577`. Cloudflare Worker dodaje originalni asinhroni Google `<script>` sa `crossorigin="anonymous"` direktno između `<head>` i `</head>` na svim javnim produkcionim HTML stranicama, uključujući novije objave iz admina. Kod je vidljiv u izvornom HTML-u, bez čekanja na JavaScript aplikacije, skrolovanje ili reklamnu jedinicu. Statičke datoteke služe kao osnova Worker-u; lokalni i `pages.dev` pregledi i admin ne učitavaju Google skriptu.
 
-Oglasi su podrazumevano isključeni i ne zauzimaju prostor. Kada su uključeni, prostor je rezervisan na serveru, a Google SDK se učitava tek kada blok priđe vidljivom delu stranice. Nepopunjeni ili blokirani oglasi se sakrivaju. Glavna dugmad i sadržaj pozivnica ostaju odvojeni od oglasa. Neuspešno čitanje podešavanja izostavlja oglase umesto da prekine javnu stranicu.
+U adminu postoje dva prekidača: **Učitaj AdSense kod u zaglavlju** i **Prikaži ručni reklamni blok pre podnožja**. Kod je podrazumevano uključen, a ručni blok isključen dok se ne doda `data-ad-slot`. Auto oglasi se podešavaju u Google AdSense nalogu. Isključivanje samo ručnog bloka ne isključuje skriptu ni Auto oglase. Isključivanje prekidača za zaglavlje isključuje i ručni blok.
+
+Sistem prihvata jedan `ca-pub-` identifikator i jednu `data-ad-slot` jedinicu. Čuvaju se samo identifikatori i prekidači; proizvoljni HTML i JavaScript se ne izvršavaju. Standardni kod ostaje dostupan u adminu. Meta oznaka `google-adsense-account` i `/ads.txt` prate isti nalog. Postojeća prazna podešavanja automatski preuzimaju podrazumevani nalog; već podešen nalog/jedinica ostaju sačuvani. Nova eksplicitna podešavanja, uključujući isključeno zaglavlje, imaju prednost. Pri nedostupnoj bazi ili neispravnoj konfiguraciji koristi se podrazumevani kod naloga bez ručnog reklamnog bloka.
+
+Ručni blok rezerviše prostor i traži oglas tek kada priđe ekranu. Koristi skriptu koja je već u zaglavlju i ne dodaje drugu kopiju. Nepopunjeni ili blokirani ručni oglasi se sakrivaju. Oglasi nisu deo PNG/PDF izvoza.
 
 Google odlučuje o odobrenju naloga i isporuci oglasa. Poruke za saglasnost za regione gde su potrebne podešavaju se u **AdSense → Privatnost i poruke**, korišćenjem Googleove sertifikovane poruke/CMP-a. Ova aplikacija ne zamenjuje sertifikovani CMP sopstvenim banerom.
 
@@ -128,11 +132,11 @@ Produkcijski test pokreće zaseban preview na portu 5178. Proverava gotov HTML b
 
 Admin test koristi kompajlirani Worker u Miniflare okruženju, stvarnu lokalnu D1/R2 i potpisane test JWT tokene. Proverava zaštitu, CSRF, privatne datoteke, fontove, nacrt/objavu, konflikte verzija, javni editor/izvoz, povlačenje, probne dizajne i mobilni prikaz. Sam pokreće lokalni server na portu 5181 i gasi ga nakon provere.
 
-AdSense test koristi stvarni lokalni Worker/D1 i Chromium, uz presretnut Google SDK. Proverava sve javne stranice, proveru naloga bez prikaza oglasa, validaciju i zaštitu podešavanja, bezbedno prepoznavanje identifikatora, `ads.txt`, odloženo i jednokratno učitavanje, skrivanje blokiranih/nepopunjenih oglasa i admin formu na 320–1440 px. Ne šalje stvarne zahteve za oglase Google-u.
+AdSense test koristi stvarni lokalni Worker/D1 i Chromium, uz presretnut Google SDK. Proverava sve javne stranice, podrazumevani kod u zaglavlju, migraciju praznih podešavanja, validaciju i zaštitu podešavanja, bezbedno prepoznavanje identifikatora, `ads.txt`, jednokratno učitavanje skripte i odloženo traženje ručnog oglasa, skrivanje blokiranih/nepopunjenih oglasa i admin formu na 320–1440 px. Ne šalje stvarne zahteve za oglase Google-u.
 
 ## Pre javnog lansiranja
 
-Ubaciti konačne šablone. Za oglase dodati stvarni AdSense kod u zaštićeni panel i podesiti potrebne Google poruke o saglasnosti. Uključeni su sopstveni zbirni brojači radnji opisani ispod; pri dodavanju novih usluga uskladiti Politiku privatnosti sa stvarnom obradom.
+Ubaciti konačne šablone. Za ručni reklamni blok dodati kod jedinice sa `data-ad-slot` u zaštićeni panel i podesiti potrebne Google poruke o saglasnosti. Uključeni su sopstveni zbirni brojači radnji opisani ispod; pri dodavanju novih usluga uskladiti Politiku privatnosti sa stvarnom obradom.
 
 Test `tests/category-landings.mjs` koristi kompajlirani Worker i proverava šest kategorija bez JavaScript-a, metapodatke i sitemap, trenutno objavljene hero preglede, 24 kombinacije kategorije i širine ekrana, početni JS ispod 10 KB gzip, odloženo učitavanje editora, pretragu unutar kategorije, tastaturu, povratak u pregledaču, stvarno kopiranje primera teksta, pauzu animacija i smanjeno kretanje. SEO provere potvrđuju tehničku dostupnost sadržaja; ne garantuju indeksiranje ili pozicije na Google-u.
 

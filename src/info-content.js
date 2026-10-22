@@ -2,7 +2,7 @@ export const CONTACT_EMAIL = 'kontakt@napravipozivnicu.com';
 
 export const INFO_PAGES = [
   {
-    id: 'privacy', path: '/politika-privatnosti/', title: 'Politika privatnosti', schemaType: 'WebPage', updatedAt: '2026-10-21',
+    id: 'privacy', path: '/politika-privatnosti/', title: 'Politika privatnosti', schemaType: 'WebPage', updatedAt: '2026-10-22',
     description: 'Kako Napravi pozivnicu obrađuje podatke, fotografije, lokalne nacrte i kontakt poruke. Informacije o privatnosti, čuvanju podataka i pravima korisnika.',
     lead: 'Ovde objašnjavamo kako se koriste podaci dok pravite pozivnicu, čuvate nacrt ili nam pišete.',
   },

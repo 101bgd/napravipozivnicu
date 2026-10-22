@@ -109,8 +109,10 @@ Zvanična dokumentacija:
 
 ## AdSense kod i prikaz oglasa
 
-Posle standardnog povezivanja panela, otvori **Admin → AdSense reklame**, ili `/admin/sabloni/#adsense`. U Google AdSense nalogu izaberi **Oglasi → Po oglasnoj jedinici → Prikazni oglasi**, napravi prilagodljivu jedinicu i nalepi ceo kod u panel. Uključi prikaz i klikni **Sačuvaj podešavanja reklama**. Za početnu proveru sajta možeš sačuvati samo kod naloga i ostaviti oglase isključenim.
+Nalog `ca-pub-6151181163851577` je podrazumevano podešen. Posle deployment-a Worker dodaje asinhroni Google kod direktno u `<head>` svake javne produkcione stranice, kao i meta oznaku naloga i odgovarajući `/ads.txt`. Nije potreban novi SQL ili Cloudflare binding. Ako su ranije sačuvani drugi važeći identifikatori, oni ostaju aktivni i mogu se promeniti u adminu.
 
-Podešavanja ostaju u postojećoj tabeli `settings`. Nije potreban novi SQL, Cloudflare binding niti deployment za promenu koda. Meta oznaka za nalog i `/ads.txt` generišu se automatski. Bez koda blokovi ne zauzimaju prostor i nema Google zahteva. Oglasi se uključuju samo na javnom produkcijskom domenu, pre podnožja; admin, editor i preuzete pozivnice ih ne sadrže.
+Otvori **Admin → AdSense reklame**, ili `/admin/sabloni/#adsense`. Prekidač **Učitaj AdSense kod u zaglavlju javnih stranica** kontroliše Google skriptu. Za ručni oglas pre podnožja napravi prilagodljivu jedinicu u **Oglasi → Po oglasnoj jedinici → Prikazni oglasi**, nalepi njen ceo kod i uključi drugi prekidač. Auto oglasi se podešavaju u Google AdSense nalogu; nisu vezani za prekidač ručnog bloka. Isključivanje zaglavlja isključuje i ručni blok. Podešavanja se čuvaju u tabeli `settings` i za kasnije izmene nije potreban deployment.
+
+Skripta se ne učitava u adminu, na `pages.dev` ni lokalnim pregledima. Ručni blok koristi postojeću skriptu i ne duplira je. Oglasi ne ulaze u PNG/PDF pozivnicu.
 
 Za posetioce iz regiona u kojima je saglasnost potrebna, u **AdSense → Privatnost i poruke** podesi Googleovu sertifikovanu poruku o privatnosti/CMP. Odobrenje naloga i prikaz oglasa zavise od Google-a.
