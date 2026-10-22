@@ -158,6 +158,7 @@
       "safe_inset",
       "visual_integrity",
       "distinctiveness",
+      "palette_vibrancy_and_variety",
       "composition_and_text_space",
       "editable_template_fields",
       "serbian_glyphs_and_long_text",
@@ -180,6 +181,7 @@
         "safe_inset",
         "visual_integrity",
         "distinctiveness",
+        "palette_vibrancy_and_variety",
         "composition_and_text_space",
         "editable_template_fields",
         "serbian_glyphs_and_long_text",
@@ -218,6 +220,25 @@
       ],
       "numericThresholds": "No fixed font size, occupancy ratio or spacing threshold was specified by the user; choose per design and record actual values.",
       "currentBatchEditsBy": "user_in_editor"
+    },
+    "paletteReview": {
+      "source": "content/robi-batches/2026-10-22/restart-01/user-review.json",
+      "authorizedBy": "explicit_user_feedback_2026-10-22",
+      "effectiveFrom": "next_batch",
+      "requirements": [
+        "Use livelier, more saturated and varied palettes appropriate to the occasion and audience, especially for children birthday invitations.",
+        "Avoid defaulting the whole series to washed-out cream or pastel palettes; deliberately vary color fields, accents and compositions.",
+        "Preserve readable text through layout and local contrast instead of desaturating the entire illustration.",
+        "Keep the earlier user typography improvements in effect."
+      ],
+      "evidence": [
+        "dominant_colors_and_palette_rationale_per_design",
+        "actual_final_mobile_and_png_pdf_visual_review",
+        "side_by_side_visual_review_of_all_six_palettes"
+      ],
+      "numericThresholds": "The user did not specify exact colors, a saturation threshold or an area ratio. Judge the actual previews; color statistics alone cannot establish aesthetic approval.",
+      "historicalApplication": "Do not retroactively report this new check as passed for older batches. Retain actual technical results and the user's negative aesthetic review separately.",
+      "currentBatchEditsRequested": false
     }
   },
   "adsense": {

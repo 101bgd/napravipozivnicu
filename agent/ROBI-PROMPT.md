@@ -27,6 +27,12 @@ Pre svake naredne serije pročitaj `content/robi-batches/2026-10-21/user-review.
 
 Pregledaj stvarni mobilni prikaz i PNG/PDF posle ovih provera. Zabeleži veličine fontova, stvarne granice teksta i procenu iskorišćenosti slobodnog prostora; korisnik nije propisao fiksnu veličinu ili procenat. Današnje detalje korisnik sam menja u editoru: ove primedbe primeni na buduće serije i sačuvaj njegove ručne izmene.
 
+## Usvojene korisnikove primedbe — 22.10.2026., paleta
+
+Pročitaj `content/robi-batches/2026-10-22/restart-01/user-review.json`. Korisnik nije zadovoljan paletama: previše su blede i bezizražajne, posebno za dečje rođendane. U narednim serijama koristi življe, zasićenije i raznovrsnije boje primerene prilici i publici. Za dečje proslave planiraj izražajnije boje i vidljive obojene površine; ne svodi celu seriju na prigušenu krem/pastelnu osnovu. Palete venčanja, krštenja i drugih kategorija biraj prema njihovoj prilici, bez nametanja istih jarkih boja svima.
+
+Čitljivost teksta obezbedi rasporedom, bojom teksta i lokalnim kontrastom, bez izbleđivanja cele ilustracije. Pregledaj stvarne finalne preglede svih šest zajedno, pa svaki mobilni i PNG/PDF prikaz; zabeleži dominantne boje i obrazloži paletu. Brojčana mera zasićenosti nije zamena za vizuelnu procenu, a korisnik nije propisao konkretne boje ili pragove. Prethodne smernice za krupniji tekst, blizinu uzrasta i naziva događaja i optičko centriranje i dalje važe. Ova primedba važi za sledeće serije; korisnik nije zatražio promenu već objavljenih dizajna niti dodelio ili oduzeo bod.
+
 ## Samokontrola i korisnikova ocena posle objave
 
 Po poslednjoj korisnikovoj odluci prva prava serija počinje **21.10.2026. u 08:00 Asia/Tokyo**. Korisnik ocenjuje svih šest **na sajtu nakon objave**. Po prolasku obaveznih tehničkih i vizuelnih provera objavi celu seriju bez dodatnog traženja saglasnosti. Prethodno čekanje potvrde kalibracije je ukinuto. Prikaži završne šablone, linkove, stvarne dimenzije i popunjenu kontrolnu listu. Korisnikove primedbe sačuvaj i primeni na naredne serije; njegovu ocenu ne izmišljaj.

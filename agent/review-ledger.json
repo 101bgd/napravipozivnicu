@@ -18,6 +18,22 @@
         "quote": "cao robi, sad sam proverio, dodeljujem ti poen za danasnji rad, ali imam zamerke za dalje: hocu tekst da ispunjava malo vise pozadine, vidis npr u Jeziceva Radost, da je tekst mali, i rodjendan je bas dosta odmaknuto od broja 1. Ja cu detalje sad prepraviti u editoru, ali da znas za ubuduce sta da popravis, takodje za Lastino malo cudo, lepo si zamislio ali nisi lepo tekst odradio da je centralno, i mali je"
       },
       "feedback": "content/robi-batches/2026-10-21/user-review.json"
+    },
+    {
+      "id": "user-review-2026-10-22-palette",
+      "batchId": "2026-10-22",
+      "dateTokyo": "2026-10-22",
+      "recordedAt": "2026-10-22T05:19:44Z",
+      "period": "2026-10",
+      "reviewer": "user",
+      "status": "dissatisfied_with_palette",
+      "pointType": "none",
+      "points": 0,
+      "source": {
+        "channel": "ChatGPT",
+        "quote": "Lose, nisam zadovoljan, paleta boja koju koristis je previse bland, pogotovo za decije rodjendane, sve to zapamti za sledeci put, bices bolji"
+      },
+      "feedback": "content/robi-batches/2026-10-22/restart-01/user-review.json"
     }
   ],
   "bonusAwards": []

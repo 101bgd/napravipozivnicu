@@ -441,9 +441,14 @@
       },
       "finalReport": "content/robi-batches/2026-10-22/restart-01/REPORT.md",
       "userReview": {
-        "status": "awaiting_post_publication_user_review",
+        "status": "dissatisfied_with_palette",
         "aestheticApprovalAssumed": false,
-        "pointsAwardedThisBatch": 0
+        "pointsAwardedThisBatch": 0,
+        "reviewedAt": "2026-10-22T05:19:44Z",
+        "evidence": "content/robi-batches/2026-10-22/restart-01/user-review.json",
+        "aestheticApproval": false,
+        "appliesToFutureBatches": true,
+        "currentPublishedDesignChangesRequested": false
       }
     }
   ],
@@ -582,15 +587,23 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T05:10:45Z",
+  "updatedAt": "2026-10-22T05:19:44Z",
   "latestUserFeedback": {
-    "dateTokyo": "2026-10-21",
-    "source": "content/robi-batches/2026-10-21/user-review.json",
+    "dateTokyo": "2026-10-22",
+    "recordedAt": "2026-10-22T05:19:44Z",
+    "source": "content/robi-batches/2026-10-22/restart-01/user-review.json",
+    "previousSources": [
+      "content/robi-batches/2026-10-21/user-review.json"
+    ],
     "effectiveFrom": "next_batch",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
-      "optical_centering_for_centered_compositions"
+      "optical_centering_for_centered_compositions",
+      "more_vivid_saturated_varied_palettes",
+      "especially_lively_children_birthday_palettes",
+      "preserve_readability_through_layout_and_local_contrast",
+      "review_actual_final_palettes_individually_and_as_a_batch"
     ]
   },
   "score": {

@@ -8,7 +8,7 @@ Robijevi prompt, pravila, check lista i stanje čuvaju se na kontrolnoj grani **
 
 Fajlovi: `agent/ROBI-PROMPT.md`, `agent/QUALITY-CHECKLIST.md`, `agent/workflow-policy.json`, `agent/robi-state.json` i `agent/review-ledger.json`.
 
-Pre nove serije pročitaj i `latestUserFeedback.source` iz stanja, uključujući `content/robi-batches/2026-10-21/user-review.json`. Primeni zahteve za krupniji tekst, smislenije povezivanje uzrasta i događaja i optičko centriranje gde kompozicija to zahteva. Korisnik sam dorađuje seriju 21.10.2026. u editoru; ne prepisuj njegove izmene. Izričito dodeljen bod evidentiraj zajedno sa primedbama; bod nije dokaz završenih tehničkih provera.
+Pre nove serije pročitaj `latestUserFeedback.source` i `latestUserFeedback.previousSources` iz stanja, uključujući `content/robi-batches/2026-10-22/restart-01/user-review.json` i `content/robi-batches/2026-10-21/user-review.json`. Korisnik je 22.10.2026. izrazio nezadovoljstvo bledim paletama, posebno za dečje rođendane: sledeće serije moraju imati življe, zasićenije i raznovrsnije boje, primerene konkretnoj prilici. Dodaj zaseban pregled palete na stvarnim finalnim prikazima i zajedničko poređenje svih šest; čitljivost rešavaj rasporedom i lokalnim kontrastom. Ne primenjuj ovu novu proveru retroaktivno kao prošlu. Korisnik nije tražio prepravku objavljenih dizajna niti promenu bodova. Ranije primedbe za tekst i dalje važe. Primeni zahteve za krupniji tekst, smislenije povezivanje uzrasta i događaja i optičko centriranje gde kompozicija to zahteva. Korisnik sam dorađuje seriju 21.10.2026. u editoru; ne prepisuj njegove izmene. Izričito dodeljen bod evidentiraj zajedno sa primedbama; bod nije dokaz završenih tehničkih provera.
 
 ## Zakazani početak i stvaran posao
 

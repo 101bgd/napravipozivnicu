@@ -16,6 +16,7 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Rođenje deteta je poziv na proslavu rođenja; zabranjena reč nije prisutna u javnom sadržaju.
 - [ ] Pregledana je dostupna istorija i zabeleženo poređenje motiva, kompozicije i vizuelne sličnosti.
 - [ ] Dizajni imaju različite motive i kompozicije; promena same boje nije dovoljna za novu kreaciju.
+- [ ] Za serije posle 22.10.2026. primenjena je korisnikova primedba o bledim paletama: svih šest finalnih pregleda upoređeno je zajedno, palete su raznovrsne i nisu sve svedene na prigušenu krem/pastelnu osnovu. Sačuvan je dokaz stvarnog zajedničkog pregleda.
 - [ ] Sačuvani su konačni promptovi i nisu ponovo pokrenuti već završeni zadaci.
 
 ## 2. Pozadina — ponoviti za svaku od šest
@@ -29,6 +30,8 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Dizajn ispunjava ceo format; važni ukrasi ostaju najmanje 5 mm unutar ivica.
 - [ ] Nema vidljivih grešaka ilustracije, deformisanih detalja, neželjenih objekata ili neprikladnog sadržaja.
 - [ ] Prostor i kompozicija omogućavaju čitljiv tekst na ovoj konkretnoj pozadini.
+- [ ] Paleta je vizuelno dovoljno živa i izražajna za konkretnu priliku, posebno za dečje rođendane, u skladu sa korisnikovom primedbom od 22.10.2026. Zabeležene su dominantne boje i procena stvarnog finalnog prikaza; same vrednosti boja nisu dokaz estetskog kvaliteta.
+- [ ] Čitljivost se postiže rasporedom i lokalnim kontrastom, bez izbleđivanja cele ilustracije. Pregledani su stvarni mobilni i PNG/PDF prikazi; paleta odgovara publici i prilici. Korisnik nije propisao fiksne boje ili numerički prag zasićenosti.
 
 ## 3. Izmenjiv šablon — ponoviti za svaku od šest
 
