@@ -1,6 +1,6 @@
 {
   "dateTokyo": "2026-10-23",
-  "status": "planned",
+  "status": "blocked",
   "createdAt": "2026-10-22T23:01:11Z",
   "audience": "male",
   "birthdayAge": 4,
@@ -103,6 +103,19 @@
         "#76402c"
       ],
       "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA warm playful invitation background for celebrating the birth of a baby boy. At the UPPER CENTER x29–71%,y9–31%, an adorable cocoa-brown parent otter floating on its back gently cradles a very small baby otter on its chest, both peacefully smiling; anatomically clear, beautifully illustrated, no human babies, no clothes or letters. The water around them is a few simple turquoise ripple arcs with golden small leaf accents, entirely inset. The image has a richly colored TEAL river ground in the outer areas and a broad smooth lighter AQUA organic water field that flows down the center x12–88%,y35–94% for large dark teal editable text below the otters. A sunny MUSTARD curved bank enters one lower corner, a small deeper teal water arc the opposite corner; keep details sparse and all important features inset. Contemporary cut-paper/gouache hybrid illustration, welcoming and joyful with substantial real color. No cream or pink pale ground, no stork, no crib, no stars, no pram, no collage, no wording."
+    }
+  ],
+  "blockedStage": "original_image_generation",
+  "blockers": [
+    {
+      "step": "original_image_generation",
+      "status": "blocked",
+      "httpStatus": 400,
+      "error": "Unknown parameter: 'reasoning'.",
+      "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
+      "retry": "A separate single-image call with only prompt also returned the same error.",
+      "observedAt": "2026-10-22T23:04:01Z",
+      "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned."
     }
   ]
 }

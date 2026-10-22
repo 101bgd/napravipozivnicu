@@ -455,7 +455,7 @@
       "id": "2026-10-23",
       "date": "2026-10-23",
       "path": "content/robi-batches/2026-10-23",
-      "status": "generating",
+      "status": "blocked",
       "requiredCount": 6,
       "generatedCount": 0,
       "preparedCount": 0,
@@ -533,12 +533,28 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "blockers": [],
+      "blockers": [
+        {
+          "step": "original_image_generation",
+          "status": "blocked",
+          "httpStatus": 400,
+          "error": "Unknown parameter: 'reasoning'.",
+          "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
+          "retry": "A separate single-image call with only prompt also returned the same error.",
+          "observedAt": "2026-10-22T23:04:01Z",
+          "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned."
+        }
+      ],
       "liveVerification": {
         "status": "pending",
         "knownPriorNetworkIssue": "Public checks on earlier dates deferred; not a creative production gate."
       },
-      "startedAt": "2026-10-22T23:01:46Z"
+      "startedAt": "2026-10-22T23:01:46Z",
+      "blockedStage": "original_image_generation",
+      "independentWork": {
+        "status": "preparing_six_draft_layouts_and_repeatable_renderer",
+        "finalArtworkAvailable": false
+      }
     }
   ],
   "history": [
@@ -654,7 +670,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "blocked",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -676,7 +692,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T23:01:46Z",
+  "updatedAt": "2026-10-22T23:04:01Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",

@@ -1,0 +1,9 @@
+{
+  "recordedAt": "2026-10-22T23:04:01Z",
+  "status": "blocked",
+  "tool": "image_gen.imagegen",
+  "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Unknown parameter: 'reasoning'.\\\",\\n    \\\"type\\\": \\\"invalid_request_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"unknown_parameter\\\"\\n  }\\n}\")",
+  "confirmedSourceImages": 0,
+  "apiFallbackUsed": false,
+  "existingIllustrationsReused": false
+}
