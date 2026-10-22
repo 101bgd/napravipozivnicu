@@ -577,17 +577,29 @@
         "channel": "ChatGPT",
         "blockerProgressNoticeSentBeforeDeadline": true,
         "finalReportPreparedAt": "2026-10-22T23:11:21Z",
-        "finalDeliveryTimeNotInferred": true
+        "finalDeliveryTimeNotInferred": true,
+        "finalReportArchivedAt": "2026-10-22T23:18:06Z"
       },
       "artifactPersistence": {
-        "status": "text_ready_binary_upload_in_progress",
+        "status": "drafts_and_diagnostic_evidence_saved",
         "controlPath": "content/robi-batches/2026-10-23",
         "originalImages": 0,
         "finalAssets": 0,
-        "diagnosticBinaryFilesUploaded": 7,
-        "diagnosticBinaryFilesRequired": 24,
+        "draftSchemas": 6,
+        "diagnosticPngs": 12,
+        "diagnosticPdfs": 6,
+        "diagnosticPreviews": 6,
+        "diagnosticBinaryFilesUploaded": 24,
+        "allUploadedBlobHashesMatched": true,
         "originalDimensionStatus": "unavailable",
-        "finalDimensionStatus": "unavailable"
+        "finalDimensionStatus": "unavailable",
+        "localArchive": {
+          "path": "/workspace/artifacts/robi-2026-10-23/Robi-2026-10-23-blokirano-nacrti.zip",
+          "bytes": 3470128,
+          "sha256": "184895939750af8cec76250a4c6c8da17a862657d7de350c56d1ce9427be9e1b",
+          "contents": "Draft layouts, prompts, diagnostic text-only PNG/PDF; no original or final invitation illustrations."
+        },
+        "completedAt": "2026-10-22T23:18:06Z"
       },
       "resumeActions": [
         "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
@@ -595,7 +607,8 @@
         "Run normal prepare.mjs with real originals; adjust text positions/colors to actual images, then rerun all final/mobile/PNG/PDF/palette/similarity/SEO/AdSense checks.",
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
-      ]
+      ],
+      "lastConfirmedStep": "All six editable draft layouts, prompts, draft SEO metadata, diagnostic PNG/PDF outputs and check results saved on robi-agent. Original image generation returned HTTP400; production remains unchanged."
     }
   ],
   "history": [
@@ -733,7 +746,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T23:15:20Z",
+  "updatedAt": "2026-10-22T23:18:06Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",

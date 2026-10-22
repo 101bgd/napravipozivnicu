@@ -1,0 +1,130 @@
+{
+  "status": "complete_for_drafts_only",
+  "updatedAt": "2026-10-22T23:18:06Z",
+  "originalImages": 0,
+  "finalAssets": 0,
+  "diagnosticArtifacts": [
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam-long-text.png",
+      "sha": "48403d6b5a0a2fc2194cb3e7adf9c0beccaed809",
+      "bytes": 215601
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam.pdf",
+      "sha": "a78deda4f056712a866e261be8154b3d2b0098a0",
+      "bytes": 124671
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/elektricni-ritam.png",
+      "sha": "d13c75ac45bbaf27ebf777b278051102d014dad5",
+      "bytes": 175543
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz-long-text.png",
+      "sha": "bd6a91bb8a1ad2d8bf77af2d1fbe1fbcb43568b9",
+      "bytes": 252431
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz.pdf",
+      "sha": "c2f6ca44c3fb8fd62e7e4493cd8eb8056703b1c5",
+      "bytes": 144527
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/plavi-vitraz.png",
+      "sha": "38803ce5b964095e5ab7cd20c9d64666eacd626b",
+      "bytes": 210000
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta-long-text.png",
+      "sha": "85741a070376a749b8c103915040cb249963dd91",
+      "bytes": 209931
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta.pdf",
+      "sha": "098581f52432818ec51ceb28f724e54478e4367b",
+      "bytes": 126895
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/tukanova-prva-fiesta.png",
+      "sha": "e0bf7516dc7ab584b5ca27edf1deba8d1744355a",
+      "bytes": 162690
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj-long-text.png",
+      "sha": "e4c1091b5dd41ce8a44d1e90e2e57b449b3a70b3",
+      "bytes": 234272
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj.pdf",
+      "sha": "9b02710e70cf8aef01fd677ca89c41d06405d101",
+      "bytes": 135804
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/vidrin-mali-zagrljaj.png",
+      "sha": "02dfbe248489f17c87be4f19fdbd234164e0c232",
+      "bytes": 205852
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom-long-text.png",
+      "sha": "b31138ea75b9a6d1050026f41879fa53b32d13e1",
+      "bytes": 268368
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom.pdf",
+      "sha": "be1fb74f001401526a37af2a7d4ce510434f4aa2",
+      "bytes": 184972
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zavet-pod-bugenvilijom.png",
+      "sha": "cb0b87d8d2dcd83a317493d4778af0b147b7701b",
+      "bytes": 221027
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let-long-text.png",
+      "sha": "fcd175cca3054db401ae1f09a1735e4c67892aa1",
+      "bytes": 220862
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let.pdf",
+      "sha": "0ed27173170a367fb03f5fc9979d8aa0b4fda135",
+      "bytes": 124890
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/examples/zmajev-sareni-let.png",
+      "sha": "0c2befe2aad82b583792c33a285ea2cd965f01e9",
+      "bytes": 172879
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/elektricni-ritam.webp",
+      "sha": "68aafdb8b899919c1a432278b1046b55f329fbf6",
+      "bytes": 12624
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/plavi-vitraz.webp",
+      "sha": "be7a3dcb036c7d72a4678a370c532b3c3c93bb10",
+      "bytes": 15484
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/tukanova-prva-fiesta.webp",
+      "sha": "0a2f6f82a86a928fb194c27b5b05d1023c78d985",
+      "bytes": 12772
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/vidrin-mali-zagrljaj.webp",
+      "sha": "71e7eb699930b348cfeeb08b37163f35623e9175",
+      "bytes": 13742
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/zavet-pod-bugenvilijom.webp",
+      "sha": "eb31bcb2f72c574f81ffa1cf48f43f1fa996d443",
+      "bytes": 20640
+    },
+    {
+      "path": "content/robi-batches/2026-10-23/diagnostics/previews/zmajev-sareni-let.webp",
+      "sha": "095ed61df98d4194c4506d0061bd352f982edc41",
+      "bytes": 13268
+    }
+  ],
+  "allHashesMatched": true,
+  "limitation": "No original illustration or final invitation image exists; none of these diagnostic inputs may be published as new backgrounds."
+}
