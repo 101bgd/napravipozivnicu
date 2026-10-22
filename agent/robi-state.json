@@ -170,11 +170,11 @@
       "id": "2026-10-22",
       "date": "2026-10-22",
       "timezone": "Asia/Tokyo",
-      "status": "checking",
+      "status": "ready_to_publish",
       "path": "content/robi-batches/2026-10-22/restart-01",
       "requiredCount": 6,
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -194,82 +194,106 @@
           "id": "puzicina-jagodica",
           "name": "Pužicina jagodica",
           "category": "first",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "female",
           "age": 1,
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-puzica-jagoda/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/puzicina-jagodica.webp"
         },
         {
           "id": "kraljica-veceri",
           "name": "Kraljica večeri",
           "category": "eighteen",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "female",
           "age": 18,
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-sahovska-kraljica-orhideja/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/kraljica-veceri.webp"
         },
         {
           "id": "rakunicina-sarena-zurka",
           "name": "Rakuničina šarena žurka",
           "category": "birthday",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "female",
           "age": 3,
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-rakunica-slikarka/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/rakunicina-sarena-zurka.webp"
         },
         {
           "id": "ahatni-zavet",
           "name": "Ahatni zavet",
           "category": "wedding",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "couple",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-ahat-zlatne-linije/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/ahatni-zavet.webp"
         },
         {
           "id": "bademov-blagoslov",
           "name": "Bademov blagoslov",
           "category": "baptism",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "female",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bademov-cvet-krst/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/bademov-blagoslov.webp"
         },
         {
           "id": "kolica-puna-radosti",
           "name": "Kolica puna radosti",
           "category": "baby",
-          "status": "generated",
+          "status": "ready_to_publish",
           "audience": "female",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "exportDimensions": null,
-          "publicUrl": null
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-roze-kolica/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-22/restart-01/previews/kolica-puna-radosti.webp"
         }
       ],
       "blockers": [],
@@ -280,7 +304,7 @@
       "userFeedbackAppliedToPlan": {
         "source": "content/robi-batches/2026-10-21/user-review.json",
         "requirementsRead": true,
-        "renderedOutputChecked": false
+        "renderedOutputChecked": true
       },
       "resumeActions": [
         "Keep the one prepared wedding draft; do not regenerate it or count the 21 October designs as today's delivery.",
@@ -308,28 +332,13 @@
         "design": "content/robi-batches/2026-10-22/designs.json",
         "validation": "content/robi-batches/2026-10-22/wedding-browser-checks.json"
       },
-      "preparedAt": null,
-      "prePublicationChecks": "pending",
+      "preparedAt": "2026-10-22T04:33:26Z",
+      "prePublicationChecks": "passed",
       "artifactPersistence": {
-        "status": "partial",
-        "finalNativeSource": "content/robi-batches/2026-10-22/sources/paunova-elegancija.png",
-        "optimizedBackground": "content/robi-batches/2026-10-22/backgrounds/paunova-elegancija.webp",
-        "preview": "content/robi-batches/2026-10-22/previews/paunova-elegancija.webp",
-        "privateArchive": {
-          "path": "/workspace/artifacts/robi-2026-10-22/Robi-22-10-2026-radna-serija.zip",
-          "bytes": 22371009,
-          "sha256": "1980f84abfc1d1e6eb6a9b44f604badc87213d254491b929b2b52ec7a3051d9c",
-          "files": 25,
-          "contains": "One unpublished wedding draft: three native PNG stages, optimized background/preview, editable schema, actual PNG/PDF examples, screenshots, prompts and technical checks.",
-          "publicUploadComplete": false
-        },
-        "notYetStoredOnGitHub": [
-          "original first generated PNG",
-          "first revision PNG",
-          "PNG/PDF examples",
-          "mobile screenshots and rendered PDF previews"
-        ],
-        "note": "One complete private ZIP contains all 25 draft files; GitHub source/preview/template/checks are saved, remaining binary examples are not claimed uploaded."
+        "status": "in_progress",
+        "optimizedAssets": "12 verified uploaded WebP blobs; commit now",
+        "nativeSources": "all nine native generation/edit PNG files saved locally; GitHub upload follows publication",
+        "examples": "actual PNG/PDF examples saved locally; GitHub upload follows publication"
       },
       "audit": {
         "checkedAt": "2026-10-22T03:59:07Z",
@@ -463,7 +472,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-22",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -485,7 +494,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T04:16:30Z",
+  "updatedAt": "2026-10-22T04:33:26Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-21",
     "source": "content/robi-batches/2026-10-21/user-review.json",

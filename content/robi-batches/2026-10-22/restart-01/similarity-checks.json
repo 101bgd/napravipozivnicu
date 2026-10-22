@@ -1,0 +1,202 @@
+{
+  "designs": [
+    {
+      "id": "puzicina-jagodica",
+      "motif": "sa pužicom i jagodom",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-background-095363be68cb.webp",
+          "distance63": 10
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/laneni-blagoslov.webp",
+          "distance63": 12
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/narova-prica-background-1728b424cc73.webp",
+          "distance63": 18
+        }
+      ],
+      "duplicate": false
+    },
+    {
+      "id": "kraljica-veceri",
+      "motif": "sa šahovskom kraljicom i orhidejom",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-background-095363be68cb.webp",
+          "distance63": 18
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/laneni-blagoslov.webp",
+          "distance63": 20
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+          "distance63": 26
+        }
+      ],
+      "duplicate": false
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "motif": "sa rakunicom slikarkom i bojama",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/zabac-zove-drugare-background-d3ea225bed2c.webp",
+          "distance63": 16
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+          "distance63": 22
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+          "distance63": 22
+        }
+      ],
+      "duplicate": false
+    },
+    {
+      "id": "ahatni-zavet",
+      "motif": "sa slojevima ahata i zlatnim linijama",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-background-095363be68cb.webp",
+          "distance63": 22
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/prvi-rodjendan/zeka-medju-oblacima-pozadina-0df8d93c5880.webp",
+          "distance63": 26
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/prvi-rodjendan/labudova-neznost-pozadina-817079b2e7fd.webp",
+          "distance63": 26
+        }
+      ],
+      "duplicate": false
+    },
+    {
+      "id": "bademov-blagoslov",
+      "motif": "sa bademovim cvetom i krstom",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/content/robi-batches/2026-10-22/sources/paunova-elegancija.png",
+          "distance63": 12
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+          "distance63": 20
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+          "distance63": 22
+        }
+      ],
+      "duplicate": false
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "motif": "sa roze kolicima i malim srcem",
+      "historyCount": 58,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pozadina-8fe0d49d00d7.webp",
+          "distance63": 18
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+          "distance63": 22
+        },
+        {
+          "file": "/workspace/work/robi-20261022/public/assets/pozivnice/punoletstvo-kolekcija/masna-u-ponoc-pozadina-0315e238b8d2.webp",
+          "distance63": 22
+        }
+      ],
+      "duplicate": false
+    }
+  ],
+  "newPairwise": [
+    {
+      "a": "puzicina-jagodica",
+      "b": "kraljica-veceri",
+      "distance63": 24
+    },
+    {
+      "a": "puzicina-jagodica",
+      "b": "rakunicina-sarena-zurka",
+      "distance63": 32
+    },
+    {
+      "a": "puzicina-jagodica",
+      "b": "ahatni-zavet",
+      "distance63": 22
+    },
+    {
+      "a": "puzicina-jagodica",
+      "b": "bademov-blagoslov",
+      "distance63": 30
+    },
+    {
+      "a": "puzicina-jagodica",
+      "b": "kolica-puna-radosti",
+      "distance63": 28
+    },
+    {
+      "a": "kraljica-veceri",
+      "b": "rakunicina-sarena-zurka",
+      "distance63": 38
+    },
+    {
+      "a": "kraljica-veceri",
+      "b": "ahatni-zavet",
+      "distance63": 30
+    },
+    {
+      "a": "kraljica-veceri",
+      "b": "bademov-blagoslov",
+      "distance63": 30
+    },
+    {
+      "a": "kraljica-veceri",
+      "b": "kolica-puna-radosti",
+      "distance63": 36
+    },
+    {
+      "a": "rakunicina-sarena-zurka",
+      "b": "ahatni-zavet",
+      "distance63": 32
+    },
+    {
+      "a": "rakunicina-sarena-zurka",
+      "b": "bademov-blagoslov",
+      "distance63": 28
+    },
+    {
+      "a": "rakunicina-sarena-zurka",
+      "b": "kolica-puna-radosti",
+      "distance63": 32
+    },
+    {
+      "a": "ahatni-zavet",
+      "b": "bademov-blagoslov",
+      "distance63": 26
+    },
+    {
+      "a": "ahatni-zavet",
+      "b": "kolica-puna-radosti",
+      "distance63": 32
+    },
+    {
+      "a": "bademov-blagoslov",
+      "b": "kolica-puna-radosti",
+      "distance63": 32
+    }
+  ],
+  "visualReview": "Six separate original backgrounds and distinct motifs/compositions visually reviewed; source images not taken from catalog or cancelled drafts. Hash distance alone is not aesthetic approval."
+}

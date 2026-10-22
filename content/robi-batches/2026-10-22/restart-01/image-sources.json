@@ -1,0 +1,110 @@
+[
+  {
+    "id": "puzicina-jagodica",
+    "stage": "final",
+    "file": "sources/puzicina-jagodica.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1916261,
+    "sha256": "77e7bda587e8a984879d5c39b21451d1c4bc601fd550cc1c0db620bbe3a1c7aa",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "kraljica-veceri",
+    "stage": "original",
+    "file": "sources/kraljica-veceri-original.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 2068310,
+    "sha256": "d56b4040ae337314fecb41c03705db9ac5a18e5a19e1a7791bfa455c3758214d",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "kraljica-veceri",
+    "stage": "final",
+    "file": "sources/kraljica-veceri.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1944245,
+    "sha256": "69917484dd1aa8cca5bcfb53879bd1a750e5eec6b58c9fead26042c8f384f2ea",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "rakunicina-sarena-zurka",
+    "stage": "original",
+    "file": "sources/rakunicina-sarena-zurka-original.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 2055188,
+    "sha256": "e893489ef4901668527b11712426cd1e324dd8c1f2fbba761a3c9eb62cb25680",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "rakunicina-sarena-zurka",
+    "stage": "final",
+    "file": "sources/rakunicina-sarena-zurka.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1792772,
+    "sha256": "4e01e1d3c33172cc862e7ee7a205506cba8d59506421d3a1d3f5cdb5fef3712a",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "ahatni-zavet",
+    "stage": "final",
+    "file": "sources/ahatni-zavet.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 2034108,
+    "sha256": "4a4981e3f2fd92ebbb1aac67b3c0e3197026fa2180978fc6651f40a4f990c841",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "bademov-blagoslov",
+    "stage": "original",
+    "file": "sources/bademov-blagoslov-original.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1896775,
+    "sha256": "f6eb784cad72a4e807a824c64205888cba17d5cfab8079817c62cc7b6b07c60f",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "bademov-blagoslov",
+    "stage": "final",
+    "file": "sources/bademov-blagoslov.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1720882,
+    "sha256": "4294c4f5468eb37ad14b529ce98572d1674590a8481a4038f8dd34bad834a577",
+    "generator": "ChatGPT image generation"
+  },
+  {
+    "id": "kolica-puna-radosti",
+    "stage": "final",
+    "file": "sources/kolica-puna-radosti.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "bytes": 1830486,
+    "sha256": "783942f2699e4891798c3f4c08a12c80f4a83deb69afe87f643cf165a92a0e96",
+    "generator": "ChatGPT image generation"
+  }
+]

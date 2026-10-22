@@ -1,0 +1,734 @@
+{
+  "batch": "2026-10-22",
+  "attempt": "restart-01",
+  "reviewedAt": "2026-10-22T04:33:26Z",
+  "separateActualVisualReview": true,
+  "allPrePublicationChecksPassed": true,
+  "checks": [
+    {
+      "id": "puzicina-jagodica",
+      "name": "Pužicina jagodica",
+      "category": "first",
+      "audience": "female",
+      "age": 1,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    },
+    {
+      "id": "kraljica-veceri",
+      "name": "Kraljica večeri",
+      "category": "eighteen",
+      "audience": "female",
+      "age": 18,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    },
+    {
+      "id": "rakunicina-sarena-zurka",
+      "name": "Rakuničina šarena žurka",
+      "category": "birthday",
+      "audience": "female",
+      "age": 3,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    },
+    {
+      "id": "ahatni-zavet",
+      "name": "Ahatni zavet",
+      "category": "wedding",
+      "audience": "couple",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    },
+    {
+      "id": "bademov-blagoslov",
+      "name": "Bademov blagoslov",
+      "category": "baptism",
+      "audience": "female",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    },
+    {
+      "id": "kolica-puna-radosti",
+      "name": "Kolica puna radosti",
+      "category": "baby",
+      "audience": "female",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "processing": "upscale_without_crop",
+      "prePublication": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json"
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json"
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json"
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "report.json",
+          "detail": "Text pixel bounds have >=60px safe margins at target output. Important motifs separately inspected; secondary washes/paint and continuous mineral textures may bleed."
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "previews"
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json"
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "layout-tuning.json",
+          "detail": "Separate layouts; larger names/body; 8px nominal age-to-label gap at 500px renderer width, actual glyphs inspected. Child age 10 stress-tested without overlap."
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "worker-checks.json"
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json"
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json"
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json"
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "validation-log.json",
+          "detail": "Existing global settings/one loader inherited. Local mocked enabled/disabled/blocked SDK tests passed; live account and fill not verified."
+        }
+      ],
+      "publication": [
+        {
+          "check": "atomic_publication",
+          "status": "NEPROVERENO",
+          "detail": "All six ready; one main commit/deploy pending."
+        }
+      ],
+      "postPublication": [
+        {
+          "check": "published_site_verification",
+          "status": "NEPROVERENO",
+          "detail": "Explicitly deferred by user while 403 is unresolved."
+        }
+      ]
+    }
+  ],
+  "overallStatus": "READY_TO_PUBLISH",
+  "userAestheticApproval": "not_assumed",
+  "pointsAwarded": 0,
+  "deadline": {
+    "met": false,
+    "original": "2026-10-22T10:00:00+09:00",
+    "userRequestedRestartAt": "2026-10-22T04:02:49Z"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "openedPdfFiles": [
+    "examples/ahatni-zavet-editor.pdf",
+    "examples/ahatni-zavet.pdf",
+    "examples/bademov-blagoslov-editor.pdf",
+    "examples/bademov-blagoslov.pdf",
+    "examples/kolica-puna-radosti-editor.pdf",
+    "examples/kolica-puna-radosti.pdf",
+    "examples/kraljica-veceri-editor.pdf",
+    "examples/kraljica-veceri.pdf",
+    "examples/puzicina-jagodica-editor.pdf",
+    "examples/puzicina-jagodica.pdf",
+    "examples/rakunicina-sarena-zurka-editor.pdf",
+    "examples/rakunicina-sarena-zurka.pdf"
+  ],
+  "count": 12
+}

@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-22T04:33:26Z",
+  "sourceMain": "9c2a5a7457e721caf4d9672a3eadda601506abb1",
+  "commands": [
+    {
+      "command": "npm run build",
+      "result": "passed"
+    },
+    {
+      "command": "node content/robi-batches/2026-10-22/restart-01/prepare.mjs",
+      "result": "passed",
+      "scope": "six actual renderer PNG/PDF, default/long text, age grouping and 60px safe text margins"
+    },
+    {
+      "command": "node content/robi-batches/2026-10-22/restart-01/verify-browser.mjs",
+      "result": "passed",
+      "scope": "all six local mobile editors and real PNG/PDF downloads"
+    },
+    {
+      "command": "node content/robi-batches/2026-10-22/restart-01/verify-worker.mjs",
+      "result": "passed",
+      "scope": "real Cloudflare Worker startup, six API templates/pages and sitemap"
+    },
+    {
+      "command": "node tests/production-smoke.mjs",
+      "result": "passed",
+      "initialJavaScriptGzipBytes": {
+        "landing": 7130,
+        "catalog": 7130
+      }
+    },
+    {
+      "command": "node tests/template-titles.mjs",
+      "result": "passed",
+      "invitationPages": 67
+    },
+    {
+      "command": "node tests/adsense-integration.mjs",
+      "result": "passed",
+      "publicPages": 83,
+      "realGoogleRequests": false
+    },
+    {
+      "command": "PYTHONPATH=/tmp/robi-font-tools python3 content/robi-batches/2026-10-22/restart-01/check-integrity.py",
+      "result": "passed",
+      "historicalBackgroundsCompared": 58,
+      "newPairMinimumDistance63": 22
+    },
+    {
+      "command": "Actual font cmap checks and pdftoppm",
+      "result": "passed",
+      "customFonts": 3,
+      "pdfFiles": 12
+    }
+  ],
+  "publicLiveVerification": "deferred_by_user",
+  "productionAdFill": "unverified",
+  "noNetworkBypass": true
+}
