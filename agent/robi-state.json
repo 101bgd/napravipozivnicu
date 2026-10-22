@@ -170,7 +170,7 @@
       "id": "2026-10-22",
       "date": "2026-10-22",
       "timezone": "Asia/Tokyo",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "path": "content/robi-batches/2026-10-22/restart-01",
       "requiredCount": 6,
       "generatedCount": 6,
@@ -194,7 +194,7 @@
           "id": "puzicina-jagodica",
           "name": "Pužicina jagodica",
           "category": "first",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "female",
           "age": 1,
           "sourceDimensions": [
@@ -212,7 +212,7 @@
           "id": "kraljica-veceri",
           "name": "Kraljica večeri",
           "category": "eighteen",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "female",
           "age": 18,
           "sourceDimensions": [
@@ -230,7 +230,7 @@
           "id": "rakunicina-sarena-zurka",
           "name": "Rakuničina šarena žurka",
           "category": "birthday",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "female",
           "age": 3,
           "sourceDimensions": [
@@ -248,7 +248,7 @@
           "id": "ahatni-zavet",
           "name": "Ahatni zavet",
           "category": "wedding",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "couple",
           "sourceDimensions": [
             1060,
@@ -265,7 +265,7 @@
           "id": "bademov-blagoslov",
           "name": "Bademov blagoslov",
           "category": "baptism",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "female",
           "sourceDimensions": [
             1060,
@@ -282,7 +282,7 @@
           "id": "kolica-puna-radosti",
           "name": "Kolica puna radosti",
           "category": "baby",
-          "status": "ready_to_publish",
+          "status": "deployment_pending",
           "audience": "female",
           "sourceDimensions": [
             1060,
@@ -382,7 +382,16 @@
           "status": "deferred_by_user",
           "reason": "User explicitly directed production to proceed now and 403 to be handled later; no network bypass or fabricated verification."
         }
-      ]
+      ],
+      "mainCommit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+      "mainUpdatedAt": "2026-10-22T04:34:18Z",
+      "publication": {
+        "status": "deployment_pending",
+        "atomic": true,
+        "commit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+        "expectedParent": "9c2a5a7457e721caf4d9672a3eadda601506abb1",
+        "mainUpdatedAt": "2026-10-22T04:34:18Z"
+      }
     }
   ],
   "history": [
@@ -472,7 +481,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-22",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -494,7 +503,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T04:33:26Z",
+  "updatedAt": "2026-10-22T04:34:18Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-21",
     "source": "content/robi-batches/2026-10-21/user-review.json",

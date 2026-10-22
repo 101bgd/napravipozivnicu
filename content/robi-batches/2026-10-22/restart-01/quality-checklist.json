@@ -113,8 +113,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -233,8 +234,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -353,8 +355,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -472,8 +475,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -591,8 +595,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -710,8 +715,9 @@
       "publication": [
         {
           "check": "atomic_publication",
-          "status": "NEPROVERENO",
-          "detail": "All six ready; one main commit/deploy pending."
+          "status": "PROŠLO",
+          "evidence": "https://github.com/101bgd/napravipozivnicu/commit/2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+          "detail": "One commit and a single fast-forward main update containing all six. Cloudflare deployment still pending."
         }
       ],
       "postPublication": [
@@ -723,7 +729,7 @@
       ]
     }
   ],
-  "overallStatus": "READY_TO_PUBLISH",
+  "overallStatus": "PUBLISHING",
   "userAestheticApproval": "not_assumed",
   "pointsAwarded": 0,
   "deadline": {
