@@ -11,6 +11,7 @@ import { isRetiredRecord } from '../src/retired-templates.js';
 import { infoPageFromPath } from '../src/info-content.js';
 import { renderInfoPage } from '../src/info-page.js';
 import { readAdSense, applyAdSense, adSenseHost } from './adsense.js';
+import { applyGoogleTag } from './google-tag.js';
 import { guidePageFromPath } from '../src/guide-catalog.js';
 import { renderGuidePage } from '../src/guide-page.js';
 export async function publishedCatalog(env) {
@@ -26,6 +27,11 @@ export async function publishedCatalog(env) {
 export async function handlePublic(request, env, staticFetch) {
   const url = new URL(request.url), path = url.pathname, siteUrl = new URL(env.SITE_URL || SITE_URL).origin;
   if (!['GET', 'HEAD'].includes(request.method)) throw new HttpError(405, 'Metoda nije podržana.');
+  // Static index aliases otherwise bypass page rendering and its shared tags.
+  const indexPath = path.endsWith('/index.html') ? path.slice(0, -'index.html'.length) : null;
+  if (indexPath && (indexPath === '/' || indexPath === '/pozivnice/' || infoPageFromPath(indexPath) || guidePageFromPath(indexPath) || categoryFromPath(indexPath) || /^\/pozivnice\/[a-z0-9-]+\/$/.test(indexPath))) {
+    return Response.redirect(`${url.origin}${indexPath}${url.search}`, 301);
+  }
   if (path === '/ads.txt') {
     const adsense = await readAdSense(env);
     const body = adsense.publisherId ? `google.com, ${adsense.publisherId.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n` : '# AdSense publisher nije podešen.\n';
@@ -63,7 +69,8 @@ export async function handlePublic(request, env, staticFetch) {
   const view = category || collection ? 'catalog' : 'landing';
   const content = guidePage ? renderGuidePage(guidePage, catalog) : infoPage ? renderInfoPage(infoPage) : template ? renderTemplatePage(template, catalog) : renderPage({ category: category || 'all', catalog, view });
   const adsense = await readAdSense(env);
-  const html = applyAdSense(renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, guidePage, template, catalog, siteUrl, view })), adsense, adSenseHost(url, siteUrl));
+  const production = adSenseHost(url, siteUrl);
+  const html = applyGoogleTag(applyAdSense(renderDocument(await baseResponse.text(), content, pageMeta({ category: category || 'all', infoPage, guidePage, template, catalog, siteUrl, view })), adsense, production), production);
   const headers = { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'X-Content-Type-Options': 'nosniff', 'Referrer-Policy': 'strict-origin-when-cross-origin' };
   if (url.hostname.endsWith('.pages.dev')) headers['X-Robots-Tag'] = 'noindex';
   return new Response(request.method === 'HEAD' ? null : html, { headers });

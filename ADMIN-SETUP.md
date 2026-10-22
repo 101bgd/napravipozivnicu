@@ -116,3 +116,14 @@ Otvori **Admin → AdSense reklame**, ili `/admin/sabloni/#adsense`. Prekidač *
 Skripta se ne učitava u adminu, na `pages.dev` ni lokalnim pregledima. Ručni blok koristi postojeću skriptu i ne duplira je. Oglasi ne ulaze u PNG/PDF pozivnicu.
 
 Za posetioce iz regiona u kojima je saglasnost potrebna, u **AdSense → Privatnost i poruke** podesi Googleovu sertifikovanu poruku o privatnosti/CMP. Odobrenje naloga i prikaz oglasa zavise od Google-a.
+
+
+## Google Analytics i provera pre AdSense prijave
+
+Google tag `G-802HKT7NMR` automatski se dodaje odmah posle `<head>` na javnom produkcionom domenu. Nema dodatnog kopiranja u Cloudflare ili admin panel. AdSense prekidači upravljaju samo AdSense-om; ne isključuju Analytics.
+
+U Analytics-u proveri da je ovaj ID vezan za odgovarajući Web data stream i da se domen poklapa. Posle uspešnog Cloudflare deployment-a proveri instalaciju kroz Tag Assistant i izveštaj Realtime, bez blokatora i uz odgovarajući izbor saglasnosti. Jedan tag nije garancija da Google prima posete; blokatori, saglasnost i podešavanja naloga utiču na prikupljanje.
+
+Za posetioce iz EEA, UK i Švajcarske proveri i objavi Google-sertifikovanu CMP poruku u **AdSense → Privatnost i poruke**. Posebno proveri da izbor korisnika upravlja analitičkim kolačićima i odgovarajućim Google Consent Mode signalima; samo prisustvo Google taga, AdSense koda ili teksta Politike privatnosti to ne rešava. U repozitorijumu nema sopstvene CMP integracije. Spoljna podešavanja naloga ne mogu se zaključiti iz izvornog koda.
+
+Pre slanja na pregled proveri i nalog/domen u AdSense-u, prava za korišćene pozadine i sadržaj, prijem poruka na kontakt adresi i eventualne zahteve u Policy Center-u. Google procenjuje originalnost, korisnost sadržaja i usklađenost; tehnički prolaz testova ne garantuje odobrenje.
