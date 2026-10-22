@@ -1,0 +1,108 @@
+{
+  "dateTokyo": "2026-10-23",
+  "status": "planned",
+  "createdAt": "2026-10-22T23:01:11Z",
+  "audience": "male",
+  "birthdayAge": 4,
+  "feedbackSources": [
+    "content/robi-batches/2026-10-22/restart-01/user-review.json",
+    "content/robi-batches/2026-10-21/user-review.json"
+  ],
+  "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
+  "designs": [
+    {
+      "id": "tukanova-prva-fiesta",
+      "name": "Tukanova prva fiesta",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "motif": "sa tukanom i tropskim listovima",
+      "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
+      "palette": [
+        "#f85b3e",
+        "#20b8ac",
+        "#ffc533",
+        "#17394b"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA joyful FIRST birthday background for a baby boy: a delightful little toucan with a bright yellow and orange beak perched on a small rich teal tropical branch in the LOWER LEFT (roughly x10–42%, y63–88%). A few sculptural turquoise tropical leaves curl underneath him. Saturated CORAL and tangerine ground dominates the whole composition, clean matte gouache/vector hybrid, with crisp lime and sunny yellow accents and a few carefully placed round confetti dots. Keep the TOP 58% mostly a smooth uniform LIGHT CORAL that supports dark navy type; keep the LOWER RIGHT x52–90%, y62–93% clean coral too for details. No faded cream center, no frame, no birthday cake, no balloons, no visible symbols shaped like numerals. Broad lively color fields, not watercolor pale washes. Elegant playful character with correct anatomy, cute and premium."
+    },
+    {
+      "id": "elektricni-ritam",
+      "name": "Električni ritam",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "motif": "sa električnim talasima i narandžastim akcentima",
+      "slug": "pozivnica-18-rodjendan-elektricni-talasi",
+      "palette": [
+        "#101d42",
+        "#02c5d4",
+        "#ff6b24",
+        "#e8f9ff"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA confident modern EIGHTEENTH birthday background for a young man, editorial club poster energy without any lettering. Deep INK NAVY field, vibrant electric CYAN and hot ORANGE glossy flowing ribbon-like wave paths, clean high-end 3D abstract forms. Main curved orange/cyan wave floats in the TOP RIGHT, within x68–93%, y8–34%; a second thinner cyan/orange ribbon flows across the LOWER LEFT within x8–38%, y78–92%. Avoid music records, instruments, crystals, vehicles, checkerboards. The entire MIDDLE and LEFT upper area x9–70%,y10–75% remains a smooth very dark navy for huge pale editable type; preserve a calm LOWER RIGHT x42–90%,y75–94% navy zone. Rich contrast, substantial colored shapes, luxurious youth celebration, no border, no digits or typographic glyphs."
+    },
+    {
+      "id": "zmajev-sareni-let",
+      "name": "Zmajev šareni let",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "motif": "sa zelenim zmajićem i šarenim brdima",
+      "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
+      "palette": [
+        "#269ce4",
+        "#80d539",
+        "#ffbf27",
+        "#ff5b45",
+        "#123c69"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA wonderfully COLORFUL fourth birthday invitation background for a boy age four. Full-bleed saturated clear SKY BLUE ground, with a single adorable friendly bright GREEN little dragon with small turquoise wings and yellow belly, smiling, in the LOWER RIGHT x57–88%,y70–89%. The dragon has two arms and two legs, clear correct simple anatomy; no scary teeth or fire. Rounded graphic hills in vivid mango YELLOW, tomato RED and leaf GREEN form a cheerful compact layered landscape only in the bottom 22%, within the safe inset for important features, with blue ground bleeding around. Tiny sparse yellow star-like confetti near upper corners are inset. MAIN AREA x12–88%,y8–66% is a clean uniform vivid sky blue, no clouds or texture; large dark navy invitation type will be added later. Leave a small calm blue zone LOWER LEFT x10–48%,y72–91% for details. Bold playful flat-gouache children's book illustration, joyful saturated colors, premium crisp shapes. No pale ivory empty center, no castle, no rainbow, no balloons, no numbers, no other characters."
+    },
+    {
+      "id": "zavet-pod-bugenvilijom",
+      "name": "Zavet pod bugenvilijom",
+      "category": "wedding",
+      "audience": "couple",
+      "motif": "sa bugenvilijom na tirkiznoj podlozi",
+      "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
+      "palette": [
+        "#07545c",
+        "#d52c83",
+        "#f3b43b",
+        "#f5edd8"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA richly colored sophisticated wedding invitation background. Deep jewel TEAL ground over the entire format, smooth enough for warm ivory editable calligraphy. Highly refined botanical gouache bougainvillea in vivid MAGENTA and fuchsia, with elegant rich green leaves and very fine antique gold stems. Main lush but airy botanical sweep occupies the UPPER LEFT x8–40%,y7–30% then becomes thin along the left x7–14%,y30–56%; a much smaller blossom sprig sits LOWER RIGHT x78–91%,y82–92%. All important blossoms are fully inset, none cut off. A large quiet teal text zone x25–89%,y26–93% for asymmetric names and wedding details. Do not create a wreath or all-over frame. No roses, no peonies, no mineral textures. Strong jewel color with romantic, contemporary Mediterranean character; visually rich yet restrained, no washout, no beige canvas."
+    },
+    {
+      "id": "plavi-vitraz",
+      "name": "Plavi vitraž",
+      "category": "baptism",
+      "audience": "male",
+      "motif": "sa plavim vitražom i zlatnim krstom",
+      "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
+      "palette": [
+        "#1849a5",
+        "#18afc5",
+        "#b98523",
+        "#d3edf7"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA dignified artistic baptism invitation background for a baby boy, inspired by stained glass craftsmanship. Tall abstract geometric stained glass panels in rich COBALT BLUE, luminous CYAN and turquoise with elegant thin warm GOLD lead-like seams sit along the far left and right, within x5–16% and x84–95%, with a narrow geometric blue arch across the top y5–16%. A small simple refined GOLD Christian cross is centered at x50%,y17%, completely inset and prominent. The glass is flat front-facing art, NOT a window in a room, no perspective and no outside light beam. Central text area x20–80%,y25–94% is a smooth light ICE BLUE, unmistakably cool blue rather than cream or white, broad and clean for large dark cobalt type. Bottom center is also clean for ceremony/celebration details. Rich saturated edges contrast with the calm blue center; modern respectful sacred design, no angels, birds, flowers, fonts, candles or water bowls."
+    },
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "name": "Vidrin mali zagrljaj",
+      "category": "baby",
+      "audience": "male",
+      "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
+      "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
+      "palette": [
+        "#117f89",
+        "#efae27",
+        "#9eddd1",
+        "#76402c"
+      ],
+      "prompt": "Create ONE original finished invitation BACKGROUND, portrait EXACT aspect ratio 5:7; preferred 1500 x 2100 pixels if supported. The artwork fills the entire image edge to edge, viewed perfectly straight on. NO text, NO letters, NO numbers, NO logos, NO watermark, NO mockup, NO paper sheet or paper edges, NO table, NO hands, NO perspective, NO external shadow, NO collage or variations. All important illustrative motifs are fully inside a 5% inset from every edge; only nonessential ground colors may bleed off. Keep the specified calm text zones genuinely uncluttered for large editable Serbian invitation text to be placed later, but DO NOT make the whole image washed out, beige or pastel. Deliberate rich color, clear polished shapes, print quality and charming graphic sophistication.\nA warm playful invitation background for celebrating the birth of a baby boy. At the UPPER CENTER x29–71%,y9–31%, an adorable cocoa-brown parent otter floating on its back gently cradles a very small baby otter on its chest, both peacefully smiling; anatomically clear, beautifully illustrated, no human babies, no clothes or letters. The water around them is a few simple turquoise ripple arcs with golden small leaf accents, entirely inset. The image has a richly colored TEAL river ground in the outer areas and a broad smooth lighter AQUA organic water field that flows down the center x12–88%,y35–94% for large dark teal editable text below the otters. A sunny MUSTARD curved bank enters one lower corner, a small deeper teal water arc the opposite corner; keep details sparse and all important features inset. Contemporary cut-paper/gouache hybrid illustration, welcoming and joyful with substantial real color. No cream or pink pale ground, no stork, no crib, no stars, no pram, no collage, no wording."
+    }
+  ]
+}

@@ -450,6 +450,94 @@
         "appliesToFutureBatches": true,
         "currentPublishedDesignChangesRequested": false
       }
+    },
+    {
+      "id": "2026-10-23",
+      "date": "2026-10-23",
+      "path": "content/robi-batches/2026-10-23",
+      "status": "planned",
+      "requiredCount": 6,
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "audience": "male",
+      "birthdayAge": 4,
+      "audienceAssignment": "planned_from_two_complete_deployments_pending_live_verification",
+      "plannedAt": "2026-10-22T23:01:11Z",
+      "scheduledAt": "2026-10-23T08:00:00+09:00",
+      "deadlineAt": "2026-10-23T10:00:00+09:00",
+      "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
+      "designs": [
+        {
+          "id": "tukanova-prva-fiesta",
+          "name": "Tukanova prva fiesta",
+          "category": "first",
+          "audience": "male",
+          "age": 1,
+          "motif": "sa tukanom i tropskim listovima",
+          "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
+          "status": "planned"
+        },
+        {
+          "id": "elektricni-ritam",
+          "name": "Električni ritam",
+          "category": "eighteen",
+          "audience": "male",
+          "age": 18,
+          "motif": "sa električnim talasima i narandžastim akcentima",
+          "slug": "pozivnica-18-rodjendan-elektricni-talasi",
+          "status": "planned"
+        },
+        {
+          "id": "zmajev-sareni-let",
+          "name": "Zmajev šareni let",
+          "category": "birthday",
+          "audience": "male",
+          "age": 4,
+          "motif": "sa zelenim zmajićem i šarenim brdima",
+          "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
+          "status": "planned"
+        },
+        {
+          "id": "zavet-pod-bugenvilijom",
+          "name": "Zavet pod bugenvilijom",
+          "category": "wedding",
+          "audience": "couple",
+          "motif": "sa bugenvilijom na tirkiznoj podlozi",
+          "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
+          "status": "planned"
+        },
+        {
+          "id": "plavi-vitraz",
+          "name": "Plavi vitraž",
+          "category": "baptism",
+          "audience": "male",
+          "motif": "sa plavim vitražom i zlatnim krstom",
+          "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
+          "status": "planned"
+        },
+        {
+          "id": "vidrin-mali-zagrljaj",
+          "name": "Vidrin mali zagrljaj",
+          "category": "baby",
+          "audience": "male",
+          "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
+          "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
+          "status": "planned"
+        }
+      ],
+      "feedbackSources": [
+        "content/robi-batches/2026-10-22/restart-01/user-review.json",
+        "content/robi-batches/2026-10-21/user-review.json"
+      ],
+      "blockers": [],
+      "liveVerification": {
+        "status": "pending",
+        "knownPriorNetworkIssue": "Public checks on earlier dates deferred; not a creative production gate."
+      }
     }
   ],
   "history": [
@@ -565,8 +653,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
-  "activeBatch": "2026-10-22",
+  "status": "planned",
+  "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -587,7 +675,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T05:19:44Z",
+  "updatedAt": "2026-10-22T23:01:11Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
