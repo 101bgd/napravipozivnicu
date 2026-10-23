@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/lanetovo-prvo-slavlje-background-9f19cfc90059.webp",
+    "id": "162c4d58-02a8-5a54-93c6-1d406c55a51d",
+    "bytes": 347690,
+    "sha256": "9f19cfc9005928539ab88a1452e400e9b361e46da23257c7452179e519be480c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/lanetovo-prvo-slavlje-thumbnail-ff8702dcd75c.webp",
+    "id": "e7f6ed1c-5cd1-5a6b-9e79-0b8e1c4bd442",
+    "bytes": 88040,
+    "sha256": "ff8702dcd75c312a93a93dab22b62e4dbb16f8217eca93a8780a048e36b0b0d8"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-background-59b2c03c7c8d.webp",
+    "id": "4f2f2c94-212c-5f01-8c12-ce59488a0ff7",
+    "bytes": 233552,
+    "sha256": "59b2c03c7c8d4aca38695e441cc1764095903548fb35912765e26dd8ed6659b8"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-thumbnail-e7c544892313.webp",
+    "id": "8788a722-e51f-5621-93f7-f5dfcd324eda",
+    "bytes": 48450,
+    "sha256": "e7c5448923132b4b5975cc874a5f0df1787096c590c886c3d51b1a324a369b0b"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/kameleonova-zurka-background-e1c64f6d4a86.webp",
+    "id": "4f396a5c-e933-52b5-986c-f85bc717e701",
+    "bytes": 413578,
+    "sha256": "e1c64f6d4a86f00f5b62cda9047c36c8548ec83a71f4c19afb1cd5184ec5c01c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/kameleonova-zurka-thumbnail-6536e8a8bbcc.webp",
+    "id": "e52259f9-da9a-5ac6-ba6b-e852774271cb",
+    "bytes": 85668,
+    "sha256": "6536e8a8bbcc03933275613d1543357c57d476754ee59aa892e6c4cbb1b923f0"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-background-063ea50a3b65.webp",
+    "id": "fe4b4fef-ba17-5424-b64e-855fdc789ad2",
+    "bytes": 174408,
+    "sha256": "063ea50a3b658190cf1458946a24b47e9aa384c0a82d70fc29c97cb061cd9713"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-thumbnail-74c9361e37d3.webp",
+    "id": "b6a54138-e995-57d3-9005-0366e0de34c1",
+    "bytes": 44818,
+    "sha256": "74c9361e37d3368c9789c3f70ed259c3c16319074d931eaa2c8f738740d19824"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/klas-blagoslova-background-02ec239748ed.webp",
+    "id": "1fca13c3-e148-596d-9736-4363b09ec881",
+    "bytes": 321204,
+    "sha256": "02ec239748ed77e6ea187053bfc9ae3a3d7767223025a9be6b65ea15d7d196ff"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/klas-blagoslova-thumbnail-185b50175cba.webp",
+    "id": "1336be7f-5e4f-5d99-8d0e-0548f3ca7d9c",
+    "bytes": 69696,
+    "sha256": "185b50175cba286b3668120de157b25e52a04a56ead7b3a59b8623c8ae86d2cc"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/pingvinova-radost-background-1eea74d4bbd7.webp",
+    "id": "6d5f50f0-9152-5853-91f7-7d17e9ce42ec",
+    "bytes": 339228,
+    "sha256": "1eea74d4bbd76781991949ef30310e71a3d24030efa84996ff799fe5f3ecf83a"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/pingvinova-radost-thumbnail-82c4de4107c1.webp",
+    "id": "2c42d0b9-d2d7-5a44-b54d-250bd36afc1c",
+    "bytes": 76710,
+    "sha256": "82c4de4107c102986727cde887c5e0f269fe88685b1badf09e10e3786f502e40"
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "klas-blagoslova",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/puzicina-jagodica-background-2913ab647a96.webp",
+          "distance63": 18
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/laneni-blagoslov.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/savanska-druzina-pozadina-af7b6822e950.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "nocni-kupe",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/saten-i-biseri-pozadina-8d5283cae12f.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "dva-zlatna-kruga",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pozadina-488e613c1176.webp",
+          "distance63": 24
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/prva-mala-luka.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/saten-i-biseri-pozadina-8d5283cae12f.webp",
+          "distance63": 26
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "lanetovo-prvo-slavlje",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/bademov-blagoslov-background-4602553b6f17.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "pingvinova-radost",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/labudova-neznost-pozadina-817079b2e7fd.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/zlatna-obala-pozadina-b664537cdb38.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "kameleonova-zurka",
+      "historyCount": 63,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/zlatni-trenutak-pozadina-ce7d11697ede.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/zlatna-obala-pozadina-b664537cdb38.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "klas-blagoslova",
+      "b": "nocni-kupe",
+      "distance63": 30
+    },
+    {
+      "a": "klas-blagoslova",
+      "b": "dva-zlatna-kruga",
+      "distance63": 36
+    },
+    {
+      "a": "klas-blagoslova",
+      "b": "lanetovo-prvo-slavlje",
+      "distance63": 36
+    },
+    {
+      "a": "klas-blagoslova",
+      "b": "pingvinova-radost",
+      "distance63": 32
+    },
+    {
+      "a": "klas-blagoslova",
+      "b": "kameleonova-zurka",
+      "distance63": 28
+    },
+    {
+      "a": "nocni-kupe",
+      "b": "dva-zlatna-kruga",
+      "distance63": 28
+    },
+    {
+      "a": "nocni-kupe",
+      "b": "lanetovo-prvo-slavlje",
+      "distance63": 34
+    },
+    {
+      "a": "nocni-kupe",
+      "b": "pingvinova-radost",
+      "distance63": 28
+    },
+    {
+      "a": "nocni-kupe",
+      "b": "kameleonova-zurka",
+      "distance63": 26
+    },
+    {
+      "a": "dva-zlatna-kruga",
+      "b": "lanetovo-prvo-slavlje",
+      "distance63": 26
+    },
+    {
+      "a": "dva-zlatna-kruga",
+      "b": "pingvinova-radost",
+      "distance63": 30
+    },
+    {
+      "a": "dva-zlatna-kruga",
+      "b": "kameleonova-zurka",
+      "distance63": 30
+    },
+    {
+      "a": "lanetovo-prvo-slavlje",
+      "b": "pingvinova-radost",
+      "distance63": 36
+    },
+    {
+      "a": "lanetovo-prvo-slavlje",
+      "b": "kameleonova-zurka",
+      "distance63": 28
+    },
+    {
+      "a": "pingvinova-radost",
+      "b": "kameleonova-zurka",
+      "distance63": 32
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

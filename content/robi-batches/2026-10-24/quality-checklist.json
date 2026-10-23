@@ -1,0 +1,1191 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-24",
+  "checkedAt": "2026-10-23T16:24:04.751Z",
+  "separateReviewPass": true,
+  "prePublicationStatus": "PROŠLO",
+  "aestheticAssessment": "Robi self-review only. User has not rated this series; technical success is not the user's aesthetic approval.",
+  "designs": [
+    {
+      "id": "lanetovo-prvo-slavlje",
+      "name": "Lanetovo prvo slavlje",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "sourceDimensions": [
+        821,
+        1916
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": true,
+      "cropRect": {
+        "x": 10,
+        "y": 450,
+        "width": 800,
+        "height": 1120
+      },
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 17,
+          "color": "#123a2b",
+          "x": 50,
+          "y": 8,
+          "widthPercent": 75,
+          "family": "DM Sans"
+        },
+        {
+          "field": "names",
+          "sizeAt500px": 74,
+          "color": "#123a2b",
+          "x": 50,
+          "y": 19,
+          "widthPercent": 80,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "age",
+          "sizeAt500px": 81,
+          "color": "#123a2b",
+          "x": 23.90128173828125,
+          "y": 32,
+          "widthPercent": 30,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "occasion",
+          "sizeAt500px": 29,
+          "color": "#123a2b",
+          "x": 55.35220489501953,
+          "y": 32,
+          "widthPercent": 45,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 18.5,
+          "color": "#123a2b",
+          "x": 50,
+          "y": 42,
+          "widthPercent": 77,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 29,
+          "color": "#123a2b",
+          "x": 50,
+          "y": 51,
+          "widthPercent": 78,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 19,
+          "color": "#123a2b",
+          "x": 25,
+          "y": 58,
+          "widthPercent": 36,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 16,
+          "color": "#123a2b",
+          "x": 70,
+          "y": 58,
+          "widthPercent": 44,
+          "family": "DM Sans"
+        },
+        {
+          "field": "rsvp",
+          "sizeAt500px": 13.5,
+          "color": "#06170d",
+          "x": 81,
+          "y": 69,
+          "widthPercent": 32,
+          "family": "DM Sans"
+        }
+      ]
+    },
+    {
+      "id": "nocni-kupe",
+      "name": "Noćni kupe",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 17,
+          "color": "#fff1d3",
+          "x": 50,
+          "y": 8,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "names",
+          "sizeAt500px": 72,
+          "color": "#fff1d3",
+          "x": 50,
+          "y": 18,
+          "widthPercent": 84,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "age",
+          "sizeAt500px": 88,
+          "color": "#fff1d3",
+          "x": 26.329132080078125,
+          "y": 30,
+          "widthPercent": 30,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "occasion",
+          "sizeAt500px": 27,
+          "color": "#fff1d3",
+          "x": 58.0248046875,
+          "y": 30,
+          "widthPercent": 46,
+          "family": "DM Sans"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 18.5,
+          "color": "#fff1d3",
+          "x": 50,
+          "y": 40,
+          "widthPercent": 84,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 29,
+          "color": "#fff1d3",
+          "x": 31,
+          "y": 47,
+          "widthPercent": 54,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 20,
+          "color": "#fff1d3",
+          "x": 75,
+          "y": 47,
+          "widthPercent": 30,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 18,
+          "color": "#fff1d3",
+          "x": 50,
+          "y": 54.5,
+          "widthPercent": 84,
+          "family": "DM Sans"
+        },
+        {
+          "field": "rsvp",
+          "sizeAt500px": 14,
+          "color": "#fff1d3",
+          "x": 50,
+          "y": 94,
+          "widthPercent": 86,
+          "family": "DM Sans"
+        }
+      ]
+    },
+    {
+      "id": "kameleonova-zurka",
+      "name": "Kameleonova žurka",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 17,
+          "color": "#143728",
+          "x": 50,
+          "y": 8,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "names",
+          "sizeAt500px": 75,
+          "color": "#143728",
+          "x": 50,
+          "y": 18,
+          "widthPercent": 84,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "age",
+          "sizeAt500px": 73,
+          "color": "#143728",
+          "x": 25.93592071533203,
+          "y": 30,
+          "widthPercent": 30,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "occasion",
+          "sizeAt500px": 27,
+          "color": "#143728",
+          "x": 56.36259765625,
+          "y": 30,
+          "widthPercent": 46,
+          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 18,
+          "color": "#143728",
+          "x": 50,
+          "y": 39,
+          "widthPercent": 83,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 26,
+          "color": "#143728",
+          "x": 31,
+          "y": 45,
+          "widthPercent": 54,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 20,
+          "color": "#143728",
+          "x": 76,
+          "y": 45,
+          "widthPercent": 28,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 17,
+          "color": "#143728",
+          "x": 50,
+          "y": 51,
+          "widthPercent": 84,
+          "family": "DM Sans"
+        }
+      ]
+    },
+    {
+      "id": "dva-zlatna-kruga",
+      "name": "Dva zlatna kruga",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 16.5,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 12,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "bride",
+          "sizeAt500px": 65,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 23,
+          "widthPercent": 84,
+          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+        },
+        {
+          "field": "join",
+          "sizeAt500px": 26,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 30.5,
+          "widthPercent": 20,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "groom",
+          "sizeAt500px": 65,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 38,
+          "widthPercent": 84,
+          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 17.5,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 46,
+          "widthPercent": 84,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 29,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 54,
+          "widthPercent": 80,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "ceremony_time",
+          "sizeAt500px": 16,
+          "color": "#fff1dc",
+          "x": 28,
+          "y": 74,
+          "widthPercent": 42,
+          "family": "DM Sans"
+        },
+        {
+          "field": "ceremony_location",
+          "sizeAt500px": 16,
+          "color": "#fff1dc",
+          "x": 28,
+          "y": 81,
+          "widthPercent": 42,
+          "family": "DM Sans"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 16,
+          "color": "#fff1dc",
+          "x": 72,
+          "y": 74,
+          "widthPercent": 42,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 16,
+          "color": "#fff1dc",
+          "x": 72,
+          "y": 81,
+          "widthPercent": 42,
+          "family": "DM Sans"
+        },
+        {
+          "field": "rsvp",
+          "sizeAt500px": 14,
+          "color": "#fff1dc",
+          "x": 50,
+          "y": 94,
+          "widthPercent": 86,
+          "family": "DM Sans"
+        }
+      ]
+    },
+    {
+      "id": "klas-blagoslova",
+      "name": "Klas blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 16.5,
+          "color": "#071a12",
+          "x": 50,
+          "y": 25,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "names",
+          "sizeAt500px": 68,
+          "color": "#071a12",
+          "x": 50,
+          "y": 35,
+          "widthPercent": 84,
+          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+        },
+        {
+          "field": "occasion",
+          "sizeAt500px": 34,
+          "color": "#071a12",
+          "x": 50,
+          "y": 44,
+          "widthPercent": 82,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 18,
+          "color": "#071a12",
+          "x": 50,
+          "y": 52,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 29,
+          "color": "#071a12",
+          "x": 45,
+          "y": 61,
+          "widthPercent": 72,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "ceremony_time",
+          "sizeAt500px": 17,
+          "color": "#071a12",
+          "x": 30,
+          "y": 69,
+          "widthPercent": 48,
+          "family": "DM Sans"
+        },
+        {
+          "field": "ceremony_location",
+          "sizeAt500px": 16.5,
+          "color": "#071a12",
+          "x": 30,
+          "y": 75,
+          "widthPercent": 48,
+          "family": "DM Sans"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 17,
+          "color": "#071a12",
+          "x": 30,
+          "y": 82,
+          "widthPercent": 48,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 16.5,
+          "color": "#071a12",
+          "x": 30,
+          "y": 87.5,
+          "widthPercent": 48,
+          "family": "DM Sans"
+        },
+        {
+          "field": "rsvp",
+          "sizeAt500px": 13.5,
+          "color": "#071a12",
+          "x": 30,
+          "y": 94,
+          "widthPercent": 48,
+          "family": "DM Sans"
+        }
+      ]
+    },
+    {
+      "id": "pingvinova-radost",
+      "name": "Pingvinova radost",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "plan.json; exactly six unique required categories"
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "metadata.json; male in five categories, couple for wedding"
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "metadata.json, designs.json and browser-checks.json; first1, eighteen18, child4; editable10 tested"
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "designs.json and browser-validation.log; forbidden public terms absent"
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "processing.json, report.json and png-print-checks.json; final1500x2100 exactly5:7"
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Separate original source PNGs visually reviewed; one background each, no generated lettering or paper mockups"
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual sources/final PNG/PDF visually reviewed; essential focal subjects and lettering clear of trim, peripheral color washes and foliage bleed intentionally"
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; actual original backgrounds, default previews and all six actual downloaded PDFs inspected"
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json;63 historical images; minimum history pHash distance18 and new-pair distance26; motif/retirement history reviewed"
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json; all six actual previews inspected; mint/emerald, dark crimson, yellow/coral, plum/gold, sage/gold and blue/apricot palettes"
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json and visual-review.json; no text overlaps, no important focal illustration covered"
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and worker-checks.json; six actual local editors/APIs exercised"
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json, report.json and actual personalized PDFs; Serbian glyphs and long names/venues verified"
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json and six390px mobile screenshots; production-validation.log includes existing320-1440px flows"
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json and pdf-open-checks.json;18PNGs opened at1500x2100 with300dpi metadata;12PDFs opened/rasterized at360x504pt"
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json; six optimized WebP backgrounds174-414KB, six500x700 previews44-89KB;7132gzip initial JS, lazy editor/fonts/PDF"
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log and worker-checks.json;73 unique descriptive titles/H1/social/canonical/structured data, all new sitemap/category entries"
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log; existing account/config inherited; one SDK/placement, no ads in exports. Real Google ad fill was not tested."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "sizeAt500px": 18,
+          "color": "#06131f",
+          "x": 50,
+          "y": 10,
+          "widthPercent": 82,
+          "family": "DM Sans"
+        },
+        {
+          "field": "names",
+          "sizeAt500px": 78,
+          "color": "#06131f",
+          "x": 50,
+          "y": 23,
+          "widthPercent": 84,
+          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+        },
+        {
+          "field": "occasion",
+          "sizeAt500px": 29,
+          "color": "#06131f",
+          "x": 50,
+          "y": 34,
+          "widthPercent": 86,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "note",
+          "sizeAt500px": 18.5,
+          "color": "#06131f",
+          "x": 50,
+          "y": 42,
+          "widthPercent": 84,
+          "family": "DM Sans"
+        },
+        {
+          "field": "date",
+          "sizeAt500px": 29,
+          "color": "#06131f",
+          "x": 30,
+          "y": 54,
+          "widthPercent": 48,
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+        },
+        {
+          "field": "time",
+          "sizeAt500px": 21,
+          "color": "#06131f",
+          "x": 28,
+          "y": 62,
+          "widthPercent": 44,
+          "family": "DM Sans"
+        },
+        {
+          "field": "location",
+          "sizeAt500px": 18,
+          "color": "#06131f",
+          "x": 28,
+          "y": 70,
+          "widthPercent": 44,
+          "family": "DM Sans"
+        }
+      ]
+    }
+  ],
+  "publication": [
+    {
+      "id": "atomic_publication",
+      "status": "NEPROVERENO",
+      "phase": "publication",
+      "evidence": "Not yet published."
+    },
+    {
+      "id": "published_site_verification",
+      "status": "NEPROVERENO",
+      "phase": "postPublication",
+      "evidence": "Verify after deployment; historical environment CONNECT403 must not be bypassed."
+    }
+  ],
+  "userReview": {
+    "status": "awaiting_post_publication_user_review",
+    "pointsAwarded": 0
+  }
+}

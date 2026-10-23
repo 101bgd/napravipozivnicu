@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "pdfFiles": [
+    {
+      "file": "examples/dva-zlatna-kruga-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/dva-zlatna-kruga.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kameleonova-zurka-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kameleonova-zurka.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/klas-blagoslova-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/klas-blagoslova.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/lanetovo-prvo-slavlje-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/lanetovo-prvo-slavlje.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/nocni-kupe-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/nocni-kupe.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/pingvinova-radost-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/pingvinova-radost.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lanetovo-prvo-slavlje": {
+    "sourceDimensions": [
+      821,
+      1916
+    ],
+    "cropRect": {
+      "x": 10,
+      "y": 450,
+      "width": 800,
+      "height": 1120
+    },
+    "purpose": "Exact5:7 crop removes unimportant extended forest; preserves complete fawn and focal flower group.",
+    "exportDimensions": [
+      1500,
+      2100
+    ],
+    "upscaled": true
+  },
+  "otherFive": {
+    "sourceDimensions": [
+      1060,
+      1484
+    ],
+    "cropped": false,
+    "exportDimensions": [
+      1500,
+      2100
+    ],
+    "upscaled": true
+  }
+}

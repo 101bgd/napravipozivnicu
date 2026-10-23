@@ -1,0 +1,302 @@
+[
+  {
+    "path": "sources/dva-zlatna-kruga.png",
+    "bytes": 1962776,
+    "gitSha": "c1ed05947dd41693fd8d23f585bdd16708332121",
+    "sha256": "011b1a827496f3ee8f82be97d0d3522309e4017da9bdfdf03cc7498202aca056"
+  },
+  {
+    "path": "sources/kameleonova-zurka.png",
+    "bytes": 2533627,
+    "gitSha": "c0dcb230028b8fbdbd844da5efc3584f6447afaf",
+    "sha256": "40167eee620fa31d9cc2286ea0f12a3b1037c9c3398c1731a10a843b3df88a03"
+  },
+  {
+    "path": "sources/klas-blagoslova.png",
+    "bytes": 2480368,
+    "gitSha": "f238a52e2ab1d5b180675e4c2164ce416d8ad8a9",
+    "sha256": "f855a1ba3bcbd52756d7fa70252d1b20cd8a8eeb9dab6f8afb6180ca3e208ec4"
+  },
+  {
+    "path": "sources/lanetovo-prvo-slavlje.png",
+    "bytes": 2639178,
+    "gitSha": "0eec53d38239df4c338ba22d601bbf35343ee395",
+    "sha256": "dbdecf357dc2f5257356ae380b25b5e3a3b141afdd22446aead6f9c7c07b973d"
+  },
+  {
+    "path": "sources/nocni-kupe.png",
+    "bytes": 2088713,
+    "gitSha": "faa61a65625edcc7007ae019d77ee5b9ce4aacd4",
+    "sha256": "3bf0ef5c38c86a8887eda2d9a8737eef522948a091be04199ec3e2956ec1ab8e"
+  },
+  {
+    "path": "sources/pingvinova-radost.png",
+    "bytes": 2297110,
+    "gitSha": "6b027a6218e28ae53868deb7fb7ed6d8f3fa81a1",
+    "sha256": "3d36a1317b92e9c9ba612ab780187bc3df8cc28965cb39d18b7697e709fd9f7a"
+  },
+  {
+    "path": "rejected/hortenzijin-zavet.png",
+    "bytes": 2710881,
+    "gitSha": "95d72d8f500ed4df7d2783a0f870a6bc4543a4ac",
+    "sha256": "d3e26a17d416f5f7795c2d9821bef792a16fecf087b50cbfcfb995973f061203"
+  },
+  {
+    "path": "rejected/koalin-veliki-dan.png",
+    "bytes": 2881815,
+    "gitSha": "470d2fd75e320c07d49278f59b21d05bf1293da6",
+    "sha256": "74460d1fb11f9e243c8e951f30498cc143524934dddd49797bc85520ba00c043"
+  },
+  {
+    "path": "rejected/lisicino-prvo-slavlje.png",
+    "bytes": 2680953,
+    "gitSha": "ac074cec525e9bd5b44f81894b8aaa9e70c93339",
+    "sha256": "4b58f2fcfa781db0eb3dbdd6b1f17284ad5784eb36a0cfbdbc9fd4dc53ab4603"
+  },
+  {
+    "path": "rejected/piratsko-blago.png",
+    "bytes": 2328682,
+    "gitSha": "aa83ac933a8fe01995a78887193ed38595568578",
+    "sha256": "0566ae073def56228a19121787f3a0f59676f411ff805958c89cf408f3b7f7f0"
+  },
+  {
+    "path": "rejected/ritam-gitare.png",
+    "bytes": 2116356,
+    "gitSha": "46b45f9d3f25a6a45e8a6714d3bf0a918458a911",
+    "sha256": "d3766d9cbb36531203606774df51dfc75646a371751e1b0835b28403bcb8cf3e"
+  },
+  {
+    "path": "rejected/rubinski-cvet.png",
+    "bytes": 2516346,
+    "gitSha": "4cd0e667e563f633b34476658f8d0ba67e3c9909",
+    "sha256": "810886df9dfec0bdf20a3d057f43ebef3d3b207310c731cdd5f0b6d19f6136fe"
+  },
+  {
+    "path": "rejected/saksofon-u-ponoc.png",
+    "bytes": 2084583,
+    "gitSha": "f57fc05801e5f17f78da9d95ad51720539e2c6be",
+    "sha256": "4972b763985281fd4f5ae5e759af25598edd870c3095a599c2466f1cb3aa5ed8"
+  },
+  {
+    "path": "rejected/svetlost-ljiljana.png",
+    "bytes": 2646863,
+    "gitSha": "8f860dc8f6a699d169c7c3feffbca437d36b8dea",
+    "sha256": "9318232cfefd1cdda9ede8323b404c74ed91b6a90600f232c09f17a2e8205101"
+  },
+  {
+    "path": "backgrounds/dva-zlatna-kruga.webp",
+    "bytes": 174408,
+    "gitSha": "5c2f22b45ff2f9eba99f4295121530ee008b86b6",
+    "sha256": "063ea50a3b658190cf1458946a24b47e9aa384c0a82d70fc29c97cb061cd9713"
+  },
+  {
+    "path": "backgrounds/kameleonova-zurka.webp",
+    "bytes": 413578,
+    "gitSha": "d59041f948463fea2dc0c20164754cff9423d949",
+    "sha256": "e1c64f6d4a86f00f5b62cda9047c36c8548ec83a71f4c19afb1cd5184ec5c01c"
+  },
+  {
+    "path": "backgrounds/klas-blagoslova.webp",
+    "bytes": 321204,
+    "gitSha": "0dde185032ceb40d2fcdd3aacdbf95bb4e1147fe",
+    "sha256": "02ec239748ed77e6ea187053bfc9ae3a3d7767223025a9be6b65ea15d7d196ff"
+  },
+  {
+    "path": "backgrounds/lanetovo-prvo-slavlje.webp",
+    "bytes": 347690,
+    "gitSha": "c24452694c6425ad48e7efdb2aa6206a5e833ed2",
+    "sha256": "9f19cfc9005928539ab88a1452e400e9b361e46da23257c7452179e519be480c"
+  },
+  {
+    "path": "backgrounds/nocni-kupe.webp",
+    "bytes": 233552,
+    "gitSha": "9989e56f1062ea45f8cc856cb9697c579b2789a8",
+    "sha256": "59b2c03c7c8d4aca38695e441cc1764095903548fb35912765e26dd8ed6659b8"
+  },
+  {
+    "path": "backgrounds/pingvinova-radost.webp",
+    "bytes": 339228,
+    "gitSha": "f72fce897738e6e607106a501b497c7e9bb716c5",
+    "sha256": "1eea74d4bbd76781991949ef30310e71a3d24030efa84996ff799fe5f3ecf83a"
+  },
+  {
+    "path": "previews/dva-zlatna-kruga.webp",
+    "bytes": 44818,
+    "gitSha": "c33170e295605537f0d58edbdba0a23f93fc80ce",
+    "sha256": "74c9361e37d3368c9789c3f70ed259c3c16319074d931eaa2c8f738740d19824"
+  },
+  {
+    "path": "previews/kameleonova-zurka.webp",
+    "bytes": 85668,
+    "gitSha": "8048da0c352636cb1d64ff254102499835d3acc6",
+    "sha256": "6536e8a8bbcc03933275613d1543357c57d476754ee59aa892e6c4cbb1b923f0"
+  },
+  {
+    "path": "previews/klas-blagoslova.webp",
+    "bytes": 69696,
+    "gitSha": "50be8360dd3e694b7564799741f94a31d98287c3",
+    "sha256": "185b50175cba286b3668120de157b25e52a04a56ead7b3a59b8623c8ae86d2cc"
+  },
+  {
+    "path": "previews/lanetovo-prvo-slavlje.webp",
+    "bytes": 88040,
+    "gitSha": "27abc7ca3392082106ad914e5263d2cf5ef3b032",
+    "sha256": "ff8702dcd75c312a93a93dab22b62e4dbb16f8217eca93a8780a048e36b0b0d8"
+  },
+  {
+    "path": "previews/nocni-kupe.webp",
+    "bytes": 48450,
+    "gitSha": "329aef95b4712a6a9af01e464e6a204f0db4810c",
+    "sha256": "e7c5448923132b4b5975cc874a5f0df1787096c590c886c3d51b1a324a369b0b"
+  },
+  {
+    "path": "previews/pingvinova-radost.webp",
+    "bytes": 76710,
+    "gitSha": "669c8fc7c3acc347837581b1de0f26d08db2e093",
+    "sha256": "82c4de4107c102986727cde887c5e0f269fe88685b1badf09e10e3786f502e40"
+  },
+  {
+    "path": "examples/dva-zlatna-kruga-editor.png",
+    "bytes": 2168874,
+    "gitSha": "a156d383c656d11164ea4373b5d30d7111629123",
+    "sha256": "db812d618d4cfd6383133f22b9815de0035470812c6df8a4bfd8b21051a94b2e"
+  },
+  {
+    "path": "examples/dva-zlatna-kruga.png",
+    "bytes": 2500230,
+    "gitSha": "bbd5ab52f09d40c1c30799401db20d66038b5d14",
+    "sha256": "d52fb2a78b5e5eb16bd064186c962b15b955bb29431c688eb4325ccf3dc55da0"
+  },
+  {
+    "path": "examples/kameleonova-zurka-editor.png",
+    "bytes": 3895117,
+    "gitSha": "7d7ee181d3b447acbf75fd8af9c8b4ae323243c3",
+    "sha256": "9d2bfdc775b759c6ec2adc6c158ef203b98a8c3078c379da4f227149cbba6274"
+  },
+  {
+    "path": "examples/kameleonova-zurka.png",
+    "bytes": 4644607,
+    "gitSha": "8998efda279df712efb0e6b5be691a5be46846a0",
+    "sha256": "3e15daedf57ec15c6d6399eed8115f8b773fe805c4393f3cede979411c4f8cdd"
+  },
+  {
+    "path": "examples/klas-blagoslova-editor.png",
+    "bytes": 3028702,
+    "gitSha": "b2ffe3c175f8ffb76a6cdfd34739043b8b2dccc6",
+    "sha256": "2809bc37491325f3da918250d61e203a8d68198c887c959bcd9562b7ce191f7c"
+  },
+  {
+    "path": "examples/klas-blagoslova.png",
+    "bytes": 3554734,
+    "gitSha": "834c139914e7d284f1e8d8dd1584f98d97d6103e",
+    "sha256": "bd7e3b9a2cbd9162863afcafd5f8537e80afe325647c0ef89153b424efec13d9"
+  },
+  {
+    "path": "examples/lanetovo-prvo-slavlje-editor.png",
+    "bytes": 3597431,
+    "gitSha": "5e075ad716b2d0638f0de3a30fe83fb88ce2da7a",
+    "sha256": "b96f415a1a22ae5f0b5e0335e9c1ba195495f8b6971e8fe6baf117255e291137"
+  },
+  {
+    "path": "examples/lanetovo-prvo-slavlje.png",
+    "bytes": 4290754,
+    "gitSha": "623dcd0f8c82285ce1b35903c68d3b6dae9451f2",
+    "sha256": "59e6fcb9f77f9e723e7e909024fec7589f25b53837996ffe6cc63b59550e0428"
+  },
+  {
+    "path": "examples/nocni-kupe-editor.png",
+    "bytes": 2533880,
+    "gitSha": "8d452470b2c1de624c45f24e9532f368353eb700",
+    "sha256": "ae73c364cd498f50f321a3c6835529ef5928bfbb5e4733b8a21d18d7ee40cb5f"
+  },
+  {
+    "path": "examples/nocni-kupe.png",
+    "bytes": 2971683,
+    "gitSha": "a21c03b54db0d84a51c185711bc39bc72e3a4648",
+    "sha256": "0a71428fdeb240657333550a0ef17f9cca95743efc89db1fe7ee0b8a94bfbee2"
+  },
+  {
+    "path": "examples/pingvinova-radost-editor.png",
+    "bytes": 3617373,
+    "gitSha": "9f34712b8d4cf441522a3e8f114a852612cc4305",
+    "sha256": "9987ecf33105143ad6349b2895269dbadd849701e163ba9c37529a6b984a315d"
+  },
+  {
+    "path": "examples/pingvinova-radost.png",
+    "bytes": 4295667,
+    "gitSha": "28c70c59831864f430b53ba66001b2c5b5a55dc9",
+    "sha256": "cb65a61474b02d9ad7bab304825694f0c1b99b5e618858d4bca44db76f58efac"
+  },
+  {
+    "path": "examples/dva-zlatna-kruga-editor.pdf",
+    "bytes": 1805174,
+    "gitSha": "9b47e32de08f77228791c589a6fdbb5099021767",
+    "sha256": "64ef43a231a7391597a88a947a2c745097fc8f583084f565a6ef95d480009055"
+  },
+  {
+    "path": "examples/dva-zlatna-kruga.pdf",
+    "bytes": 504350,
+    "gitSha": "287b77313985d3a96bfbaccee3ed7efa79520156",
+    "sha256": "47ce85ce92697b9b1e8d1381037141ad8520dce3d2c45b90ea2d590192667f1c"
+  },
+  {
+    "path": "examples/kameleonova-zurka-editor.pdf",
+    "bytes": 3440446,
+    "gitSha": "91d619d74d9c801833aa50faa3b7eca628d7de65",
+    "sha256": "30aabaa9e35a8a3d973c76529d33f235ca636d2ae79282e3362752c4915d6fc4"
+  },
+  {
+    "path": "examples/kameleonova-zurka.pdf",
+    "bytes": 807487,
+    "gitSha": "b77836c7c05684bb0dc66e8d13fb5c1a15f252b0",
+    "sha256": "1dad4611bf07e9893f6ac8a0d5696f9042dbc9220525d6538304a379b1e3c2e2"
+  },
+  {
+    "path": "examples/klas-blagoslova-editor.pdf",
+    "bytes": 2609275,
+    "gitSha": "c79a0a5104e30769cb37a7b7973af6583c691f03",
+    "sha256": "e8775284f658f6328ddfef17091be6cc2956a4783bbf221c0ec955b6fb53dd17"
+  },
+  {
+    "path": "examples/klas-blagoslova.pdf",
+    "bytes": 699706,
+    "gitSha": "b9749eb9a9a1fa59d91cab26c6931ce2845422a8",
+    "sha256": "a9e11b7235106a17525363f256adc778e73a3c6e02f44800ae1ac8ca10552fa3"
+  },
+  {
+    "path": "examples/lanetovo-prvo-slavlje-editor.pdf",
+    "bytes": 3115821,
+    "gitSha": "87697bd6268390750c5200a249f00e489365b565",
+    "sha256": "415b67f59a162e4dba9ba1e4ad71ef44f79f75c6c6a714e07e4fff14541c5d48"
+  },
+  {
+    "path": "examples/lanetovo-prvo-slavlje.pdf",
+    "bytes": 749779,
+    "gitSha": "834825ea40ecb85e53da146b4570af9dec8bcfaa",
+    "sha256": "705d8e7974f335274750fcd991ade86f35eb112479ec97a553550caea38cd75d"
+  },
+  {
+    "path": "examples/nocni-kupe-editor.pdf",
+    "bytes": 2060993,
+    "gitSha": "0494961918ffd68667f9d82f2d9e3a5b941626ca",
+    "sha256": "e1bd5b7d92443578a7947be6be24761d6082ce27a68726f7e44554cf44019b9f"
+  },
+  {
+    "path": "examples/nocni-kupe.pdf",
+    "bytes": 552107,
+    "gitSha": "6a220d3a5db92d491a9d22fb20c1e40b473c3693",
+    "sha256": "75d08d1a548cd9e137800e06c680bf5d92f1d8861af28e7bca711b4d168ae5bd"
+  },
+  {
+    "path": "examples/pingvinova-radost-editor.pdf",
+    "bytes": 3092896,
+    "gitSha": "a5af1d33d58f964fc2f6f837223fc343f11dac7e",
+    "sha256": "5372534c873bf4765a5ecd7257bf8eeb255ace6e15214170f7abbf125c328231"
+  },
+  {
+    "path": "examples/pingvinova-radost.pdf",
+    "bytes": 714516,
+    "gitSha": "5d1873d2c274e104654f75dda7c41a75c9f9164e",
+    "sha256": "e4a2766852f8ef27a2dc166b2af15cab3f79006108c85f925c3c5418cc1bf704"
+  }
+]

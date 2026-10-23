@@ -596,7 +596,7 @@
       "id": "2026-10-24",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24",
-      "status": "checking",
+      "status": "ready_to_publish",
       "manualStart": true,
       "startedAt": "2026-10-23T15:39:57.917Z",
       "scheduledAt": "2026-10-24T08:00:00+09:00",
@@ -616,61 +616,132 @@
           "id": "lanetovo-prvo-slavlje",
           "name": "Lanetovo prvo slavlje",
           "category": "first",
-          "motif": "sa lanetom i šumskim cvećem",
-          "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
           "audience": "male",
           "age": 1,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/lanetovo-prvo-slavlje.webp",
+          "sourceDimensions": [
+            821,
+            1916
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": true,
+          "cropRect": {
+            "x": 10,
+            "y": 450,
+            "width": 800,
+            "height": 1120
+          }
         },
         {
           "id": "nocni-kupe",
           "name": "Noćni kupe",
           "category": "eighteen",
-          "motif": "sa crvenim sportskim automobilom",
-          "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
           "audience": "male",
           "age": 18,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/nocni-kupe.webp",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "cropRect": null
         },
         {
           "id": "kameleonova-zurka",
           "name": "Kameleonova žurka",
           "category": "birthday",
-          "motif": "sa kameleonom i tropskim listovima",
-          "slug": "pozivnica-deciji-rodjendan-kameleon",
           "audience": "male",
           "age": 4,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/kameleonova-zurka.webp",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "cropRect": null
         },
         {
           "id": "dva-zlatna-kruga",
           "name": "Dva zlatna kruga",
           "category": "wedding",
-          "motif": "sa zlatnim burmama na ljubičastoj svili",
-          "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
           "audience": "couple",
           "age": null,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/dva-zlatna-kruga.webp",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "cropRect": null
         },
         {
           "id": "klas-blagoslova",
           "name": "Klas blagoslova",
           "category": "baptism",
-          "motif": "sa zlatnim klasjem i krstom",
-          "slug": "pozivnica-za-krstenje-zlatno-klasje",
           "audience": "male",
           "age": null,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/klas-blagoslova.webp",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "cropRect": null
         },
         {
           "id": "pingvinova-radost",
           "name": "Pingvinova radost",
           "category": "baby",
-          "motif": "sa porodicom pingvina",
-          "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
           "audience": "male",
           "age": null,
-          "status": "prepared_under_review"
+          "status": "ready_to_publish",
+          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/pingvinova-radost.webp",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "cropRect": null
         }
       ],
       "previousRejectedSeriesMustStayRemoved": true,
@@ -681,12 +752,43 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "Six original backgrounds and individual editable layouts prepared. All default and long-text contrast/margin/overlap checks pass. Beginning full editor/PNG/PDF and SEO checks.",
+      "lastConfirmedStep": "All pre-publication checks passed.50 binary artifacts and supporting evidence saved on control branch; six ready for one atomic main publication.",
       "acceptedBackgroundCount": 6,
       "totalReturnedGenerations": 14,
       "rejectedDesignCount": 8,
       "totalGenerationAttempts": 14,
-      "pendingGenerations": 0
+      "pendingGenerations": 0,
+      "preparedAt": "2026-10-23T16:29:51.159Z",
+      "prePublicationChecks": "passed",
+      "qualityChecklist": "content/robi-batches/2026-10-24/quality-checklist.json",
+      "report": "content/robi-batches/2026-10-24/REPORT.md",
+      "finalReport": "content/robi-batches/2026-10-24/REPORT.md",
+      "artifactPersistence": {
+        "status": "required_artifacts_saved",
+        "controlPath": "content/robi-batches/2026-10-24/",
+        "binaryFiles": 50,
+        "sourcePngs": 6,
+        "rejectedOriginals": 8,
+        "backgroundWebp": 6,
+        "previewWebp": 6,
+        "defaultPngExamples": 6,
+        "defaultPdfExamples": 6,
+        "actualEditorPngExamples": 6,
+        "actualEditorPdfExamples": 6,
+        "allBinaryUploadsMatchedLocalGitSha": true,
+        "manifest": "content/robi-batches/2026-10-24/artifact-manifest.json",
+        "extraStressPngsAndMobileScreenshots": "Retained locally; actual checks and metrics persisted in report.json/browser-checks.json/png-print-checks.json."
+      },
+      "userReview": {
+        "status": "awaiting_post_publication_user_review",
+        "aestheticApprovalAssumed": false,
+        "pointsAwardedThisBatch": 0
+      },
+      "resumeActions": [
+        "Publish these six once as one main commit; do not start a second batch for24October.",
+        "Keep all23October retired IDs absent.",
+        "After deployment verify public results by allowed means; never misreport network-blocked checks."
+      ]
     }
   ],
   "history": [
@@ -832,7 +934,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-24",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -854,7 +956,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T16:07:29.831Z",
+  "updatedAt": "2026-10-23T16:29:51.159Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",

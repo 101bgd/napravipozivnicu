@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "pngFiles": [
+    {
+      "file": "examples/dva-zlatna-kruga-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/dva-zlatna-kruga-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/dva-zlatna-kruga.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kameleonova-zurka-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kameleonova-zurka-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kameleonova-zurka.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/klas-blagoslova-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/klas-blagoslova-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/klas-blagoslova.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lanetovo-prvo-slavlje-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lanetovo-prvo-slavlje-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lanetovo-prvo-slavlje.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/nocni-kupe-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/nocni-kupe-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/nocni-kupe.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pingvinova-radost-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pingvinova-radost-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pingvinova-radost.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    }
+  ]
+}

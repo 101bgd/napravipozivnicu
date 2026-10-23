@@ -1,0 +1,32 @@
+{
+  "lanetovo-prvo-slavlje": {
+    "age": {
+      "x": 23.90128173828125,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 55.35220489501953
+    }
+  },
+  "nocni-kupe": {
+    "age": {
+      "x": 26.329132080078125,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 58.0248046875
+    }
+  },
+  "kameleonova-zurka": {
+    "age": {
+      "x": 25.93592071533203,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.36259765625
+    }
+  },
+  "dva-zlatna-kruga": {},
+  "klas-blagoslova": {},
+  "pingvinova-radost": {}
+}

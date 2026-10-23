@@ -1,0 +1,81 @@
+{
+  "reviewedAt": "2026-10-23T16:24:04.751Z",
+  "reviewer": "Robi",
+  "separateControlPass": true,
+  "filesReviewed": [
+    "All original source backgrounds",
+    "All six final previews",
+    "All six actual downloaded and rasterized editor PDFs",
+    "18 actual PNG files and12 PDF files opened"
+  ],
+  "designs": {
+    "lanetovo-prvo-slavlje": {
+      "palette": [
+        "mint green",
+        "emerald",
+        "golden brown",
+        "cobalt flowers"
+      ],
+      "layout": "Large centered name and adjacent age/event; split time/place row; compact right RSVP beside fawn.",
+      "review": "Complete fawn retained through declared crop. Text clears face, feet and focal flowers; peripheral forest foliage is background bleed."
+    },
+    "nocni-kupe": {
+      "palette": [
+        "charcoal",
+        "midnight purple",
+        "crimson",
+        "amber"
+      ],
+      "layout": "Large serif name and adjacent age/event; shared date/time row; venue above car, RSVP below scene.",
+      "review": "Whole car including mirrors and tyres is inset; lettering moved away from bright road reflections."
+    },
+    "kameleonova-zurka": {
+      "palette": [
+        "sun yellow",
+        "bright green",
+        "coral red",
+        "teal"
+      ],
+      "layout": "Large rounded name and age/event group; compact upper text, shared date/time row; no optional RSVP.",
+      "review": "Chameleon, feet, tail and face remain clear and complete; peripheral tropical foliage bleeds. Optional RSVP omitted to keep scene unobstructed."
+    },
+    "dva-zlatna-kruga": {
+      "palette": [
+        "deep plum",
+        "aubergine",
+        "warm gold",
+        "champagne"
+      ],
+      "layout": "Centered script names/ampersand; centered note/date; paired ceremony/reception columns below rings.",
+      "review": "Rings complete and well inset; names optically centered in default and long-name exports; venue row adjusted away from bright fold."
+    },
+    "klas-blagoslova": {
+      "palette": [
+        "warm ivory",
+        "sage",
+        "emerald",
+        "gold ochre"
+      ],
+      "layout": "Centered cross/name/occasion; left-side event details beside wheat.",
+      "review": "Cross and main wheat heads intact; body text darkened. Peripheral stems/edge washes are background bleed."
+    },
+    "pingvinova-radost": {
+      "palette": [
+        "cerulean",
+        "aqua",
+        "apricot",
+        "deep navy"
+      ],
+      "layout": "Large centered name/title; deliberate left details column beside family; no optional RSVP.",
+      "review": "Entire penguin family visible; text clears faces and chick. Darkened body text; optional RSVP removed from textured sea."
+    }
+  },
+  "repairs": [
+    "Eight unsafe background attempts replaced with completely different motifs in same category.",
+    "Text repositioned to clear important subjects and bright reflections.",
+    "Typography enlarged; age/event grouped by measured actual text width.",
+    "PNG300dpi metadata implemented without changing pixels; all six actual downloads re-tested.",
+    "Tall fawn source transparently cropped to exact5:7 before upscaling."
+  ],
+  "userAestheticApprovalAssumed": false
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3597431
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 3115821
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "nocni-kupe",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2533880
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2060993
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "kameleonova-zurka",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "passed",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3895117
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 3440446
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2168874
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 1805174
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "klas-blagoslova",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3028702
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2609275
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "pingvinova-radost",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3617373
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 3092896
+    },
+    "browserErrors": []
+  }
+]

@@ -1,0 +1,3 @@
+PASS: 89 public pages have one disabled/enabled placement; authenticated CSRF-protected settings reject invalid codes, discard arbitrary scripts, migrate legacy blank settings, serve the supplied script in head by default and generate ads.txt; admin/previews have no ads.
+PASS: real browser loads the mocked head SDK once and lazily requests the manual unit, initializes the unit once, supports 320–1440px layouts, and hides unfilled or blocked ads without executing pasted scripts.
+PASS: admin code field persists settings, reports validation errors, independently disables the manual placement and head script, restores saved code after reload and changes account/unit without rebuilding. No real Google ad requests were made.

@@ -1,75 +1,62 @@
-{
-  "date": "2026-10-24",
-  "manual": true,
-  "startedAt": "2026-10-23T15:39:57.917Z",
-  "designs": [
-    {
-      "id": "lanetovo-prvo-slavlje",
-      "name": "Lanetovo prvo slavlje",
-      "category": "first",
-      "motif": "sa lanetom i šumskim cvećem",
-      "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
-      "audience": "male",
-      "age": 1,
-      "status": "planned"
-    },
-    {
-      "id": "nocni-kupe",
-      "name": "Noćni kupe",
-      "category": "eighteen",
-      "motif": "sa crvenim sportskim automobilom",
-      "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
-      "audience": "male",
-      "age": 18,
-      "status": "planned"
-    },
-    {
-      "id": "kameleonova-zurka",
-      "name": "Kameleonova žurka",
-      "category": "birthday",
-      "motif": "sa kameleonom i tropskim listovima",
-      "slug": "pozivnica-deciji-rodjendan-kameleon",
-      "audience": "male",
-      "age": 4,
-      "status": "planned"
-    },
-    {
-      "id": "dva-zlatna-kruga",
-      "name": "Dva zlatna kruga",
-      "category": "wedding",
-      "motif": "sa zlatnim burmama na ljubičastoj svili",
-      "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
-      "audience": "couple",
-      "age": null,
-      "status": "planned"
-    },
-    {
-      "id": "klas-blagoslova",
-      "name": "Klas blagoslova",
-      "category": "baptism",
-      "motif": "sa zlatnim klasjem i krstom",
-      "slug": "pozivnica-za-krstenje-zlatno-klasje",
-      "audience": "male",
-      "age": null,
-      "status": "planned"
-    },
-    {
-      "id": "pingvinova-radost",
-      "name": "Pingvinova radost",
-      "category": "baby",
-      "motif": "sa porodicom pingvina",
-      "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
-      "audience": "male",
-      "age": null,
-      "status": "planned"
-    }
-  ],
-  "retiredDesignIds": [
-    "kornjacina-prva-radost",
-    "urbani-puls",
-    "robotova-zurka",
-    "zdralov-zavet",
-    "kap-blagoslova",
-    "lavlje-malo-sunce"
-  ]
-}
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "name": "Lanetovo prvo slavlje",
+    "category": "first",
+    "motif": "sa lanetom i šumskim cvećem",
+    "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
+    "audience": "male",
+    "age": 1,
+    "status": "planned"
+  },
+  {
+    "id": "nocni-kupe",
+    "name": "Noćni kupe",
+    "category": "eighteen",
+    "motif": "sa crvenim sportskim automobilom",
+    "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
+    "audience": "male",
+    "age": 18,
+    "status": "planned"
+  },
+  {
+    "id": "kameleonova-zurka",
+    "name": "Kameleonova žurka",
+    "category": "birthday",
+    "motif": "sa kameleonom i tropskim listovima",
+    "slug": "pozivnica-deciji-rodjendan-kameleon",
+    "audience": "male",
+    "age": 4,
+    "status": "planned"
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "name": "Dva zlatna kruga",
+    "category": "wedding",
+    "motif": "sa zlatnim burmama na ljubičastoj svili",
+    "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
+    "audience": "couple",
+    "age": null,
+    "status": "planned"
+  },
+  {
+    "id": "klas-blagoslova",
+    "name": "Klas blagoslova",
+    "category": "baptism",
+    "motif": "sa zlatnim klasjem i krstom",
+    "slug": "pozivnica-za-krstenje-zlatno-klasje",
+    "audience": "male",
+    "age": null,
+    "status": "planned"
+  },
+  {
+    "id": "pingvinova-radost",
+    "name": "Pingvinova radost",
+    "category": "baby",
+    "motif": "sa porodicom pingvina",
+    "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
+    "audience": "male",
+    "age": null,
+    "status": "planned"
+  }
+]

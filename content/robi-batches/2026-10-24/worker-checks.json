@@ -1,0 +1,50 @@
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "nocni-kupe",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "kameleonova-zurka",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "klas-blagoslova",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "pingvinova-radost",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  }
+]

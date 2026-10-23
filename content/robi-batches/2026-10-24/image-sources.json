@@ -1,0 +1,114 @@
+[
+  {
+    "path": "sources/dva-zlatna-kruga.png",
+    "bytes": 1962776,
+    "gitSha": "c1ed05947dd41693fd8d23f585bdd16708332121",
+    "sha256": "011b1a827496f3ee8f82be97d0d3522309e4017da9bdfdf03cc7498202aca056",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "sources/kameleonova-zurka.png",
+    "bytes": 2533627,
+    "gitSha": "c0dcb230028b8fbdbd844da5efc3584f6447afaf",
+    "sha256": "40167eee620fa31d9cc2286ea0f12a3b1037c9c3398c1731a10a843b3df88a03",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "sources/klas-blagoslova.png",
+    "bytes": 2480368,
+    "gitSha": "f238a52e2ab1d5b180675e4c2164ce416d8ad8a9",
+    "sha256": "f855a1ba3bcbd52756d7fa70252d1b20cd8a8eeb9dab6f8afb6180ca3e208ec4",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "sources/lanetovo-prvo-slavlje.png",
+    "bytes": 2639178,
+    "gitSha": "0eec53d38239df4c338ba22d601bbf35343ee395",
+    "sha256": "dbdecf357dc2f5257356ae380b25b5e3a3b141afdd22446aead6f9c7c07b973d",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "sources/nocni-kupe.png",
+    "bytes": 2088713,
+    "gitSha": "faa61a65625edcc7007ae019d77ee5b9ce4aacd4",
+    "sha256": "3bf0ef5c38c86a8887eda2d9a8737eef522948a091be04199ec3e2956ec1ab8e",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "sources/pingvinova-radost.png",
+    "bytes": 2297110,
+    "gitSha": "6b027a6218e28ae53868deb7fb7ed6d8f3fa81a1",
+    "sha256": "3d36a1317b92e9c9ba612ab780187bc3df8cc28965cb39d18b7697e709fd9f7a",
+    "status": "accepted",
+    "replacement": null
+  },
+  {
+    "path": "rejected/hortenzijin-zavet.png",
+    "bytes": 2710881,
+    "gitSha": "95d72d8f500ed4df7d2783a0f870a6bc4543a4ac",
+    "sha256": "d3e26a17d416f5f7795c2d9821bef792a16fecf087b50cbfcfb995973f061203",
+    "status": "rejected",
+    "replacement": "rubinski-cvet"
+  },
+  {
+    "path": "rejected/koalin-veliki-dan.png",
+    "bytes": 2881815,
+    "gitSha": "470d2fd75e320c07d49278f59b21d05bf1293da6",
+    "sha256": "74460d1fb11f9e243c8e951f30498cc143524934dddd49797bc85520ba00c043",
+    "status": "rejected",
+    "replacement": "lisicino-prvo-slavlje"
+  },
+  {
+    "path": "rejected/lisicino-prvo-slavlje.png",
+    "bytes": 2680953,
+    "gitSha": "ac074cec525e9bd5b44f81894b8aaa9e70c93339",
+    "sha256": "4b58f2fcfa781db0eb3dbdd6b1f17284ad5784eb36a0cfbdbc9fd4dc53ab4603",
+    "status": "rejected",
+    "replacement": "lanetovo-prvo-slavlje"
+  },
+  {
+    "path": "rejected/piratsko-blago.png",
+    "bytes": 2328682,
+    "gitSha": "aa83ac933a8fe01995a78887193ed38595568578",
+    "sha256": "0566ae073def56228a19121787f3a0f59676f411ff805958c89cf408f3b7f7f0",
+    "status": "rejected",
+    "replacement": "kameleonova-zurka"
+  },
+  {
+    "path": "rejected/ritam-gitare.png",
+    "bytes": 2116356,
+    "gitSha": "46b45f9d3f25a6a45e8a6714d3bf0a918458a911",
+    "sha256": "d3766d9cbb36531203606774df51dfc75646a371751e1b0835b28403bcb8cf3e",
+    "status": "rejected",
+    "replacement": "saksofon-u-ponoc"
+  },
+  {
+    "path": "rejected/rubinski-cvet.png",
+    "bytes": 2516346,
+    "gitSha": "4cd0e667e563f633b34476658f8d0ba67e3c9909",
+    "sha256": "810886df9dfec0bdf20a3d057f43ebef3d3b207310c731cdd5f0b6d19f6136fe",
+    "status": "rejected",
+    "replacement": "dva-zlatna-kruga"
+  },
+  {
+    "path": "rejected/saksofon-u-ponoc.png",
+    "bytes": 2084583,
+    "gitSha": "f57fc05801e5f17f78da9d95ad51720539e2c6be",
+    "sha256": "4972b763985281fd4f5ae5e759af25598edd870c3095a599c2466f1cb3aa5ed8",
+    "status": "rejected",
+    "replacement": "nocni-kupe"
+  },
+  {
+    "path": "rejected/svetlost-ljiljana.png",
+    "bytes": 2646863,
+    "gitSha": "8f860dc8f6a699d169c7c3feffbca437d36b8dea",
+    "sha256": "9318232cfefd1cdda9ede8323b404c74ed91b6a90600f232c09f17a2e8205101",
+    "status": "rejected",
+    "replacement": "klas-blagoslova"
+  }
+]
