@@ -95,53 +95,5 @@ export const robiAssets = new Map([
   [
     "ba1be0f9-e78b-5f41-a503-64d274075ba2",
     "/assets/pozivnice/robi/2026-10-22/kolica-puna-radosti-thumbnail-f4d9d5c7189d.webp"
-  ],
-  [
-    "7f899f30-1e1f-5121-a710-0b354df111aa",
-    "/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-background-042fb9b96999.webp"
-  ],
-  [
-    "324397bd-395e-51c1-a5de-316f524ee018",
-    "/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-thumbnail-d256c435f167.webp"
-  ],
-  [
-    "b8226ac3-f353-58c1-973f-309015dcc97d",
-    "/assets/pozivnice/robi/2026-10-23/urbani-puls-background-6649d0160c18.webp"
-  ],
-  [
-    "aad97e23-e656-5c61-a05d-f3f638e7f74d",
-    "/assets/pozivnice/robi/2026-10-23/urbani-puls-thumbnail-095be71b467b.webp"
-  ],
-  [
-    "b7f1b671-f88c-5a05-ab79-04f5d354ef2d",
-    "/assets/pozivnice/robi/2026-10-23/robotova-zurka-background-25b9869a4f6d.webp"
-  ],
-  [
-    "b0b9909e-3a51-5e4f-b209-30d447d323b3",
-    "/assets/pozivnice/robi/2026-10-23/robotova-zurka-thumbnail-e6f371e4d881.webp"
-  ],
-  [
-    "d3c0fc41-c511-535e-9d65-c7e045aff264",
-    "/assets/pozivnice/robi/2026-10-23/zdralov-zavet-background-11517a74a740.webp"
-  ],
-  [
-    "c5d3170f-b3b7-5b92-a33c-21c0e7020fcd",
-    "/assets/pozivnice/robi/2026-10-23/zdralov-zavet-thumbnail-7c6b670539c1.webp"
-  ],
-  [
-    "0dec38ef-5910-5a46-af9f-eec95fa7aad6",
-    "/assets/pozivnice/robi/2026-10-23/kap-blagoslova-background-34fbce1837cc.webp"
-  ],
-  [
-    "82f3aa0b-ae0c-572d-82c4-a15a7f9a6daf",
-    "/assets/pozivnice/robi/2026-10-23/kap-blagoslova-thumbnail-2dad07b771e9.webp"
-  ],
-  [
-    "10f8a3c0-acd3-56b6-b915-e42ac1edc70f",
-    "/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-background-c0475c8bb7c7.webp"
-  ],
-  [
-    "496746a0-ad49-559b-aacf-ebd19bb443cc",
-    "/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-thumbnail-685ab3124061.webp"
   ]
 ]);
