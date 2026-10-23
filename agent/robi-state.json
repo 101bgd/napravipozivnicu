@@ -605,7 +605,7 @@
       "audience": "male",
       "birthdayAge": 4,
       "audienceAssignment": "planned_from_retained21male3_and22female3_after_removal23male4",
-      "generatedCount": 0,
+      "generatedCount": 3,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -613,51 +613,51 @@
       "completionVerified": false,
       "designs": [
         {
-          "id": "koalin-veliki-dan",
-          "name": "Koalin veliki dan",
+          "id": "lanetovo-prvo-slavlje",
+          "name": "Lanetovo prvo slavlje",
           "category": "first",
-          "motif": "sa koalom i eukaliptusom",
-          "slug": "pozivnica-prvi-rodjendan-koala-eukaliptus",
+          "motif": "sa lanetom i šumskim cvećem",
+          "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
           "audience": "male",
           "age": 1,
           "status": "planned"
         },
         {
-          "id": "ritam-gitare",
-          "name": "Ritam gitare",
+          "id": "nocni-kupe",
+          "name": "Noćni kupe",
           "category": "eighteen",
-          "motif": "sa električnom gitarom i plavim svetlom",
-          "slug": "pozivnica-18-rodjendan-elektricna-gitara",
+          "motif": "sa crvenim sportskim automobilom",
+          "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
           "audience": "male",
           "age": 18,
           "status": "planned"
         },
         {
-          "id": "piratsko-blago",
-          "name": "Piratsko blago",
+          "id": "kameleonova-zurka",
+          "name": "Kameleonova žurka",
           "category": "birthday",
-          "motif": "sa piratskim brodom i kovčegom blaga",
-          "slug": "pozivnica-deciji-rodjendan-piratsko-blago",
+          "motif": "sa kameleonom i tropskim listovima",
+          "slug": "pozivnica-deciji-rodjendan-kameleon",
           "audience": "male",
           "age": 4,
           "status": "planned"
         },
         {
-          "id": "hortenzijin-zavet",
-          "name": "Hortenzijin zavet",
+          "id": "dva-zlatna-kruga",
+          "name": "Dva zlatna kruga",
           "category": "wedding",
-          "motif": "sa plavim hortenzijama",
-          "slug": "pozivnica-za-vencanje-plave-hortenzije",
+          "motif": "sa zlatnim burmama na ljubičastoj svili",
+          "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
           "audience": "couple",
           "age": null,
           "status": "planned"
         },
         {
-          "id": "svetlost-ljiljana",
-          "name": "Svetlost ljiljana",
+          "id": "klas-blagoslova",
+          "name": "Klas blagoslova",
           "category": "baptism",
-          "motif": "sa ljiljanima i zlatnim krstom",
-          "slug": "pozivnica-za-krstenje-ljiljani-zlatni-krst",
+          "motif": "sa zlatnim klasjem i krstom",
+          "slug": "pozivnica-za-krstenje-zlatno-klasje",
           "audience": "male",
           "age": null,
           "status": "planned"
@@ -681,7 +681,12 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "User authorized immediate fresh full series; all six new category plans and prompts recorded."
+      "lastConfirmedStep": "Eleven separate images generated; eight rejected for important decorations near trim. Three retained; three completely different replacements generating. Six individualized editable layout definitions prepared locally.",
+      "acceptedBackgroundCount": 3,
+      "totalReturnedGenerations": 11,
+      "rejectedDesignCount": 8,
+      "totalGenerationAttempts": 14,
+      "pendingGenerations": 3
     }
   ],
   "history": [
@@ -849,7 +854,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T15:39:57.917Z",
+  "updatedAt": "2026-10-23T15:54:02.050Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",

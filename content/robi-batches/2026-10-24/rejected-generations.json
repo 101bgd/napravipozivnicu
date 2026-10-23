@@ -1,0 +1,50 @@
+[
+  {
+    "id": "koalin-veliki-dan",
+    "replacement": "lisicino-prvo-slavlje",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "ritam-gitare",
+    "replacement": "saksofon-u-ponoc",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "piratsko-blago",
+    "replacement": "kameleonova-zurka",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "hortenzijin-zavet",
+    "replacement": "rubinski-cvet",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "svetlost-ljiljana",
+    "replacement": "klas-blagoslova",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "lisicino-prvo-slavlje",
+    "replacement": "lanetovo-prvo-slavlje",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "saksofon-u-ponoc",
+    "replacement": "nocni-kupe",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  },
+  {
+    "id": "rubinski-cvet",
+    "replacement": "dva-zlatna-kruga",
+    "status": "rejected",
+    "reason": "Important decoration too near trim. Original not edited; completely new motif generated within same category."
+  }
+]
