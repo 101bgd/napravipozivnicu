@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-23",
+  "requestedBy": "user",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "uzas znaci pobrisi sve ove ali sve"
+  },
+  "recordedAt": "2026-10-23T13:33:35.197Z",
+  "status": "removal_deploying",
+  "designIds": [
+    "kornjacina-prva-radost",
+    "urbani-puls",
+    "robotova-zurka",
+    "zdralov-zavet",
+    "kap-blagoslova",
+    "lavlje-malo-sunce"
+  ],
+  "designs": [
+    {
+      "id": "kornjacina-prva-radost",
+      "name": "Kornjačina prva radost",
+      "category": "first",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/"
+    },
+    {
+      "id": "urbani-puls",
+      "name": "Urbani puls",
+      "category": "eighteen",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-skejtbord-limeta/"
+    },
+    {
+      "id": "robotova-zurka",
+      "name": "Robotova žurka",
+      "category": "birthday",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-veseli-robot/"
+    },
+    {
+      "id": "zdralov-zavet",
+      "name": "Ždralov zavet",
+      "category": "wedding",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-dva-zlatna-zdrala/"
+    },
+    {
+      "id": "kap-blagoslova",
+      "name": "Kap blagoslova",
+      "category": "baptism",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatna-kapljica-krst/"
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "name": "Lavlje malo sunce",
+      "category": "baby",
+      "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-lavic-sunce/"
+    }
+  ],
+  "productionCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+  "productionParent": "6548fb92b4738b05752b40b133201f28aa2a2963",
+  "removedProductionFiles": [
+    "content/robi-batches/2026-10-23/restart-01/asset-ids.json",
+    "content/robi-batches/2026-10-23/restart-01/designs.mjs",
+    "content/robi-batches/2026-10-23/restart-01/layout-spec.json",
+    "content/robi-batches/2026-10-23/restart-01/layout-tuning.json",
+    "content/robi-batches/2026-10-23/restart-01/metadata.json",
+    "public/assets/pozivnice/robi/2026-10-23/kap-blagoslova-background-34fbce1837cc.webp",
+    "public/assets/pozivnice/robi/2026-10-23/kap-blagoslova-thumbnail-2dad07b771e9.webp",
+    "public/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-background-042fb9b96999.webp",
+    "public/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-thumbnail-d256c435f167.webp",
+    "public/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-background-c0475c8bb7c7.webp",
+    "public/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-thumbnail-685ab3124061.webp",
+    "public/assets/pozivnice/robi/2026-10-23/robotova-zurka-background-25b9869a4f6d.webp",
+    "public/assets/pozivnice/robi/2026-10-23/robotova-zurka-thumbnail-e6f371e4d881.webp",
+    "public/assets/pozivnice/robi/2026-10-23/urbani-puls-background-6649d0160c18.webp",
+    "public/assets/pozivnice/robi/2026-10-23/urbani-puls-thumbnail-095be71b467b.webp",
+    "public/assets/pozivnice/robi/2026-10-23/zdralov-zavet-background-11517a74a740.webp",
+    "public/assets/pozivnice/robi/2026-10-23/zdralov-zavet-thumbnail-7c6b670539c1.webp"
+  ],
+  "removedControlArtifacts": [
+    "content/robi-batches/2026-10-23/restart-01/README.md",
+    "content/robi-batches/2026-10-23/restart-01/REPORT.md",
+    "content/robi-batches/2026-10-23/restart-01/asset-ids.json",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/kap-blagoslova.webp",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/kornjacina-prva-radost.webp",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/lavlje-malo-sunce.webp",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/robotova-zurka.webp",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/urbani-puls.webp",
+    "content/robi-batches/2026-10-23/restart-01/backgrounds/zdralov-zavet.webp",
+    "content/robi-batches/2026-10-23/restart-01/browser-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/deployment-check.json",
+    "content/robi-batches/2026-10-23/restart-01/designs.json",
+    "content/robi-batches/2026-10-23/restart-01/designs.mjs",
+    "content/robi-batches/2026-10-23/restart-01/examples/kap-blagoslova.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/kap-blagoslova.png",
+    "content/robi-batches/2026-10-23/restart-01/examples/kornjacina-prva-radost.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/kornjacina-prva-radost.png",
+    "content/robi-batches/2026-10-23/restart-01/examples/lavlje-malo-sunce.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/lavlje-malo-sunce.png",
+    "content/robi-batches/2026-10-23/restart-01/examples/robotova-zurka.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/robotova-zurka.png",
+    "content/robi-batches/2026-10-23/restart-01/examples/urbani-puls.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/urbani-puls.png",
+    "content/robi-batches/2026-10-23/restart-01/examples/zdralov-zavet.pdf",
+    "content/robi-batches/2026-10-23/restart-01/examples/zdralov-zavet.png",
+    "content/robi-batches/2026-10-23/restart-01/font-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/image-prompts.json",
+    "content/robi-batches/2026-10-23/restart-01/image-sources.json",
+    "content/robi-batches/2026-10-23/restart-01/layout-spec.json",
+    "content/robi-batches/2026-10-23/restart-01/layout-tuning.json",
+    "content/robi-batches/2026-10-23/restart-01/metadata.json",
+    "content/robi-batches/2026-10-23/restart-01/palette-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/pdf-open-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/plan.json",
+    "content/robi-batches/2026-10-23/restart-01/prepare.mjs",
+    "content/robi-batches/2026-10-23/restart-01/previews/kap-blagoslova.webp",
+    "content/robi-batches/2026-10-23/restart-01/previews/kornjacina-prva-radost.webp",
+    "content/robi-batches/2026-10-23/restart-01/previews/lavlje-malo-sunce.webp",
+    "content/robi-batches/2026-10-23/restart-01/previews/robotova-zurka.webp",
+    "content/robi-batches/2026-10-23/restart-01/previews/urbani-puls.webp",
+    "content/robi-batches/2026-10-23/restart-01/previews/zdralov-zavet.webp",
+    "content/robi-batches/2026-10-23/restart-01/private-archive.json",
+    "content/robi-batches/2026-10-23/restart-01/public-files.json",
+    "content/robi-batches/2026-10-23/restart-01/public-live-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/publication-manifest.json",
+    "content/robi-batches/2026-10-23/restart-01/publication-report.json",
+    "content/robi-batches/2026-10-23/restart-01/quality-checklist.json",
+    "content/robi-batches/2026-10-23/restart-01/register.mjs",
+    "content/robi-batches/2026-10-23/restart-01/rejected-designs.json",
+    "content/robi-batches/2026-10-23/restart-01/rejected/dalijin-zagrljaj.png",
+    "content/robi-batches/2026-10-23/restart-01/rejected/kos-za-punoletstvo.png",
+    "content/robi-batches/2026-10-23/restart-01/rejected/loza-blagoslova.png",
+    "content/robi-batches/2026-10-23/restart-01/rejected/pandin-bambus-party.png",
+    "content/robi-batches/2026-10-23/restart-01/rejected/vatrogasna-druzina.png",
+    "content/robi-batches/2026-10-23/restart-01/renderer-entry.mjs",
+    "content/robi-batches/2026-10-23/restart-01/report.json",
+    "content/robi-batches/2026-10-23/restart-01/similarity-checks.json",
+    "content/robi-batches/2026-10-23/restart-01/sources/kap-blagoslova.png",
+    "content/robi-batches/2026-10-23/restart-01/sources/kornjacina-prva-radost.png",
+    "content/robi-batches/2026-10-23/restart-01/sources/lavlje-malo-sunce.png",
+    "content/robi-batches/2026-10-23/restart-01/sources/robotova-zurka.png",
+    "content/robi-batches/2026-10-23/restart-01/sources/urbani-puls.png",
+    "content/robi-batches/2026-10-23/restart-01/sources/zdralov-zavet.png",
+    "content/robi-batches/2026-10-23/restart-01/superseded-attempt.json",
+    "content/robi-batches/2026-10-23/restart-01/used-fonts.json",
+    "content/robi-batches/2026-10-23/restart-01/validation-log.json",
+    "content/robi-batches/2026-10-23/restart-01/verify-browser.mjs",
+    "content/robi-batches/2026-10-23/restart-01/verify-worker.mjs",
+    "content/robi-batches/2026-10-23/restart-01/worker-checks.json"
+  ],
+  "localBatchAndDownloadArchiveRemoved": true,
+  "automaticRepublishingForbidden": true,
+  "newReplacementBatchRequested": false,
+  "pointsAwarded": 0,
+  "scoreUnchanged": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "totalPoints": 1,
+    "targetPoints": 50,
+    "ledger": "agent/review-ledger.json",
+    "updatedAt": "2026-10-21T03:43:31Z"
+  },
+  "checks": {
+    "build": "passed",
+    "all67RemainingSeoPages": "passed",
+    "all6AbsentFromCatalogPagesAssetsAndSitemap": "passed",
+    "existing12RobiDesignsPreserved": "passed"
+  },
+  "cloudflareChecks": {
+    "total_count": 1,
+    "check_runs": [
+      {
+        "id": 120442122909,
+        "name": "Cloudflare Pages",
+        "node_id": "CR_kwDOVG-aXs8AAAAcCujynQ",
+        "head_sha": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+        "external_id": "50ed1ad3-7ae2-4475-9d2f-a6a72df87154",
+        "url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442122909",
+        "html_url": "https://github.com/101bgd/napravipozivnicu/runs/120442122909",
+        "details_url": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/50ed1ad3-7ae2-4475-9d2f-a6a72df87154",
+        "status": "in_progress",
+        "conclusion": null,
+        "started_at": "2026-10-23T13:32:13Z",
+        "completed_at": null,
+        "output": {
+          "title": "Building",
+          "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>6adf7bb</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>⚡️&nbsp; Build in progress...</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/50ed1ad3-7ae2-4475-9d2f-a6a72df87154)\n",
+          "text": null,
+          "annotations_count": 0,
+          "annotations_url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442122909/annotations"
+        },
+        "check_suite": {
+          "id": 108314603821
+        },
+        "app": {
+          "id": 85455,
+          "client_id": "Iv1.0879b6ff6c8f7a1a",
+          "slug": "cloudflare-workers-and-pages",
+          "node_id": "MDM6QXBwODU0NTU=",
+          "owner": {
+            "login": "cloudflare",
+            "id": 314135,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxNDEzNQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/cloudflare",
+            "html_url": "https://github.com/cloudflare",
+            "followers_url": "https://api.github.com/users/cloudflare/followers",
+            "following_url": "https://api.github.com/users/cloudflare/following{/other_user}",
+            "gists_url": "https://api.github.com/users/cloudflare/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/cloudflare/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/cloudflare/subscriptions",
+            "organizations_url": "https://api.github.com/users/cloudflare/orgs",
+            "repos_url": "https://api.github.com/users/cloudflare/repos",
+            "events_url": "https://api.github.com/users/cloudflare/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/cloudflare/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "name": "Cloudflare Workers and Pages",
+          "description": "The **Cloudflare GitHub App** automatically deploys your code to Cloudflare when you merge a pull request to your GitHub repository. It can also create a new repository on your GitHub account when you get started with a Cloudflare template. \r\n\r\n\r\nThis integration also:\r\n- Displays the status of your deployments as check runs\r\n- Posts links to preview URLs as comments on each pull request (Cloudflare Pages only)\r\n\r\n\r\n<img src=\"https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/b3c1fc84-7d73-4fc4-8835-69e85980df00/public\" width=67% >\r\n\r\n\r\n<img src=\"https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/e9a5ffb3-4ec3-4dd6-8bc8-ed0eec5ddb00/public\" width=67% >\r\n\r\n\r\nFor more information, refer to the [Cloudflare Workers docs](https://developers.cloudflare.com/workers/ci-cd/builds/) and [Cloudflare Pages docs](https://developers.cloudflare.com/pages/configuration/git-integration/).",
+          "external_url": "https://developers.cloudflare.com/workers/ci-cd/builds/",
+          "html_url": "https://github.com/apps/cloudflare-workers-and-pages",
+          "created_at": "2020-10-19T20:23:00Z",
+          "updated_at": "2024-12-19T22:06:10Z",
+          "permissions": {
+            "administration": "write",
+            "checks": "write",
+            "contents": "write",
+            "deployments": "write",
+            "metadata": "read",
+            "pull_requests": "write"
+          },
+          "events": [
+            "pull_request",
+            "push"
+          ]
+        },
+        "pull_requests": []
+      }
+    ]
+  },
+  "liveVerification": {
+    "status": "pending"
+  },
+  "historicalGitObjectsPurged": false
+}

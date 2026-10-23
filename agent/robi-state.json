@@ -454,393 +454,19 @@
     {
       "id": "2026-10-23",
       "date": "2026-10-23",
-      "path": "content/robi-batches/2026-10-23/restart-01",
-      "status": "blocked",
+      "status": "removal_in_progress",
+      "path": "agent/removals/2026-10-23.json",
       "requiredCount": 6,
-      "generatedCount": 6,
-      "preparedCount": 6,
-      "deployedCount": 6,
-      "verifiedPublicCount": 0,
-      "completedCount": 0,
+      "originallyGeneratedCount": 6,
+      "currentlyPublishedCount": null,
       "completionVerified": false,
+      "completedCount": 0,
       "audience": "male",
       "birthdayAge": 4,
-      "audienceAssignment": "planned_from_two_complete_deployments_pending_live_verification",
-      "plannedAt": "2026-10-22T23:01:11Z",
       "scheduledAt": "2026-10-23T08:00:00+09:00",
       "deadlineAt": "2026-10-23T10:00:00+09:00",
-      "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
-      "designs": [
-        {
-          "id": "kornjacina-prva-radost",
-          "name": "Kornjačina prva radost",
-          "category": "first",
-          "audience": "male",
-          "age": 1,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/kornjacina-prva-radost.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        },
-        {
-          "id": "urbani-puls",
-          "name": "Urbani puls",
-          "category": "eighteen",
-          "audience": "male",
-          "age": 18,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-skejtbord-limeta/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/urbani-puls.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        },
-        {
-          "id": "robotova-zurka",
-          "name": "Robotova žurka",
-          "category": "birthday",
-          "audience": "male",
-          "age": 4,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-veseli-robot/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/robotova-zurka.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        },
-        {
-          "id": "zdralov-zavet",
-          "name": "Ždralov zavet",
-          "category": "wedding",
-          "audience": "couple",
-          "age": null,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-dva-zlatna-zdrala/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/zdralov-zavet.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        },
-        {
-          "id": "kap-blagoslova",
-          "name": "Kap blagoslova",
-          "category": "baptism",
-          "audience": "male",
-          "age": null,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatna-kapljica-krst/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/kap-blagoslova.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        },
-        {
-          "id": "lavlje-malo-sunce",
-          "name": "Lavlje malo sunce",
-          "category": "baby",
-          "audience": "male",
-          "age": null,
-          "status": "deployed_live_verification_blocked",
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-lavic-sunce/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/lavlje-malo-sunce.webp",
-          "sourceDimensions": [
-            1060,
-            1484
-          ],
-          "exportDimensions": [
-            1500,
-            2100
-          ],
-          "previewDimensions": [
-            500,
-            700
-          ],
-          "pdfSizeMm": [
-            127,
-            177.8
-          ],
-          "processing": "Upscaled, no cropping."
-        }
-      ],
-      "feedbackSources": [
-        "content/robi-batches/2026-10-22/restart-01/user-review.json",
-        "content/robi-batches/2026-10-21/user-review.json"
-      ],
-      "blockers": [
-        {
-          "step": "live_public_verification",
-          "status": "blocked",
-          "reason": "Environment network path denied website CONNECT with403; actual site response and live editors/exports unverified.",
-          "evidence": "content/robi-batches/2026-10-23/restart-01/public-live-checks.json"
-        }
-      ],
-      "liveVerification": {
-        "status": "blocked_by_environment_network_policy",
-        "checkedAt": "2026-10-23T06:04:08Z",
-        "attemptedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
-        "error": "<urlopen error Tunnel connection failed:403Forbidden>",
-        "interpretation": "CONNECT to the website was denied by the environment network path. This does not establish that the site itself returns403. No proxy bypass used; no successful live page/editor/export or real AdSense fill claimed.",
-        "allSixPublicChecks": "unverified"
-      },
-      "startedAt": "2026-10-23T05:19:22Z",
-      "independentWork": {
-        "status": "starting_new_original_batch"
-      },
-      "draftLayoutCount": 0,
-      "report": "content/robi-batches/2026-10-23/restart-01/REPORT.md",
-      "qualityChecklist": "content/robi-batches/2026-10-23/restart-01/quality-checklist.json",
-      "generationError": "content/robi-batches/2026-10-23/generation-error.json",
-      "prePublicationChecks": "passed",
-      "userReview": {
-        "status": "awaiting_post_publication_user_review",
-        "aestheticApprovalAssumed": false,
-        "pointsAwardedThisBatch": 0
-      },
-      "notification": {
-        "channel": "ChatGPT",
-        "originalDeadline": "2026-10-23T10:00:00+09:00",
-        "earlierMorningBlockerNoticeWasBeforeDeadline": true,
-        "restartDeploymentAnnouncementSent": true,
-        "restartFinalReportPreparedAt": "2026-10-23T06:06:29Z",
-        "onTime": false,
-        "exactFinalDeliveryTimestampNotInferred": true
-      },
-      "artifactPersistence": {
-        "status": "required_artifacts_saved",
-        "controlPath": "content/robi-batches/2026-10-23/restart-01",
-        "sourcePngs": 6,
-        "rejectedOriginals": 5,
-        "backgroundWebp": 6,
-        "previewWebp": 6,
-        "pngExamples": 6,
-        "pdfExamples": 6,
-        "all35BinaryHashesReadBackMatched": true,
-        "archiveTextFilesReadBackVerified": 29,
-        "localArchive": {
-          "path": "/workspace/artifacts/robi-2026-10-23/restart-01/Robi-23-10-2026-sest-pozivnica.zip",
-          "bytes": 77710279,
-          "sha256": "300a41c645e7cbd307fecc9c11df5c7950bd039519448c0c6b5b8adde45fccc5",
-          "includes": "Accepted/rejected originals, final assets, default/stress/editor PNG/PDF, mobile screenshots, layouts, prompts, checks and deployment report."
-        },
-        "supplementalStressEditorAndMobileEvidence": "All extra test variants retained in local ZIP; required originals/defaultPNG/PDF and previews are committed to control branch.",
-        "completedAt": "2026-10-23T06:06:29Z"
-      },
-      "resumeActions": [
-        "Do not regenerate or republish these six already-deployed invitations.",
-        "When destination access is available, finish real public pages/category/sitemap/editor/PNG/PDF checks by allowed methods; persist actual results.",
-        "Advance confirmed audience/age state only after all required live checks pass. Planned next batch is female, child age4.",
-        "Apply user feedback and discard-and-redesign rule; only record explicitly awarded points."
-      ],
-      "lastConfirmedStep": "All six published atomically; Cloudflare deployment success at15:00:26Asia/Tokyo. Required originals/exports/evidence saved and read back; live verification blocked by environment network403.",
-      "audit": {
-        "checkedAt": "2026-10-23T06:06:29Z",
-        "status": "deployed_delayed_live_verification_blocked",
-        "deadlineMet": false,
-        "requiredCount": 6,
-        "preparedCount": 6,
-        "deployedCount": 6,
-        "verifiedPublicCount": 0,
-        "completionVerified": false,
-        "evidence": "content/robi-batches/2026-10-23/restart-01/publication-report.json",
-        "pointsAwarded": 0
-      },
       "deliveryDeadlineMet": false,
-      "finalReport": "content/robi-batches/2026-10-23/restart-01/REPORT.md",
-      "resolvedBlockers": [
-        {
-          "step": "original_image_generation",
-          "status": "historical_failure_current_probe_succeeded",
-          "httpStatus": 400,
-          "error": "Unknown parameter: 'reasoning'.",
-          "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
-          "retry": "A separate single-image call with only prompt also returned the same error.",
-          "observedAt": "2026-10-22T23:04:01Z",
-          "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned.",
-          "supersededAt": "2026-10-23T05:03:36Z",
-          "evidence": "content/robi-batches/2026-10-23/capability-probe.json"
-        }
-      ],
-      "lastGenerationProbe": {
-        "attemptedAt": "2026-10-23T05:00:18Z",
-        "recordedAt": "2026-10-23T05:03:36Z",
-        "status": "returned_image_rejected_by_quality_checks",
-        "evidence": "content/robi-batches/2026-10-23/capability-probe.json",
-        "acceptedForDailyBatch": false
-      },
-      "generationErrorStatus": "historical_failure_superseded_by_successful_capability_probe",
-      "attemptHistory": [
-        {
-          "id": "morning-and-capability-probe",
-          "status": "superseded_unpublished",
-          "path": "content/robi-batches/2026-10-23",
-          "generatedForDailyBatch": 0,
-          "draftLayouts": 6,
-          "countsAsDailyDelivery": false,
-          "designs": [
-            {
-              "id": "tukanova-prva-fiesta",
-              "name": "Tukanova prva fiesta",
-              "category": "first",
-              "audience": "male",
-              "age": 1,
-              "motif": "sa tukanom i tropskim listovima",
-              "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
-              "status": "planned"
-            },
-            {
-              "id": "elektricni-ritam",
-              "name": "Električni ritam",
-              "category": "eighteen",
-              "audience": "male",
-              "age": 18,
-              "motif": "sa električnim talasima i narandžastim akcentima",
-              "slug": "pozivnica-18-rodjendan-elektricni-talasi",
-              "status": "planned"
-            },
-            {
-              "id": "zmajev-sareni-let",
-              "name": "Zmajev šareni let",
-              "category": "birthday",
-              "audience": "male",
-              "age": 4,
-              "motif": "sa zelenim zmajićem i šarenim brdima",
-              "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
-              "status": "planned"
-            },
-            {
-              "id": "zavet-pod-bugenvilijom",
-              "name": "Zavet pod bugenvilijom",
-              "category": "wedding",
-              "audience": "couple",
-              "motif": "sa bugenvilijom na tirkiznoj podlozi",
-              "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
-              "status": "planned"
-            },
-            {
-              "id": "plavi-vitraz",
-              "name": "Plavi vitraž",
-              "category": "baptism",
-              "audience": "male",
-              "motif": "sa plavim vitražom i zlatnim krstom",
-              "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
-              "status": "planned"
-            },
-            {
-              "id": "vidrin-mali-zagrljaj",
-              "name": "Vidrin mali zagrljaj",
-              "category": "baby",
-              "audience": "male",
-              "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
-              "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
-              "status": "planned"
-            }
-          ],
-          "probe": {
-            "attemptedAt": "2026-10-23T05:00:18Z",
-            "recordedAt": "2026-10-23T05:03:36Z",
-            "status": "returned_image_rejected_by_quality_checks",
-            "evidence": "content/robi-batches/2026-10-23/capability-probe.json",
-            "acceptedForDailyBatch": false
-          },
-          "priorAudit": {
-            "checkedAt": "2026-10-23T01:07:45Z",
-            "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
-            "status": "blocked_deadline_missed",
-            "deadlineMet": false,
-            "requiredCount": 6,
-            "preparedCount": 0,
-            "publishedCount": 0,
-            "verifiedPublicCount": 0,
-            "draftLayouts": 6,
-            "completionVerified": false,
-            "evidence": "content/robi-batches/2026-10-23/deadline-audit.json",
-            "report": "content/robi-batches/2026-10-23/deadline-audit.md",
-            "pointsAwarded": 0
-          }
-        }
-      ],
-      "restart": {
-        "id": "restart-01",
-        "requestedAt": "2026-10-23T05:19:22Z",
-        "source": "agent/feedback/2026-10-23-redesign-policy.json",
-        "userQuote": "kreni da radis ono sto danas nisi, ispocetka, i zapamti za ubuduce, ako naidjes na problem sa dizajnom, zaboravi ga i kreni od nule sa istom kategorijom, napravi skroz drugaciji"
-      },
-      "acceptedBackgroundCount": 6,
-      "rejectedDesignCount": 5,
-      "preparedAt": "2026-10-23T05:57:30Z",
-      "publication": {
+      "previousPublication": {
         "status": "deployed",
         "atomic": true,
         "commit": "6548fb92b4738b05752b40b133201f28aa2a2963",
@@ -853,10 +479,101 @@
         "completedBeforeDeadline": false,
         "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
       },
-      "blockedStage": "post_publication_verification",
-      "totalGenerationAttempts": 11,
-      "mainCommit": "6548fb92b4738b05752b40b133201f28aa2a2963",
-      "mainUpdatedAt": "2026-10-23T05:59:16Z"
+      "designs": [
+        {
+          "id": "kornjacina-prva-radost",
+          "name": "Kornjačina prva radost",
+          "category": "first",
+          "audience": "male",
+          "age": 1,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
+          "publicUrl": null,
+          "preview": null
+        },
+        {
+          "id": "urbani-puls",
+          "name": "Urbani puls",
+          "category": "eighteen",
+          "audience": "male",
+          "age": 18,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-skejtbord-limeta/",
+          "publicUrl": null,
+          "preview": null
+        },
+        {
+          "id": "robotova-zurka",
+          "name": "Robotova žurka",
+          "category": "birthday",
+          "audience": "male",
+          "age": 4,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-veseli-robot/",
+          "publicUrl": null,
+          "preview": null
+        },
+        {
+          "id": "zdralov-zavet",
+          "name": "Ždralov zavet",
+          "category": "wedding",
+          "audience": "couple",
+          "age": null,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-dva-zlatna-zdrala/",
+          "publicUrl": null,
+          "preview": null
+        },
+        {
+          "id": "kap-blagoslova",
+          "name": "Kap blagoslova",
+          "category": "baptism",
+          "audience": "male",
+          "age": null,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatna-kapljica-krst/",
+          "publicUrl": null,
+          "preview": null
+        },
+        {
+          "id": "lavlje-malo-sunce",
+          "name": "Lavlje malo sunce",
+          "category": "baby",
+          "audience": "male",
+          "age": null,
+          "status": "removal_in_progress",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-lavic-sunce/",
+          "publicUrl": null,
+          "preview": null
+        }
+      ],
+      "userReview": {
+        "status": "rejected_by_user",
+        "aestheticApproval": false,
+        "pointsAwardedThisBatch": 0,
+        "source": "agent/feedback/2026-10-23-user-rejection.json",
+        "quote": "uzas znaci pobrisi sve ove ali sve",
+        "recordedAt": "2026-10-23T13:33:35.197Z"
+      },
+      "removal": {
+        "status": "deploying",
+        "mainCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+        "evidence": "agent/removals/2026-10-23.json",
+        "requestedBy": "user"
+      },
+      "artifactPersistence": {
+        "status": "removed_at_user_request",
+        "originalControlFolderDeleted": true,
+        "evidence": "agent/removals/2026-10-23.json"
+      },
+      "blockers": [],
+      "report": "agent/removals/2026-10-23.json",
+      "finalReport": "agent/removals/2026-10-23.json",
+      "resumeActions": [
+        "Only verify requested removal deployment; never regenerate or republish this rejected series.",
+        "Do not generate replacements without a new user request for this batch."
+      ],
+      "lastConfirmedStep": "All six removed in one main commit; Cloudflare removal deployment running; original batch artifacts deleted on control branch."
     }
   ],
   "history": [
@@ -952,8 +669,8 @@
     },
     {
       "id": "2026-10-23",
-      "status": "deployed_verification_blocked",
-      "published": true,
+      "status": "removed_by_user",
+      "published": false,
       "countsAsDailyDelivery": false,
       "advanceAudience": false,
       "designIds": [
@@ -972,10 +689,13 @@
         "sa zlatnom kapljicom i krstom",
         "sa lavićem i toplim sunčevim bojama"
       ],
-      "source": "content/robi-batches/2026-10-23/restart-01/plan.json",
+      "source": "agent/removals/2026-10-23.json",
       "mainCommit": "6548fb92b4738b05752b40b133201f28aa2a2963",
       "deployedAt": "2026-10-23T06:00:26Z",
-      "reuseForDailyPublication": false
+      "reuseForDailyPublication": false,
+      "previouslyPublished": true,
+      "removalCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+      "removedAt": "2026-10-23T13:33:35.197Z"
     }
   ],
   "automations": {
@@ -999,7 +719,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
+  "status": "removal_in_progress",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1021,15 +741,16 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T06:06:29Z",
+  "updatedAt": "2026-10-23T13:33:35.197Z",
   "latestUserFeedback": {
-    "dateTokyo": "2026-10-22",
-    "recordedAt": "2026-10-22T05:19:44Z",
-    "source": "content/robi-batches/2026-10-22/restart-01/user-review.json",
+    "dateTokyo": "2026-10-23",
+    "recordedAt": "2026-10-23T13:33:35.197Z",
+    "source": "agent/feedback/2026-10-23-user-rejection.json",
     "previousSources": [
+      "content/robi-batches/2026-10-22/restart-01/user-review.json",
       "content/robi-batches/2026-10-21/user-review.json"
     ],
-    "effectiveFrom": "next_batch",
+    "effectiveFrom": "immediately",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -1038,7 +759,10 @@
       "especially_lively_children_birthday_palettes",
       "preserve_readability_through_layout_and_local_contrast",
       "review_actual_final_palettes_individually_and_as_a_batch"
-    ]
+    ],
+    "aestheticApproval": false,
+    "seriesRejected": true,
+    "requiredAction": "remove_all_six"
   },
   "score": {
     "regularPoints": 1,
@@ -1048,16 +772,26 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "female",
+  "plannedNextAudience": "male",
   "plannedNextBirthdayAgeByAudience": {
-    "male": 5,
+    "male": 4,
     "female": 4
   },
-  "planningNote": "Creative plan follows actually complete deployments:21Oct male3,22Oct female3,23Oct male4. Confirmed audience/age counters remain unchanged until mandatory public verification; do not regenerate deployed templates.",
-  "lastPublishedBatch": "2026-10-23",
+  "planningNote": "The user rejected and requested removal of the entire23Oct male4 batch. It must not count as accepted delivery or advance audience/ages. Earlier21Oct male3 and22Oct female3 remain in catalogue. No replacements requested now. Confirmed counters unchanged.",
+  "lastPublishedBatch": "2026-10-22",
   "latestUserDirective": {
-    "source": "agent/feedback/2026-10-23-redesign-policy.json",
-    "effectiveFrom": "immediately_and_future_batches",
-    "rule": "discard_problem_design_and_regenerate_completely_different_same_category"
-  }
+    "source": "agent/feedback/2026-10-23-user-rejection.json",
+    "recordedAt": "2026-10-23T13:33:35.197Z",
+    "quote": "uzas znaci pobrisi sve ove ali sve",
+    "effectiveFrom": "immediately",
+    "action": "remove_all_six_current_series_and_never_automatically_republish"
+  },
+  "retiredDesignIds": [
+    "kornjacina-prva-radost",
+    "urbani-puls",
+    "robotova-zurka",
+    "zdralov-zavet",
+    "kap-blagoslova",
+    "lavlje-malo-sunce"
+  ]
 }

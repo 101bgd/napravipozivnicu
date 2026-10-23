@@ -304,5 +304,20 @@
     "live403ResolutionDeferred": true,
     "allSixPrePublicationChecksStillRequired": true,
     "doNotClaimUnperformedLiveChecks": true
+  },
+  "userRequestedRemovals": {
+    "source": "agent/feedback/2026-10-23-user-rejection.json",
+    "neverAutomaticallyRepublish": true,
+    "retiredDesignIds": [
+      "kornjacina-prva-radost",
+      "urbani-puls",
+      "robotova-zurka",
+      "zdralov-zavet",
+      "kap-blagoslova",
+      "lavlje-malo-sunce"
+    ],
+    "retainMinimalRejectionRecord": true,
+    "deleteRejectedBatchBinaryArtifactsWhenExplicitlyRequested": true,
+    "countsAsDailyDelivery": false
   }
 }

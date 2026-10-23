@@ -34,6 +34,22 @@
         "quote": "Lose, nisam zadovoljan, paleta boja koju koristis je previse bland, pogotovo za decije rodjendane, sve to zapamti za sledeci put, bices bolji"
       },
       "feedback": "content/robi-batches/2026-10-22/restart-01/user-review.json"
+    },
+    {
+      "id": "user-review-2026-10-23-rejected",
+      "batchId": "2026-10-23",
+      "dateTokyo": "2026-10-23",
+      "recordedAt": "2026-10-23T13:33:35.197Z",
+      "period": "2026-10",
+      "reviewer": "user",
+      "status": "rejected_and_removal_requested",
+      "pointType": "none",
+      "points": 0,
+      "source": {
+        "channel": "ChatGPT",
+        "quote": "uzas znaci pobrisi sve ove ali sve"
+      },
+      "feedback": "agent/feedback/2026-10-23-user-rejection.json"
     }
   ],
   "bonusAwards": []

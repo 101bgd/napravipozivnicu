@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-23",
+  "recordedAt": "2026-10-23T13:33:35.197Z",
+  "reviewer": "user",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "uzas znaci pobrisi sve ove ali sve"
+  },
+  "status": "rejected",
+  "removeAllSix": true,
+  "designIds": [
+    "kornjacina-prva-radost",
+    "urbani-puls",
+    "robotova-zurka",
+    "zdralov-zavet",
+    "kap-blagoslova",
+    "lavlje-malo-sunce"
+  ],
+  "automaticRepublishingForbidden": true,
+  "generateReplacements": false,
+  "pointsAwarded": 0,
+  "removalEvidence": "agent/removals/2026-10-23.json"
+}
