@@ -7,7 +7,7 @@
     "quote": "uzas znaci pobrisi sve ove ali sve"
   },
   "recordedAt": "2026-10-23T13:33:35.197Z",
-  "status": "removal_deploying",
+  "status": "removed_deploy_verified_public_unverified",
   "designIds": [
     "kornjacina-prva-radost",
     "urbani-puls",
@@ -162,30 +162,31 @@
     "build": "passed",
     "all67RemainingSeoPages": "passed",
     "all6AbsentFromCatalogPagesAssetsAndSitemap": "passed",
-    "existing12RobiDesignsPreserved": "passed"
+    "existing12RobiDesignsPreserved": "passed",
+    "mainReadBackAll17RemovedFilesAbsent": "passed"
   },
   "cloudflareChecks": {
     "total_count": 1,
     "check_runs": [
       {
-        "id": 120442122909,
+        "id": 120442502317,
         "name": "Cloudflare Pages",
-        "node_id": "CR_kwDOVG-aXs8AAAAcCujynQ",
+        "node_id": "CR_kwDOVG-aXs8AAAAcCu68rQ",
         "head_sha": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
         "external_id": "50ed1ad3-7ae2-4475-9d2f-a6a72df87154",
-        "url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442122909",
-        "html_url": "https://github.com/101bgd/napravipozivnicu/runs/120442122909",
+        "url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442502317",
+        "html_url": "https://github.com/101bgd/napravipozivnicu/runs/120442502317",
         "details_url": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/50ed1ad3-7ae2-4475-9d2f-a6a72df87154",
-        "status": "in_progress",
-        "conclusion": null,
-        "started_at": "2026-10-23T13:32:13Z",
-        "completed_at": null,
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-23T13:33:00Z",
+        "completed_at": "2026-10-23T13:33:00Z",
         "output": {
-          "title": "Building",
-          "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>6adf7bb</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>⚡️&nbsp; Build in progress...</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/50ed1ad3-7ae2-4475-9d2f-a6a72df87154)\n",
+          "title": "Deployed successfully",
+          "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>6adf7bb</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://50ed1ad3.napravipozivnicu.pages.dev'>https://50ed1ad3.napravipozivnicu.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/50ed1ad3-7ae2-4475-9d2f-a6a72df87154)\n",
           "text": null,
           "annotations_count": 0,
-          "annotations_url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442122909/annotations"
+          "annotations_url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120442502317/annotations"
         },
         "check_suite": {
           "id": 108314603821
@@ -240,7 +241,13 @@
     ]
   },
   "liveVerification": {
-    "status": "pending"
+    "checkedAt": "2026-10-23T13:34:28.336646+00:00",
+    "status": "blocked_by_environment_network_policy",
+    "attemptedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "interpretation": "Environment CONNECT denied before receiving destination response; no live404 or cache purge asserted. Cloudflare deployment and repository deletion are independently confirmed."
   },
-  "historicalGitObjectsPurged": false
+  "historicalGitObjectsPurged": false,
+  "completedAt": "2026-10-23T13:33:00Z",
+  "completedAtTokyo": "2026-10-23T22:33:00.000+09:00"
 }

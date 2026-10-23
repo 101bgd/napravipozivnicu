@@ -454,7 +454,7 @@
     {
       "id": "2026-10-23",
       "date": "2026-10-23",
-      "status": "removal_in_progress",
+      "status": "removed_by_user",
       "path": "agent/removals/2026-10-23.json",
       "requiredCount": 6,
       "originallyGeneratedCount": 6,
@@ -486,7 +486,7 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
           "publicUrl": null,
           "preview": null
@@ -497,7 +497,7 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-skejtbord-limeta/",
           "publicUrl": null,
           "preview": null
@@ -508,7 +508,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 4,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-veseli-robot/",
           "publicUrl": null,
           "preview": null
@@ -519,7 +519,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-dva-zlatna-zdrala/",
           "publicUrl": null,
           "preview": null
@@ -530,7 +530,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatna-kapljica-krst/",
           "publicUrl": null,
           "preview": null
@@ -541,7 +541,7 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "removal_in_progress",
+          "status": "removed_by_user",
           "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-lavic-sunce/",
           "publicUrl": null,
           "preview": null
@@ -556,24 +556,41 @@
         "recordedAt": "2026-10-23T13:33:35.197Z"
       },
       "removal": {
-        "status": "deploying",
+        "status": "removed_deploy_verified_public_unverified",
         "mainCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
         "evidence": "agent/removals/2026-10-23.json",
-        "requestedBy": "user"
+        "requestedBy": "user",
+        "cloudflareConclusion": "success",
+        "cloudflareCheckId": 120442502317,
+        "completedAt": "2026-10-23T13:33:00Z",
+        "publicVerification": {
+          "checkedAt": "2026-10-23T13:34:28.336646+00:00",
+          "status": "blocked_by_environment_network_policy",
+          "attemptedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
+          "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+          "interpretation": "Environment CONNECT denied before receiving destination response; no live404 or cache purge asserted. Cloudflare deployment and repository deletion are independently confirmed."
+        }
       },
       "artifactPersistence": {
         "status": "removed_at_user_request",
         "originalControlFolderDeleted": true,
         "evidence": "agent/removals/2026-10-23.json"
       },
-      "blockers": [],
+      "blockers": [
+        {
+          "step": "live_removal_verification",
+          "status": "unverified",
+          "reason": "Environment website CONNECT403 prevents direct public404 verification. Repository files removed and Cloudflare deployment success confirmed."
+        }
+      ],
       "report": "agent/removals/2026-10-23.json",
       "finalReport": "agent/removals/2026-10-23.json",
       "resumeActions": [
-        "Only verify requested removal deployment; never regenerate or republish this rejected series.",
-        "Do not generate replacements without a new user request for this batch."
+        "Do not regenerate or republish any of the six retired designs.",
+        "If public access later becomes available, only verify removal; no production changes or replacements are authorized by this deletion request."
       ],
-      "lastConfirmedStep": "All six removed in one main commit; Cloudflare removal deployment running; original batch artifacts deleted on control branch."
+      "lastConfirmedStep": "All six removed from catalogue/SEO/assets in one main commit; Cloudflare successfully deployed removal.69 control artifacts and local batch/download archive deleted. Direct public verification remains blocked by environment CONNECT403.",
+      "deployedCatalogEntriesRemaining": 0
     }
   ],
   "history": [
@@ -719,7 +736,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "removal_in_progress",
+  "status": "removed_by_user",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -741,7 +758,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T13:33:35.197Z",
+  "updatedAt": "2026-10-23T13:35:26.493Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",
