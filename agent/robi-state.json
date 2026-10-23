@@ -535,14 +535,11 @@
       ],
       "blockers": [
         {
-          "step": "original_image_generation",
+          "step": "acceptable_original_backgrounds",
           "status": "blocked",
-          "httpStatus": 400,
-          "error": "Unknown parameter: 'reasoning'.",
-          "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
-          "retry": "A separate single-image call with only prompt also returned the same error.",
-          "observedAt": "2026-10-22T23:04:01Z",
-          "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned."
+          "observedAt": "2026-10-23T05:03:36Z",
+          "reason": "Single capability probe returned image but failed no-paper and safe-inset checks. No accepted daily backgrounds or final batch exist.",
+          "evidence": "content/robi-batches/2026-10-23/capability-probe.json"
         }
       ],
       "liveVerification": {
@@ -550,7 +547,7 @@
         "knownPriorNetworkIssue": "Public checks on earlier dates deferred; not a creative production gate."
       },
       "startedAt": "2026-10-22T23:01:46Z",
-      "blockedStage": "original_image_generation",
+      "blockedStage": "background_quality_and_incomplete_batch",
       "independentWork": {
         "status": "draft_layouts_checked",
         "draftSchemas": 6,
@@ -605,12 +602,12 @@
       },
       "resumeActions": [
         "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
-        "Retry ChatGPT image generation only when usable; save actual original files as sources/<id>.png and exact returned dimensions/prompts.",
+        "Generator returned an image in the latest capability probe. Continue the same six-design batch with compliant originals; do not treat historical HTTP400 as a currently proven blocker. Reject paper/mockups and protect important ornaments from cropping.",
         "Run normal prepare.mjs with real originals; adjust text positions/colors to actual images, then rerun all final/mobile/PNG/PDF/palette/similarity/SEO/AdSense checks.",
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "All six editable draft layouts, prompts, draft SEO metadata, diagnostic PNG/PDF outputs and check results saved on robi-agent. Original image generation returned HTTP400; production remains unchanged.",
+      "lastConfirmedStep": "Generator returned a single image in a fresh capability probe. Output contains forbidden parchment and cropped dragon wing; rejected, no daily publication. Earlier400 is not a confirmed current outage.",
       "audit": {
         "checkedAt": "2026-10-23T01:07:45Z",
         "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
@@ -627,7 +624,29 @@
         "pointsAwarded": 0
       },
       "deliveryDeadlineMet": false,
-      "finalReport": "content/robi-batches/2026-10-23/deadline-audit.md"
+      "finalReport": "content/robi-batches/2026-10-23/deadline-audit.md",
+      "resolvedBlockers": [
+        {
+          "step": "original_image_generation",
+          "status": "historical_failure_current_probe_succeeded",
+          "httpStatus": 400,
+          "error": "Unknown parameter: 'reasoning'.",
+          "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
+          "retry": "A separate single-image call with only prompt also returned the same error.",
+          "observedAt": "2026-10-22T23:04:01Z",
+          "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned.",
+          "supersededAt": "2026-10-23T05:03:36Z",
+          "evidence": "content/robi-batches/2026-10-23/capability-probe.json"
+        }
+      ],
+      "lastGenerationProbe": {
+        "attemptedAt": "2026-10-23T05:00:18Z",
+        "recordedAt": "2026-10-23T05:03:36Z",
+        "status": "returned_image_rejected_by_quality_checks",
+        "evidence": "content/robi-batches/2026-10-23/capability-probe.json",
+        "acceptedForDailyBatch": false
+      },
+      "generationErrorStatus": "historical_failure_superseded_by_successful_capability_probe"
     }
   ],
   "history": [
@@ -765,7 +784,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T01:07:45Z",
+  "updatedAt": "2026-10-23T05:03:36Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
