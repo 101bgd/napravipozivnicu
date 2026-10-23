@@ -596,7 +596,7 @@
       "id": "2026-10-24",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "manualStart": true,
       "startedAt": "2026-10-23T15:39:57.917Z",
       "scheduledAt": "2026-10-24T08:00:00+09:00",
@@ -752,7 +752,7 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "All pre-publication checks passed.50 binary artifacts and supporting evidence saved on control branch; six ready for one atomic main publication.",
+      "lastConfirmedStep": "All six passed all prerequisites; archive read back50/50. One complete production commit prepared; main update next.",
       "acceptedBackgroundCount": 6,
       "totalReturnedGenerations": 14,
       "rejectedDesignCount": 8,
@@ -777,7 +777,8 @@
         "actualEditorPdfExamples": 6,
         "allBinaryUploadsMatchedLocalGitSha": true,
         "manifest": "content/robi-batches/2026-10-24/artifact-manifest.json",
-        "extraStressPngsAndMobileScreenshots": "Retained locally; actual checks and metrics persisted in report.json/browser-checks.json/png-print-checks.json."
+        "extraStressPngsAndMobileScreenshots": "Retained locally; actual checks and metrics persisted in report.json/browser-checks.json/png-print-checks.json.",
+        "all50BinaryReadBackMatched": true
       },
       "userReview": {
         "status": "awaiting_post_publication_user_review",
@@ -788,7 +789,16 @@
         "Publish these six once as one main commit; do not start a second batch for24October.",
         "Keep all23October retired IDs absent.",
         "After deployment verify public results by allowed means; never misreport network-blocked checks."
-      ]
+      ],
+      "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+      "productionBase": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+      "publication": {
+        "status": "prepared_for_main_update",
+        "atomic": true,
+        "commit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+        "expectedParent": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+        "preparedAt": "2026-10-23T16:34:55.604Z"
+      }
     }
   ],
   "history": [
@@ -934,7 +944,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-24",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -956,7 +966,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T16:29:51.159Z",
+  "updatedAt": "2026-10-23T16:34:55.604Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",

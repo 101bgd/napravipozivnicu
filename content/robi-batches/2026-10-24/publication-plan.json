@@ -1,0 +1,42 @@
+{
+  "preparedAt": "2026-10-23T16:34:55.604Z",
+  "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+  "expectedMainParent": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+  "requiredCategories": 6,
+  "designIds": [
+    "lanetovo-prvo-slavlje",
+    "nocni-kupe",
+    "kameleonova-zurka",
+    "dva-zlatna-kruga",
+    "klas-blagoslova",
+    "pingvinova-radost"
+  ],
+  "allPrePublicationChecksPassed": true,
+  "mainFiles": [
+    "content/robi-batches/2026-10-24/asset-ids.json",
+    "content/robi-batches/2026-10-24/designs.mjs",
+    "content/robi-batches/2026-10-24/layout-tuning.json",
+    "content/robi-batches/2026-10-24/metadata.json",
+    "src/robi-assets.js",
+    "src/robi-catalog.js",
+    "src/robi-designs.js",
+    "content/title-seo/motifs.json",
+    "src/editor.js",
+    "src/png-density.js",
+    "public/assets/pozivnice/robi/2026-10-24/lanetovo-prvo-slavlje-background-9f19cfc90059.webp",
+    "public/assets/pozivnice/robi/2026-10-24/lanetovo-prvo-slavlje-thumbnail-ff8702dcd75c.webp",
+    "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-background-59b2c03c7c8d.webp",
+    "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-thumbnail-e7c544892313.webp",
+    "public/assets/pozivnice/robi/2026-10-24/kameleonova-zurka-background-e1c64f6d4a86.webp",
+    "public/assets/pozivnice/robi/2026-10-24/kameleonova-zurka-thumbnail-6536e8a8bbcc.webp",
+    "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-background-063ea50a3b65.webp",
+    "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-thumbnail-74c9361e37d3.webp",
+    "public/assets/pozivnice/robi/2026-10-24/klas-blagoslova-background-02ec239748ed.webp",
+    "public/assets/pozivnice/robi/2026-10-24/klas-blagoslova-thumbnail-185b50175cba.webp",
+    "public/assets/pozivnice/robi/2026-10-24/pingvinova-radost-background-1eea74d4bbd7.webp",
+    "public/assets/pozivnice/robi/2026-10-24/pingvinova-radost-thumbnail-82c4de4107c1.webp"
+  ],
+  "sourceArchiveCommit": "060ac615c14c8cdc7685b7d3cb3d2eb8aaf05f62",
+  "sourceArtifactCount": 50,
+  "all50ReadBackMatched": true
+}

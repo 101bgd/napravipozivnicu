@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "category": "first",
+    "page": "pozivnice-za-prvi-rodjendan/index.html",
+    "status": "passed"
+  },
+  {
+    "id": "pingvinova-radost",
+    "category": "baby",
+    "page": "pozivnice-za-rodjenje-deteta/index.html",
+    "status": "passed"
+  },
+  {
+    "id": "nocni-kupe",
+    "category": "eighteen",
+    "page": "pozivnice-za-18-rodjendan/index.html",
+    "status": "passed"
+  },
+  {
+    "id": "kameleonova-zurka",
+    "category": "birthday",
+    "page": "pozivnice-za-rodjendan/index.html",
+    "status": "passed"
+  },
+  {
+    "id": "klas-blagoslova",
+    "category": "baptism",
+    "page": "pozivnice-za-krstenje/index.html",
+    "status": "passed"
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "category": "wedding",
+    "page": "pozivnice-za-vencanje/index.html",
+    "status": "passed"
+  }
+]
