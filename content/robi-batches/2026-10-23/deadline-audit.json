@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-23",
+  "dateTokyo": "2026-10-23",
+  "checkedAt": "2026-10-23T01:07:45Z",
+  "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
+  "status": "blocked_deadline_missed",
+  "verdict": "NEZAVRŠENO / BLOKIRANO",
+  "deadlineAt": "2026-10-23T10:00:00+09:00",
+  "deliveryDeadlineMet": false,
+  "requiredCount": 6,
+  "originalImages": 0,
+  "finalTemplates": 0,
+  "publishedCount": 0,
+  "verifiedPublicCount": 0,
+  "draftLayouts": 6,
+  "finalCompletionAt": null,
+  "deadlineSecondsPastAtCheck": 465,
+  "productionStartedAt": "2026-10-22T23:01:46Z",
+  "blockingErrorObservedAt": "2026-10-22T23:04:01Z",
+  "lastConfirmedProductionStep": "All six editable draft layouts, prompts, draft SEO metadata, diagnostic PNG/PDF outputs and check results saved on robi-agent. Original image generation returned HTTP400; production remains unchanged.",
+  "lastConfirmedArtifactPersistenceAt": "2026-10-22T23:18:06Z",
+  "blockers": [
+    {
+      "step": "original_image_generation",
+      "status": "blocked",
+      "httpStatus": 400,
+      "error": "Unknown parameter: 'reasoning'.",
+      "firstAttempt": "Six separate ChatGPT image generation calls submitted; execution returned this request error with no confirmed outputs.",
+      "retry": "A separate single-image call with only prompt also returned the same error.",
+      "observedAt": "2026-10-22T23:04:01Z",
+      "lastConfirmedStep": "Six original design plans/prompts saved; no source image returned."
+    }
+  ],
+  "notification": {
+    "earlierBlockerNoticeBeforeDeadlineConfirmedBySavedStateAndConversation": true,
+    "earlierReportArchivedAt": "2026-10-22T23:18:06Z",
+    "exactEarlierChatGPTFinalDeliveryTimestampAvailable": false,
+    "thisAuditPreparedAt": "2026-10-23T01:07:45Z",
+    "thisAuditPreparedBeforeDeadline": false,
+    "deliveryTimeNotInferredFromCommit": true
+  },
+  "designs": [
+    {
+      "id": "tukanova-prva-fiesta",
+      "name": "Tukanova prva fiesta",
+      "category": "first",
+      "age": 1,
+      "audience": "male",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/tukanova-prva-fiesta.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "elektricni-ritam",
+      "name": "Električni ritam",
+      "category": "eighteen",
+      "age": 18,
+      "audience": "male",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/elektricni-ritam.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "zmajev-sareni-let",
+      "name": "Zmajev šareni let",
+      "category": "birthday",
+      "age": 4,
+      "audience": "male",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/zmajev-sareni-let.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "zavet-pod-bugenvilijom",
+      "name": "Zavet pod bugenvilijom",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/zavet-pod-bugenvilijom.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "plavi-vitraz",
+      "name": "Plavi vitraž",
+      "category": "baptism",
+      "age": null,
+      "audience": "male",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/plavi-vitraz.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "name": "Vidrin mali zagrljaj",
+      "category": "baby",
+      "age": null,
+      "audience": "male",
+      "status": "blocked_missing_original_background",
+      "preview": "content/robi-batches/2026-10-23/diagnostics/previews/vidrin-mali-zagrljaj.webp",
+      "previewScope": "Diagnostic text-only layout on flat color, without original artwork",
+      "publicUrl": null,
+      "sourceDimensions": null,
+      "finalExportDimensions": null,
+      "diagnosticPngDimensions": [
+        1500,
+        2100
+      ],
+      "diagnosticPreviewDimensions": [
+        500,
+        700
+      ],
+      "diagnosticPdfSizeMm": [
+        127,
+        177.8
+      ]
+    }
+  ],
+  "currentAuditChecks": {
+    "githubStatePolicyLedgerRead": "passed",
+    "dailyReportsAndSavedTestResultsRead": "passed",
+    "diagnosticArtifactsCommittedAndHashesMatched": 24,
+    "originalSourceFilesInDailyDirectory": 0,
+    "newDailyIdsInMainCatalog": 0,
+    "productionHeadObserved": "feffa51c14184258ab1573468b75eb56cd6ac352",
+    "controlHeadReviewed": "92cf33e7f230d3577059f7c4abbd1eea8844f431",
+    "productionModifiedByAudit": false,
+    "newGenerationOrPublicationStartedByAudit": false
+  },
+  "savedTechnicalCheckResults": {
+    "draftSchemas": "passed",
+    "serbianGlyphsAndFontLicenses": "passed",
+    "defaultAndLongTextBoundsOnFlatDiagnosticFields": "passed",
+    "diagnosticPngCount": 12,
+    "diagnosticPdfCount": 6,
+    "diagnosticPdfsOpened": 6,
+    "finalIllustrationsPaletteMarginsContrastMobileEditorExportsSeoAdsense": "unverified"
+  },
+  "repairs": [
+    {
+      "id": "vidrin-mali-zagrljaj",
+      "field": "rsvp",
+      "issue": "Long-text variant exceeded the60px safe inset at bottom.",
+      "change": "Moved RSVP from95.5% to94% y.",
+      "rechecked": "Both default and long-text diagnostic checks passed."
+    }
+  ],
+  "points": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50,
+    "awardedByThisAudit": 0,
+    "ledger": "agent/review-ledger.json",
+    "onlyUserMayAward": true
+  },
+  "resumeActions": [
+    "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
+    "Retry ChatGPT image generation only when usable; save actual original files as sources/<id>.png and exact returned dimensions/prompts.",
+    "Run normal prepare.mjs with real originals; adjust text positions/colors to actual images, then rerun all final/mobile/PNG/PDF/palette/similarity/SEO/AdSense checks.",
+    "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
+    "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
+  ],
+  "evidence": [
+    "content/robi-batches/2026-10-23/REPORT.md",
+    "content/robi-batches/2026-10-23/quality-checklist.json",
+    "content/robi-batches/2026-10-23/generation-error.json",
+    "content/robi-batches/2026-10-23/report.json",
+    "content/robi-batches/2026-10-23/diagnostics/report.json",
+    "content/robi-batches/2026-10-23/diagnostics/pdf-open-checks.json",
+    "content/robi-batches/2026-10-23/font-checks.json",
+    "content/robi-batches/2026-10-23/draft-schema-checks.json",
+    "content/robi-batches/2026-10-23/upload-progress.json"
+  ]
+}

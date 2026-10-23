@@ -578,7 +578,9 @@
         "blockerProgressNoticeSentBeforeDeadline": true,
         "finalReportPreparedAt": "2026-10-22T23:11:21Z",
         "finalDeliveryTimeNotInferred": true,
-        "finalReportArchivedAt": "2026-10-22T23:18:06Z"
+        "finalReportArchivedAt": "2026-10-22T23:18:06Z",
+        "deadlineAuditPreparedAt": "2026-10-23T01:07:45Z",
+        "deadlineAuditPreparedOnTime": false
       },
       "artifactPersistence": {
         "status": "drafts_and_diagnostic_evidence_saved",
@@ -608,7 +610,24 @@
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "All six editable draft layouts, prompts, draft SEO metadata, diagnostic PNG/PDF outputs and check results saved on robi-agent. Original image generation returned HTTP400; production remains unchanged."
+      "lastConfirmedStep": "All six editable draft layouts, prompts, draft SEO metadata, diagnostic PNG/PDF outputs and check results saved on robi-agent. Original image generation returned HTTP400; production remains unchanged.",
+      "audit": {
+        "checkedAt": "2026-10-23T01:07:45Z",
+        "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
+        "status": "blocked_deadline_missed",
+        "deadlineMet": false,
+        "requiredCount": 6,
+        "preparedCount": 0,
+        "publishedCount": 0,
+        "verifiedPublicCount": 0,
+        "draftLayouts": 6,
+        "completionVerified": false,
+        "evidence": "content/robi-batches/2026-10-23/deadline-audit.json",
+        "report": "content/robi-batches/2026-10-23/deadline-audit.md",
+        "pointsAwarded": 0
+      },
+      "deliveryDeadlineMet": false,
+      "finalReport": "content/robi-batches/2026-10-23/deadline-audit.md"
     }
   ],
   "history": [
@@ -746,7 +765,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-22T23:18:06Z",
+  "updatedAt": "2026-10-23T01:07:45Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
