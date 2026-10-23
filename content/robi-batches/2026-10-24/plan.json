@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-24",
+  "startedAt": "2026-10-23T15:39:57.917Z",
+  "manual": true,
+  "designs": [
+    {
+      "id": "koalin-veliki-dan",
+      "name": "Koalin veliki dan",
+      "category": "first",
+      "motif": "sa koalom i eukaliptusom",
+      "slug": "pozivnica-prvi-rodjendan-koala-eukaliptus",
+      "audience": "male",
+      "age": 1,
+      "status": "planned"
+    },
+    {
+      "id": "ritam-gitare",
+      "name": "Ritam gitare",
+      "category": "eighteen",
+      "motif": "sa električnom gitarom i plavim svetlom",
+      "slug": "pozivnica-18-rodjendan-elektricna-gitara",
+      "audience": "male",
+      "age": 18,
+      "status": "planned"
+    },
+    {
+      "id": "piratsko-blago",
+      "name": "Piratsko blago",
+      "category": "birthday",
+      "motif": "sa piratskim brodom i kovčegom blaga",
+      "slug": "pozivnica-deciji-rodjendan-piratsko-blago",
+      "audience": "male",
+      "age": 4,
+      "status": "planned"
+    },
+    {
+      "id": "hortenzijin-zavet",
+      "name": "Hortenzijin zavet",
+      "category": "wedding",
+      "motif": "sa plavim hortenzijama",
+      "slug": "pozivnica-za-vencanje-plave-hortenzije",
+      "audience": "couple",
+      "age": null,
+      "status": "planned"
+    },
+    {
+      "id": "svetlost-ljiljana",
+      "name": "Svetlost ljiljana",
+      "category": "baptism",
+      "motif": "sa ljiljanima i zlatnim krstom",
+      "slug": "pozivnica-za-krstenje-ljiljani-zlatni-krst",
+      "audience": "male",
+      "age": null,
+      "status": "planned"
+    },
+    {
+      "id": "pingvinova-radost",
+      "name": "Pingvinova radost",
+      "category": "baby",
+      "motif": "sa porodicom pingvina",
+      "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
+      "audience": "male",
+      "age": null,
+      "status": "planned"
+    }
+  ],
+  "historyCompared": [
+    {
+      "id": "cancelled-premature-calibration",
+      "status": "cancelled_unpublished",
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "recordedAt": "2026-10-20T16:00:22Z",
+      "designIds": [
+        "vetar-prvih-zelja",
+        "bakarni-puls",
+        "mali-graditelj",
+        "limunov-zavet",
+        "laneni-blagoslov",
+        "prva-mala-luka"
+      ],
+      "motifs": [
+        "watercolor kites",
+        "copper ribbons on graphite",
+        "excavator and dump truck",
+        "lemons and blue Mediterranean ornaments",
+        "linen cross calla lilies blue bow",
+        "paper-cut sailboat and lighthouse"
+      ],
+      "reuseForDailyPublication": false
+    },
+    {
+      "id": "2026-10-21",
+      "status": "deployed_verification_blocked",
+      "countsAsDailyDelivery": false,
+      "source": "content/robi-batches/2026-10-21/plan.json",
+      "motifs": [
+        "hedgehog with pear and acorn",
+        "vinyl record and sound waves",
+        "frog with lily pads and dragonfly",
+        "botanical pomegranates",
+        "baptismal font with cross and water",
+        "swallows, chick and nest"
+      ],
+      "designIds": [
+        "jeziceva-radost",
+        "noc-na-vinilu",
+        "zabac-zove-drugare",
+        "narova-prica",
+        "tihi-izvor",
+        "lastino-malo-cudo"
+      ],
+      "mainCommit": "099f7907b42ee2ac2f9ed6e62a0d0225c6cd22a0",
+      "reuseForDailyPublication": false,
+      "deployedAt": "2026-10-21T00:22:55Z"
+    },
+    {
+      "id": "2026-10-22",
+      "status": "deployed_verification_deferred",
+      "countsAsDailyDelivery": false,
+      "designIds": [
+        "puzicina-jagodica",
+        "kraljica-veceri",
+        "rakunicina-sarena-zurka",
+        "ahatni-zavet",
+        "bademov-blagoslov",
+        "kolica-puna-radosti"
+      ],
+      "motifs": [
+        "sa pužicom i jagodom",
+        "sa šahovskom kraljicom i orhidejom",
+        "sa rakunicom slikarkom i bojama",
+        "sa slojevima ahata i zlatnim linijama",
+        "sa bademovim cvetom i krstom",
+        "sa roze kolicima i malim srcem"
+      ],
+      "source": "content/robi-batches/2026-10-22/restart-01/plan.json",
+      "published": true,
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "mainCommit": "2db38bdb96ef8285f32342f0da93a47609d5ae3b",
+      "deployedAt": "2026-10-22T04:34:57Z"
+    },
+    {
+      "id": "2026-10-22-superseded-wedding",
+      "status": "superseded_unpublished",
+      "countsAsDailyDelivery": false,
+      "designIds": [
+        "paunova-elegancija"
+      ],
+      "motifs": [
+        "teal peacock feathers and muted gold branches"
+      ],
+      "reuseForDailyPublication": false,
+      "advanceAudience": false,
+      "reason": "User explicitly requested a full fresh restart of all six invitations."
+    },
+    {
+      "id": "2026-10-23",
+      "status": "removed_by_user",
+      "published": false,
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "designIds": [
+        "kornjacina-prva-radost",
+        "urbani-puls",
+        "robotova-zurka",
+        "zdralov-zavet",
+        "kap-blagoslova",
+        "lavlje-malo-sunce"
+      ],
+      "motifs": [
+        "sa malom kornjačom na tirkiznoj podlozi",
+        "sa skejtbordom i limeta akcentima",
+        "sa veselim robotom i šarenim zupčanicima",
+        "sa dva zlatna ždrala na kobaltnoj podlozi",
+        "sa zlatnom kapljicom i krstom",
+        "sa lavićem i toplim sunčevim bojama"
+      ],
+      "source": "agent/removals/2026-10-23.json",
+      "mainCommit": "6548fb92b4738b05752b40b133201f28aa2a2963",
+      "deployedAt": "2026-10-23T06:00:26Z",
+      "reuseForDailyPublication": false,
+      "previouslyPublished": true,
+      "removalCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+      "removedAt": "2026-10-23T13:33:35.197Z"
+    }
+  ],
+  "retiredDesignIds": [
+    "kornjacina-prva-radost",
+    "urbani-puls",
+    "robotova-zurka",
+    "zdralov-zavet",
+    "kap-blagoslova",
+    "lavlje-malo-sunce"
+  ]
+}

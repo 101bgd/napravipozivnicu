@@ -591,6 +591,97 @@
       ],
       "lastConfirmedStep": "All six removed from catalogue/SEO/assets in one main commit; Cloudflare successfully deployed removal.69 control artifacts and local batch/download archive deleted. Direct public verification remains blocked by environment CONNECT403.",
       "deployedCatalogEntriesRemaining": 0
+    },
+    {
+      "id": "2026-10-24",
+      "date": "2026-10-24",
+      "path": "content/robi-batches/2026-10-24",
+      "status": "generating",
+      "manualStart": true,
+      "startedAt": "2026-10-23T15:39:57.917Z",
+      "scheduledAt": "2026-10-24T08:00:00+09:00",
+      "deadlineAt": "2026-10-24T10:00:00+09:00",
+      "requiredCount": 6,
+      "audience": "male",
+      "birthdayAge": 4,
+      "audienceAssignment": "planned_from_retained21male3_and22female3_after_removal23male4",
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "designs": [
+        {
+          "id": "koalin-veliki-dan",
+          "name": "Koalin veliki dan",
+          "category": "first",
+          "motif": "sa koalom i eukaliptusom",
+          "slug": "pozivnica-prvi-rodjendan-koala-eukaliptus",
+          "audience": "male",
+          "age": 1,
+          "status": "planned"
+        },
+        {
+          "id": "ritam-gitare",
+          "name": "Ritam gitare",
+          "category": "eighteen",
+          "motif": "sa električnom gitarom i plavim svetlom",
+          "slug": "pozivnica-18-rodjendan-elektricna-gitara",
+          "audience": "male",
+          "age": 18,
+          "status": "planned"
+        },
+        {
+          "id": "piratsko-blago",
+          "name": "Piratsko blago",
+          "category": "birthday",
+          "motif": "sa piratskim brodom i kovčegom blaga",
+          "slug": "pozivnica-deciji-rodjendan-piratsko-blago",
+          "audience": "male",
+          "age": 4,
+          "status": "planned"
+        },
+        {
+          "id": "hortenzijin-zavet",
+          "name": "Hortenzijin zavet",
+          "category": "wedding",
+          "motif": "sa plavim hortenzijama",
+          "slug": "pozivnica-za-vencanje-plave-hortenzije",
+          "audience": "couple",
+          "age": null,
+          "status": "planned"
+        },
+        {
+          "id": "svetlost-ljiljana",
+          "name": "Svetlost ljiljana",
+          "category": "baptism",
+          "motif": "sa ljiljanima i zlatnim krstom",
+          "slug": "pozivnica-za-krstenje-ljiljani-zlatni-krst",
+          "audience": "male",
+          "age": null,
+          "status": "planned"
+        },
+        {
+          "id": "pingvinova-radost",
+          "name": "Pingvinova radost",
+          "category": "baby",
+          "motif": "sa porodicom pingvina",
+          "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
+          "audience": "male",
+          "age": null,
+          "status": "planned"
+        }
+      ],
+      "previousRejectedSeriesMustStayRemoved": true,
+      "manualBatchOccupiesDate": true,
+      "preventSecondScheduledBatchSameDate": true,
+      "feedbackSources": [
+        "agent/feedback/2026-10-23-user-rejection.json",
+        "content/robi-batches/2026-10-22/restart-01/user-review.json",
+        "content/robi-batches/2026-10-21/user-review.json"
+      ],
+      "lastConfirmedStep": "User authorized immediate fresh full series; all six new category plans and prompts recorded."
     }
   ],
   "history": [
@@ -736,8 +827,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "removed_by_user",
-  "activeBatch": "2026-10-23",
+  "status": "generating",
+  "activeBatch": "2026-10-24",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -758,7 +849,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T13:35:26.493Z",
+  "updatedAt": "2026-10-23T15:39:57.917Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",
@@ -797,11 +888,12 @@
   "planningNote": "The user rejected and requested removal of the entire23Oct male4 batch. It must not count as accepted delivery or advance audience/ages. Earlier21Oct male3 and22Oct female3 remain in catalogue. No replacements requested now. Confirmed counters unchanged.",
   "lastPublishedBatch": "2026-10-22",
   "latestUserDirective": {
-    "source": "agent/feedback/2026-10-23-user-rejection.json",
-    "recordedAt": "2026-10-23T13:33:35.197Z",
-    "quote": "uzas znaci pobrisi sve ove ali sve",
+    "source": "agent/feedback/2026-10-24-restart.json",
+    "quote": "napravi sad celu seriju kao da je 8 ujutru, kreni sad, i zapamti sve",
+    "recordedAt": "2026-10-23T15:39:57.917Z",
     "effectiveFrom": "immediately",
-    "action": "remove_all_six_current_series_and_never_automatically_republish"
+    "action": "new_full_six_category_batch_now",
+    "manualStartOutsideScheduleAuthorized": true
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

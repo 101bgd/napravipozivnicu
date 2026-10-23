@@ -52,3 +52,7 @@ Ovaj prompt definiše Robijevu ulogu i način rada. Zakazani poslovi su kreirani
 ## Korisnikovo pravilo —23.10.2026.
 
 Ako dizajn ima vizuelni problem, odbaci ga i generiši od nule potpuno drugačiji motiv i kompoziciju u istoj kategoriji. Ne uređuj odbijenu sliku. Zadrži sve obavezne zahteve, sačuvaj odbijeni pokušaj u istoriji i ne računaj ga kao isporuku. Kreativni prompt ostavi sažet; krupan izmenjiv tekst prilagodi stvarnoj slici. Izvor: `agent/feedback/2026-10-23-redesign-policy.json`.
+
+## Korisnikova ocena i novi nalog —24.10.2026.
+
+Cela serija23.10. je odbačena i uklonjena na izričit zahtev korisnika. Šest povučenih ID-jeva iz `robi-state.json.retiredDesignIds` nikada ne vraćaj automatski. Korisnik sada traži potpuno novu celu seriju odmah, van jutarnjeg termina; taj nalog dozvoljava ručni početak i objavu posle obavezne samokontrole, bez nove saglasnosti. Tehnički ispravan izvoz nije dokaz estetskog uspeha. Stvarnu vizuelnu procenu i korisnikovu ocenu vodi odvojeno; ne nazivaj dizajn korisniku prihvatljivim dok ga ne oceni. Sačuvaj ranije konkretne primedbe o tekstu, paleti i zameni neuspelog dizajna. Izvor: `agent/feedback/2026-10-24-restart.json`.
