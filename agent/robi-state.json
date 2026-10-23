@@ -596,7 +596,7 @@
       "id": "2026-10-24",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24",
-      "status": "generating",
+      "status": "checking",
       "manualStart": true,
       "startedAt": "2026-10-23T15:39:57.917Z",
       "scheduledAt": "2026-10-24T08:00:00+09:00",
@@ -605,8 +605,8 @@
       "audience": "male",
       "birthdayAge": 4,
       "audienceAssignment": "planned_from_retained21male3_and22female3_after_removal23male4",
-      "generatedCount": 3,
-      "preparedCount": 0,
+      "generatedCount": 6,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -620,7 +620,7 @@
           "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
           "audience": "male",
           "age": 1,
-          "status": "planned"
+          "status": "prepared_under_review"
         },
         {
           "id": "nocni-kupe",
@@ -630,7 +630,7 @@
           "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
           "audience": "male",
           "age": 18,
-          "status": "planned"
+          "status": "prepared_under_review"
         },
         {
           "id": "kameleonova-zurka",
@@ -640,7 +640,7 @@
           "slug": "pozivnica-deciji-rodjendan-kameleon",
           "audience": "male",
           "age": 4,
-          "status": "planned"
+          "status": "prepared_under_review"
         },
         {
           "id": "dva-zlatna-kruga",
@@ -650,7 +650,7 @@
           "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
           "audience": "couple",
           "age": null,
-          "status": "planned"
+          "status": "prepared_under_review"
         },
         {
           "id": "klas-blagoslova",
@@ -660,7 +660,7 @@
           "slug": "pozivnica-za-krstenje-zlatno-klasje",
           "audience": "male",
           "age": null,
-          "status": "planned"
+          "status": "prepared_under_review"
         },
         {
           "id": "pingvinova-radost",
@@ -670,7 +670,7 @@
           "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
           "audience": "male",
           "age": null,
-          "status": "planned"
+          "status": "prepared_under_review"
         }
       ],
       "previousRejectedSeriesMustStayRemoved": true,
@@ -681,12 +681,12 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "Eleven separate images generated; eight rejected for important decorations near trim. Three retained; three completely different replacements generating. Six individualized editable layout definitions prepared locally.",
-      "acceptedBackgroundCount": 3,
-      "totalReturnedGenerations": 11,
+      "lastConfirmedStep": "Six original backgrounds and individual editable layouts prepared. All default and long-text contrast/margin/overlap checks pass. Beginning full editor/PNG/PDF and SEO checks.",
+      "acceptedBackgroundCount": 6,
+      "totalReturnedGenerations": 14,
       "rejectedDesignCount": 8,
       "totalGenerationAttempts": 14,
-      "pendingGenerations": 3
+      "pendingGenerations": 0
     }
   ],
   "history": [
@@ -832,7 +832,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-24",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -854,7 +854,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T15:54:02.050Z",
+  "updatedAt": "2026-10-23T16:07:29.831Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-23",
     "recordedAt": "2026-10-23T13:33:35.197Z",
