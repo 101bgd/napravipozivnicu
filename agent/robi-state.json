@@ -454,8 +454,8 @@
     {
       "id": "2026-10-23",
       "date": "2026-10-23",
-      "path": "content/robi-batches/2026-10-23",
-      "status": "blocked",
+      "path": "content/robi-batches/2026-10-23/restart-01",
+      "status": "generating",
       "requiredCount": 6,
       "generatedCount": 0,
       "preparedCount": 0,
@@ -472,60 +472,60 @@
       "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
       "designs": [
         {
-          "id": "tukanova-prva-fiesta",
-          "name": "Tukanova prva fiesta",
+          "id": "pandin-bambus-party",
+          "name": "Pandin bambus party",
           "category": "first",
           "audience": "male",
           "age": 1,
-          "motif": "sa tukanom i tropskim listovima",
-          "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
+          "motif": "sa pandom i bambusom",
+          "slug": "pozivnica-prvi-rodjendan-panda-bambus",
           "status": "planned"
         },
         {
-          "id": "elektricni-ritam",
-          "name": "Električni ritam",
+          "id": "kos-za-punoletstvo",
+          "name": "Koš za punoletstvo",
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "motif": "sa električnim talasima i narandžastim akcentima",
-          "slug": "pozivnica-18-rodjendan-elektricni-talasi",
+          "motif": "sa košarkaškom loptom i grafičkim linijama",
+          "slug": "pozivnica-18-rodjendan-kosarkaska-lopta",
           "status": "planned"
         },
         {
-          "id": "zmajev-sareni-let",
-          "name": "Zmajev šareni let",
+          "id": "vatrogasna-druzina",
+          "name": "Vatrogasna družina",
           "category": "birthday",
           "audience": "male",
           "age": 4,
-          "motif": "sa zelenim zmajićem i šarenim brdima",
-          "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
+          "motif": "sa crvenim vatrogasnim kamionom i dalmatincem",
+          "slug": "pozivnica-deciji-rodjendan-vatrogasni-kamion-dalmatinac",
           "status": "planned"
         },
         {
-          "id": "zavet-pod-bugenvilijom",
-          "name": "Zavet pod bugenvilijom",
+          "id": "dalijin-zagrljaj",
+          "name": "Dalijin zagrljaj",
           "category": "wedding",
           "audience": "couple",
-          "motif": "sa bugenvilijom na tirkiznoj podlozi",
-          "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
+          "motif": "sa zlatnožutim dalijama na ljubičastoj podlozi",
+          "slug": "pozivnica-za-vencanje-zute-dalije-ljubicasta",
           "status": "planned"
         },
         {
-          "id": "plavi-vitraz",
-          "name": "Plavi vitraž",
+          "id": "loza-blagoslova",
+          "name": "Loza blagoslova",
           "category": "baptism",
           "audience": "male",
-          "motif": "sa plavim vitražom i zlatnim krstom",
-          "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
+          "motif": "sa zlatnim krstom i vinovom lozom",
+          "slug": "pozivnica-za-krstenje-zlatni-krst-vinova-loza",
           "status": "planned"
         },
         {
-          "id": "vidrin-mali-zagrljaj",
-          "name": "Vidrin mali zagrljaj",
+          "id": "lavlje-malo-sunce",
+          "name": "Lavlje malo sunce",
           "category": "baby",
           "audience": "male",
-          "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
-          "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
+          "motif": "sa lavićem i toplim sunčevim bojama",
+          "slug": "pozivnica-proslava-rodjenja-decaka-lavic-sunce",
           "status": "planned"
         }
       ],
@@ -533,36 +533,18 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "blockers": [
-        {
-          "step": "acceptable_original_backgrounds",
-          "status": "blocked",
-          "observedAt": "2026-10-23T05:03:36Z",
-          "reason": "Single capability probe returned image but failed no-paper and safe-inset checks. No accepted daily backgrounds or final batch exist.",
-          "evidence": "content/robi-batches/2026-10-23/capability-probe.json"
-        }
-      ],
+      "blockers": [],
       "liveVerification": {
         "status": "pending",
         "knownPriorNetworkIssue": "Public checks on earlier dates deferred; not a creative production gate."
       },
-      "startedAt": "2026-10-22T23:01:46Z",
-      "blockedStage": "background_quality_and_incomplete_batch",
+      "startedAt": "2026-10-23T05:19:22Z",
       "independentWork": {
-        "status": "draft_layouts_checked",
-        "draftSchemas": 6,
-        "seoMetadataDrafts": 6,
-        "defaultAndLongTextDiagnostics": "passed",
-        "serbianGlyphsAndFonts": "passed",
-        "diagnosticPngs": 12,
-        "diagnosticPdfs": 6,
-        "diagnosticPdfsOpened": 6,
-        "finalArtworkAvailable": false,
-        "finalArtworkOrPublicChecks": "unverified"
+        "status": "starting_new_original_batch"
       },
-      "draftLayoutCount": 6,
-      "report": "content/robi-batches/2026-10-23/REPORT.md",
-      "qualityChecklist": "content/robi-batches/2026-10-23/quality-checklist.json",
+      "draftLayoutCount": 0,
+      "report": "content/robi-batches/2026-10-23/restart-01/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-23/restart-01/quality-checklist.json",
       "generationError": "content/robi-batches/2026-10-23/generation-error.json",
       "prePublicationChecks": "not_passed_incomplete_batch",
       "userReview": {
@@ -580,25 +562,8 @@
         "deadlineAuditPreparedOnTime": false
       },
       "artifactPersistence": {
-        "status": "drafts_and_diagnostic_evidence_saved",
-        "controlPath": "content/robi-batches/2026-10-23",
-        "originalImages": 0,
-        "finalAssets": 0,
-        "draftSchemas": 6,
-        "diagnosticPngs": 12,
-        "diagnosticPdfs": 6,
-        "diagnosticPreviews": 6,
-        "diagnosticBinaryFilesUploaded": 24,
-        "allUploadedBlobHashesMatched": true,
-        "originalDimensionStatus": "unavailable",
-        "finalDimensionStatus": "unavailable",
-        "localArchive": {
-          "path": "/workspace/artifacts/robi-2026-10-23/Robi-2026-10-23-blokirano-nacrti.zip",
-          "bytes": 3470128,
-          "sha256": "184895939750af8cec76250a4c6c8da17a862657d7de350c56d1ce9427be9e1b",
-          "contents": "Draft layouts, prompts, diagnostic text-only PNG/PDF; no original or final invitation illustrations."
-        },
-        "completedAt": "2026-10-22T23:18:06Z"
+        "status": "starting",
+        "controlPath": "content/robi-batches/2026-10-23/restart-01"
       },
       "resumeActions": [
         "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
@@ -607,7 +572,7 @@
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "Generator returned a single image in a fresh capability probe. Output contains forbidden parchment and cropped dragon wing; rejected, no daily publication. Earlier400 is not a confirmed current outage.",
+      "lastConfirmedStep": "User authorized full fresh restart; six new motifs and discard-and-redesign rule saved.",
       "audit": {
         "checkedAt": "2026-10-23T01:07:45Z",
         "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
@@ -624,7 +589,7 @@
         "pointsAwarded": 0
       },
       "deliveryDeadlineMet": false,
-      "finalReport": "content/robi-batches/2026-10-23/deadline-audit.md",
+      "finalReport": null,
       "resolvedBlockers": [
         {
           "step": "original_image_generation",
@@ -646,7 +611,104 @@
         "evidence": "content/robi-batches/2026-10-23/capability-probe.json",
         "acceptedForDailyBatch": false
       },
-      "generationErrorStatus": "historical_failure_superseded_by_successful_capability_probe"
+      "generationErrorStatus": "historical_failure_superseded_by_successful_capability_probe",
+      "attemptHistory": [
+        {
+          "id": "morning-and-capability-probe",
+          "status": "superseded_unpublished",
+          "path": "content/robi-batches/2026-10-23",
+          "generatedForDailyBatch": 0,
+          "draftLayouts": 6,
+          "countsAsDailyDelivery": false,
+          "designs": [
+            {
+              "id": "tukanova-prva-fiesta",
+              "name": "Tukanova prva fiesta",
+              "category": "first",
+              "audience": "male",
+              "age": 1,
+              "motif": "sa tukanom i tropskim listovima",
+              "slug": "pozivnica-prvi-rodjendan-tukan-tropski-listovi",
+              "status": "planned"
+            },
+            {
+              "id": "elektricni-ritam",
+              "name": "Električni ritam",
+              "category": "eighteen",
+              "audience": "male",
+              "age": 18,
+              "motif": "sa električnim talasima i narandžastim akcentima",
+              "slug": "pozivnica-18-rodjendan-elektricni-talasi",
+              "status": "planned"
+            },
+            {
+              "id": "zmajev-sareni-let",
+              "name": "Zmajev šareni let",
+              "category": "birthday",
+              "audience": "male",
+              "age": 4,
+              "motif": "sa zelenim zmajićem i šarenim brdima",
+              "slug": "pozivnica-deciji-rodjendan-zeleni-zmaj-sarena-brda",
+              "status": "planned"
+            },
+            {
+              "id": "zavet-pod-bugenvilijom",
+              "name": "Zavet pod bugenvilijom",
+              "category": "wedding",
+              "audience": "couple",
+              "motif": "sa bugenvilijom na tirkiznoj podlozi",
+              "slug": "pozivnica-za-vencanje-bugenvilija-tirkizna",
+              "status": "planned"
+            },
+            {
+              "id": "plavi-vitraz",
+              "name": "Plavi vitraž",
+              "category": "baptism",
+              "audience": "male",
+              "motif": "sa plavim vitražom i zlatnim krstom",
+              "slug": "pozivnica-za-krstenje-plavi-vitraz-zlatni-krst",
+              "status": "planned"
+            },
+            {
+              "id": "vidrin-mali-zagrljaj",
+              "name": "Vidrin mali zagrljaj",
+              "category": "baby",
+              "audience": "male",
+              "motif": "sa vidrom i mladunčetom na tirkiznoj reci",
+              "slug": "pozivnica-proslava-rodjenja-decaka-vidra-mladunce",
+              "status": "planned"
+            }
+          ],
+          "probe": {
+            "attemptedAt": "2026-10-23T05:00:18Z",
+            "recordedAt": "2026-10-23T05:03:36Z",
+            "status": "returned_image_rejected_by_quality_checks",
+            "evidence": "content/robi-batches/2026-10-23/capability-probe.json",
+            "acceptedForDailyBatch": false
+          },
+          "priorAudit": {
+            "checkedAt": "2026-10-23T01:07:45Z",
+            "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
+            "status": "blocked_deadline_missed",
+            "deadlineMet": false,
+            "requiredCount": 6,
+            "preparedCount": 0,
+            "publishedCount": 0,
+            "verifiedPublicCount": 0,
+            "draftLayouts": 6,
+            "completionVerified": false,
+            "evidence": "content/robi-batches/2026-10-23/deadline-audit.json",
+            "report": "content/robi-batches/2026-10-23/deadline-audit.md",
+            "pointsAwarded": 0
+          }
+        }
+      ],
+      "restart": {
+        "id": "restart-01",
+        "requestedAt": "2026-10-23T05:19:22Z",
+        "source": "agent/feedback/2026-10-23-redesign-policy.json",
+        "userQuote": "kreni da radis ono sto danas nisi, ispocetka, i zapamti za ubuduce, ako naidjes na problem sa dizajnom, zaboravi ga i kreni od nule sa istom kategorijom, napravi skroz drugaciji"
+      }
     }
   ],
   "history": [
@@ -762,7 +824,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
+  "status": "generating",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -784,7 +846,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T05:03:36Z",
+  "updatedAt": "2026-10-23T05:19:22Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
@@ -817,5 +879,10 @@
     "female": 4
   },
   "planningNote": "Planned creative sequence derives from the actually deployed male age-3 batch on 21 October and female age-3 batch on 22 October. Confirmed nextAudience/age remains unchanged until required verification; pending live checks must not stop creative production per explicit user direction.",
-  "lastPublishedBatch": "2026-10-22"
+  "lastPublishedBatch": "2026-10-22",
+  "latestUserDirective": {
+    "source": "agent/feedback/2026-10-23-redesign-policy.json",
+    "effectiveFrom": "immediately_and_future_batches",
+    "rule": "discard_problem_design_and_regenerate_completely_different_same_category"
+  }
 }

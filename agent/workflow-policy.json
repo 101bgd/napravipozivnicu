@@ -239,6 +239,15 @@
       "numericThresholds": "The user did not specify exact colors, a saturation threshold or an area ratio. Judge the actual previews; color statistics alone cannot establish aesthetic approval.",
       "historicalApplication": "Do not retroactively report this new check as passed for older batches. Retain actual technical results and the user's negative aesthetic review separately.",
       "currentBatchEditsRequested": false
+    },
+    "designFailureBehavior": {
+      "source": "agent/feedback/2026-10-23-redesign-policy.json",
+      "effectiveFrom": "immediately_and_future_batches",
+      "action": "discard_and_generate_completely_different_design_in_same_category",
+      "editRejectedImage": false,
+      "changeMotifAndComposition": true,
+      "retainRequirements": true,
+      "keepRejectedHistory": true
     }
   },
   "adsense": {

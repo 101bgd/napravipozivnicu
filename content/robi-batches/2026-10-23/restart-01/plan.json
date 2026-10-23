@@ -1,0 +1,103 @@
+{
+  "dateTokyo": "2026-10-23",
+  "attempt": "restart-01",
+  "startedAt": "2026-10-23T05:19:22Z",
+  "status": "generating",
+  "audience": "male",
+  "birthdayAge": 4,
+  "sourceDirective": "agent/feedback/2026-10-23-redesign-policy.json",
+  "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
+  "designs": [
+    {
+      "id": "pandin-bambus-party",
+      "name": "Pandin bambus party",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "motif": "sa pandom i bambusom",
+      "slug": "pozivnica-prvi-rodjendan-panda-bambus",
+      "palette": [
+        "#ffcc29",
+        "#17a895",
+        "#253638"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Joyful first birthday for a baby boy. A charming small panda hugging a rich turquoise bamboo shoot, placed in the lower right, with a few teal bamboo leaves nearby and tiny vivid coral confetti accents. Sunny saturated golden YELLOW ground across the whole image, with plenty of smooth yellow open area above and on the lower left. Playful premium flat gouache children's-book art, clean shapes and expressive friendly character. No balloons, no paper textures, no large off-white empty middle. Keep the panda and every bamboo leaf completely away from the image edges."
+    },
+    {
+      "id": "kos-za-punoletstvo",
+      "name": "Koš za punoletstvo",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "motif": "sa košarkaškom loptom i grafičkim linijama",
+      "slug": "pozivnica-18-rodjendan-kosarkaska-lopta",
+      "palette": [
+        "#111e39",
+        "#ff7928",
+        "#37c8db"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Stylish eighteenth-birthday celebration for a young man who loves basketball. One detailed vivid ORANGE basketball and a few energetic CYAN graphic motion arcs form a compact composition at the top left. Deep midnight NAVY ground dominates, with a broad clean navy area below and to the right for large pale typography. Modern sports editorial design, premium flat graphic art with restrained tactile ball texture. A small matching orange angular accent at bottom right balances the ball. All motifs inset and fully visible. No players, jerseys, badges, brands, court markings or scoreboard; no numbers anywhere."
+    },
+    {
+      "id": "vatrogasna-druzina",
+      "name": "Vatrogasna družina",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "motif": "sa crvenim vatrogasnim kamionom i dalmatincem",
+      "slug": "pozivnica-deciji-rodjendan-vatrogasni-kamion-dalmatinac",
+      "palette": [
+        "#20a2e7",
+        "#ec392f",
+        "#ffc83f",
+        "#112b47"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Bright adventurous fourth-birthday invitation for a boy. A cheerful RED toy-like fire engine and one adorable small DALMATIAN puppy wearing a plain yellow firefighter helmet form a fully inset compact scene along the lower part. Clear saturated SKY BLUE ground, sunny YELLOW accents, vivid red bodywork, crisp dark wheels, no writing or numbers on the vehicle. Broad clean blue area above the scene for large dark editable invitation text. Charming polished flat gouache illustration, joyful color and well-formed simple anatomy, side-on truck view. Keep all wheels, ears and helmet fully visible and away from edges. No fire, smoke, danger, city perspective or decorative paper."
+    },
+    {
+      "id": "dalijin-zagrljaj",
+      "name": "Dalijin zagrljaj",
+      "category": "wedding",
+      "audience": "couple",
+      "motif": "sa zlatnožutim dalijama na ljubičastoj podlozi",
+      "slug": "pozivnica-za-vencanje-zute-dalije-ljubicasta",
+      "palette": [
+        "#4c214d",
+        "#f6b535",
+        "#b95a81",
+        "#5d8b65"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Romantic contemporary wedding invitation art. Rich deep PLUM ground throughout, with a refined asymmetrical cluster of luminous golden YELLOW dahlias, a few berry-pink petals and elegant green foliage sweeping from the upper right down part of the right edge. A tiny floral echo sits at lower left. Crisp sophisticated botanical gouache, vibrant jewel colors without neon, luxurious but airy. Large smooth plum area on the left and in the center for warm ivory names and event details. All flower heads and meaningful leaves are complete, inset from edges. No roses, peonies, arches, ribbons, gold frame or blank cream panel."
+    },
+    {
+      "id": "loza-blagoslova",
+      "name": "Loza blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "motif": "sa zlatnim krstom i vinovom lozom",
+      "slug": "pozivnica-za-krstenje-zlatni-krst-vinova-loza",
+      "palette": [
+        "#124d45",
+        "#d8ad42",
+        "#79a954",
+        "#6e4381"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Dignified baptism invitation for a baby boy. Deep rich FOREST GREEN ground across the whole image. A small elegant warm GOLD Christian cross sits in the upper center, with a few delicate green grapevine leaves and a small purple grape cluster arranged gently near one lower corner. Fine botanical illustration meets restrained flat sacred graphic design, clean and respectful. Preserve a broad calm dark-green central area for large ivory editable text. The golden cross should be fully visible, clear and comfortably inset; vines are sparse rather than a frame. Rich colors, no pale beige center, no paper, angels, birds, candles or architectural scene."
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "name": "Lavlje malo sunce",
+      "category": "baby",
+      "audience": "male",
+      "motif": "sa lavićem i toplim sunčevim bojama",
+      "slug": "pozivnica-proslava-rodjenja-decaka-lavic-sunce",
+      "palette": [
+        "#ff9b54",
+        "#e7ad30",
+        "#1f8b83",
+        "#643422"
+      ],
+      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Warm joyful background for celebrating the birth of a baby boy. A tiny peacefully sleeping golden LION CUB, with an adorable rounded face and a small tuft of mane, lies nestled on two sculptural rich TEAL leaves near the upper center. Warm saturated APRICOT ORANGE ground throughout, with a few small sunny ochre circles as gentle accents. Contemporary polished flat gouache cut-paper visual style without actual paper sheets or shadows. Large quiet apricot space below the cub for big dark brown editable name and celebration details. Keep character and all leaves fully inset. Welcoming, vivid and tender, no beige panel, crib, moon, stars, crown or lettering."
+    }
+  ]
+}

@@ -56,3 +56,7 @@ Korisnik dodeljuje najviše jedan redovni bod za ocenjeni mesec i može izričit
 Korisnik je zatražio da se ceo posao ponovo uradi i da se 403 rešava kasnije. Postpublična mrežna provera ne sme da zaustavi generisanje i lokalnu pripremu. Svih šest i sve provere pre objave ostaju obavezni. Zajednički produkcijski commit i Cloudflare uspeh prijavi tačno; javne stranice/editor/izvoz ostaju NEPROVERENO kada nisu provereni. Ne zaobilazi mrežna pravila.
 
 Dok se javna verifikacija čeka, kreativni plan sledeće serije vodi odvojeno u plannedNextAudience i plannedNextBirthdayAgeByAudience, na osnovu stvarno kompletno deploy-ovanih serija. Ne tvrdi da je potvrđeni redosled napredovao dok uslovi verifikacije nisu ispunjeni. Za 23.10. plan je muška publika i dečji uzrast četiri godine; prethodne deploy-ovane serije su muška/tri i ženska/tri. Ne vraćaj otkazane ili zamenjene pokušaje i ne dupliraj već objavljene šablone.
+
+## Neuspešan dizajn —23.10.2026.
+
+Ako dizajn ima vizuelni problem, odbaci ga i generiši od nule potpuno drugačiji motiv i kompoziciju u istoj kategoriji. Ne uređuj odbijenu sliku. Zadrži sve obavezne zahteve, sačuvaj odbijeni pokušaj u istoriji i ne računaj ga kao isporuku. Pročitaj `agent/feedback/2026-10-23-redesign-policy.json`. Problem jedne slike ne zaustavlja nezavisnu pripremu ostalih. Nova serija23.10.2026. je u `content/robi-batches/2026-10-23/restart-01/`; stari nacrti i probni zmaj su zamenjeni i ne objavljuju se.

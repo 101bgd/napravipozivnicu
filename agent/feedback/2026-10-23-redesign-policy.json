@@ -1,0 +1,12 @@
+{
+  "dateTokyo": "2026-10-23",
+  "recordedAt": "2026-10-23T05:19:22Z",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "kreni da radis ono sto danas nisi, ispocetka, i zapamti za ubuduce, ako naidjes na problem sa dizajnom, zaboravi ga i kreni od nule sa istom kategorijom, napravi skroz drugaciji"
+  },
+  "effectiveFrom": "immediately_and_future_batches",
+  "rule": "Ako dizajn ima vizuelni problem, odbaci ga i generiši od nule potpuno drugačiji motiv i kompoziciju u istoj kategoriji. Ne uređuj odbijenu sliku. Zadrži sve obavezne zahteve, sačuvaj odbijeni pokušaj u istoriji i ne računaj ga kao isporuku.",
+  "fullUnpublishedBatchRestartRequired": true,
+  "pointsAwarded": 0
+}

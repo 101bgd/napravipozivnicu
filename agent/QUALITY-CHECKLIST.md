@@ -22,6 +22,7 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 ## 2. Pozadina — ponoviti za svaku od šest
 
 - [ ] Stvarni fajl je vizuelno pregledan i ispravno se otvara.
+- [ ] Po pravilu od23.10.2026. problematičan dizajn je odbačen; zamena je nova generacija sasvim drugačijeg motiva i kompozicije u istoj kategoriji, bez uređivanja stare slike. Sačuvana je istorija.
 - [ ] Na slici je samo jedna pozadina, bez kolaža i više varijanti.
 - [ ] Nema teksta, slova, brojeva, pseudo-teksta, logotipa ili vodenog žiga.
 - [ ] Nema papira u perspektivi, makete, stola, ruku ili spoljašnje senke.
