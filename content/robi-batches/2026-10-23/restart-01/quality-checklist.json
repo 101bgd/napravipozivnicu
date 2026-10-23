@@ -1,0 +1,812 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-23",
+  "attempt": "restart-01",
+  "checkedAt": "2026-10-23T05:54:40Z",
+  "status": "ready_to_publish",
+  "requiredCount": 6,
+  "preparedCount": 6,
+  "rejectedDesignCount": 5,
+  "sourceDimensions": [
+    1060,
+    1484
+  ],
+  "exportDimensions": [
+    1500,
+    2100
+  ],
+  "sourceProcessing": "Upscaled to1500x2100 without cropping; no claimed native1500 source.",
+  "designs": [
+    {
+      "id": "kornjacina-prva-radost",
+      "name": "Kornjačina prva radost",
+      "category": "first",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    },
+    {
+      "id": "urbani-puls",
+      "name": "Urbani puls",
+      "category": "eighteen",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    },
+    {
+      "id": "robotova-zurka",
+      "name": "Robotova žurka",
+      "category": "birthday",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    },
+    {
+      "id": "zdralov-zavet",
+      "name": "Ždralov zavet",
+      "category": "wedding",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    },
+    {
+      "id": "kap-blagoslova",
+      "name": "Kap blagoslova",
+      "category": "baptism",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "name": "Lavlje malo sunce",
+      "category": "baby",
+      "status": "ready_to_publish",
+      "checks": [
+        {
+          "key": "complete_batch",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json: six unique categories; designs.json: six fully prepared editable templates."
+        },
+        {
+          "key": "category_and_audience",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "metadata.json and state: male in five categories, wedding couple; creative planned sequence from existing deployed batches."
+        },
+        {
+          "key": "birthday_age",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Editable age4 default and age10 stress tested; category3–10."
+        },
+        {
+          "key": "birth_celebration_wording",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Only proslava rođenja in new public baby content; forbidden terms checked."
+        },
+        {
+          "key": "actual_dimensions",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "image-sources.json + report.json: native1060x1484, exact5:7; export1500x2100, upscale1.415 without cropping; PDF127x177.8mm."
+        },
+        {
+          "key": "single_background_no_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual native sources visually inspected: one separate background each, no text, digits, brands, mockup/paper/collage."
+        },
+        {
+          "key": "safe_inset",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Main subjects visually checked against5mm safe area; focal objects have ample margin. report.json checks actual glyph bounds >=60exportpx, default/long text. Baby outer foliage is background decor; cub is fully inset."
+        },
+        {
+          "key": "visual_integrity",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual six native files opened; complete coherent focal subjects, no clipped main motif. Five earlier flawed designs rejected and entirely different replacements generated."
+        },
+        {
+          "key": "distinctiveness",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "similarity-checks.json:68historical/rejected files compared, minimum new pair distance20/63; actual motifs/styles/compositions reviewed."
+        },
+        {
+          "key": "palette_vibrancy_and_variety",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "palette-checks.json: six actual palettes and final previews viewed together; vivid turquoise/violet/orange for children, navy/cobalt/burgundy for other occasions."
+        },
+        {
+          "key": "composition_and_text_space",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Actual final previews and report.json glyph bounds reviewed; custom layout per background, larger typography, age/occasion grouped with8px logical gap, centered text optically checked."
+        },
+        {
+          "key": "editable_template_fields",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "designs.json + browser-checks.json + worker-checks.json: editable names/date/time/location, separate ages, wedding/baptism fields."
+        },
+        {
+          "key": "serbian_glyphs_and_long_text",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "font-checks.json actual WOFF2 cmaps; report.json all default/long-text tests pass."
+        },
+        {
+          "key": "mobile_preview",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "browser-checks.json: six real editors at390px with text edits; screenshots and downloaded outputs saved."
+        },
+        {
+          "key": "png_and_pdf_export",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "18PNG outputs verified1500x2100;12realPDFs opened bypdftoppm; six mobile editor PNG/PDF downloads verified."
+        },
+        {
+          "key": "optimized_assets",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "WebP1500x2100 backgrounds and500x700 previews, content hashes; lazy fonts/editor preserved. Landing/catalog initialJS7133gzipbytes."
+        },
+        {
+          "key": "page_seo",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "batch browser/worker checks and all73SEO-title tests passed; unique titles/meta/alt, canonical, schema, category and sitemap."
+        },
+        {
+          "key": "inherited_adsense",
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "Existing global settings kept; adsense-integration passed89pages with mocked SDK only; no ads in invitation exports; real Google ad fill not claimed."
+        },
+        {
+          "key": "atomic_publication",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+        },
+        {
+          "key": "published_site_verification",
+          "status": "unverified",
+          "result": "NEPROVERENO",
+          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+        }
+      ]
+    }
+  ],
+  "prePublicationVerdict": "PROŠLO",
+  "publicationVerdict": "NEPROVERENO",
+  "postPublicationVerdict": "NEPROVERENO",
+  "repairs": [
+    {
+      "scope": "background",
+      "rule": "discard_and_restart",
+      "discarded": [
+        "pandin-bambus-party",
+        "kos-za-punoletstvo",
+        "vatrogasna-druzina",
+        "dalijin-zagrljaj",
+        "loza-blagoslova"
+      ],
+      "note": "Five bad inset/cropped-background designs discarded; replacements have entirely different motifs."
+    },
+    {
+      "scope": "initial_text_layout",
+      "note": "Moved robot time above antenna; adjusted RSVP positions for long-text safe margins before final review. No rejected background was edited."
+    }
+  ],
+  "userAestheticApprovalAssumed": false,
+  "pointsAwarded": 0
+}

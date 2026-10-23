@@ -455,10 +455,10 @@
       "id": "2026-10-23",
       "date": "2026-10-23",
       "path": "content/robi-batches/2026-10-23/restart-01",
-      "status": "checking",
+      "status": "ready_to_publish",
       "requiredCount": 6,
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -570,7 +570,7 @@
       "report": "content/robi-batches/2026-10-23/restart-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-23/restart-01/quality-checklist.json",
       "generationError": "content/robi-batches/2026-10-23/generation-error.json",
-      "prePublicationChecks": "not_passed_incomplete_batch",
+      "prePublicationChecks": "passed",
       "userReview": {
         "status": "not_requested_incomplete_batch",
         "pointsAwardedThisBatch": 0,
@@ -586,8 +586,15 @@
         "deadlineAuditPreparedOnTime": false
       },
       "artifactPersistence": {
-        "status": "starting",
-        "controlPath": "content/robi-batches/2026-10-23/restart-01"
+        "status": "ready_to_commit",
+        "controlPath": "content/robi-batches/2026-10-23/restart-01",
+        "sourcePngs": 6,
+        "rejectedOriginals": 5,
+        "backgroundWebp": 6,
+        "previewWebp": 6,
+        "defaultPngExamples": 6,
+        "defaultPdfExamples": 6,
+        "allUploadedBlobHashesMatched": true
       },
       "resumeActions": [
         "Read latest control state and actual main. Keep this23October batch; do not duplicate or count it as next day's new work.",
@@ -596,7 +603,7 @@
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "Six new original backgrounds visually checked; five earlier designs discarded and replaced with entirely different motifs. Layouts and real exports are being checked.",
+      "lastConfirmedStep": "All six new editable templates passed real browser/mobile/PNG/PDF/Worker/SEO/AdSense/production checks.35unique binary artifacts uploaded with exact Git hashes.",
       "audit": {
         "checkedAt": "2026-10-23T01:07:45Z",
         "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
@@ -734,7 +741,8 @@
         "userQuote": "kreni da radis ono sto danas nisi, ispocetka, i zapamti za ubuduce, ako naidjes na problem sa dizajnom, zaboravi ga i kreni od nule sa istom kategorijom, napravi skroz drugaciji"
       },
       "acceptedBackgroundCount": 6,
-      "rejectedDesignCount": 5
+      "rejectedDesignCount": 5,
+      "preparedAt": "2026-10-23T05:57:30Z"
     }
   ],
   "history": [
@@ -850,7 +858,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -872,7 +880,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T05:30:36Z",
+  "updatedAt": "2026-10-23T05:57:30Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",

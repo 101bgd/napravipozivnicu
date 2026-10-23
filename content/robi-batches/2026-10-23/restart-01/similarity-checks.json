@@ -1,0 +1,215 @@
+{
+  "historyCount": 68,
+  "designs": [
+    {
+      "id": "kornjacina-prva-radost",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/ponocna-elegancija/pozadina-bd7ed2b4f10e.webp",
+          "distance63": 22
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+          "distance63": 24
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/prvi-rodjendan/kitov-prvi-talas-pozadina-a7542916225b.webp",
+          "distance63": 24
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    },
+    {
+      "id": "urbani-puls",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+          "distance63": 18
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/prvi-rodjendan/zekin-prvi-let-pozadina-5529110606ed.webp",
+          "distance63": 24
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+          "distance63": 24
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    },
+    {
+      "id": "robotova-zurka",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/deciji-rodjendani/mala-sirena-pozadina-7751e875ecd8.webp",
+          "distance63": 24
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/vencanje/smaragdni-zavet-pozadina-877d880e1135.webp",
+          "distance63": 24
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/robi/2026-10-21/jeziceva-radost-background-095363be68cb.webp",
+          "distance63": 24
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    },
+    {
+      "id": "zdralov-zavet",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+          "distance63": 20
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/vencanje/beli-cvet-i-zlato-pozadina-6091f46f9498.webp",
+          "distance63": 20
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pozadina-f0ce23fe9003.webp",
+          "distance63": 22
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    },
+    {
+      "id": "kap-blagoslova",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/content/robi-batches/2026-10-23/restart-01/rejected/loza-blagoslova.png",
+          "distance63": 20
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/vencanje/beli-cvet-i-zlato-pozadina-6091f46f9498.webp",
+          "distance63": 22
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+          "distance63": 24
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "nearestHistory": [
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/krstenje/svetlost-krstenja-pozadina-f853891a444a.webp",
+          "distance63": 22
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+          "distance63": 24
+        },
+        {
+          "path": "/workspace/work/robi-20261023/public/assets/pozivnice/vencanje/smaragdni-zavet-pozadina-877d880e1135.webp",
+          "distance63": 24
+        }
+      ],
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "original": true
+    }
+  ],
+  "pairs": [
+    {
+      "a": "kornjacina-prva-radost",
+      "b": "urbani-puls",
+      "distance63": 34
+    },
+    {
+      "a": "kornjacina-prva-radost",
+      "b": "robotova-zurka",
+      "distance63": 34
+    },
+    {
+      "a": "kornjacina-prva-radost",
+      "b": "zdralov-zavet",
+      "distance63": 22
+    },
+    {
+      "a": "kornjacina-prva-radost",
+      "b": "kap-blagoslova",
+      "distance63": 28
+    },
+    {
+      "a": "kornjacina-prva-radost",
+      "b": "lavlje-malo-sunce",
+      "distance63": 34
+    },
+    {
+      "a": "urbani-puls",
+      "b": "robotova-zurka",
+      "distance63": 30
+    },
+    {
+      "a": "urbani-puls",
+      "b": "zdralov-zavet",
+      "distance63": 36
+    },
+    {
+      "a": "urbani-puls",
+      "b": "kap-blagoslova",
+      "distance63": 32
+    },
+    {
+      "a": "urbani-puls",
+      "b": "lavlje-malo-sunce",
+      "distance63": 40
+    },
+    {
+      "a": "robotova-zurka",
+      "b": "zdralov-zavet",
+      "distance63": 30
+    },
+    {
+      "a": "robotova-zurka",
+      "b": "kap-blagoslova",
+      "distance63": 36
+    },
+    {
+      "a": "robotova-zurka",
+      "b": "lavlje-malo-sunce",
+      "distance63": 30
+    },
+    {
+      "a": "zdralov-zavet",
+      "b": "kap-blagoslova",
+      "distance63": 20
+    },
+    {
+      "a": "zdralov-zavet",
+      "b": "lavlje-malo-sunce",
+      "distance63": 26
+    },
+    {
+      "a": "kap-blagoslova",
+      "b": "lavlje-malo-sunce",
+      "distance63": 32
+    }
+  ],
+  "note": "Actual images and motifs visually reviewed; hashes detect duplicates only and do not replace aesthetic review."
+}

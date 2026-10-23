@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kornjacina-prva-radost",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "urbani-puls",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "robotova-zurka",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "zdralov-zavet",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "kap-blagoslova",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "lavlje-malo-sunce",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  }
+]

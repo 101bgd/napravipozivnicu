@@ -1,0 +1,32 @@
+{
+  "kornjacina-prva-radost": {
+    "age": {
+      "x": 24.86931915283203,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 55.29599609375
+    }
+  },
+  "urbani-puls": {
+    "age": {
+      "x": 25.484751892089843,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 58.0248046875
+    }
+  },
+  "robotova-zurka": {
+    "age": {
+      "x": 26.164521789550783,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.59119873046875
+    }
+  },
+  "zdralov-zavet": {},
+  "kap-blagoslova": {},
+  "lavlje-malo-sunce": {}
+}

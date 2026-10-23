@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-background-042fb9b96999.webp",
+    "id": "7f899f30-1e1f-5121-a710-0b354df111aa",
+    "bytes": 63834,
+    "sha256": "042fb9b969993c39c880a8c9684c74e93cb43536a5c2c3f2f6563f42b1d66753"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/kornjacina-prva-radost-thumbnail-d256c435f167.webp",
+    "id": "324397bd-395e-51c1-a5de-316f524ee018",
+    "bytes": 22428,
+    "sha256": "d256c435f167fc652723cf7e66a9d4dd90c725d1df8b88597d377f44978612c5"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/urbani-puls-background-6649d0160c18.webp",
+    "id": "b8226ac3-f353-58c1-973f-309015dcc97d",
+    "bytes": 68638,
+    "sha256": "6649d0160c1860342c7964ca9caacce8352c83f486d7cfa6241040d4d0cb5411"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/urbani-puls-thumbnail-095be71b467b.webp",
+    "id": "aad97e23-e656-5c61-a05d-f3f638e7f74d",
+    "bytes": 26122,
+    "sha256": "095be71b467bd6eec65d51e1c19c20c828cecad52153d30d95d8f222c51f4b87"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/robotova-zurka-background-25b9869a4f6d.webp",
+    "id": "b7f1b671-f88c-5a05-ab79-04f5d354ef2d",
+    "bytes": 61446,
+    "sha256": "25b9869a4f6d2a7cce8e5361cee38f21b09f3a2e0175532a6e524fdcfe77b1ee"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/robotova-zurka-thumbnail-e6f371e4d881.webp",
+    "id": "b0b9909e-3a51-5e4f-b209-30d447d323b3",
+    "bytes": 25922,
+    "sha256": "e6f371e4d881597ce511f5c6dd6cccc309282e4d6e35f6fa4248ead25f07bea1"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/zdralov-zavet-background-11517a74a740.webp",
+    "id": "d3c0fc41-c511-535e-9d65-c7e045aff264",
+    "bytes": 162510,
+    "sha256": "11517a74a740097aec09b10ebdbc7fd6b05987cafa124502e33dbc3edf19054c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/zdralov-zavet-thumbnail-7c6b670539c1.webp",
+    "id": "c5d3170f-b3b7-5b92-a33c-21c0e7020fcd",
+    "bytes": 33968,
+    "sha256": "7c6b670539c18c5024c34ad7e672aa94993ba3332877184a90fac61a759df66a"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/kap-blagoslova-background-34fbce1837cc.webp",
+    "id": "0dec38ef-5910-5a46-af9f-eec95fa7aad6",
+    "bytes": 46984,
+    "sha256": "34fbce1837cc3c21bbd5153604a7599d715b1ecde128f4ee86e2dccc7cd3e34c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/kap-blagoslova-thumbnail-2dad07b771e9.webp",
+    "id": "82f3aa0b-ae0c-572d-82c4-a15a7f9a6daf",
+    "bytes": 21026,
+    "sha256": "2dad07b771e9f2ca0b5105c784c4112db3df7b6ba4fcffd8784d1910636574bc"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-background-c0475c8bb7c7.webp",
+    "id": "10f8a3c0-acd3-56b6-b915-e42ac1edc70f",
+    "bytes": 209686,
+    "sha256": "c0475c8bb7c75aeba1a9477f4cd39824cc0999de71e95bb48691e963c2511f2e"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-23/lavlje-malo-sunce-thumbnail-685ab3124061.webp",
+    "id": "496746a0-ad49-559b-aacf-ebd19bb443cc",
+    "bytes": 49866,
+    "sha256": "685ab31240612b19958bbb9d780a94002850e240ebf25aa439a531f5bef22f3d"
+  }
+]

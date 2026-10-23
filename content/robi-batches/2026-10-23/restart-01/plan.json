@@ -2,7 +2,7 @@
   "dateTokyo": "2026-10-23",
   "attempt": "restart-01",
   "startedAt": "2026-10-23T05:19:22Z",
-  "status": "checking",
+  "status": "ready_to_publish",
   "audience": "male",
   "birthdayAge": 4,
   "sourceDirective": "agent/feedback/2026-10-23-redesign-policy.json",

@@ -1,0 +1,198 @@
+{
+  "designs": [
+    {
+      "id": "kornjacina-prva-radost",
+      "meanSaturation": 0.95,
+      "dominantColors": [
+        {
+          "hex": "#09d9e9",
+          "pixels": 5316
+        },
+        {
+          "hex": "#0ad8e8",
+          "pixels": 4253
+        },
+        {
+          "hex": "#08daea",
+          "pixels": 2175
+        },
+        {
+          "hex": "#09daea",
+          "pixels": 1539
+        },
+        {
+          "hex": "#5dbd89",
+          "pixels": 666
+        },
+        {
+          "hex": "#1bdbdb",
+          "pixels": 51
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    },
+    {
+      "id": "urbani-puls",
+      "meanSaturation": 0.982,
+      "dominantColors": [
+        {
+          "hex": "#011954",
+          "pixels": 5201
+        },
+        {
+          "hex": "#001954",
+          "pixels": 4998
+        },
+        {
+          "hex": "#011953",
+          "pixels": 1889
+        },
+        {
+          "hex": "#001853",
+          "pixels": 1326
+        },
+        {
+          "hex": "#1a324d",
+          "pixels": 471
+        },
+        {
+          "hex": "#041952",
+          "pixels": 115
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    },
+    {
+      "id": "robotova-zurka",
+      "meanSaturation": 0.848,
+      "dominantColors": [
+        {
+          "hex": "#8720e7",
+          "pixels": 7550
+        },
+        {
+          "hex": "#8820e7",
+          "pixels": 3578
+        },
+        {
+          "hex": "#8620e7",
+          "pixels": 1088
+        },
+        {
+          "hex": "#8636dd",
+          "pixels": 911
+        },
+        {
+          "hex": "#8720e6",
+          "pixels": 521
+        },
+        {
+          "hex": "#861ee5",
+          "pixels": 352
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    },
+    {
+      "id": "zdralov-zavet",
+      "meanSaturation": 0.966,
+      "dominantColors": [
+        {
+          "hex": "#02276c",
+          "pixels": 4849
+        },
+        {
+          "hex": "#01266a",
+          "pixels": 2564
+        },
+        {
+          "hex": "#012466",
+          "pixels": 2287
+        },
+        {
+          "hex": "#012263",
+          "pixels": 1949
+        },
+        {
+          "hex": "#01205f",
+          "pixels": 1866
+        },
+        {
+          "hex": "#143572",
+          "pixels": 485
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    },
+    {
+      "id": "kap-blagoslova",
+      "meanSaturation": 0.939,
+      "dominantColors": [
+        {
+          "hex": "#6b0714",
+          "pixels": 3466
+        },
+        {
+          "hex": "#670511",
+          "pixels": 2928
+        },
+        {
+          "hex": "#690612",
+          "pixels": 2623
+        },
+        {
+          "hex": "#6a0713",
+          "pixels": 2030
+        },
+        {
+          "hex": "#6f0a16",
+          "pixels": 1661
+        },
+        {
+          "hex": "#640410",
+          "pixels": 1292
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "meanSaturation": 0.814,
+      "dominantColors": [
+        {
+          "hex": "#fd8929",
+          "pixels": 3879
+        },
+        {
+          "hex": "#fd922e",
+          "pixels": 2617
+        },
+        {
+          "hex": "#756d43",
+          "pixels": 2425
+        },
+        {
+          "hex": "#fd7f26",
+          "pixels": 2387
+        },
+        {
+          "hex": "#fd8427",
+          "pixels": 2192
+        },
+        {
+          "hex": "#ce9844",
+          "pixels": 500
+        }
+      ],
+      "visualReview": "passed; rich distinct palette, actual final preview reviewed; text contrast measured by renderer",
+      "numericThresholdNotUserSpecified": true
+    }
+  ],
+  "allSixComparedVisually": true,
+  "note": "Color statistics supplement actual visual review; not proof of user aesthetic approval."
+}
