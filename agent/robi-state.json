@@ -806,7 +806,7 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "Six new invitations deployed together; Cloudflare success at2026-10-24T01:36:54.000+09:00. All50 archived binary hashes read back matched,10 production text files read back matched. Public pages/editors/exports remain unverified due environment CONNECT403.",
+      "lastConfirmedStep": "Scheduled08:00 resume: existing six-design main commit and successful Cloudflare deploy rechecked; exact six catalog entries and retired-ID absence confirmed. All six fresh destination probes again denied at environment CONNECT403. No duplicate generation or production change.",
       "acceptedBackgroundCount": 6,
       "totalReturnedGenerations": 14,
       "rejectedDesignCount": 8,
@@ -867,20 +867,21 @@
         {
           "step": "live_public_verification",
           "status": "blocked",
-          "reason": "All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403.",
-          "evidence": "content/robi-batches/2026-10-24/public-live-checks.json"
+          "reason": "Svih šest HTTPS CONNECT zahteva zaustavio je mrežni proxy okruženja odgovorom 403 Forbidden pre odgovora odredišnog sajta. Javne stranice, editori i izvozi zato nisu provereni. Ovo nije dokaz da sam sajt vraća HTTP 403.",
+          "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json"
         }
       ],
       "liveVerification": {
         "status": "blocked_by_environment_network_policy",
-        "checkedAt": "2026-10-23T16:36:58.320267+00:00",
+        "checkedAt": "2026-10-23T23:02:28.748726+00:00",
         "allSixPublicChecks": "unverified",
-        "reason": "All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403.",
-        "evidence": "content/robi-batches/2026-10-24/public-live-checks.json",
-        "allAttemptsAfterCloudflareCompletion": true
+        "reason": "Svih šest HTTPS CONNECT zahteva zaustavio je mrežni proxy okruženja odgovorom 403 Forbidden pre odgovora odredišnog sajta. Javne stranice, editori i izvozi zato nisu provereni. Ovo nije dokaz da sam sajt vraća HTTP 403.",
+        "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json",
+        "allAttemptsAfterCloudflareCompletion": true,
+        "previousEvidence": "content/robi-batches/2026-10-24/public-live-checks.json"
       },
       "audit": {
-        "checkedAt": "2026-10-23T16:41:44.281Z",
+        "checkedAt": "2026-10-23T23:03:56Z",
         "status": "deployed_public_verification_blocked",
         "requiredCount": 6,
         "preparedCount": 6,
@@ -891,14 +892,25 @@
         "deadlineNotYetReached": true,
         "deploymentBeforeDeadline": true,
         "pointsAwarded": 0,
-        "evidence": "content/robi-batches/2026-10-24/publication-report.json"
+        "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800.json",
+        "previousEvidence": "content/robi-batches/2026-10-24/publication-report.json"
       },
       "deliveryDeadlineMet": null,
       "notification": {
         "channel": "ChatGPT",
         "reportPreparedAt": "2026-10-23T16:41:44.281Z",
         "deadlineAt": "2026-10-24T10:00:00+09:00",
-        "actualDeliveryTimestampNotInferred": true
+        "actualDeliveryTimestampNotInferred": true,
+        "scheduledReportPreparedAt": "2026-10-23T23:03:56Z",
+        "scheduledReport": "content/robi-batches/2026-10-24/scheduled-check-0800.json"
+      },
+      "scheduledResume": {
+        "at": "2026-10-23T23:03:56Z",
+        "status": "verified_existing_deploy_public_verification_blocked",
+        "generatedCount": 0,
+        "publishedCount": 0,
+        "productionChanged": false,
+        "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800.json"
       }
     }
   ],
@@ -1051,7 +1063,9 @@
       "deployedAt": "2026-10-23T16:36:54Z",
       "manualStart": true,
       "audience": "male",
-      "birthdayAge": 4
+      "birthdayAge": 4,
+      "lastAudit": "content/robi-batches/2026-10-24/scheduled-check-0800.json",
+      "lastCheckedAt": "2026-10-23T23:03:56Z"
     }
   ],
   "automations": {
@@ -1097,7 +1111,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T16:41:44.281Z",
+  "updatedAt": "2026-10-23T23:03:56Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-24",
+  "dateTokyo": "2026-10-24",
+  "checkedAt": "2026-10-23T23:03:56Z",
+  "checkedAtTokyo": "2026-10-24T08:03:56.000+09:00",
+  "kind": "scheduled_0800_resume",
+  "status": "blocked_post_publication_verification",
+  "scope": "Continue verification of the already deployed manual24October batch. No duplicate generation, publication or production mutation.",
+  "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+  "controlReadCommit": "543f31ca43197265704c98901bebf650518616ee",
+  "generatedThisRun": 0,
+  "publishedThisRun": 0,
+  "productionChanged": false,
+  "requiredCount": 6,
+  "preparedCount": 6,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "completedCount": 0,
+  "completionVerified": false,
+  "checks": [
+    {
+      "id": "read_adopted_rules_and_state",
+      "status": "PROŠLO",
+      "evidence": "Six agent files freshly read from robi-agent."
+    },
+    {
+      "id": "avoid_duplicate_batch",
+      "status": "PROŠLO",
+      "evidence": "manualBatchOccupiesDate=true; existing mainCommit and6 deployed designs confirmed. No generation/publication started."
+    },
+    {
+      "id": "exact_six_categories_and_catalog_entries",
+      "status": "PROŠLO",
+      "evidence": "metadata.json and src/robi-catalog.js read at mainCommit; exactly1 of each required category, matching IDs/slugs."
+    },
+    {
+      "id": "retired_designs_stay_removed",
+      "status": "PROŠLO",
+      "evidence": "All6 retired IDs absent from src/robi-catalog.js at mainCommit."
+    },
+    {
+      "id": "prepublication_evidence_review",
+      "status": "PROŠLO",
+      "evidence": "quality-checklist.json:6 designs ×18 passed checks; archived results reviewed. Builds/browser tests not rerun in this read-only audit."
+    },
+    {
+      "id": "cloudflare_deployment",
+      "status": "PROŠLO",
+      "evidence": "GitHub check120532922555:completed/success; main matches deployed commit; completedAt=2026-10-23T16:36:54Z."
+    },
+    {
+      "id": "public_pages",
+      "status": "NEPROVERENO",
+      "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json",
+      "note": "Svih šest HTTPS CONNECT zahteva zaustavio je mrežni proxy okruženja odgovorom 403 Forbidden pre odgovora odredišnog sajta. Javne stranice, editori i izvozi zato nisu provereni. Ovo nije dokaz da sam sajt vraća HTTP 403."
+    },
+    {
+      "id": "public_categories_and_sitemap",
+      "status": "NEPROVERENO",
+      "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json",
+      "note": "Destination access blocked; local preparation evidence is separate."
+    },
+    {
+      "id": "public_editors_and_png_pdf_exports",
+      "status": "NEPROVERENO",
+      "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json",
+      "note": "No destination page response obtained; local exports remain documented separately."
+    },
+    {
+      "id": "public_seo_and_adsense_integration",
+      "status": "NEPROVERENO",
+      "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json",
+      "note": "Existing code/config is verified locally; actual public rendering and ad delivery are unverified."
+    },
+    {
+      "id": "score_ledger",
+      "status": "PROŠLO",
+      "evidence": "agent/review-ledger.json:1 explicit regular monthly point,0 bonus; no award in this run."
+    }
+  ],
+  "designs": [
+    {
+      "id": "lanetovo-prvo-slavlje",
+      "name": "Lanetovo prvo slavlje",
+      "category": "first",
+      "age": 1,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/lanetovo-prvo-slavlje.webp",
+      "sourceDimensions": [
+        821,
+        1916
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": true,
+      "cropRect": {
+        "x": 10,
+        "y": 450,
+        "width": 800,
+        "height": 1120
+      },
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    },
+    {
+      "id": "nocni-kupe",
+      "name": "Noćni kupe",
+      "category": "eighteen",
+      "age": 18,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/nocni-kupe.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": false,
+      "cropRect": null,
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    },
+    {
+      "id": "kameleonova-zurka",
+      "name": "Kameleonova žurka",
+      "category": "birthday",
+      "age": 4,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/kameleonova-zurka.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": false,
+      "cropRect": null,
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    },
+    {
+      "id": "dva-zlatna-kruga",
+      "name": "Dva zlatna kruga",
+      "category": "wedding",
+      "age": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/dva-zlatna-kruga.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": false,
+      "cropRect": null,
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    },
+    {
+      "id": "klas-blagoslova",
+      "name": "Klas blagoslova",
+      "category": "baptism",
+      "age": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/klas-blagoslova.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": false,
+      "cropRect": null,
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    },
+    {
+      "id": "pingvinova-radost",
+      "name": "Pingvinova radost",
+      "category": "baby",
+      "age": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/pingvinova-radost.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "cropped": false,
+      "cropRect": null,
+      "upscaled": true,
+      "status": "deployed_live_verification_blocked"
+    }
+  ],
+  "deployment": {
+    "checkId": 120532922555,
+    "conclusion": "success",
+    "completedAt": "2026-10-23T16:36:54Z",
+    "completedAtTokyo": "2026-10-24T01:36:54.000+09:00",
+    "evidence": "https://github.com/101bgd/napravipozivnicu/runs/120532922555",
+    "recheckedAt": "2026-10-23T23:03:56Z"
+  },
+  "deadline": {
+    "at": "2026-10-24T10:00:00+09:00",
+    "deploymentBeforeDeadline": true,
+    "completeDeliveryBeforeDeadline": null,
+    "notYetReached": true,
+    "reportPreparedBeforeDeadline": true,
+    "notificationActualDeliveryTimestampNotInferred": true
+  },
+  "blocker": {
+    "stage": "post_publication_verification",
+    "reason": "Svih šest HTTPS CONNECT zahteva zaustavio je mrežni proxy okruženja odgovorom 403 Forbidden pre odgovora odredišnog sajta. Javne stranice, editori i izvozi zato nisu provereni. Ovo nije dokaz da sam sajt vraća HTTP 403.",
+    "evidence": "content/robi-batches/2026-10-24/scheduled-check-0800-live.json"
+  },
+  "score": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "targetPoints": 50,
+    "totalPoints": 1
+  },
+  "pointsAwardedThisRun": 0,
+  "userAestheticReview": "awaiting_actual_user_review",
+  "nextAction": "Complete required public verification when destination access becomes available. No second24October batch."
+}

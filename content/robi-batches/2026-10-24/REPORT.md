@@ -22,3 +22,12 @@ BLOKADA: svih šest pokušaja otvaranja javnih linkova, posle potvrđenog deploy
 Sačuvano je50 binarnih artefakata na kontrolnoj grani; svih50 Git hash-eva pročitano je nazad i poklapa se sa lokalnim datotekama. Svih10 produkcijskih tekstualnih fajlova takođe je pročitano i provereno. Promptovi, dimenzije, kvalitet i provere nalaze se u ovom folderu. Kontrolni GitHub upis koji je privremeno odbijen uspešno je ponovljen u manjim celinama.
 
 Korisnik još nije ocenio novu seriju. Novi poeni nisu dodeljeni; zbir ostaje1/50. Povučena serija23.10. ostaje povučena. Ne generisati ponovo24.10. u zakazanom terminu; sledeći kreativni plan je ženska publika i dečji uzrast4, dok potvrđeni brojači čekaju obaveznu javnu verifikaciju.
+
+
+## Zakazana jutarnja provera —24.10.2026.
+
+Provera je pripremljena 2026-10-24T08:03:56.000+09:00. Potvrđeni su postojeći produkcijski commit i uspešan Cloudflare deploy u01:36:54 po Tokiju, tačno šest kategorija u katalogu i odsustvo svih povučenih ID-jeva. Današnja ručna serija nije duplirana; u ovom pokretanju nije generisana nova slika niti menjana produkcija.
+
+Svih šest novih pokušaja pristupa javnim stranicama ponovo je zaustavljeno odgovorom CONNECT403 mrežnog proxy-ja pre odgovora sajta. Javne stranice/editori/izvozi/kategorije/sitemap i stvarni javni SEO/AdSense ostaju NEPROVERENO. Sačuvani rezultati lokalnih provera nisu preimenovani u javne provere. Rok10:00 još nije istekao; potpuno izvršenje nije potvrđeno. Zbir ostaje1/50, bez novih poena.
+
+Dokazi: [jutarnji pregled](scheduled-check-0800.json), [šest stvarnih pokušaja pristupa](scheduled-check-0800-live.json). Prethodni izveštaji i dokazi su sačuvani.
