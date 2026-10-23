@@ -2,87 +2,87 @@
   "dateTokyo": "2026-10-23",
   "attempt": "restart-01",
   "startedAt": "2026-10-23T05:19:22Z",
-  "status": "generating",
+  "status": "checking",
   "audience": "male",
   "birthdayAge": 4,
   "sourceDirective": "agent/feedback/2026-10-23-redesign-policy.json",
   "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
   "designs": [
     {
-      "id": "pandin-bambus-party",
-      "name": "Pandin bambus party",
+      "id": "kornjacina-prva-radost",
+      "name": "Kornjačina prva radost",
       "category": "first",
       "audience": "male",
       "age": 1,
-      "motif": "sa pandom i bambusom",
-      "slug": "pozivnica-prvi-rodjendan-panda-bambus",
+      "motif": "sa malom kornjačom na tirkiznoj podlozi",
+      "slug": "pozivnica-prvi-rodjendan-mala-kornjaca",
       "palette": [
-        "#ffcc29",
-        "#17a895",
-        "#253638"
+        "#19b7ad",
+        "#a4d738",
+        "#ffd542",
+        "#123b40"
       ],
-      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Joyful first birthday for a baby boy. A charming small panda hugging a rich turquoise bamboo shoot, placed in the lower right, with a few teal bamboo leaves nearby and tiny vivid coral confetti accents. Sunny saturated golden YELLOW ground across the whole image, with plenty of smooth yellow open area above and on the lower left. Playful premium flat gouache children's-book art, clean shapes and expressive friendly character. No balloons, no paper textures, no large off-white empty middle. Keep the panda and every bamboo leaf completely away from the image edges."
+      "prompt": "Original invitation background, one portrait image exact5:7, preferred1500x2100. Rich full-bleed continuous ground color. Flat finished artwork, not a photographed object. No text, letters, digits, logos, watermark, paper, scroll, parchment, panels, frames, mockup, hands, table, external shadows or collage. VERY IMPORTANT: all illustrated subjects are SMALL, entirely surrounded by a VERY WIDE empty colored margin on all sides. Leave at least one seventh of the image width between every subject and the outer edges; the ground color alone continues to the edges. Do not enlarge or crop the subject. Keep the rest of the image calm for later large editable typography. A joyful FIRST birthday for a baby boy. One small adorable lime-green baby TURTLE with a sunny golden patterned shell, smiling gently, sits at the UPPER LEFT of the safe central area, with one tiny coral flower beside it. Bright saturated TURQUOISE ground throughout. The turtle including head, shell, feet and tail must fit inside a modest compact cluster with a generous uninterrupted turquoise border, like a small charming vignette. Premium flat gouache children's illustration, lively colors, no balloons, landscape or extra characters."
     },
     {
-      "id": "kos-za-punoletstvo",
-      "name": "Koš za punoletstvo",
+      "id": "urbani-puls",
+      "name": "Urbani puls",
       "category": "eighteen",
       "audience": "male",
       "age": 18,
-      "motif": "sa košarkaškom loptom i grafičkim linijama",
-      "slug": "pozivnica-18-rodjendan-kosarkaska-lopta",
+      "motif": "sa skejtbordom i limeta akcentima",
+      "slug": "pozivnica-18-rodjendan-skejtbord-limeta",
       "palette": [
-        "#111e39",
-        "#ff7928",
-        "#37c8db"
+        "#172249",
+        "#d0ef35",
+        "#fa7138",
+        "#20c8d0"
       ],
-      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Stylish eighteenth-birthday celebration for a young man who loves basketball. One detailed vivid ORANGE basketball and a few energetic CYAN graphic motion arcs form a compact composition at the top left. Deep midnight NAVY ground dominates, with a broad clean navy area below and to the right for large pale typography. Modern sports editorial design, premium flat graphic art with restrained tactile ball texture. A small matching orange angular accent at bottom right balances the ball. All motifs inset and fully visible. No players, jerseys, badges, brands, court markings or scoreboard; no numbers anywhere."
+      "prompt": "Original invitation background, one portrait image exact5:7, preferred1500x2100. Rich full-bleed continuous ground color. Flat finished artwork, not a photographed object. No text, letters, digits, logos, watermark, paper, scroll, parchment, panels, frames, mockup, hands, table, external shadows or collage. VERY IMPORTANT: all illustrated subjects are SMALL, entirely surrounded by a VERY WIDE empty colored margin on all sides. Leave at least one seventh of the image width between every subject and the outer edges; the ground color alone continues to the edges. Do not enlarge or crop the subject. Keep the rest of the image calm for later large editable typography. EIGHTEENTH birthday for a young man. A small stylish lime-green SKATEBOARD with visible four small orange wheels floats horizontally in the LOWER CENTER, accompanied by two compact cyan and orange graphic strokes. Deep saturated indigo NAVY ground throughout. The board must be visibly short compared to the canvas width, completely inside the middle half of the width, with substantial empty navy on both ends and below it. Clean sports street-design graphic art, premium energetic style. No logos, shoe, ball, people or surface perspective. The upper two thirds remain calm navy for big pale editable text."
     },
     {
-      "id": "vatrogasna-druzina",
-      "name": "Vatrogasna družina",
+      "id": "robotova-zurka",
+      "name": "Robotova žurka",
       "category": "birthday",
       "audience": "male",
       "age": 4,
-      "motif": "sa crvenim vatrogasnim kamionom i dalmatincem",
-      "slug": "pozivnica-deciji-rodjendan-vatrogasni-kamion-dalmatinac",
+      "motif": "sa veselim robotom i šarenim zupčanicima",
+      "slug": "pozivnica-deciji-rodjendan-veseli-robot",
       "palette": [
-        "#20a2e7",
-        "#ec392f",
-        "#ffc83f",
-        "#112b47"
+        "#6e3abe",
+        "#26cddd",
+        "#ffb52e",
+        "#ff6b59"
       ],
-      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Bright adventurous fourth-birthday invitation for a boy. A cheerful RED toy-like fire engine and one adorable small DALMATIAN puppy wearing a plain yellow firefighter helmet form a fully inset compact scene along the lower part. Clear saturated SKY BLUE ground, sunny YELLOW accents, vivid red bodywork, crisp dark wheels, no writing or numbers on the vehicle. Broad clean blue area above the scene for large dark editable invitation text. Charming polished flat gouache illustration, joyful color and well-formed simple anatomy, side-on truck view. Keep all wheels, ears and helmet fully visible and away from edges. No fire, smoke, danger, city perspective or decorative paper."
+      "prompt": "Original invitation background, one portrait image exact5:7, preferred1500x2100. Rich full-bleed continuous ground color. Flat finished artwork, not a photographed object. No text, letters, digits, logos, watermark, paper, scroll, parchment, panels, frames, mockup, hands, table, external shadows or collage. VERY IMPORTANT: all illustrated subjects are SMALL, entirely surrounded by a VERY WIDE empty colored margin on all sides. Leave at least one seventh of the image width between every subject and the outer edges; the ground color alone continues to the edges. Do not enlarge or crop the subject. Keep the rest of the image calm for later large editable typography. COLORFUL fourth birthday for a boy. One small charming friendly toy ROBOT in cyan and sunny orange, with rounded square head, two clear arms and two clear legs, stands in the LOWER CENTER with two tiny colorful gear shapes beside it. Vibrant saturated VIOLET ground throughout, never cream. Keep the robot a compact lower vignette, its entire antenna, arms and feet safely far from every edge, with a very broad violet margin on left, right and bottom. Playful clean flat gouache/vector children's illustration, friendly round eyes, no text, numbers or screen icons. Calm violet upper area supports large pale editable invitation text."
     },
     {
-      "id": "dalijin-zagrljaj",
-      "name": "Dalijin zagrljaj",
+      "id": "zdralov-zavet",
+      "name": "Ždralov zavet",
       "category": "wedding",
       "audience": "couple",
-      "motif": "sa zlatnožutim dalijama na ljubičastoj podlozi",
-      "slug": "pozivnica-za-vencanje-zute-dalije-ljubicasta",
+      "motif": "sa dva zlatna ždrala na kobaltnoj podlozi",
+      "slug": "pozivnica-za-vencanje-dva-zlatna-zdrala",
       "palette": [
-        "#4c214d",
-        "#f6b535",
-        "#b95a81",
-        "#5d8b65"
+        "#123e85",
+        "#dfb85c",
+        "#f4e7c7"
       ],
-      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Romantic contemporary wedding invitation art. Rich deep PLUM ground throughout, with a refined asymmetrical cluster of luminous golden YELLOW dahlias, a few berry-pink petals and elegant green foliage sweeping from the upper right down part of the right edge. A tiny floral echo sits at lower left. Crisp sophisticated botanical gouache, vibrant jewel colors without neon, luxurious but airy. Large smooth plum area on the left and in the center for warm ivory names and event details. All flower heads and meaningful leaves are complete, inset from edges. No roses, peonies, arches, ribbons, gold frame or blank cream panel."
+      "prompt": "Original invitation background, one portrait image exact5:7, preferred1500x2100. Rich full-bleed continuous ground color. Flat finished artwork, not a photographed object. No text, letters, digits, logos, watermark, paper, scroll, parchment, panels, frames, mockup, hands, table, external shadows or collage. VERY IMPORTANT: all illustrated subjects are SMALL, entirely surrounded by a VERY WIDE empty colored margin on all sides. Leave at least one seventh of the image width between every subject and the outer edges; the ground color alone continues to the edges. Do not enlarge or crop the subject. Keep the rest of the image calm for later large editable typography. Romantic elegant wedding background. Two SMALL refined golden CRANES facing gently toward one another form a graceful compact flat illustration at the TOP CENTER, their necks curving softly and their complete wings, beaks and legs entirely contained well inside the wide safe border. Rich deep COBALT BLUE ground throughout, with faint sophisticated tonal texture. Fine delicate gold linework and warm ivory feather accents, lyrical and contemporary, no wreath or flowers. The birds occupy only a modest upper vignette; the whole middle and lower area remain calm cobalt for large ivory names and event text."
     },
     {
-      "id": "loza-blagoslova",
-      "name": "Loza blagoslova",
+      "id": "kap-blagoslova",
+      "name": "Kap blagoslova",
       "category": "baptism",
       "audience": "male",
-      "motif": "sa zlatnim krstom i vinovom lozom",
-      "slug": "pozivnica-za-krstenje-zlatni-krst-vinova-loza",
+      "motif": "sa zlatnom kapljicom i krstom",
+      "slug": "pozivnica-za-krstenje-zlatna-kapljica-krst",
       "palette": [
-        "#124d45",
-        "#d8ad42",
-        "#79a954",
-        "#6e4381"
+        "#742a40",
+        "#dfb64e",
+        "#f5e9d1"
       ],
-      "prompt": "One original flat invitation BACKGROUND, portrait exact5:7, preferred1500x2100px. Full-bleed artwork itself, viewed straight on. Absolutely no text, letters, numbers, logos or watermark. No collage, mockup, paper sheet, parchment, scroll, card edges, table, hands, perspective presentation or external shadow. The underlying color flows continuously through the whole image; do not introduce a blank paper panel or frame. Keep every important ornament fully inside a5mm safe inset, about5% of the width. Leave naturally calm areas for large editable text to be added later, integrated with the composition. Dignified baptism invitation for a baby boy. Deep rich FOREST GREEN ground across the whole image. A small elegant warm GOLD Christian cross sits in the upper center, with a few delicate green grapevine leaves and a small purple grape cluster arranged gently near one lower corner. Fine botanical illustration meets restrained flat sacred graphic design, clean and respectful. Preserve a broad calm dark-green central area for large ivory editable text. The golden cross should be fully visible, clear and comfortably inset; vines are sparse rather than a frame. Rich colors, no pale beige center, no paper, angels, birds, candles or architectural scene."
+      "prompt": "Original invitation background, one portrait image exact5:7, preferred1500x2100. Rich full-bleed continuous ground color. Flat finished artwork, not a photographed object. No text, letters, digits, logos, watermark, paper, scroll, parchment, panels, frames, mockup, hands, table, external shadows or collage. VERY IMPORTANT: all illustrated subjects are SMALL, entirely surrounded by a VERY WIDE empty colored margin on all sides. Leave at least one seventh of the image width between every subject and the outer edges; the ground color alone continues to the edges. Do not enlarge or crop the subject. Keep the rest of the image calm for later large editable typography. Dignified baptism invitation for a baby boy. One SMALL refined GOLD water-drop outline containing a clear simple GOLD Christian cross is centered near the TOP, well inside the wide safe margins. Rich deep BURGUNDY ground across the entire image, subtle matte texture. The drop and cross are a tasteful flat sacred emblem, only a compact upper vignette with no extra ornament. Keep a broad calm burgundy central/lower area for large warm ivory editable baptism text. Respectful contemporary minimal sacred art, no lettering, chalice, birds, flowers, grapes, vines or architectural imagery."
     },
     {
       "id": "lavlje-malo-sunce",

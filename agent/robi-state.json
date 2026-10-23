@@ -455,9 +455,9 @@
       "id": "2026-10-23",
       "date": "2026-10-23",
       "path": "content/robi-batches/2026-10-23/restart-01",
-      "status": "generating",
+      "status": "checking",
       "requiredCount": 6,
-      "generatedCount": 0,
+      "generatedCount": 6,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -472,52 +472,72 @@
       "productionBase": "feffa51c14184258ab1573468b75eb56cd6ac352",
       "designs": [
         {
-          "id": "pandin-bambus-party",
-          "name": "Pandin bambus party",
+          "id": "kornjacina-prva-radost",
+          "name": "Kornjačina prva radost",
           "category": "first",
           "audience": "male",
           "age": 1,
-          "motif": "sa pandom i bambusom",
-          "slug": "pozivnica-prvi-rodjendan-panda-bambus",
-          "status": "planned"
+          "motif": "sa malom kornjačom na tirkiznoj podlozi",
+          "slug": "pozivnica-prvi-rodjendan-mala-kornjaca",
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         },
         {
-          "id": "kos-za-punoletstvo",
-          "name": "Koš za punoletstvo",
+          "id": "urbani-puls",
+          "name": "Urbani puls",
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "motif": "sa košarkaškom loptom i grafičkim linijama",
-          "slug": "pozivnica-18-rodjendan-kosarkaska-lopta",
-          "status": "planned"
+          "motif": "sa skejtbordom i limeta akcentima",
+          "slug": "pozivnica-18-rodjendan-skejtbord-limeta",
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         },
         {
-          "id": "vatrogasna-druzina",
-          "name": "Vatrogasna družina",
+          "id": "robotova-zurka",
+          "name": "Robotova žurka",
           "category": "birthday",
           "audience": "male",
           "age": 4,
-          "motif": "sa crvenim vatrogasnim kamionom i dalmatincem",
-          "slug": "pozivnica-deciji-rodjendan-vatrogasni-kamion-dalmatinac",
-          "status": "planned"
+          "motif": "sa veselim robotom i šarenim zupčanicima",
+          "slug": "pozivnica-deciji-rodjendan-veseli-robot",
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         },
         {
-          "id": "dalijin-zagrljaj",
-          "name": "Dalijin zagrljaj",
+          "id": "zdralov-zavet",
+          "name": "Ždralov zavet",
           "category": "wedding",
           "audience": "couple",
-          "motif": "sa zlatnožutim dalijama na ljubičastoj podlozi",
-          "slug": "pozivnica-za-vencanje-zute-dalije-ljubicasta",
-          "status": "planned"
+          "motif": "sa dva zlatna ždrala na kobaltnoj podlozi",
+          "slug": "pozivnica-za-vencanje-dva-zlatna-zdrala",
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         },
         {
-          "id": "loza-blagoslova",
-          "name": "Loza blagoslova",
+          "id": "kap-blagoslova",
+          "name": "Kap blagoslova",
           "category": "baptism",
           "audience": "male",
-          "motif": "sa zlatnim krstom i vinovom lozom",
-          "slug": "pozivnica-za-krstenje-zlatni-krst-vinova-loza",
-          "status": "planned"
+          "motif": "sa zlatnom kapljicom i krstom",
+          "slug": "pozivnica-za-krstenje-zlatna-kapljica-krst",
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         },
         {
           "id": "lavlje-malo-sunce",
@@ -526,7 +546,11 @@
           "audience": "male",
           "motif": "sa lavićem i toplim sunčevim bojama",
           "slug": "pozivnica-proslava-rodjenja-decaka-lavic-sunce",
-          "status": "planned"
+          "status": "background_ready",
+          "sourceDimensions": [
+            1060,
+            1484
+          ]
         }
       ],
       "feedbackSources": [
@@ -572,7 +596,7 @@
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "User authorized full fresh restart; six new motifs and discard-and-redesign rule saved.",
+      "lastConfirmedStep": "Six new original backgrounds visually checked; five earlier designs discarded and replaced with entirely different motifs. Layouts and real exports are being checked.",
       "audit": {
         "checkedAt": "2026-10-23T01:07:45Z",
         "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
@@ -708,7 +732,9 @@
         "requestedAt": "2026-10-23T05:19:22Z",
         "source": "agent/feedback/2026-10-23-redesign-policy.json",
         "userQuote": "kreni da radis ono sto danas nisi, ispocetka, i zapamti za ubuduce, ako naidjes na problem sa dizajnom, zaboravi ga i kreni od nule sa istom kategorijom, napravi skroz drugaciji"
-      }
+      },
+      "acceptedBackgroundCount": 6,
+      "rejectedDesignCount": 5
     }
   ],
   "history": [
@@ -824,7 +850,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -846,7 +872,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T05:19:22Z",
+  "updatedAt": "2026-10-23T05:30:36Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
