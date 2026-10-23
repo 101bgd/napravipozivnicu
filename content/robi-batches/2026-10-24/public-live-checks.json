@@ -1,0 +1,44 @@
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+    "checkedAt": "2026-10-23T16:36:58.301833+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "nocni-kupe",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+    "checkedAt": "2026-10-23T16:36:58.311448+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "kameleonova-zurka",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+    "checkedAt": "2026-10-23T16:36:58.313762+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+    "checkedAt": "2026-10-23T16:36:58.316111+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "klas-blagoslova",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+    "checkedAt": "2026-10-23T16:36:58.318129+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "pingvinova-radost",
+    "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+    "checkedAt": "2026-10-23T16:36:58.320267+00:00",
+    "status": "unverified",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

@@ -60,3 +60,11 @@ Dok se javna verifikacija čeka, kreativni plan sledeće serije vodi odvojeno u 
 ## Neuspešan dizajn —23.10.2026.
 
 Ako dizajn ima vizuelni problem, odbaci ga i generiši od nule potpuno drugačiji motiv i kompoziciju u istoj kategoriji. Ne uređuj odbijenu sliku. Zadrži sve obavezne zahteve, sačuvaj odbijeni pokušaj u istoriji i ne računaj ga kao isporuku. Pročitaj `agent/feedback/2026-10-23-redesign-policy.json`. Problem jedne slike ne zaustavlja nezavisnu pripremu ostalih. Nova serija23.10.2026. je u `content/robi-batches/2026-10-23/restart-01/`; stari nacrti i probni zmaj su zamenjeni i ne objavljuju se.
+
+## Aktuelno posle korisnikovog naloga24.10.2026.
+
+Serija23.10. je odbačena i uklonjena na korisnikov zahtev. Njen restart-01 folder uklonjen je iz aktuelne kontrolne grane; istorija je u agent/removals/2026-10-23.json. Šest ID-jeva iz retiredDesignIds nikada automatski ne vraćaj. Na novi izričit zahtev korisnika odmah je napravljena potpuno nova serija24.10. u content/robi-batches/2026-10-24/. Svih šest je deploy-ovano zajedno; javna provera je blokirana mrežnimCONNECT403, bez tvrdnje da je sam sajt vratio403.
+
+Ručna serija24.10. zauzima taj datum: u08:00 je ne dupliraj. Ako stanje kaže deployed/publishing/blocked posle deploy-a, proveri postojeći mainCommit i nastavi samo nedovršene provere, bez nove izrade istog datuma. Dalju publiku planiraj iz plannedNextAudience/ages; potvrđene brojače ne pomeraj bez obavezne verifikacije.
+
+PNG izvoz na main sada dodaje300dpi pHYs metapodatke kroz src/png-density.js. Ponovljiva priprema koristi taj helper na svežem main. Izvori se čuvaju neizmenjeni; svako kadriranje i uvećavanje navedi. Korisnikova ranija negativna ocena nije ocena nove serije; sačekaj njegov stvarni odgovor i ne dodeljuj poene.

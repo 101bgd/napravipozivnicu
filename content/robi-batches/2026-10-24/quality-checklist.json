@@ -1173,19 +1173,21 @@
   "publication": [
     {
       "id": "atomic_publication",
-      "status": "NEPROVERENO",
+      "status": "PROŠLO",
       "phase": "publication",
-      "evidence": "Not yet published."
+      "evidence": "One main commit28702e37d2ad872911d0bbfc61fa5eb5fb59e79e with all six; expected parent6adf7bb6032c959cce052c956abcaadffb16b5d7; Cloudflare success2026-10-23T16:36:54Z"
     },
     {
       "id": "published_site_verification",
       "status": "NEPROVERENO",
       "phase": "postPublication",
-      "evidence": "Verify after deployment; historical environment CONNECT403 must not be bypassed."
+      "evidence": "content/robi-batches/2026-10-24/public-live-checks.json; All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403."
     }
   ],
   "userReview": {
     "status": "awaiting_post_publication_user_review",
     "pointsAwarded": 0
-  }
+  },
+  "finalStatus": "NEPROVERENO — deployed, real public verification blocked",
+  "updatedAt": "2026-10-23T16:41:44.281Z"
 }

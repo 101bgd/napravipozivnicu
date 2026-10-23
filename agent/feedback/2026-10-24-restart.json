@@ -17,5 +17,12 @@
   "specificNewAestheticPreferencesNotStated": true,
   "newCreativeChoicesAreRobiDecisions": true,
   "manualStartAuthorized": true,
-  "pointsAwarded": 0
+  "pointsAwarded": 0,
+  "implementationEvidence": {
+    "batch": "content/robi-batches/2026-10-24/",
+    "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+    "qualityChecklist": "content/robi-batches/2026-10-24/quality-checklist.json",
+    "publicationReport": "content/robi-batches/2026-10-24/publication-report.json",
+    "userAestheticApprovalOfNewSeries": null
+  }
 }

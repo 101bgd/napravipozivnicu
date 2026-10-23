@@ -596,7 +596,7 @@
       "id": "2026-10-24",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24",
-      "status": "publishing",
+      "status": "blocked",
       "manualStart": true,
       "startedAt": "2026-10-23T15:39:57.917Z",
       "scheduledAt": "2026-10-24T08:00:00+09:00",
@@ -607,7 +607,7 @@
       "audienceAssignment": "planned_from_retained21male3_and22female3_after_removal23male4",
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -618,8 +618,7 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/lanetovo-prvo-slavlje.webp",
           "sourceDimensions": [
             821,
@@ -636,7 +635,17 @@
             "y": 450,
             "width": 800,
             "height": 1120
-          }
+          },
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "nocni-kupe",
@@ -644,8 +653,7 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/nocni-kupe.webp",
           "sourceDimensions": [
             1060,
@@ -657,7 +665,17 @@
           ],
           "upscaled": true,
           "cropped": false,
-          "cropRect": null
+          "cropRect": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "kameleonova-zurka",
@@ -665,8 +683,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 4,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/kameleonova-zurka.webp",
           "sourceDimensions": [
             1060,
@@ -678,7 +695,17 @@
           ],
           "upscaled": true,
           "cropped": false,
-          "cropRect": null
+          "cropRect": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "dva-zlatna-kruga",
@@ -686,8 +713,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/dva-zlatna-kruga.webp",
           "sourceDimensions": [
             1060,
@@ -699,7 +725,17 @@
           ],
           "upscaled": true,
           "cropped": false,
-          "cropRect": null
+          "cropRect": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "klas-blagoslova",
@@ -707,8 +743,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/klas-blagoslova.webp",
           "sourceDimensions": [
             1060,
@@ -720,7 +755,17 @@
           ],
           "upscaled": true,
           "cropped": false,
-          "cropRect": null
+          "cropRect": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "pingvinova-radost",
@@ -728,8 +773,7 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
-          "proposedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+          "status": "deployed_live_verification_blocked",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/pingvinova-radost.webp",
           "sourceDimensions": [
             1060,
@@ -741,7 +785,17 @@
           ],
           "upscaled": true,
           "cropped": false,
-          "cropRect": null
+          "cropRect": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         }
       ],
       "previousRejectedSeriesMustStayRemoved": true,
@@ -752,7 +806,7 @@
         "content/robi-batches/2026-10-22/restart-01/user-review.json",
         "content/robi-batches/2026-10-21/user-review.json"
       ],
-      "lastConfirmedStep": "All six passed all prerequisites; archive read back50/50. One complete production commit prepared; main update next.",
+      "lastConfirmedStep": "Six new invitations deployed together; Cloudflare success at2026-10-24T01:36:54.000+09:00. All50 archived binary hashes read back matched,10 production text files read back matched. Public pages/editors/exports remain unverified due environment CONNECT403.",
       "acceptedBackgroundCount": 6,
       "totalReturnedGenerations": 14,
       "rejectedDesignCount": 8,
@@ -786,18 +840,65 @@
         "pointsAwardedThisBatch": 0
       },
       "resumeActions": [
-        "Publish these six once as one main commit; do not start a second batch for24October.",
-        "Keep all23October retired IDs absent.",
-        "After deployment verify public results by allowed means; never misreport network-blocked checks."
+        "Do not generate or publish another batch for24October; this manual batch already occupies that date.",
+        "Do not restore any23October retired design IDs.",
+        "Only finish allowed real public page/category/sitemap/editor/PNG/PDF checks when destination access is available; preserve actual network blocker and do not bypass it.",
+        "Confirmed audience/age counters advance only after required public verification. Planned next audience is female, child age4.",
+        "Await user's actual aesthetic review; do not award points."
       ],
       "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
       "productionBase": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
       "publication": {
-        "status": "prepared_for_main_update",
+        "status": "deployed",
         "atomic": true,
         "commit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
         "expectedParent": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
-        "preparedAt": "2026-10-23T16:34:55.604Z"
+        "mainUpdatedAt": "2026-10-23T16:35:23.035Z",
+        "cloudflareCheckId": 120532922555,
+        "cloudflareConclusion": "success",
+        "completedAt": "2026-10-23T16:36:54Z",
+        "completedAtTokyo": "2026-10-24T01:36:54.000+09:00",
+        "completedBeforeDeadline": true,
+        "evidence": "content/robi-batches/2026-10-24/deployment-check.json"
+      },
+      "blockedStage": "post_publication_verification",
+      "mainUpdatedAt": "2026-10-23T16:35:23.035Z",
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "status": "blocked",
+          "reason": "All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403.",
+          "evidence": "content/robi-batches/2026-10-24/public-live-checks.json"
+        }
+      ],
+      "liveVerification": {
+        "status": "blocked_by_environment_network_policy",
+        "checkedAt": "2026-10-23T16:36:58.320267+00:00",
+        "allSixPublicChecks": "unverified",
+        "reason": "All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403.",
+        "evidence": "content/robi-batches/2026-10-24/public-live-checks.json",
+        "allAttemptsAfterCloudflareCompletion": true
+      },
+      "audit": {
+        "checkedAt": "2026-10-23T16:41:44.281Z",
+        "status": "deployed_public_verification_blocked",
+        "requiredCount": 6,
+        "preparedCount": 6,
+        "deployedCount": 6,
+        "verifiedPublicCount": 0,
+        "completionVerified": false,
+        "deadlineMet": null,
+        "deadlineNotYetReached": true,
+        "deploymentBeforeDeadline": true,
+        "pointsAwarded": 0,
+        "evidence": "content/robi-batches/2026-10-24/publication-report.json"
+      },
+      "deliveryDeadlineMet": null,
+      "notification": {
+        "channel": "ChatGPT",
+        "reportPreparedAt": "2026-10-23T16:41:44.281Z",
+        "deadlineAt": "2026-10-24T10:00:00+09:00",
+        "actualDeliveryTimestampNotInferred": true
       }
     }
   ],
@@ -921,6 +1022,36 @@
       "previouslyPublished": true,
       "removalCommit": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
       "removedAt": "2026-10-23T13:33:35.197Z"
+    },
+    {
+      "id": "2026-10-24",
+      "status": "deployed_verification_blocked",
+      "published": true,
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "designIds": [
+        "lanetovo-prvo-slavlje",
+        "nocni-kupe",
+        "kameleonova-zurka",
+        "dva-zlatna-kruga",
+        "klas-blagoslova",
+        "pingvinova-radost"
+      ],
+      "motifs": [
+        "sa lanetom i šumskim cvećem",
+        "sa crvenim sportskim automobilom",
+        "sa kameleonom i tropskim listovima",
+        "sa zlatnim burmama na ljubičastoj svili",
+        "sa zlatnim klasjem i krstom",
+        "sa porodicom pingvina"
+      ],
+      "source": "content/robi-batches/2026-10-24/plan.json",
+      "mainCommit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+      "deployedAt": "2026-10-23T16:36:54Z",
+      "manualStart": true,
+      "audience": "male",
+      "birthdayAge": 4
     }
   ],
   "automations": {
@@ -944,7 +1075,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-24",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -966,16 +1097,18 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T16:34:55.604Z",
+  "updatedAt": "2026-10-23T16:41:44.281Z",
   "latestUserFeedback": {
-    "dateTokyo": "2026-10-23",
-    "recordedAt": "2026-10-23T13:33:35.197Z",
-    "source": "agent/feedback/2026-10-23-user-rejection.json",
+    "dateTokyo": "2026-10-24",
+    "recordedAt": "2026-10-23T16:41:44.281Z",
+    "source": "agent/feedback/2026-10-24-restart.json",
     "previousSources": [
+      "agent/feedback/2026-10-23-user-rejection.json",
       "content/robi-batches/2026-10-22/restart-01/user-review.json",
       "content/robi-batches/2026-10-21/user-review.json"
     ],
-    "effectiveFrom": "immediately",
+    "effectiveFrom": "immediately_and_future_batches",
+    "appliedInBatch": "2026-10-24",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -985,9 +1118,9 @@
       "preserve_readability_through_layout_and_local_contrast",
       "review_actual_final_palettes_individually_and_as_a_batch"
     ],
-    "aestheticApproval": false,
-    "seriesRejected": true,
-    "requiredAction": "remove_all_six"
+    "lastRejectedBatch": "2026-10-23",
+    "newSeriesAestheticReview": "awaiting_user",
+    "requiredAction": "apply_recorded_feedback_and_never_automatically_restore_retired_designs"
   },
   "score": {
     "regularPoints": 1,
@@ -997,13 +1130,13 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "male",
+  "plannedNextAudience": "female",
   "plannedNextBirthdayAgeByAudience": {
-    "male": 4,
+    "male": 5,
     "female": 4
   },
-  "planningNote": "The user rejected and requested removal of the entire23Oct male4 batch. It must not count as accepted delivery or advance audience/ages. Earlier21Oct male3 and22Oct female3 remain in catalogue. No replacements requested now. Confirmed counters unchanged.",
-  "lastPublishedBatch": "2026-10-22",
+  "planningNote": "Creative plan follows retained complete deployments21Oct male3,22Oct female3 and24Oct male4.23Oct was removed by user and does not count. Confirmed counters unchanged until mandatory live verification.24Oct manual batch must not be duplicated at08:00.",
+  "lastPublishedBatch": "2026-10-24",
   "latestUserDirective": {
     "source": "agent/feedback/2026-10-24-restart.json",
     "quote": "napravi sad celu seriju kao da je 8 ujutru, kreni sad, i zapamti sve",

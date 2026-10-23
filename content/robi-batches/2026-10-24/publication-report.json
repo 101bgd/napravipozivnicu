@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-24",
+  "dateTokyo": "2026-10-24",
+  "manualExecutionAuthorized": true,
+  "recordedGenerationStart": "2026-10-23T15:39:57.917Z",
+  "recordedGenerationStartTokyo": "2026-10-24T00:39:57.917+09:00",
+  "mainUpdatedAt": "2026-10-23T16:35:23.035Z",
+  "deployment": {
+    "status": "deployed",
+    "atomic": true,
+    "commit": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+    "expectedParent": "6adf7bb6032c959cce052c956abcaadffb16b5d7",
+    "mainUpdatedAt": "2026-10-23T16:35:23.035Z",
+    "cloudflareCheckId": 120532922555,
+    "cloudflareConclusion": "success",
+    "completedAt": "2026-10-23T16:36:54Z",
+    "completedAtTokyo": "2026-10-24T01:36:54.000+09:00",
+    "completedBeforeDeadline": true,
+    "evidence": "content/robi-batches/2026-10-24/deployment-check.json"
+  },
+  "status": "deployed_public_verification_blocked",
+  "categories": [
+    {
+      "id": "lanetovo-prvo-slavlje",
+      "name": "Lanetovo prvo slavlje",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/lanetovo-prvo-slavlje.webp",
+      "sourceDimensions": [
+        821,
+        1916
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": true,
+      "cropRect": {
+        "x": 10,
+        "y": 450,
+        "width": 800,
+        "height": 1120
+      },
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-lane-sumsko-cvece/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "nocni-kupe",
+      "name": "Noćni kupe",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/nocni-kupe.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-sportski-automobil/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "kameleonova-zurka",
+      "name": "Kameleonova žurka",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/kameleonova-zurka.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-kameleon/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "dva-zlatna-kruga",
+      "name": "Dva zlatna kruga",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/dva-zlatna-kruga.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "klas-blagoslova",
+      "name": "Klas blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/klas-blagoslova.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatno-klasje/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "pingvinova-radost",
+      "name": "Pingvinova radost",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/previews/pingvinova-radost.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "cropRect": null,
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-pingvini/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    }
+  ],
+  "prePublicationChecks": "passed",
+  "publicChecks": "unverified",
+  "publicBlocker": "All six destination CONNECT requests were denied with403 by the environment network path; no destination HTTP response or live editor/export was obtained. This does not prove that the website itself returns403.",
+  "actualSourceDimensions": {
+    "fiveDesigns": [
+      1060,
+      1484
+    ],
+    "lanetovoPrvoSlavlje": [
+      821,
+      1916
+    ]
+  },
+  "allExportDimensions": [
+    1500,
+    2100
+  ],
+  "processing": {
+    "lanetovo-prvo-slavlje": {
+      "sourceDimensions": [
+        821,
+        1916
+      ],
+      "cropRect": {
+        "x": 10,
+        "y": 450,
+        "width": 800,
+        "height": 1120
+      },
+      "purpose": "Exact5:7 crop removes unimportant extended forest; preserves complete fawn and focal flower group.",
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true
+    },
+    "otherFive": {
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "cropped": false,
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true
+    }
+  },
+  "pngPrintMetadata": {
+    "dpi": 300,
+    "pixelsPerMetre": 11811
+  },
+  "pdfSizeMm": [
+    127,
+    177.8
+  ],
+  "checks": {
+    "defaultAndLongTextLayouts": 6,
+    "actualMobileEditors": 6,
+    "pngFilesOpenedAt300dpi": 18,
+    "pdfFilesOpenedAndRasterized": 12,
+    "licensedCustomFontsWithSerbianGlyphs": 3,
+    "historyImagesCompared": 63,
+    "seoPagesTested": 73,
+    "adsenseMockIntegrationPages": 89,
+    "initialJsGzipBytes": 7132,
+    "mainTextFilesReadBackMatched": 10,
+    "archivedBinariesReadBackMatched": 50
+  },
+  "userAestheticReview": "not_received_for_new_series",
+  "pointsAwarded": 0,
+  "score": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "totalPoints": 1,
+    "targetPoints": 50,
+    "ledger": "agent/review-ledger.json",
+    "updatedAt": "2026-10-21T03:43:31Z"
+  },
+  "deadline": {
+    "localStart": "08:00",
+    "localDeadline": "10:00",
+    "timezone": "Asia/Tokyo",
+    "manualStartOverridesStartForThisRun": true,
+    "actualDeploymentBeforeDeadline": true,
+    "completeDeliveryVerified": false,
+    "deadlineMet": null,
+    "notYetDueAtReport": true
+  },
+  "resolvedIssues": [
+    "8 unsafe source attempts discarded and replaced with different motifs.",
+    "Text repositioned and contrast improved after actual file review.",
+    "PNG300dpi metadata added and re-tested in real downloads.",
+    "A transient GitHub large-tree write failure was resolved by batching tree creation;50 archived binary hashes read back matched."
+  ],
+  "notification": {
+    "channel": "ChatGPT",
+    "reportPreparedAt": "2026-10-23T16:41:44.281Z",
+    "actualDeliveryTimestampNotInferred": true
+  }
+}
