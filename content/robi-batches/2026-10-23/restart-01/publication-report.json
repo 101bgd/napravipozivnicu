@@ -1,0 +1,233 @@
+{
+  "batchId": "2026-10-23",
+  "attempt": "restart-01",
+  "status": "deployed_live_verification_blocked",
+  "checkedAt": "2026-10-23T06:04:08Z",
+  "startedAt": "2026-10-23T05:19:22Z",
+  "deadlineAt": "2026-10-23T10:00:00+09:00",
+  "deadlineMet": false,
+  "requiredCount": 6,
+  "generatedAccepted": 6,
+  "rejectedReplaced": 5,
+  "preparedCount": 6,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "publication": {
+    "status": "deployed",
+    "atomic": true,
+    "commit": "6548fb92b4738b05752b40b133201f28aa2a2963",
+    "expectedParent": "feffa51c14184258ab1573468b75eb56cd6ac352",
+    "mainUpdatedAt": "2026-10-23T05:59:16Z",
+    "cloudflareCheckId": 120267118567,
+    "cloudflareConclusion": "success",
+    "completedAt": "2026-10-23T06:00:26Z",
+    "completedAtTokyo": "2026-10-23T15:00:26.000+09:00",
+    "completedBeforeDeadline": false,
+    "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
+  },
+  "liveVerification": {
+    "status": "blocked_by_environment_network_policy",
+    "checkedAt": "2026-10-23T06:04:08Z",
+    "attemptedUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
+    "error": "<urlopen error Tunnel connection failed:403Forbidden>",
+    "interpretation": "CONNECT to the website was denied by the environment network path. This does not establish that the site itself returns403. No proxy bypass used; no successful live page/editor/export or real AdSense fill claimed.",
+    "allSixPublicChecks": "unverified"
+  },
+  "designs": [
+    {
+      "id": "kornjacina-prva-radost",
+      "name": "Kornjačina prva radost",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mala-kornjaca/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/kornjacina-prva-radost.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    },
+    {
+      "id": "urbani-puls",
+      "name": "Urbani puls",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-skejtbord-limeta/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/urbani-puls.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    },
+    {
+      "id": "robotova-zurka",
+      "name": "Robotova žurka",
+      "category": "birthday",
+      "audience": "male",
+      "age": 4,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-veseli-robot/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/robotova-zurka.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    },
+    {
+      "id": "zdralov-zavet",
+      "name": "Ždralov zavet",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-dva-zlatna-zdrala/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/zdralov-zavet.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    },
+    {
+      "id": "kap-blagoslova",
+      "name": "Kap blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-zlatna-kapljica-krst/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/kap-blagoslova.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    },
+    {
+      "id": "lavlje-malo-sunce",
+      "name": "Lavlje malo sunce",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-lavic-sunce/",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-23/restart-01/previews/lavlje-malo-sunce.webp",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "processing": "Upscaled, no cropping."
+    }
+  ],
+  "checks": {
+    "checkedAt": "2026-10-23T05:54:40Z",
+    "build": "passed",
+    "sixMobileEditorsPngPdf": "passed",
+    "realWorkerAndSitemap": "passed",
+    "all73SeoTitles": "passed",
+    "existingProductionSmoke": "passed",
+    "adsenseIntegration89Pages": "passed_mocked_sdk_not_actual_google_fill",
+    "fonts": "passed",
+    "pdfFilesOpened": 12,
+    "pngFilesVerified": 18,
+    "previousFailuresResolved": [
+      {
+        "test": "template-titles",
+        "cause": "New motifs missing from required source map",
+        "fix": "Added all six actual motifs."
+      },
+      {
+        "test": "production-smoke privacy",
+        "cause": "Existing test expected old privacy wording after the preexisting Google-tag/AdSense update in main.",
+        "fix": "Updated assertion to current main wording; no public policy or AdSense behavior changed."
+      }
+    ]
+  },
+  "userRuleApplied": "Five rejected design backgrounds were discarded and replaced from zero with completely different motifs in the same categories. No rejected image was edited or published.",
+  "score": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50,
+    "awardedThisRun": 0
+  },
+  "userAestheticApprovalAssumed": false
+}

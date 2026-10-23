@@ -3,7 +3,7 @@
   "batchId": "2026-10-23",
   "attempt": "restart-01",
   "checkedAt": "2026-10-23T05:54:40Z",
-  "status": "ready_to_publish",
+  "status": "deployed_live_verification_blocked",
   "requiredCount": 6,
   "preparedCount": 6,
   "rejectedDesignCount": 5,
@@ -21,7 +21,7 @@
       "id": "kornjacina-prva-radost",
       "name": "Kornjačina prva radost",
       "category": "first",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -133,15 +133,15 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     },
@@ -149,7 +149,7 @@
       "id": "urbani-puls",
       "name": "Urbani puls",
       "category": "eighteen",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -261,15 +261,15 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     },
@@ -277,7 +277,7 @@
       "id": "robotova-zurka",
       "name": "Robotova žurka",
       "category": "birthday",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -389,15 +389,15 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     },
@@ -405,7 +405,7 @@
       "id": "zdralov-zavet",
       "name": "Ždralov zavet",
       "category": "wedding",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -517,15 +517,15 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     },
@@ -533,7 +533,7 @@
       "id": "kap-blagoslova",
       "name": "Kap blagoslova",
       "category": "baptism",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -645,15 +645,15 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     },
@@ -661,7 +661,7 @@
       "id": "lavlje-malo-sunce",
       "name": "Lavlje malo sunce",
       "category": "baby",
-      "status": "ready_to_publish",
+      "status": "deployed_live_verification_blocked",
       "checks": [
         {
           "key": "complete_batch",
@@ -773,21 +773,21 @@
         },
         {
           "key": "atomic_publication",
-          "status": "unverified",
-          "result": "NEPROVERENO",
-          "evidence": "Pending one expected-SHA fast-forward main commit with all six."
+          "status": "passed",
+          "result": "PROŠLO",
+          "evidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json"
         },
         {
           "key": "published_site_verification",
           "status": "unverified",
           "result": "NEPROVERENO",
-          "evidence": "Pending Cloudflare deployment and allowed live checks; network policy currently excludes site."
+          "evidence": "Cloudflare success confirmed in deployment-check.json; direct site checks blocked by environment CONNECT403, see public-live-checks.json."
         }
       ]
     }
   ],
   "prePublicationVerdict": "PROŠLO",
-  "publicationVerdict": "NEPROVERENO",
+  "publicationVerdict": "PROŠLO",
   "postPublicationVerdict": "NEPROVERENO",
   "repairs": [
     {
@@ -808,5 +808,8 @@
     }
   ],
   "userAestheticApprovalAssumed": false,
-  "pointsAwarded": 0
+  "pointsAwarded": 0,
+  "publicationEvidence": "content/robi-batches/2026-10-23/restart-01/deployment-check.json",
+  "liveVerificationEvidence": "content/robi-batches/2026-10-23/restart-01/public-live-checks.json",
+  "postPublicationCheckedAt": "2026-10-23T06:06:29Z"
 }
