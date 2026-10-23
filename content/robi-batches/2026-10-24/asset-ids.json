@@ -1,0 +1,35 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "lanetovo-prvo-slavlje": {
+      "background": "162c4d58-02a8-5a54-93c6-1d406c55a51d",
+      "thumbnail": "e7f6ed1c-5cd1-5a6b-9e79-0b8e1c4bd442"
+    },
+    "nocni-kupe": {
+      "background": "4f2f2c94-212c-5f01-8c12-ce59488a0ff7",
+      "thumbnail": "8788a722-e51f-5621-93f7-f5dfcd324eda"
+    },
+    "kameleonova-zurka": {
+      "background": "4f396a5c-e933-52b5-986c-f85bc717e701",
+      "thumbnail": "e52259f9-da9a-5ac6-ba6b-e852774271cb"
+    },
+    "dva-zlatna-kruga": {
+      "background": "fe4b4fef-ba17-5424-b64e-855fdc789ad2",
+      "thumbnail": "b6a54138-e995-57d3-9005-0366e0de34c1"
+    },
+    "klas-blagoslova": {
+      "background": "1fca13c3-e148-596d-9736-4363b09ec881",
+      "thumbnail": "1336be7f-5e4f-5d99-8d0e-0548f3ca7d9c"
+    },
+    "pingvinova-radost": {
+      "background": "6d5f50f0-9152-5853-91f7-7d17e9ce42ec",
+      "thumbnail": "2c42d0b9-d2d7-5a44-b54d-250bd36afc1c"
+    }
+  },
+  "publicationPreparedAt": "2026-10-23T16:07:28.881Z"
+}

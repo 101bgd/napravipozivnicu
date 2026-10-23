@@ -1,0 +1,116 @@
+[
+  {
+    "id": "lanetovo-prvo-slavlje",
+    "name": "Lanetovo prvo slavlje",
+    "category": "first",
+    "motif": "sa lanetom i šumskim cvećem",
+    "slug": "pozivnica-prvi-rodjendan-lane-sumsko-cvece",
+    "audience": "male",
+    "age": 1,
+    "description": "Razigrana pozivnica za prvi rođendan sa lanetom i šumskim cvećem. Krupno ime, broj godina, datum i mesto proslave možete da uredite u editoru, pa preuzmete PNG ili PDF.",
+    "imageAlt": "Malo lane među plavim šumskim cvećem, zelenim listovima i zlatnim papratima",
+    "tags": [
+      "first",
+      "sa lanetom i šumskim cvećem",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "nocni-kupe",
+    "name": "Noćni kupe",
+    "category": "eighteen",
+    "motif": "sa crvenim sportskim automobilom",
+    "slug": "pozivnica-18-rodjendan-crveni-sportski-automobil",
+    "audience": "male",
+    "age": 18,
+    "description": "Pozivnica za osamnaesti rođendan sa crvenim sportskim automobilom na tamnoj podlozi. Unesite ime slavljenika i detalje večeri, pa sačuvajte pozivnicu za slanje ili štampu.",
+    "imageAlt": "Crveni sportski automobil na tamnoj ljubičastoj podlozi sa svetlosnim akcentima",
+    "tags": [
+      "eighteen",
+      "sa crvenim sportskim automobilom",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "kameleonova-zurka",
+    "name": "Kameleonova žurka",
+    "category": "birthday",
+    "motif": "sa kameleonom i tropskim listovima",
+    "slug": "pozivnica-deciji-rodjendan-kameleon",
+    "audience": "male",
+    "age": 4,
+    "description": "Vesela pozivnica za dečji rođendan sa zelenim kameleonom i šarenim tropskim listovima. Promenite ime, uzrast od 3 do 10 godina, datum i mesto proslave, a zatim sačuvajte PNG ili PDF.",
+    "imageAlt": "Veseli zeleni kameleon na grani uz crvene, žute i tirkizne tropske listove",
+    "tags": [
+      "birthday",
+      "sa kameleonom i tropskim listovima",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "dva-zlatna-kruga",
+    "name": "Dva zlatna kruga",
+    "category": "wedding",
+    "motif": "sa zlatnim burmama na ljubičastoj svili",
+    "slug": "pozivnica-za-vencanje-zlatne-burme-ljubicasta-svila",
+    "audience": "couple",
+    "age": null,
+    "description": "Elegantna pozivnica za venčanje sa dve zlatne burme na ljubičastoj svili. Uredite imena mladenaca, vreme i mesto obreda i svadbene proslave u odvojenim poljima.",
+    "imageAlt": "Dve zlatne burme na tamnoj ljubičastoj svili",
+    "tags": [
+      "wedding",
+      "sa zlatnim burmama na ljubičastoj svili",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "klas-blagoslova",
+    "name": "Klas blagoslova",
+    "category": "baptism",
+    "motif": "sa zlatnim klasjem i krstom",
+    "slug": "pozivnica-za-krstenje-zlatno-klasje",
+    "audience": "male",
+    "age": null,
+    "description": "Pozivnica za krštenje sa zlatnim krstom, klasjem i zelenim listovima. Ime deteta, vreme i mesto obreda i proslave ostaju odvojena izmenjiva polja.",
+    "imageAlt": "Zlatni krst iznad svetle podloge i aranžmana klasja i zelenih listova",
+    "tags": [
+      "baptism",
+      "sa zlatnim klasjem i krstom",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  },
+  {
+    "id": "pingvinova-radost",
+    "name": "Pingvinova radost",
+    "category": "baby",
+    "motif": "sa porodicom pingvina",
+    "slug": "pozivnica-proslava-rodjenja-decaka-pingvini",
+    "audience": "male",
+    "age": null,
+    "description": "Poziv na proslavu rođenja dečaka sa nežnom porodicom pingvina u plavom zimskom pejzažu. Unesite bebino ime i detalje okupljanja, pa preuzmite pozivnicu za slanje ili štampu.",
+    "imageAlt": "Dva odrasla pingvina i njihovo mladunče u plavom ledenom pejzažu",
+    "tags": [
+      "baby",
+      "sa porodicom pingvina",
+      "izmenjiva pozivnica",
+      "PNG",
+      "PDF"
+    ],
+    "isNew": true
+  }
+]

@@ -14,6 +14,7 @@ import { renderDesign, prepareDesign, photoFrame, designTextWarnings } from './d
 import { BUILTIN_FONTS, DATE_LOCALES, normalizeDesign } from './template-schema.js';
 import { createEditorState } from './editor-state.js';
 import { recordUsage } from './usage.js';
+import { pngWithPrintDensity } from './png-density.js';
 import { renderEditor } from './editor-view.js';
 import { toast, escapeHtml as esc } from './ui.js';
 document.body.insertAdjacentHTML('beforeend',renderEditor());
@@ -123,7 +124,7 @@ async function exportFile(type){
   if(exporting)return;exporting=true;
   const template=selected,values=structuredClone(data),image=photo,prepared=assets,buttons=[...document.querySelectorAll('.export-png,.export-pdf')];buttons.forEach(b=>b.disabled=true);
   try{await new Promise(requestAnimationFrame);const canvas=paint(document.createElement('canvas'),template,values,image,WIDTH,prepared),name=`pozivnica-${template.slug||template.id}`;
-    let blob;if(type==='png'){blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('PNG');}
+    let blob;if(type==='png'){blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw Error('PNG');blob=new Blob([pngWithPrintDensity(new Uint8Array(await blob.arrayBuffer()))],{type:'image/png'});}
     else{const {jsPDF}=await import('jspdf');const pdf=new jsPDF({orientation:'portrait',unit:'mm',format:[127,177.8],compress:true});pdf.setProperties({title:`Pozivnica — ${values.names||template.name}`,creator:'Napravi pozivnicu'});pdf.addImage(canvas.toDataURL('image/png'),'PNG',0,0,127,177.8);blob=pdf.output('blob');}
     if(!blob?.size)throw Error('Empty export');const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${name}.${type}`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);recordUsage(template.id,`download_${type}`);
     toast(type==='png'?'Slika je spremna! Preuzimanje je pokrenuto.':'PDF je spreman! Štampaj u stvarnoj veličini (100%).');
