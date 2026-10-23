@@ -455,7 +455,7 @@
       "id": "2026-10-23",
       "date": "2026-10-23",
       "path": "content/robi-batches/2026-10-23/restart-01",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "requiredCount": 6,
       "generatedCount": 6,
       "preparedCount": 6,
@@ -586,7 +586,7 @@
         "deadlineAuditPreparedOnTime": false
       },
       "artifactPersistence": {
-        "status": "ready_to_commit",
+        "status": "required_artifacts_saved",
         "controlPath": "content/robi-batches/2026-10-23/restart-01",
         "sourcePngs": 6,
         "rejectedOriginals": 5,
@@ -603,7 +603,7 @@
         "Prepare all six, integrate catalog/assets/layouts together based on fresh main, publish one atomic fast-forward commit with expected SHA.",
         "Verify Cloudflare and public pages/editor/exports by allowed means; if blocked record truthfully. Advance confirmed state only after required complete verification."
       ],
-      "lastConfirmedStep": "All six new editable templates passed real browser/mobile/PNG/PDF/Worker/SEO/AdSense/production checks.35unique binary artifacts uploaded with exact Git hashes.",
+      "lastConfirmedStep": "All six templates and required evidence saved; single production commit prepared; main not yet updated.",
       "audit": {
         "checkedAt": "2026-10-23T01:07:45Z",
         "checkedAtTokyo": "2026-10-23T10:07:45.000+09:00",
@@ -742,7 +742,15 @@
       },
       "acceptedBackgroundCount": 6,
       "rejectedDesignCount": 5,
-      "preparedAt": "2026-10-23T05:57:30Z"
+      "preparedAt": "2026-10-23T05:57:30Z",
+      "publication": {
+        "status": "main_commit_prepared",
+        "atomic": true,
+        "commit": "6548fb92b4738b05752b40b133201f28aa2a2963",
+        "expectedParent": "feffa51c14184258ab1573468b75eb56cd6ac352",
+        "prePublicationChecks": "passed",
+        "controlEvidenceCommit": "f67f87018f34bf95ab0bade3f1836b95c9000a99"
+      }
     }
   ],
   "history": [
@@ -858,7 +866,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-23",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -880,7 +888,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-23T05:57:30Z",
+  "updatedAt": "2026-10-23T05:58:51Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-22",
     "recordedAt": "2026-10-22T05:19:44Z",
