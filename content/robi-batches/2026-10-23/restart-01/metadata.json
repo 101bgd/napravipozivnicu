@@ -1,0 +1,77 @@
+[
+  {
+    "id": "kornjacina-prva-radost",
+    "name": "Kornjačina prva radost",
+    "category": "first",
+    "audience": "male",
+    "age": 1,
+    "motif": "sa malom kornjačom na tirkiznoj podlozi",
+    "slug": "pozivnica-prvi-rodjendan-mala-kornjaca",
+    "description": "Živopisna pozivnica za prvi rođendan dečaka sa malom kornjačom na tirkiznoj podlozi. Uredi ime i detalje proslave i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za prvi rođendan sa zelenom kornjačom, žutim oklopom i koralnim cvetom na tirkiznoj podlozi",
+    "details": "Mala kornjača čuva gornji levi deo, a veliko ime ima prostor desno. Broj jedan i naziv rođendana čine povezanu izmenjivu grupu. Datum, vreme, mesto i potvrda dolaska uređuju se zasebno.",
+    "bg": "#00c4ce"
+  },
+  {
+    "id": "urbani-puls",
+    "name": "Urbani puls",
+    "category": "eighteen",
+    "audience": "male",
+    "age": 18,
+    "motif": "sa skejtbordom i limeta akcentima",
+    "slug": "pozivnica-18-rodjendan-skejtbord-limeta",
+    "description": "Moderna pozivnica za 18. rođendan sa limeta skejtbordom i narandžastim akcentima. Uredi ime i detalje punoletstva i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za osamnaesti rođendan sa limeta skejtbordom, narandžastim točkićima i cijan potezima na tamnoplavoj podlozi",
+    "details": "Skejtbord ostavlja veliki tamnoplavi prostor iznad za ime i povezan broj 18 sa nazivom događaja. Podaci o slavlju raspoređeni su oko ilustracije. Sva slova i brojevi su zasebni izmenjivi slojevi.",
+    "bg": "#00184a"
+  },
+  {
+    "id": "robotova-zurka",
+    "name": "Robotova žurka",
+    "category": "birthday",
+    "audience": "male",
+    "age": 4,
+    "motif": "sa veselim robotom i šarenim zupčanicima",
+    "slug": "pozivnica-deciji-rodjendan-veseli-robot",
+    "description": "Šarena pozivnica za dečji rođendan sa veselim robotom i zupčanicima na ljubičastoj podlozi. Primer je za četiri godine; ime, uzrast 3–10 i detalji su izmenjivi.",
+    "imageAlt": "Dečja pozivnica sa tirkiznim robotom, žutim i plavim zupčanicima i krupnim svetlim tekstom na živoljubičastoj podlozi",
+    "details": "Mali robot čeka drugare na četvrtom rođendanu. Ime i uzrast zauzimaju gornji deo, dok se mesto i potvrda dolaska nalaze pored ilustracije. Uzrast se uređuje od tri do deset.",
+    "bg": "#8718e7"
+  },
+  {
+    "id": "zdralov-zavet",
+    "name": "Ždralov zavet",
+    "category": "wedding",
+    "audience": "couple",
+    "motif": "sa dva zlatna ždrala na kobaltnoj podlozi",
+    "slug": "pozivnica-za-vencanje-dva-zlatna-zdrala",
+    "description": "Elegantna pozivnica za venčanje sa dva zlatna ždrala na kobaltnoj podlozi. Uredi imena, datum, obred i proslavu i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za venčanje sa dva zlatna ždrala okrenuta jedan prema drugom na dubokoj kobaltnoj podlozi",
+    "details": "Dva ždrala prate imena mladenaca u centriranoj kompoziciji. Podaci o crkvenom ili građanskom obredu i svadbenoj proslavi imaju odvojena izmenjiva polja.",
+    "bg": "#083276"
+  },
+  {
+    "id": "kap-blagoslova",
+    "name": "Kap blagoslova",
+    "category": "baptism",
+    "audience": "male",
+    "motif": "sa zlatnom kapljicom i krstom",
+    "slug": "pozivnica-za-krstenje-zlatna-kapljica-krst",
+    "description": "Svečana pozivnica za krštenje dečaka sa zlatnom kapljicom i krstom na bordo podlozi. Uredi ime, crkvu i proslavu i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za krštenje sa zlatnim obrisom kapljice i krstom na bogatoj bordo podlozi i svetlim centriranim tekstom",
+    "details": "Zlatna kapljica sa krstom naglašava simboliku krštenja. Krupno ime i svetao tekst imaju zajedničku osu, uz zasebne podatke o obredu, crkvi i porodičnoj proslavi.",
+    "bg": "#801528"
+  },
+  {
+    "id": "lavlje-malo-sunce",
+    "name": "Lavlje malo sunce",
+    "category": "baby",
+    "audience": "male",
+    "motif": "sa lavićem i toplim sunčevim bojama",
+    "slug": "pozivnica-proslava-rodjenja-decaka-lavic-sunce",
+    "description": "Topla pozivnica za proslavu rođenja dečaka sa usnulim lavićem i sunčevim bojama. Uredi ime bebe i podatke proslave i preuzmi PNG ili PDF.",
+    "imageAlt": "Pozivnica za proslavu rođenja dečaka sa usnulim zlatnim lavićem na tirkiznim listovima i velikim tamnim imenom na narandžastoj podlozi",
+    "details": "Mali lavić najavljuje novu porodičnu radost u toplim sunčevim bojama. Ime bebe, poziv na proslavu rođenja, datum, vreme i adresa ostaju potpuno izmenjivi.",
+    "bg": "#ff9c49"
+  }
+]

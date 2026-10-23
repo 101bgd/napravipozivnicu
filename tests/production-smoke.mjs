@@ -126,7 +126,7 @@ try {
     assert.ok(await staticPage.locator('main').innerText().then(text => text.includes(CONTACT_EMAIL)));
     if (infoPage.id === 'privacy') {
       assert.match(await staticPage.locator('main').innerText(), /localStorage/);
-      assert.match(await staticPage.locator('main').innerText(), /Kada su oglasi isključeni, sajt ne učitava AdSense skriptu/);
+      assert.match(await staticPage.locator('main').innerText(), /Na javnim stranicama učitavamo Google AdSense kod/);
     }
     if (infoPage.id === 'contact') {
       assert.equal(await staticPage.locator('.contact-email').getAttribute('href'), `mailto:${CONTACT_EMAIL}`);
