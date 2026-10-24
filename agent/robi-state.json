@@ -1231,7 +1231,7 @@
       "audience": "male",
       "birthdayAge": 5,
       "audienceAssignment": "planned_from_retained_deployments_including_explicit24Oct_extra_female4; confirmed_counters_unchanged_pending_live_checks",
-      "generatedCount": 0,
+      "generatedCount": 5,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -1240,20 +1240,20 @@
       "productionBase": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
       "designs": [
         {
-          "id": "pandin-zeleni-dan",
-          "name": "Pandin zeleni dan",
+          "id": "sareni-vetric",
+          "name": "Šareni vetrić",
           "category": "first",
           "audience": "male",
           "age": 1,
           "status": "generating"
         },
         {
-          "id": "elektricni-akord",
-          "name": "Električni akord",
+          "id": "sledeci-nivo",
+          "name": "Sledeći nivo",
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "generating"
+          "status": "checking"
         },
         {
           "id": "zamak-veselih-zastava",
@@ -1261,7 +1261,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 5,
-          "status": "generating"
+          "status": "checking"
         },
         {
           "id": "jesenji-vinograd",
@@ -1269,7 +1269,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "generating"
+          "status": "checking"
         },
         {
           "id": "srebrno-zvonce",
@@ -1277,7 +1277,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "generating"
+          "status": "checking"
         },
         {
           "id": "tigricev-nezni-san",
@@ -1285,10 +1285,14 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "generating"
+          "status": "checking"
         }
       ],
-      "lastConfirmedStep": "Read six adopted control files and current history/feedback. Fresh25Oct scheduled batch planned; male5; no duplicate day25 batch exists."
+      "lastConfirmedStep": "7 images returned:5 accepted,2 rejected by print-safe inset review. New first-birthday pinwheel replacement is generating; all other categories ready for template work.",
+      "totalGenerationAttempts": 8,
+      "totalReturnedGenerations": 7,
+      "rejectedDesignCount": 2,
+      "pendingGenerations": 1
     }
   ],
   "history": [
@@ -1519,7 +1523,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T23:03:50Z",
+  "updatedAt": "2026-10-24T23:15:21Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

@@ -9,24 +9,28 @@
   "birthdayAge": 5,
   "concepts": [
     {
-      "id": "pandin-zeleni-dan",
-      "name": "Pandin zeleni dan",
+      "oldId": "pandin-zeleni-dan",
+      "id": "sareni-vetric",
+      "name": "Šareni vetrić",
       "category": "first",
       "age": 1,
       "audience": "male",
-      "motif": "sa pandom i bambusom",
-      "slug": "pozivnica-prvi-rodjendan-panda-bambus",
-      "prompt": "ONE invitation BACKGROUND ONLY. Vertical EXACT5:7, ideally1500x2100px. Full-bleed painted background color. Absolutely NO text, letters, numbers, age, logos or watermark. No collage, no multiple variants, no physical invitation mockup, tabletop, hand, outer shadow or perspective of the card. Every important illustrated object must be COMPLETE and at least8% inside ALL picture edges; only background color and minor peripheral foliage may bleed. A large coherent calm area must remain for LARGE editable typography added later. Polished intentional composition, lovely crafted detail, clean shapes, no visual clutter. First birthday for a little boy. A charming small baby PANDA sitting with a short bamboo branch in the LOWER RIGHT (x65%-83%,y66%-86%), entire panda and all ears/paws visible. Beautiful premium children's gouache illustration, natural cute panda anatomy. Cheerful fresh lime-and-jade green background fading to a luminous pale mint in the middle, sunny yellow small leaf accents. A few minimal bamboo leaves near upper left, no framing wreath. Colorful and fresh, not beige or washed-out. Keep upper half and left-middle broad and clear for large deep-green name and birthday text. Panda stays compact; no oversized closeup, no balloons."
+      "motif": "sa šarenom papirnom vetrenjačom",
+      "slug": "pozivnica-prvi-rodjendan-sarena-vetrenjaca",
+      "reason": "Panda right ear/fur approaches the minimum print-safe inset; full60px clearance could not be confidently verified. Replace rather than pass an uncertain trim check.",
+      "prompt": "ONE joyful premium first-birthday invitation BACKGROUND ONLY for a little boy. Vertical EXACT5:7, ideally1500x2100px. A SMALL beautiful colorful PAPER PINWHEEL on a slender wooden stick, complete and safely inset, at LOWER LEFT x20%-43%,y63%-86%. Four clearly folded paper blades in vivid tomato red, sunny yellow, turquoise and cobalt blue around a small golden central pin; clean credible handmade geometry, charming gouache illustration, not a photo. Every part including stick and outer blades FULLY VISIBLE with at least12% empty margin to every edge. Vibrant fresh lime/mint-green full-bleed painted background, luminous smooth quiet center with a little warm yellow light; no beige wash, no grunge. Just a few tiny rounded colored paint dots near the bottom corners, not in the text area. Upper55% and right-middle broad and clear for LARGE deep-green editable name and birthday typography added later. No text, numerals, letters, logos, watermark, collage, variants, paper invitation mockup, table, hand, external shadow or perspective of the card. One coherent flat illustrated design. Keep pinwheel compact, not an oversized close-up."
     },
     {
-      "id": "elektricni-akord",
-      "name": "Električni akord",
+      "oldId": "elektricni-akord",
+      "id": "sledeci-nivo",
+      "name": "Sledeći nivo",
       "category": "eighteen",
       "age": 18,
       "audience": "male",
-      "motif": "sa plavom električnom gitarom",
-      "slug": "pozivnica-18-rodjendan-plava-elektricna-gitara",
-      "prompt": "ONE invitation BACKGROUND ONLY. Vertical EXACT5:7, ideally1500x2100px. Full-bleed painted background color. Absolutely NO text, letters, numbers, age, logos or watermark. No collage, no multiple variants, no physical invitation mockup, tabletop, hand, outer shadow or perspective of the card. Every important illustrated object must be COMPLETE and at least8% inside ALL picture edges; only background color and minor peripheral foliage may bleed. A large coherent calm area must remain for LARGE editable typography added later. Polished intentional composition, lovely crafted detail, clean shapes, no visual clutter. A bold stylish eighteenth birthday for a young man, contemporary polished music-poster illustration. One elegant cobalt-blue ELECTRIC GUITAR with credible six strings and correct clean instrument anatomy, NO brand name, NO lettering. Entire guitar including headstock, neck and body comfortably inside the LOWER RIGHT diagonal area, x53%-84%, y55%-88%, never cut off. Warm luminous tangerine-orange painted background with controlled smooth burnt-orange variation, a few understated electric-blue geometric paint accents near bottom only. Sophisticated graphic gouache, no grunge noise, no photo, no stage or crowd. Upper55% and left-middle remain clear warm orange for large dark-navy typography later. Generous negative space around the COMPLETE guitar."
+      "motif": "sa crvenim gejming kontrolerom",
+      "slug": "pozivnica-18-rodjendan-crveni-gejming-kontroler",
+      "reason": "Guitar headstock lies too close to right trim edge; replace entire motif and composition.",
+      "prompt": "Create ONE finished invitation BACKGROUND ONLY. Vertical EXACT5:7, ideally1500x2100. Sophisticated eighteenth birthday for a young man: a SMALL COMPLETE RED GAMING CONTROLLER, centered horizontally in the bottom fifth, x29%-71%,y76%-87%, plenty of empty space to all edges. Correct clean controller anatomy: two thumbsticks, a plain directional pad and FOUR PLAIN ROUND UNLETTERED BUTTONS, no logos, brand marks, symbols, letters, numbers or screen. Polished graphic gouache illustration, rich scarlet body with dark charcoal controls, restrained electric-cyan highlight. Smooth deep charcoal-navy full-bleed background with very subtle cyan and red painted glows near the bottom only. Upper75% is broad quiet dark space for LARGE warm-white editable name and birthday text to be added later. Every part of controller is fully intact and at least12% away from the trim edges; not a close-up. No collage, variants, physical invitation mockup, table, hands, exterior shadow, writing or watermark. One coherent tasteful flat invitation design."
     },
     {
       "id": "zamak-veselih-zastava",
@@ -70,5 +74,6 @@
     }
   ],
   "confirmedCountersNotAdvanced": true,
-  "priorIncompleteChecksPreserved": true
+  "priorIncompleteChecksPreserved": true,
+  "updatedAt": "2026-10-24T23:15:21Z"
 }
