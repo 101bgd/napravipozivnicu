@@ -928,7 +928,7 @@
       "id": "2026-10-24-extra-01",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24/extra-01",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "kind": "user_requested_additional_batch",
       "manualStart": true,
       "startedAt": "2026-10-24T01:32:57Z",
@@ -1126,7 +1126,7 @@
         "source": "ChatGPT",
         "recordedAt": "2026-10-24T01:32:57Z"
       },
-      "lastConfirmedStep": "All6 passed18 prepublication checks, actual mobile editors and exports;18PNGs/12PDFs opened, all personalized PDFs visually inspected. All50 artifacts uploaded with matching hashes. Ready for one atomic production commit.",
+      "lastConfirmedStep": "All50 archived binary hashes read back matched. Candidate complete production commit built on expected current main; all18 old Robi metadata entries preserved,6 retired IDs absent. About to fast-forward main once.",
       "totalGenerationAttempts": 8,
       "rejectedDesignCount": 2,
       "artifactPersistence": {
@@ -1139,7 +1139,8 @@
         "pngExamples": 18,
         "pdfExamples": 12,
         "manifest": "content/robi-batches/2026-10-24/extra-01/artifact-manifest.json",
-        "allBlobUploadsMatchedLocalGitSha": true
+        "allBlobUploadsMatchedLocalGitSha": true,
+        "all50BinaryReadBackMatched": true
       },
       "prePublicationChecks": "passed",
       "preparedAt": "2026-10-24T02:02:07Z",
@@ -1149,6 +1150,14 @@
         "status": "awaiting_post_publication_user_review",
         "aestheticApprovalAssumed": false,
         "pointsAwardedThisBatch": 0
+      },
+      "publication": {
+        "status": "publishing",
+        "atomic": true,
+        "commit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+        "expectedParent": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+        "allSixIncluded": true,
+        "preparedAt": "2026-10-24T02:07:14Z"
       }
     }
   ],
@@ -1327,7 +1336,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-24-extra-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1349,7 +1358,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T02:02:07Z",
+  "updatedAt": "2026-10-24T02:07:14Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

@@ -1,0 +1,14 @@
+{
+  "batchId": "2026-10-24-extra-01",
+  "status": "publishing",
+  "candidateCommit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+  "expectedParent": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+  "atomic": true,
+  "allSixIncluded": true,
+  "archiveReadback": {
+    "count": 50,
+    "allMatched": true,
+    "controlCommit": "bfa28ad245087824b43b6b63477ce432bacd42de"
+  },
+  "recordedAt": "2026-10-24T02:07:14Z"
+}
