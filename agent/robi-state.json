@@ -923,6 +923,84 @@
         "evidence": "content/robi-batches/2026-10-24/final-daily-check.json",
         "deadlineAssessmentAt": "2026-10-24T01:00:22Z"
       }
+    },
+    {
+      "id": "2026-10-24-extra-01",
+      "date": "2026-10-24",
+      "path": "content/robi-batches/2026-10-24/extra-01",
+      "status": "generating",
+      "kind": "user_requested_additional_batch",
+      "manualStart": true,
+      "startedAt": "2026-10-24T01:32:57Z",
+      "scheduledDailyBatch": false,
+      "countsAsRegularDailyDelivery": false,
+      "deadlineAt": null,
+      "audience": "female",
+      "birthdayAge": 4,
+      "requiredCount": 6,
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "productionBase": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+      "designs": [
+        {
+          "id": "pcelicin-medeni-dan",
+          "name": "Pčelicin medeni dan",
+          "category": "first",
+          "age": 1,
+          "audience": "female",
+          "status": "generating"
+        },
+        {
+          "id": "rubinska-magnolija",
+          "name": "Rubinska magnolija",
+          "category": "eighteen",
+          "age": 18,
+          "audience": "female",
+          "status": "generating"
+        },
+        {
+          "id": "sladoledna-zurka",
+          "name": "Sladoledna žurka",
+          "category": "birthday",
+          "age": 4,
+          "audience": "female",
+          "status": "generating"
+        },
+        {
+          "id": "zavet-pomorandzinog-cveta",
+          "name": "Zavet pomorandžinog cveta",
+          "category": "wedding",
+          "age": null,
+          "audience": "couple",
+          "status": "generating"
+        },
+        {
+          "id": "djurdjevkov-blagoslov",
+          "name": "Đurđevkov blagoslov",
+          "category": "baptism",
+          "age": null,
+          "audience": "female",
+          "status": "generating"
+        },
+        {
+          "id": "koalin-zagrljaj",
+          "name": "Koalin zagrljaj",
+          "category": "baby",
+          "age": null,
+          "audience": "female",
+          "status": "generating"
+        }
+      ],
+      "userAuthorization": {
+        "quote": "vazi, molim te uradi jednom sve kako treba i da budes radnik godine, hajde kreni sad seriju jos jednu",
+        "source": "ChatGPT",
+        "recordedAt": "2026-10-24T01:32:57Z"
+      },
+      "lastConfirmedStep": "Read current control rules/state/history; planned6 distinct motifs and female4 sequence. New extra series explicitly authorized, existing daily batch preserved."
     }
   ],
   "history": [
@@ -1100,8 +1178,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
-  "activeBatch": "2026-10-24",
+  "status": "generating",
+  "activeBatch": "2026-10-24-extra-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -1122,7 +1200,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T01:00:22Z",
+  "updatedAt": "2026-10-24T01:32:57Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
