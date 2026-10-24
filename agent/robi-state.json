@@ -928,7 +928,7 @@
       "id": "2026-10-24-extra-01",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24/extra-01",
-      "status": "checking",
+      "status": "ready_to_publish",
       "kind": "user_requested_additional_batch",
       "manualStart": true,
       "startedAt": "2026-10-24T01:32:57Z",
@@ -939,7 +939,7 @@
       "birthdayAge": 4,
       "requiredCount": 6,
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -952,7 +952,7 @@
           "category": "first",
           "audience": "female",
           "age": 1,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -962,7 +962,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/pcelicin-medeni-dan.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-pcelice-livadsko-cvece/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "ponocna-lepeza",
@@ -970,7 +981,7 @@
           "category": "eighteen",
           "audience": "female",
           "age": 18,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -980,7 +991,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/ponocna-lepeza.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-ponocna-lepeza/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "sladoledna-zurka",
@@ -988,7 +1010,7 @@
           "category": "birthday",
           "audience": "female",
           "age": 4,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -998,7 +1020,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/sladoledna-zurka.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sladoledi/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "zavet-pomorandzinog-cveta",
@@ -1006,7 +1039,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -1016,7 +1049,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/zavet-pomorandzinog-cveta.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-cvet-pomorandze/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "molitva-u-lila",
@@ -1024,7 +1068,7 @@
           "category": "baptism",
           "audience": "female",
           "age": null,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -1034,7 +1078,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/molitva-u-lila.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-molitvenik-lila/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "koalin-zagrljaj",
@@ -1042,7 +1097,7 @@
           "category": "baby",
           "audience": "female",
           "age": null,
-          "status": "checking",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
@@ -1052,7 +1107,18 @@
             2100
           ],
           "upscaled": true,
-          "cropped": false
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/koalin-zagrljaj.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-koala/",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         }
       ],
       "userAuthorization": {
@@ -1060,14 +1126,29 @@
         "source": "ChatGPT",
         "recordedAt": "2026-10-24T01:32:57Z"
       },
-      "lastConfirmedStep": "All6 new original source PNGs and2 rejected attempts archived as verified Git blobs; actual local editor/export checks continue.",
+      "lastConfirmedStep": "All6 passed18 prepublication checks, actual mobile editors and exports;18PNGs/12PDFs opened, all personalized PDFs visually inspected. All50 artifacts uploaded with matching hashes. Ready for one atomic production commit.",
       "totalGenerationAttempts": 8,
       "rejectedDesignCount": 2,
       "artifactPersistence": {
-        "status": "originals_saved",
+        "status": "required_artifacts_saved",
         "sourcePngs": 6,
         "rejectedOriginals": 2,
-        "manifest": "content/robi-batches/2026-10-24/extra-01/original-artifact-manifest.json"
+        "binaryFiles": 50,
+        "backgroundWebp": 6,
+        "previewWebp": 6,
+        "pngExamples": 18,
+        "pdfExamples": 12,
+        "manifest": "content/robi-batches/2026-10-24/extra-01/artifact-manifest.json",
+        "allBlobUploadsMatchedLocalGitSha": true
+      },
+      "prePublicationChecks": "passed",
+      "preparedAt": "2026-10-24T02:02:07Z",
+      "qualityChecklist": "content/robi-batches/2026-10-24/extra-01/quality-checklist.json",
+      "report": "content/robi-batches/2026-10-24/extra-01/REPORT.md",
+      "userReview": {
+        "status": "awaiting_post_publication_user_review",
+        "aestheticApprovalAssumed": false,
+        "pointsAwardedThisBatch": 0
       }
     }
   ],
@@ -1246,7 +1327,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-24-extra-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1268,18 +1349,19 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T01:52:18Z",
+  "updatedAt": "2026-10-24T02:02:07Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
-    "source": "agent/feedback/2026-10-24-restart.json",
+    "source": "agent/feedback/2026-10-24-extra-01.json",
     "previousSources": [
+      "agent/feedback/2026-10-24-restart.json",
       "agent/feedback/2026-10-23-user-rejection.json",
       "content/robi-batches/2026-10-22/restart-01/user-review.json",
       "content/robi-batches/2026-10-21/user-review.json"
     ],
     "effectiveFrom": "immediately_and_future_batches",
-    "appliedInBatch": "2026-10-24",
+    "appliedInBatch": "2026-10-24-extra-01",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -1309,12 +1391,12 @@
   "planningNote": "Creative plan follows retained complete deployments21Oct male3,22Oct female3 and24Oct male4.23Oct was removed by user and does not count. Confirmed counters unchanged until mandatory live verification.24Oct manual batch must not be duplicated at08:00.",
   "lastPublishedBatch": "2026-10-24",
   "latestUserDirective": {
-    "source": "agent/feedback/2026-10-24-restart.json",
-    "quote": "napravi sad celu seriju kao da je 8 ujutru, kreni sad, i zapamti sve",
-    "recordedAt": "2026-10-23T15:39:57.917Z",
-    "effectiveFrom": "immediately",
-    "action": "new_full_six_category_batch_now",
-    "manualStartOutsideScheduleAuthorized": true
+    "quote": "vazi, molim te uradi jednom sve kako treba i da budes radnik godine, hajde kreni sad seriju jos jednu",
+    "source": "ChatGPT",
+    "recordedAt": "2026-10-24T01:32:57Z",
+    "action": "additional_full_six_category_batch",
+    "manualStartOutsideScheduleAuthorized": true,
+    "preserveEarlierDailyBatch": true
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

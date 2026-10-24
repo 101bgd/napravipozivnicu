@@ -1,0 +1,112 @@
+{
+  "sources": [
+    {
+      "id": "pcelicin-medeni-dan",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "ponocna-lepeza",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "sladoledna-zurka",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "zavet-pomorandzinog-cveta",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "molitva-u-lila",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "koalin-zagrljaj",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "crop": null,
+      "upscaled": true,
+      "preview": [
+        500,
+        700
+      ]
+    }
+  ],
+  "pngDpi": 300,
+  "pdfSizeMm": [
+    127,
+    177.8
+  ],
+  "originalsUnchanged": true
+}

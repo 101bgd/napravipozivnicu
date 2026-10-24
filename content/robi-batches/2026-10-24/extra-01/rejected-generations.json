@@ -1,0 +1,18 @@
+[
+  {
+    "id": "rubinska-magnolija",
+    "category": "eighteen",
+    "prompt": "Create ONE finished invitation BACKGROUND ONLY, vertical EXACT 5:7 aspect ratio, ideally 1500x2100 pixels. Full bleed flat artwork, no paper mockup, no surface, no hands, no perspective of the invitation, no external shadow. NO TEXT whatsoever: no letters, numerals, age, logos or watermark. Keep ALL important subjects and decorative focal details at least 7% inward from every trim edge; only plain color and expendable minor foliage may bleed. Beautiful detailed polished commercial illustration, intentional restrained composition with a LARGE coherent clear area for LARGE editable typography to be added later. Not a collage, not multiple variants. An elegant eighteenth birthday for a young woman: luxurious contemporary botanical gouache painting, one magnificent deep ruby-pink magnolia with vivid fuchsia heart and a few sculptural forest-green leaves placed along the LOWER LEFT side (roughly x12-38%,y60-84%). Smaller matching bud at upper right x82%,y15%. Background is rich midnight petrol-teal with subtly luminous smooth color, no grain, no patterned wallpaper. Rich bold yet refined, not bland pastel. Large uninterrupted dark area centered and toward upper middle for elegant light typography. Small delicate gold brush accents safely inset, no glitter confetti, no borders.",
+    "originalLocalPath": "/workspace/generated_images/exec-954caba4-9511-4abf-93d2-8152fd4348cf.png",
+    "status": "rejected",
+    "reason": "Essential magnolia petals are cut by the left edge; replace with an entirely different motif and composition."
+  },
+  {
+    "id": "djurdjevkov-blagoslov",
+    "category": "baptism",
+    "prompt": "Create ONE finished invitation BACKGROUND ONLY, vertical EXACT 5:7 aspect ratio, ideally 1500x2100 pixels. Full bleed flat artwork, no paper mockup, no surface, no hands, no perspective of the invitation, no external shadow. NO TEXT whatsoever: no letters, numerals, age, logos or watermark. Keep ALL important subjects and decorative focal details at least 7% inward from every trim edge; only plain color and expendable minor foliage may bleed. Beautiful detailed polished commercial illustration, intentional restrained composition with a LARGE coherent clear area for LARGE editable typography to be added later. Not a collage, not multiple variants. A reverent elegant baptism invitation for a girl. Deep smooth forest emerald background. A delicate SMALL SIMPLE GOLD CHRISTIAN CROSS centered at x50%,y11%, entirely safely inset. Fresh white lily-of-the-valley bells with vivid green leaves and a small soft dusty-rose velvet ribbon form a graceful botanical arrangement limited to bottom y78%-92%, asymmetrically slightly right. One tiny blossom detail at x14%,y21%. Beautiful refined hand-painted botanical realism, warm gold, white, emerald and rose, clean and intentional. Broad dark quiet central area x15%-85%,y24%-73% for large warm ivory calligraphy and ceremony details. Every flower, cross and ribbon end stays 7% inside all trim edges. No paper mockup, no tabletop, no candles, no heavy border.",
+    "originalLocalPath": "/workspace/generated_images/exec-91aa1bdf-2b1d-43b8-b78e-3ba0869b58b3.png",
+    "status": "rejected",
+    "reason": "Lower-right ribbon and flower stems extend inside the required print-safe inset. Replace with a different devotional motif and placement."
+  }
+]

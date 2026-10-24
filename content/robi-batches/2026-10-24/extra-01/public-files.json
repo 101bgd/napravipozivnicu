@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/pcelicin-medeni-dan-background-cbb9b5d410c9.webp",
+    "id": "c49426f5-0452-564a-b08b-ed74de890802",
+    "bytes": 296786,
+    "sha256": "cbb9b5d410c9bb1bc70de769400d46a36082a6475c971be6baf7dc0ddc03b054"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/pcelicin-medeni-dan-thumbnail-d556d8bff92f.webp",
+    "id": "902daf42-3a04-50c3-baa4-56e2a43b8f5c",
+    "bytes": 71686,
+    "sha256": "d556d8bff92f70426d9e643213a9b9eab01b0e2c09c7ef73ac74a6111096a3f4"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/ponocna-lepeza-background-d22ff3b71bb8.webp",
+    "id": "f29d1d19-d058-5515-af99-fb0781d62e46",
+    "bytes": 166402,
+    "sha256": "d22ff3b71bb846d506e0663e278b39455a8cbb7a331382242de9e7583b22b6b4"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/ponocna-lepeza-thumbnail-5d635c8acbac.webp",
+    "id": "72d56fa9-5ff6-5691-b8b5-529886f09242",
+    "bytes": 35858,
+    "sha256": "5d635c8acbac2800420e63e960ce6ba14b099d6c957e0dccc5bff4b5e99dfdc0"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/sladoledna-zurka-background-fd3c091fd770.webp",
+    "id": "bf3d24f9-97c4-5320-9b17-bb358d45ee7e",
+    "bytes": 291638,
+    "sha256": "fd3c091fd7703ecdc151e64f8889e2b2f4075616956446877487a2e4c04ea9dd"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/sladoledna-zurka-thumbnail-2f049b75476b.webp",
+    "id": "25066813-d8ae-5c1e-a3b9-34d7415cc542",
+    "bytes": 62636,
+    "sha256": "2f049b75476b63b37304809e9ae09341269293c7320716cb833461f1425f6d3d"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/zavet-pomorandzinog-cveta-background-5d317e7910b6.webp",
+    "id": "465e8e40-b33f-5206-a772-23fe7744ffbd",
+    "bytes": 274344,
+    "sha256": "5d317e7910b6b5487d72ff86a85c87a4e3790e9c66418ae90ca75a060f36bbc7"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/zavet-pomorandzinog-cveta-thumbnail-10e4db9caa6b.webp",
+    "id": "e57fd452-e116-5d83-bb69-2a8326ad1c30",
+    "bytes": 64978,
+    "sha256": "10e4db9caa6b73cbf16e7a55843193dded389da13ddaddf6c3b67f187b241c53"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/molitva-u-lila-background-9bce263ab3c9.webp",
+    "id": "950e818e-e136-5a35-8411-16c5c6f8cecd",
+    "bytes": 165722,
+    "sha256": "9bce263ab3c926a7ca957ee2dd606b4fb717887dd935d33b61d7050d8ed83694"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/molitva-u-lila-thumbnail-fad23870a4f7.webp",
+    "id": "65dc78c6-5657-5e37-b6f6-d99bbaf00513",
+    "bytes": 31672,
+    "sha256": "fad23870a4f792ff9d11e670aab67a2738dce33a705bc240277b1117ac3f199a"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/koalin-zagrljaj-background-0f1f92fb8b53.webp",
+    "id": "56c446a8-7f1b-5eb3-96cb-d0f34f173e87",
+    "bytes": 280848,
+    "sha256": "0f1f92fb8b53e9a0ec025b9dde6ae7464da6046af94b1dc97e297c0f5434980b"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-24/extra-01/koalin-zagrljaj-thumbnail-679664777a07.webp",
+    "id": "9bb21f97-5673-50e6-b8aa-e0b786d46039",
+    "bytes": 61352,
+    "sha256": "679664777a0718f0b3ce9059d5b6080886d3d4c78048bb87395233362ff59415"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pcelicin-medeni-dan",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2677029
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2448219
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "ponocna-lepeza",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2088603
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 1648644
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "sladoledna-zurka",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "passed",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2565205
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2284789
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "zavet-pomorandzinog-cveta",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3128937
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2672807
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "molitva-u-lila",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 2391007
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 1740227
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "koalin-zagrljaj",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 3061805
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 2571774
+    },
+    "browserErrors": []
+  }
+]

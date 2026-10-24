@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pcelicin-medeni-dan",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "ponocna-lepeza",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "sladoledna-zurka",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "zavet-pomorandzinog-cveta",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "molitva-u-lila",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "koalin-zagrljaj",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  }
+]

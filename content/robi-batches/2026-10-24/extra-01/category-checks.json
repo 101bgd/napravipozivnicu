@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "id": "pcelicin-medeni-dan",
+      "category": "first",
+      "categoryPath": "/pozivnice-za-prvi-rodjendan/",
+      "source": "dist/pozivnice-za-prvi-rodjendan/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    },
+    {
+      "id": "ponocna-lepeza",
+      "category": "eighteen",
+      "categoryPath": "/pozivnice-za-18-rodjendan/",
+      "source": "dist/pozivnice-za-18-rodjendan/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    },
+    {
+      "id": "sladoledna-zurka",
+      "category": "birthday",
+      "categoryPath": "/pozivnice-za-rodjendan/",
+      "source": "dist/pozivnice-za-rodjendan/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    },
+    {
+      "id": "zavet-pomorandzinog-cveta",
+      "category": "wedding",
+      "categoryPath": "/pozivnice-za-vencanje/",
+      "source": "dist/pozivnice-za-vencanje/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    },
+    {
+      "id": "molitva-u-lila",
+      "category": "baptism",
+      "categoryPath": "/pozivnice-za-krstenje/",
+      "source": "dist/pozivnice-za-krstenje/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    },
+    {
+      "id": "koalin-zagrljaj",
+      "category": "baby",
+      "categoryPath": "/pozivnice-za-rodjenje-deteta/",
+      "source": "dist/pozivnice-za-rodjenje-deteta/index.html",
+      "status": "passed",
+      "scope": "actual_built_static_category_HTML"
+    }
+  ],
+  "earlierAttempt": "A separate local Worker category check did not complete and was terminated. Static category HTML checked directly; public live categories remain unverified."
+}

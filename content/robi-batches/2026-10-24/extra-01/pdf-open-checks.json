@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "pdfFiles": [
+    {
+      "file": "examples/koalin-zagrljaj-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/koalin-zagrljaj.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/molitva-u-lila-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/molitva-u-lila.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/pcelicin-medeni-dan-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/pcelicin-medeni-dan.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/ponocna-lepeza-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/ponocna-lepeza.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/sladoledna-zurka-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/sladoledna-zurka.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zavet-pomorandzinog-cveta-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zavet-pomorandzinog-cveta.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    }
+  ]
+}

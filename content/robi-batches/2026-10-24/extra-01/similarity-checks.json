@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "koalin-zagrljaj",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/kolica-puna-radosti-background-49a04352c77a.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "ponocna-lepeza",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/prvi-mali-koraci-pozadina-563a30ede5ca.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+          "distance63": 26
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "zavet-pomorandzinog-cveta",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/terakota-ritam-pozadina-de8ed7e00446.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "molitva-u-lila",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pozadina-488e613c1176.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/pismo-ljubavi-pozadina-7cce67a3e01a.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+          "distance63": 26
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "pcelicin-medeni-dan",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vilina-prva-carolija-pozadina-e5cd7e6ae764.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/krstenje/put-svetlosti-pozadina-9292cae4ceb5.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "sladoledna-zurka",
+      "historyCount": 69,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/kolevka-puna-ljubavi-pozadina-6f43e33caac4.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "koalin-zagrljaj",
+      "b": "ponocna-lepeza",
+      "distance63": 22
+    },
+    {
+      "a": "koalin-zagrljaj",
+      "b": "zavet-pomorandzinog-cveta",
+      "distance63": 34
+    },
+    {
+      "a": "koalin-zagrljaj",
+      "b": "molitva-u-lila",
+      "distance63": 30
+    },
+    {
+      "a": "koalin-zagrljaj",
+      "b": "pcelicin-medeni-dan",
+      "distance63": 32
+    },
+    {
+      "a": "koalin-zagrljaj",
+      "b": "sladoledna-zurka",
+      "distance63": 36
+    },
+    {
+      "a": "ponocna-lepeza",
+      "b": "zavet-pomorandzinog-cveta",
+      "distance63": 32
+    },
+    {
+      "a": "ponocna-lepeza",
+      "b": "molitva-u-lila",
+      "distance63": 28
+    },
+    {
+      "a": "ponocna-lepeza",
+      "b": "pcelicin-medeni-dan",
+      "distance63": 36
+    },
+    {
+      "a": "ponocna-lepeza",
+      "b": "sladoledna-zurka",
+      "distance63": 44
+    },
+    {
+      "a": "zavet-pomorandzinog-cveta",
+      "b": "molitva-u-lila",
+      "distance63": 32
+    },
+    {
+      "a": "zavet-pomorandzinog-cveta",
+      "b": "pcelicin-medeni-dan",
+      "distance63": 36
+    },
+    {
+      "a": "zavet-pomorandzinog-cveta",
+      "b": "sladoledna-zurka",
+      "distance63": 24
+    },
+    {
+      "a": "molitva-u-lila",
+      "b": "pcelicin-medeni-dan",
+      "distance63": 30
+    },
+    {
+      "a": "molitva-u-lila",
+      "b": "sladoledna-zurka",
+      "distance63": 36
+    },
+    {
+      "a": "pcelicin-medeni-dan",
+      "b": "sladoledna-zurka",
+      "distance63": 34
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

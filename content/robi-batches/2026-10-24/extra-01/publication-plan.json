@@ -1,0 +1,26 @@
+{
+  "batchId": "2026-10-24-extra-01",
+  "status": "ready_to_publish",
+  "preparedAt": "2026-10-24T02:02:07Z",
+  "expectedParent": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+  "allSixRequired": true,
+  "atomic": true,
+  "productionFiles": [
+    "src/robi-assets.js",
+    "src/robi-catalog.js",
+    "src/robi-designs.js",
+    "src/design-renderer.js",
+    "src/template-schema.js",
+    "content/title-seo/motifs.json",
+    "content/robi-batches/2026-10-24/extra-01/asset-ids.json",
+    "content/robi-batches/2026-10-24/extra-01/designs.mjs",
+    "content/robi-batches/2026-10-24/extra-01/layout-tuning.json",
+    "content/robi-batches/2026-10-24/extra-01/metadata.json"
+  ],
+  "sourceGeneration": "chatgpt_image_generation",
+  "newProductionImages": 12,
+  "archiveFiles": 50,
+  "userApprovalRequired": false,
+  "userAestheticApproval": null,
+  "liveVerificationStillRequired": true
+}

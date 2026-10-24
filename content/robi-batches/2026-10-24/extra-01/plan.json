@@ -27,14 +27,16 @@
       "audience": "female"
     },
     {
+      "oldId": "rubinska-magnolija",
       "category": "eighteen",
-      "id": "rubinska-magnolija",
-      "name": "Rubinska magnolija",
+      "id": "ponocna-lepeza",
+      "name": "Ponoćna lepeza",
       "age": 18,
-      "motif": "sa rubinskom magnolijom na tamnoj podlozi",
-      "slug": "pozivnica-18-rodjendan-rubinska-magnolija",
-      "prompt": "Create ONE finished invitation BACKGROUND ONLY, vertical EXACT 5:7 aspect ratio, ideally 1500x2100 pixels. Full bleed flat artwork, no paper mockup, no surface, no hands, no perspective of the invitation, no external shadow. NO TEXT whatsoever: no letters, numerals, age, logos or watermark. Keep ALL important subjects and decorative focal details at least 7% inward from every trim edge; only plain color and expendable minor foliage may bleed. Beautiful detailed polished commercial illustration, intentional restrained composition with a LARGE coherent clear area for LARGE editable typography to be added later. Not a collage, not multiple variants. An elegant eighteenth birthday for a young woman: luxurious contemporary botanical gouache painting, one magnificent deep ruby-pink magnolia with vivid fuchsia heart and a few sculptural forest-green leaves placed along the LOWER LEFT side (roughly x12-38%,y60-84%). Smaller matching bud at upper right x82%,y15%. Background is rich midnight petrol-teal with subtly luminous smooth color, no grain, no patterned wallpaper. Rich bold yet refined, not bland pastel. Large uninterrupted dark area centered and toward upper middle for elegant light typography. Small delicate gold brush accents safely inset, no glitter confetti, no borders.",
-      "audience": "female"
+      "audience": "female",
+      "motif": "sa lepezom i zlatnim detaljima",
+      "slug": "pozivnica-18-rodjendan-ponocna-lepeza",
+      "reason": "Essential magnolia petals are cut by the left edge; replace with an entirely different motif and composition.",
+      "prompt": "ONE complete invitation BACKGROUND ONLY. Vertical EXACT5:7, ideally1500x2100. Rich luxurious ink-indigo and plum background, a beautiful SMALL opened Japanese-inspired decorative folding fan in rich coral-fuchsia fabric with gold ribs placed centered in the BOTTOM FIFTH of the image (x30%-70%,y76%-87%). The fan and all its edges are FULLY VISIBLE with very generous empty margin all around; no other foreground objects. A few tiny delicate gold decorative dots near the fan only. Upper75% is uninterrupted smooth rich indigo/plum for large ivory editorial birthday typography later. Sophisticated hand-painted high-end editorial illustration, beautiful controlled detail, no excessive grain. No text, letters, age, numbers, logos, watermarks. No collage, no variants, no paper/table/mockup/perspective/external shadow. Background color fills full image. Not a photograph of a card. Every meaningful decoration at least10% from the picture edges. Feminine elegant eighteenth birthday, rich and refined."
     },
     {
       "category": "birthday",
@@ -57,14 +59,16 @@
       "audience": "couple"
     },
     {
+      "oldId": "djurdjevkov-blagoslov",
       "category": "baptism",
-      "id": "djurdjevkov-blagoslov",
-      "name": "Đurđevkov blagoslov",
+      "id": "molitva-u-lila",
+      "name": "Molitva u lila",
       "age": null,
-      "motif": "sa đurđevkom i zlatnim krstom",
-      "slug": "pozivnica-za-krstenje-djurdjevak-zlatni-krst",
-      "prompt": "Create ONE finished invitation BACKGROUND ONLY, vertical EXACT 5:7 aspect ratio, ideally 1500x2100 pixels. Full bleed flat artwork, no paper mockup, no surface, no hands, no perspective of the invitation, no external shadow. NO TEXT whatsoever: no letters, numerals, age, logos or watermark. Keep ALL important subjects and decorative focal details at least 7% inward from every trim edge; only plain color and expendable minor foliage may bleed. Beautiful detailed polished commercial illustration, intentional restrained composition with a LARGE coherent clear area for LARGE editable typography to be added later. Not a collage, not multiple variants. A reverent elegant baptism invitation for a girl. Deep smooth forest emerald background. A delicate SMALL SIMPLE GOLD CHRISTIAN CROSS centered at x50%,y11%, entirely safely inset. Fresh white lily-of-the-valley bells with vivid green leaves and a small soft dusty-rose velvet ribbon form a graceful botanical arrangement limited to bottom y78%-92%, asymmetrically slightly right. One tiny blossom detail at x14%,y21%. Beautiful refined hand-painted botanical realism, warm gold, white, emerald and rose, clean and intentional. Broad dark quiet central area x15%-85%,y24%-73% for large warm ivory calligraphy and ceremony details. Every flower, cross and ribbon end stays 7% inside all trim edges. No paper mockup, no tabletop, no candles, no heavy border.",
-      "audience": "female"
+      "audience": "female",
+      "motif": "sa molitvenikom i zlatnim krstom",
+      "slug": "pozivnica-za-krstenje-molitvenik-lila",
+      "reason": "Lower-right ribbon and flower stems extend inside the required print-safe inset. Replace with a different devotional motif and placement.",
+      "prompt": "ONE finished flat invitation BACKGROUND ONLY, vertical EXACT5:7, ideally1500x2100. Elegant baptism for a baby girl. Full-bleed smooth medium-rich lavender/lilac gouache background with beautiful subtle painted tonal variation, not beige, not neon. A SMALL ornate gold Christian cross centered near y12%, fully inset. A CLOSED little ivory prayer book with a plain lavender ribbon bookmark and a small simple gold cross on its cover, delicately illustrated, lies near BOTTOM CENTER x35%-65%,y80%-88%. The COMPLETE BOOK and ribbon must be visible with at least10% empty margin beneath and to sides; only these two devotional objects, no extra flowers, no candles, no writing on the book, no letters anywhere. Broad clean quiet central area x12%-88%,y23%-73% for large deep-plum invitation typography added later. Refined tender hand-painted illustration and tasteful old-gold detail, no harsh black outlines. No text, numbers, logos, watermarks, mockup, table, hand, outer shadow, collage or multiple variants. This is a flat full-image design, not a photo of a physical invitation."
     },
     {
       "category": "baby",

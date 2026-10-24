@@ -68,3 +68,10 @@ Serija23.10. je odbačena i uklonjena na korisnikov zahtev. Njen restart-01 fold
 Ručna serija24.10. zauzima taj datum: u08:00 je ne dupliraj. Ako stanje kaže deployed/publishing/blocked posle deploy-a, proveri postojeći mainCommit i nastavi samo nedovršene provere, bez nove izrade istog datuma. Dalju publiku planiraj iz plannedNextAudience/ages; potvrđene brojače ne pomeraj bez obavezne verifikacije.
 
 PNG izvoz na main sada dodaje300dpi pHYs metapodatke kroz src/png-density.js. Ponovljiva priprema koristi taj helper na svežem main. Izvori se čuvaju neizmenjeni; svako kadriranje i uvećavanje navedi. Korisnikova ranija negativna ocena nije ocena nove serije; sačekaj njegov stvarni odgovor i ne dodeljuj poene.
+
+
+## Dodatna serija po novom izričitom nalogu24.10.2026.
+
+Korisnik je posle završne jutarnje kontrole zatražio još jednu celu seriju odmah. To je posebno odobrena dodatna serija2026-10-24-extra-01 u content/robi-batches/2026-10-24/extra-01/, ženska publika i dečji uzrast4. Ranija dnevna serija24.10. ostaje sačuvana. Ne duplirati ovu novu seriju pri nastavku niti je predstavljati kao jutarnju isporuku u roku. Posle kompletne zajedničke objave kreativni plan prelazi na mušku publiku, dečji uzrast5; potvrđeni brojači ostaju uslovljeni stvarnim javnim proverama.
+
+Za ograničen prostor novog imenskog sloja postoji opciono fitToWidth=true u stvarnom rendereru i template-schema. Kratko ime čuva veliku izabranu veličinu; duže se uklapa u unapred dodeljenu širinu. Proveriti stvarni mobilni prikaz i PNG/PDF, ne samo širinu okvira. Postojećim dizajnima ova osobina nije automatski uključena. Za ponavljanje pripreme koristiti zabeleženi produkcijski commit kao runtime, uz sačuvane izvore, skripte i datoteke ove serije.

@@ -1,0 +1,356 @@
+{
+  "createdAt": "2026-10-24T02:02:07Z",
+  "count": 50,
+  "files": [
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/koalin-zagrljaj.png",
+      "bytes": 2360228,
+      "gitSha": "ab25266648f7c4d918a86fc5852e90683ceb2254",
+      "sha256": "556276885034c487ab74f8470aa6f8e11f3892f9ce93e97bff82c2164ca549a2",
+      "blobSha": "ab25266648f7c4d918a86fc5852e90683ceb2254"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/molitva-u-lila.png",
+      "bytes": 2172284,
+      "gitSha": "082243eb2948184cc150371a7390d8113857a455",
+      "sha256": "6bfaff00772a0efc5bf2c7f6ee08e6b80f578cd626109b6094fd6549a5fa88a4",
+      "blobSha": "082243eb2948184cc150371a7390d8113857a455"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/pcelicin-medeni-dan.png",
+      "bytes": 2242692,
+      "gitSha": "7a12e3a4ca7d847148b7f5add43fac269e26bef5",
+      "sha256": "11397ca10ed5397741355f1a315b66421ac86174ce90a659a9602e23e1bffc3f",
+      "blobSha": "7a12e3a4ca7d847148b7f5add43fac269e26bef5"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/ponocna-lepeza.png",
+      "bytes": 2068969,
+      "gitSha": "680eeee2529b26114ec435a2700517944eb17e7f",
+      "sha256": "c825cdc76cd9327a53601475e8daea1af381f6d5fef6cc1565cad72722265f5e",
+      "blobSha": "680eeee2529b26114ec435a2700517944eb17e7f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/sladoledna-zurka.png",
+      "bytes": 2167653,
+      "gitSha": "085c91f18b2572778b1e5901133944c46e551d76",
+      "sha256": "42935fa3b3e3cc783d07f79d88f6a808dcf4a1ed87d3fa6e65604699e8d9c736",
+      "blobSha": "085c91f18b2572778b1e5901133944c46e551d76"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/sources/zavet-pomorandzinog-cveta.png",
+      "bytes": 2337098,
+      "gitSha": "4aa063e474cf53d22e9a0155a3ed3fc69a771f42",
+      "sha256": "539766435e6399a1eef3a6790bab3fd1ae818af397ec64896dcd5a7003d733c7",
+      "blobSha": "4aa063e474cf53d22e9a0155a3ed3fc69a771f42"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/rejected/djurdjevkov-blagoslov.png",
+      "bytes": 1989172,
+      "gitSha": "a8a26c783c0fe1892540eec1f07f50190e9aab55",
+      "sha256": "fe3222657d2749828412d2ce6c8ea011a2671fadbcc4bbb27d6b972ba12dfe44",
+      "blobSha": "a8a26c783c0fe1892540eec1f07f50190e9aab55"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/rejected/rubinska-magnolija.png",
+      "bytes": 2021533,
+      "gitSha": "5d639f2b63ad460ecce7cffe8b4bd550be0a882c",
+      "sha256": "401835f30c907079f0d69ffdd96e8c53bd1a4487f313211b380b9c5f7a7b3397",
+      "blobSha": "5d639f2b63ad460ecce7cffe8b4bd550be0a882c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/pcelicin-medeni-dan.webp",
+      "bytes": 296786,
+      "gitSha": "9a3c6ebc5fb6b23a60e3f88c78f2a24f31cbbcb7",
+      "sha256": "cbb9b5d410c9bb1bc70de769400d46a36082a6475c971be6baf7dc0ddc03b054",
+      "blobSha": "9a3c6ebc5fb6b23a60e3f88c78f2a24f31cbbcb7"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/koalin-zagrljaj.webp",
+      "bytes": 280848,
+      "gitSha": "cfa7606a00dd6733ca55cdd6d99284ce08b592d8",
+      "sha256": "0f1f92fb8b53e9a0ec025b9dde6ae7464da6046af94b1dc97e297c0f5434980b",
+      "blobSha": "cfa7606a00dd6733ca55cdd6d99284ce08b592d8"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/molitva-u-lila.webp",
+      "bytes": 165722,
+      "gitSha": "68899961c3094f0432360a399b109bce243b6d82",
+      "sha256": "9bce263ab3c926a7ca957ee2dd606b4fb717887dd935d33b61d7050d8ed83694",
+      "blobSha": "68899961c3094f0432360a399b109bce243b6d82"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/ponocna-lepeza.webp",
+      "bytes": 166402,
+      "gitSha": "de085c812b58694ef7bb045c71106e6f69f793ab",
+      "sha256": "d22ff3b71bb846d506e0663e278b39455a8cbb7a331382242de9e7583b22b6b4",
+      "blobSha": "de085c812b58694ef7bb045c71106e6f69f793ab"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/sladoledna-zurka.webp",
+      "bytes": 291638,
+      "gitSha": "f61e56aa6ffe44c151153a5fe32245930772eeb6",
+      "sha256": "fd3c091fd7703ecdc151e64f8889e2b2f4075616956446877487a2e4c04ea9dd",
+      "blobSha": "f61e56aa6ffe44c151153a5fe32245930772eeb6"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/backgrounds/zavet-pomorandzinog-cveta.webp",
+      "bytes": 274344,
+      "gitSha": "38d970bd08d5b83492b33bc064c43854aab77979",
+      "sha256": "5d317e7910b6b5487d72ff86a85c87a4e3790e9c66418ae90ca75a060f36bbc7",
+      "blobSha": "38d970bd08d5b83492b33bc064c43854aab77979"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/molitva-u-lila.webp",
+      "bytes": 31672,
+      "gitSha": "ff58f5b806f0e4bd79bc78a1375edfbb53ea619a",
+      "sha256": "fad23870a4f792ff9d11e670aab67a2738dce33a705bc240277b1117ac3f199a",
+      "blobSha": "ff58f5b806f0e4bd79bc78a1375edfbb53ea619a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/pcelicin-medeni-dan.webp",
+      "bytes": 71686,
+      "gitSha": "79a72ba97aa9f79806f61b270b9aec45a607e112",
+      "sha256": "d556d8bff92f70426d9e643213a9b9eab01b0e2c09c7ef73ac74a6111096a3f4",
+      "blobSha": "79a72ba97aa9f79806f61b270b9aec45a607e112"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/koalin-zagrljaj.webp",
+      "bytes": 61352,
+      "gitSha": "cbaf07420a0d2139e6488a3790bbf723fd36c505",
+      "sha256": "679664777a0718f0b3ce9059d5b6080886d3d4c78048bb87395233362ff59415",
+      "blobSha": "cbaf07420a0d2139e6488a3790bbf723fd36c505"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/ponocna-lepeza.webp",
+      "bytes": 35858,
+      "gitSha": "e5c0854cb8ae6f96c4902a71263e1aa5ebf5f457",
+      "sha256": "5d635c8acbac2800420e63e960ce6ba14b099d6c957e0dccc5bff4b5e99dfdc0",
+      "blobSha": "e5c0854cb8ae6f96c4902a71263e1aa5ebf5f457"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/zavet-pomorandzinog-cveta.webp",
+      "bytes": 64978,
+      "gitSha": "b0b8dc8fa8769a0494ba71d50896069d60e3381e",
+      "sha256": "10e4db9caa6b73cbf16e7a55843193dded389da13ddaddf6c3b67f187b241c53",
+      "blobSha": "b0b8dc8fa8769a0494ba71d50896069d60e3381e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/previews/sladoledna-zurka.webp",
+      "bytes": 62636,
+      "gitSha": "ce5943f11709bc10d4828340c44cbda537e9e0c6",
+      "sha256": "2f049b75476b63b37304809e9ae09341269293c7320716cb833461f1425f6d3d",
+      "blobSha": "ce5943f11709bc10d4828340c44cbda537e9e0c6"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/koalin-zagrljaj-editor.pdf",
+      "bytes": 2571774,
+      "gitSha": "62ce03d23af99d216af872a0cc390162e2f2e74c",
+      "sha256": "5b49445fb964fb94e4960bbd9ca70f76eae0ab1b4824037e06a9e6021a1bf7de",
+      "blobSha": "62ce03d23af99d216af872a0cc390162e2f2e74c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/koalin-zagrljaj-editor.png",
+      "bytes": 3061805,
+      "gitSha": "4e3a4275a204d41059e12872705c813eb8564526",
+      "sha256": "e1046a08f6d873f08ae86c4b0939ba1f85448d994acf37407c2276a2d1e6f0c4",
+      "blobSha": "4e3a4275a204d41059e12872705c813eb8564526"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/koalin-zagrljaj-long-text.png",
+      "bytes": 3607500,
+      "gitSha": "a8fe2719588a702b88a61e7d7135588ba6240d52",
+      "sha256": "5d870aba109627a86b44687d60b94ba5432420f3791850ba1473e241db4994f4",
+      "blobSha": "a8fe2719588a702b88a61e7d7135588ba6240d52"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/koalin-zagrljaj.pdf",
+      "bytes": 654648,
+      "gitSha": "3785da76afb1cc13b223c8801ec62a7f7ba680f5",
+      "sha256": "41d7b60f2987504ef089e553c01f0225eb6de79ba57bac7333075851f6e81424",
+      "blobSha": "3785da76afb1cc13b223c8801ec62a7f7ba680f5"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/molitva-u-lila-editor.pdf",
+      "bytes": 1740227,
+      "gitSha": "6bb1957f9ff3068fd2e9ef2da81606f722e30008",
+      "sha256": "01566499ba1331c43013d9374cb6e8820f5331f4d15a2f8a516f450d146d98cb",
+      "blobSha": "6bb1957f9ff3068fd2e9ef2da81606f722e30008"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/molitva-u-lila-editor.png",
+      "bytes": 2391007,
+      "gitSha": "55f97793b6968e9444b27755ef38db1751feaa21",
+      "sha256": "8d75b10231ff754180eef0b3c74208c740e2a1726eac5151242f6c6a566fbd9b",
+      "blobSha": "55f97793b6968e9444b27755ef38db1751feaa21"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/molitva-u-lila.pdf",
+      "bytes": 491113,
+      "gitSha": "416bc642b0e08c22efe1e7c8e2036ebdfbc0c220",
+      "sha256": "24f0dd315e0f4fd56015d2599d78ca69da5d8bafc3f78a649f5a632cbc6f9dd7",
+      "blobSha": "416bc642b0e08c22efe1e7c8e2036ebdfbc0c220"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/koalin-zagrljaj.png",
+      "bytes": 3579657,
+      "gitSha": "306c292ade0e998d17e521c1a1fc3f78912f6997",
+      "sha256": "eb33089a037f31771eb2e5d6749e099cd833a38f71b812e87ec74d2748659ddf",
+      "blobSha": "306c292ade0e998d17e521c1a1fc3f78912f6997"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/molitva-u-lila-long-text.png",
+      "bytes": 2792374,
+      "gitSha": "de86707423e42ab741d2fb4093f8bc222f94e19c",
+      "sha256": "bc2c09f86a8b6ddc34fcc88e1d6d57e19a12d1de30529186700b2e552226056f",
+      "blobSha": "de86707423e42ab741d2fb4093f8bc222f94e19c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/molitva-u-lila.png",
+      "bytes": 2764960,
+      "gitSha": "71f78aff5904cdaf003ce749f85b5313f5283c84",
+      "sha256": "e1309a5a739296766732172f562b9a3917d1c2cc80ef949911fac2484071535d",
+      "blobSha": "71f78aff5904cdaf003ce749f85b5313f5283c84"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/pcelicin-medeni-dan-editor.pdf",
+      "bytes": 2448219,
+      "gitSha": "8f37b631a7127e293eed880a9440215a116cb149",
+      "sha256": "307667c94a566e07a53fbc6159432d0e146346b681eefb731addedf8de6a0cea",
+      "blobSha": "8f37b631a7127e293eed880a9440215a116cb149"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/pcelicin-medeni-dan-editor.png",
+      "bytes": 2677029,
+      "gitSha": "ac52d27729ac2b7050a75bf28be3a8e89daeefe1",
+      "sha256": "4c52728a6f62ade6c347c1b77e5cf74582da46d985ead2e4f9c3a64e10d4ba7c",
+      "blobSha": "ac52d27729ac2b7050a75bf28be3a8e89daeefe1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/pcelicin-medeni-dan.pdf",
+      "bytes": 647190,
+      "gitSha": "05ab84e5ce9bde0671b9981af379308806337c71",
+      "sha256": "7cf50e25baece591c97d7f2663448a1b3caa25723582a3e46005d0f6e1b37d5a",
+      "blobSha": "05ab84e5ce9bde0671b9981af379308806337c71"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/pcelicin-medeni-dan-long-text.png",
+      "bytes": 3187568,
+      "gitSha": "c4e1b1838b5e7185a07157de632b7ed7e16c1a0b",
+      "sha256": "f39272031d0b4544906475f179ef179d04ca971c61ff78b53ce14c9fbbeb2712",
+      "blobSha": "c4e1b1838b5e7185a07157de632b7ed7e16c1a0b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/ponocna-lepeza-editor.pdf",
+      "bytes": 1648644,
+      "gitSha": "cbd7370b42596e933d9be6a770a9407e728af9ac",
+      "sha256": "ac19294a8a403139b6c1b8521771fc20c8f0031fec05a936620ea10b302bfbab",
+      "blobSha": "cbd7370b42596e933d9be6a770a9407e728af9ac"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/pcelicin-medeni-dan.png",
+      "bytes": 3169281,
+      "gitSha": "f0bf3daac6e435cdc1bebcd8c6ae281a36217603",
+      "sha256": "59f686a4de1942ccd31b7abbf04711f75e7050d3874013122e7687968146215e",
+      "blobSha": "f0bf3daac6e435cdc1bebcd8c6ae281a36217603"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/ponocna-lepeza.pdf",
+      "bytes": 478504,
+      "gitSha": "1b42a17625dabceb171b660dd5aab6aa0141c1ce",
+      "sha256": "e0fedc11227b23904af0605f8baa742f5549857699b4025df67b775611415f46",
+      "blobSha": "1b42a17625dabceb171b660dd5aab6aa0141c1ce"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/ponocna-lepeza-editor.png",
+      "bytes": 2088603,
+      "gitSha": "ae13252e684885bcca77d5c62ca973b2da912fab",
+      "sha256": "a06186430d30ee8a8e2c518ca11d21182509aef2ad62ca60bbdd980db48202e4",
+      "blobSha": "ae13252e684885bcca77d5c62ca973b2da912fab"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/ponocna-lepeza-long-text.png",
+      "bytes": 2425897,
+      "gitSha": "468cc028f9370cfe2c1e757f672fd7b99d4b4fac",
+      "sha256": "ccc855ff17f75897bb885f26300f46f0c7ddf6a058fcf6fbf9ab8cd947bb187b",
+      "blobSha": "468cc028f9370cfe2c1e757f672fd7b99d4b4fac"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/ponocna-lepeza.png",
+      "bytes": 2394355,
+      "gitSha": "56e299456a27d3b7e4a6de6ba9931e15bb8993bf",
+      "sha256": "2d77b98749d9a05978a57e3ec073fa3c969be09a6b920b75df7ccc55509eb055",
+      "blobSha": "56e299456a27d3b7e4a6de6ba9931e15bb8993bf"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/sladoledna-zurka-editor.pdf",
+      "bytes": 2284789,
+      "gitSha": "41fb50702f2b138b2808f42bd01f4705ea48c83a",
+      "sha256": "a7b8f09801acf060c726c1a3344469bb9827a8e552881f51f0965d822f25f51f",
+      "blobSha": "41fb50702f2b138b2808f42bd01f4705ea48c83a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/sladoledna-zurka.pdf",
+      "bytes": 598755,
+      "gitSha": "5aa6426c3b5e68f79012e16ba88e5dd869d1dd8b",
+      "sha256": "89558796c6b6029b5bccd48f4a3eb8dc11013588db189061d0fc787e8db795fa",
+      "blobSha": "5aa6426c3b5e68f79012e16ba88e5dd869d1dd8b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/sladoledna-zurka-editor.png",
+      "bytes": 2565205,
+      "gitSha": "d106247956d22e542aece4c79eaaf367f7f82325",
+      "sha256": "97e8109c309a292edada3a9dbb1f118064a3911f8d5616a350aa48f465ed7180",
+      "blobSha": "d106247956d22e542aece4c79eaaf367f7f82325"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/sladoledna-zurka-long-text.png",
+      "bytes": 3060923,
+      "gitSha": "f64ffc7ff2bd185fe21eae8e08b68b4959586da7",
+      "sha256": "856c087799d1e6f81ea824aabf82db19f2824c299dfc21cc3f76b86a771fa3c9",
+      "blobSha": "f64ffc7ff2bd185fe21eae8e08b68b4959586da7"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/sladoledna-zurka.png",
+      "bytes": 3026950,
+      "gitSha": "809712fb7731bed446f5b7a16b132e52d5b8df4d",
+      "sha256": "e15e0b737ca44d586c5f21233bea84ddb98c5f9e27cc2ba9bd79ed0b78fa5bd1",
+      "blobSha": "809712fb7731bed446f5b7a16b132e52d5b8df4d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/zavet-pomorandzinog-cveta-editor.pdf",
+      "bytes": 2672807,
+      "gitSha": "4e06a85d73f1a7313330050cbc95142ee31708b3",
+      "sha256": "ffc67a45856a8e19c77888c0147db10aed0090b7d4bea0ff77561f7710c43a58",
+      "blobSha": "4e06a85d73f1a7313330050cbc95142ee31708b3"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/zavet-pomorandzinog-cveta-editor.png",
+      "bytes": 3128937,
+      "gitSha": "c0c6760ffb90c422eeeb3484fda0ff4b7036f4b5",
+      "sha256": "05dab06c91d9ba41161867d1ef86a985178c36b4ffaa534d4303dd6af374f67b",
+      "blobSha": "c0c6760ffb90c422eeeb3484fda0ff4b7036f4b5"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/zavet-pomorandzinog-cveta.pdf",
+      "bytes": 668997,
+      "gitSha": "54a3005dc8ffc9b6902720a0996e8e71b9a6174a",
+      "sha256": "e7a9837b667fd0c1a63c9df7428918099e7c043e1de06b1d3f6c09c18e802895",
+      "blobSha": "54a3005dc8ffc9b6902720a0996e8e71b9a6174a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/zavet-pomorandzinog-cveta-long-text.png",
+      "bytes": 3687778,
+      "gitSha": "be87020f3788c92ac0015ad82918ec932f0f31d2",
+      "sha256": "757af1a0c1f51d4eb5fa5a5dd2ad8cafca13d898770d6d8edc1bcaf12e1d4e77",
+      "blobSha": "be87020f3788c92ac0015ad82918ec932f0f31d2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-24/extra-01/examples/zavet-pomorandzinog-cveta.png",
+      "bytes": 3650620,
+      "gitSha": "c42206e4fadb01d4962357b60726dd84fd964930",
+      "sha256": "75fca2b0bff9993a33263e0f029f3afe2964b03e8210c184a3697da94d939f88",
+      "blobSha": "c42206e4fadb01d4962357b60726dd84fd964930"
+    }
+  ]
+}

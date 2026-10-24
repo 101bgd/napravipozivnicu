@@ -1,0 +1,28 @@
+{
+  "fonts": [
+    {
+      "font": "Baloo 2",
+      "path": "public/assets/pozivnice/deciji-rodjendani/baloo2-600-sr-1281ff97216e.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Cormorant Garamond",
+      "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Marck Script",
+      "path": "public/assets/pozivnice/krstenje/rukopis-400-sr-fc70639fc26a.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    }
+  ],
+  "licenses": [
+    "public/assets/pozivnice/deciji-rodjendani/OFL-baloo2.txt",
+    "public/assets/pozivnice/krstenje/OFL-cormorant.txt",
+    "public/assets/pozivnice/krstenje/OFL-marckscript.txt"
+  ],
+  "baseFont": "Existing licensed DM Sans package, latin and latin-ext loaded together."
+}

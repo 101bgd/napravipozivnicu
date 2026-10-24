@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "pngFiles": [
+    {
+      "file": "examples/koalin-zagrljaj-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/koalin-zagrljaj-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/koalin-zagrljaj.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/molitva-u-lila-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/molitva-u-lila-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/molitva-u-lila.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pcelicin-medeni-dan-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pcelicin-medeni-dan-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/pcelicin-medeni-dan.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/ponocna-lepeza-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/ponocna-lepeza-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/ponocna-lepeza.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/sladoledna-zurka-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/sladoledna-zurka-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/sladoledna-zurka.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zavet-pomorandzinog-cveta-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zavet-pomorandzinog-cveta-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zavet-pomorandzinog-cveta.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    }
+  ]
+}
