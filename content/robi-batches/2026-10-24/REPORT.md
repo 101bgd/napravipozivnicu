@@ -31,3 +31,12 @@ Provera je pripremljena 2026-10-24T08:03:56.000+09:00. Potvrđeni su postojeći 
 Svih šest novih pokušaja pristupa javnim stranicama ponovo je zaustavljeno odgovorom CONNECT403 mrežnog proxy-ja pre odgovora sajta. Javne stranice/editori/izvozi/kategorije/sitemap i stvarni javni SEO/AdSense ostaju NEPROVERENO. Sačuvani rezultati lokalnih provera nisu preimenovani u javne provere. Rok10:00 još nije istekao; potpuno izvršenje nije potvrđeno. Zbir ostaje1/50, bez novih poena.
 
 Dokazi: [jutarnji pregled](scheduled-check-0800.json), [šest stvarnih pokušaja pristupa](scheduled-check-0800-live.json). Prethodni izveštaji i dokazi su sačuvani.
+
+
+## Završna dnevna kontrola —24.10.2026.
+
+Kontrola pripremljena 2026-10-24T09:59:36.000+09:00. Konačni status: **BLOKIRANO / NEZAVRŠENO**. Svih šest je pripremljeno i zajedno deploy-ovano u01:36:54JST, pre roka10:00. Aktuelni main i Cloudflare success ponovo su potvrđeni. Sve kategorije zastupljene su tačno jednom; dečji uzrast je4. Sačuvane preobjavne provere imaju6×18 PROŠLO.
+
+Obavezna javna provera nije završena. Poslednjih šest stvarnih pokušaja u08:02:28JST zaustavljeno je na proxy CONNECT403; u završnom pregledu potvrđeno je da trenutna enforced lista i dalje ne dozvoljava domen. Nova mrežna proba nije tvrđena. Javni editor/PNG/PDF/SEO/kategorije/sitemap i stvarna AdSense isporuka ostaju NEPROVERENO. U času kontrole rok10:00 još nije istekao; potpuno ispunjenje roka nije potvrđeno.
+
+Produkcija nije menjana, nova izrada/objava nije pokrenuta, bodovi nisu dodeljeni. Evidencija:1 mesečni+0 bonus=1/50. Korisnik još nije ocenio ovu seriju. Detalji, svih šest statusa i dimenzije: [završna kontrola](final-daily-check.json). Stvarna dostava ChatGPT odgovora ne izvodi se iz vremena upisa datoteke.
