@@ -928,7 +928,7 @@
       "id": "2026-10-24-extra-01",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24/extra-01",
-      "status": "generating",
+      "status": "checking",
       "kind": "user_requested_additional_batch",
       "manualStart": true,
       "startedAt": "2026-10-24T01:32:57Z",
@@ -938,7 +938,7 @@
       "audience": "female",
       "birthdayAge": 4,
       "requiredCount": 6,
-      "generatedCount": 0,
+      "generatedCount": 6,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -950,49 +950,109 @@
           "id": "pcelicin-medeni-dan",
           "name": "Pčelicin medeni dan",
           "category": "first",
-          "age": 1,
           "audience": "female",
-          "status": "generating"
+          "age": 1,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         },
         {
-          "id": "rubinska-magnolija",
-          "name": "Rubinska magnolija",
+          "id": "ponocna-lepeza",
+          "name": "Ponoćna lepeza",
           "category": "eighteen",
-          "age": 18,
           "audience": "female",
-          "status": "generating"
+          "age": 18,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         },
         {
           "id": "sladoledna-zurka",
           "name": "Sladoledna žurka",
           "category": "birthday",
-          "age": 4,
           "audience": "female",
-          "status": "generating"
+          "age": 4,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         },
         {
           "id": "zavet-pomorandzinog-cveta",
           "name": "Zavet pomorandžinog cveta",
           "category": "wedding",
-          "age": null,
           "audience": "couple",
-          "status": "generating"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         },
         {
-          "id": "djurdjevkov-blagoslov",
-          "name": "Đurđevkov blagoslov",
+          "id": "molitva-u-lila",
+          "name": "Molitva u lila",
           "category": "baptism",
-          "age": null,
           "audience": "female",
-          "status": "generating"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         },
         {
           "id": "koalin-zagrljaj",
           "name": "Koalin zagrljaj",
           "category": "baby",
-          "age": null,
           "audience": "female",
-          "status": "generating"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false
         }
       ],
       "userAuthorization": {
@@ -1000,7 +1060,9 @@
         "source": "ChatGPT",
         "recordedAt": "2026-10-24T01:32:57Z"
       },
-      "lastConfirmedStep": "Read current control rules/state/history; planned6 distinct motifs and female4 sequence. New extra series explicitly authorized, existing daily batch preserved."
+      "lastConfirmedStep": "Generated6 separate original backgrounds through ChatGPT;2 failed trim checks discarded and replaced from scratch by different motifs. Actual local template preparation running.",
+      "totalGenerationAttempts": 8,
+      "rejectedDesignCount": 2
     }
   ],
   "history": [
@@ -1178,7 +1240,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-24-extra-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1200,7 +1262,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T01:32:57Z",
+  "updatedAt": "2026-10-24T01:41:21Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
