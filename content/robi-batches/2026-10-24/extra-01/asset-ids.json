@@ -1,0 +1,35 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "pcelicin-medeni-dan": {
+      "background": "c49426f5-0452-564a-b08b-ed74de890802",
+      "thumbnail": "902daf42-3a04-50c3-baa4-56e2a43b8f5c"
+    },
+    "sladoledna-zurka": {
+      "background": "bf3d24f9-97c4-5320-9b17-bb358d45ee7e",
+      "thumbnail": "25066813-d8ae-5c1e-a3b9-34d7415cc542"
+    },
+    "zavet-pomorandzinog-cveta": {
+      "background": "465e8e40-b33f-5206-a772-23fe7744ffbd",
+      "thumbnail": "e57fd452-e116-5d83-bb69-2a8326ad1c30"
+    },
+    "koalin-zagrljaj": {
+      "background": "56c446a8-7f1b-5eb3-96cb-d0f34f173e87",
+      "thumbnail": "9bb21f97-5673-50e6-b8aa-e0b786d46039"
+    },
+    "ponocna-lepeza": {
+      "background": "f29d1d19-d058-5515-af99-fb0781d62e46",
+      "thumbnail": "72d56fa9-5ff6-5691-b8b5-529886f09242"
+    },
+    "molitva-u-lila": {
+      "background": "950e818e-e136-5a35-8411-16c5c6f8cecd",
+      "thumbnail": "65dc78c6-5657-5e37-b6f6-d99bbaf00513"
+    }
+  },
+  "publicationPreparedAt": "2026-10-24T01:42:58.745Z"
+}

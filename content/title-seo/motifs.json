@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:07:28.931Z",
+  "updatedAt": "2026-10-24T01:30:28Z",
   "motifs": {
     "jeziceva-radost": "sa ježićem i kruškom",
     "noc-na-vinilu": "sa vinilnom pločom",
@@ -73,6 +73,12 @@
     "kameleonova-zurka": "sa kameleonom i tropskim listovima",
     "dva-zlatna-kruga": "sa zlatnim burmama na ljubičastoj svili",
     "klas-blagoslova": "sa zlatnim klasjem i krstom",
-    "pingvinova-radost": "sa porodicom pingvina"
+    "pingvinova-radost": "sa porodicom pingvina",
+    "pcelicin-medeni-dan": "sa pčelicama i livadskim cvećem",
+    "ponocna-lepeza": "sa lepezom i zlatnim detaljima",
+    "sladoledna-zurka": "sa sladoledima i šarenim mrvicama",
+    "zavet-pomorandzinog-cveta": "sa cvetom pomorandže i zelenim grančicama",
+    "molitva-u-lila": "sa molitvenikom i zlatnim krstom",
+    "koalin-zagrljaj": "sa koalom i mladunčetom"
   }
 }

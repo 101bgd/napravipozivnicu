@@ -143,5 +143,53 @@ export const robiAssets = new Map([
   [
     "2c42d0b9-d2d7-5a44-b54d-250bd36afc1c",
     "/assets/pozivnice/robi/2026-10-24/pingvinova-radost-thumbnail-82c4de4107c1.webp"
+  ],
+  [
+    "c49426f5-0452-564a-b08b-ed74de890802",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/pcelicin-medeni-dan-background-cbb9b5d410c9.webp"
+  ],
+  [
+    "902daf42-3a04-50c3-baa4-56e2a43b8f5c",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/pcelicin-medeni-dan-thumbnail-d556d8bff92f.webp"
+  ],
+  [
+    "f29d1d19-d058-5515-af99-fb0781d62e46",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/ponocna-lepeza-background-d22ff3b71bb8.webp"
+  ],
+  [
+    "72d56fa9-5ff6-5691-b8b5-529886f09242",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/ponocna-lepeza-thumbnail-5d635c8acbac.webp"
+  ],
+  [
+    "bf3d24f9-97c4-5320-9b17-bb358d45ee7e",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/sladoledna-zurka-background-fd3c091fd770.webp"
+  ],
+  [
+    "25066813-d8ae-5c1e-a3b9-34d7415cc542",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/sladoledna-zurka-thumbnail-2f049b75476b.webp"
+  ],
+  [
+    "465e8e40-b33f-5206-a772-23fe7744ffbd",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/zavet-pomorandzinog-cveta-background-5d317e7910b6.webp"
+  ],
+  [
+    "e57fd452-e116-5d83-bb69-2a8326ad1c30",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/zavet-pomorandzinog-cveta-thumbnail-10e4db9caa6b.webp"
+  ],
+  [
+    "950e818e-e136-5a35-8411-16c5c6f8cecd",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/molitva-u-lila-background-9bce263ab3c9.webp"
+  ],
+  [
+    "65dc78c6-5657-5e37-b6f6-d99bbaf00513",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/molitva-u-lila-thumbnail-fad23870a4f7.webp"
+  ],
+  [
+    "56c446a8-7f1b-5eb3-96cb-d0f34f173e87",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/koalin-zagrljaj-background-0f1f92fb8b53.webp"
+  ],
+  [
+    "9bb21f97-5673-50e6-b8aa-e0b786d46039",
+    "/assets/pozivnice/robi/2026-10-24/extra-01/koalin-zagrljaj-thumbnail-679664777a07.webp"
   ]
 ]);

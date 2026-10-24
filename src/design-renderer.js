@@ -73,6 +73,24 @@ function linesFor(c, value, width, spacing, limit = 24) {
   }
   return lines.slice(0, limit);
 }
+// Optional for templates with a limited clear area: keep each name on its
+// intended line and reduce its font only when the edited value is too wide.
+function textLayout(c, layer, data, limit = 24) {
+  const width = layer.width / 100 * W, value = textValue(layer, data);
+  let size = layer.size;
+  const setFont = () => { c.font = `${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${size}px "${layer.family}"`; };
+  setFont();
+  if (layer.fitToWidth) {
+    const lines = value.split('\n').slice(0, limit), target = width * .94;
+    for (let attempt = 0; attempt < 4; attempt++) {
+      const measured = Math.max(0, ...lines.map(line => textWidth(c, line, layer.letterSpacing)));
+      if (measured <= target || size <= 8) break;
+      size = Math.max(8, size * target / measured); setFont();
+    }
+    return { width, lines, size, lineHeight: size * layer.lineHeight };
+  }
+  return { width, lines: linesFor(c, value, width, layer.letterSpacing, limit), size, lineHeight: size * layer.lineHeight };
+}
 // Diagnose edited fields against their original layout without altering exports.
 export function designTextWarnings(design, data, original, canvas) {
   const c = canvas.getContext('2d'), warnings = [];
@@ -80,10 +98,9 @@ export function designTextWarnings(design, data, original, canvas) {
   for (const layer of design.layers.filter(l => l.type === 'text' && l.editable)) {
     const baseline = original.layers.find(l => l.id === layer.id);
     if (!baseline || (textValue(layer, data) === textValue(baseline, {}) && !data.layerStyles?.[layer.id])) continue;
-    c.font = `${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${layer.size}px "${layer.family}"`;
-    const width = layer.width / 100 * W, lines = linesFor(c, textValue(layer, data), width, layer.letterSpacing, Infinity);
+    const { width, lines, size, lineHeight } = textLayout(c, layer, data, Infinity);
     const measured = Math.max(...lines.map(line => textWidth(c, line, layer.letterSpacing)));
-    const height = Math.max(layer.size * 1.2, lines.length * layer.size * layer.lineHeight);
+    const height = Math.max(size * 1.2, lines.length * lineHeight);
     const angle = layer.rotation * Math.PI / 180;
     const rotatedHeight = Math.abs(Math.cos(angle)) * height + Math.abs(Math.sin(angle)) * measured;
     const rotatedWidth = Math.abs(Math.cos(angle)) * measured + Math.abs(Math.sin(angle)) * height;
@@ -104,9 +121,8 @@ export function layerBounds(layer, data, canvas) {
     return { width: layer.shape === 'circle' ? Math.min(width, height) : width, height: layer.shape === 'circle' ? Math.min(width, height) : height };
   }
   const c = canvas.getContext('2d'); c.save();
-  c.font = `${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${layer.size}px "${layer.family}"`;
-  const lines = linesFor(c, textValue(layer, data), width, layer.letterSpacing); c.restore();
-  return { width, height: Math.max(layer.size * layer.lineHeight * lines.length, layer.size * 1.2) };
+  const { lines, size, lineHeight } = textLayout(c, layer, data); c.restore();
+  return { width, height: Math.max(lineHeight * lines.length, size * 1.2) };
 }
 export function renderDesign(canvas, design, data = designData(design), photo = null, width = 1200, assets = {}, options = {}) {
   const height = Math.round(width * H / W);
@@ -130,9 +146,8 @@ export function renderDesign(canvas, design, data = designData(design), photo = 
       c.restore();
       if (layer.borderWidth) { photoPath(c, layer, frame.width, frame.height); c.strokeStyle = layer.borderColor; c.lineWidth = layer.borderWidth; c.stroke(); }
     } else {
-      c.font = `${layer.italic ? 'italic ' : ''}${layer.bold ? '700 ' : '400 '}${layer.size}px "${layer.family}"`;
+      const { width: maxWidth, lines, size, lineHeight } = textLayout(c, layer, data);
       c.textAlign = 'left'; c.textBaseline = 'middle';
-      const maxWidth = layer.width / 100 * W, lines = linesFor(c, textValue(layer, data), maxWidth, layer.letterSpacing), lineHeight = layer.size * layer.lineHeight;
       const top = -(lines.length - 1) * lineHeight / 2;
       c.fillStyle = layer.color;
       if (['shadow', 'glow', 'lift'].includes(layer.effect)) {
@@ -142,14 +157,14 @@ export function renderDesign(canvas, design, data = designData(design), photo = 
         c.shadowOffsetY = layer.effect === 'glow' ? 0 : layer.effectSize * width / W;
       }
       if (layer.effect === 'gradient') {
-        const gradient = c.createLinearGradient(0, top - layer.size / 2, 0, top + lines.length * lineHeight);
+        const gradient = c.createLinearGradient(0, top - size / 2, 0, top + lines.length * lineHeight);
         gradient.addColorStop(0, layer.color); gradient.addColorStop(1, layer.effectColor); c.fillStyle = gradient;
       }
       lines.forEach((line, index) => {
         const measured = textWidth(c, line, layer.letterSpacing), x = layer.align === 'left' ? -maxWidth / 2 : layer.align === 'right' ? maxWidth / 2 - measured : -measured / 2, y = top + index * lineHeight;
         if (layer.effect === 'outline') { c.strokeStyle = layer.effectColor; c.lineWidth = layer.effectSize; c.lineJoin = 'round'; paintLine(c, line, x, y, layer.letterSpacing, true); }
         paintLine(c, line, x, y, layer.letterSpacing);
-        if (layer.underline) { c.strokeStyle = layer.color; c.lineWidth = Math.max(1, layer.size / 18); c.beginPath(); c.moveTo(x, y + layer.size * .45); c.lineTo(x + measured, y + layer.size * .45); c.stroke(); }
+        if (layer.underline) { c.strokeStyle = layer.color; c.lineWidth = Math.max(1, size / 18); c.beginPath(); c.moveTo(x, y + size * .45); c.lineTo(x + measured, y + size * .45); c.stroke(); }
       });
     }
     c.restore();
