@@ -1,0 +1,85 @@
+{
+  "batchId": "2026-10-24-extra-01",
+  "checkedAt": "2026-10-24T02:10:01.835171+00:00",
+  "proxyBypassed": false,
+  "requests": [
+    {
+      "id": "pcelicin-medeni-dan",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-pcelice-livadsko-cvece/",
+      "attemptedAt": "2026-10-24T02:10:01.811794+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.831236+00:00"
+    },
+    {
+      "id": "ponocna-lepeza",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-ponocna-lepeza/",
+      "attemptedAt": "2026-10-24T02:10:01.812305+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.829316+00:00"
+    },
+    {
+      "id": "sladoledna-zurka",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sladoledi/",
+      "attemptedAt": "2026-10-24T02:10:01.812660+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.832546+00:00"
+    },
+    {
+      "id": "zavet-pomorandzinog-cveta",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-cvet-pomorandze/",
+      "attemptedAt": "2026-10-24T02:10:01.812930+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.834915+00:00"
+    },
+    {
+      "id": "molitva-u-lila",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-molitvenik-lila/",
+      "attemptedAt": "2026-10-24T02:10:01.813157+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.833661+00:00"
+    },
+    {
+      "id": "koalin-zagrljaj",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-koala/",
+      "attemptedAt": "2026-10-24T02:10:01.813397+00:00",
+      "method": "GET",
+      "proxyMode": "inherited",
+      "tlsVerification": true,
+      "status": "unverified",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "errorType": "URLError",
+      "destinationResponseReceived": false,
+      "completedAt": "2026-10-24T02:10:01.827923+00:00"
+    }
+  ]
+}

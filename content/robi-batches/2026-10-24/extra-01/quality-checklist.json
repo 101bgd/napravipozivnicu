@@ -2421,18 +2421,20 @@
   "publication": [
     {
       "id": "atomic_publication",
-      "status": "NEPROVERENO",
+      "status": "PROŠLO",
       "phase": "publication",
-      "evidence": "publication will be one complete main commit after this gate"
+      "evidence": "One main commit084b02c9e9cba0611f3dd5fc6226d7603a7f71ea, expected parent28702e37d2ad872911d0bbfc61fa5eb5fb59e79e, all6 together; Cloudflare success2026-10-24T11:09:16.000+09:00."
     },
     {
       "id": "published_site_verification",
       "status": "NEPROVERENO",
       "phase": "postPublication",
-      "evidence": "not yet published; current environment destination policy excludes site"
+      "evidence": "content/robi-batches/2026-10-24/extra-01/public-live-checks.json",
+      "note": "Svih šest HTTPS zahteva posle Cloudflare deploy-a zaustavljeno je na proxy CONNECT403 pre odgovora odredišnog sajta. Važeća mrežna politika ne dozvoljava domen. Javni editori, izvozi, kategorije/sitemap i javni SEO/AdSense ostaju NEPROVERENO. Ovo nije dokaz da sam sajt vraća403."
     }
   ],
   "userReview": "awaiting actual post-publication review, no aesthetic approval inferred",
   "pointsAwarded": 0,
-  "finalStatus": "Ready for atomic publication; post-publication checks pending"
+  "finalStatus": "NEPROVERENO — deployed; required real public verification blocked",
+  "updatedAt": "2026-10-24T02:11:31Z"
 }

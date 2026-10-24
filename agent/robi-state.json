@@ -928,7 +928,7 @@
       "id": "2026-10-24-extra-01",
       "date": "2026-10-24",
       "path": "content/robi-batches/2026-10-24/extra-01",
-      "status": "publishing",
+      "status": "blocked",
       "kind": "user_requested_additional_batch",
       "manualStart": true,
       "startedAt": "2026-10-24T01:32:57Z",
@@ -940,7 +940,7 @@
       "requiredCount": 6,
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -952,7 +952,7 @@
           "category": "first",
           "audience": "female",
           "age": 1,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -981,7 +981,7 @@
           "category": "eighteen",
           "audience": "female",
           "age": 18,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1010,7 +1010,7 @@
           "category": "birthday",
           "audience": "female",
           "age": 4,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1039,7 +1039,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1068,7 +1068,7 @@
           "category": "baptism",
           "audience": "female",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1097,7 +1097,7 @@
           "category": "baby",
           "audience": "female",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1126,7 +1126,7 @@
         "source": "ChatGPT",
         "recordedAt": "2026-10-24T01:32:57Z"
       },
-      "lastConfirmedStep": "Main fast-forwarded once to complete6-design commit. All10 production text files and12 binary assets read back with matching hashes. Cloudflare deployment is still in progress; no completed deployment or public verification claimed.",
+      "lastConfirmedStep": "All6 deployed together, Cloudflare success at2026-10-24T11:09:16.000+09:00. All50 archived binary hashes,10 production text files and12 production asset hashes read back matched. All6 real post-deploy public attempts blocked by environment CONNECT403.",
       "totalGenerationAttempts": 8,
       "rejectedDesignCount": 2,
       "artifactPersistence": {
@@ -1152,15 +1152,19 @@
         "pointsAwardedThisBatch": 0
       },
       "publication": {
-        "status": "deploying",
+        "status": "deployed",
         "atomic": true,
         "commit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
         "expectedParent": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
         "allSixIncluded": true,
         "preparedAt": "2026-10-24T02:07:14Z",
         "mainUpdatedAt": "2026-10-24T02:07:45Z",
-        "cloudflareCheckId": 120749164091,
-        "cloudflareConclusion": null
+        "cloudflareCheckId": 120749502751,
+        "cloudflareConclusion": "success",
+        "completedAt": "2026-10-24T02:09:16Z",
+        "completedAtTokyo": "2026-10-24T11:09:16.000+09:00",
+        "completedBeforeDeadline": null,
+        "evidence": "content/robi-batches/2026-10-24/extra-01/deployment-check.json"
       },
       "mainCommit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
       "mainUpdatedAt": "2026-10-24T02:07:45Z",
@@ -1170,6 +1174,47 @@
         "binaryAssets": 12,
         "allMatched": true,
         "evidence": "content/robi-batches/2026-10-24/extra-01/production-readback.json"
+      },
+      "blockedStage": "post_publication_verification",
+      "liveVerification": {
+        "status": "blocked_by_environment_network_policy",
+        "checkedAt": "2026-10-24T02:10:01.835171+00:00",
+        "allSixPublicChecks": "unverified",
+        "reason": "Svih šest HTTPS zahteva posle Cloudflare deploy-a zaustavljeno je na proxy CONNECT403 pre odgovora odredišnog sajta. Važeća mrežna politika ne dozvoljava domen. Javni editori, izvozi, kategorije/sitemap i javni SEO/AdSense ostaju NEPROVERENO. Ovo nije dokaz da sam sajt vraća403.",
+        "evidence": "content/robi-batches/2026-10-24/extra-01/public-live-checks.json",
+        "allAttemptsAfterCloudflareCompletion": true
+      },
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "status": "blocked",
+          "reason": "Svih šest HTTPS zahteva posle Cloudflare deploy-a zaustavljeno je na proxy CONNECT403 pre odgovora odredišnog sajta. Važeća mrežna politika ne dozvoljava domen. Javni editori, izvozi, kategorije/sitemap i javni SEO/AdSense ostaju NEPROVERENO. Ovo nije dokaz da sam sajt vraća403.",
+          "evidence": "content/robi-batches/2026-10-24/extra-01/public-live-checks.json"
+        }
+      ],
+      "resumeActions": [
+        "Do not regenerate or republish this additional series; it is already deployed.",
+        "Do not remove the earlier24October batch or restore23October retired IDs.",
+        "Only complete permitted real public page/editor/PNG/PDF/category/sitemap/SEO verification when destination access is available.",
+        "Do not mark published_verified or advance confirmed counters without mandatory verification.",
+        "Await actual user aesthetic review; award no points."
+      ],
+      "audit": {
+        "checkedAt": "2026-10-24T02:11:31Z",
+        "status": "deployed_public_verification_blocked",
+        "requiredCount": 6,
+        "preparedCount": 6,
+        "deployedCount": 6,
+        "verifiedPublicCount": 0,
+        "completionVerified": false,
+        "evidence": "content/robi-batches/2026-10-24/extra-01/publication-report.json",
+        "pointsAwarded": 0
+      },
+      "notification": {
+        "channel": "ChatGPT",
+        "reportPreparedAt": "2026-10-24T02:11:31Z",
+        "actualDeliveryTimestampNotInferred": true,
+        "regularMorningDeadlineDoesNotApplyToNewAdditionalRequest": true
       }
     }
   ],
@@ -1325,6 +1370,37 @@
       "birthdayAge": 4,
       "lastAudit": "content/robi-batches/2026-10-24/final-daily-check.json",
       "lastCheckedAt": "2026-10-24T00:59:36Z"
+    },
+    {
+      "id": "2026-10-24-extra-01",
+      "status": "deployed_verification_blocked",
+      "published": true,
+      "countsAsDailyDelivery": false,
+      "kind": "user_requested_additional_batch",
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "designIds": [
+        "pcelicin-medeni-dan",
+        "ponocna-lepeza",
+        "sladoledna-zurka",
+        "zavet-pomorandzinog-cveta",
+        "molitva-u-lila",
+        "koalin-zagrljaj"
+      ],
+      "motifs": [
+        "sa pčelicama i livadskim cvećem",
+        "sa lepezom i zlatnim detaljima",
+        "sa sladoledima i šarenim mrvicama",
+        "sa cvetom pomorandže i zelenim grančicama",
+        "sa molitvenikom i zlatnim krstom",
+        "sa koalom i mladunčetom"
+      ],
+      "source": "content/robi-batches/2026-10-24/extra-01/plan.json",
+      "mainCommit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+      "deployedAt": "2026-10-24T02:09:16Z",
+      "manualStart": true,
+      "audience": "female",
+      "birthdayAge": 4
     }
   ],
   "automations": {
@@ -1348,7 +1424,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-24-extra-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1370,7 +1446,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T02:09:11Z",
+  "updatedAt": "2026-10-24T02:11:31Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
@@ -1404,20 +1480,23 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "female",
+  "plannedNextAudience": "male",
   "plannedNextBirthdayAgeByAudience": {
     "male": 5,
-    "female": 4
+    "female": 5
   },
-  "planningNote": "Creative plan follows retained complete deployments21Oct male3,22Oct female3 and24Oct male4.23Oct was removed by user and does not count. Confirmed counters unchanged until mandatory live verification.24Oct manual batch must not be duplicated at08:00.",
-  "lastPublishedBatch": "2026-10-24",
+  "planningNote": "Creative plan follows retained deployments21Oct male3,22Oct female3,24Oct male4 and explicit additional24Oct female4.23Oct removed and not counted. Next planned batch male5. Confirmed counters remain unchanged pending mandatory real public verification. Do not duplicate either24Oct series.",
+  "lastPublishedBatch": "2026-10-24-extra-01",
   "latestUserDirective": {
     "quote": "vazi, molim te uradi jednom sve kako treba i da budes radnik godine, hajde kreni sad seriju jos jednu",
     "source": "ChatGPT",
     "recordedAt": "2026-10-24T01:32:57Z",
     "action": "additional_full_six_category_batch",
     "manualStartOutsideScheduleAuthorized": true,
-    "preserveEarlierDailyBatch": true
+    "preserveEarlierDailyBatch": true,
+    "status": "executed_deployment_confirmed_public_verification_blocked",
+    "batchId": "2026-10-24-extra-01",
+    "productionCommit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

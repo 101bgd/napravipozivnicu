@@ -1,8 +1,8 @@
 # Robi — dodatna serija24.10.2026.
 
-Status: spremno za zajedničku objavu, javni rezultat još nije proveren. Korisnik je izričito zatražio još jednu celu seriju. Ovo je dodatni ručni posao posle10:30JST; ne predstavlja zamenu jutarnje serije ili retroaktivno izvršenje roka10:00.
+Status: svih6 zajedno deploy-ovano, javna provera BLOKIRANA. Korisnik je izričito zatražio još jednu celu seriju. Ovo je dodatni ručni posao posle10:30JST; ne predstavlja zamenu jutarnje serije ili retroaktivno izvršenje roka10:00.
 
-| Kategorija | Naziv / planirani javni URL | Pregled |
+| Kategorija | Naziv / javni URL | Pregled |
 |---|---|---|
 | Prvi rođendan | [Pčelicin medeni dan](https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-pcelice-livadsko-cvece/) | [WebP](previews/pcelicin-medeni-dan.webp) |
 | 18. rođendan | [Ponoćna lepeza](https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-ponocna-lepeza/) | [WebP](previews/ponocna-lepeza.webp) |
@@ -20,3 +20,14 @@ Dorade:2 pozadine odbačene zbog nebezbednih važnih detalja pri sečenju i zame
 Svih50 binarnih artefakata ima provereni Git hash:6 originala,2 odbijena izvora,6 WebP pozadina,6 pregleda,18PNG i12PDF primera. Pregledi i primeri su stvarno renderovani; korisnikova estetska ocena nije pretpostavljena. Bodovi ostaju1/50, bez nove dodele.
 
 Posle grupne objave proveriti Cloudflare i stvarne javne stranice/editor/izvoze. Trenutna politika okruženja i dalje ne dozvoljava domen; taj poznati problem ne zaustavlja ovu odobrenu izradu niti se zaobilazi.
+
+
+## Potvrđena objava i završna kontrola
+
+Cloudflare je potvrdio zajednički deploy svih6 u **2026-10-24T11:09:16.000+09:00**, commit `084b02c9e9cba0611f3dd5fc6226d7603a7f71ea`. Aktuelne produkcijske datoteke su pročitane: svih10 tekstualnih fajlova i12 optimizovanih slika poklapa se sa proverenim lokalnim verzijama. Svih50 arhiviranih binarnih Git hash-eva takođe je pročitano nazad i poklapa se. Sačuvana su sva18 ranija Robi metapodatka;6 povučenih ID-jeva nije vraćeno.
+
+Za svaku od6 pozivnica status je **deploy potvrđen; javna provera NEPROVERENO**. Svi pokušaji pristupa javnim linkovima u2026-10-24T11:10:01.835+09:00 izvršeni su posle deploy-a i završili su proxy CONNECT403 pre odgovora sajta. Svih šest HTTPS zahteva posle Cloudflare deploy-a zaustavljeno je na proxy CONNECT403 pre odgovora odredišnog sajta. Važeća mrežna politika ne dozvoljava domen. Javni editori, izvozi, kategorije/sitemap i javni SEO/AdSense ostaju NEPROVERENO. Ovo nije dokaz da sam sajt vraća403.
+
+Konačni operativni status: **BLOKIRANO u proveri posle objave**,6 deploy-ovano /0 potpuno javno provereno. Ovo je dodatni ručni posao, bez retroaktivne tvrdnje o roku10:00. Ranija dnevna serija ostaje sačuvana. Estetska ocena nove serije čeka korisnika. Novi bod nije dodeljen; zbir1/50. Sledeći kreativni plan je muška publika i dečji uzrast5; potvrđeni brojači čekaju obaveznu proveru.
+
+Dokazi: [deploy](deployment-check.json), [šest javnih pokušaja](public-live-checks.json), [završni izveštaj](publication-report.json), [kontrolna lista](quality-checklist.json). Ne ponavljati generisanje/objavu ove serije pri nastavku.

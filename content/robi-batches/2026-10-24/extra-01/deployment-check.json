@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-24T02:11:31Z",
+  "commit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+  "checkId": 120749502751,
+  "name": "Cloudflare Pages",
+  "status": "completed",
+  "conclusion": "success",
+  "headSha": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+  "completedAt": "2026-10-24T02:09:16Z",
+  "completedAtTokyo": "2026-10-24T11:09:16.000+09:00",
+  "htmlUrl": "https://github.com/101bgd/napravipozivnicu/runs/120749502751",
+  "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/67ccd4bb-25e6-4c0f-ab1b-b76412f8be8d",
+  "output": {
+    "title": "Deployed successfully",
+    "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>084b02c</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://67ccd4bb.napravipozivnicu.pages.dev'>https://67ccd4bb.napravipozivnicu.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/67ccd4bb-25e6-4c0f-ab1b-b76412f8be8d)\n",
+    "text": null,
+    "annotations_count": 0,
+    "annotations_url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/120749502751/annotations"
+  }
+}

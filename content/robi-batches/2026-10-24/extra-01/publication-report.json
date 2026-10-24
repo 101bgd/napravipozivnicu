@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-24-extra-01",
+  "dateTokyo": "2026-10-24",
+  "kind": "user_requested_additional_batch",
+  "status": "blocked",
+  "startedAt": "2026-10-24T01:32:57Z",
+  "startedAtTokyo": "2026-10-24T10:32:57.000+09:00",
+  "preparedAt": "2026-10-24T02:02:07Z",
+  "mainUpdatedAt": "2026-10-24T02:07:45Z",
+  "deployment": {
+    "status": "deployed",
+    "atomic": true,
+    "commit": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+    "expectedParent": "28702e37d2ad872911d0bbfc61fa5eb5fb59e79e",
+    "allSixIncluded": true,
+    "preparedAt": "2026-10-24T02:07:14Z",
+    "mainUpdatedAt": "2026-10-24T02:07:45Z",
+    "cloudflareCheckId": 120749502751,
+    "cloudflareConclusion": "success",
+    "completedAt": "2026-10-24T02:09:16Z",
+    "completedAtTokyo": "2026-10-24T11:09:16.000+09:00",
+    "completedBeforeDeadline": null,
+    "evidence": "content/robi-batches/2026-10-24/extra-01/deployment-check.json"
+  },
+  "requiredCount": 6,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "completionVerified": false,
+  "categories": [
+    {
+      "id": "pcelicin-medeni-dan",
+      "name": "Pčelicin medeni dan",
+      "category": "first",
+      "audience": "female",
+      "age": 1,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/pcelicin-medeni-dan.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-pcelice-livadsko-cvece/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "ponocna-lepeza",
+      "name": "Ponoćna lepeza",
+      "category": "eighteen",
+      "audience": "female",
+      "age": 18,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/ponocna-lepeza.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-ponocna-lepeza/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "sladoledna-zurka",
+      "name": "Sladoledna žurka",
+      "category": "birthday",
+      "audience": "female",
+      "age": 4,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/sladoledna-zurka.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sladoledi/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "zavet-pomorandzinog-cveta",
+      "name": "Zavet pomorandžinog cveta",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/zavet-pomorandzinog-cveta.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-cvet-pomorandze/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "molitva-u-lila",
+      "name": "Molitva u lila",
+      "category": "baptism",
+      "audience": "female",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/molitva-u-lila.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-molitvenik-lila/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    },
+    {
+      "id": "koalin-zagrljaj",
+      "name": "Koalin zagrljaj",
+      "category": "baby",
+      "audience": "female",
+      "age": null,
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-24/extra-01/previews/koalin-zagrljaj.webp",
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-koala/",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ]
+    }
+  ],
+  "prePublicationChecks": "passed",
+  "checks": {
+    "mobileEditors": 6,
+    "pngsOpenedWith300dpi": 18,
+    "pdfsOpenedAndRasterized": 12,
+    "customFontsWithSerbianGlyphs": 3,
+    "historicalImagesCompared": 69,
+    "seoPages": 79,
+    "adsenseMockPages": 95,
+    "initialJsGzipBytes": 7132,
+    "archivedBinariesReadBackMatched": 50,
+    "productionTextsReadBackMatched": 10,
+    "productionAssetsReadBackMatched": 12
+  },
+  "dorade": [
+    "2 unsafe backgrounds rejected and replaced with different motifs from scratch.",
+    "Location text moved away from flowers/fan.",
+    "Opt-in name fitting added for new templates; long multiword names exported and visually reviewed.",
+    "Existing production flows re-tested after renderer change."
+  ],
+  "sourceDimensionsAll": [
+    1060,
+    1484
+  ],
+  "exportDimensionsAll": [
+    1500,
+    2100
+  ],
+  "upscaled": true,
+  "cropped": false,
+  "pngDpi": 300,
+  "pdfSizeMm": [
+    127,
+    177.8
+  ],
+  "liveVerification": {
+    "status": "blocked_by_environment_network_policy",
+    "checkedAt": "2026-10-24T02:10:01.835171+00:00",
+    "allSixPublicChecks": "unverified",
+    "reason": "Svih šest HTTPS zahteva posle Cloudflare deploy-a zaustavljeno je na proxy CONNECT403 pre odgovora odredišnog sajta. Važeća mrežna politika ne dozvoljava domen. Javni editori, izvozi, kategorije/sitemap i javni SEO/AdSense ostaju NEPROVERENO. Ovo nije dokaz da sam sajt vraća403.",
+    "evidence": "content/robi-batches/2026-10-24/extra-01/public-live-checks.json",
+    "allAttemptsAfterCloudflareCompletion": true
+  },
+  "deadline": {
+    "regularMorningDeadlineApplies": false,
+    "manualAdditionalRequestAfterMorningDeadline": true,
+    "noRetroactiveOnTimeClaim": true
+  },
+  "score": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "totalPoints": 1,
+    "targetPoints": 50,
+    "ledger": "agent/review-ledger.json",
+    "updatedAt": "2026-10-21T03:43:31Z"
+  },
+  "pointsAwarded": 0,
+  "userAestheticReview": {
+    "status": "awaiting_post_publication_user_review",
+    "aestheticApprovalAssumed": false,
+    "pointsAwardedThisBatch": 0
+  },
+  "reportPreparedAt": "2026-10-24T02:11:31Z",
+  "actualNotificationDeliveryTimestampNotInferred": true
+}
