@@ -888,14 +888,15 @@
         "deployedCount": 6,
         "verifiedPublicCount": 0,
         "completionVerified": false,
-        "deadlineMet": null,
-        "deadlineNotYetReached": true,
+        "deadlineMet": false,
+        "deadlineNotYetReached": false,
         "deploymentBeforeDeadline": true,
         "pointsAwarded": 0,
         "evidence": "content/robi-batches/2026-10-24/final-daily-check.json",
-        "previousEvidence": "content/robi-batches/2026-10-24/scheduled-check-0800.json"
+        "previousEvidence": "content/robi-batches/2026-10-24/scheduled-check-0800.json",
+        "deadlineAssessmentAt": "2026-10-24T01:00:22Z"
       },
-      "deliveryDeadlineMet": null,
+      "deliveryDeadlineMet": false,
       "notification": {
         "channel": "ChatGPT",
         "reportPreparedAt": "2026-10-23T16:41:44.281Z",
@@ -904,7 +905,9 @@
         "scheduledReportPreparedAt": "2026-10-23T23:03:56Z",
         "scheduledReport": "content/robi-batches/2026-10-24/scheduled-check-0800.json",
         "finalReportPreparedAt": "2026-10-24T00:59:36Z",
-        "finalReport": "content/robi-batches/2026-10-24/final-daily-check.json"
+        "finalReport": "content/robi-batches/2026-10-24/final-daily-check.json",
+        "finalResponsePreparedAt": "2026-10-24T01:00:22Z",
+        "finalResponsePreparedAfterDeadline": true
       },
       "scheduledResume": {
         "at": "2026-10-23T23:03:56Z",
@@ -917,7 +920,8 @@
       "finalDailyControl": {
         "at": "2026-10-24T00:59:36Z",
         "status": "blocked",
-        "evidence": "content/robi-batches/2026-10-24/final-daily-check.json"
+        "evidence": "content/robi-batches/2026-10-24/final-daily-check.json",
+        "deadlineAssessmentAt": "2026-10-24T01:00:22Z"
       }
     }
   ],
@@ -1118,7 +1122,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T00:59:36Z",
+  "updatedAt": "2026-10-24T01:00:22Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

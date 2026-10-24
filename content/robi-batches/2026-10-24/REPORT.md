@@ -40,3 +40,5 @@ Kontrola pripremljena 2026-10-24T09:59:36.000+09:00. Konačni status: **BLOKIRAN
 Obavezna javna provera nije završena. Poslednjih šest stvarnih pokušaja u08:02:28JST zaustavljeno je na proxy CONNECT403; u završnom pregledu potvrđeno je da trenutna enforced lista i dalje ne dozvoljava domen. Nova mrežna proba nije tvrđena. Javni editor/PNG/PDF/SEO/kategorije/sitemap i stvarna AdSense isporuka ostaju NEPROVERENO. U času kontrole rok10:00 još nije istekao; potpuno ispunjenje roka nije potvrđeno.
 
 Produkcija nije menjana, nova izrada/objava nije pokrenuta, bodovi nisu dodeljeni. Evidencija:1 mesečni+0 bonus=1/50. Korisnik još nije ocenio ovu seriju. Detalji, svih šest statusa i dimenzije: [završna kontrola](final-daily-check.json). Stvarna dostava ChatGPT odgovora ne izvodi se iz vremena upisa datoteke.
+
+Dopuna po isteku roka (2026-10-24T01:00:22Z):10:00JST je prošlo bez kompletne obavezne javne provere. Kompletna dnevna isporuka nije potvrđena u roku. Završni ChatGPT odgovor priprema se posle roka; jutarnji već poslati izveštaj vodi se odvojeno.

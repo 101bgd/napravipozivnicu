@@ -260,10 +260,13 @@
     "at": "2026-10-24T10:00:00+09:00",
     "deploymentBeforeDeadline": true,
     "verificationCompleteByThisAudit": false,
-    "fullDeliveryDeadlineMet": null,
-    "deadlineNotYetReached": true,
+    "fullDeliveryDeadlineMet": false,
+    "deadlineNotYetReached": false,
     "reportPreparedBeforeDeadline": true,
-    "actualChatGPTDeliveryTimestampNotInferred": true
+    "actualChatGPTDeliveryTimestampNotInferred": true,
+    "finalResponsePreparedAfterDeadline": true,
+    "deadlineAssessmentAt": "2026-10-24T01:00:22Z",
+    "note": "Deadline passed without complete mandatory public verification. This final response is prepared after10:00JST; prior morning ChatGPT report is separate."
   },
   "latestConfirmedStep": "Cloudflare success and unchanged main SHA read back during final control; current enforced network policy still excludes site. All six actual public probes last attempted08:02JST and remain unverified.",
   "evidence": [
