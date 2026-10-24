@@ -1060,9 +1060,15 @@
         "source": "ChatGPT",
         "recordedAt": "2026-10-24T01:32:57Z"
       },
-      "lastConfirmedStep": "Generated6 separate original backgrounds through ChatGPT;2 failed trim checks discarded and replaced from scratch by different motifs. Actual local template preparation running.",
+      "lastConfirmedStep": "All6 new original source PNGs and2 rejected attempts archived as verified Git blobs; actual local editor/export checks continue.",
       "totalGenerationAttempts": 8,
-      "rejectedDesignCount": 2
+      "rejectedDesignCount": 2,
+      "artifactPersistence": {
+        "status": "originals_saved",
+        "sourcePngs": 6,
+        "rejectedOriginals": 2,
+        "manifest": "content/robi-batches/2026-10-24/extra-01/original-artifact-manifest.json"
+      }
     }
   ],
   "history": [
@@ -1262,7 +1268,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T01:41:21Z",
+  "updatedAt": "2026-10-24T01:52:18Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

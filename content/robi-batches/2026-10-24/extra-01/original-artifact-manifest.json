@@ -1,0 +1,58 @@
+[
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/koalin-zagrljaj.png",
+    "bytes": 2360228,
+    "gitSha": "ab25266648f7c4d918a86fc5852e90683ceb2254",
+    "sha256": "556276885034c487ab74f8470aa6f8e11f3892f9ce93e97bff82c2164ca549a2",
+    "blobSha": "ab25266648f7c4d918a86fc5852e90683ceb2254"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/molitva-u-lila.png",
+    "bytes": 2172284,
+    "gitSha": "082243eb2948184cc150371a7390d8113857a455",
+    "sha256": "6bfaff00772a0efc5bf2c7f6ee08e6b80f578cd626109b6094fd6549a5fa88a4",
+    "blobSha": "082243eb2948184cc150371a7390d8113857a455"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/pcelicin-medeni-dan.png",
+    "bytes": 2242692,
+    "gitSha": "7a12e3a4ca7d847148b7f5add43fac269e26bef5",
+    "sha256": "11397ca10ed5397741355f1a315b66421ac86174ce90a659a9602e23e1bffc3f",
+    "blobSha": "7a12e3a4ca7d847148b7f5add43fac269e26bef5"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/ponocna-lepeza.png",
+    "bytes": 2068969,
+    "gitSha": "680eeee2529b26114ec435a2700517944eb17e7f",
+    "sha256": "c825cdc76cd9327a53601475e8daea1af381f6d5fef6cc1565cad72722265f5e",
+    "blobSha": "680eeee2529b26114ec435a2700517944eb17e7f"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/sladoledna-zurka.png",
+    "bytes": 2167653,
+    "gitSha": "085c91f18b2572778b1e5901133944c46e551d76",
+    "sha256": "42935fa3b3e3cc783d07f79d88f6a808dcf4a1ed87d3fa6e65604699e8d9c736",
+    "blobSha": "085c91f18b2572778b1e5901133944c46e551d76"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/sources/zavet-pomorandzinog-cveta.png",
+    "bytes": 2337098,
+    "gitSha": "4aa063e474cf53d22e9a0155a3ed3fc69a771f42",
+    "sha256": "539766435e6399a1eef3a6790bab3fd1ae818af397ec64896dcd5a7003d733c7",
+    "blobSha": "4aa063e474cf53d22e9a0155a3ed3fc69a771f42"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/rejected/djurdjevkov-blagoslov.png",
+    "bytes": 1989172,
+    "gitSha": "a8a26c783c0fe1892540eec1f07f50190e9aab55",
+    "sha256": "fe3222657d2749828412d2ce6c8ea011a2671fadbcc4bbb27d6b972ba12dfe44",
+    "blobSha": "a8a26c783c0fe1892540eec1f07f50190e9aab55"
+  },
+  {
+    "path": "content/robi-batches/2026-10-24/extra-01/rejected/rubinska-magnolija.png",
+    "bytes": 2021533,
+    "gitSha": "5d639f2b63ad460ecce7cffe8b4bd550be0a882c",
+    "sha256": "401835f30c907079f0d69ffdd96e8c53bd1a4487f313211b380b9c5f7a7b3397",
+    "blobSha": "5d639f2b63ad460ecce7cffe8b4bd550be0a882c"
+  }
+]
