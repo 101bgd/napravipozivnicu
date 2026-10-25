@@ -1,0 +1,34 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+  },
+  "designs": {
+    "sareni-vetric": {
+      "background": "32929b67-196f-507c-956c-0f48ed8b8fb4",
+      "thumbnail": "bacf3940-7d56-58a9-afc1-9b863cb8cc64"
+    },
+    "sledeci-nivo": {
+      "background": "d05f5861-aa8d-5765-b194-aff4d39e4ef3",
+      "thumbnail": "74354350-ead5-5996-80d5-8f8bacca0360"
+    },
+    "zamak-veselih-zastava": {
+      "background": "5a6439dc-ca3c-5546-8b4a-9c5733985371",
+      "thumbnail": "2ec833a7-fc71-5fb6-95c0-600e682c5a78"
+    },
+    "jesenji-vinograd": {
+      "background": "450d9f2a-0540-599c-b94d-fd19bf0e1f93",
+      "thumbnail": "d6ded39e-5a4e-5094-8596-6daf60194c1f"
+    },
+    "srebrno-zvonce": {
+      "background": "843944d4-8b07-55e7-9d30-b3c451b18986",
+      "thumbnail": "11b65bd9-7e3e-5aa2-b15d-557520ca4e5d"
+    },
+    "tigricev-nezni-san": {
+      "background": "1f21f110-a5ca-56e6-8c66-33732337d03d",
+      "thumbnail": "612aabfe-e07d-5c0a-814a-eccc5b67d338"
+    }
+  }
+}

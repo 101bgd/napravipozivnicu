@@ -1222,7 +1222,7 @@
       "date": "2026-10-25",
       "path": "content/robi-batches/2026-10-25",
       "timezone": "Asia/Tokyo",
-      "status": "generating",
+      "status": "checking",
       "scheduledAt": "2026-10-25T08:00:00+09:00",
       "deadlineAt": "2026-10-25T10:00:00+09:00",
       "preflightStartedAt": "2026-10-24T22:59:25Z",
@@ -1231,7 +1231,7 @@
       "audience": "male",
       "birthdayAge": 5,
       "audienceAssignment": "planned_from_retained_deployments_including_explicit24Oct_extra_female4; confirmed_counters_unchanged_pending_live_checks",
-      "generatedCount": 5,
+      "generatedCount": 6,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -1243,56 +1243,168 @@
           "id": "sareni-vetric",
           "name": "Šareni vetrić",
           "category": "first",
-          "audience": "male",
           "age": 1,
-          "status": "generating"
+          "audience": "male",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sareni-vetric.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         },
         {
           "id": "sledeci-nivo",
           "name": "Sledeći nivo",
           "category": "eighteen",
-          "audience": "male",
           "age": 18,
-          "status": "checking"
+          "audience": "male",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         },
         {
           "id": "zamak-veselih-zastava",
           "name": "Zamak veselih zastava",
           "category": "birthday",
-          "audience": "male",
           "age": 5,
-          "status": "checking"
+          "audience": "male",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         },
         {
           "id": "jesenji-vinograd",
           "name": "Jesenji vinograd",
           "category": "wedding",
-          "audience": "couple",
           "age": null,
-          "status": "checking"
+          "audience": "couple",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         },
         {
           "id": "srebrno-zvonce",
           "name": "Srebrno zvonce",
           "category": "baptism",
-          "audience": "male",
           "age": null,
-          "status": "checking"
+          "audience": "male",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         },
         {
           "id": "tigricev-nezni-san",
           "name": "Tigrićev nežni san",
           "category": "baby",
-          "audience": "male",
           "age": null,
-          "status": "checking"
+          "audience": "male",
+          "status": "background_generated_template_unverified",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
+          "previewKind": "source_background_only",
+          "finalPreview": null,
+          "publicUrl": null,
+          "exportDimensions": null,
+          "plannedExportDimensions": [
+            1500,
+            2100
+          ],
+          "templatePrepared": false
         }
       ],
-      "lastConfirmedStep": "7 images returned:5 accepted,2 rejected by print-safe inset review. New first-birthday pinwheel replacement is generating; all other categories ready for template work.",
+      "lastConfirmedStep": "6 original backgrounds actually exist and open; local draft template definitions exist. No final rendering, mobile/export/build/SEO checks or production publication confirmed.",
       "totalGenerationAttempts": 8,
-      "totalReturnedGenerations": 7,
+      "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
-      "pendingGenerations": 1
+      "pendingGenerations": 0,
+      "deliveryDeadlineMet": false,
+      "report": "content/robi-batches/2026-10-25/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-25/quality-checklist.json",
+      "audit": {
+        "checkedAt": "2026-10-25T02:52:59Z",
+        "status": "incomplete_late",
+        "evidence": "content/robi-batches/2026-10-25/final-daily-check.json",
+        "deadlineMet": false,
+        "generatedCount": 6,
+        "preparedCount": 0,
+        "deployedCount": 0,
+        "verifiedPublicCount": 0,
+        "pointsAwarded": 0
+      },
+      "notification": {
+        "channel": "ChatGPT",
+        "reportPreparedAt": "2026-10-25T02:52:59Z",
+        "preparedAfterDeadline": true,
+        "actualDeliveryTimestampNotInferred": true
+      },
+      "resumeActions": [
+        "Finalize editable layouts and review actual rendered text",
+        "Render and open all6 personalized PNG/PDF examples",
+        "Build and relevant browser/Worker/SEO/AdSense checks",
+        "Publish all6 together after prepublication checks",
+        "Confirm Cloudflare deploy and actual public result"
+      ],
+      "incompleteReason": "Local template preparation and required checks not completed; no external failure established for those steps."
     }
   ],
   "history": [
@@ -1501,7 +1613,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-25",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1523,7 +1635,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-24T23:15:21Z",
+  "updatedAt": "2026-10-25T02:52:59Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

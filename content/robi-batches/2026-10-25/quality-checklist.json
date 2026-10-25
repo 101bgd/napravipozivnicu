@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-25",
+  "checkedAt": "2026-10-25T02:52:59Z",
+  "prePublicationStatus": "NEPROVERENO",
+  "publicationAllowed": false,
+  "checks": [
+    {
+      "id": "six_categories",
+      "status": "PROŠLO",
+      "evidence": "plan.json and6 actual original image files; one required category each, child planned5"
+    },
+    {
+      "id": "actual_source_files",
+      "status": "PROŠLO",
+      "evidence": "source-files-check.json;6 PNGs opened/verified at1060x1484 exactly5:7"
+    },
+    {
+      "id": "template_layout_mobile_serbian_long_text_contrast",
+      "status": "NEPROVERENO",
+      "evidence": "No renderer report/browser-checks; local draft code exists but has not been rendered or tested"
+    },
+    {
+      "id": "final_dimensions_and_png_pdf_exports",
+      "status": "NEPROVERENO",
+      "evidence": "0 final previews,0 examplePNG,0 examplePDF;1500x2100 is only planned"
+    },
+    {
+      "id": "build_and_relevant_tests",
+      "status": "NEPROVERENO",
+      "evidence": "No build-validation.log, worker-checks or browser-checks for25Oct"
+    },
+    {
+      "id": "seo_adsense_and_catalog_registration",
+      "status": "NEPROVERENO",
+      "evidence": "Draft metadata only; no public-files.json or tested registration"
+    },
+    {
+      "id": "atomic_publication",
+      "status": "NEPROVERENO",
+      "evidence": "No25Oct main commit/deploy; production remains084b02c9e9cba0611f3dd5fc6226d7603a7f71ea"
+    },
+    {
+      "id": "published_site_verification",
+      "status": "NEPROVERENO",
+      "evidence": "Publication stage not reached; no live25Oct check performed. Existing network restriction is a later separate issue."
+    },
+    {
+      "id": "delivery_deadline",
+      "status": "PALO",
+      "evidence": "10:00JST deadline passed; complete publication and verification not delivered"
+    },
+    {
+      "id": "final_notification_deadline",
+      "status": "PALO",
+      "evidence": "This final report is prepared after10:00JST; no on-time final notification established"
+    },
+    {
+      "id": "score",
+      "status": "PROŠLO",
+      "evidence": "review-ledger.json:1 explicit monthly point,0 bonus; no new award"
+    }
+  ],
+  "designs": [
+    {
+      "id": "sareni-vetric",
+      "name": "Šareni vetrić",
+      "category": "first",
+      "age": 1,
+      "audience": "male",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sareni-vetric.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    },
+    {
+      "id": "sledeci-nivo",
+      "name": "Sledeći nivo",
+      "category": "eighteen",
+      "age": 18,
+      "audience": "male",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "name": "Zamak veselih zastava",
+      "category": "birthday",
+      "age": 5,
+      "audience": "male",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    },
+    {
+      "id": "jesenji-vinograd",
+      "name": "Jesenji vinograd",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    },
+    {
+      "id": "srebrno-zvonce",
+      "name": "Srebrno zvonce",
+      "category": "baptism",
+      "age": null,
+      "audience": "male",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    },
+    {
+      "id": "tigricev-nezni-san",
+      "name": "Tigrićev nežni san",
+      "category": "baby",
+      "age": null,
+      "audience": "male",
+      "status": "background_generated_template_unverified",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
+      "previewKind": "source_background_only",
+      "finalPreview": null,
+      "publicUrl": null,
+      "exportDimensions": null,
+      "plannedExportDimensions": [
+        1500,
+        2100
+      ],
+      "templatePrepared": false
+    }
+  ],
+  "finalStatus": "NEZAVRŠENO — ROK PROPUŠTEN"
+}

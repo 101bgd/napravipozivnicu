@@ -1,0 +1,240 @@
+{
+  "checkedAt": "2026-10-25T02:52:59Z",
+  "sources": [
+    {
+      "id": "sareni-vetric",
+      "category": "first",
+      "sourcePath": "/workspace/generated_images/exec-6fa9cecc-de76-4455-a89b-ac18cc9c6ddf.png",
+      "bytes": 2070875,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2",
+      "sha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
+      "targetPath": "content/robi-batches/2026-10-25/sources/sareni-vetric.png"
+    },
+    {
+      "id": "sledeci-nivo",
+      "category": "eighteen",
+      "sourcePath": "/workspace/generated_images/exec-9911508d-8462-49da-a520-788358fb2136.png",
+      "bytes": 1780604,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2",
+      "sha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
+      "targetPath": "content/robi-batches/2026-10-25/sources/sledeci-nivo.png"
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "category": "birthday",
+      "sourcePath": "/workspace/generated_images/exec-a4562035-797a-4df9-b7ea-8c9f7d231f2b.png",
+      "bytes": 2278232,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276",
+      "sha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
+      "targetPath": "content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png"
+    },
+    {
+      "id": "jesenji-vinograd",
+      "category": "wedding",
+      "sourcePath": "/workspace/generated_images/exec-98de7ace-b251-4068-948d-3770360bc036.png",
+      "bytes": 2192718,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e",
+      "sha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
+      "targetPath": "content/robi-batches/2026-10-25/sources/jesenji-vinograd.png"
+    },
+    {
+      "id": "srebrno-zvonce",
+      "category": "baptism",
+      "sourcePath": "/workspace/generated_images/exec-770cac03-f6cd-43ba-9ca0-95fd76b47654.png",
+      "bytes": 2224321,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0",
+      "sha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
+      "targetPath": "content/robi-batches/2026-10-25/sources/srebrno-zvonce.png"
+    },
+    {
+      "id": "tigricev-nezni-san",
+      "category": "baby",
+      "sourcePath": "/workspace/generated_images/exec-fab38c2f-e133-4402-8225-131d485a950f.png",
+      "bytes": 2217083,
+      "dimensions": [
+        1060,
+        1484
+      ],
+      "gitSha": "198f9c89839cf4a598e668bad76806af6affd655",
+      "sha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
+      "targetPath": "content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png"
+    }
+  ],
+  "localEvidence": {
+    "sources": [
+      {
+        "id": "sareni-vetric",
+        "category": "first",
+        "sourcePath": "/workspace/generated_images/exec-6fa9cecc-de76-4455-a89b-ac18cc9c6ddf.png",
+        "bytes": 2070875,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2",
+        "sha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
+        "targetPath": "content/robi-batches/2026-10-25/sources/sareni-vetric.png"
+      },
+      {
+        "id": "sledeci-nivo",
+        "category": "eighteen",
+        "sourcePath": "/workspace/generated_images/exec-9911508d-8462-49da-a520-788358fb2136.png",
+        "bytes": 1780604,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2",
+        "sha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
+        "targetPath": "content/robi-batches/2026-10-25/sources/sledeci-nivo.png"
+      },
+      {
+        "id": "zamak-veselih-zastava",
+        "category": "birthday",
+        "sourcePath": "/workspace/generated_images/exec-a4562035-797a-4df9-b7ea-8c9f7d231f2b.png",
+        "bytes": 2278232,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276",
+        "sha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
+        "targetPath": "content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png"
+      },
+      {
+        "id": "jesenji-vinograd",
+        "category": "wedding",
+        "sourcePath": "/workspace/generated_images/exec-98de7ace-b251-4068-948d-3770360bc036.png",
+        "bytes": 2192718,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e",
+        "sha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
+        "targetPath": "content/robi-batches/2026-10-25/sources/jesenji-vinograd.png"
+      },
+      {
+        "id": "srebrno-zvonce",
+        "category": "baptism",
+        "sourcePath": "/workspace/generated_images/exec-770cac03-f6cd-43ba-9ca0-95fd76b47654.png",
+        "bytes": 2224321,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0",
+        "sha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
+        "targetPath": "content/robi-batches/2026-10-25/sources/srebrno-zvonce.png"
+      },
+      {
+        "id": "tigricev-nezni-san",
+        "category": "baby",
+        "sourcePath": "/workspace/generated_images/exec-fab38c2f-e133-4402-8225-131d485a950f.png",
+        "bytes": 2217083,
+        "dimensions": [
+          1060,
+          1484
+        ],
+        "gitSha": "198f9c89839cf4a598e668bad76806af6affd655",
+        "sha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
+        "targetPath": "content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png"
+      }
+    ],
+    "localEvidence": {
+      "designs.mjs": true,
+      "metadata.json": true,
+      "report.json": false,
+      "quality-checklist.json": false,
+      "browser-checks.json": false,
+      "worker-checks.json": false,
+      "public-files.json": false,
+      "build-validation.log": false
+    },
+    "actualFinalPreviews": 0,
+    "actualExamplePng": 0,
+    "actualExamplePdf": 0
+  },
+  "originals": [
+    {
+      "path": "content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
+      "bytes": 1780604,
+      "gitSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2",
+      "sha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
+      "blobSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
+      "bytes": 2192718,
+      "gitSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e",
+      "sha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
+      "blobSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
+      "bytes": 2224321,
+      "gitSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0",
+      "sha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
+      "blobSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
+      "bytes": 2217083,
+      "gitSha": "198f9c89839cf4a598e668bad76806af6affd655",
+      "sha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
+      "blobSha": "198f9c89839cf4a598e668bad76806af6affd655"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/rejected/elektricni-akord.png",
+      "bytes": 2245649,
+      "gitSha": "50b9756008ad0e4e724aa538b428b7470c6bf306",
+      "sha256": "5872ba878ded1745cc4b7ee83eb264808424965254eb69ab317f3d660794186a",
+      "blobSha": "50b9756008ad0e4e724aa538b428b7470c6bf306"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
+      "bytes": 2278232,
+      "gitSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276",
+      "sha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
+      "blobSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/rejected/pandin-zeleni-dan.png",
+      "bytes": 2184302,
+      "gitSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398",
+      "sha256": "900a552e3ee7e438f80e00d85b370fbe4a0e7ace95baab37eec865b70928ea18",
+      "blobSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/sareni-vetric.png",
+      "bytes": 2070875,
+      "gitSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2",
+      "sha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
+      "blobSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2"
+    }
+  ],
+  "allSourceImagesOpened": true,
+  "finalPreviewCount": 0,
+  "pngExampleCount": 0,
+  "pdfExampleCount": 0
+}
