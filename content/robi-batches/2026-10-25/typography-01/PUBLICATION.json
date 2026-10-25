@@ -1,20 +1,17 @@
 {
   "revisionId": "2026-10-25-typography-01",
-  "status": "ready_to_publish",
-  "checkedAt": "2026-10-25T04:04:47Z",
-  "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
-  "candidateCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "status": "publishing",
+  "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+  "mainUpdatedAt": "2026-10-25T04:09:03Z",
+  "atomicFiles": 20,
   "allSix": true,
-  "prePublicationChecks": "passed",
-  "productionPreservation": {
-    "olderTemplates": 24,
-    "retiredRemainAbsent": true,
-    "sourceBackgroundsUnchanged": true,
-    "stableIdsSlugsDatesPreserved": true,
-    "noPrivateDraftStorageChanged": true
+  "archiveReadback": {
+    "files": 61,
+    "allMatched": true,
+    "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
   },
-  "newGenerations": 0,
-  "countsAsNewBatch": false,
-  "pointsAwarded": 0,
-  "report": "content/robi-batches/2026-10-25/typography-01/REPORT.md"
+  "prePublicationStatus": "PROŠLO",
+  "publicChecks": "NEPROVERENO",
+  "pointsAwarded": 0
 }

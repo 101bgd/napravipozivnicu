@@ -1420,7 +1420,7 @@
           "templatePrepared": true
         }
       ],
-      "lastConfirmedStep": "Six existing backgrounds completed as editable templates and deployed together; Cloudflare success2026-10-25T12:19:46.000+09:00. All50 archive hashes,8 production texts and12 assets read back matched. Required public checks blocked at proxy CONNECT403.",
+      "lastConfirmedStep": "Six typography revisions fast-forwarded to main together; Cloudflare deployment pending;61 archive hashes read back matched.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1492,7 +1492,7 @@
         "completedBeforeDeadline": false,
         "evidence": "content/robi-batches/2026-10-25/deployment-check.json"
       },
-      "mainCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+      "mainCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
       "mainUpdatedAt": "2026-10-25T03:18:05Z",
       "productionReadback": {
         "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
@@ -1526,7 +1526,7 @@
       },
       "typographyRevision": {
         "id": "2026-10-25-typography-01",
-        "status": "ready_to_publish",
+        "status": "publishing",
         "startedAt": "2026-10-25T03:44:45Z",
         "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
         "designIds": [
@@ -1560,6 +1560,13 @@
           "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
           "productionFiles": 20,
           "allSixTogether": true
+        },
+        "mainCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "mainUpdatedAt": "2026-10-25T04:09:03Z",
+        "artifactReadback": {
+          "files": 61,
+          "allMatched": true,
+          "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
         }
       }
     }
@@ -1822,7 +1829,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T04:04:47Z",
+  "updatedAt": "2026-10-25T04:09:03Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -1871,7 +1878,7 @@
     "channel": "ChatGPT",
     "recordedAt": "2026-10-25T03:44:45Z",
     "batchId": "2026-10-25",
-    "status": "typography_revision_ready_to_publish",
+    "status": "typography_revision_publishing",
     "confirmedScope": "Svih šest iz današnje serije"
   },
   "retiredDesignIds": [
@@ -1884,7 +1891,7 @@
   ],
   "activeTypographyRevision": {
     "id": "2026-10-25-typography-01",
-    "status": "ready_to_publish",
+    "status": "publishing",
     "startedAt": "2026-10-25T03:44:45Z",
     "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
     "designIds": [
@@ -1918,6 +1925,13 @@
       "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
       "productionFiles": 20,
       "allSixTogether": true
+    },
+    "mainCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+    "mainUpdatedAt": "2026-10-25T04:09:03Z",
+    "artifactReadback": {
+      "files": 61,
+      "allMatched": true,
+      "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
     }
   }
 }
