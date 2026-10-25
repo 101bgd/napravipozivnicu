@@ -168,7 +168,8 @@
       "page_seo",
       "inherited_adsense",
       "atomic_publication",
-      "published_site_verification"
+      "published_site_verification",
+      "premium_occasion_specific_typography"
     ],
     "checkPhases": {
       "prePublication": [
@@ -189,7 +190,8 @@
         "png_and_pdf_export",
         "optimized_assets",
         "page_seo",
-        "inherited_adsense"
+        "inherited_adsense",
+        "premium_occasion_specific_typography"
       ],
       "publication": [
         "atomic_publication"
@@ -248,6 +250,26 @@
       "changeMotifAndComposition": true,
       "retainRequirements": true,
       "keepRejectedHistory": true
+    },
+    "typographyReview": {
+      "source": "agent/feedback/2026-10-25-premium-typography.json",
+      "effectiveFrom": "immediately_and_future_batches",
+      "requirements": [
+        "Choose intentional refined occasion-appropriate type pairs; formal invitations need elegant calligraphy or classical display serifs, rather than casual marker-like handwriting.",
+        "Change typography on every design in the current batch, adjusting size, spacing, alignment and hierarchy to the actual font metrics.",
+        "Do not replace text layers with flattened text, alter backgrounds, restore retired designs, or overwrite personalized user drafts.",
+        "Keep names large and clear; preserve Serbian glyphs, long-name fitting, close age/event grouping and safe margins.",
+        "Review actual mobile and PNG/PDF outputs per design; technical validity alone does not establish aesthetic approval.",
+        "Every mandatory point remains required. Only the user may award points."
+      ],
+      "evidence": [
+        "occasion_specific_font_pair_rationale",
+        "font_license_and_serbian_coverage",
+        "actual_mobile_previews",
+        "actual_opened_png_pdf",
+        "long_text_bounds_and_contrast"
+      ],
+      "userAestheticApprovalCannotBeInferred": true
     }
   },
   "adsense": {

@@ -56,3 +56,9 @@ Ako dizajn ima vizuelni problem, odbaci ga i generiši od nule potpuno drugačij
 ## Korisnikova ocena i novi nalog —24.10.2026.
 
 Cela serija23.10. je odbačena i uklonjena na izričit zahtev korisnika. Šest povučenih ID-jeva iz `robi-state.json.retiredDesignIds` nikada ne vraćaj automatski. Korisnik sada traži potpuno novu celu seriju odmah, van jutarnjeg termina; taj nalog dozvoljava ručni početak i objavu posle obavezne samokontrole, bez nove saglasnosti. Tehnički ispravan izvoz nije dokaz estetskog uspeha. Stvarnu vizuelnu procenu i korisnikovu ocenu vodi odvojeno; ne nazivaj dizajn korisniku prihvatljivim dok ga ne oceni. Sačuvaj ranije konkretne primedbe o tekstu, paleti i zameni neuspelog dizajna. Izvor: `agent/feedback/2026-10-24-restart.json`.
+
+## Korisnikova primedba25.10.2026. — tipografija
+
+Korisnik je odbio izbor fontova današnje serije i tražio promenu na svakom šablonu. Za svaku priliku biraj promišljen par kvalitetnih fontova i doslednu hijerarhiju. Za venčanje i krštenje koristi elegantno kaligrafsko ili klasično serifno pismo; ležerni markerni rukopis nije podrazumevani izbor za svečane prilike. Za dečje proslave koristi negovanu razigranu tipografiju, a za18. rođendan stil primeren motivu. Ne kopiraj isti par kroz celu seriju.
+
+Prilagodi veličine, razmake i poravnanja stvarnim glifovima, uz ranije zahteve za krupan tekst, povezanu grupu uzrasta i događaja, čitljivost i margine. Pregledaj stvarne mobilne prikaze i otvorene PNG/PDF posle svake promene. Sačuvaj izmenjive slojeve i korisničke personalizacije. Tehnički prolazak nije estetsko odobrenje; sve obavezne stavke moraju biti zadovoljene, a poene dodeljuje samo korisnik. Izvor: `agent/feedback/2026-10-25-premium-typography.json`.

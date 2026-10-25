@@ -40,6 +40,8 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Brojevi 1, 18 ili dečji uzrast su zasebni izmenjivi slojevi, bez brojeva na pozadini.
 - [ ] Za venčanje su proverena imena i detalji događaja; za krštenje detalji obreda i proslave.
 - [ ] Raspored i fontovi odgovaraju pozadini; tekst ne prekriva važne ilustracije.
+- [ ] Primenjena je primedba25.10.2026: za svaki šablon obrazložen je prikladan, usklađen par fontova, sa jasnom hijerarhijom, pažljivim razmacima i stvarnim pregledom glifova. Svečane prilike imaju elegantnu kaligrafiju ili klasično serifno pismo; ležeran markerni rukopis nije automatski izbor.
+- [ ] Tipografija je stvarno pregledana na telefonu i u otvorenim PNG/PDF datotekama posle poslednje izmene. Promenjen font sam po sebi ne dokazuje kvalitet; korisnikovo estetsko odobrenje i bodovi se ne pretpostavljaju.
 - [ ] Testirana su duža imena i lokacije; nema preklapanja, odsecanja ili izlaska iz dozvoljenih margina.
 - [ ] Pravilno se prikazuju č, ć, š, ž i đ, kao i druga slova potrebna izabranom pismu.
 - [ ] Kontrast i veličina teksta su čitljivi, uključujući mobilni prikaz.

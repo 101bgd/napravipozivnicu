@@ -1519,9 +1519,10 @@
         }
       ],
       "userReview": {
-        "status": "awaiting_post_publication_user_review",
-        "aestheticApprovalAssumed": false,
-        "pointsAwardedThisBatch": 0
+        "status": "typography_rejected_revision_requested",
+        "feedback": "agent/feedback/2026-10-25-premium-typography.json",
+        "pointsAwardedThisBatch": 0,
+        "aestheticApprovalAssumed": false
       }
     }
   ],
@@ -1783,19 +1784,20 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:22:59Z",
+  "updatedAt": "2026-10-25T03:44:45Z",
   "latestUserFeedback": {
-    "dateTokyo": "2026-10-24",
-    "recordedAt": "2026-10-23T16:41:44.281Z",
-    "source": "agent/feedback/2026-10-24-extra-01.json",
+    "dateTokyo": "2026-10-25",
+    "recordedAt": "2026-10-25T03:44:45Z",
+    "source": "agent/feedback/2026-10-25-premium-typography.json",
     "previousSources": [
+      "agent/feedback/2026-10-24-extra-01.json",
       "agent/feedback/2026-10-24-restart.json",
       "agent/feedback/2026-10-23-user-rejection.json",
       "content/robi-batches/2026-10-22/restart-01/user-review.json",
       "content/robi-batches/2026-10-21/user-review.json"
     ],
     "effectiveFrom": "immediately_and_future_batches",
-    "appliedInBatch": "2026-10-24-extra-01",
+    "appliedInBatch": "2026-10-25",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -1803,11 +1805,13 @@
       "more_vivid_saturated_varied_palettes",
       "especially_lively_children_birthday_palettes",
       "preserve_readability_through_layout_and_local_contrast",
-      "review_actual_final_palettes_individually_and_as_a_batch"
+      "review_actual_final_palettes_individually_and_as_a_batch",
+      "premium_occasion_specific_typography",
+      "formal_type_pairing_without_casual_marker_handwriting",
+      "review_all_required_checks_after_typography_revision"
     ],
-    "lastRejectedBatch": "2026-10-23",
-    "newSeriesAestheticReview": "awaiting_user",
-    "requiredAction": "apply_recorded_feedback_and_never_automatically_restore_retired_designs"
+    "newSeriesAestheticReview": "rejected_typography_revision_in_progress",
+    "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history"
   },
   "score": {
     "regularPoints": 1,
@@ -1825,12 +1829,11 @@
   "planningNote": "Creative plan follows actual retained complete deployments through25Oct male5. Next plan female5. Confirmed counters unchanged pending required real public verification. Retired23Oct is not counted.",
   "lastPublishedBatch": "2026-10-25",
   "latestUserDirective": {
-    "quote": "nastavi sa radom, sledeci korak kad napravis pozadine",
+    "quote": "sad sve sablone izmeni, ne znam odakle si naucio da postavljas tako jeftin i ruzan font, pogotovo za svecanije prilike, menjaj font na svakoj da sajt zadrzi premium feeling, a ne random pozivnice od pre 20 godina sa paint msa. Na pocetku si perfektan bio, sad fusaris i forsiras jeftini izgled. Moras sve tacke ispunjavati da bih ti dao poen. Robi, fokusiraj se",
     "channel": "ChatGPT",
-    "recordedAt": "2026-10-25T03:08:53Z",
+    "recordedAt": "2026-10-25T03:44:45Z",
     "batchId": "2026-10-25",
-    "status": "resumed_and_deployed_live_verification_blocked",
-    "productionCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877"
+    "status": "typography_revision_in_progress"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",
@@ -1839,5 +1842,21 @@
     "zdralov-zavet",
     "kap-blagoslova",
     "lavlje-malo-sunce"
-  ]
+  ],
+  "activeTypographyRevision": {
+    "id": "2026-10-25-typography-01",
+    "status": "preparing",
+    "startedAt": "2026-10-25T03:44:45Z",
+    "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+    "designIds": [
+      "sareni-vetric",
+      "sledeci-nivo",
+      "zamak-veselih-zastava",
+      "jesenji-vinograd",
+      "srebrno-zvonce",
+      "tigricev-nezni-san"
+    ],
+    "path": "content/robi-batches/2026-10-25/typography-01/",
+    "userApprovalRequiredForPublication": false
+  }
 }

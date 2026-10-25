@@ -83,3 +83,7 @@ Dodatna serija2026-10-24-extra-01 je deploy-ovana u2026-10-24T11:09:16.000+09:00
 ##25.10.2026. — završen odobreni nastavak
 
 Posle propuštenog roka i kontrole11:52:59, korisnik je izričito zatražio nastavak. Postojećih6 pozadina završeno je u6 izmenjivih šablona, bez nove generacije. Obavezne preobjavne provere prošle;8 tekstova/12 produkcijskih slika i50 arhivskih binarnih hash-eva pročitano nazad. Zajednički main commitf7d75a90ce51e85e3db18919227b37dbb9ebe877, Cloudflare success2026-10-25T12:19:46.000+09:00. Rok10:00 je propušten i ostaje upisan. Sve6 stvarnih javnih provera posle deploy-a blokirao je proxyCONNECT403; ne tvrditi published_verified niti zaobilaziti mrežu. Ne regenerisati/duplirati25Oct. Sledeći kreativni plan: ženska publika, uzrast5 (muški sledeći6). Potvrđeni brojači čekaju sve obavezne javne provere. Korisnik nije ocenio novu seriju; poeni ostaju1/50. Izveštaj:content/robi-batches/2026-10-25/REPORT.md.
+
+##25.10.2026. — obavezna dorada tipografije
+
+Pročitaj `agent/feedback/2026-10-25-premium-typography.json`. Korisnik je odbio tipografiju i naredio promenu na svakom trenutnom šablonu. Dorada je `2026-10-25-typography-01`, nije nova dnevna serija i ne pomera publiku ili uzrast. Sačuvaj prethodnu verziju preko izvornog commita i arhive; pripremi svih6, ponovi mobilne/duga imena/čćšžđ/PNG/PDF provere i objavi zajedno bez nove potvrde. Ne diraj privatne korisničke nacrte. Poeni ostaju1/50. Korisnikova primedba važi i za sve buduće i uređivane šablone.

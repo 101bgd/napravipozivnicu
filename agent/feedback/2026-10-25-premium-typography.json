@@ -1,0 +1,26 @@
+{
+  "id": "user-review-2026-10-25-typography",
+  "dateTokyo": "2026-10-25",
+  "recordedAt": "2026-10-25T03:44:45Z",
+  "reviewer": "user",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "sad sve sablone izmeni, ne znam odakle si naucio da postavljas tako jeftin i ruzan font, pogotovo za svecanije prilike, menjaj font na svakoj da sajt zadrzi premium feeling, a ne random pozivnice od pre 20 godina sa paint msa. Na pocetku si perfektan bio, sad fusaris i forsiras jeftini izgled. Moras sve tacke ispunjavati da bih ti dao poen. Robi, fokusiraj se"
+  },
+  "status": "typography_rejected_revision_requested",
+  "scope": {
+    "immediate": "current_six_templates",
+    "optionalClarification": "user_asked_whether_all_catalog_or_current_six; proceeding_current_six",
+    "future": "all_new_or_edited_templates"
+  },
+  "requirements": [
+    "Choose intentional refined occasion-appropriate type pairs; formal invitations need elegant calligraphy or classical display serifs, rather than casual marker-like handwriting.",
+    "Change typography on every design in the current batch, adjusting size, spacing, alignment and hierarchy to the actual font metrics.",
+    "Do not replace text layers with flattened text, alter backgrounds, restore retired designs, or overwrite personalized user drafts.",
+    "Keep names large and clear; preserve Serbian glyphs, long-name fitting, close age/event grouping and safe margins.",
+    "Review actual mobile and PNG/PDF outputs per design; technical validity alone does not establish aesthetic approval.",
+    "Every mandatory point remains required. Only the user may award points."
+  ],
+  "pointsAwarded": 0,
+  "revisionPath": "content/robi-batches/2026-10-25/typography-01/"
+}
