@@ -4,7 +4,9 @@
   "timezone": "Asia/Tokyo",
   "audience": "female",
   "birthdayAge": 5,
-  "attemptRound": 2,
+  "totalAttempts": 13,
+  "retained": 6,
+  "rejected": 7,
   "designs": [
     {
       "id": "kolacic-prve-radosti",
@@ -37,14 +39,14 @@
       "prompt": "ONE premium invitation background only, portrait EXACT 5:7, target1500x2100 pixels. Full-bleed continuous colored background, completely flat artwork; no paper/card mockup, no perspective, no table, no hands, no outside shadow. ZERO text, letters, numbers, logos or watermarks. Never collage. CRITICAL COMPOSITION: create SMALL, COMPLETE isolated motifs that occupy no more than the CENTRAL HALF of the canvas width. The outer15% on ALL FOUR sides must be uninterrupted background color; every leaf, ribbon, ear, paw, petal and other meaningful object must sit well within this large clear margin. Do not enlarge or crop motifs. Clear background continues right to the image edges, with no border frame. A JOYFUL FIFTH BIRTHDAY for a little girl. One adorable smiling coral-pink AXOLOTL with two neat symmetrical feathery gill clusters, four small believable legs and one graceful complete tail, painted in a polished playful gouache style. The entire creature is SMALL and centered low at x=50%,y=77%, occupying at most45% of the width and25% of the height. Rich vivid COBALT BLUE underwater color field, a few tiny turquoise bubbles and lemon-colored glints immediately around the creature, all well away from the edges. Upper60% completely calm medium-deep cobalt for big ivory text. Vivid friendly children's picture-book craftsmanship, no seaweed frame, no other animals or decorations around edges."
     },
     {
-      "id": "koi-zavet",
-      "name": "Koi zavet",
+      "id": "jasminov-zavet",
+      "name": "Jasminov zavet",
       "category": "wedding",
       "age": null,
       "audience": "couple",
-      "motif": "sa parom koi riba",
-      "palette": "deep petrol blue, ivory, coral orange, subtle gold",
-      "prompt": "ONE premium invitation background only, portrait EXACT 5:7, target1500x2100 pixels. Full-bleed continuous colored background, completely flat artwork; no paper/card mockup, no perspective, no table, no hands, no outside shadow. ZERO text, letters, numbers, logos or watermarks. Never collage. CRITICAL COMPOSITION: create SMALL, COMPLETE isolated motifs that occupy no more than the CENTRAL HALF of the canvas width. The outer15% on ALL FOUR sides must be uninterrupted background color; every leaf, ribbon, ear, paw, petal and other meaningful object must sit well within this large clear margin. Do not enlarge or crop motifs. Clear background continues right to the image edges, with no border frame. Elegant romantic WEDDING invitation with TWO beautiful koi fish, one ivory with refined coral markings and one coral with ivory markings, naturally curved toward one another in an intimate balanced flowing dance. Delicate Japanese-inspired hand-painted scales and fine graceful complete fins and tails. The entire small two-fish group sits at x=36%,y=74%, at most43% of the image width and27% of its height. Calm rich PETROL BLUE background with only a few very subtle gold water ripples directly around the fish. Upper60% and lower RIGHT region remain calm dark blue for large elegant light typography and event details. Not a yin-yang logo, no circular frame, no waves touching canvas edges, no flowers, no people. Premium contemporary botanical-free wedding stationery."
+      "motif": "sa belim jasminom i zelenim grančicama",
+      "palette": "deep forest green, warm ivory jasmine, soft antique gold",
+      "prompt": "Create ONE original refined WEDDING INVITATION BACKGROUND, portrait exact5:7, preferred1500x2100. Completely flat full-bleed deep FOREST GREEN painted background, with no photographed card/paper/mockup, table, hands, perspective or outside shadow. Absolutely ZERO text, letters, numbers, words, logos or watermarks, never a collage. One SINGLE SMALL exquisite cluster of white JASMINE blossoms, delicate pointed leaves and a little antique-gold fine botanical linework. Compact airy hand-painted gouache cluster CENTERED at x=27%,y=23%, maximum width26% and maximum height24% of entire image. All flowers/leaves/stems must remain in x=14–40%,y=11–35%, completely visible. The outer10% on all sides is clean continuous green, no ornament at any edge. Upper right and ALL the middle and bottom TWO THIRDS remain empty calm deep green for very large ivory calligraphic names and a generous readable formal event layout. Highly refined contemporary botanical stationery, beautifully precise five-petal jasmine flowers with natural small golden centers, sophisticated leaves. No frame, no arch, no wreath, no ribbons, no rings, no extra corner accents. Do not enlarge or crop the small isolated branch."
     },
     {
       "id": "biser-krstenja",
@@ -163,6 +165,17 @@
         "output_hint"
       ],
       "hint": "Generated images are saved to /workspace/generated_images as /workspace/generated_images/exec-c12d16bd-88d2-402f-8a5a-a2018dce66a6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "koi-zavet",
+      "name": "Koi zavet",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "motif": "sa parom koi riba",
+      "palette": "deep petrol blue, ivory, coral orange, subtle gold",
+      "prompt": "ONE premium invitation background only, portrait EXACT 5:7, target1500x2100 pixels. Full-bleed continuous colored background, completely flat artwork; no paper/card mockup, no perspective, no table, no hands, no outside shadow. ZERO text, letters, numbers, logos or watermarks. Never collage. CRITICAL COMPOSITION: create SMALL, COMPLETE isolated motifs that occupy no more than the CENTRAL HALF of the canvas width. The outer15% on ALL FOUR sides must be uninterrupted background color; every leaf, ribbon, ear, paw, petal and other meaningful object must sit well within this large clear margin. Do not enlarge or crop motifs. Clear background continues right to the image edges, with no border frame. Elegant romantic WEDDING invitation with TWO beautiful koi fish, one ivory with refined coral markings and one coral with ivory markings, naturally curved toward one another in an intimate balanced flowing dance. Delicate Japanese-inspired hand-painted scales and fine graceful complete fins and tails. The entire small two-fish group sits at x=36%,y=74%, at most43% of the image width and27% of its height. Calm rich PETROL BLUE background with only a few very subtle gold water ripples directly around the fish. Upper60% and lower RIGHT region remain calm dark blue for large elegant light typography and event details. Not a yin-yang logo, no circular frame, no waves touching canvas edges, no flowers, no people. Premium contemporary botanical-free wedding stationery.",
+      "reason": "Although source margins passed, actual long-location text could not fit the illustration's narrow right column at the required margin and comfortable readability. Entire motif/composition replaced from scratch."
     }
   ],
   "sourceMain": "2bedc5d33cc4d08797863f3629bd7c480b236157"

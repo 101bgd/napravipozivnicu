@@ -1672,7 +1672,7 @@
       "date": "2026-10-26",
       "path": "content/robi-batches/2026-10-26",
       "timezone": "Asia/Tokyo",
-      "status": "generating",
+      "status": "checking",
       "scheduledAt": "2026-10-26T08:00:00+09:00",
       "deadlineAt": "2026-10-26T10:00:00+09:00",
       "startedAt": "2026-10-25T23:07:05Z",
@@ -1681,8 +1681,8 @@
       "birthdayAge": 5,
       "audienceAssignment": "planned_from_retained_deployments; confirmed counters unchanged pending real public checks",
       "productionBase": "2bedc5d33cc4d08797863f3629bd7c480b236157",
-      "generatedCount": 0,
-      "preparedCount": 0,
+      "generatedCount": 6,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -1692,71 +1692,149 @@
           "id": "kolacic-prve-radosti",
           "name": "Kolačić prve radosti",
           "category": "first",
-          "age": 1,
           "audience": "female",
-          "motif": "sa svečanim kolačićem i jagodicom",
-          "palette": "warm apricot, raspberry red, turquoise, cocoa",
-          "status": "planned"
+          "age": 1,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/"
         },
         {
           "id": "rubinski-sjaj",
           "name": "Rubinski sjaj",
           "category": "eighteen",
-          "age": 18,
           "audience": "female",
-          "motif": "sa rubinskim brošem i zlatnim detaljima",
-          "palette": "deep charcoal violet, ruby, antique gold",
-          "status": "planned"
+          "age": 18,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/"
         },
         {
           "id": "aksolotlova-zurka",
           "name": "Aksolotlova žurka",
           "category": "birthday",
-          "age": 5,
           "audience": "female",
-          "motif": "sa ružičastim aksolotlom i mehurićima",
-          "palette": "cobalt blue, coral pink, turquoise, lemon accents",
-          "status": "planned"
+          "age": 5,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/"
         },
         {
-          "id": "koi-zavet",
-          "name": "Koi zavet",
+          "id": "jasminov-zavet",
+          "name": "Jasminov zavet",
           "category": "wedding",
-          "age": null,
           "audience": "couple",
-          "motif": "sa parom koi riba",
-          "palette": "deep petrol blue, ivory, coral orange, subtle gold",
-          "status": "planned"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/"
         },
         {
           "id": "biser-krstenja",
           "name": "Biser krštenja",
           "category": "baptism",
-          "age": null,
           "audience": "female",
-          "motif": "sa sedefnom školjkom i zlatnim krstom",
-          "palette": "soft porcelain rose, mother of pearl, antique gold, burgundy text space",
-          "status": "planned"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/"
         },
         {
           "id": "zvecka-nove-radosti",
           "name": "Zvečka nove radosti",
           "category": "baby",
-          "age": null,
           "audience": "female",
-          "motif": "sa drvenom zvečkom i koralnom mašnom",
-          "palette": "warm ivory, natural honey wood, coral, soft leaf green",
-          "status": "planned"
+          "age": null,
+          "status": "checking",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "upscaled": true,
+          "cropped": false,
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/"
         }
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "Six original sources returned; all six rejected for insufficient ornament trim inset, replaced with wholly different motifs/compositions before template work.",
+      "lastConfirmedStep": "Retained6 text-free originals after7 discarded attempts; actual renderer generated6 editable layouts and all default/long-text bounds/margins/contrast checks passed.",
       "userAestheticApproval": false,
       "pointsAwarded": 0,
-      "totalGenerationAttempts": 6,
-      "totalReturnedGenerations": 6,
-      "rejectedDesignCount": 6
+      "totalGenerationAttempts": 13,
+      "totalReturnedGenerations": 13,
+      "rejectedDesignCount": 7
     }
   ],
   "history": [
@@ -2024,7 +2102,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T23:13:00Z",
+  "updatedAt": "2026-10-25T23:28:03Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
