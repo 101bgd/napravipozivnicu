@@ -1,0 +1,100 @@
+{
+  "batchId": "2026-10-26",
+  "startedAt": "2026-10-25T23:07:05Z",
+  "timezone": "Asia/Tokyo",
+  "audience": "female",
+  "birthdayAge": 5,
+  "requiredCount": 6,
+  "designs": [
+    {
+      "id": "vidrin-biserni-dan",
+      "name": "Vidrin biserni dan",
+      "category": "first",
+      "age": 1,
+      "audience": "female",
+      "motif": "sa malom vidrom i ružičastim lokvanjem",
+      "palette": "aquamarine, coral pink, golden apricot",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. A joyful first birthday for a little girl: a charming small brown baby river otter sitting upright and holding one vivid coral-pink water lily. Sophisticated children's gouache storybook illustration, warm expressive face, believable rounded paws, lovely fur, no human clothing. Place the COMPLETE otter and flower as a compact group in the bottom right quarter, between x=55–87%, y=66–90%; keep tail, ears and petals fully inside the safe border. Rich luminous AQUAMARINE/turquoise background with tiny warm apricot ripple accents low at left. The top 62% and most of the left middle must be continuous calm aquamarine suitable for large dark teal text. One confident asymmetric composition, vivid celebratory color, no patterned border, no other animals."
+    },
+    {
+      "id": "svilena-maskarada",
+      "name": "Svilena maskarada",
+      "category": "eighteen",
+      "age": 18,
+      "audience": "female",
+      "motif": "sa venecijanskom maskom i svilenom trakom",
+      "palette": "deep aubergine, rose gold, jewel fuchsia",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. Refined eighteenth birthday masquerade for a young woman. One beautiful COMPLETE Venetian eye mask with delicate rose-gold openwork, tasteful deep fuchsia jewel accents, and a short flowing satin ribbon, illustrated with luxury fashion editorial precision. No face or person. Place the full mask diagonally in the upper left corner region x=10–43%, y=10–31%, with every ribbon curl also safely inside x=7–48%, y=7–35%. Deep matte AUBERGINE/plum ground, exceptionally fine subtle tone variation. Leave the broad right side and middle/lower 65% quietly dark for refined light typography. No feathers extending to edges, no florals, no repeated decorative frame. Modern luxurious, restrained sparkle, original carefully balanced composition."
+    },
+    {
+      "id": "roleri-u-boji",
+      "name": "Roleri u boji",
+      "category": "birthday",
+      "age": 5,
+      "audience": "female",
+      "motif": "sa šarenim rolerima i zvezdicama",
+      "palette": "vivid sunshine yellow, raspberry pink, cobalt, lavender",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. Lively fifth birthday for a little girl. A stylish pair of playful CHILDREN'S roller skates in vivid raspberry pink and cobalt blue, clean lavender laces and sunny orange wheels. Beautiful polished hand-painted gouache illustration with accurate shoe shapes and plausible four-wheel inline construction, no labels or letters. Entire pair grouped along bottom LEFT at x=10–54%, y=65–90%, fully visible with all laces and wheels inset. A few crisp five-point cobalt and pink star accents near the skates only. Rich warm SUNSHINE YELLOW background, vivid not pastel and not washed-out. Leave the upper 60% clear and the middle right clear for large dark blue editable invitation text. Contemporary premium children's stationery, energetic but beautifully edited, not a toy advertisement, no doodle border or rainbow arch."
+    },
+    {
+      "id": "ginkov-zlatni-zavet",
+      "name": "Ginkov zlatni zavet",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "motif": "sa zlatnim listovima ginka",
+      "palette": "deep forest emerald, antique gold, warm ivory",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. Elegant contemporary wedding invitation background with sculptural fan-shaped GINKGO leaves, finely drawn antique-gold veins, warm ivory touches, and fine stems. Premium botanical screen-print and subtle gold-foil graphic style on a deep FOREST EMERALD ground. Arrange a complete graceful compact branch of five clearly recognizable ginkgo leaves in the lower LEFT quadrant x=10–44%, y=68–91%, and one delicate small pair of ginkgo leaves in upper RIGHT x=77–90%, y=9–22%, fully safe and no important leaf cut off. Keep the central 65% and upper left very calm and uncluttered for large sophisticated light typography. Minimal confident asymmetry with deliberate negative space, no arch, no gold frame, no rings, no text, no luxury mockup."
+    },
+    {
+      "id": "ciklamin-blagoslov",
+      "name": "Ciklamin blagoslov",
+      "category": "baptism",
+      "age": null,
+      "audience": "female",
+      "motif": "sa ciklamom i zlatnim krstom",
+      "palette": "warm porcelain ivory, cyclamen magenta, deep sage, brushed gold",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. A refined baptism invitation background for a little girl: an exquisite botanical cluster of CYCLAMEN flowers with vivid magenta upswept petals and heart-shaped deep sage leaves in the upper RIGHT quadrant x=62–89%, y=9–34%; finely painted naturalistic watercolor with precise botanical structure, elegant not sugary. A single simple small gold Christian cross stands in clear space at bottom LEFT around x=17%, y=82%, all safely within the image. Warm PORCELAIN IVORY continuous background with subtle cool rose nuance, never a photographed paper or object. The large left upper and central spaces, and lower center/right, must remain clean for dark burgundy formal editable text. No border frame, no angel, no book, no bells, no scattered words. Premium understated religious stationery, completely flat full-bleed digital artwork."
+    },
+    {
+      "id": "lisicin-topli-zagrljaj",
+      "name": "Lisičin topli zagrljaj",
+      "category": "baby",
+      "age": null,
+      "audience": "female",
+      "motif": "sa lisicom i mladunčetom",
+      "palette": "deep midnight blue, copper orange, soft ivory",
+      "prompt": "Create ONE original portrait invitation BACKGROUND, exact 5:7 aspect ratio, preferred 1500 x 2100 pixels. Full-bleed flat artwork filling the image, no card/paper mockup, no tabletop, no hands, no perspective, no outside shadow. Absolutely NO text, letters, numbers, words, logos, watermarks, typography or collage, and no alternative panels. Keep ALL important objects at least 6% inward from every edge; only expendable tiny accents/color can bleed. Reserve the described genuinely quiet spaces for large editable typography to be added later. Clean beautiful premium illustration with crisp deliberate shapes, coherent detail, print-ready craftsmanship. A warm invitation to celebrate a newborn baby girl: a beautiful mother fox gently curled around one tiny sleeping fox cub, both COMPLETE with full ears, paws and tails, lovely affectionate natural animal anatomy and sophisticated storybook gouache fur. Place this compact two-animal family in the upper central area x=20–80%, y=10–40%; no nest, no basket, no cradle. Rich deep MIDNIGHT BLUE background with delicate copper-orange and ivory fur, tiny subtle warm seed-like accents near the bottom right only. The entire middle and lower 55% must stay evenly quiet midnight blue for large ivory formal serif editable text. No surrounding wreath, no crescent or stars, no pink bow, no humans, no other animals. Tender premium children's book cover craftsmanship with real color depth, not bland pastel."
+    }
+  ],
+  "reviewedFeedback": {
+    "dateTokyo": "2026-10-25",
+    "recordedAt": "2026-10-25T03:44:45Z",
+    "source": "agent/feedback/2026-10-25-premium-typography.json",
+    "previousSources": [
+      "agent/feedback/2026-10-24-extra-01.json",
+      "agent/feedback/2026-10-24-restart.json",
+      "agent/feedback/2026-10-23-user-rejection.json",
+      "content/robi-batches/2026-10-22/restart-01/user-review.json",
+      "content/robi-batches/2026-10-21/user-review.json"
+    ],
+    "effectiveFrom": "immediately_and_future_batches",
+    "appliedInBatch": "2026-10-25",
+    "requiredImprovements": [
+      "larger_text_and_better_space_use",
+      "closer_age_and_birthday_group",
+      "optical_centering_for_centered_compositions",
+      "more_vivid_saturated_varied_palettes",
+      "especially_lively_children_birthday_palettes",
+      "preserve_readability_through_layout_and_local_contrast",
+      "review_actual_final_palettes_individually_and_as_a_batch",
+      "premium_occasion_specific_typography",
+      "formal_type_pairing_without_casual_marker_handwriting",
+      "review_all_required_checks_after_typography_revision"
+    ],
+    "newSeriesAestheticReview": "original_typography_rejected_revision_awaiting_user_review",
+    "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history",
+    "typographyRevisionReport": "content/robi-batches/2026-10-25/typography-01/REPORT.md"
+  },
+  "sourceMain": "2bedc5d33cc4d08797863f3629bd7c480b236157"
+}

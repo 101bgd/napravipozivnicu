@@ -1666,6 +1666,94 @@
         "evidence": "content/robi-batches/2026-10-25/typography-01/PUBLICATION.json",
         "pointsAwarded": 0
       }
+    },
+    {
+      "id": "2026-10-26",
+      "date": "2026-10-26",
+      "path": "content/robi-batches/2026-10-26",
+      "timezone": "Asia/Tokyo",
+      "status": "generating",
+      "scheduledAt": "2026-10-26T08:00:00+09:00",
+      "deadlineAt": "2026-10-26T10:00:00+09:00",
+      "startedAt": "2026-10-25T23:07:05Z",
+      "requiredCount": 6,
+      "audience": "female",
+      "birthdayAge": 5,
+      "audienceAssignment": "planned_from_retained_deployments; confirmed counters unchanged pending real public checks",
+      "productionBase": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "designs": [
+        {
+          "id": "vidrin-biserni-dan",
+          "name": "Vidrin biserni dan",
+          "category": "first",
+          "age": 1,
+          "audience": "female",
+          "motif": "sa malom vidrom i ružičastim lokvanjem",
+          "palette": "aquamarine, coral pink, golden apricot",
+          "status": "planned"
+        },
+        {
+          "id": "svilena-maskarada",
+          "name": "Svilena maskarada",
+          "category": "eighteen",
+          "age": 18,
+          "audience": "female",
+          "motif": "sa venecijanskom maskom i svilenom trakom",
+          "palette": "deep aubergine, rose gold, jewel fuchsia",
+          "status": "planned"
+        },
+        {
+          "id": "roleri-u-boji",
+          "name": "Roleri u boji",
+          "category": "birthday",
+          "age": 5,
+          "audience": "female",
+          "motif": "sa šarenim rolerima i zvezdicama",
+          "palette": "vivid sunshine yellow, raspberry pink, cobalt, lavender",
+          "status": "planned"
+        },
+        {
+          "id": "ginkov-zlatni-zavet",
+          "name": "Ginkov zlatni zavet",
+          "category": "wedding",
+          "age": null,
+          "audience": "couple",
+          "motif": "sa zlatnim listovima ginka",
+          "palette": "deep forest emerald, antique gold, warm ivory",
+          "status": "planned"
+        },
+        {
+          "id": "ciklamin-blagoslov",
+          "name": "Ciklamin blagoslov",
+          "category": "baptism",
+          "age": null,
+          "audience": "female",
+          "motif": "sa ciklamom i zlatnim krstom",
+          "palette": "warm porcelain ivory, cyclamen magenta, deep sage, brushed gold",
+          "status": "planned"
+        },
+        {
+          "id": "lisicin-topli-zagrljaj",
+          "name": "Lisičin topli zagrljaj",
+          "category": "baby",
+          "age": null,
+          "audience": "female",
+          "motif": "sa lisicom i mladunčetom",
+          "palette": "deep midnight blue, copper orange, soft ivory",
+          "status": "planned"
+        }
+      ],
+      "report": "content/robi-batches/2026-10-26/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
+      "lastConfirmedStep": "Read six adopted rule/state files, user feedback, complete catalog motif history, and fresh main; isolated local main hashes verified438/438.",
+      "userAestheticApproval": false,
+      "pointsAwarded": 0
     }
   ],
   "history": [
@@ -1911,8 +1999,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
-  "activeBatch": "2026-10-25",
+  "status": "generating",
+  "activeBatch": "2026-10-26",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -1933,7 +2021,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T04:12:32Z",
+  "updatedAt": "2026-10-25T23:07:05Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -2083,6 +2171,7 @@
       "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
       "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
     },
-    "userAestheticApproval": false
+    "userAestheticApproval": false,
+    "archivedForNewDailyBatch": true
   }
 }
