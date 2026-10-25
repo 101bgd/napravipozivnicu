@@ -26,5 +26,13 @@
     "Every mandatory point remains required. Only the user may award points."
   ],
   "pointsAwarded": 0,
-  "revisionPath": "content/robi-batches/2026-10-25/typography-01/"
+  "revisionPath": "content/robi-batches/2026-10-25/typography-01/",
+  "implementation": {
+    "status": "deployed_revision_awaiting_user_review",
+    "revisionId": "2026-10-25-typography-01",
+    "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+    "report": "content/robi-batches/2026-10-25/typography-01/REPORT.md",
+    "aestheticApprovalAssumed": false,
+    "pointsAwarded": 0
+  }
 }

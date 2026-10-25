@@ -1,0 +1,58 @@
+{
+  "revisionId": "2026-10-25-typography-01",
+  "productionCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "cloudflareCompletedAt": "2026-10-25T04:10:28Z",
+  "checks": [
+    {
+      "id": "sareni-vetric",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-sarena-vetrenjaca/",
+      "checkedAt": "2026-10-25T04:11:31.386605+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "sledeci-nivo",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-gejming-kontroler/",
+      "checkedAt": "2026-10-25T04:11:31.397558+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sareni-zamak/",
+      "checkedAt": "2026-10-25T04:11:31.399893+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "jesenji-vinograd",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-grozdje-vinovi-listovi/",
+      "checkedAt": "2026-10-25T04:11:31.401959+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "srebrno-zvonce",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-srebrno-zvono/",
+      "checkedAt": "2026-10-25T04:11:31.403972+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "tigricev-nezni-san",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-tigric/",
+      "checkedAt": "2026-10-25T04:11:31.405972+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "proxyAndTlsPreserved": true,
+  "attemptsAfterCloudflareSuccess": true,
+  "noBypassAttempted": true
+}

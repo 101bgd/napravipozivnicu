@@ -1,0 +1,109 @@
+{
+  "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "texts": [
+    {
+      "path": "src/robi-assets.js",
+      "sha": "51ad733aba960f39af1936465af16ab3a47f06c6",
+      "matched": true
+    },
+    {
+      "path": "src/robi-catalog.js",
+      "sha": "550d9230a2f34e2f9ad295683c0aaf8b85a95626",
+      "matched": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/designs.mjs",
+      "sha": "1f7181359aa2c5661b7f59884a659b8ed7642b5e",
+      "matched": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/asset-ids.json",
+      "sha": "a611fd7076895dc70862244234a622f7fa077201",
+      "matched": true
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/layout-tuning.json",
+      "sha": "e8d3138b545de314b22d1e295674b56eb89f6c3c",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/OFL-fraunces.txt",
+      "sha": "1dd64787463c00cecd6ae6eb36585d0ec04131f3",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/OFL-outfit.txt",
+      "sha": "c8d1ebad200111d1bcccc39703ea0c9fd8c7d5f5",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/OFL-bree-serif.txt",
+      "sha": "a32e57ed64b7d8f252bfcf78bccaf26963bd5ab0",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/OFL-libre-caslon-display.txt",
+      "sha": "bc788d846d2682c55400b15a9957518f366cf0da",
+      "matched": true
+    }
+  ],
+  "binaries": [
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-2dd4b9a85608.webp",
+      "sha": "a5627340a2f1027221decdb6f809a3dec246dc0b",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-d7ca3e6e526d.webp",
+      "sha": "a6599d9283b0506d2def13aa1ff4877be34c68e3",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-30f23a05130b.webp",
+      "sha": "d21261338fccd3c5f6f977651dbcc659117b0449",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-3d90d2f8f7af.webp",
+      "sha": "8327a6939787a27ff81c5907f43e3f5a85abbeda",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-d3d064c23a7f.webp",
+      "sha": "15b88d73943697608714756df100556b9e2f654d",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-5378e5895419.webp",
+      "sha": "b55389f23e0ce62270248462bc1011aa159557a8",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+      "sha": "40e7ee94517bc68d378abf3ed1aa8ccf437f720c",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+      "sha": "216b791a554c1118781b5be9a8eba1f4c1c07a06",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2",
+      "sha": "1e993b0492a9988116cac5628893975d9a76d62f",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+      "sha": "4cd30cf22de4d849f8f55d0b512ace76ac687395",
+      "matched": true
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+      "sha": "bb47ba55f62fb8b4a83d37c54921262e75fb6751",
+      "matched": true
+    }
+  ],
+  "allMatched": true,
+  "unchangedParentBlobs": 418
+}

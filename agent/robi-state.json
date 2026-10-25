@@ -1267,7 +1267,12 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Fraunces SemiBold",
+            "Outfit"
+          ]
         },
         {
           "id": "sledeci-nivo",
@@ -1297,7 +1302,12 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Outfit SemiBold",
+            "Outfit"
+          ]
         },
         {
           "id": "zamak-veselih-zastava",
@@ -1327,7 +1337,12 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Napravi Bajka (Bree Serif derivative)",
+            "Outfit"
+          ]
         },
         {
           "id": "jesenji-vinograd",
@@ -1357,7 +1372,12 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Great Vibes",
+            "Cormorant Garamond"
+          ]
         },
         {
           "id": "srebrno-zvonce",
@@ -1387,7 +1407,12 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Libre Caslon Display",
+            "Cormorant Garamond"
+          ]
         },
         {
           "id": "tigricev-nezni-san",
@@ -1417,10 +1442,15 @@
             127,
             177.8
           ],
-          "templatePrepared": true
+          "templatePrepared": true,
+          "typographyRevision": "2026-10-25-typography-01",
+          "fontPair": [
+            "Fraunces",
+            "Cormorant Garamond"
+          ]
         }
       ],
-      "lastConfirmedStep": "Six typography revisions fast-forwarded to main together; Cloudflare deployment pending;61 archive hashes read back matched.",
+      "lastConfirmedStep": "All6 typography revisions deployed together; Cloudflare success 2026-10-25T13:10:28.000+09:00. Production9texts/11assets and61archive hashes read back matched. Required public checks blocked by proxy CONNECT403.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1449,11 +1479,11 @@
         "continuationReportPreparedAt": "2026-10-25T03:22:59Z"
       },
       "resumeActions": [
-        "Do not regenerate or republish25Oct; all6 are deployed.",
-        "Complete only allowed real public verification when destination access becomes available.",
-        "Keep the missed10:00 deadline recorded; no retroactive success.",
-        "Do not advance confirmed counters without all mandatory checks.",
-        "Await actual user aesthetic review; award no points."
+        "All6 typography revisions are already deployed; do not regenerate, duplicate or republish them.",
+        "Finish only permitted real public checks when destination access becomes available.",
+        "Preserve original missed10:00 deadline and initial deployment event; this manual typography revision is not a new daily batch.",
+        "Await the user's actual aesthetic review; award no points.",
+        "Use the recorded occasion-specific premium typography criteria in future batches."
       ],
       "resumedAt": "2026-10-25T03:08:53Z",
       "resumeAuthorization": {
@@ -1465,7 +1495,7 @@
       "preparedAt": "2026-10-25T03:13:34Z",
       "artifactPersistence": {
         "status": "required_artifacts_saved",
-        "binaryFiles": 50,
+        "binaryFiles": 61,
         "sourcePngs": 6,
         "rejectedOriginals": 2,
         "backgroundWebp": 6,
@@ -1474,7 +1504,12 @@
         "pdfExamples": 12,
         "manifest": "content/robi-batches/2026-10-25/artifact-manifest.json",
         "allBlobUploadsMatchedLocalGitSha": true,
-        "all50BinaryReadBackMatched": true
+        "all50BinaryReadBackMatched": true,
+        "fontFiles": 5,
+        "mobileEvidence": 6,
+        "allBinaryReadBackMatched": true,
+        "readBackBinaryFiles": 61,
+        "latestRevision": "2026-10-25-typography-01"
       },
       "prePublicationIncompleteReasonResolvedAt": "2026-10-25T03:13:34Z",
       "publication": {
@@ -1493,40 +1528,40 @@
         "evidence": "content/robi-batches/2026-10-25/deployment-check.json"
       },
       "mainCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
-      "mainUpdatedAt": "2026-10-25T03:18:05Z",
+      "mainUpdatedAt": "2026-10-25T04:09:03Z",
       "productionReadback": {
-        "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
-        "textFiles": 8,
-        "binaryAssets": 12,
+        "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "textFiles": 9,
+        "binaryAssets": 11,
+        "unchangedParentBlobs": 418,
         "allMatched": true,
-        "evidence": "content/robi-batches/2026-10-25/production-readback.json"
+        "evidence": "content/robi-batches/2026-10-25/typography-01/production-readback.json"
       },
       "blockedStage": "post_publication_verification",
       "liveVerification": {
         "status": "blocked_by_environment_network_policy",
-        "checkedAt": "2026-10-25T03:21:27.142503+00:00",
-        "allSixPublicChecks": "unverified",
-        "reason": "All six post-deployment HTTPS requests were denied by the environment proxy at CONNECT403 before any destination response. Public pages/editors/PNG/PDF/category/sitemap/SEO/AdSense remain unverified. This does not establish that the website itself returns403.",
-        "evidence": "content/robi-batches/2026-10-25/public-live-checks.json",
-        "allAttemptsAfterCloudflareCompletion": true
+        "checkedAt": "2026-10-25T04:11:31.386605+00:00",
+        "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
+        "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
       },
       "blockers": [
         {
           "step": "live_public_verification",
           "status": "blocked",
-          "reason": "All six post-deployment HTTPS requests were denied by the environment proxy at CONNECT403 before any destination response. Public pages/editors/PNG/PDF/category/sitemap/SEO/AdSense remain unverified. This does not establish that the website itself returns403.",
-          "evidence": "content/robi-batches/2026-10-25/public-live-checks.json"
+          "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
+          "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
         }
       ],
       "userReview": {
-        "status": "typography_rejected_revision_requested",
+        "status": "original_typography_rejected_revision_awaiting_review",
         "feedback": "agent/feedback/2026-10-25-premium-typography.json",
+        "aestheticApprovalAssumed": false,
         "pointsAwardedThisBatch": 0,
-        "aestheticApprovalAssumed": false
+        "revisionId": "2026-10-25-typography-01"
       },
       "typographyRevision": {
         "id": "2026-10-25-typography-01",
-        "status": "publishing",
+        "status": "blocked",
         "startedAt": "2026-10-25T03:44:45Z",
         "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
         "designIds": [
@@ -1567,7 +1602,69 @@
           "files": 61,
           "allMatched": true,
           "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
-        }
+        },
+        "blockedStage": "post_publication_verification",
+        "lastConfirmedStep": "All6 typography revisions deployed together; Cloudflare success 2026-10-25T13:10:28.000+09:00. Production9texts/11assets and61archive hashes read back matched. Required public checks blocked by proxy CONNECT403.",
+        "publication": {
+          "revisionId": "2026-10-25-typography-01",
+          "status": "deployed_live_verification_blocked",
+          "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+          "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+          "mainUpdatedAt": "2026-10-25T04:09:03Z",
+          "atomicFiles": 20,
+          "allSix": true,
+          "archiveReadback": {
+            "files": 61,
+            "allMatched": true,
+            "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
+          },
+          "prePublicationStatus": "PROŠLO",
+          "publicChecks": "NEPROVERENO",
+          "pointsAwarded": 0,
+          "cloudflareConclusion": "success",
+          "cloudflareCheckId": 121072082615,
+          "completedAt": "2026-10-25T04:10:28Z",
+          "completedAtTokyo": "2026-10-25T13:10:28.000+09:00",
+          "checkedAt": "2026-10-25T04:12:32Z",
+          "verifiedPublicCount": 0,
+          "productionReadback": {
+            "textFiles": 9,
+            "binaryAssets": 11,
+            "unchangedParentBlobs": 418,
+            "allMatched": true,
+            "evidence": "content/robi-batches/2026-10-25/typography-01/production-readback.json"
+          },
+          "liveCheckEvidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json",
+          "deploymentEvidence": "content/robi-batches/2026-10-25/typography-01/deployment-check.json",
+          "userAestheticReview": "awaiting_user_review_of_revision",
+          "countsAsNewDailyBatch": false,
+          "changesAudienceCounters": false
+        },
+        "report": "content/robi-batches/2026-10-25/typography-01/REPORT.md",
+        "liveVerification": {
+          "status": "blocked_by_environment_network_policy",
+          "checkedAt": "2026-10-25T04:11:31.386605+00:00",
+          "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
+          "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
+        },
+        "userAestheticApproval": false
+      },
+      "originalProductionReadback": {
+        "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+        "textFiles": 8,
+        "binaryAssets": 12,
+        "allMatched": true,
+        "evidence": "content/robi-batches/2026-10-25/production-readback.json"
+      },
+      "lastRevisionAudit": {
+        "checkedAt": "2026-10-25T04:12:32Z",
+        "prePublicationChecksPerDesign": 19,
+        "prePublicationStatus": "PROŠLO",
+        "deployedCount": 6,
+        "verifiedPublicCount": 0,
+        "status": "deployed_public_verification_blocked",
+        "evidence": "content/robi-batches/2026-10-25/typography-01/PUBLICATION.json",
+        "pointsAwarded": 0
       }
     }
   ],
@@ -1783,7 +1880,14 @@
       "deployedAt": "2026-10-25T03:19:46Z",
       "audience": "male",
       "birthdayAge": 5,
-      "late": true
+      "late": true,
+      "latestTypographyRevision": {
+        "id": "2026-10-25-typography-01",
+        "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "deployedAt": "2026-10-25T04:10:28Z",
+        "countsAsNewBatch": false,
+        "userApproval": false
+      }
     }
   ],
   "automations": {
@@ -1829,7 +1933,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T04:09:03Z",
+  "updatedAt": "2026-10-25T04:12:32Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -1855,8 +1959,9 @@
       "formal_type_pairing_without_casual_marker_handwriting",
       "review_all_required_checks_after_typography_revision"
     ],
-    "newSeriesAestheticReview": "original_typography_rejected_revision_ready",
-    "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history"
+    "newSeriesAestheticReview": "original_typography_rejected_revision_awaiting_user_review",
+    "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history",
+    "typographyRevisionReport": "content/robi-batches/2026-10-25/typography-01/REPORT.md"
   },
   "score": {
     "regularPoints": 1,
@@ -1878,8 +1983,9 @@
     "channel": "ChatGPT",
     "recordedAt": "2026-10-25T03:44:45Z",
     "batchId": "2026-10-25",
-    "status": "typography_revision_publishing",
-    "confirmedScope": "Svih šest iz današnje serije"
+    "status": "six_typography_revisions_deployed_live_verification_blocked",
+    "confirmedScope": "Svih šest iz današnje serije",
+    "productionCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",
@@ -1891,7 +1997,7 @@
   ],
   "activeTypographyRevision": {
     "id": "2026-10-25-typography-01",
-    "status": "publishing",
+    "status": "blocked",
     "startedAt": "2026-10-25T03:44:45Z",
     "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
     "designIds": [
@@ -1932,6 +2038,51 @@
       "files": 61,
       "allMatched": true,
       "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
-    }
+    },
+    "blockedStage": "post_publication_verification",
+    "lastConfirmedStep": "All6 typography revisions deployed together; Cloudflare success 2026-10-25T13:10:28.000+09:00. Production9texts/11assets and61archive hashes read back matched. Required public checks blocked by proxy CONNECT403.",
+    "publication": {
+      "revisionId": "2026-10-25-typography-01",
+      "status": "deployed_live_verification_blocked",
+      "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+      "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+      "mainUpdatedAt": "2026-10-25T04:09:03Z",
+      "atomicFiles": 20,
+      "allSix": true,
+      "archiveReadback": {
+        "files": 61,
+        "allMatched": true,
+        "controlCommit": "7f48c4283a949cb8ebdefa690e466040188d0b5b"
+      },
+      "prePublicationStatus": "PROŠLO",
+      "publicChecks": "NEPROVERENO",
+      "pointsAwarded": 0,
+      "cloudflareConclusion": "success",
+      "cloudflareCheckId": 121072082615,
+      "completedAt": "2026-10-25T04:10:28Z",
+      "completedAtTokyo": "2026-10-25T13:10:28.000+09:00",
+      "checkedAt": "2026-10-25T04:12:32Z",
+      "verifiedPublicCount": 0,
+      "productionReadback": {
+        "textFiles": 9,
+        "binaryAssets": 11,
+        "unchangedParentBlobs": 418,
+        "allMatched": true,
+        "evidence": "content/robi-batches/2026-10-25/typography-01/production-readback.json"
+      },
+      "liveCheckEvidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json",
+      "deploymentEvidence": "content/robi-batches/2026-10-25/typography-01/deployment-check.json",
+      "userAestheticReview": "awaiting_user_review_of_revision",
+      "countsAsNewDailyBatch": false,
+      "changesAudienceCounters": false
+    },
+    "report": "content/robi-batches/2026-10-25/typography-01/REPORT.md",
+    "liveVerification": {
+      "status": "blocked_by_environment_network_policy",
+      "checkedAt": "2026-10-25T04:11:31.386605+00:00",
+      "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
+      "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
+    },
+    "userAestheticApproval": false
   }
 }

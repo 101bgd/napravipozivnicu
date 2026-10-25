@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batchId": "2026-10-25",
-  "checkedAt": "2026-10-25T04:04:47Z",
+  "checkedAt": "2026-10-25T04:12:32Z",
   "prePublicationStatus": "PROŠLO",
   "separateReviewPass": true,
   "designs": [
@@ -2973,9 +2973,16 @@
     }
   ],
   "publication": {
-    "status": "NEPROVERENO",
-    "stage": "revision_ready_to_publish",
-    "atomicCommitPending": true
+    "status": "PROŠLO",
+    "atomic": true,
+    "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+    "cloudflare": "success",
+    "evidence": "content/robi-batches/2026-10-25/typography-01/PUBLICATION.json",
+    "postPublicationPublicChecks": {
+      "status": "NEPROVERENO",
+      "reason": "All six HTTPS checks after the typography deployment were denied by the inherited proxy at CONNECT403, before a destination response. This does not establish that the website itself returns403. Real public page/editor/export/SEO/AdSense checks remain unverified; proxy and TLS preserved.",
+      "evidence": "content/robi-batches/2026-10-25/typography-01/public-live-checks.json"
+    }
   },
   "userReview": {
     "status": "original_typography_rejected_revision_awaiting_user_review",
@@ -2986,7 +2993,7 @@
   "pointsAwarded": 0,
   "deadlineMet": false,
   "priorMissedDeadlineEvidence": "final-daily-check.json",
-  "finalStatus": "PREPUBLICATION_PASSED_REVISION_NOT_YET_DEPLOYED",
+  "finalStatus": "DEPLOYED_PUBLIC_VERIFICATION_BLOCKED",
   "updatedAt": "2026-10-25T03:22:59Z",
   "revisionId": "2026-10-25-typography-01",
   "previousVersionAestheticVerdict": "User rejected typography; no aesthetic approval inferred for the revision."

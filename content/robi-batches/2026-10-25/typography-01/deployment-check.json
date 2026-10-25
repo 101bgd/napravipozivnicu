@@ -1,0 +1,13 @@
+{
+  "revisionId": "2026-10-25-typography-01",
+  "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "name": "Cloudflare Pages",
+  "checkId": 121072082615,
+  "status": "completed",
+  "conclusion": "success",
+  "completedAt": "2026-10-25T04:10:28Z",
+  "completedAtTokyo": "2026-10-25T13:10:28.000+09:00",
+  "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/a363b79b-a5c1-4897-9708-b37bd5a19552",
+  "mainUpdatedAt": "2026-10-25T04:09:03Z",
+  "source": "GitHub commit check-runs Cloudflare Pages final completed check"
+}
