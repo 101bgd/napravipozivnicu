@@ -3,7 +3,13 @@
     "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
     "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
     "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
-    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+    "fraunces600": "ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+    "fraunces400": "d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+    "outfit400": "78318d71-3fe0-59fe-ad64-34d96886fdc6",
+    "outfit600": "4a534d25-ca56-5a63-a88c-7d424d954ec4",
+    "bajka": "224da539-6db6-5093-a1fe-fa1e77deec5e",
+    "greatvibes": "a8a45639-0d15-4793-a5ea-9c806c035b17"
   },
   "designs": {
     "sareni-vetric": {
@@ -31,5 +37,7 @@
       "thumbnail": "612aabfe-e07d-5c0a-814a-eccc5b67d338"
     }
   },
-  "publicationPreparedAt": "2026-10-25T03:08:58.010Z"
+  "publicationPreparedAt": "2026-10-25T03:08:58.010Z",
+  "typographyRevision": "2026-10-25-typography-01",
+  "typographyUpdatedAt": "2026-10-25T03:49:06.288959Z"
 }

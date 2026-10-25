@@ -475,8 +475,8 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za 1. rođendan sa šarenom papirnom vetrenjačom — Šareni vetrić",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-c3c3c57abc0d.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-5378e5895419.webp"
   },
   {
     "id": "sledeci-nivo",
@@ -494,8 +494,8 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za 18. rođendan sa crvenim gejming kontrolerom — Sledeći nivo",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-2a70f4fa1ecc.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-d3d064c23a7f.webp"
   },
   {
     "id": "zamak-veselih-zastava",
@@ -513,8 +513,8 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za dečiji rođendan sa šarenim zamkom i zastavicama — Zamak veselih zastava",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-5ff98b29dc3a.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-3d90d2f8f7af.webp"
   },
   {
     "id": "jesenji-vinograd",
@@ -532,8 +532,8 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za venčanje sa grožđem i jesenjim vinovim listovima — Jesenji vinograd",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-6e10bfc51551.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-30f23a05130b.webp"
   },
   {
     "id": "srebrno-zvonce",
@@ -551,8 +551,8 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za krštenje sa srebrnim zvonom i krstom — Srebrno zvonce",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-5632cb53f80d.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-d7ca3e6e526d.webp"
   },
   {
     "id": "tigricev-nezni-san",
@@ -570,7 +570,7 @@ export const robiTemplates = [
     "seoTitle": "Pozivnica za rođenje deteta sa usnulim tigrićem — Tigrićev nežni san",
     "style": "custom",
     "hasPhoto": false,
-    "updatedAt": "2026-10-25T03:08:58.010Z",
-    "thumbnail": "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-1f2b66156d91.webp"
+    "updatedAt": "2026-10-25T03:49:06.288959Z",
+    "thumbnail": "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-2dd4b9a85608.webp"
   }
 ];

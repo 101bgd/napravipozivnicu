@@ -198,7 +198,7 @@ export const robiAssets = new Map([
   ],
   [
     "bacf3940-7d56-58a9-afc1-9b863cb8cc64",
-    "/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-c3c3c57abc0d.webp"
+    "/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-5378e5895419.webp"
   ],
   [
     "d05f5861-aa8d-5765-b194-aff4d39e4ef3",
@@ -206,7 +206,7 @@ export const robiAssets = new Map([
   ],
   [
     "74354350-ead5-5996-80d5-8f8bacca0360",
-    "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-2a70f4fa1ecc.webp"
+    "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-d3d064c23a7f.webp"
   ],
   [
     "5a6439dc-ca3c-5546-8b4a-9c5733985371",
@@ -214,7 +214,7 @@ export const robiAssets = new Map([
   ],
   [
     "2ec833a7-fc71-5fb6-95c0-600e682c5a78",
-    "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-5ff98b29dc3a.webp"
+    "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-3d90d2f8f7af.webp"
   ],
   [
     "450d9f2a-0540-599c-b94d-fd19bf0e1f93",
@@ -222,7 +222,7 @@ export const robiAssets = new Map([
   ],
   [
     "d6ded39e-5a4e-5094-8596-6daf60194c1f",
-    "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-6e10bfc51551.webp"
+    "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-30f23a05130b.webp"
   ],
   [
     "843944d4-8b07-55e7-9d30-b3c451b18986",
@@ -230,7 +230,7 @@ export const robiAssets = new Map([
   ],
   [
     "11b65bd9-7e3e-5aa2-b15d-557520ca4e5d",
-    "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-5632cb53f80d.webp"
+    "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-d7ca3e6e526d.webp"
   ],
   [
     "1f21f110-a5ca-56e6-8c66-33732337d03d",
@@ -238,6 +238,26 @@ export const robiAssets = new Map([
   ],
   [
     "612aabfe-e07d-5c0a-814a-eccc5b67d338",
-    "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-1f2b66156d91.webp"
+    "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-2dd4b9a85608.webp"
+  ],
+  [
+    "ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+    "/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2"
+  ],
+  [
+    "d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+    "/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2"
+  ],
+  [
+    "78318d71-3fe0-59fe-ad64-34d96886fdc6",
+    "/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2"
+  ],
+  [
+    "4a534d25-ca56-5a63-a88c-7d424d954ec4",
+    "/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2"
+  ],
+  [
+    "224da539-6db6-5093-a1fe-fa1e77deec5e",
+    "/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2"
   ]
 ]);
