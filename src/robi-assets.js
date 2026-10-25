@@ -191,5 +191,53 @@ export const robiAssets = new Map([
   [
     "9bb21f97-5673-50e6-b8aa-e0b786d46039",
     "/assets/pozivnice/robi/2026-10-24/extra-01/koalin-zagrljaj-thumbnail-679664777a07.webp"
+  ],
+  [
+    "32929b67-196f-507c-956c-0f48ed8b8fb4",
+    "/assets/pozivnice/robi/2026-10-25/sareni-vetric-background-07745fd946af.webp"
+  ],
+  [
+    "bacf3940-7d56-58a9-afc1-9b863cb8cc64",
+    "/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-c3c3c57abc0d.webp"
+  ],
+  [
+    "d05f5861-aa8d-5765-b194-aff4d39e4ef3",
+    "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-background-e1e90559eee9.webp"
+  ],
+  [
+    "74354350-ead5-5996-80d5-8f8bacca0360",
+    "/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-2a70f4fa1ecc.webp"
+  ],
+  [
+    "5a6439dc-ca3c-5546-8b4a-9c5733985371",
+    "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-background-4e9af4f631f6.webp"
+  ],
+  [
+    "2ec833a7-fc71-5fb6-95c0-600e682c5a78",
+    "/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-5ff98b29dc3a.webp"
+  ],
+  [
+    "450d9f2a-0540-599c-b94d-fd19bf0e1f93",
+    "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-background-bc9354793563.webp"
+  ],
+  [
+    "d6ded39e-5a4e-5094-8596-6daf60194c1f",
+    "/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-6e10bfc51551.webp"
+  ],
+  [
+    "843944d4-8b07-55e7-9d30-b3c451b18986",
+    "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-background-23e032af32e9.webp"
+  ],
+  [
+    "11b65bd9-7e3e-5aa2-b15d-557520ca4e5d",
+    "/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-5632cb53f80d.webp"
+  ],
+  [
+    "1f21f110-a5ca-56e6-8c66-33732337d03d",
+    "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-background-ece4097597fa.webp"
+  ],
+  [
+    "612aabfe-e07d-5c0a-814a-eccc5b67d338",
+    "/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-1f2b66156d91.webp"
   ]
 ]);

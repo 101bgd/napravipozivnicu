@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T01:30:28Z",
+  "updatedAt": "2026-10-24T23:03:50Z",
   "motifs": {
     "jeziceva-radost": "sa ježićem i kruškom",
     "noc-na-vinilu": "sa vinilnom pločom",
@@ -79,6 +79,12 @@
     "sladoledna-zurka": "sa sladoledima i šarenim mrvicama",
     "zavet-pomorandzinog-cveta": "sa cvetom pomorandže i zelenim grančicama",
     "molitva-u-lila": "sa molitvenikom i zlatnim krstom",
-    "koalin-zagrljaj": "sa koalom i mladunčetom"
+    "koalin-zagrljaj": "sa koalom i mladunčetom",
+    "zamak-veselih-zastava": "sa šarenim zamkom i zastavicama",
+    "jesenji-vinograd": "sa grožđem i jesenjim vinovim listovima",
+    "srebrno-zvonce": "sa srebrnim zvonom i krstom",
+    "tigricev-nezni-san": "sa usnulim tigrićem",
+    "sledeci-nivo": "sa crvenim gejming kontrolerom",
+    "sareni-vetric": "sa šarenom papirnom vetrenjačom"
   }
 }
