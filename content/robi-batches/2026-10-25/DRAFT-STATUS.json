@@ -1,9 +1,10 @@
 {
-  "status": "prepublication_verified",
+  "status": "deployed_live_verification_blocked",
   "preparedCount": 6,
   "renderingRun": true,
   "buildRun": true,
-  "publishAllowed": true,
-  "liveVerificationPending": true,
-  "originalFailurePreservedIn": "final-daily-check.json"
+  "prePublicationChecksPassed": true,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "missedDeadlinePreservedIn": "final-daily-check.json"
 }

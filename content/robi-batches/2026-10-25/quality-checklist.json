@@ -2817,20 +2817,22 @@
   "publication": [
     {
       "id": "atomic_publication",
-      "status": "NEPROVERENO",
+      "status": "PROŠLO",
       "phase": "publication",
-      "evidence": "not yet published"
+      "evidence": "One main commitf7d75a90ce51e85e3db18919227b37dbb9ebe877, expected parent084b02c9e9cba0611f3dd5fc6226d7603a7f71ea; all6; Cloudflare success2026-10-25T12:19:46.000+09:00."
     },
     {
       "id": "published_site_verification",
       "status": "NEPROVERENO",
       "phase": "postPublication",
-      "evidence": "not yet published; live phase still required"
+      "evidence": "content/robi-batches/2026-10-25/public-live-checks.json",
+      "note": "All six post-deployment HTTPS requests were denied by the environment proxy at CONNECT403 before any destination response. Public pages/editors/PNG/PDF/category/sitemap/SEO/AdSense remain unverified. This does not establish that the website itself returns403."
     }
   ],
   "userReview": "awaiting actual user review; not a publication prerequisite",
   "pointsAwarded": 0,
   "deadlineMet": false,
   "priorMissedDeadlineEvidence": "final-daily-check.json",
-  "finalStatus": "Ready for atomic publication; late; public verification pending"
+  "finalStatus": "Late, deployed; mandatory real public verification blocked",
+  "updatedAt": "2026-10-25T03:22:59Z"
 }

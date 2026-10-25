@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-25",
+  "dateTokyo": "2026-10-25",
+  "status": "blocked",
+  "generatedNewImagesInContinuation": false,
+  "resumedFromSixExistingBackgrounds": true,
+  "startedAt": "2026-10-24T23:03:50Z",
+  "resumedAt": "2026-10-25T03:08:53Z",
+  "preparedAt": "2026-10-25T03:13:34Z",
+  "mainUpdatedAt": "2026-10-25T03:18:05Z",
+  "deployment": {
+    "status": "deployed",
+    "atomic": true,
+    "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+    "expectedParent": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+    "allSixIncluded": true,
+    "recordedAt": "2026-10-25T03:17:49Z",
+    "mainUpdatedAt": "2026-10-25T03:18:05Z",
+    "cloudflareCheckId": 121062804768,
+    "cloudflareConclusion": "success",
+    "completedAt": "2026-10-25T03:19:46Z",
+    "completedAtTokyo": "2026-10-25T12:19:46.000+09:00",
+    "completedBeforeDeadline": false,
+    "evidence": "content/robi-batches/2026-10-25/deployment-check.json"
+  },
+  "designs": [
+    {
+      "id": "sareni-vetric",
+      "name": "Šareni vetrić",
+      "category": "first",
+      "age": 1,
+      "audience": "male",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-sarena-vetrenjaca/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    },
+    {
+      "id": "sledeci-nivo",
+      "name": "Sledeći nivo",
+      "category": "eighteen",
+      "age": 18,
+      "audience": "male",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-gejming-kontroler/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "name": "Zamak veselih zastava",
+      "category": "birthday",
+      "age": 5,
+      "audience": "male",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sareni-zamak/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    },
+    {
+      "id": "jesenji-vinograd",
+      "name": "Jesenji vinograd",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-grozdje-vinovi-listovi/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    },
+    {
+      "id": "srebrno-zvonce",
+      "name": "Srebrno zvonce",
+      "category": "baptism",
+      "age": null,
+      "audience": "male",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-srebrno-zvono/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    },
+    {
+      "id": "tigricev-nezni-san",
+      "name": "Tigrićev nežni san",
+      "category": "baby",
+      "age": null,
+      "audience": "male",
+      "status": "deployed_live_verification_blocked",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
+      "previewDimensions": [
+        500,
+        700
+      ],
+      "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-tigric/",
+      "pngDpi": 300,
+      "pdfSizeMm": [
+        127,
+        177.8
+      ],
+      "templatePrepared": true
+    }
+  ],
+  "requiredCount": 6,
+  "preparedCount": 6,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "completionVerified": false,
+  "prePublicationChecks": "passed",
+  "checks": {
+    "mobileEditors": 6,
+    "pngsOpenedWith300dpi": 18,
+    "pdfsOpenedAndRasterized": 12,
+    "customFontsWithSerbianGlyphs": 3,
+    "historicalImages": 75,
+    "seoPages": 85,
+    "adsenseMockPages": 101,
+    "initialJsGzipBytes": 7133,
+    "archivedBinariesReadBackMatched": 50,
+    "productionTextsReadBackMatched": 8,
+    "productionAssetsReadBackMatched": 12
+  },
+  "sourceDimensionsAll": [
+    1060,
+    1484
+  ],
+  "exportDimensionsAll": [
+    1500,
+    2100
+  ],
+  "upscaled": true,
+  "cropped": false,
+  "pngDpi": 300,
+  "pdfSizeMm": [
+    127,
+    177.8
+  ],
+  "liveVerification": {
+    "status": "blocked_by_environment_network_policy",
+    "checkedAt": "2026-10-25T03:21:27.142503+00:00",
+    "allSixPublicChecks": "unverified",
+    "reason": "All six post-deployment HTTPS requests were denied by the environment proxy at CONNECT403 before any destination response. Public pages/editors/PNG/PDF/category/sitemap/SEO/AdSense remain unverified. This does not establish that the website itself returns403.",
+    "evidence": "content/robi-batches/2026-10-25/public-live-checks.json",
+    "allAttemptsAfterCloudflareCompletion": true
+  },
+  "deadline": {
+    "at": "2026-10-25T10:00:00+09:00",
+    "deliveryMet": false,
+    "deployBeforeDeadline": false,
+    "deployDelaySeconds": 8386,
+    "missedDeadlineAudit": "content/robi-batches/2026-10-25/final-daily-check.json"
+  },
+  "score": {
+    "regularPoints": 1,
+    "bonusPoints": 0,
+    "totalPoints": 1,
+    "targetPoints": 50,
+    "ledger": "agent/review-ledger.json",
+    "updatedAt": "2026-10-21T03:43:31Z"
+  },
+  "pointsAwarded": 0,
+  "userAestheticReview": {
+    "status": "awaiting_post_publication_user_review",
+    "aestheticApprovalAssumed": false,
+    "pointsAwardedThisBatch": 0
+  },
+  "reportPreparedAt": "2026-10-25T03:22:59Z",
+  "actualFinalNotificationTimestampNotInferred": true
+}
