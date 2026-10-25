@@ -1222,7 +1222,7 @@
       "date": "2026-10-25",
       "path": "content/robi-batches/2026-10-25",
       "timezone": "Asia/Tokyo",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "scheduledAt": "2026-10-25T08:00:00+09:00",
       "deadlineAt": "2026-10-25T10:00:00+09:00",
       "preflightStartedAt": "2026-10-24T22:59:25Z",
@@ -1420,7 +1420,7 @@
           "templatePrepared": true
         }
       ],
-      "lastConfirmedStep": "All6 passed18 prepublication checks, actual mobile editors and PNG/PDF downloads. All6 final personalized PDFs visually inspected; production/AdSense tests passed;50 artifact hashes verified on upload. Ready for one atomic publication, late.",
+      "lastConfirmedStep": "50 archived artifact hashes read back matched;24 old metadata entries preserved; complete6-design commit ready. Single main fast-forward about to run.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1467,9 +1467,18 @@
         "pngExamples": 18,
         "pdfExamples": 12,
         "manifest": "content/robi-batches/2026-10-25/artifact-manifest.json",
-        "allBlobUploadsMatchedLocalGitSha": true
+        "allBlobUploadsMatchedLocalGitSha": true,
+        "all50BinaryReadBackMatched": true
       },
-      "prePublicationIncompleteReasonResolvedAt": "2026-10-25T03:13:34Z"
+      "prePublicationIncompleteReasonResolvedAt": "2026-10-25T03:13:34Z",
+      "publication": {
+        "status": "publishing",
+        "atomic": true,
+        "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+        "expectedParent": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+        "allSixIncluded": true,
+        "recordedAt": "2026-10-25T03:17:49Z"
+      }
     }
   ],
   "history": [
@@ -1678,7 +1687,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-25",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1700,7 +1709,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:13:34Z",
+  "updatedAt": "2026-10-25T03:17:49Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

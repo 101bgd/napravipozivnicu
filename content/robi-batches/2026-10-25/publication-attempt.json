@@ -1,0 +1,15 @@
+{
+  "batchId": "2026-10-25",
+  "status": "publishing",
+  "atomic": true,
+  "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+  "expectedParent": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
+  "allSixIncluded": true,
+  "recordedAt": "2026-10-25T03:17:49Z",
+  "archiveReadback": {
+    "count": 50,
+    "allMatched": true,
+    "controlCommit": "71a8508e02909dac73760e275fdf906e92c707a8"
+  },
+  "deadlineAlreadyMissed": true
+}
