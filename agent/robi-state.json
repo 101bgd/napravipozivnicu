@@ -1689,71 +1689,74 @@
       "completionVerified": false,
       "designs": [
         {
-          "id": "vidrin-biserni-dan",
-          "name": "Vidrin biserni dan",
+          "id": "kolacic-prve-radosti",
+          "name": "Kolačić prve radosti",
           "category": "first",
           "age": 1,
           "audience": "female",
-          "motif": "sa malom vidrom i ružičastim lokvanjem",
-          "palette": "aquamarine, coral pink, golden apricot",
+          "motif": "sa svečanim kolačićem i jagodicom",
+          "palette": "warm apricot, raspberry red, turquoise, cocoa",
           "status": "planned"
         },
         {
-          "id": "svilena-maskarada",
-          "name": "Svilena maskarada",
+          "id": "rubinski-sjaj",
+          "name": "Rubinski sjaj",
           "category": "eighteen",
           "age": 18,
           "audience": "female",
-          "motif": "sa venecijanskom maskom i svilenom trakom",
-          "palette": "deep aubergine, rose gold, jewel fuchsia",
+          "motif": "sa rubinskim brošem i zlatnim detaljima",
+          "palette": "deep charcoal violet, ruby, antique gold",
           "status": "planned"
         },
         {
-          "id": "roleri-u-boji",
-          "name": "Roleri u boji",
+          "id": "aksolotlova-zurka",
+          "name": "Aksolotlova žurka",
           "category": "birthday",
           "age": 5,
           "audience": "female",
-          "motif": "sa šarenim rolerima i zvezdicama",
-          "palette": "vivid sunshine yellow, raspberry pink, cobalt, lavender",
+          "motif": "sa ružičastim aksolotlom i mehurićima",
+          "palette": "cobalt blue, coral pink, turquoise, lemon accents",
           "status": "planned"
         },
         {
-          "id": "ginkov-zlatni-zavet",
-          "name": "Ginkov zlatni zavet",
+          "id": "koi-zavet",
+          "name": "Koi zavet",
           "category": "wedding",
           "age": null,
           "audience": "couple",
-          "motif": "sa zlatnim listovima ginka",
-          "palette": "deep forest emerald, antique gold, warm ivory",
+          "motif": "sa parom koi riba",
+          "palette": "deep petrol blue, ivory, coral orange, subtle gold",
           "status": "planned"
         },
         {
-          "id": "ciklamin-blagoslov",
-          "name": "Ciklamin blagoslov",
+          "id": "biser-krstenja",
+          "name": "Biser krštenja",
           "category": "baptism",
           "age": null,
           "audience": "female",
-          "motif": "sa ciklamom i zlatnim krstom",
-          "palette": "warm porcelain ivory, cyclamen magenta, deep sage, brushed gold",
+          "motif": "sa sedefnom školjkom i zlatnim krstom",
+          "palette": "soft porcelain rose, mother of pearl, antique gold, burgundy text space",
           "status": "planned"
         },
         {
-          "id": "lisicin-topli-zagrljaj",
-          "name": "Lisičin topli zagrljaj",
+          "id": "zvecka-nove-radosti",
+          "name": "Zvečka nove radosti",
           "category": "baby",
           "age": null,
           "audience": "female",
-          "motif": "sa lisicom i mladunčetom",
-          "palette": "deep midnight blue, copper orange, soft ivory",
+          "motif": "sa drvenom zvečkom i koralnom mašnom",
+          "palette": "warm ivory, natural honey wood, coral, soft leaf green",
           "status": "planned"
         }
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "Read six adopted rule/state files, user feedback, complete catalog motif history, and fresh main; isolated local main hashes verified438/438.",
+      "lastConfirmedStep": "Six original sources returned; all six rejected for insufficient ornament trim inset, replaced with wholly different motifs/compositions before template work.",
       "userAestheticApproval": false,
-      "pointsAwarded": 0
+      "pointsAwarded": 0,
+      "totalGenerationAttempts": 6,
+      "totalReturnedGenerations": 6,
+      "rejectedDesignCount": 6
     }
   ],
   "history": [
@@ -2021,7 +2024,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T23:07:05Z",
+  "updatedAt": "2026-10-25T23:13:00Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
