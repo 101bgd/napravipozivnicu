@@ -1232,7 +1232,7 @@
       "birthdayAge": 5,
       "audienceAssignment": "planned_from_retained_deployments_including_explicit24Oct_extra_female4; confirmed_counters_unchanged_pending_live_checks",
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -1372,7 +1372,7 @@
           "templatePrepared": false
         }
       ],
-      "lastConfirmedStep": "Resumed user-authorized work from6 archived backgrounds; first actual renders prepared; one address/contrast issue corrected before full browser/export checks.",
+      "lastConfirmedStep": "6 actual editable templates rendered; default/long text checks passed;6 mobile editors with real downloads passed;18 PNGs opened at300dpi and12 PDFs opened/rasterized; all6 personalized PDFs visually inspected. Existing production/AdSense smoke tests and artifact archiving still running.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1641,7 +1641,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:08:53Z",
+  "updatedAt": "2026-10-25T03:11:52Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
