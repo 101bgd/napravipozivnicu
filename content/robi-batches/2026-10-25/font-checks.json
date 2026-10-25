@@ -1,28 +1,100 @@
 {
+  "checkedAt": "2026-10-25T04:01:13.547175+00:00",
+  "status": "PROŠLO",
   "fonts": [
     {
-      "font": "Baloo 2",
-      "path": "public/assets/pozivnice/deciji-rodjendani/baloo2-600-sr-1281ff97216e.woff2",
-      "serbianGlyphs": "passed",
-      "missing": []
+      "assetId": "ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+      "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+      "name": "Fraunces SemiBold",
+      "url": "/media/ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+      "bytes": 28920,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
     },
     {
-      "font": "Cormorant Garamond",
+      "assetId": "78318d71-3fe0-59fe-ad64-34d96886fdc6",
+      "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+      "name": "Outfit",
+      "url": "/media/78318d71-3fe0-59fe-ad64-34d96886fdc6",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+      "bytes": 17732,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
+    },
+    {
+      "assetId": "4a534d25-ca56-5a63-a88c-7d424d954ec4",
+      "family": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
+      "name": "Outfit SemiBold",
+      "url": "/media/4a534d25-ca56-5a63-a88c-7d424d954ec4",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2",
+      "bytes": 18012,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
+    },
+    {
+      "assetId": "224da539-6db6-5093-a1fe-fa1e77deec5e",
+      "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+      "name": "Napravi Bajka",
+      "url": "/media/224da539-6db6-5093-a1fe-fa1e77deec5e",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+      "bytes": 13932,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
+    },
+    {
+      "assetId": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+      "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+      "name": "Cormorant Garamond",
+      "url": "/media/36abdc26-d404-4d00-b4c0-e402b72a8de0",
       "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
-      "serbianGlyphs": "passed",
-      "missing": []
+      "bytes": 89628,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
     },
     {
-      "font": "Marck Script",
-      "path": "public/assets/pozivnice/krstenje/rukopis-400-sr-fc70639fc26a.woff2",
-      "serbianGlyphs": "passed",
-      "missing": []
+      "assetId": "a8a45639-0d15-4793-a5ea-9c806c035b17",
+      "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+      "name": "Great Vibes",
+      "url": "/media/a8a45639-0d15-4793-a5ea-9c806c035b17",
+      "path": "public/assets/pozivnice/ponocna-elegancija/great-vibes-sr-7ec0bdb540f9.woff2",
+      "bytes": 79220,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
+    },
+    {
+      "assetId": "d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+      "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+      "name": "Fraunces",
+      "url": "/media/d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+      "bytes": 28692,
+      "serbianLatin": "PROŠLO",
+      "license": "SIL OFL 1.1",
+      "loadedInActualEditor": true
+    },
+    {
+      "name": "Libre Caslon Display latin",
+      "path": "node_modules/@fontsource/libre-caslon-display/files/libre-caslon-display-latin-400-normal.woff2",
+      "bytes": 24236,
+      "license": "SIL OFL 1.1",
+      "licensePath": "public/assets/pozivnice/fonts/typography-20261025/OFL-libre-caslon-display.txt"
+    },
+    {
+      "name": "Libre Caslon Display latin-ext",
+      "path": "node_modules/@fontsource/libre-caslon-display/files/libre-caslon-display-latin-ext-400-normal.woff2",
+      "bytes": 16308,
+      "license": "SIL OFL 1.1",
+      "licensePath": "public/assets/pozivnice/fonts/typography-20261025/OFL-libre-caslon-display.txt"
     }
   ],
-  "licenses": [
-    "public/assets/pozivnice/deciji-rodjendani/OFL-baloo2.txt",
-    "public/assets/pozivnice/krstenje/OFL-cormorant.txt",
-    "public/assets/pozivnice/krstenje/OFL-marckscript.txt"
-  ],
-  "baseFont": "Existing licensed DM Sans package, latin and latin-ext loaded together."
+  "actualEditorChecks": "typography-01/font-browser-checks.json",
+  "builtinLatinAndExtendedLoaded": true,
+  "sourceAndLicenses": "typography-01/font-manifest.json"
 }

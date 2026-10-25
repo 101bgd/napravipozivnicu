@@ -1,0 +1,10 @@
+PASS: shipped wedding design, stable SEO URL, custom font, no photo field, editable names with Serbian diacritics and actual PNG export.
+PASS: four birthday designs have unique SEO text, descriptive image alt, editable age/name, loaded fonts, no photo slot, mobile layouts and valid PNG/PDF downloads; removed examples are absent from the sitemap.
+PASS: four baptism designs have crawlable SEO pages, image metadata, Cyrillic/Latin fonts and date switching, editable ceremony/reception, local drafts, no photo slot and valid mobile PNG/PDF downloads.
+PASS: three eighteenth-birthday designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, loaded fonts, editable names/RSVP, local drafts, no photo slot and valid PNG/PDF exports at 320px.
+PASS: nine new eighteenth-birthday designs have crawlable SEO pages, image metadata, lazy full backgrounds, loaded fonts, rendered Serbian diacritics, editable multiline locations/notes, local drafts, no photo field, ad placements and real PNG/PDF downloads at 320px.
+PASS: eight wedding designs have crawlable SEO pages, image metadata, lazy backgrounds, loaded fonts, independently editable names/ceremony/reception/RSVP, local drafts and valid PNG/PDF exports at 320px without photo fields.
+PASS: ten first-birthday designs have crawlable pages, unique SEO/image metadata, shared local fonts, lazy backgrounds, editable details, local drafts, valid PNG/PDF exports at 320px, no photo slot and a global ad placement on every page.
+PASS: six birth invitation designs have crawlable pages, distinct SEO/image metadata, lazy backgrounds, local fonts, editable multiline details, saved drafts, valid mobile PNG/PDF downloads, no photo field and one global ad placement per page.
+PASS: privacy/about/contact work without JS, footer navigation, visible mailto contact, unique SEO and structured page types, sitemap and 320–1440px layouts.
+PASS: landing/catalog/category HTML without JS, 7134/7134 bytes landing/catalog initial JS gzip (<10 KB each), lazy editor/PDF, all scrolled previews, filter cache, repeatable editor drawing.

@@ -6,10 +6,10 @@
     "sha256": "07745fd946af3052734391ac937542a39aa2d09302ec929f7c10a6bca7a2e2e1"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-c3c3c57abc0d.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-5378e5895419.webp",
     "id": "bacf3940-7d56-58a9-afc1-9b863cb8cc64",
-    "bytes": 39810,
-    "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756"
+    "bytes": 40372,
+    "sha256": "5378e58954196e246927c3662148579b905eb88ddcb5b81c0ffd5cd1debf7d71"
   },
   {
     "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-background-e1e90559eee9.webp",
@@ -18,10 +18,10 @@
     "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-2a70f4fa1ecc.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-d3d064c23a7f.webp",
     "id": "74354350-ead5-5996-80d5-8f8bacca0360",
-    "bytes": 35322,
-    "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd"
+    "bytes": 34730,
+    "sha256": "d3d064c23a7f8214bd5046c1f1447e454a9904b527c5658bd8f5f3b70ceefad3"
   },
   {
     "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-background-4e9af4f631f6.webp",
@@ -30,10 +30,10 @@
     "sha256": "4e9af4f631f63919d140d5673c4a5ef99c9ac42e921429823f6c2e2aac4d645d"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-5ff98b29dc3a.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-3d90d2f8f7af.webp",
     "id": "2ec833a7-fc71-5fb6-95c0-600e682c5a78",
-    "bytes": 70726,
-    "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e"
+    "bytes": 70194,
+    "sha256": "3d90d2f8f7af988126b700d03857b250a33e2a444bfe3edbeedcba5acfa96a3d"
   },
   {
     "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-background-bc9354793563.webp",
@@ -42,10 +42,10 @@
     "sha256": "bc935479356365938f4c013b2e9cca497a25c638c371095dc1f29ee23b0f744e"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-6e10bfc51551.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-30f23a05130b.webp",
     "id": "d6ded39e-5a4e-5094-8596-6daf60194c1f",
-    "bytes": 54212,
-    "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1"
+    "bytes": 56256,
+    "sha256": "30f23a05130b7aeffb017206e80fe8fd317e6f365e95017dbac77c28d17b131d"
   },
   {
     "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-background-23e032af32e9.webp",
@@ -54,10 +54,10 @@
     "sha256": "23e032af32e96061d8d23d52ceab779ef5a6f0a5944b6592b9475672df914827"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-5632cb53f80d.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-d7ca3e6e526d.webp",
     "id": "11b65bd9-7e3e-5aa2-b15d-557520ca4e5d",
-    "bytes": 61374,
-    "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d"
+    "bytes": 60900,
+    "sha256": "d7ca3e6e526d92561201e3dee4922f0165f5d202e3bcdca8bbafd26730f68cad"
   },
   {
     "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-background-ece4097597fa.webp",
@@ -66,9 +66,9 @@
     "sha256": "ece4097597fa62de787a6a3831c50190b5d099a9fc1296422394fe43cffb4a2a"
   },
   {
-    "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-1f2b66156d91.webp",
+    "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-2dd4b9a85608.webp",
     "id": "612aabfe-e07d-5c0a-814a-eccc5b67d338",
-    "bytes": 63554,
-    "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20"
+    "bytes": 60656,
+    "sha256": "2dd4b9a8560832bd845ba032faf9b32c18d85fe86bccd0c5f9ca72509ca0d491"
   }
 ]

@@ -9,8 +9,12 @@
   },
   "status": "typography_rejected_revision_requested",
   "scope": {
-    "immediate": "current_six_templates",
-    "optionalClarification": "user_asked_whether_all_catalog_or_current_six; proceeding_current_six",
+    "immediate": "six_current_2026-10-25_templates",
+    "confirmedByUser": true,
+    "confirmation": {
+      "channel": "ChatGPT",
+      "quote": "Svih šest iz današnje serije"
+    },
     "future": "all_new_or_edited_templates"
   },
   "requirements": [

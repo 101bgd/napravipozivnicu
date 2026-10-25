@@ -1,0 +1,97 @@
+[
+  {
+    "key": "fraunces600",
+    "assetId": "ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+    "name": "Fraunces SemiBold",
+    "weight": 600,
+    "url": "/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+    "bytes": 28920,
+    "sha256": "a3c19ba100f4a76392b64869c0e60f38f656acd31c761765b8063d4095fd913d",
+    "serbianLatin": "passed",
+    "glyphCount": 502,
+    "license": "public/assets/pozivnice/fonts/typography-20261025/OFL-fraunces.txt",
+    "originalFamily": "fraunces",
+    "combinedSubsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "renamedForReservedFontName": false
+  },
+  {
+    "key": "fraunces400",
+    "assetId": "d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+    "name": "Fraunces",
+    "weight": 400,
+    "url": "/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+    "bytes": 28692,
+    "sha256": "aef3f0943c1c11743520ce489da3289b493663e37c69df71a049b681592152ef",
+    "serbianLatin": "passed",
+    "glyphCount": 502,
+    "license": "public/assets/pozivnice/fonts/typography-20261025/OFL-fraunces.txt",
+    "originalFamily": "fraunces",
+    "combinedSubsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "renamedForReservedFontName": false
+  },
+  {
+    "key": "outfit400",
+    "assetId": "78318d71-3fe0-59fe-ad64-34d96886fdc6",
+    "name": "Outfit",
+    "weight": 400,
+    "url": "/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+    "bytes": 17732,
+    "sha256": "6dab0030f54e7a6627167323e5c94a510849330195dbb1e6ba47b52d96be26f2",
+    "serbianLatin": "passed",
+    "glyphCount": 336,
+    "license": "public/assets/pozivnice/fonts/typography-20261025/OFL-outfit.txt",
+    "originalFamily": "outfit",
+    "combinedSubsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "renamedForReservedFontName": false
+  },
+  {
+    "key": "outfit600",
+    "assetId": "4a534d25-ca56-5a63-a88c-7d424d954ec4",
+    "name": "Outfit SemiBold",
+    "weight": 600,
+    "url": "/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2",
+    "bytes": 18012,
+    "sha256": "4f8eaade911d87c90aebe3a51a40c3af3efd3f08af3dbf39272a47af50eadb42",
+    "serbianLatin": "passed",
+    "glyphCount": 336,
+    "license": "public/assets/pozivnice/fonts/typography-20261025/OFL-outfit.txt",
+    "originalFamily": "outfit",
+    "combinedSubsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "renamedForReservedFontName": false
+  },
+  {
+    "key": "bajka",
+    "assetId": "224da539-6db6-5093-a1fe-fa1e77deec5e",
+    "name": "Napravi Bajka",
+    "weight": 400,
+    "url": "/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+    "bytes": 13932,
+    "sha256": "ef5ff1d47771b464d1eca0200157e7c035a7b5109cf64cba7392ee5bd993b32c",
+    "serbianLatin": "passed",
+    "glyphCount": 365,
+    "license": "public/assets/pozivnice/fonts/typography-20261025/OFL-bree-serif.txt",
+    "originalFamily": "bree-serif",
+    "combinedSubsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "renamedForReservedFontName": true
+  }
+]

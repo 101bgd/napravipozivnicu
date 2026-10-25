@@ -2,43 +2,43 @@
   {
     "id": "sareni-vetric",
     "category": "first",
-    "categoryPath": "/pozivnice-za-prvi-rodjendan/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-prvi-rodjendan/index.html"
+    "page": "/pozivnice-za-prvi-rodjendan/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   },
   {
     "id": "sledeci-nivo",
     "category": "eighteen",
-    "categoryPath": "/pozivnice-za-18-rodjendan/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-18-rodjendan/index.html"
+    "page": "/pozivnice-za-18-rodjendan/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   },
   {
     "id": "zamak-veselih-zastava",
     "category": "birthday",
-    "categoryPath": "/pozivnice-za-rodjendan/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-rodjendan/index.html"
+    "page": "/pozivnice-za-rodjendan/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   },
   {
     "id": "jesenji-vinograd",
     "category": "wedding",
-    "categoryPath": "/pozivnice-za-vencanje/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-vencanje/index.html"
+    "page": "/pozivnice-za-vencanje/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   },
   {
     "id": "srebrno-zvonce",
     "category": "baptism",
-    "categoryPath": "/pozivnice-za-krstenje/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-krstenje/index.html"
+    "page": "/pozivnice-za-krstenje/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   },
   {
     "id": "tigricev-nezni-san",
     "category": "baby",
-    "categoryPath": "/pozivnice-za-rodjenje-deteta/",
-    "status": "passed",
-    "evidence": "dist/pozivnice-za-rodjenje-deteta/index.html"
+    "page": "/pozivnice-za-rodjenje-deteta/",
+    "status": "PROŠLO",
+    "templateSlugPresent": true
   }
 ]

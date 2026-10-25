@@ -1,78 +1,475 @@
 {
-  "reviewedAt": "2026-10-25T03:13:34Z",
-  "reviewer": "Robi",
+  "revision": "2026-10-25-typography-01",
+  "reviewedAt": "2026-10-25T04:01:13.547477+00:00",
+  "reviewer": "Robi_self_review_not_user_approval",
   "separateReviewPass": true,
-  "actualFilesReviewed": [
-    "all6 source backgrounds from prior generation",
-    "all6 actual default previews",
-    "all6 actual downloaded personalized PDF rasterizations"
-  ],
-  "groupPaletteReview": "All6 final compositions/palettes compared; children designs vivid and differentiated, other palettes suitable to occasion.",
-  "designs": {
-    "sareni-vetric": {
-      "palette": [
-        "lime green",
-        "yellow",
-        "red",
-        "turquoise",
-        "cobalt",
-        "dark green type"
+  "backgroundChanges": false,
+  "newGenerations": 0,
+  "designs": [
+    {
+      "id": "sareni-vetric",
+      "name": "Šareni vetrić",
+      "pair": [
+        "Fraunces SemiBold",
+        "Outfit"
       ],
-      "composition": "Complete pinwheel and stick inset at lower left; large name/age above, event details deliberately right of illustration.",
-      "review": "Final default preview and actual personalized PDF viewed; no text over blades or stick."
+      "reason": "Meko serifno ime i uzrast uz čist geometrijski prateći tekst; živa papirna ilustracija ostaje vodeći motiv.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 16.5,
+          "toSize": 15.5
+        },
+        {
+          "field": "names",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "fromSize": 84,
+          "toSize": 83
+        },
+        {
+          "field": "age",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "fromSize": 84,
+          "toSize": 82
+        },
+        {
+          "field": "occasion",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "fromSize": 29,
+          "toSize": 31
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 19,
+          "toSize": 20
+        },
+        {
+          "field": "date",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "fromSize": 30,
+          "toSize": 25
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 21,
+          "toSize": 22
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 17,
+          "toSize": 18
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": 12,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     },
-    "sledeci-nivo": {
-      "palette": [
-        "charcoal navy",
-        "scarlet",
-        "cyan",
-        "warm ivory type"
+    {
+      "id": "sledeci-nivo",
+      "name": "Sledeći nivo",
+      "pair": [
+        "Outfit SemiBold",
+        "Outfit"
       ],
-      "composition": "Whole unlabeled controller below typography; date/time/location raised after initial address touched controller.",
-      "review": "Corrected actual PDF has clear gap above controller; long name fits safely."
+      "reason": "Snažna savremena geometrija i mirniji prateći rez prate gejming motiv; uklonjen je prethodni kontrast klasičnog serifa sa kontrolerom.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 17,
+          "toSize": 15.5
+        },
+        {
+          "field": "names",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
+          "fromSize": 84,
+          "toSize": 83
+        },
+        {
+          "field": "age",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
+          "fromSize": 94,
+          "toSize": 90
+        },
+        {
+          "field": "occasion",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 28,
+          "toSize": 23
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 20,
+          "toSize": 20
+        },
+        {
+          "field": "date",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 31,
+          "toSize": 24
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 23,
+          "toSize": 23
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 18.5,
+          "toSize": 18.5
+        },
+        {
+          "field": "rsvp",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 14,
+          "toSize": 14.5
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": 13,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     },
-    "zamak-veselih-zastava": {
-      "palette": [
-        "bright aqua",
-        "purple",
-        "coral",
-        "golden yellow",
-        "deep blue type"
+    {
+      "id": "zamak-veselih-zastava",
+      "name": "Zamak veselih zastava",
+      "pair": [
+        "Napravi Bajka (Bree Serif derivative)",
+        "Outfit"
       ],
-      "composition": "Vivid castle occupies lower half; large name/age and details sit above flags.",
-      "review": "Actual personalized age10 export viewed; big name and nearby occasion remain separate and clear of castle."
+      "reason": "Krupno knjiško serifno pismo prati bajkoviti zamak, uz čitljiv savremeni prateći tekst. Nije korišćen naduvani marker stil.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 16.5,
+          "toSize": 15.5
+        },
+        {
+          "field": "names",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "fromSize": 96,
+          "toSize": 91
+        },
+        {
+          "field": "age",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "fromSize": 84,
+          "toSize": 79
+        },
+        {
+          "field": "occasion",
+          "fromFamily": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+          "toFamily": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "fromSize": 28,
+          "toSize": 32
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 19,
+          "toSize": 19
+        },
+        {
+          "field": "date",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "fromSize": 27,
+          "toSize": 23.5
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 21,
+          "toSize": 21
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "fromSize": 17,
+          "toSize": 17
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": 12,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     },
-    "jesenji-vinograd": {
-      "palette": [
-        "brick red",
-        "purple grapes",
-        "ochre gold",
-        "warm ivory type"
+    {
+      "id": "jesenji-vinograd",
+      "name": "Jesenji vinograd",
+      "pair": [
+        "Great Vibes",
+        "Cormorant Garamond"
       ],
-      "composition": "Whole grapes upper left, large default couple names on right axis; lower event details in two columns.",
-      "review": "Both default and long two-word name exports viewed; ceremony/reception and lower RSVP clear of vine leaves."
+      "reason": "Fina kaligrafija za imena i dosledan klasičan serif za uvod, poruku i detalje. Duža imena pomerena desno od vinovog lišća.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16,
+          "toSize": 18
+        },
+        {
+          "field": "bride",
+          "fromFamily": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+          "toFamily": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "fromSize": 70,
+          "toSize": 76
+        },
+        {
+          "field": "groom",
+          "fromFamily": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+          "toFamily": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "fromSize": 70,
+          "toSize": 76
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 18,
+          "toSize": 23
+        },
+        {
+          "field": "ceremony_time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 19
+        },
+        {
+          "field": "ceremony_location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 21
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 19
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 21
+        },
+        {
+          "field": "rsvp",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 14,
+          "toSize": 18
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": null,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     },
-    "srebrno-zvonce": {
-      "palette": [
-        "azure",
-        "pale blue",
-        "silver",
-        "gold",
-        "navy type"
+    {
+      "id": "srebrno-zvonce",
+      "name": "Srebrno zvonce",
+      "pair": [
+        "Libre Caslon Display",
+        "Cormorant Garamond"
       ],
-      "composition": "Whole bell and ribbon below centered name/occasion; two event columns remain above the bell.",
-      "review": "Actual personalized PDF viewed with Serbian letters and long name; details remain readable."
+      "reason": "Mirno klasično ime u velikom serifnom pismu i razmaknuti naslov, uz povezanu serifnu tipografiju detalja obreda i proslave.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16.5,
+          "toSize": 18
+        },
+        {
+          "field": "names",
+          "fromFamily": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+          "toFamily": "Libre Caslon Display",
+          "fromSize": 82,
+          "toSize": 88
+        },
+        {
+          "field": "occasion",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 37,
+          "toSize": 34
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 18,
+          "toSize": 23
+        },
+        {
+          "field": "ceremony_time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16.5,
+          "toSize": 18.5
+        },
+        {
+          "field": "ceremony_location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16.5,
+          "toSize": 20
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16.5,
+          "toSize": 18.5
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 16.5,
+          "toSize": 20
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": null,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     },
-    "tigricev-nezni-san": {
-      "palette": [
-        "midnight teal",
-        "copper orange",
-        "jade",
-        "warm ivory type"
+    {
+      "id": "tigricev-nezni-san",
+      "name": "Tigrićev nežni san",
+      "pair": [
+        "Fraunces",
+        "Cormorant Garamond"
       ],
-      "composition": "Whole sleeping cub above large name, clear main text below; lowest details shift right around leaves.",
-      "review": "Actual personalized PDF viewed; whole cub intact and type clear of jungle foliage."
+      "reason": "Meko serifno ime i laganiji svečani tekst ispod tigrića; tamna paleta ima svetao čitljiv tekst bez ležernog markernog rukopisa.",
+      "changed": [
+        {
+          "field": "title",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 16
+        },
+        {
+          "field": "names",
+          "fromFamily": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+          "toFamily": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+          "fromSize": 94,
+          "toSize": 80
+        },
+        {
+          "field": "occasion",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 28,
+          "toSize": 25
+        },
+        {
+          "field": "note",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 18.5,
+          "toSize": 23
+        },
+        {
+          "field": "date",
+          "fromFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 30,
+          "toSize": 29
+        },
+        {
+          "field": "time",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 21,
+          "toSize": 25
+        },
+        {
+          "field": "location",
+          "fromFamily": "DM Sans",
+          "toFamily": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "fromSize": 17,
+          "toSize": 20
+        }
+      ],
+      "defaultAndLongTextStatus": "PROŠLO",
+      "ageLabelActualInkGapAt500": null,
+      "safeInsetAt1500": 60,
+      "actualDefaultPreviewReviewed": true,
+      "actualPersonalizedPdfRasterReviewed": true,
+      "actual390pxMobileExpandedReviewed": true,
+      "alignmentReview": "Centered ink visually reviewed; wedding intentionally right weighted to clear foliage, lower event columns balanced.",
+      "userAestheticApproval": "awaiting_user_review_of_revision"
     }
-  },
-  "userAestheticApproval": null
+  ],
+  "allSixCompared": true,
+  "userAestheticApproval": false,
+  "pointsAwarded": 0,
+  "history": {
+    "previousProductionCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+    "previousControlCommit": "8a3213df5eae906620609307c8ad79f7cfc270c1",
+    "previousArtifactsPreservedInGitHistory": true
+  }
 }

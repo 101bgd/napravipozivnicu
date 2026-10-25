@@ -22,7 +22,7 @@ for(const meta of batchCatalog){
   files.push({path:path.relative(root,dest),id:ids.designs[meta.id][key],bytes:bytes.length,sha256:sha});
  }
  const prior=oldTemplates.find(t=>t.id===meta.id);
- catalog.push({...meta,updatedAt:prior?.updatedAt||ids.publicationPreparedAt,thumbnail});
+ catalog.push({...meta,updatedAt:ids.typographyUpdatedAt||prior?.updatedAt||ids.publicationPreparedAt,thumbnail});
 }
 await fs.writeFile(path.join(root,'src/robi-assets.js'),'// Stable public assets; existing entries preserved.\nexport const robiAssets = new Map('+JSON.stringify([...assets],null,2)+');\n');
 await fs.writeFile(path.join(root,'src/robi-catalog.js'),'// Metadata only; editor, layouts and fonts remain lazy.\nexport const robiTemplates = '+JSON.stringify(catalog,null,2)+';\n');

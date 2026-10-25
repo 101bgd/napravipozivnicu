@@ -8,12 +8,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 2503000
+      "bytes": 2507225
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 1955353
+      "bytes": 1959806
     },
     "browserErrors": []
   },
@@ -26,12 +26,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 1407889
+      "bytes": 1386165
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 1148431
+      "bytes": 1131888
     },
     "browserErrors": []
   },
@@ -44,12 +44,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 3278483
+      "bytes": 3269049
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 2798882
+      "bytes": 2790682
     },
     "browserErrors": []
   },
@@ -62,12 +62,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 2359760
+      "bytes": 2390628
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 1955108
+      "bytes": 1983706
     },
     "browserErrors": []
   },
@@ -80,12 +80,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 3022175
+      "bytes": 3023543
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 2559949
+      "bytes": 2565199
     },
     "browserErrors": []
   },
@@ -98,12 +98,12 @@
     "png": {
       "width": 1500,
       "height": 2100,
-      "bytes": 2748978
+      "bytes": 2739249
     },
     "pdf": {
       "widthPoints": 360,
       "heightPoints": 504,
-      "bytes": 2301735
+      "bytes": 2295666
     },
     "browserErrors": []
   }

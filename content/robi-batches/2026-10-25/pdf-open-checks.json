@@ -1,113 +1,161 @@
 {
-  "status": "passed",
-  "pdfFiles": [
+  "checkedAt": "2026-10-25T03:53:22.984531+00:00",
+  "files": [
     {
       "file": "examples/jesenji-vinograd-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/jesenji-vinograd.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/sareni-vetric-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/sareni-vetric.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/sledeci-nivo-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/sledeci-nivo.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/srebrno-zvonce-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/srebrno-zvonce.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/tigricev-nezni-san-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/tigricev-nezni-san.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/zamak-veselih-zastava-editor.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     },
     {
       "file": "examples/zamak-veselih-zastava.pdf",
-      "opened": "passed",
-      "sizePoints": [
+      "status": "PROŠLO",
+      "pagePoints": [
         360,
         504
       ],
-      "rasterized": "passed"
+      "pageMm": [
+        127,
+        177.8
+      ],
+      "rasterized": true
     }
   ]
 }

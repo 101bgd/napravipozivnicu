@@ -1,62 +1,9 @@
 {
-  "count": 50,
+  "count": 61,
+  "updatedAt": "2026-10-25T04:04:47Z",
+  "revisionId": "2026-10-25-typography-01",
+  "previousManifestCommit": "8a3213df5eae906620609307c8ad79f7cfc270c1",
   "files": [
-    {
-      "path": "content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
-      "bytes": 1780604,
-      "gitSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2",
-      "sha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
-      "blobSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
-      "bytes": 2192718,
-      "gitSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e",
-      "sha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
-      "blobSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
-      "bytes": 2224321,
-      "gitSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0",
-      "sha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
-      "blobSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
-      "bytes": 2217083,
-      "gitSha": "198f9c89839cf4a598e668bad76806af6affd655",
-      "sha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
-      "blobSha": "198f9c89839cf4a598e668bad76806af6affd655"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/rejected/elektricni-akord.png",
-      "bytes": 2245649,
-      "gitSha": "50b9756008ad0e4e724aa538b428b7470c6bf306",
-      "sha256": "5872ba878ded1745cc4b7ee83eb264808424965254eb69ab317f3d660794186a",
-      "blobSha": "50b9756008ad0e4e724aa538b428b7470c6bf306"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
-      "bytes": 2278232,
-      "gitSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276",
-      "sha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
-      "blobSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/rejected/pandin-zeleni-dan.png",
-      "bytes": 2184302,
-      "gitSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398",
-      "sha256": "900a552e3ee7e438f80e00d85b370fbe4a0e7ace95baab37eec865b70928ea18",
-      "blobSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/sources/sareni-vetric.png",
-      "bytes": 2070875,
-      "gitSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2",
-      "sha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
-      "blobSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2"
-    },
     {
       "path": "content/robi-batches/2026-10-25/backgrounds/jesenji-vinograd.webp",
       "bytes": 205038,
@@ -65,18 +12,18 @@
       "blobSha": "3660e319137853cc80ba06732f72e937a8d64bd3"
     },
     {
-      "path": "content/robi-batches/2026-10-25/backgrounds/sledeci-nivo.webp",
-      "bytes": 122346,
-      "gitSha": "73f03d26a5523569d09f2de0623687ebaf582873",
-      "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b",
-      "blobSha": "73f03d26a5523569d09f2de0623687ebaf582873"
-    },
-    {
       "path": "content/robi-batches/2026-10-25/backgrounds/sareni-vetric.webp",
       "bytes": 174370,
       "gitSha": "ae3d38168beca549780e7a39fa9392a9c2482dde",
       "sha256": "07745fd946af3052734391ac937542a39aa2d09302ec929f7c10a6bca7a2e2e1",
       "blobSha": "ae3d38168beca549780e7a39fa9392a9c2482dde"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/backgrounds/sledeci-nivo.webp",
+      "bytes": 122346,
+      "gitSha": "73f03d26a5523569d09f2de0623687ebaf582873",
+      "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b",
+      "blobSha": "73f03d26a5523569d09f2de0623687ebaf582873"
     },
     {
       "path": "content/robi-batches/2026-10-25/backgrounds/srebrno-zvonce.webp",
@@ -100,256 +47,389 @@
       "blobSha": "505260e36b148576dcf9bdbad33a5e601ac4f6bd"
     },
     {
-      "path": "content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
-      "bytes": 39810,
-      "gitSha": "c9a054d56de2db9dcecb727590f4edf8764b8cf8",
-      "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756",
-      "blobSha": "c9a054d56de2db9dcecb727590f4edf8764b8cf8"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
-      "bytes": 54212,
-      "gitSha": "f550e50b4e40786d405be58b7c0a192b21a5a8ae",
-      "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1",
-      "blobSha": "f550e50b4e40786d405be58b7c0a192b21a5a8ae"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
-      "bytes": 35322,
-      "gitSha": "9fd00cf52d4c2631db4a4a21f1aaf3e5a4934dd0",
-      "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd",
-      "blobSha": "9fd00cf52d4c2631db4a4a21f1aaf3e5a4934dd0"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
-      "bytes": 63554,
-      "gitSha": "c98dd9630349267ee683be1a0f9468786215d4b2",
-      "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20",
-      "blobSha": "c98dd9630349267ee683be1a0f9468786215d4b2"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
-      "bytes": 61374,
-      "gitSha": "ca9096df59da5536094f4326d63e254263da9fd6",
-      "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d",
-      "blobSha": "ca9096df59da5536094f4326d63e254263da9fd6"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
-      "bytes": 70726,
-      "gitSha": "156cb5b77428e0de3d870b3e93208aa2929769fc",
-      "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e",
-      "blobSha": "156cb5b77428e0de3d870b3e93208aa2929769fc"
-    },
-    {
       "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.pdf",
-      "bytes": 1955108,
-      "gitSha": "5ac720e8c832ca0180a78eb51fb339542055747e",
-      "sha256": "56e51c21a6f90bf55c1b87ed2306550720b7ba3d6dc6a4a79be8d94b38f92da6",
-      "blobSha": "5ac720e8c832ca0180a78eb51fb339542055747e"
+      "bytes": 1983706,
+      "sha256": "70acf708105616a762aeb3399092e9f40d1a9d4a97e96eb3485d0683a442aebb",
+      "gitSha": "4aa6e660f73a21f0528f6f803c5813e41c668666",
+      "blobSha": "4aa6e660f73a21f0528f6f803c5813e41c668666"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.png",
-      "bytes": 2359760,
-      "gitSha": "5b111776558e92c8e2e41ab42be88ed8a2be2522",
-      "sha256": "87a51cb3f85090b14ea60520397d58730944b50ba7103c3c6fb4bd817fced352",
-      "blobSha": "5b111776558e92c8e2e41ab42be88ed8a2be2522"
+      "bytes": 2390628,
+      "sha256": "598117c861c00c177c072de06828704c95c5a299c7a9ca13cbcb2ebf0b5df163",
+      "gitSha": "111ef1935e38de76e249ea79e44fe79cf0789337",
+      "blobSha": "111ef1935e38de76e249ea79e44fe79cf0789337"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-long-text.png",
-      "bytes": 2782854,
-      "gitSha": "6a5135a3cabfded809b5a2f85615f5df5d6a1f59",
-      "sha256": "e5467417d7f9d046ca06b12b5f592740c3ff9f81f651d06e94dc85181544e1b4",
-      "blobSha": "6a5135a3cabfded809b5a2f85615f5df5d6a1f59"
+      "bytes": 2824009,
+      "sha256": "c82cd4a229590b42be7d68a7abad7981d746d5eef2bfebd0edb0c0b3301a2a85",
+      "gitSha": "da33ad75d4b3c69661a1b4e5f2f459efc47c812d",
+      "blobSha": "da33ad75d4b3c69661a1b4e5f2f459efc47c812d"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd.pdf",
-      "bytes": 585722,
-      "gitSha": "11da15553b4fd97fb46fc8cec9ff8b47c933a2e2",
-      "sha256": "572b45db8c48a3373294261607e157da80817e454b0832f4f514bf0396dc832e",
-      "blobSha": "11da15553b4fd97fb46fc8cec9ff8b47c933a2e2"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-editor.pdf",
-      "bytes": 1955353,
-      "gitSha": "df8912f2fbf84ddd8b7732aa946c724d26c745f7",
-      "sha256": "b91881ff1833406f1907a53a2ed3e8398e49708d7b0829b37611b080619c4b54",
-      "blobSha": "df8912f2fbf84ddd8b7732aa946c724d26c745f7"
+      "bytes": 604372,
+      "sha256": "ca9ddeecc67361d0b851eea6061039a5d3bdec8eb5752e501c439618ae1ce6a8",
+      "gitSha": "f08b81c07342ef635f786801f864f3b8b9d61ad4",
+      "blobSha": "f08b81c07342ef635f786801f864f3b8b9d61ad4"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd.png",
-      "bytes": 2748438,
-      "gitSha": "532eaec30e0d36f848d26c77beadb1105dd6b687",
-      "sha256": "b6d95150817b335b8c7b7a7762d9b7197b297be0c461b6011b889139cb5b62f1",
-      "blobSha": "532eaec30e0d36f848d26c77beadb1105dd6b687"
+      "bytes": 2790093,
+      "sha256": "ecbd39de372afd6216c3fac0494f971eff68f39cffbc0c4fabe0dd8b9388ee6b",
+      "gitSha": "1205f4ffc283b60648abde322fd539a284129b12",
+      "blobSha": "1205f4ffc283b60648abde322fd539a284129b12"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-editor.pdf",
+      "bytes": 1959806,
+      "sha256": "207d117981b471a2fb722ed8cc00acca1619428c00618895907eb24a7827063e",
+      "gitSha": "0e3ed4e5ba9c843eac0cf04d9cc66af7e11db448",
+      "blobSha": "0e3ed4e5ba9c843eac0cf04d9cc66af7e11db448"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-editor.png",
-      "bytes": 2503000,
-      "gitSha": "650552ea1271a7a88593b31e07a55ed6782eeb10",
-      "sha256": "668a6d0f4d94006c16e965b48537ae9bec0ac1f8589f8c140bda02bf5e6700e8",
-      "blobSha": "650552ea1271a7a88593b31e07a55ed6782eeb10"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.pdf",
-      "bytes": 489819,
-      "gitSha": "5a54c6f4d65f85038f2cea55db6429b7f27f7ad8",
-      "sha256": "d2a2c2fa6da1a3287cabf7daa03cf77169370afda4b9a8d3a19b87306d0b68a7",
-      "blobSha": "5a54c6f4d65f85038f2cea55db6429b7f27f7ad8"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.pdf",
-      "bytes": 1148431,
-      "gitSha": "a648bfe8fb3d1e4188a1daa0a14789a97e127acd",
-      "sha256": "caad25e78da128f37d5be38721983a3ad2958d146bfe742c649b7790a2f2909d",
-      "blobSha": "a648bfe8fb3d1e4188a1daa0a14789a97e127acd"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.png",
-      "bytes": 2916517,
-      "gitSha": "88c0640fb8a7e104d106f29d99bd54c16f5287aa",
-      "sha256": "612a4414aac618d7d17581a0558b9fc58213f5aa33b544042a5879872d68d4c4",
-      "blobSha": "88c0640fb8a7e104d106f29d99bd54c16f5287aa"
+      "bytes": 2507225,
+      "sha256": "fb0114ac7b4f304c476385f41f33a8ca5fba4079729622a5d81b3add68a15da7",
+      "gitSha": "a180ea634aa119429c853bcfef39849f86594d6a",
+      "blobSha": "a180ea634aa119429c853bcfef39849f86594d6a"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-long-text.png",
-      "bytes": 2934059,
-      "gitSha": "09395969258c0af40cbcde47380bde9eb73ef417",
-      "sha256": "133315f33f0453312b5e628031f7d1fd788773703688f4806084f18fb72595f9",
-      "blobSha": "09395969258c0af40cbcde47380bde9eb73ef417"
+      "bytes": 2937563,
+      "sha256": "90d0492005f474307b9eaee6114e4c59f53031efc24a32d153a4b1473457e96e",
+      "gitSha": "60931da13268532ef1ae07223a8eac08d95ff872",
+      "blobSha": "60931da13268532ef1ae07223a8eac08d95ff872"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.pdf",
+      "bytes": 501500,
+      "sha256": "60cb160d266c7d93e880ca078cda6eccd022004068b9ed88dcd3ace4a9d915cc",
+      "gitSha": "0f757eb7c348a6f76a3445f1a6927e87b5025686",
+      "blobSha": "0f757eb7c348a6f76a3445f1a6927e87b5025686"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.png",
+      "bytes": 2921811,
+      "sha256": "15df89b4b13d5386acd9ba0c8e69f49a796926362c13e4c738d4e8fbc34979ad",
+      "gitSha": "c77b661c770021ddc437b09935692d632ca5ceb9",
+      "blobSha": "c77b661c770021ddc437b09935692d632ca5ceb9"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.pdf",
+      "bytes": 1131888,
+      "sha256": "6bb2b966c70ba159a064190eb103daff06e4da501587bc79ea943800e5386140",
+      "gitSha": "548763ab67ce5bb7362cd778cc5aea5b6717257c",
+      "blobSha": "548763ab67ce5bb7362cd778cc5aea5b6717257c"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.png",
-      "bytes": 1407889,
-      "gitSha": "87e1d1483629acc312e2c5814e25e298788e32f2",
-      "sha256": "3274c0e4862227a010afd614535e6868cbc34695ad0e158e1c184041f1611aff",
-      "blobSha": "87e1d1483629acc312e2c5814e25e298788e32f2"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo.pdf",
-      "bytes": 383275,
-      "gitSha": "89944012afa9e66a5194ba1282565bf51883d9cf",
-      "sha256": "d84c38654b910d19bc79c62adafb300acda365f7990be8d5da9024771ab28609",
-      "blobSha": "89944012afa9e66a5194ba1282565bf51883d9cf"
+      "bytes": 1386165,
+      "sha256": "7189985e5a2feb32463b0fc2b1b39bd123540e77d35a66b7e7c44f8be42c56b7",
+      "gitSha": "0cbe196b7f613a65a012b863c53696c9fda82117",
+      "blobSha": "0cbe196b7f613a65a012b863c53696c9fda82117"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-long-text.png",
-      "bytes": 1666397,
-      "gitSha": "260ba17c688b0d2ab80f629c538e175b0fa901a9",
-      "sha256": "1b12985751eefd10408a41a622a78317a506bd77200b7433fc49ed9952c77ca7",
-      "blobSha": "260ba17c688b0d2ab80f629c538e175b0fa901a9"
+      "bytes": 1644524,
+      "sha256": "feb55e2beb7de96b5afdf03135c335592fcd61ec5fedd81da2d03f3b035b35a1",
+      "gitSha": "1b6a240244eb7c149ac31c16d6f94ad4365635cb",
+      "blobSha": "1b6a240244eb7c149ac31c16d6f94ad4365635cb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo.pdf",
+      "bytes": 373726,
+      "sha256": "ccf48ccf5c307f4808fcce464e5c5924d270e2950320b7fe3105881cea219578",
+      "gitSha": "fe5e990f9e9856ed9344100d66a3fb5a1db87ee8",
+      "blobSha": "fe5e990f9e9856ed9344100d66a3fb5a1db87ee8"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo.png",
-      "bytes": 1634576,
-      "gitSha": "fb9e578a6fda2f50d08666c56741800366ed43b9",
-      "sha256": "6f8609c6e78a036777da3c1ad4a6626ac95244a0ce8c1986c8b092e86779eeff",
-      "blobSha": "fb9e578a6fda2f50d08666c56741800366ed43b9"
+      "bytes": 1614810,
+      "sha256": "e96d3fe15b65f0786ad0dcf14d9f9d433c0e1bfc547d9d9d35eb0b88417433b0",
+      "gitSha": "77ef14a40b77f7b69b9f3ab9d07a528253fa2fee",
+      "blobSha": "77ef14a40b77f7b69b9f3ab9d07a528253fa2fee"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.pdf",
-      "bytes": 2559949,
-      "gitSha": "cf3c3eaed3f74d24595aa3ea760485614e1df87d",
-      "sha256": "798c2f79e4f1498bca0bf6ed59a8a0f95413427febd8e400160bc1f8d7d4972e",
-      "blobSha": "cf3c3eaed3f74d24595aa3ea760485614e1df87d"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce.pdf",
-      "bytes": 642576,
-      "gitSha": "80abbb2d75b6dbe2513a781bd60753a845ab8e3f",
-      "sha256": "dc42ffe8ebf80942d1ddfc7678adca85af872630f6b846bd288a3b05b45a5dc0",
-      "blobSha": "80abbb2d75b6dbe2513a781bd60753a845ab8e3f"
+      "bytes": 2565199,
+      "sha256": "e7881a2af44ec1648e1b5452338f149f7bb988e06a60e2cb77daf4d1922dfaf7",
+      "gitSha": "c2ce96ff28237b98ba75fe69fbee783b5caf4c71",
+      "blobSha": "c2ce96ff28237b98ba75fe69fbee783b5caf4c71"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.png",
-      "bytes": 3022175,
-      "gitSha": "86c146694511eca7c93b1f2348708ec8c8e7bbb5",
-      "sha256": "054eec2dc8c225dd76c0dc2d43b33dd91e171f8fc76d4ade44560b82af74d546",
-      "blobSha": "86c146694511eca7c93b1f2348708ec8c8e7bbb5"
+      "bytes": 3023543,
+      "sha256": "da088c61cdb746d433c75f4b6823bf0ce38d611e25996c56734fccb253d0f6f0",
+      "gitSha": "e5292ddbe4bd26d4e019a08c662ef5f1b1eb827b",
+      "blobSha": "e5292ddbe4bd26d4e019a08c662ef5f1b1eb827b"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-long-text.png",
-      "bytes": 3596188,
-      "gitSha": "78b26e4eca4c67e829d71c8776153c67ee03a566",
-      "sha256": "1ab9618e551241a41b73093f8bd87345e206f6adf213d066784a0e67989708f9",
-      "blobSha": "78b26e4eca4c67e829d71c8776153c67ee03a566"
+      "bytes": 3604614,
+      "sha256": "596bf575bcc2fac26806c9d7dcca357eece7c38bd50d0e6366c4a8f25454648e",
+      "gitSha": "96060dc3d087496b0f5f2ed47ac76fe2933eb596",
+      "blobSha": "96060dc3d087496b0f5f2ed47ac76fe2933eb596"
     },
     {
-      "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.pdf",
-      "bytes": 2301735,
-      "gitSha": "15e04a1c294126065fc06648e545d8d8b3654f55",
-      "sha256": "1fd7f6bbc8b4c37a25efe7ff3fddffa1baa9a05c0f893ab270ba92c658d8cee1",
-      "blobSha": "15e04a1c294126065fc06648e545d8d8b3654f55"
+      "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce.pdf",
+      "bytes": 639156,
+      "sha256": "27e10eae4968dcccf128cb5f1eeae95686ec6029e195f16a96bd07ec100a58f3",
+      "gitSha": "e2fce2f096cbc3bf73ea612d1c1fb9b831a2d6bd",
+      "blobSha": "e2fce2f096cbc3bf73ea612d1c1fb9b831a2d6bd"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce.png",
-      "bytes": 3564274,
-      "gitSha": "2b9bf9f5f3ae99f3858741173ca4057eef5e4844",
-      "sha256": "cfe583511de27d86f6bb2a71ac110d2cb6b3c596a5d26eb7b7f0e57da86efb13",
-      "blobSha": "2b9bf9f5f3ae99f3858741173ca4057eef5e4844"
+      "bytes": 3572896,
+      "sha256": "f8acb47612beadc3082fec9480b895f610a9afdc0acfb6f3d5a9ae451c9e28bf",
+      "gitSha": "a171c983c2489cc071d8390f7a969e8c3652cc28",
+      "blobSha": "a171c983c2489cc071d8390f7a969e8c3652cc28"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.pdf",
+      "bytes": 2295666,
+      "sha256": "9e3fd38ef63afd4dab5afa201716dfae4d9f7ff9887e34a407a42503ecf4b93f",
+      "gitSha": "45c80829dc43275d0166c343bbdca1cac0543d7c",
+      "blobSha": "45c80829dc43275d0166c343bbdca1cac0543d7c"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.png",
-      "bytes": 2748978,
-      "gitSha": "1467cc6e25bc2ecda966130136a0c94beab7c8f8",
-      "sha256": "a1f7a2221e8115da4faf5de1ba67d330aab200badb4333dd844b849bb1f04855",
-      "blobSha": "1467cc6e25bc2ecda966130136a0c94beab7c8f8"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san.pdf",
-      "bytes": 638770,
-      "gitSha": "1c415e5958bbfc8c99ef286af0989d9f9d49766a",
-      "sha256": "7ab199beee4e9f61db78ce70b8e1be9bc77114ffbeee23e28e5c22147611b142",
-      "blobSha": "1c415e5958bbfc8c99ef286af0989d9f9d49766a"
+      "bytes": 2739249,
+      "sha256": "8eefcc1bbb5ed466235d8bbe9ef886d30bfba697037baa217ceabdb79f7b786e",
+      "gitSha": "38dbe72796237866c13068620a68a84b4ac47e6f",
+      "blobSha": "38dbe72796237866c13068620a68a84b4ac47e6f"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-long-text.png",
-      "bytes": 3238848,
-      "gitSha": "6949672326e5d0e040ce180a9517529545044884",
-      "sha256": "fb59146146dde88b96196cab9956b09aa310d37bdcd05f20af76bb52da705439",
-      "blobSha": "6949672326e5d0e040ce180a9517529545044884"
+      "bytes": 3233596,
+      "sha256": "05f69cf2b1ec82fe8b488488a0def68bbcb406511bdd5f1e0377469ae086a964",
+      "gitSha": "ff238f8ff36791ce7904c4736f34ce57eb2e7a7f",
+      "blobSha": "ff238f8ff36791ce7904c4736f34ce57eb2e7a7f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san.pdf",
+      "bytes": 629582,
+      "sha256": "abd2dde93b45b3ff946dd35eea23ebe52afeb8e41936c704ae5fee4f8bb15b7a",
+      "gitSha": "233fd0bfa60b97cbfcc6a83f8558a3bb2e405023",
+      "blobSha": "233fd0bfa60b97cbfcc6a83f8558a3bb2e405023"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san.png",
-      "bytes": 3218622,
-      "gitSha": "3e8f1720fa9b0821aa1c02f97fd8048abce2c1ad",
-      "sha256": "68c8c55f3beb1a6d94089498734ac7dc0ac00bdb8747c8e8c36944a244cc8e5e",
-      "blobSha": "3e8f1720fa9b0821aa1c02f97fd8048abce2c1ad"
+      "bytes": 3212181,
+      "sha256": "2d79965b0cd0c27d70138a32764d3005eaaebb7b03004b25753debf50c195ccc",
+      "gitSha": "4c34872c301838a59f60d5e50d1fb30bd675caaa",
+      "blobSha": "4c34872c301838a59f60d5e50d1fb30bd675caaa"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.pdf",
-      "bytes": 2798882,
-      "gitSha": "49d8517383c3ea016dc3bbceeb7010900534fb3b",
-      "sha256": "eb986cfa4cd485dec0de3769d6eafcbe38aa6bced8ef7837c831138e38d5c89c",
-      "blobSha": "49d8517383c3ea016dc3bbceeb7010900534fb3b"
+      "bytes": 2790682,
+      "sha256": "ae24d9cfc8e005e2976c44c393330470f64006dc82c236a894e4ca09f78e2bdc",
+      "gitSha": "f8c55aa414b464a03f1502f539dd9bc594515c72",
+      "blobSha": "f8c55aa414b464a03f1502f539dd9bc594515c72"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.png",
-      "bytes": 3278483,
-      "gitSha": "f3468e0a720391b80a11bea64c163339c76e8aea",
-      "sha256": "e3809a46311a014b0a9e6e527ade97d6258f5a6cef3c46ffac6ea175461d6aaa",
-      "blobSha": "f3468e0a720391b80a11bea64c163339c76e8aea"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.pdf",
-      "bytes": 686899,
-      "gitSha": "d35f4e947c7b18df20ba2218d4f843b16592b657",
-      "sha256": "9e06977cea8284b2e3afdfa15b3fb6526b8a7e4ff603f1339c56fd180ca9e339",
-      "blobSha": "d35f4e947c7b18df20ba2218d4f843b16592b657"
-    },
-    {
-      "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.png",
-      "bytes": 3882545,
-      "gitSha": "8507a1c0011e56d40d9f2599670dec29851537c7",
-      "sha256": "cece3fe04f3f47ab139d22b231dcbcd189d7d30d5112607a4d953720326b53f3",
-      "blobSha": "8507a1c0011e56d40d9f2599670dec29851537c7"
+      "bytes": 3269049,
+      "sha256": "8e24510fe32bf6d627c779a903c39a36caed03d30b752cdc5719cebf4847f71b",
+      "gitSha": "c684f10a29ad01af5dd61b904f78b2366ca19600",
+      "blobSha": "c684f10a29ad01af5dd61b904f78b2366ca19600"
     },
     {
       "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-long-text.png",
-      "bytes": 3904604,
-      "gitSha": "4fed6125ba406339f99772dcb7dc0d97e373ca00",
-      "sha256": "5d27bbe2766f385d9c21328b2fdadafa5a507eca6e26b477851f9d9730ff07ba",
-      "blobSha": "4fed6125ba406339f99772dcb7dc0d97e373ca00"
+      "bytes": 3893212,
+      "sha256": "029513a5a8af574846215d1cc10448ba2827cf288fc4f4f6463a544f6ca4c9e8",
+      "gitSha": "64ec4132cf4d1ab1fe9a35ba5d7327667ba49c0a",
+      "blobSha": "64ec4132cf4d1ab1fe9a35ba5d7327667ba49c0a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.pdf",
+      "bytes": 686307,
+      "sha256": "035c947a63e64a8fa00abdcec50a861e8c2dbe9eadaa0f4f74fe559ec9043a15",
+      "gitSha": "ad466b9f5a6a483b2bc2c33efdd00064a2f6b968",
+      "blobSha": "ad466b9f5a6a483b2bc2c33efdd00064a2f6b968"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.png",
+      "bytes": 3873709,
+      "sha256": "55e1054e5cf593a0f145dbd6c54c06661d574721a2c5ca497eb90fff31ca2ad5",
+      "gitSha": "2a1c88f6848928cbd46998012ef08d2c0420d594",
+      "blobSha": "2a1c88f6848928cbd46998012ef08d2c0420d594"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
+      "bytes": 56256,
+      "sha256": "30f23a05130b7aeffb017206e80fe8fd317e6f365e95017dbac77c28d17b131d",
+      "gitSha": "d21261338fccd3c5f6f977651dbcc659117b0449",
+      "blobSha": "d21261338fccd3c5f6f977651dbcc659117b0449"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
+      "bytes": 40372,
+      "sha256": "5378e58954196e246927c3662148579b905eb88ddcb5b81c0ffd5cd1debf7d71",
+      "gitSha": "b55389f23e0ce62270248462bc1011aa159557a8",
+      "blobSha": "b55389f23e0ce62270248462bc1011aa159557a8"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
+      "bytes": 34730,
+      "sha256": "d3d064c23a7f8214bd5046c1f1447e454a9904b527c5658bd8f5f3b70ceefad3",
+      "gitSha": "15b88d73943697608714756df100556b9e2f654d",
+      "blobSha": "15b88d73943697608714756df100556b9e2f654d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
+      "bytes": 60900,
+      "sha256": "d7ca3e6e526d92561201e3dee4922f0165f5d202e3bcdca8bbafd26730f68cad",
+      "gitSha": "a6599d9283b0506d2def13aa1ff4877be34c68e3",
+      "blobSha": "a6599d9283b0506d2def13aa1ff4877be34c68e3"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
+      "bytes": 60656,
+      "sha256": "2dd4b9a8560832bd845ba032faf9b32c18d85fe86bccd0c5f9ca72509ca0d491",
+      "gitSha": "a5627340a2f1027221decdb6f809a3dec246dc0b",
+      "blobSha": "a5627340a2f1027221decdb6f809a3dec246dc0b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
+      "bytes": 70194,
+      "sha256": "3d90d2f8f7af988126b700d03857b250a33e2a444bfe3edbeedcba5acfa96a3d",
+      "gitSha": "8327a6939787a27ff81c5907f43e3f5a85abbeda",
+      "blobSha": "8327a6939787a27ff81c5907f43e3f5a85abbeda"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/rejected/elektricni-akord.png",
+      "bytes": 2245649,
+      "gitSha": "50b9756008ad0e4e724aa538b428b7470c6bf306",
+      "sha256": "5872ba878ded1745cc4b7ee83eb264808424965254eb69ab317f3d660794186a",
+      "blobSha": "50b9756008ad0e4e724aa538b428b7470c6bf306"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/rejected/pandin-zeleni-dan.png",
+      "bytes": 2184302,
+      "gitSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398",
+      "sha256": "900a552e3ee7e438f80e00d85b370fbe4a0e7ace95baab37eec865b70928ea18",
+      "blobSha": "1ca739d28d114e49ad45a6d6ade82d915a4a9398"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
+      "bytes": 2192718,
+      "gitSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e",
+      "sha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
+      "blobSha": "ab784c0758109c26a38fca323a295bc1dbc5d43e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/sareni-vetric.png",
+      "bytes": 2070875,
+      "gitSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2",
+      "sha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
+      "blobSha": "462a82ad41ce2914cea03d9cfdd7d78c7196c1b2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
+      "bytes": 1780604,
+      "gitSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2",
+      "sha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
+      "blobSha": "57f5e1120bbb55774d3525ee7518aefa8c72e8e2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
+      "bytes": 2224321,
+      "gitSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0",
+      "sha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
+      "blobSha": "dbff6b154d2e862a0dda1303971f74da9cd4f0a0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
+      "bytes": 2217083,
+      "gitSha": "198f9c89839cf4a598e668bad76806af6affd655",
+      "sha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
+      "blobSha": "198f9c89839cf4a598e668bad76806af6affd655"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
+      "bytes": 2278232,
+      "gitSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276",
+      "sha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
+      "blobSha": "fbf8e60aa7efe09ee468c8c6778556aa1d2e0276"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/jesenji-vinograd-mobile-expanded.png",
+      "bytes": 284157,
+      "sha256": "0ca5bdc90f5c039459275e89638ab3d18f6884a9ca4f3fa9e30217303b45b64d",
+      "gitSha": "ac29bb267e6020803c1dff9269fae3f937f22c2d",
+      "blobSha": "ac29bb267e6020803c1dff9269fae3f937f22c2d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/sareni-vetric-mobile-expanded.png",
+      "bytes": 289117,
+      "sha256": "6767fca5be144001efbf4560e4ba24207363ad12641857b657a13e8962e99671",
+      "gitSha": "4aedf9d59368439b2ea5ea19e67cbde1602a2f1c",
+      "blobSha": "4aedf9d59368439b2ea5ea19e67cbde1602a2f1c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/sledeci-nivo-mobile-expanded.png",
+      "bytes": 201382,
+      "sha256": "20861e8565ca879defca6f6aa2c88196260141b3da4c262441ae35e5f5c0f06a",
+      "gitSha": "44b06234d9821997350962b0e8a42fcbbbd4bdae",
+      "blobSha": "44b06234d9821997350962b0e8a42fcbbbd4bdae"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/srebrno-zvonce-mobile-expanded.png",
+      "bytes": 314384,
+      "sha256": "b83dc2120d1088bd47e420f460183fa9b825eaf6fdb887e4fe5af99200f77057",
+      "gitSha": "fb40d6df3f6ce02876aa4cdc738acc94c9e66c01",
+      "blobSha": "fb40d6df3f6ce02876aa4cdc738acc94c9e66c01"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/tigricev-nezni-san-mobile-expanded.png",
+      "bytes": 300595,
+      "sha256": "2ce0d45362f107382c667941cd457e592a45fcdbe9095dc4e101682b930fb22f",
+      "gitSha": "b87f78d1f29071b128691324a922af6a2d49e652",
+      "blobSha": "b87f78d1f29071b128691324a922af6a2d49e652"
+    },
+    {
+      "path": "content/robi-batches/2026-10-25/typography-01/zamak-veselih-zastava-mobile-expanded.png",
+      "bytes": 326442,
+      "sha256": "7892787a80cca7a4846a50e3401839a23a29c3b45f267434fb41eda2144435b2",
+      "gitSha": "b4acffd1456849138a0aabe97724014024cec62e",
+      "blobSha": "b4acffd1456849138a0aabe97724014024cec62e"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+      "bytes": 13932,
+      "sha256": "ef5ff1d47771b464d1eca0200157e7c035a7b5109cf64cba7392ee5bd993b32c",
+      "gitSha": "4cd30cf22de4d849f8f55d0b512ace76ac687395",
+      "blobSha": "4cd30cf22de4d849f8f55d0b512ace76ac687395"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+      "bytes": 28692,
+      "sha256": "aef3f0943c1c11743520ce489da3289b493663e37c69df71a049b681592152ef",
+      "gitSha": "216b791a554c1118781b5be9a8eba1f4c1c07a06",
+      "blobSha": "216b791a554c1118781b5be9a8eba1f4c1c07a06"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+      "bytes": 28920,
+      "sha256": "a3c19ba100f4a76392b64869c0e60f38f656acd31c761765b8063d4095fd913d",
+      "gitSha": "40e7ee94517bc68d378abf3ed1aa8ccf437f720c",
+      "blobSha": "40e7ee94517bc68d378abf3ed1aa8ccf437f720c"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+      "bytes": 17732,
+      "sha256": "6dab0030f54e7a6627167323e5c94a510849330195dbb1e6ba47b52d96be26f2",
+      "gitSha": "bb47ba55f62fb8b4a83d37c54921262e75fb6751",
+      "blobSha": "bb47ba55f62fb8b4a83d37c54921262e75fb6751"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit600-sr-4f8eaade911d.woff2",
+      "bytes": 18012,
+      "sha256": "4f8eaade911d87c90aebe3a51a40c3af3efd3f08af3dbf39272a47af50eadb42",
+      "gitSha": "1e993b0492a9988116cac5628893975d9a76d62f",
+      "blobSha": "1e993b0492a9988116cac5628893975d9a76d62f"
     }
   ]
 }

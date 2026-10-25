@@ -1523,6 +1523,44 @@
         "feedback": "agent/feedback/2026-10-25-premium-typography.json",
         "pointsAwardedThisBatch": 0,
         "aestheticApprovalAssumed": false
+      },
+      "typographyRevision": {
+        "id": "2026-10-25-typography-01",
+        "status": "ready_to_publish",
+        "startedAt": "2026-10-25T03:44:45Z",
+        "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+        "designIds": [
+          "sareni-vetric",
+          "sledeci-nivo",
+          "zamak-veselih-zastava",
+          "jesenji-vinograd",
+          "srebrno-zvonce",
+          "tigricev-nezni-san"
+        ],
+        "path": "content/robi-batches/2026-10-25/typography-01/",
+        "userApprovalRequiredForPublication": false,
+        "scope": "six_current_templates_confirmed_by_user",
+        "checkedAt": "2026-10-25T04:04:47Z",
+        "prePublicationChecks": "passed",
+        "qualityChecklist": "content/robi-batches/2026-10-25/quality-checklist.json",
+        "artifactManifest": "content/robi-batches/2026-10-25/artifact-manifest.json",
+        "binaryFiles": 61,
+        "newOrChangedBinaryArtifacts": 47,
+        "allBlobUploadsMatched": true,
+        "productionPreservation": {
+          "olderTemplates": 24,
+          "retiredRemainAbsent": true,
+          "sourceBackgroundsUnchanged": true,
+          "stableIdsSlugsDatesPreserved": true,
+          "noPrivateDraftStorageChanged": true
+        },
+        "aestheticApproval": "awaiting_user_review_of_revision",
+        "publicationCandidate": {
+          "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+          "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+          "productionFiles": 20,
+          "allSixTogether": true
+        }
       }
     }
   ],
@@ -1784,7 +1822,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:44:45Z",
+  "updatedAt": "2026-10-25T04:04:47Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -1810,7 +1848,7 @@
       "formal_type_pairing_without_casual_marker_handwriting",
       "review_all_required_checks_after_typography_revision"
     ],
-    "newSeriesAestheticReview": "rejected_typography_revision_in_progress",
+    "newSeriesAestheticReview": "original_typography_rejected_revision_ready",
     "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history"
   },
   "score": {
@@ -1833,7 +1871,8 @@
     "channel": "ChatGPT",
     "recordedAt": "2026-10-25T03:44:45Z",
     "batchId": "2026-10-25",
-    "status": "typography_revision_in_progress"
+    "status": "typography_revision_ready_to_publish",
+    "confirmedScope": "Svih šest iz današnje serije"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",
@@ -1845,7 +1884,7 @@
   ],
   "activeTypographyRevision": {
     "id": "2026-10-25-typography-01",
-    "status": "preparing",
+    "status": "ready_to_publish",
     "startedAt": "2026-10-25T03:44:45Z",
     "sourceCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
     "designIds": [
@@ -1857,6 +1896,28 @@
       "tigricev-nezni-san"
     ],
     "path": "content/robi-batches/2026-10-25/typography-01/",
-    "userApprovalRequiredForPublication": false
+    "userApprovalRequiredForPublication": false,
+    "scope": "six_current_templates_confirmed_by_user",
+    "checkedAt": "2026-10-25T04:04:47Z",
+    "prePublicationChecks": "passed",
+    "qualityChecklist": "content/robi-batches/2026-10-25/quality-checklist.json",
+    "artifactManifest": "content/robi-batches/2026-10-25/artifact-manifest.json",
+    "binaryFiles": 61,
+    "newOrChangedBinaryArtifacts": 47,
+    "allBlobUploadsMatched": true,
+    "productionPreservation": {
+      "olderTemplates": 24,
+      "retiredRemainAbsent": true,
+      "sourceBackgroundsUnchanged": true,
+      "stableIdsSlugsDatesPreserved": true,
+      "noPrivateDraftStorageChanged": true
+    },
+    "aestheticApproval": "awaiting_user_review_of_revision",
+    "publicationCandidate": {
+      "commit": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+      "expectedParent": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+      "productionFiles": 20,
+      "allSixTogether": true
+    }
   }
 }

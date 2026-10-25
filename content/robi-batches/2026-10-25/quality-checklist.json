@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batchId": "2026-10-25",
-  "checkedAt": "2026-10-25T03:13:34Z",
+  "checkedAt": "2026-10-25T04:04:47Z",
   "prePublicationStatus": "PROŠLO",
   "separateReviewPass": true,
   "designs": [
@@ -48,7 +48,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -63,7 +63,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -73,32 +73,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -114,83 +119,99 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 16.5,
+          "sizeAt500": 15.5,
           "fitToWidth": false,
           "width": 66,
           "x": 60,
           "y": 10,
           "color": "#163d2b",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 1.1,
+          "lineHeight": 1.16
         },
         {
           "field": "names",
-          "sizeAt500": 84,
+          "sizeAt500": 83,
           "fitToWidth": true,
           "width": 82,
           "x": 54,
           "y": 21,
           "color": "#163d2b",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "age",
-          "sizeAt500": 84,
+          "sizeAt500": 82,
           "fitToWidth": false,
           "width": 30,
-          "x": 28.069883728027342,
-          "y": 32,
+          "x": 29.71916961669922,
+          "y": 34,
           "color": "#163d2b",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "occasion",
-          "sizeAt500": 29,
+          "sizeAt500": 31,
           "fitToWidth": false,
           "width": 46,
-          "x": 59.520806884765626,
-          "y": 32,
+          "x": 60.85978393554687,
+          "y": 34,
           "color": "#163d2b",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
-          "sizeAt500": 19,
+          "sizeAt500": 20,
           "fitToWidth": false,
           "width": 84,
           "x": 51,
           "y": 43,
           "color": "#163d2b",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "date",
-          "sizeAt500": 30,
+          "sizeAt500": 25,
           "fitToWidth": false,
           "width": 58,
           "x": 65,
           "y": 55,
           "color": "#163d2b",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
-          "sizeAt500": 21,
+          "sizeAt500": 22,
           "fitToWidth": false,
           "width": 50,
           "x": 68,
           "y": 64,
           "color": "#163d2b",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
-          "sizeAt500": 17,
+          "sizeAt500": 18,
           "fitToWidth": false,
           "width": 50,
           "x": 69,
           "y": 73,
           "color": "#163d2b",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -210,81 +231,81 @@
           "boxes": [
             {
               "field": "title",
-              "left": 174,
-              "right": 426,
-              "top": 58,
-              "bottom": 75,
-              "minimumContrast": 8.32,
-              "p05Contrast": 8.81,
+              "left": 170,
+              "right": 432,
+              "top": 60,
+              "bottom": 76,
+              "minimumContrast": 8.08,
+              "p05Contrast": 8.65,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "names",
-              "left": 140,
-              "right": 397,
-              "top": 104,
-              "bottom": 178,
-              "minimumContrast": 8.95,
-              "p05Contrast": 9.39,
+              "left": 128,
+              "right": 412,
+              "top": 112,
+              "bottom": 190,
+              "minimumContrast": 9.05,
+              "p05Contrast": 9.44,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "age",
-              "left": 169,
-              "right": 213,
-              "top": 187,
-              "bottom": 239,
-              "minimumContrast": 10.29,
-              "p05Contrast": 10.39,
+              "left": 166,
+              "right": 219,
+              "top": 203,
+              "bottom": 262,
+              "minimumContrast": 10.24,
+              "p05Contrast": 10.42,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 225,
-              "right": 369,
-              "top": 212,
-              "bottom": 228,
-              "minimumContrast": 10.03,
-              "p05Contrast": 10.41,
+              "left": 232,
+              "right": 375,
+              "top": 224,
+              "bottom": 246,
+              "minimumContrast": 10.33,
+              "p05Contrast": 10.51,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "note",
-              "left": 134,
-              "right": 375,
+              "left": 133,
+              "right": 377,
               "top": 281,
-              "bottom": 320,
-              "minimumContrast": 9.84,
-              "p05Contrast": 10.19,
+              "bottom": 321,
+              "minimumContrast": 9.83,
+              "p05Contrast": 10.18,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "date",
-              "left": 258,
-              "right": 391,
+              "left": 250,
+              "right": 399,
               "top": 375,
-              "bottom": 401,
-              "minimumContrast": 9.28,
-              "p05Contrast": 9.56,
+              "bottom": 397,
+              "minimumContrast": 9.32,
+              "p05Contrast": 9.45,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 315,
-              "right": 364,
-              "top": 439,
+              "left": 313,
+              "right": 365,
+              "top": 438,
               "bottom": 453,
               "minimumContrast": 9.3,
               "p05Contrast": 9.42,
@@ -294,12 +315,12 @@
             },
             {
               "field": "location",
-              "left": 259,
-              "right": 430,
-              "top": 491,
-              "bottom": 528,
-              "minimumContrast": 7.96,
-              "p05Contrast": 8.61,
+              "left": 257,
+              "right": 433,
+              "top": 488,
+              "bottom": 530,
+              "minimumContrast": 7.93,
+              "p05Contrast": 8.58,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -312,12 +333,12 @@
           "boxes": [
             {
               "field": "title",
-              "left": 174,
-              "right": 426,
-              "top": 58,
-              "bottom": 75,
-              "minimumContrast": 8.32,
-              "p05Contrast": 8.81,
+              "left": 170,
+              "right": 432,
+              "top": 60,
+              "bottom": 76,
+              "minimumContrast": 8.08,
+              "p05Contrast": 8.65,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -326,67 +347,67 @@
               "field": "names",
               "left": 78,
               "right": 460,
-              "top": 121,
-              "bottom": 155,
-              "minimumContrast": 8.2,
-              "p05Contrast": 8.88,
+              "top": 128,
+              "bottom": 160,
+              "minimumContrast": 8.31,
+              "p05Contrast": 8.92,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "age",
-              "left": 169,
-              "right": 213,
-              "top": 187,
-              "bottom": 239,
-              "minimumContrast": 10.29,
-              "p05Contrast": 10.39,
+              "left": 166,
+              "right": 219,
+              "top": 203,
+              "bottom": 262,
+              "minimumContrast": 10.24,
+              "p05Contrast": 10.42,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 225,
-              "right": 369,
-              "top": 212,
-              "bottom": 228,
-              "minimumContrast": 10.03,
-              "p05Contrast": 10.41,
+              "left": 232,
+              "right": 375,
+              "top": 224,
+              "bottom": 246,
+              "minimumContrast": 10.33,
+              "p05Contrast": 10.51,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "note",
-              "left": 134,
-              "right": 375,
+              "left": 133,
+              "right": 377,
               "top": 281,
-              "bottom": 320,
-              "minimumContrast": 9.84,
-              "p05Contrast": 10.19,
+              "bottom": 321,
+              "minimumContrast": 9.83,
+              "p05Contrast": 10.18,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "date",
-              "left": 258,
-              "right": 391,
+              "left": 250,
+              "right": 399,
               "top": 375,
-              "bottom": 401,
-              "minimumContrast": 9.28,
-              "p05Contrast": 9.56,
+              "bottom": 397,
+              "minimumContrast": 9.32,
+              "p05Contrast": 9.45,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 315,
-              "right": 364,
-              "top": 439,
+              "left": 313,
+              "right": 365,
+              "top": 438,
               "bottom": 453,
               "minimumContrast": 9.3,
               "p05Contrast": 9.42,
@@ -396,12 +417,12 @@
             },
             {
               "field": "location",
-              "left": 249,
-              "right": 440,
-              "top": 493,
-              "bottom": 528,
-              "minimumContrast": 8.13,
-              "p05Contrast": 8.56,
+              "left": 245,
+              "right": 445,
+              "top": 492,
+              "bottom": 530,
+              "minimumContrast": 8.12,
+              "p05Contrast": 8.5,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -412,11 +433,11 @@
         },
         "fontsLoaded": [
           {
-            "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+            "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
             "loaded": true
           },
           {
-            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
             "loaded": true
           }
         ],
@@ -432,24 +453,28 @@
             "sha256": "60e57712271363f621f2846084b2497fd345a5e540b218a4245f949bfab6b858"
           },
           "previews/sareni-vetric.webp": {
-            "bytes": 39810,
-            "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756"
+            "bytes": 40372,
+            "sha256": "5378e58954196e246927c3662148579b905eb88ddcb5b81c0ffd5cd1debf7d71"
           },
           "examples/sareni-vetric.png": {
-            "bytes": 2916517,
-            "sha256": "612a4414aac618d7d17581a0558b9fc58213f5aa33b544042a5879872d68d4c4"
+            "bytes": 2921811,
+            "sha256": "15df89b4b13d5386acd9ba0c8e69f49a796926362c13e4c738d4e8fbc34979ad"
           },
           "examples/sareni-vetric-long-text.png": {
-            "bytes": 2934059,
-            "sha256": "133315f33f0453312b5e628031f7d1fd788773703688f4806084f18fb72595f9"
+            "bytes": 2937563,
+            "sha256": "90d0492005f474307b9eaee6114e4c59f53031efc24a32d153a4b1473457e96e"
           },
           "examples/sareni-vetric.pdf": {
-            "bytes": 489819,
-            "sha256": "d2a2c2fa6da1a3287cabf7daa03cf77169370afda4b9a8d3a19b87306d0b68a7"
+            "bytes": 501500,
+            "sha256": "60cb160d266c7d93e880ca078cda6eccd022004068b9ed88dcd3ace4a9d915cc"
           }
         }
       },
-      "ageOccasionGapAt500": 8
+      "ageOccasionGapAt500": 8,
+      "fontPair": [
+        "Fraunces SemiBold",
+        "Outfit"
+      ]
     },
     {
       "id": "sledeci-nivo",
@@ -494,7 +519,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -509,7 +534,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -519,32 +544,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -560,43 +590,51 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 17,
+          "sizeAt500": 15.5,
           "fitToWidth": false,
           "width": 84,
           "x": 50,
           "y": 9,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 2.2,
+          "lineHeight": 1.16
         },
         {
           "field": "names",
-          "sizeAt500": 84,
+          "sizeAt500": 83,
           "fitToWidth": true,
           "width": 86,
           "x": 50,
           "y": 21,
           "color": "#fff1dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
+          "letterSpacing": -1.2,
+          "lineHeight": 1.16
         },
         {
           "field": "age",
-          "sizeAt500": 94,
+          "sizeAt500": 90,
           "fitToWidth": false,
           "width": 30,
-          "x": 26.262545776367187,
+          "x": 28.017990112304688,
           "y": 34,
           "color": "#fff1dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
+          "letterSpacing": -2,
+          "lineHeight": 1.16
         },
         {
           "field": "occasion",
-          "sizeAt500": 28,
+          "sizeAt500": 23,
           "fitToWidth": false,
           "width": 46,
-          "x": 58.517408752441405,
+          "x": 58.89799194335937,
           "y": 34,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 2,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
@@ -606,17 +644,21 @@
           "x": 50,
           "y": 46,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "date",
-          "sizeAt500": 31,
+          "sizeAt500": 24,
           "fitToWidth": false,
           "width": 84,
           "x": 50,
           "y": 53,
           "color": "#fff1dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 1,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
@@ -626,7 +668,9 @@
           "x": 50,
           "y": 59,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 2,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
@@ -636,17 +680,21 @@
           "x": 50,
           "y": 64.5,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "rsvp",
-          "sizeAt500": 14,
+          "sizeAt500": 14.5,
           "fitToWidth": false,
           "width": 86,
           "x": 50,
           "y": 95,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0.3,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -666,10 +714,10 @@
           "boxes": [
             {
               "field": "title",
-              "left": 137,
-              "right": 361,
-              "top": 51,
-              "bottom": 66,
+              "left": 125,
+              "right": 375,
+              "top": 53,
+              "bottom": 67,
               "minimumContrast": 16.84,
               "p05Contrast": 16.91,
               "threshold": 4.5,
@@ -678,11 +726,11 @@
             },
             {
               "field": "names",
-              "left": 142,
-              "right": 360,
-              "top": 109,
-              "bottom": 170,
-              "minimumContrast": 16.82,
+              "left": 139,
+              "right": 363,
+              "top": 111,
+              "bottom": 171,
+              "minimumContrast": 16.84,
               "p05Contrast": 16.91,
               "threshold": 3,
               "marginPass": true,
@@ -690,10 +738,10 @@
             },
             {
               "field": "age",
-              "left": 133,
-              "right": 202,
-              "top": 209,
-              "bottom": 263,
+              "left": 136,
+              "right": 211,
+              "top": 199,
+              "bottom": 264,
               "minimumContrast": 16.82,
               "p05Contrast": 16.91,
               "threshold": 3,
@@ -702,23 +750,23 @@
             },
             {
               "field": "occasion",
-              "left": 216,
-              "right": 368,
-              "top": 225,
+              "left": 225,
+              "right": 364,
+              "top": 229,
               "bottom": 244,
-              "minimumContrast": 16.82,
+              "minimumContrast": 16.84,
               "p05Contrast": 16.98,
-              "threshold": 3,
+              "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "note",
-              "left": 136,
-              "right": 363,
+              "left": 142,
+              "right": 356,
               "top": 302,
-              "bottom": 341,
-              "minimumContrast": 16.91,
+              "bottom": 342,
+              "minimumContrast": 16.94,
               "p05Contrast": 16.98,
               "threshold": 4.5,
               "marginPass": true,
@@ -726,10 +774,10 @@
             },
             {
               "field": "date",
-              "left": 181,
-              "right": 318,
+              "left": 180,
+              "right": 320,
               "top": 361,
-              "bottom": 387,
+              "bottom": 382,
               "minimumContrast": 16.98,
               "p05Contrast": 16.98,
               "threshold": 3,
@@ -738,10 +786,10 @@
             },
             {
               "field": "time",
-              "left": 223,
-              "right": 276,
-              "top": 403,
-              "bottom": 418,
+              "left": 218,
+              "right": 280,
+              "top": 404,
+              "bottom": 419,
               "minimumContrast": 16.98,
               "p05Contrast": 17.04,
               "threshold": 4.5,
@@ -750,24 +798,24 @@
             },
             {
               "field": "location",
-              "left": 171,
-              "right": 328,
-              "top": 432,
-              "bottom": 470,
-              "minimumContrast": 15.53,
-              "p05Contrast": 16.08,
+              "left": 173,
+              "right": 327,
+              "top": 433,
+              "bottom": 471,
+              "minimumContrast": 15.51,
+              "p05Contrast": 15.98,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "rsvp",
-              "left": 160,
-              "right": 339,
+              "left": 156,
+              "right": 345,
               "top": 659,
               "bottom": 671,
-              "minimumContrast": 14.91,
-              "p05Contrast": 15.71,
+              "minimumContrast": 14.86,
+              "p05Contrast": 15.67,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -780,10 +828,10 @@
           "boxes": [
             {
               "field": "title",
-              "left": 137,
-              "right": 361,
-              "top": 51,
-              "bottom": 66,
+              "left": 125,
+              "right": 375,
+              "top": 53,
+              "bottom": 67,
               "minimumContrast": 16.84,
               "p05Contrast": 16.91,
               "threshold": 4.5,
@@ -792,9 +840,9 @@
             },
             {
               "field": "names",
-              "left": 48,
-              "right": 449,
-              "top": 121,
+              "left": 52,
+              "right": 448,
+              "top": 126,
               "bottom": 162,
               "minimumContrast": 16.82,
               "p05Contrast": 16.91,
@@ -804,10 +852,10 @@
             },
             {
               "field": "age",
-              "left": 133,
-              "right": 202,
-              "top": 209,
-              "bottom": 263,
+              "left": 136,
+              "right": 211,
+              "top": 199,
+              "bottom": 264,
               "minimumContrast": 16.82,
               "p05Contrast": 16.91,
               "threshold": 3,
@@ -816,23 +864,23 @@
             },
             {
               "field": "occasion",
-              "left": 216,
-              "right": 368,
-              "top": 225,
+              "left": 225,
+              "right": 364,
+              "top": 229,
               "bottom": 244,
-              "minimumContrast": 16.82,
+              "minimumContrast": 16.84,
               "p05Contrast": 16.98,
-              "threshold": 3,
+              "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "note",
-              "left": 136,
-              "right": 363,
+              "left": 142,
+              "right": 356,
               "top": 302,
-              "bottom": 341,
-              "minimumContrast": 16.91,
+              "bottom": 342,
+              "minimumContrast": 16.94,
               "p05Contrast": 16.98,
               "threshold": 4.5,
               "marginPass": true,
@@ -840,10 +888,10 @@
             },
             {
               "field": "date",
-              "left": 181,
-              "right": 318,
+              "left": 180,
+              "right": 320,
               "top": 361,
-              "bottom": 387,
+              "bottom": 382,
               "minimumContrast": 16.98,
               "p05Contrast": 16.98,
               "threshold": 3,
@@ -852,10 +900,10 @@
             },
             {
               "field": "time",
-              "left": 223,
-              "right": 276,
-              "top": 403,
-              "bottom": 418,
+              "left": 218,
+              "right": 280,
+              "top": 404,
+              "bottom": 419,
               "minimumContrast": 16.98,
               "p05Contrast": 17.04,
               "threshold": 4.5,
@@ -864,24 +912,24 @@
             },
             {
               "field": "location",
-              "left": 146,
-              "right": 353,
+              "left": 147,
+              "right": 352,
               "top": 432,
-              "bottom": 470,
-              "minimumContrast": 15.11,
-              "p05Contrast": 15.72,
+              "bottom": 471,
+              "minimumContrast": 15.07,
+              "p05Contrast": 15.68,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "rsvp",
-              "left": 184,
-              "right": 315,
+              "left": 181,
+              "right": 318,
               "top": 651,
-              "bottom": 679,
-              "minimumContrast": 13,
-              "p05Contrast": 14.69,
+              "bottom": 680,
+              "minimumContrast": 13.07,
+              "p05Contrast": 14.71,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -892,7 +940,11 @@
         },
         "fontsLoaded": [
           {
-            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+            "loaded": true
+          },
+          {
+            "family": "custom-4a534d25-ca56-5a63-a88c-7d424d954ec4",
             "loaded": true
           }
         ],
@@ -908,24 +960,28 @@
             "sha256": "ec7fa1c82386c3190f3062ccc4cc6a1b8353ff7b7b4888ca7b46337595107dca"
           },
           "previews/sledeci-nivo.webp": {
-            "bytes": 35322,
-            "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd"
+            "bytes": 34730,
+            "sha256": "d3d064c23a7f8214bd5046c1f1447e454a9904b527c5658bd8f5f3b70ceefad3"
           },
           "examples/sledeci-nivo.png": {
-            "bytes": 1634576,
-            "sha256": "6f8609c6e78a036777da3c1ad4a6626ac95244a0ce8c1986c8b092e86779eeff"
+            "bytes": 1614810,
+            "sha256": "e96d3fe15b65f0786ad0dcf14d9f9d433c0e1bfc547d9d9d35eb0b88417433b0"
           },
           "examples/sledeci-nivo-long-text.png": {
-            "bytes": 1666397,
-            "sha256": "1b12985751eefd10408a41a622a78317a506bd77200b7433fc49ed9952c77ca7"
+            "bytes": 1644524,
+            "sha256": "feb55e2beb7de96b5afdf03135c335592fcd61ec5fedd81da2d03f3b035b35a1"
           },
           "examples/sledeci-nivo.pdf": {
-            "bytes": 383275,
-            "sha256": "d84c38654b910d19bc79c62adafb300acda365f7990be8d5da9024771ab28609"
+            "bytes": 373726,
+            "sha256": "ccf48ccf5c307f4808fcce464e5c5924d270e2950320b7fe3105881cea219578"
           }
         }
       },
-      "ageOccasionGapAt500": 8
+      "ageOccasionGapAt500": 8,
+      "fontPair": [
+        "Outfit SemiBold",
+        "Outfit"
+      ]
     },
     {
       "id": "zamak-veselih-zastava",
@@ -970,7 +1026,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -985,7 +1041,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -995,32 +1051,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -1036,43 +1097,51 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 16.5,
+          "sizeAt500": 15.5,
           "fitToWidth": false,
           "width": 86,
           "x": 50,
           "y": 5.8,
           "color": "#163b64",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 1.1,
+          "lineHeight": 1.16
         },
         {
           "field": "names",
-          "sizeAt500": 96,
+          "sizeAt500": 91,
           "fitToWidth": true,
           "width": 84,
           "x": 50,
           "y": 14.5,
           "color": "#163b64",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "age",
-          "sizeAt500": 84,
+          "sizeAt500": 79,
           "fitToWidth": false,
           "width": 30,
-          "x": 25.951150512695314,
+          "x": 26.048268127441407,
           "y": 26.5,
           "color": "#163b64",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "occasion",
-          "sizeAt500": 28,
+          "sizeAt500": 32,
           "fitToWidth": false,
           "width": 46,
-          "x": 56.890008544921876,
+          "x": 56.59069976806641,
           "y": 26.5,
           "color": "#163b64",
-          "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86"
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
@@ -1082,17 +1151,21 @@
           "x": 50,
           "y": 35,
           "color": "#163b64",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "date",
-          "sizeAt500": 27,
+          "sizeAt500": 23.5,
           "fitToWidth": false,
           "width": 50,
           "x": 30,
           "y": 41,
           "color": "#163b64",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
@@ -1102,7 +1175,9 @@
           "x": 77,
           "y": 41,
           "color": "#163b64",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
@@ -1112,7 +1187,9 @@
           "x": 50,
           "y": 46,
           "color": "#163b64",
-          "family": "DM Sans"
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -1132,9 +1209,9 @@
           "boxes": [
             {
               "field": "title",
-              "left": 131,
-              "right": 367,
-              "top": 30,
+              "left": 128,
+              "right": 372,
+              "top": 29,
               "bottom": 44,
               "minimumContrast": 6.12,
               "p05Contrast": 6.4,
@@ -1144,35 +1221,35 @@
             },
             {
               "field": "names",
-              "left": 120,
-              "right": 376,
-              "top": 54,
-              "bottom": 118,
+              "left": 117,
+              "right": 380,
+              "top": 63,
+              "bottom": 128,
               "minimumContrast": 6.24,
-              "p05Contrast": 6.53,
+              "p05Contrast": 6.54,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "age",
-              "left": 148,
-              "right": 202,
-              "top": 148,
-              "bottom": 200,
+              "left": 149,
+              "right": 201,
+              "top": 152,
+              "bottom": 209,
               "minimumContrast": 6.53,
-              "p05Contrast": 6.65,
+              "p05Contrast": 6.66,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 215,
-              "right": 353,
-              "top": 173,
-              "bottom": 189,
-              "minimumContrast": 6.53,
+              "left": 214,
+              "right": 351,
+              "top": 172,
+              "bottom": 194,
+              "minimumContrast": 6.59,
               "p05Contrast": 6.71,
               "threshold": 3,
               "marginPass": true,
@@ -1180,12 +1257,12 @@
             },
             {
               "field": "note",
-              "left": 133,
-              "right": 366,
-              "top": 236,
-              "bottom": 253,
+              "left": 134,
+              "right": 364,
+              "top": 238,
+              "bottom": 254,
               "minimumContrast": 6.65,
-              "p05Contrast": 6.84,
+              "p05Contrast": 6.85,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1193,12 +1270,12 @@
             {
               "field": "date",
               "left": 90,
-              "right": 209,
+              "right": 210,
               "top": 277,
-              "bottom": 301,
-              "minimumContrast": 6.9,
-              "p05Contrast": 6.92,
-              "threshold": 3,
+              "bottom": 298,
+              "minimumContrast": 6.8,
+              "p05Contrast": 6.9,
+              "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
@@ -1206,9 +1283,9 @@
               "field": "time",
               "left": 360,
               "right": 409,
-              "top": 278,
+              "top": 279,
               "bottom": 292,
-              "minimumContrast": 6.65,
+              "minimumContrast": 6.72,
               "p05Contrast": 6.78,
               "threshold": 4.5,
               "marginPass": true,
@@ -1216,12 +1293,12 @@
             },
             {
               "field": "location",
-              "left": 122,
-              "right": 377,
+              "left": 125,
+              "right": 374,
               "top": 311,
               "bottom": 329,
-              "minimumContrast": 6.72,
-              "p05Contrast": 6.9,
+              "minimumContrast": 6.73,
+              "p05Contrast": 6.91,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1234,9 +1311,9 @@
           "boxes": [
             {
               "field": "title",
-              "left": 131,
-              "right": 367,
-              "top": 30,
+              "left": 128,
+              "right": 372,
+              "top": 29,
               "bottom": 44,
               "minimumContrast": 6.12,
               "p05Contrast": 6.4,
@@ -1246,35 +1323,35 @@
             },
             {
               "field": "names",
-              "left": 54,
+              "left": 53,
               "right": 445,
-              "top": 76,
-              "bottom": 110,
-              "minimumContrast": 6.14,
-              "p05Contrast": 6.47,
+              "top": 82,
+              "bottom": 116,
+              "minimumContrast": 6.15,
+              "p05Contrast": 6.48,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "age",
-              "left": 110,
-              "right": 202,
-              "top": 147,
-              "bottom": 200,
-              "minimumContrast": 6.37,
-              "p05Contrast": 6.59,
+              "left": 113,
+              "right": 201,
+              "top": 157,
+              "bottom": 209,
+              "minimumContrast": 6.42,
+              "p05Contrast": 6.6,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 215,
-              "right": 353,
-              "top": 173,
-              "bottom": 189,
-              "minimumContrast": 6.53,
+              "left": 214,
+              "right": 351,
+              "top": 172,
+              "bottom": 194,
+              "minimumContrast": 6.59,
               "p05Contrast": 6.71,
               "threshold": 3,
               "marginPass": true,
@@ -1282,12 +1359,12 @@
             },
             {
               "field": "note",
-              "left": 133,
-              "right": 366,
-              "top": 236,
-              "bottom": 253,
+              "left": 134,
+              "right": 364,
+              "top": 238,
+              "bottom": 254,
               "minimumContrast": 6.65,
-              "p05Contrast": 6.84,
+              "p05Contrast": 6.85,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1295,12 +1372,12 @@
             {
               "field": "date",
               "left": 90,
-              "right": 209,
+              "right": 210,
               "top": 277,
-              "bottom": 301,
-              "minimumContrast": 6.9,
-              "p05Contrast": 6.92,
-              "threshold": 3,
+              "bottom": 298,
+              "minimumContrast": 6.8,
+              "p05Contrast": 6.9,
+              "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
@@ -1308,9 +1385,9 @@
               "field": "time",
               "left": 360,
               "right": 409,
-              "top": 278,
+              "top": 279,
               "bottom": 292,
-              "minimumContrast": 6.65,
+              "minimumContrast": 6.72,
               "p05Contrast": 6.78,
               "threshold": 4.5,
               "marginPass": true,
@@ -1318,12 +1395,12 @@
             },
             {
               "field": "location",
-              "left": 154,
-              "right": 345,
-              "top": 304,
+              "left": 155,
+              "right": 344,
+              "top": 305,
               "bottom": 339,
               "minimumContrast": 6.84,
-              "p05Contrast": 6.92,
+              "p05Contrast": 6.96,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1334,11 +1411,11 @@
         },
         "fontsLoaded": [
           {
-            "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+            "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
             "loaded": true
           },
           {
-            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
             "loaded": true
           }
         ],
@@ -1354,24 +1431,28 @@
             "sha256": "71e3dd0a89de476f4b65aa0150dffb412556026be4e7078e296c21dd07e8699e"
           },
           "previews/zamak-veselih-zastava.webp": {
-            "bytes": 70726,
-            "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e"
+            "bytes": 70194,
+            "sha256": "3d90d2f8f7af988126b700d03857b250a33e2a444bfe3edbeedcba5acfa96a3d"
           },
           "examples/zamak-veselih-zastava.png": {
-            "bytes": 3882545,
-            "sha256": "cece3fe04f3f47ab139d22b231dcbcd189d7d30d5112607a4d953720326b53f3"
+            "bytes": 3873709,
+            "sha256": "55e1054e5cf593a0f145dbd6c54c06661d574721a2c5ca497eb90fff31ca2ad5"
           },
           "examples/zamak-veselih-zastava-long-text.png": {
-            "bytes": 3904604,
-            "sha256": "5d27bbe2766f385d9c21328b2fdadafa5a507eca6e26b477851f9d9730ff07ba"
+            "bytes": 3893212,
+            "sha256": "029513a5a8af574846215d1cc10448ba2827cf288fc4f4f6463a544f6ca4c9e8"
           },
           "examples/zamak-veselih-zastava.pdf": {
-            "bytes": 686899,
-            "sha256": "9e06977cea8284b2e3afdfa15b3fb6526b8a7e4ff603f1339c56fd180ca9e339"
+            "bytes": 686307,
+            "sha256": "035c947a63e64a8fa00abdcec50a861e8c2dbe9eadaa0f4f74fe559ec9043a15"
           }
         }
       },
-      "ageOccasionGapAt500": 8
+      "ageOccasionGapAt500": 8,
+      "fontPair": [
+        "Napravi Bajka (Bree Serif derivative)",
+        "Outfit"
+      ]
     },
     {
       "id": "jesenji-vinograd",
@@ -1416,7 +1497,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -1431,7 +1512,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -1441,32 +1522,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -1482,53 +1568,63 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 16,
+          "sizeAt500": 18,
           "fitToWidth": false,
-          "width": 40,
-          "x": 73,
-          "y": 11,
+          "width": 36,
+          "x": 77,
+          "y": 10.5,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 1.5,
+          "lineHeight": 1.25
         },
         {
           "field": "bride",
-          "sizeAt500": 70,
+          "sizeAt500": 76,
           "fitToWidth": true,
-          "width": 46,
-          "x": 70,
+          "width": 44,
+          "x": 73,
           "y": 22,
           "color": "#fff2dc",
-          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "join",
           "sizeAt500": 27,
           "fitToWidth": false,
           "width": 20,
-          "x": 70,
+          "x": 73,
           "y": 31,
           "color": "#fff2dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "groom",
-          "sizeAt500": 70,
+          "sizeAt500": 76,
           "fitToWidth": true,
-          "width": 46,
-          "x": 70,
+          "width": 44,
+          "x": 73,
           "y": 40,
           "color": "#fff2dc",
-          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
-          "sizeAt500": 18,
+          "sizeAt500": 23,
           "fitToWidth": false,
           "width": 68,
           "x": 62,
           "y": 49,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.18
         },
         {
           "field": "date",
@@ -1538,57 +1634,69 @@
           "x": 54,
           "y": 59,
           "color": "#fff2dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "ceremony_time",
-          "sizeAt500": 17,
+          "sizeAt500": 19,
           "fitToWidth": false,
           "width": 44,
           "x": 27,
           "y": 67,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0.6,
+          "lineHeight": 1.16
         },
         {
           "field": "ceremony_location",
-          "sizeAt500": 17,
+          "sizeAt500": 21,
           "fitToWidth": false,
           "width": 44,
           "x": 27,
           "y": 74,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
-          "sizeAt500": 17,
+          "sizeAt500": 19,
           "fitToWidth": false,
           "width": 44,
           "x": 73,
           "y": 67,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0.6,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
-          "sizeAt500": 17,
+          "sizeAt500": 21,
           "fitToWidth": false,
           "width": 44,
           "x": 73,
           "y": 74,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "rsvp",
-          "sizeAt500": 14,
+          "sizeAt500": 18,
           "fitToWidth": false,
           "width": 60,
           "x": 41,
           "y": 91,
           "color": "#fff2dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -1608,23 +1716,23 @@
           "boxes": [
             {
               "field": "title",
-              "left": 308,
-              "right": 421,
-              "top": 61,
-              "bottom": 89,
-              "minimumContrast": 7.82,
-              "p05Contrast": 7.95,
+              "left": 314,
+              "right": 459,
+              "top": 56,
+              "bottom": 93,
+              "minimumContrast": 7.75,
+              "p05Contrast": 7.91,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "bride",
-              "left": 282,
-              "right": 416,
-              "top": 120,
-              "bottom": 168,
-              "minimumContrast": 7.73,
+              "left": 291,
+              "right": 443,
+              "top": 108,
+              "bottom": 178,
+              "minimumContrast": 7.75,
               "p05Contrast": 7.98,
               "threshold": 3,
               "marginPass": true,
@@ -1632,23 +1740,23 @@
             },
             {
               "field": "join",
-              "left": 342,
-              "right": 358,
+              "left": 358,
+              "right": 374,
               "top": 206,
               "bottom": 223,
-              "minimumContrast": 7.75,
-              "p05Contrast": 7.85,
+              "minimumContrast": 8.04,
+              "p05Contrast": 8.08,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "groom",
-              "left": 278,
-              "right": 420,
-              "top": 238,
+              "left": 277,
+              "right": 462,
+              "top": 232,
               "bottom": 302,
-              "minimumContrast": 7.75,
+              "minimumContrast": 7.85,
               "p05Contrast": 7.98,
               "threshold": 3,
               "marginPass": true,
@@ -1656,12 +1764,12 @@
             },
             {
               "field": "note",
-              "left": 187,
-              "right": 432,
-              "top": 325,
-              "bottom": 361,
-              "minimumContrast": 7.96,
-              "p05Contrast": 8.08,
+              "left": 179,
+              "right": 440,
+              "top": 318,
+              "bottom": 368,
+              "minimumContrast": 7.94,
+              "p05Contrast": 8.14,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1680,10 +1788,10 @@
             },
             {
               "field": "ceremony_time",
-              "left": 61,
-              "right": 207,
-              "top": 457,
-              "bottom": 472,
+              "left": 59,
+              "right": 210,
+              "top": 458,
+              "bottom": 478,
               "minimumContrast": 7.98,
               "p05Contrast": 8.16,
               "threshold": 4.5,
@@ -1692,35 +1800,35 @@
             },
             {
               "field": "ceremony_location",
-              "left": 65,
-              "right": 204,
-              "top": 501,
-              "bottom": 535,
-              "minimumContrast": 8.18,
-              "p05Contrast": 8.39,
-              "threshold": 4.5,
-              "marginPass": true,
-              "contrastPass": true
-            },
-            {
-              "field": "time",
-              "left": 293,
-              "right": 437,
-              "top": 461,
-              "bottom": 472,
-              "minimumContrast": 8.24,
+              "left": 62,
+              "right": 208,
+              "top": 498,
+              "bottom": 541,
+              "minimumContrast": 8.16,
               "p05Contrast": 8.4,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
+              "field": "time",
+              "left": 290,
+              "right": 443,
+              "top": 461,
+              "bottom": 478,
+              "minimumContrast": 8.26,
+              "p05Contrast": 8.38,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
               "field": "location",
-              "left": 294,
-              "right": 435,
-              "top": 500,
-              "bottom": 535,
-              "minimumContrast": 8.38,
+              "left": 288,
+              "right": 441,
+              "top": 496,
+              "bottom": 541,
+              "minimumContrast": 8.49,
               "p05Contrast": 8.59,
               "threshold": 4.5,
               "marginPass": true,
@@ -1728,12 +1836,12 @@
             },
             {
               "field": "rsvp",
-              "left": 115,
-              "right": 294,
-              "top": 631,
-              "bottom": 643,
-              "minimumContrast": 8.57,
-              "p05Contrast": 8.86,
+              "left": 107,
+              "right": 303,
+              "top": 629,
+              "bottom": 646,
+              "minimumContrast": 8.49,
+              "p05Contrast": 8.93,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1746,22 +1854,22 @@
           "boxes": [
             {
               "field": "title",
-              "left": 308,
-              "right": 421,
-              "top": 61,
-              "bottom": 89,
-              "minimumContrast": 7.82,
-              "p05Contrast": 7.95,
+              "left": 314,
+              "right": 459,
+              "top": 56,
+              "bottom": 93,
+              "minimumContrast": 7.75,
+              "p05Contrast": 7.91,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "bride",
-              "left": 239,
-              "right": 457,
-              "top": 136,
-              "bottom": 166,
+              "left": 262,
+              "right": 470,
+              "top": 132,
+              "bottom": 170,
               "minimumContrast": 7.96,
               "p05Contrast": 8.06,
               "threshold": 3,
@@ -1770,22 +1878,22 @@
             },
             {
               "field": "join",
-              "left": 342,
-              "right": 358,
+              "left": 358,
+              "right": 374,
               "top": 206,
               "bottom": 223,
-              "minimumContrast": 7.75,
-              "p05Contrast": 7.85,
+              "minimumContrast": 8.04,
+              "p05Contrast": 8.08,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "groom",
-              "left": 242,
-              "right": 457,
-              "top": 265,
-              "bottom": 287,
+              "left": 262,
+              "right": 469,
+              "top": 262,
+              "bottom": 290,
               "minimumContrast": 7.85,
               "p05Contrast": 7.98,
               "threshold": 3,
@@ -1794,12 +1902,12 @@
             },
             {
               "field": "note",
-              "left": 187,
-              "right": 432,
-              "top": 325,
-              "bottom": 361,
-              "minimumContrast": 7.96,
-              "p05Contrast": 8.08,
+              "left": 179,
+              "right": 440,
+              "top": 318,
+              "bottom": 368,
+              "minimumContrast": 7.94,
+              "p05Contrast": 8.14,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1818,10 +1926,10 @@
             },
             {
               "field": "ceremony_time",
-              "left": 61,
-              "right": 207,
-              "top": 457,
-              "bottom": 472,
+              "left": 59,
+              "right": 210,
+              "top": 458,
+              "bottom": 478,
               "minimumContrast": 7.98,
               "p05Contrast": 8.16,
               "threshold": 4.5,
@@ -1830,35 +1938,35 @@
             },
             {
               "field": "ceremony_location",
-              "left": 45,
-              "right": 224,
-              "top": 500,
-              "bottom": 535,
+              "left": 42,
+              "right": 228,
+              "top": 496,
+              "bottom": 541,
               "minimumContrast": 7.98,
-              "p05Contrast": 8.36,
+              "p05Contrast": 8.37,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 293,
-              "right": 437,
+              "left": 290,
+              "right": 443,
               "top": 461,
-              "bottom": 472,
-              "minimumContrast": 8.24,
-              "p05Contrast": 8.4,
+              "bottom": 478,
+              "minimumContrast": 8.26,
+              "p05Contrast": 8.38,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "location",
-              "left": 269,
-              "right": 460,
-              "top": 500,
-              "bottom": 535,
-              "minimumContrast": 5.91,
+              "left": 263,
+              "right": 466,
+              "top": 496,
+              "bottom": 541,
+              "minimumContrast": 4.27,
               "p05Contrast": 8.49,
               "threshold": 4.5,
               "marginPass": true,
@@ -1866,12 +1974,12 @@
             },
             {
               "field": "rsvp",
-              "left": 139,
-              "right": 270,
-              "top": 623,
-              "bottom": 651,
+              "left": 133,
+              "right": 276,
+              "top": 618,
+              "bottom": 656,
               "minimumContrast": 8.7,
-              "p05Contrast": 8.93,
+              "p05Contrast": 8.94,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -1886,7 +1994,7 @@
             "loaded": true
           },
           {
-            "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+            "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
             "loaded": true
           }
         ],
@@ -1902,24 +2010,28 @@
             "sha256": "211e2f9907dcc349c4895c975423290a5bda6694dc03f71964fa57dbb29727ce"
           },
           "previews/jesenji-vinograd.webp": {
-            "bytes": 54212,
-            "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1"
+            "bytes": 56256,
+            "sha256": "30f23a05130b7aeffb017206e80fe8fd317e6f365e95017dbac77c28d17b131d"
           },
           "examples/jesenji-vinograd.png": {
-            "bytes": 2748438,
-            "sha256": "b6d95150817b335b8c7b7a7762d9b7197b297be0c461b6011b889139cb5b62f1"
+            "bytes": 2790093,
+            "sha256": "ecbd39de372afd6216c3fac0494f971eff68f39cffbc0c4fabe0dd8b9388ee6b"
           },
           "examples/jesenji-vinograd-long-text.png": {
-            "bytes": 2782854,
-            "sha256": "e5467417d7f9d046ca06b12b5f592740c3ff9f81f651d06e94dc85181544e1b4"
+            "bytes": 2824009,
+            "sha256": "c82cd4a229590b42be7d68a7abad7981d746d5eef2bfebd0edb0c0b3301a2a85"
           },
           "examples/jesenji-vinograd.pdf": {
-            "bytes": 585722,
-            "sha256": "572b45db8c48a3373294261607e157da80817e454b0832f4f514bf0396dc832e"
+            "bytes": 604372,
+            "sha256": "ca9ddeecc67361d0b851eea6061039a5d3bdec8eb5752e501c439618ae1ce6a8"
           }
         }
       },
-      "ageOccasionGapAt500": "not_applicable"
+      "ageOccasionGapAt500": "not_applicable",
+      "fontPair": [
+        "Great Vibes",
+        "Cormorant Garamond"
+      ]
     },
     {
       "id": "srebrno-zvonce",
@@ -1964,7 +2076,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -1979,7 +2091,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -1989,32 +2101,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -2030,43 +2147,51 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 16.5,
+          "sizeAt500": 18,
           "fitToWidth": false,
           "width": 84,
           "x": 50,
           "y": 22,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 1.5,
+          "lineHeight": 1.16
         },
         {
           "field": "names",
-          "sizeAt500": 82,
+          "sizeAt500": 88,
           "fitToWidth": true,
           "width": 84,
           "x": 50,
           "y": 33,
           "color": "#153550",
-          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+          "family": "Libre Caslon Display",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "occasion",
-          "sizeAt500": 37,
+          "sizeAt500": 34,
           "fitToWidth": false,
           "width": 82,
           "x": 50,
           "y": 43,
           "color": "#153550",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 4,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
-          "sizeAt500": 18,
+          "sizeAt500": 23,
           "fitToWidth": false,
           "width": 84,
           "x": 50,
           "y": 51,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "date",
@@ -2076,47 +2201,57 @@
           "x": 50,
           "y": 59,
           "color": "#153550",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "ceremony_time",
-          "sizeAt500": 16.5,
+          "sizeAt500": 18.5,
           "fitToWidth": false,
           "width": 42,
           "x": 28,
           "y": 65.5,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0.8,
+          "lineHeight": 1.16
         },
         {
           "field": "ceremony_location",
-          "sizeAt500": 16.5,
+          "sizeAt500": 20,
           "fitToWidth": false,
           "width": 42,
           "x": 28,
           "y": 71,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
-          "sizeAt500": 16.5,
+          "sizeAt500": 18.5,
           "fitToWidth": false,
           "width": 42,
           "x": 72,
           "y": 65.5,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0.8,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
-          "sizeAt500": 16.5,
+          "sizeAt500": 20,
           "fitToWidth": false,
           "width": 42,
           "x": 72,
           "y": 71,
           "color": "#153550",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -2136,12 +2271,12 @@
           "boxes": [
             {
               "field": "title",
-              "left": 132,
-              "right": 367,
-              "top": 146,
-              "bottom": 157,
-              "minimumContrast": 11.37,
-              "p05Contrast": 11.61,
+              "left": 109,
+              "right": 395,
+              "top": 148,
+              "bottom": 163,
+              "minimumContrast": 11.15,
+              "p05Contrast": 11.37,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2149,10 +2284,10 @@
             {
               "field": "names",
               "left": 166,
-              "right": 330,
-              "top": 184,
-              "bottom": 257,
-              "minimumContrast": 11.5,
+              "right": 333,
+              "top": 193,
+              "bottom": 256,
+              "minimumContrast": 11.43,
               "p05Contrast": 11.61,
               "threshold": 3,
               "marginPass": true,
@@ -2160,10 +2295,10 @@
             },
             {
               "field": "occasion",
-              "left": 166,
-              "right": 332,
-              "top": 280,
-              "bottom": 319,
+              "left": 159,
+              "right": 340,
+              "top": 281,
+              "bottom": 318,
               "minimumContrast": 11.55,
               "p05Contrast": 11.61,
               "threshold": 3,
@@ -2172,12 +2307,12 @@
             },
             {
               "field": "note",
-              "left": 133,
-              "right": 367,
-              "top": 339,
-              "bottom": 375,
-              "minimumContrast": 11.14,
-              "p05Contrast": 11.43,
+              "left": 119,
+              "right": 379,
+              "top": 333,
+              "bottom": 381,
+              "minimumContrast": 11,
+              "p05Contrast": 11.3,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2196,48 +2331,48 @@
             },
             {
               "field": "ceremony_time",
-              "left": 86,
-              "right": 194,
-              "top": 451,
+              "left": 82,
+              "right": 197,
+              "top": 452,
               "bottom": 462,
-              "minimumContrast": 6.73,
-              "p05Contrast": 7.88,
+              "minimumContrast": 6.83,
+              "p05Contrast": 7.87,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "ceremony_location",
-              "left": 65,
-              "right": 214,
-              "top": 479,
-              "bottom": 514,
-              "minimumContrast": 6.81,
-              "p05Contrast": 8.06,
+              "left": 61,
+              "right": 219,
+              "top": 476,
+              "bottom": 519,
+              "minimumContrast": 5.22,
+              "p05Contrast": 8.05,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 289,
-              "right": 430,
-              "top": 451,
-              "bottom": 462,
-              "minimumContrast": 8.85,
-              "p05Contrast": 9.27,
+              "left": 286,
+              "right": 438,
+              "top": 452,
+              "bottom": 466,
+              "minimumContrast": 8.87,
+              "p05Contrast": 9.23,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "location",
-              "left": 297,
-              "right": 422,
-              "top": 480,
-              "bottom": 514,
-              "minimumContrast": 9.07,
-              "p05Contrast": 9.64,
+              "left": 295,
+              "right": 425,
+              "top": 478,
+              "bottom": 519,
+              "minimumContrast": 9.15,
+              "p05Contrast": 9.61,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2250,34 +2385,34 @@
           "boxes": [
             {
               "field": "title",
-              "left": 132,
-              "right": 367,
-              "top": 146,
-              "bottom": 157,
-              "minimumContrast": 11.37,
-              "p05Contrast": 11.61,
+              "left": 109,
+              "right": 395,
+              "top": 148,
+              "bottom": 163,
+              "minimumContrast": 11.15,
+              "p05Contrast": 11.37,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "names",
-              "left": 47,
-              "right": 446,
-              "top": 200,
-              "bottom": 244,
-              "minimumContrast": 10.11,
-              "p05Contrast": 11,
+              "left": 50,
+              "right": 444,
+              "top": 206,
+              "bottom": 248,
+              "minimumContrast": 9.68,
+              "p05Contrast": 11.03,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 166,
-              "right": 332,
-              "top": 280,
-              "bottom": 319,
+              "left": 159,
+              "right": 340,
+              "top": 281,
+              "bottom": 318,
               "minimumContrast": 11.55,
               "p05Contrast": 11.61,
               "threshold": 3,
@@ -2286,12 +2421,12 @@
             },
             {
               "field": "note",
-              "left": 133,
-              "right": 367,
-              "top": 339,
-              "bottom": 375,
-              "minimumContrast": 11.14,
-              "p05Contrast": 11.43,
+              "left": 119,
+              "right": 379,
+              "top": 333,
+              "bottom": 381,
+              "minimumContrast": 11,
+              "p05Contrast": 11.3,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2310,48 +2445,48 @@
             },
             {
               "field": "ceremony_time",
-              "left": 86,
-              "right": 194,
-              "top": 451,
+              "left": 82,
+              "right": 197,
+              "top": 452,
               "bottom": 462,
-              "minimumContrast": 6.73,
-              "p05Contrast": 7.88,
+              "minimumContrast": 6.83,
+              "p05Contrast": 7.87,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "ceremony_location",
-              "left": 52,
-              "right": 226,
-              "top": 479,
-              "bottom": 514,
-              "minimumContrast": 4.27,
-              "p05Contrast": 7.92,
+              "left": 51,
+              "right": 229,
+              "top": 476,
+              "bottom": 519,
+              "minimumContrast": 4.6,
+              "p05Contrast": 7.93,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 289,
-              "right": 430,
-              "top": 451,
-              "bottom": 462,
-              "minimumContrast": 8.85,
-              "p05Contrast": 9.27,
+              "left": 286,
+              "right": 438,
+              "top": 452,
+              "bottom": 466,
+              "minimumContrast": 8.87,
+              "p05Contrast": 9.23,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "location",
-              "left": 267,
-              "right": 452,
-              "top": 479,
-              "bottom": 514,
-              "minimumContrast": 2.85,
-              "p05Contrast": 6.05,
+              "left": 262,
+              "right": 457,
+              "top": 476,
+              "bottom": 519,
+              "minimumContrast": 2.35,
+              "p05Contrast": 7.85,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2363,10 +2498,6 @@
         "fontsLoaded": [
           {
             "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
-            "loaded": true
-          },
-          {
-            "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
             "loaded": true
           }
         ],
@@ -2382,24 +2513,28 @@
             "sha256": "cb6be231f859cf0a20eb0380f3c411e5bc3f31ca6a5b1b0ca8a6307da187ebb5"
           },
           "previews/srebrno-zvonce.webp": {
-            "bytes": 61374,
-            "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d"
+            "bytes": 60900,
+            "sha256": "d7ca3e6e526d92561201e3dee4922f0165f5d202e3bcdca8bbafd26730f68cad"
           },
           "examples/srebrno-zvonce.png": {
-            "bytes": 3564274,
-            "sha256": "cfe583511de27d86f6bb2a71ac110d2cb6b3c596a5d26eb7b7f0e57da86efb13"
+            "bytes": 3572896,
+            "sha256": "f8acb47612beadc3082fec9480b895f610a9afdc0acfb6f3d5a9ae451c9e28bf"
           },
           "examples/srebrno-zvonce-long-text.png": {
-            "bytes": 3596188,
-            "sha256": "1ab9618e551241a41b73093f8bd87345e206f6adf213d066784a0e67989708f9"
+            "bytes": 3604614,
+            "sha256": "596bf575bcc2fac26806c9d7dcca357eece7c38bd50d0e6366c4a8f25454648e"
           },
           "examples/srebrno-zvonce.pdf": {
-            "bytes": 642576,
-            "sha256": "dc42ffe8ebf80942d1ddfc7678adca85af872630f6b846bd288a3b05b45a5dc0"
+            "bytes": 639156,
+            "sha256": "27e10eae4968dcccf128cb5f1eeae95686ec6029e195f16a96bd07ec100a58f3"
           }
         }
       },
-      "ageOccasionGapAt500": "not_applicable"
+      "ageOccasionGapAt500": "not_applicable",
+      "fontPair": [
+        "Libre Caslon Display",
+        "Cormorant Garamond"
+      ]
     },
     {
       "id": "tigricev-nezni-san",
@@ -2444,7 +2579,7 @@
         {
           "id": "visual_integrity",
           "status": "PROŠLO",
-          "evidence": "visual-review.json:default previews and all6 actual downloaded personalized PDF rasterizations inspected."
+          "evidence": "typography-01/typography-review.json: unchanged backgrounds preserved, all6 revised default previews/mobile390px/actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "distinctiveness",
@@ -2459,7 +2594,7 @@
         {
           "id": "composition_and_text_space",
           "status": "PROŠLO",
-          "evidence": "report.json and actual visual review:default/long text margins, no overlaps; enlarged typography and occasion grouped8px at500base."
+          "evidence": "report.json + typography-01/typography-review.json: all6 default/long text pass actual glyph bounds/margins/contrast; age-label ink gaps12/13/12px at500base, first-name descenders cleared, long wedding names shifted away from foliage."
         },
         {
           "id": "editable_template_fields",
@@ -2469,32 +2604,37 @@
         {
           "id": "serbian_glyphs_and_long_text",
           "status": "PROŠLO",
-          "evidence": "font-checks.json and actual PDFs:3 existing licensed custom fonts;DM Sans Latin-ext; Đorđe Maksimilijan, Aleksandra Marija, Konstantin Aleksandar tested."
+          "evidence": "font-checks.json, typography-01/font-browser-checks.json, opened actual personalized PDFs:7 licensed custom faces + Libre Caslon Latin/Latin-ext; Serbian glyphs and long names tested."
         },
         {
           "id": "mobile_preview",
           "status": "PROŠLO",
-          "evidence": "browser-checks.json:6 real390px mobile editors; production smoke includes existing320–1440px flows."
+          "evidence": "typography-01/font-browser-checks.json + 6 actual390x844 expanded screenshots visually reviewed; browser-checks.json actual edits/exports; production regressions320–1440px passed."
         },
         {
           "id": "png_and_pdf_export",
           "status": "PROŠLO",
-          "evidence": "png-print-checks.json/pdf-open-checks.json:18PNGs opened at1500x2100/300dpi;12PDFs opened/rasterized at127x177.8mm."
+          "evidence": "png-print-checks.json/pdf-open-checks.json: final18 actualPNGs opened1500x2100/300dpi,12PDFs opened/rasterized127x177.8mm;6 actual personalized PDF rasters visually reviewed."
         },
         {
           "id": "optimized_assets",
           "status": "PROŠLO",
-          "evidence": "public-files.json:6 WebP backgrounds122–331KB and6 previews500x700; production-validation.log initial JS7133gzip bytes, lazy editor/fonts/PDF."
+          "evidence": "public-files.json and production-validation.log: 6 revised500x700 WebP previews, unchanged6 backgrounds;7custom fonts reused/5new localfaces with OFL, lazy editor/fonts/PDF; initialJS7134gzip bytes."
         },
         {
           "id": "page_seo",
           "status": "PROŠLO",
-          "evidence": "titles-validation.log:85 distinct descriptive H1/title/social/canonical/schema pages; all6 category HTML/sitemap/Worker routes passed."
+          "evidence": "typography-01/titles-validation.log all85 distinct descriptive H1/title/social/canonical/schema; category-checks.json and worker-checks.json all6 pages/API/sitemap routes passed. StableIDs/slugs and metadata preserved."
         },
         {
           "id": "inherited_adsense",
           "status": "PROŠLO",
-          "evidence": "adsense-validation.log:existing config inherited unchanged;101 local public pages with mock SDK; single placement/loader, no ads in exports. Real Google delivery not verified."
+          "evidence": "AdSense configuration/SDK unchanged from production parent; prior101-page mock integration retained, current production regressions verified global placement; no ads added to export and real Google delivery unverified."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "typography-01/typography-review.json + font-manifest.json: all6 font choices changed; formal refined calligraphy/classical serifs, event-specific pairs with sizes/spacing/long-text checks; self-review only, user approval pending."
         }
       ],
       "sourceDimensions": [
@@ -2510,73 +2650,87 @@
       "typography": [
         {
           "field": "title",
-          "sizeAt500": 17,
+          "sizeAt500": 16,
           "fitToWidth": false,
           "width": 82,
           "x": 50,
           "y": 47,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 2.5,
+          "lineHeight": 1.16
         },
         {
           "field": "names",
-          "sizeAt500": 94,
+          "sizeAt500": 80,
           "fitToWidth": true,
           "width": 84,
           "x": 50,
           "y": 56,
           "color": "#fff1dc",
-          "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07"
+          "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "occasion",
-          "sizeAt500": 28,
+          "sizeAt500": 25,
           "fitToWidth": false,
           "width": 86,
           "x": 50,
           "y": 65.5,
           "color": "#fff1dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 1.5,
+          "lineHeight": 1.16
         },
         {
           "field": "note",
-          "sizeAt500": 18.5,
+          "sizeAt500": 23,
           "fitToWidth": false,
           "width": 84,
           "x": 52,
           "y": 73.5,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "date",
-          "sizeAt500": 30,
+          "sizeAt500": 29,
           "fitToWidth": false,
           "width": 70,
           "x": 60,
           "y": 81.5,
           "color": "#fff1dc",
-          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "time",
-          "sizeAt500": 21,
+          "sizeAt500": 25,
           "fitToWidth": false,
           "width": 64,
           "x": 63,
           "y": 87.5,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         },
         {
           "field": "location",
-          "sizeAt500": 17,
+          "sizeAt500": 20,
           "fitToWidth": false,
           "width": 58,
           "x": 66,
           "y": 93,
           "color": "#fff1dc",
-          "family": "DM Sans"
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "letterSpacing": 0,
+          "lineHeight": 1.16
         }
       ],
       "renderedBounds": {
@@ -2596,11 +2750,11 @@
           "boxes": [
             {
               "field": "title",
-              "left": 167,
-              "right": 333,
-              "top": 317,
+              "left": 157,
+              "right": 344,
+              "top": 320,
               "bottom": 332,
-              "minimumContrast": 10.9,
+              "minimumContrast": 11.1,
               "p05Contrast": 11.39,
               "threshold": 4.5,
               "marginPass": true,
@@ -2608,23 +2762,23 @@
             },
             {
               "field": "names",
-              "left": 109,
+              "left": 110,
               "right": 388,
-              "top": 337,
-              "bottom": 435,
+              "top": 355,
+              "bottom": 433,
               "minimumContrast": 9.65,
-              "p05Contrast": 10.19,
+              "p05Contrast": 10.17,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 118,
-              "right": 382,
+              "left": 121,
+              "right": 386,
               "top": 448,
-              "bottom": 472,
-              "minimumContrast": 10.61,
+              "bottom": 470,
+              "minimumContrast": 10.47,
               "p05Contrast": 10.78,
               "threshold": 3,
               "marginPass": true,
@@ -2632,48 +2786,48 @@
             },
             {
               "field": "note",
-              "left": 126,
-              "right": 393,
-              "top": 495,
-              "bottom": 533,
-              "minimumContrast": 11.38,
-              "p05Contrast": 11.78,
+              "left": 119,
+              "right": 400,
+              "top": 490,
+              "bottom": 539,
+              "minimumContrast": 11.07,
+              "p05Contrast": 11.72,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "date",
-              "left": 234,
-              "right": 366,
+              "left": 236,
+              "right": 364,
               "top": 560,
               "bottom": 586,
               "minimumContrast": 12.13,
-              "p05Contrast": 12.42,
+              "p05Contrast": 12.43,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 290,
-              "right": 339,
-              "top": 603,
-              "bottom": 617,
-              "minimumContrast": 12.49,
-              "p05Contrast": 12.92,
-              "threshold": 4.5,
+              "left": 293,
+              "right": 337,
+              "top": 608,
+              "bottom": 625,
+              "minimumContrast": 12.91,
+              "p05Contrast": 12.96,
+              "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "location",
-              "left": 234,
-              "right": 426,
-              "top": 633,
-              "bottom": 668,
-              "minimumContrast": 13.25,
-              "p05Contrast": 13.73,
+              "left": 231,
+              "right": 429,
+              "top": 630,
+              "bottom": 673,
+              "minimumContrast": 13.4,
+              "p05Contrast": 13.72,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2686,11 +2840,11 @@
           "boxes": [
             {
               "field": "title",
-              "left": 167,
-              "right": 333,
-              "top": 317,
+              "left": 157,
+              "right": 344,
+              "top": 320,
               "bottom": 332,
-              "minimumContrast": 10.9,
+              "minimumContrast": 11.1,
               "p05Contrast": 11.39,
               "threshold": 4.5,
               "marginPass": true,
@@ -2698,23 +2852,23 @@
             },
             {
               "field": "names",
-              "left": 48,
-              "right": 446,
-              "top": 361,
-              "bottom": 405,
-              "minimumContrast": 9.89,
-              "p05Contrast": 10.32,
+              "left": 53,
+              "right": 445,
+              "top": 372,
+              "bottom": 406,
+              "minimumContrast": 9.81,
+              "p05Contrast": 10.18,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "occasion",
-              "left": 118,
-              "right": 382,
+              "left": 121,
+              "right": 386,
               "top": 448,
-              "bottom": 472,
-              "minimumContrast": 10.61,
+              "bottom": 470,
+              "minimumContrast": 10.47,
               "p05Contrast": 10.78,
               "threshold": 3,
               "marginPass": true,
@@ -2722,48 +2876,48 @@
             },
             {
               "field": "note",
-              "left": 126,
-              "right": 393,
-              "top": 495,
-              "bottom": 533,
-              "minimumContrast": 11.38,
-              "p05Contrast": 11.78,
+              "left": 119,
+              "right": 400,
+              "top": 490,
+              "bottom": 539,
+              "minimumContrast": 11.07,
+              "p05Contrast": 11.72,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "date",
-              "left": 234,
-              "right": 366,
+              "left": 236,
+              "right": 364,
               "top": 560,
               "bottom": 586,
               "minimumContrast": 12.13,
-              "p05Contrast": 12.42,
+              "p05Contrast": 12.43,
               "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "time",
-              "left": 290,
-              "right": 339,
-              "top": 603,
-              "bottom": 617,
-              "minimumContrast": 12.49,
-              "p05Contrast": 12.92,
-              "threshold": 4.5,
+              "left": 293,
+              "right": 337,
+              "top": 608,
+              "bottom": 625,
+              "minimumContrast": 12.91,
+              "p05Contrast": 12.96,
+              "threshold": 3,
               "marginPass": true,
               "contrastPass": true
             },
             {
               "field": "location",
-              "left": 234,
-              "right": 425,
-              "top": 633,
-              "bottom": 668,
+              "left": 233,
+              "right": 426,
+              "top": 630,
+              "bottom": 673,
               "minimumContrast": 13.21,
-              "p05Contrast": 13.56,
+              "p05Contrast": 13.55,
               "threshold": 4.5,
               "marginPass": true,
               "contrastPass": true
@@ -2778,7 +2932,7 @@
             "loaded": true
           },
           {
-            "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+            "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
             "loaded": true
           }
         ],
@@ -2794,45 +2948,46 @@
             "sha256": "a0084044d45015f8093af5e1cbd5c4bcf6daf5f4a42513adf2d597bc97e849dc"
           },
           "previews/tigricev-nezni-san.webp": {
-            "bytes": 63554,
-            "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20"
+            "bytes": 60656,
+            "sha256": "2dd4b9a8560832bd845ba032faf9b32c18d85fe86bccd0c5f9ca72509ca0d491"
           },
           "examples/tigricev-nezni-san.png": {
-            "bytes": 3218622,
-            "sha256": "68c8c55f3beb1a6d94089498734ac7dc0ac00bdb8747c8e8c36944a244cc8e5e"
+            "bytes": 3212181,
+            "sha256": "2d79965b0cd0c27d70138a32764d3005eaaebb7b03004b25753debf50c195ccc"
           },
           "examples/tigricev-nezni-san-long-text.png": {
-            "bytes": 3238848,
-            "sha256": "fb59146146dde88b96196cab9956b09aa310d37bdcd05f20af76bb52da705439"
+            "bytes": 3233596,
+            "sha256": "05f69cf2b1ec82fe8b488488a0def68bbcb406511bdd5f1e0377469ae086a964"
           },
           "examples/tigricev-nezni-san.pdf": {
-            "bytes": 638770,
-            "sha256": "7ab199beee4e9f61db78ce70b8e1be9bc77114ffbeee23e28e5c22147611b142"
+            "bytes": 629582,
+            "sha256": "abd2dde93b45b3ff946dd35eea23ebe52afeb8e41936c704ae5fee4f8bb15b7a"
           }
         }
       },
-      "ageOccasionGapAt500": "not_applicable"
+      "ageOccasionGapAt500": "not_applicable",
+      "fontPair": [
+        "Fraunces",
+        "Cormorant Garamond"
+      ]
     }
   ],
-  "publication": [
-    {
-      "id": "atomic_publication",
-      "status": "PROŠLO",
-      "phase": "publication",
-      "evidence": "One main commitf7d75a90ce51e85e3db18919227b37dbb9ebe877, expected parent084b02c9e9cba0611f3dd5fc6226d7603a7f71ea; all6; Cloudflare success2026-10-25T12:19:46.000+09:00."
-    },
-    {
-      "id": "published_site_verification",
-      "status": "NEPROVERENO",
-      "phase": "postPublication",
-      "evidence": "content/robi-batches/2026-10-25/public-live-checks.json",
-      "note": "All six post-deployment HTTPS requests were denied by the environment proxy at CONNECT403 before any destination response. Public pages/editors/PNG/PDF/category/sitemap/SEO/AdSense remain unverified. This does not establish that the website itself returns403."
-    }
-  ],
-  "userReview": "awaiting actual user review; not a publication prerequisite",
+  "publication": {
+    "status": "NEPROVERENO",
+    "stage": "revision_ready_to_publish",
+    "atomicCommitPending": true
+  },
+  "userReview": {
+    "status": "original_typography_rejected_revision_awaiting_user_review",
+    "source": "agent/feedback/2026-10-25-premium-typography.json",
+    "pointsAwarded": 0,
+    "aestheticApprovalAssumed": false
+  },
   "pointsAwarded": 0,
   "deadlineMet": false,
   "priorMissedDeadlineEvidence": "final-daily-check.json",
-  "finalStatus": "Late, deployed; mandatory real public verification blocked",
-  "updatedAt": "2026-10-25T03:22:59Z"
+  "finalStatus": "PREPUBLICATION_PASSED_REVISION_NOT_YET_DEPLOYED",
+  "updatedAt": "2026-10-25T03:22:59Z",
+  "revisionId": "2026-10-25-typography-01",
+  "previousVersionAestheticVerdict": "User rejected typography; no aesthetic approval inferred for the revision."
 }

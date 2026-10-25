@@ -1,221 +1,221 @@
 {
-  "status": "passed",
-  "pngFiles": [
+  "checkedAt": "2026-10-25T03:53:15.406405+00:00",
+  "files": [
     {
       "file": "examples/jesenji-vinograd-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/jesenji-vinograd-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/jesenji-vinograd.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sareni-vetric-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sareni-vetric-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sareni-vetric.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sledeci-nivo-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sledeci-nivo-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/sledeci-nivo.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/srebrno-zvonce-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/srebrno-zvonce-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/srebrno-zvonce.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/tigricev-nezni-san-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/tigricev-nezni-san-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/tigricev-nezni-san.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/zamak-veselih-zastava-editor.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/zamak-veselih-zastava-long-text.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     },
     {
       "file": "examples/zamak-veselih-zastava.png",
-      "size": [
+      "status": "PROŠLO",
+      "dimensions": [
         1500,
         2100
       ],
       "dpi": [
         299.9994,
         299.9994
-      ],
-      "pngIntegrity": "passed"
+      ]
     }
   ]
 }
