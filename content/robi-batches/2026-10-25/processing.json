@@ -1,0 +1,112 @@
+{
+  "sources": [
+    {
+      "id": "sareni-vetric",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "sledeci-nivo",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "jesenji-vinograd",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "srebrno-zvonce",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    },
+    {
+      "id": "tigricev-nezni-san",
+      "source": [
+        1060,
+        1484
+      ],
+      "final": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "preview": [
+        500,
+        700
+      ]
+    }
+  ],
+  "pngDpi": 300,
+  "pdfSizeMm": [
+    127,
+    177.8
+  ],
+  "originalsUnchanged": true
+}

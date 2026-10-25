@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "sareni-vetric",
+    "category": "first",
+    "name": "Šareni vetrić",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 174,
+          "right": 426,
+          "top": 58,
+          "bottom": 75,
+          "minimumContrast": 8.32,
+          "p05Contrast": 8.81,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 140,
+          "right": 397,
+          "top": 104,
+          "bottom": 178,
+          "minimumContrast": 8.95,
+          "p05Contrast": 9.39,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 169,
+          "right": 213,
+          "top": 187,
+          "bottom": 239,
+          "minimumContrast": 10.29,
+          "p05Contrast": 10.39,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 225,
+          "right": 369,
+          "top": 212,
+          "bottom": 228,
+          "minimumContrast": 10.03,
+          "p05Contrast": 10.41,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 134,
+          "right": 375,
+          "top": 281,
+          "bottom": 320,
+          "minimumContrast": 9.84,
+          "p05Contrast": 10.19,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 258,
+          "right": 391,
+          "top": 375,
+          "bottom": 401,
+          "minimumContrast": 9.28,
+          "p05Contrast": 9.56,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 315,
+          "right": 364,
+          "top": 439,
+          "bottom": 453,
+          "minimumContrast": 9.3,
+          "p05Contrast": 9.42,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 259,
+          "right": 430,
+          "top": 491,
+          "bottom": 528,
+          "minimumContrast": 7.96,
+          "p05Contrast": 8.61,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 174,
+          "right": 426,
+          "top": 58,
+          "bottom": 75,
+          "minimumContrast": 8.32,
+          "p05Contrast": 8.81,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 78,
+          "right": 460,
+          "top": 121,
+          "bottom": 155,
+          "minimumContrast": 8.2,
+          "p05Contrast": 8.88,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 169,
+          "right": 213,
+          "top": 187,
+          "bottom": 239,
+          "minimumContrast": 10.29,
+          "p05Contrast": 10.39,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 225,
+          "right": 369,
+          "top": 212,
+          "bottom": 228,
+          "minimumContrast": 10.03,
+          "p05Contrast": 10.41,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 134,
+          "right": 375,
+          "top": 281,
+          "bottom": 320,
+          "minimumContrast": 9.84,
+          "p05Contrast": 10.19,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 258,
+          "right": 391,
+          "top": 375,
+          "bottom": 401,
+          "minimumContrast": 9.28,
+          "p05Contrast": 9.56,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 315,
+          "right": 364,
+          "top": 439,
+          "bottom": 453,
+          "minimumContrast": 9.3,
+          "p05Contrast": 9.42,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 249,
+          "right": 440,
+          "top": 493,
+          "bottom": 528,
+          "minimumContrast": 8.13,
+          "p05Contrast": 8.56,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+        "loaded": true
+      },
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "d49675b8c39ca94b45b70dc40f30c8a7f48908aca4f0082e23f2c85597dfd04c",
+    "sourceBytes": 2070875,
+    "files": {
+      "backgrounds/sareni-vetric.webp": {
+        "bytes": 174370,
+        "sha256": "07745fd946af3052734391ac937542a39aa2d09302ec929f7c10a6bca7a2e2e1"
+      },
+      "backgrounds/sareni-vetric.png": {
+        "bytes": 4745430,
+        "sha256": "60e57712271363f621f2846084b2497fd345a5e540b218a4245f949bfab6b858"
+      },
+      "previews/sareni-vetric.webp": {
+        "bytes": 39810,
+        "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756"
+      },
+      "examples/sareni-vetric.png": {
+        "bytes": 2916517,
+        "sha256": "612a4414aac618d7d17581a0558b9fc58213f5aa33b544042a5879872d68d4c4"
+      },
+      "examples/sareni-vetric-long-text.png": {
+        "bytes": 2934059,
+        "sha256": "133315f33f0453312b5e628031f7d1fd788773703688f4806084f18fb72595f9"
+      },
+      "examples/sareni-vetric.pdf": {
+        "bytes": 489819,
+        "sha256": "d2a2c2fa6da1a3287cabf7daa03cf77169370afda4b9a8d3a19b87306d0b68a7"
+      }
+    }
+  },
+  {
+    "id": "sledeci-nivo",
+    "category": "eighteen",
+    "name": "Sledeći nivo",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 137,
+          "right": 361,
+          "top": 51,
+          "bottom": 66,
+          "minimumContrast": 16.84,
+          "p05Contrast": 16.91,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 142,
+          "right": 360,
+          "top": 109,
+          "bottom": 170,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.91,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 133,
+          "right": 202,
+          "top": 209,
+          "bottom": 263,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.91,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 216,
+          "right": 368,
+          "top": 225,
+          "bottom": 244,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 136,
+          "right": 363,
+          "top": 302,
+          "bottom": 341,
+          "minimumContrast": 16.91,
+          "p05Contrast": 16.98,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 181,
+          "right": 318,
+          "top": 361,
+          "bottom": 387,
+          "minimumContrast": 16.98,
+          "p05Contrast": 16.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 223,
+          "right": 276,
+          "top": 403,
+          "bottom": 418,
+          "minimumContrast": 16.98,
+          "p05Contrast": 17.04,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 171,
+          "right": 328,
+          "top": 432,
+          "bottom": 470,
+          "minimumContrast": 15.53,
+          "p05Contrast": 16.08,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 160,
+          "right": 339,
+          "top": 659,
+          "bottom": 671,
+          "minimumContrast": 14.91,
+          "p05Contrast": 15.71,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 137,
+          "right": 361,
+          "top": 51,
+          "bottom": 66,
+          "minimumContrast": 16.84,
+          "p05Contrast": 16.91,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 48,
+          "right": 449,
+          "top": 121,
+          "bottom": 162,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.91,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 133,
+          "right": 202,
+          "top": 209,
+          "bottom": 263,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.91,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 216,
+          "right": 368,
+          "top": 225,
+          "bottom": 244,
+          "minimumContrast": 16.82,
+          "p05Contrast": 16.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 136,
+          "right": 363,
+          "top": 302,
+          "bottom": 341,
+          "minimumContrast": 16.91,
+          "p05Contrast": 16.98,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 181,
+          "right": 318,
+          "top": 361,
+          "bottom": 387,
+          "minimumContrast": 16.98,
+          "p05Contrast": 16.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 223,
+          "right": 276,
+          "top": 403,
+          "bottom": 418,
+          "minimumContrast": 16.98,
+          "p05Contrast": 17.04,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 146,
+          "right": 353,
+          "top": 432,
+          "bottom": 470,
+          "minimumContrast": 15.11,
+          "p05Contrast": 15.72,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 184,
+          "right": 315,
+          "top": 651,
+          "bottom": 679,
+          "minimumContrast": 13,
+          "p05Contrast": 14.69,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "6beafe36ce6458cebe0dfe02f52ae4ea295de1a7c83ac77ff325f76c933f54ab",
+    "sourceBytes": 1780604,
+    "files": {
+      "backgrounds/sledeci-nivo.webp": {
+        "bytes": 122346,
+        "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b"
+      },
+      "backgrounds/sledeci-nivo.png": {
+        "bytes": 3596959,
+        "sha256": "ec7fa1c82386c3190f3062ccc4cc6a1b8353ff7b7b4888ca7b46337595107dca"
+      },
+      "previews/sledeci-nivo.webp": {
+        "bytes": 35322,
+        "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd"
+      },
+      "examples/sledeci-nivo.png": {
+        "bytes": 1634576,
+        "sha256": "6f8609c6e78a036777da3c1ad4a6626ac95244a0ce8c1986c8b092e86779eeff"
+      },
+      "examples/sledeci-nivo-long-text.png": {
+        "bytes": 1666397,
+        "sha256": "1b12985751eefd10408a41a622a78317a506bd77200b7433fc49ed9952c77ca7"
+      },
+      "examples/sledeci-nivo.pdf": {
+        "bytes": 383275,
+        "sha256": "d84c38654b910d19bc79c62adafb300acda365f7990be8d5da9024771ab28609"
+      }
+    }
+  },
+  {
+    "id": "zamak-veselih-zastava",
+    "category": "birthday",
+    "name": "Zamak veselih zastava",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 131,
+          "right": 367,
+          "top": 30,
+          "bottom": 44,
+          "minimumContrast": 6.12,
+          "p05Contrast": 6.4,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 120,
+          "right": 376,
+          "top": 54,
+          "bottom": 118,
+          "minimumContrast": 6.24,
+          "p05Contrast": 6.53,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 148,
+          "right": 202,
+          "top": 148,
+          "bottom": 200,
+          "minimumContrast": 6.53,
+          "p05Contrast": 6.65,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 215,
+          "right": 353,
+          "top": 173,
+          "bottom": 189,
+          "minimumContrast": 6.53,
+          "p05Contrast": 6.71,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 133,
+          "right": 366,
+          "top": 236,
+          "bottom": 253,
+          "minimumContrast": 6.65,
+          "p05Contrast": 6.84,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 90,
+          "right": 209,
+          "top": 277,
+          "bottom": 301,
+          "minimumContrast": 6.9,
+          "p05Contrast": 6.92,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 360,
+          "right": 409,
+          "top": 278,
+          "bottom": 292,
+          "minimumContrast": 6.65,
+          "p05Contrast": 6.78,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 122,
+          "right": 377,
+          "top": 311,
+          "bottom": 329,
+          "minimumContrast": 6.72,
+          "p05Contrast": 6.9,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 131,
+          "right": 367,
+          "top": 30,
+          "bottom": 44,
+          "minimumContrast": 6.12,
+          "p05Contrast": 6.4,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 54,
+          "right": 445,
+          "top": 76,
+          "bottom": 110,
+          "minimumContrast": 6.14,
+          "p05Contrast": 6.47,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "age",
+          "left": 110,
+          "right": 202,
+          "top": 147,
+          "bottom": 200,
+          "minimumContrast": 6.37,
+          "p05Contrast": 6.59,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 215,
+          "right": 353,
+          "top": 173,
+          "bottom": 189,
+          "minimumContrast": 6.53,
+          "p05Contrast": 6.71,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 133,
+          "right": 366,
+          "top": 236,
+          "bottom": 253,
+          "minimumContrast": 6.65,
+          "p05Contrast": 6.84,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 90,
+          "right": 209,
+          "top": 277,
+          "bottom": 301,
+          "minimumContrast": 6.9,
+          "p05Contrast": 6.92,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 360,
+          "right": 409,
+          "top": 278,
+          "bottom": 292,
+          "minimumContrast": 6.65,
+          "p05Contrast": 6.78,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 154,
+          "right": 345,
+          "top": 304,
+          "bottom": 339,
+          "minimumContrast": 6.84,
+          "p05Contrast": 6.92,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-48a03fa0-af48-4b3b-809c-7182a31d1c86",
+        "loaded": true
+      },
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "8079d6d0381ef992b3df6549584b6b607083624abef8ce43d88994b85feb96a9",
+    "sourceBytes": 2278232,
+    "files": {
+      "backgrounds/zamak-veselih-zastava.webp": {
+        "bytes": 330388,
+        "sha256": "4e9af4f631f63919d140d5673c4a5ef99c9ac42e921429823f6c2e2aac4d645d"
+      },
+      "backgrounds/zamak-veselih-zastava.png": {
+        "bytes": 5289142,
+        "sha256": "71e3dd0a89de476f4b65aa0150dffb412556026be4e7078e296c21dd07e8699e"
+      },
+      "previews/zamak-veselih-zastava.webp": {
+        "bytes": 70726,
+        "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e"
+      },
+      "examples/zamak-veselih-zastava.png": {
+        "bytes": 3882545,
+        "sha256": "cece3fe04f3f47ab139d22b231dcbcd189d7d30d5112607a4d953720326b53f3"
+      },
+      "examples/zamak-veselih-zastava-long-text.png": {
+        "bytes": 3904604,
+        "sha256": "5d27bbe2766f385d9c21328b2fdadafa5a507eca6e26b477851f9d9730ff07ba"
+      },
+      "examples/zamak-veselih-zastava.pdf": {
+        "bytes": 686899,
+        "sha256": "9e06977cea8284b2e3afdfa15b3fb6526b8a7e4ff603f1339c56fd180ca9e339"
+      }
+    }
+  },
+  {
+    "id": "jesenji-vinograd",
+    "category": "wedding",
+    "name": "Jesenji vinograd",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 308,
+          "right": 421,
+          "top": 61,
+          "bottom": 89,
+          "minimumContrast": 7.82,
+          "p05Contrast": 7.95,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "bride",
+          "left": 282,
+          "right": 416,
+          "top": 120,
+          "bottom": 168,
+          "minimumContrast": 7.73,
+          "p05Contrast": 7.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "join",
+          "left": 342,
+          "right": 358,
+          "top": 206,
+          "bottom": 223,
+          "minimumContrast": 7.75,
+          "p05Contrast": 7.85,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "groom",
+          "left": 278,
+          "right": 420,
+          "top": 238,
+          "bottom": 302,
+          "minimumContrast": 7.75,
+          "p05Contrast": 7.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 187,
+          "right": 432,
+          "top": 325,
+          "bottom": 361,
+          "minimumContrast": 7.96,
+          "p05Contrast": 8.08,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 201,
+          "right": 338,
+          "top": 403,
+          "bottom": 429,
+          "minimumContrast": 8.08,
+          "p05Contrast": 8.26,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 61,
+          "right": 207,
+          "top": 457,
+          "bottom": 472,
+          "minimumContrast": 7.98,
+          "p05Contrast": 8.16,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 65,
+          "right": 204,
+          "top": 501,
+          "bottom": 535,
+          "minimumContrast": 8.18,
+          "p05Contrast": 8.39,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 293,
+          "right": 437,
+          "top": 461,
+          "bottom": 472,
+          "minimumContrast": 8.24,
+          "p05Contrast": 8.4,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 294,
+          "right": 435,
+          "top": 500,
+          "bottom": 535,
+          "minimumContrast": 8.38,
+          "p05Contrast": 8.59,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 115,
+          "right": 294,
+          "top": 631,
+          "bottom": 643,
+          "minimumContrast": 8.57,
+          "p05Contrast": 8.86,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 308,
+          "right": 421,
+          "top": 61,
+          "bottom": 89,
+          "minimumContrast": 7.82,
+          "p05Contrast": 7.95,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "bride",
+          "left": 239,
+          "right": 457,
+          "top": 136,
+          "bottom": 166,
+          "minimumContrast": 7.96,
+          "p05Contrast": 8.06,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "join",
+          "left": 342,
+          "right": 358,
+          "top": 206,
+          "bottom": 223,
+          "minimumContrast": 7.75,
+          "p05Contrast": 7.85,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "groom",
+          "left": 242,
+          "right": 457,
+          "top": 265,
+          "bottom": 287,
+          "minimumContrast": 7.85,
+          "p05Contrast": 7.98,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 187,
+          "right": 432,
+          "top": 325,
+          "bottom": 361,
+          "minimumContrast": 7.96,
+          "p05Contrast": 8.08,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 201,
+          "right": 338,
+          "top": 403,
+          "bottom": 429,
+          "minimumContrast": 8.08,
+          "p05Contrast": 8.26,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 61,
+          "right": 207,
+          "top": 457,
+          "bottom": 472,
+          "minimumContrast": 7.98,
+          "p05Contrast": 8.16,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 45,
+          "right": 224,
+          "top": 500,
+          "bottom": 535,
+          "minimumContrast": 7.98,
+          "p05Contrast": 8.36,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 293,
+          "right": 437,
+          "top": 461,
+          "bottom": 472,
+          "minimumContrast": 8.24,
+          "p05Contrast": 8.4,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 269,
+          "right": 460,
+          "top": 500,
+          "bottom": 535,
+          "minimumContrast": 5.91,
+          "p05Contrast": 8.49,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "rsvp",
+          "left": 139,
+          "right": 270,
+          "top": 623,
+          "bottom": 651,
+          "minimumContrast": 8.7,
+          "p05Contrast": 8.93,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      },
+      {
+        "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "e3b0acf70ce3ba9ff46f588090b38fb2cd3aeb1e73931dcee3028400b3ef30b4",
+    "sourceBytes": 2192718,
+    "files": {
+      "backgrounds/jesenji-vinograd.webp": {
+        "bytes": 205038,
+        "sha256": "bc935479356365938f4c013b2e9cca497a25c638c371095dc1f29ee23b0f744e"
+      },
+      "backgrounds/jesenji-vinograd.png": {
+        "bytes": 4986388,
+        "sha256": "211e2f9907dcc349c4895c975423290a5bda6694dc03f71964fa57dbb29727ce"
+      },
+      "previews/jesenji-vinograd.webp": {
+        "bytes": 54212,
+        "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1"
+      },
+      "examples/jesenji-vinograd.png": {
+        "bytes": 2748438,
+        "sha256": "b6d95150817b335b8c7b7a7762d9b7197b297be0c461b6011b889139cb5b62f1"
+      },
+      "examples/jesenji-vinograd-long-text.png": {
+        "bytes": 2782854,
+        "sha256": "e5467417d7f9d046ca06b12b5f592740c3ff9f81f651d06e94dc85181544e1b4"
+      },
+      "examples/jesenji-vinograd.pdf": {
+        "bytes": 585722,
+        "sha256": "572b45db8c48a3373294261607e157da80817e454b0832f4f514bf0396dc832e"
+      }
+    }
+  },
+  {
+    "id": "srebrno-zvonce",
+    "category": "baptism",
+    "name": "Srebrno zvonce",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 132,
+          "right": 367,
+          "top": 146,
+          "bottom": 157,
+          "minimumContrast": 11.37,
+          "p05Contrast": 11.61,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 166,
+          "right": 330,
+          "top": 184,
+          "bottom": 257,
+          "minimumContrast": 11.5,
+          "p05Contrast": 11.61,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 166,
+          "right": 332,
+          "top": 280,
+          "bottom": 319,
+          "minimumContrast": 11.55,
+          "p05Contrast": 11.61,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 133,
+          "right": 367,
+          "top": 339,
+          "bottom": 375,
+          "minimumContrast": 11.14,
+          "p05Contrast": 11.43,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 183,
+          "right": 316,
+          "top": 403,
+          "bottom": 429,
+          "minimumContrast": 11.1,
+          "p05Contrast": 11.26,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 86,
+          "right": 194,
+          "top": 451,
+          "bottom": 462,
+          "minimumContrast": 6.73,
+          "p05Contrast": 7.88,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 65,
+          "right": 214,
+          "top": 479,
+          "bottom": 514,
+          "minimumContrast": 6.81,
+          "p05Contrast": 8.06,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 289,
+          "right": 430,
+          "top": 451,
+          "bottom": 462,
+          "minimumContrast": 8.85,
+          "p05Contrast": 9.27,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 297,
+          "right": 422,
+          "top": 480,
+          "bottom": 514,
+          "minimumContrast": 9.07,
+          "p05Contrast": 9.64,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 132,
+          "right": 367,
+          "top": 146,
+          "bottom": 157,
+          "minimumContrast": 11.37,
+          "p05Contrast": 11.61,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 47,
+          "right": 446,
+          "top": 200,
+          "bottom": 244,
+          "minimumContrast": 10.11,
+          "p05Contrast": 11,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 166,
+          "right": 332,
+          "top": 280,
+          "bottom": 319,
+          "minimumContrast": 11.55,
+          "p05Contrast": 11.61,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 133,
+          "right": 367,
+          "top": 339,
+          "bottom": 375,
+          "minimumContrast": 11.14,
+          "p05Contrast": 11.43,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 183,
+          "right": 316,
+          "top": 403,
+          "bottom": 429,
+          "minimumContrast": 11.1,
+          "p05Contrast": 11.26,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_time",
+          "left": 86,
+          "right": 194,
+          "top": 451,
+          "bottom": 462,
+          "minimumContrast": 6.73,
+          "p05Contrast": 7.88,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "ceremony_location",
+          "left": 52,
+          "right": 226,
+          "top": 479,
+          "bottom": 514,
+          "minimumContrast": 4.27,
+          "p05Contrast": 7.92,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 289,
+          "right": 430,
+          "top": 451,
+          "bottom": 462,
+          "minimumContrast": 8.85,
+          "p05Contrast": 9.27,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 267,
+          "right": 452,
+          "top": 479,
+          "bottom": 514,
+          "minimumContrast": 2.85,
+          "p05Contrast": 6.05,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      },
+      {
+        "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "d58724ade039a3b5e167c35d65d328822e8d631c5760cd11efe7ddff98ea0281",
+    "sourceBytes": 2224321,
+    "files": {
+      "backgrounds/srebrno-zvonce.webp": {
+        "bytes": 270846,
+        "sha256": "23e032af32e96061d8d23d52ceab779ef5a6f0a5944b6592b9475672df914827"
+      },
+      "backgrounds/srebrno-zvonce.png": {
+        "bytes": 4906806,
+        "sha256": "cb6be231f859cf0a20eb0380f3c411e5bc3f31ca6a5b1b0ca8a6307da187ebb5"
+      },
+      "previews/srebrno-zvonce.webp": {
+        "bytes": 61374,
+        "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d"
+      },
+      "examples/srebrno-zvonce.png": {
+        "bytes": 3564274,
+        "sha256": "cfe583511de27d86f6bb2a71ac110d2cb6b3c596a5d26eb7b7f0e57da86efb13"
+      },
+      "examples/srebrno-zvonce-long-text.png": {
+        "bytes": 3596188,
+        "sha256": "1ab9618e551241a41b73093f8bd87345e206f6adf213d066784a0e67989708f9"
+      },
+      "examples/srebrno-zvonce.pdf": {
+        "bytes": 642576,
+        "sha256": "dc42ffe8ebf80942d1ddfc7678adca85af872630f6b846bd288a3b05b45a5dc0"
+      }
+    }
+  },
+  {
+    "id": "tigricev-nezni-san",
+    "category": "baby",
+    "name": "Tigrićev nežni san",
+    "sourceWidth": 1060,
+    "sourceHeight": 1484,
+    "backgroundWidth": 1500,
+    "backgroundHeight": 2100,
+    "exportWidth": 1500,
+    "exportHeight": 2100,
+    "cropped": false,
+    "cropRect": null,
+    "upscaled": true,
+    "defaultCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 167,
+          "right": 333,
+          "top": 317,
+          "bottom": 332,
+          "minimumContrast": 10.9,
+          "p05Contrast": 11.39,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 109,
+          "right": 388,
+          "top": 337,
+          "bottom": 435,
+          "minimumContrast": 9.65,
+          "p05Contrast": 10.19,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 118,
+          "right": 382,
+          "top": 448,
+          "bottom": 472,
+          "minimumContrast": 10.61,
+          "p05Contrast": 10.78,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 126,
+          "right": 393,
+          "top": 495,
+          "bottom": 533,
+          "minimumContrast": 11.38,
+          "p05Contrast": 11.78,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 234,
+          "right": 366,
+          "top": 560,
+          "bottom": 586,
+          "minimumContrast": 12.13,
+          "p05Contrast": 12.42,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 290,
+          "right": 339,
+          "top": 603,
+          "bottom": 617,
+          "minimumContrast": 12.49,
+          "p05Contrast": 12.92,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 234,
+          "right": 426,
+          "top": 633,
+          "bottom": 668,
+          "minimumContrast": 13.25,
+          "p05Contrast": 13.73,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "longTextCheck": {
+      "boxes": [
+        {
+          "field": "title",
+          "left": 167,
+          "right": 333,
+          "top": 317,
+          "bottom": 332,
+          "minimumContrast": 10.9,
+          "p05Contrast": 11.39,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "names",
+          "left": 48,
+          "right": 446,
+          "top": 361,
+          "bottom": 405,
+          "minimumContrast": 9.89,
+          "p05Contrast": 10.32,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "occasion",
+          "left": 118,
+          "right": 382,
+          "top": 448,
+          "bottom": 472,
+          "minimumContrast": 10.61,
+          "p05Contrast": 10.78,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "note",
+          "left": 126,
+          "right": 393,
+          "top": 495,
+          "bottom": 533,
+          "minimumContrast": 11.38,
+          "p05Contrast": 11.78,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "date",
+          "left": 234,
+          "right": 366,
+          "top": 560,
+          "bottom": 586,
+          "minimumContrast": 12.13,
+          "p05Contrast": 12.42,
+          "threshold": 3,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "time",
+          "left": 290,
+          "right": 339,
+          "top": 603,
+          "bottom": 617,
+          "minimumContrast": 12.49,
+          "p05Contrast": 12.92,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        },
+        {
+          "field": "location",
+          "left": 234,
+          "right": 425,
+          "top": 633,
+          "bottom": 668,
+          "minimumContrast": 13.21,
+          "p05Contrast": 13.56,
+          "threshold": 4.5,
+          "marginPass": true,
+          "contrastPass": true
+        }
+      ],
+      "overlaps": [],
+      "passed": true
+    },
+    "fontsLoaded": [
+      {
+        "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+        "loaded": true
+      },
+      {
+        "family": "custom-727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+        "loaded": true
+      }
+    ],
+    "sourceSha256": "86ea1f906332a683b97295fc1cf1971001e4ad0dadf7b593a2b528ba05aa541e",
+    "sourceBytes": 2217083,
+    "files": {
+      "backgrounds/tigricev-nezni-san.webp": {
+        "bytes": 250836,
+        "sha256": "ece4097597fa62de787a6a3831c50190b5d099a9fc1296422394fe43cffb4a2a"
+      },
+      "backgrounds/tigricev-nezni-san.png": {
+        "bytes": 4913997,
+        "sha256": "a0084044d45015f8093af5e1cbd5c4bcf6daf5f4a42513adf2d597bc97e849dc"
+      },
+      "previews/tigricev-nezni-san.webp": {
+        "bytes": 63554,
+        "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20"
+      },
+      "examples/tigricev-nezni-san.png": {
+        "bytes": 3218622,
+        "sha256": "68c8c55f3beb1a6d94089498734ac7dc0ac00bdb8747c8e8c36944a244cc8e5e"
+      },
+      "examples/tigricev-nezni-san-long-text.png": {
+        "bytes": 3238848,
+        "sha256": "fb59146146dde88b96196cab9956b09aa310d37bdcd05f20af76bb52da705439"
+      },
+      "examples/tigricev-nezni-san.pdf": {
+        "bytes": 638770,
+        "sha256": "7ab199beee4e9f61db78ce70b8e1be9bc77114ffbeee23e28e5c22147611b142"
+      }
+    }
+  }
+]

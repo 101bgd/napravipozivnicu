@@ -1222,7 +1222,7 @@
       "date": "2026-10-25",
       "path": "content/robi-batches/2026-10-25",
       "timezone": "Asia/Tokyo",
-      "status": "checking",
+      "status": "ready_to_publish",
       "scheduledAt": "2026-10-25T08:00:00+09:00",
       "deadlineAt": "2026-10-25T10:00:00+09:00",
       "preflightStartedAt": "2026-10-24T22:59:25Z",
@@ -1245,21 +1245,29 @@
           "category": "first",
           "age": 1,
           "audience": "male",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sareni-vetric.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-sarena-vetrenjaca/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         },
         {
           "id": "sledeci-nivo",
@@ -1267,21 +1275,29 @@
           "category": "eighteen",
           "age": 18,
           "audience": "male",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sledeci-nivo.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-gejming-kontroler/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         },
         {
           "id": "zamak-veselih-zastava",
@@ -1289,21 +1305,29 @@
           "category": "birthday",
           "age": 5,
           "audience": "male",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sareni-zamak/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         },
         {
           "id": "jesenji-vinograd",
@@ -1311,21 +1335,29 @@
           "category": "wedding",
           "age": null,
           "audience": "couple",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/jesenji-vinograd.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-grozdje-vinovi-listovi/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         },
         {
           "id": "srebrno-zvonce",
@@ -1333,21 +1365,29 @@
           "category": "baptism",
           "age": null,
           "audience": "male",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/srebrno-zvonce.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-srebrno-zvono/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         },
         {
           "id": "tigricev-nezni-san",
@@ -1355,24 +1395,32 @@
           "category": "baby",
           "age": null,
           "audience": "male",
-          "status": "background_generated_template_unverified",
+          "status": "ready_to_publish",
           "sourceDimensions": [
             1060,
             1484
           ],
-          "sourcePreview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png",
-          "previewKind": "source_background_only",
-          "finalPreview": null,
-          "publicUrl": null,
-          "exportDimensions": null,
-          "plannedExportDimensions": [
+          "exportDimensions": [
             1500,
             2100
           ],
-          "templatePrepared": false
+          "upscaled": true,
+          "cropped": false,
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
+          "previewDimensions": [
+            500,
+            700
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-tigric/",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ],
+          "templatePrepared": true
         }
       ],
-      "lastConfirmedStep": "6 actual editable templates rendered; default/long text checks passed;6 mobile editors with real downloads passed;18 PNGs opened at300dpi and12 PDFs opened/rasterized; all6 personalized PDFs visually inspected. Existing production/AdSense smoke tests and artifact archiving still running.",
+      "lastConfirmedStep": "All6 passed18 prepublication checks, actual mobile editors and PNG/PDF downloads. All6 final personalized PDFs visually inspected; production/AdSense tests passed;50 artifact hashes verified on upload. Ready for one atomic publication, late.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1381,14 +1429,11 @@
       "report": "content/robi-batches/2026-10-25/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-25/quality-checklist.json",
       "audit": {
-        "checkedAt": "2026-10-25T02:52:59Z",
-        "status": "incomplete_late",
-        "evidence": "content/robi-batches/2026-10-25/final-daily-check.json",
+        "checkedAt": "2026-10-25T03:13:34Z",
+        "status": "late_prepublication_passed",
+        "evidence": "content/robi-batches/2026-10-25/quality-checklist.json",
         "deadlineMet": false,
-        "generatedCount": 6,
-        "preparedCount": 0,
-        "deployedCount": 0,
-        "verifiedPublicCount": 0,
+        "previousMissedDeadlineEvidence": "content/robi-batches/2026-10-25/final-daily-check.json",
         "pointsAwarded": 0
       },
       "notification": {
@@ -1404,13 +1449,27 @@
         "Publish all6 together after prepublication checks",
         "Confirm Cloudflare deploy and actual public result"
       ],
-      "incompleteReason": "Local template preparation and required checks not completed; no external failure established for those steps.",
       "resumedAt": "2026-10-25T03:08:53Z",
       "resumeAuthorization": {
         "quote": "nastavi sa radom, sledeci korak kad napravis pozadine",
         "channel": "ChatGPT",
         "recordedAt": "2026-10-25T03:08:53Z"
-      }
+      },
+      "prePublicationChecks": "passed",
+      "preparedAt": "2026-10-25T03:13:34Z",
+      "artifactPersistence": {
+        "status": "required_artifacts_saved",
+        "binaryFiles": 50,
+        "sourcePngs": 6,
+        "rejectedOriginals": 2,
+        "backgroundWebp": 6,
+        "previewWebp": 6,
+        "pngExamples": 18,
+        "pdfExamples": 12,
+        "manifest": "content/robi-batches/2026-10-25/artifact-manifest.json",
+        "allBlobUploadsMatchedLocalGitSha": true
+      },
+      "prePublicationIncompleteReasonResolvedAt": "2026-10-25T03:13:34Z"
     }
   ],
   "history": [
@@ -1619,7 +1678,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-25",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -1641,7 +1700,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:11:52Z",
+  "updatedAt": "2026-10-25T03:13:34Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",

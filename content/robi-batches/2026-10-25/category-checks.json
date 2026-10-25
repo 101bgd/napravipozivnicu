@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sareni-vetric",
+    "category": "first",
+    "categoryPath": "/pozivnice-za-prvi-rodjendan/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-prvi-rodjendan/index.html"
+  },
+  {
+    "id": "sledeci-nivo",
+    "category": "eighteen",
+    "categoryPath": "/pozivnice-za-18-rodjendan/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-18-rodjendan/index.html"
+  },
+  {
+    "id": "zamak-veselih-zastava",
+    "category": "birthday",
+    "categoryPath": "/pozivnice-za-rodjendan/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-rodjendan/index.html"
+  },
+  {
+    "id": "jesenji-vinograd",
+    "category": "wedding",
+    "categoryPath": "/pozivnice-za-vencanje/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-vencanje/index.html"
+  },
+  {
+    "id": "srebrno-zvonce",
+    "category": "baptism",
+    "categoryPath": "/pozivnice-za-krstenje/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-krstenje/index.html"
+  },
+  {
+    "id": "tigricev-nezni-san",
+    "category": "baby",
+    "categoryPath": "/pozivnice-za-rodjenje-deteta/",
+    "status": "passed",
+    "evidence": "dist/pozivnice-za-rodjenje-deteta/index.html"
+  }
+]

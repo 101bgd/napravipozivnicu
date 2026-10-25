@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "tigricev-nezni-san",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/extra-01/pcelicin-medeni-dan-background-cbb9b5d410c9.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/zlatni-trenutak-pozadina-ce7d11697ede.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pozadina-1334329de2a3.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "srebrno-zvonce",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/kameleonova-zurka-background-e1c64f6d4a86.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/bordo-nokturno-pozadina-9b87a98d1c4e.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-background-59b2c03c7c8d.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "jesenji-vinograd",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/mali-pilot-pozadina-e18bf426aefd.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "zamak-veselih-zastava",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/lanetovo-prvo-slavlje-background-9f19cfc90059.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "sledeci-nivo",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pozadina-488e613c1176.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/carobni-ringispil-pozadina-163a6d8e88b6.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/saten-i-biseri-pozadina-8d5283cae12f.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "sareni-vetric",
+      "historyCount": 75,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/extra-01/sladoledna-zurka-background-fd3c091fd770.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/vozic-prve-radosti-pozadina-f30be2c2d4e4.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/zekin-prvi-let-pozadina-5529110606ed.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "tigricev-nezni-san",
+      "b": "srebrno-zvonce",
+      "distance63": 32
+    },
+    {
+      "a": "tigricev-nezni-san",
+      "b": "jesenji-vinograd",
+      "distance63": 34
+    },
+    {
+      "a": "tigricev-nezni-san",
+      "b": "zamak-veselih-zastava",
+      "distance63": 34
+    },
+    {
+      "a": "tigricev-nezni-san",
+      "b": "sledeci-nivo",
+      "distance63": 32
+    },
+    {
+      "a": "tigricev-nezni-san",
+      "b": "sareni-vetric",
+      "distance63": 28
+    },
+    {
+      "a": "srebrno-zvonce",
+      "b": "jesenji-vinograd",
+      "distance63": 32
+    },
+    {
+      "a": "srebrno-zvonce",
+      "b": "zamak-veselih-zastava",
+      "distance63": 34
+    },
+    {
+      "a": "srebrno-zvonce",
+      "b": "sledeci-nivo",
+      "distance63": 34
+    },
+    {
+      "a": "srebrno-zvonce",
+      "b": "sareni-vetric",
+      "distance63": 32
+    },
+    {
+      "a": "jesenji-vinograd",
+      "b": "zamak-veselih-zastava",
+      "distance63": 34
+    },
+    {
+      "a": "jesenji-vinograd",
+      "b": "sledeci-nivo",
+      "distance63": 28
+    },
+    {
+      "a": "jesenji-vinograd",
+      "b": "sareni-vetric",
+      "distance63": 32
+    },
+    {
+      "a": "zamak-veselih-zastava",
+      "b": "sledeci-nivo",
+      "distance63": 34
+    },
+    {
+      "a": "zamak-veselih-zastava",
+      "b": "sareni-vetric",
+      "distance63": 32
+    },
+    {
+      "a": "sledeci-nivo",
+      "b": "sareni-vetric",
+      "distance63": 38
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

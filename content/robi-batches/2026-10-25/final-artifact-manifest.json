@@ -1,0 +1,296 @@
+[
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/jesenji-vinograd.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/jesenji-vinograd.webp",
+    "bytes": 205038,
+    "gitSha": "3660e319137853cc80ba06732f72e937a8d64bd3",
+    "sha256": "bc935479356365938f4c013b2e9cca497a25c638c371095dc1f29ee23b0f744e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/sareni-vetric.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/sareni-vetric.webp",
+    "bytes": 174370,
+    "gitSha": "ae3d38168beca549780e7a39fa9392a9c2482dde",
+    "sha256": "07745fd946af3052734391ac937542a39aa2d09302ec929f7c10a6bca7a2e2e1"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/sledeci-nivo.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/sledeci-nivo.webp",
+    "bytes": 122346,
+    "gitSha": "73f03d26a5523569d09f2de0623687ebaf582873",
+    "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/srebrno-zvonce.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/srebrno-zvonce.webp",
+    "bytes": 270846,
+    "gitSha": "eb4e08f8ea33ba124b30515b207e8672b514586f",
+    "sha256": "23e032af32e96061d8d23d52ceab779ef5a6f0a5944b6592b9475672df914827"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/tigricev-nezni-san.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/tigricev-nezni-san.webp",
+    "bytes": 250836,
+    "gitSha": "8c2dafbde6102e4a6b2f97e0ecbaeb33b807190d",
+    "sha256": "ece4097597fa62de787a6a3831c50190b5d099a9fc1296422394fe43cffb4a2a"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/backgrounds/zamak-veselih-zastava.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/backgrounds/zamak-veselih-zastava.webp",
+    "bytes": 330388,
+    "gitSha": "505260e36b148576dcf9bdbad33a5e601ac4f6bd",
+    "sha256": "4e9af4f631f63919d140d5673c4a5ef99c9ac42e921429823f6c2e2aac4d645d"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp",
+    "bytes": 54212,
+    "gitSha": "f550e50b4e40786d405be58b7c0a192b21a5a8ae",
+    "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/sareni-vetric.webp",
+    "bytes": 39810,
+    "gitSha": "c9a054d56de2db9dcecb727590f4edf8764b8cf8",
+    "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/sledeci-nivo.webp",
+    "bytes": 35322,
+    "gitSha": "9fd00cf52d4c2631db4a4a21f1aaf3e5a4934dd0",
+    "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp",
+    "bytes": 61374,
+    "gitSha": "ca9096df59da5536094f4326d63e254263da9fd6",
+    "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp",
+    "bytes": 63554,
+    "gitSha": "c98dd9630349267ee683be1a0f9468786215d4b2",
+    "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp",
+    "bytes": 70726,
+    "gitSha": "156cb5b77428e0de3d870b3e93208aa2929769fc",
+    "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.pdf",
+    "bytes": 1955108,
+    "gitSha": "5ac720e8c832ca0180a78eb51fb339542055747e",
+    "sha256": "56e51c21a6f90bf55c1b87ed2306550720b7ba3d6dc6a4a79be8d94b38f92da6"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/jesenji-vinograd-editor.png",
+    "bytes": 2359760,
+    "gitSha": "5b111776558e92c8e2e41ab42be88ed8a2be2522",
+    "sha256": "87a51cb3f85090b14ea60520397d58730944b50ba7103c3c6fb4bd817fced352"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/jesenji-vinograd-long-text.png",
+    "bytes": 2782854,
+    "gitSha": "6a5135a3cabfded809b5a2f85615f5df5d6a1f59",
+    "sha256": "e5467417d7f9d046ca06b12b5f592740c3ff9f81f651d06e94dc85181544e1b4"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/jesenji-vinograd.pdf",
+    "bytes": 585722,
+    "gitSha": "11da15553b4fd97fb46fc8cec9ff8b47c933a2e2",
+    "sha256": "572b45db8c48a3373294261607e157da80817e454b0832f4f514bf0396dc832e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/jesenji-vinograd.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/jesenji-vinograd.png",
+    "bytes": 2748438,
+    "gitSha": "532eaec30e0d36f848d26c77beadb1105dd6b687",
+    "sha256": "b6d95150817b335b8c7b7a7762d9b7197b297be0c461b6011b889139cb5b62f1"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sareni-vetric-editor.pdf",
+    "bytes": 1955353,
+    "gitSha": "df8912f2fbf84ddd8b7732aa946c724d26c745f7",
+    "sha256": "b91881ff1833406f1907a53a2ed3e8398e49708d7b0829b37611b080619c4b54"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sareni-vetric-editor.png",
+    "bytes": 2503000,
+    "gitSha": "650552ea1271a7a88593b31e07a55ed6782eeb10",
+    "sha256": "668a6d0f4d94006c16e965b48537ae9bec0ac1f8589f8c140bda02bf5e6700e8"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sareni-vetric-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sareni-vetric-long-text.png",
+    "bytes": 2934059,
+    "gitSha": "09395969258c0af40cbcde47380bde9eb73ef417",
+    "sha256": "133315f33f0453312b5e628031f7d1fd788773703688f4806084f18fb72595f9"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sareni-vetric.pdf",
+    "bytes": 489819,
+    "gitSha": "5a54c6f4d65f85038f2cea55db6429b7f27f7ad8",
+    "sha256": "d2a2c2fa6da1a3287cabf7daa03cf77169370afda4b9a8d3a19b87306d0b68a7"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sareni-vetric.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sareni-vetric.png",
+    "bytes": 2916517,
+    "gitSha": "88c0640fb8a7e104d106f29d99bd54c16f5287aa",
+    "sha256": "612a4414aac618d7d17581a0558b9fc58213f5aa33b544042a5879872d68d4c4"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.pdf",
+    "bytes": 1148431,
+    "gitSha": "a648bfe8fb3d1e4188a1daa0a14789a97e127acd",
+    "sha256": "caad25e78da128f37d5be38721983a3ad2958d146bfe742c649b7790a2f2909d"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sledeci-nivo-editor.png",
+    "bytes": 1407889,
+    "gitSha": "87e1d1483629acc312e2c5814e25e298788e32f2",
+    "sha256": "3274c0e4862227a010afd614535e6868cbc34695ad0e158e1c184041f1611aff"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sledeci-nivo-long-text.png",
+    "bytes": 1666397,
+    "gitSha": "260ba17c688b0d2ab80f629c538e175b0fa901a9",
+    "sha256": "1b12985751eefd10408a41a622a78317a506bd77200b7433fc49ed9952c77ca7"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sledeci-nivo.pdf",
+    "bytes": 383275,
+    "gitSha": "89944012afa9e66a5194ba1282565bf51883d9cf",
+    "sha256": "d84c38654b910d19bc79c62adafb300acda365f7990be8d5da9024771ab28609"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/sledeci-nivo.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/sledeci-nivo.png",
+    "bytes": 1634576,
+    "gitSha": "fb9e578a6fda2f50d08666c56741800366ed43b9",
+    "sha256": "6f8609c6e78a036777da3c1ad4a6626ac95244a0ce8c1986c8b092e86779eeff"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.pdf",
+    "bytes": 2559949,
+    "gitSha": "cf3c3eaed3f74d24595aa3ea760485614e1df87d",
+    "sha256": "798c2f79e4f1498bca0bf6ed59a8a0f95413427febd8e400160bc1f8d7d4972e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/srebrno-zvonce-editor.png",
+    "bytes": 3022175,
+    "gitSha": "86c146694511eca7c93b1f2348708ec8c8e7bbb5",
+    "sha256": "054eec2dc8c225dd76c0dc2d43b33dd91e171f8fc76d4ade44560b82af74d546"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/srebrno-zvonce-long-text.png",
+    "bytes": 3596188,
+    "gitSha": "78b26e4eca4c67e829d71c8776153c67ee03a566",
+    "sha256": "1ab9618e551241a41b73093f8bd87345e206f6adf213d066784a0e67989708f9"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/srebrno-zvonce.pdf",
+    "bytes": 642576,
+    "gitSha": "80abbb2d75b6dbe2513a781bd60753a845ab8e3f",
+    "sha256": "dc42ffe8ebf80942d1ddfc7678adca85af872630f6b846bd288a3b05b45a5dc0"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/srebrno-zvonce.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/srebrno-zvonce.png",
+    "bytes": 3564274,
+    "gitSha": "2b9bf9f5f3ae99f3858741173ca4057eef5e4844",
+    "sha256": "cfe583511de27d86f6bb2a71ac110d2cb6b3c596a5d26eb7b7f0e57da86efb13"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.pdf",
+    "bytes": 2301735,
+    "gitSha": "15e04a1c294126065fc06648e545d8d8b3654f55",
+    "sha256": "1fd7f6bbc8b4c37a25efe7ff3fddffa1baa9a05c0f893ab270ba92c658d8cee1"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/tigricev-nezni-san-editor.png",
+    "bytes": 2748978,
+    "gitSha": "1467cc6e25bc2ecda966130136a0c94beab7c8f8",
+    "sha256": "a1f7a2221e8115da4faf5de1ba67d330aab200badb4333dd844b849bb1f04855"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/tigricev-nezni-san-long-text.png",
+    "bytes": 3238848,
+    "gitSha": "6949672326e5d0e040ce180a9517529545044884",
+    "sha256": "fb59146146dde88b96196cab9956b09aa310d37bdcd05f20af76bb52da705439"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/tigricev-nezni-san.pdf",
+    "bytes": 638770,
+    "gitSha": "1c415e5958bbfc8c99ef286af0989d9f9d49766a",
+    "sha256": "7ab199beee4e9f61db78ce70b8e1be9bc77114ffbeee23e28e5c22147611b142"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/tigricev-nezni-san.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/tigricev-nezni-san.png",
+    "bytes": 3218622,
+    "gitSha": "3e8f1720fa9b0821aa1c02f97fd8048abce2c1ad",
+    "sha256": "68c8c55f3beb1a6d94089498734ac7dc0ac00bdb8747c8e8c36944a244cc8e5e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.pdf",
+    "bytes": 2798882,
+    "gitSha": "49d8517383c3ea016dc3bbceeb7010900534fb3b",
+    "sha256": "eb986cfa4cd485dec0de3769d6eafcbe38aa6bced8ef7837c831138e38d5c89c"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-editor.png",
+    "bytes": 3278483,
+    "gitSha": "f3468e0a720391b80a11bea64c163339c76e8aea",
+    "sha256": "e3809a46311a014b0a9e6e527ade97d6258f5a6cef3c46ffac6ea175461d6aaa"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-long-text.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/zamak-veselih-zastava-long-text.png",
+    "bytes": 3904604,
+    "gitSha": "4fed6125ba406339f99772dcb7dc0d97e373ca00",
+    "sha256": "5d27bbe2766f385d9c21328b2fdadafa5a507eca6e26b477851f9d9730ff07ba"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.pdf",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.pdf",
+    "bytes": 686899,
+    "gitSha": "d35f4e947c7b18df20ba2218d4f843b16592b657",
+    "sha256": "9e06977cea8284b2e3afdfa15b3fb6526b8a7e4ff603f1339c56fd180ca9e339"
+  },
+  {
+    "path": "content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.png",
+    "localPath": "/workspace/work/robi-20261025/content/robi-batches/2026-10-25/examples/zamak-veselih-zastava.png",
+    "bytes": 3882545,
+    "gitSha": "8507a1c0011e56d40d9f2599670dec29851537c7",
+    "sha256": "cece3fe04f3f47ab139d22b231dcbcd189d7d30d5112607a4d953720326b53f3"
+  }
+]

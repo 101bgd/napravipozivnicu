@@ -1,8 +1,9 @@
 {
-  "status": "unverified_drafts",
-  "preparedCount": 0,
-  "renderingNotRun": true,
-  "buildNotRun": true,
-  "publishAllowed": false,
-  "scope": "Preserve existing production work only; no new generation or publication in this audit"
+  "status": "prepublication_verified",
+  "preparedCount": 6,
+  "renderingRun": true,
+  "buildRun": true,
+  "publishAllowed": true,
+  "liveVerificationPending": true,
+  "originalFailurePreservedIn": "final-daily-check.json"
 }

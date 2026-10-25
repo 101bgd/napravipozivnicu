@@ -1,22 +1,20 @@
-# Robi — završna kontrola25.10.2026.
+# Robi — nastavak serije25.10.2026.
 
-**NEZAVRŠENO — ROK10:00 PROPUŠTEN.** Kontrola pripremljena 2026-10-25T11:52:59.000+09:00. Redovna izrada započeta 2026-10-25T08:03:50.000+09:00. Stvarno postoje6 generisanih pozadina, ali0 pripremljenih/proverenih šablona,0 konačnih PNG/PDF primera i0 objavljenih današnjih pozivnica. Nema vremena uspešnog završetka/deploy-a za poređenje sa rokom, jer ti koraci nisu potvrđeni. Završno obaveštenje takođe se priprema posle roka.
+Status: svih6 stvarnih šablona spremno za jednu zajedničku objavu; još nije potvrđen deploy ili javni rezultat. Rok10:00 je već propušten i ostaje evidentiran. Korisnik je izričito zatražio nastavak postojećih pozadina; nova serija niti nove slike nisu generisane. Ranija kontrola: [izveštaj11:52:59](history/115259-REPORT.md), [završni pregled propuštenog roka](final-daily-check.json).
 
-| Kategorija | Naziv | Stvarna pozadina, bez konačnog teksta | Status / javni link |
-|---|---|---|---|
-| Prvi rođendan | Šareni vetrić | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sareni-vetric.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
-| 18. rođendan | Sledeći nivo | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/sledeci-nivo.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
-| Dečji rođendan — planirano5godina | Zamak veselih zastava | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/zamak-veselih-zastava.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
-| Venčanje | Jesenji vinograd | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/jesenji-vinograd.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
-| Krštenje | Srebrno zvonce | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/srebrno-zvonce.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
-| Proslava rođenja dečaka | Tigrićev nežni san | [IzvorniPNG](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/sources/tigricev-nezni-san.png) | Pozadina postoji; šablonNEPROVERENO; nije objavljeno |
+| Kategorija | Naziv / planirani javni URL | Konačni pregled sa tekstom |
+|---|---|---|
+| Prvi rođendan | [Šareni vetrić](https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-sarena-vetrenjaca/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sareni-vetric.webp) |
+| 18. rođendan | [Sledeći nivo](https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-crveni-gejming-kontroler/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/sledeci-nivo.webp) |
+| Dečji rođendan —5godina | [Zamak veselih zastava](https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sareni-zamak/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/zamak-veselih-zastava.webp) |
+| Venčanje | [Jesenji vinograd](https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-grozdje-vinovi-listovi/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/jesenji-vinograd.webp) |
+| Krštenje | [Srebrno zvonce](https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-srebrno-zvono/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/srebrno-zvonce.webp) |
+| Proslava rođenja dečaka | [Tigrićev nežni san](https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-tigric/) | [WebP](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-25/previews/tigricev-nezni-san.webp) |
 
-Svih6 izvornih PNG datoteka je1060×1484px, tačan odnos5:7. Konačni format1500×2100,300dpi i PDF12,7×17,78cm su planirani, ali nisu izvezeni ni provereni. Izvorna pozadina nije konačan izmenjiv šablon niti PNG/PDF primer sa tekstom.
+Svi izvori1060×1484px, konačni izvozi1500×2100px (5:7), uvećano bez kadriranja. PNG300dpi, PDF127×177,8mm; pregledi500×700WebP. Originali neizmenjeni.
 
-Dorade tokom generisanja: gitara odbačena zbog ivice i zamenjena gejming kontrolerom; panda odbačena zbog nedovoljno pouzdane margine uha i zamenjena papirnom vetrenjačom. Ukupno8 generacija,6 zadržanih pozadina i2 odbačena pokušaja. Svi su sačuvani; nova generacija nije pokrenuta u završnom pregledu.
+PROŠLO:6×18 preobjavnih provera, šest390px mobilnih editora sa stvarnim preuzimanjima,18 otvorenihPNG,12 otvorenih i rasterizovanihPDF; tri licencirana fonta i srpska slova; duga imenaĐorđe Maksimilijan/Aleksandra Marija/Konstantin Aleksandar; minp05 kontrasta6,05 običan/6,47 krupan tekst;75 istorijskih slika i poređenje motiva.85 SEO stranica sa jedinstvenim naslovima/canonical/schema; svih6 unosa u kategorije i sitemap. Produkcijski smoke test prošao, početni JS7133gzip bajta uz lenji editor/fontove/PDF. Postojeći AdSense tok testiran na101 lokalnoj javnoj strani sa mock SDK-om; stvarna Google isporuka nije proverena.
 
-PROŠLO: tačno6 kategorija, izvorne datoteke otvorene i dimenzije proverene. NEPROVERENO: stvarni raspored/čitljivost/kontrast/mobilni editor/srpska slova/dugi tekst u finalnim šablonima, PNG/PDF izvozi, build/testovi, konačna SEO/AdSense integracija, grupna objava i javni rezultat. Nema potvrđene spoljne greške koja objašnjava nezavršene lokalne korake. Poznata mrežna zabrana domena odnosi se tek na kasniju javnu proveru i ne pripisuje joj se ovaj zastoj.
+Ispravka u ovom nastavku: adresa kod crvenog kontrolera bila je preko ilustracije i imala slab kontrast; datum/vreme/adresa pomereni su naviše, pa su svih6 ponovo renderovani i provereni. Svih6 konačnih personalizovanihPDF-ova stvarno je vizuelno pregledano.
 
-Produkcija nije menjana u ovoj kontroli. Main ostaje084b02c9e9cba0611f3dd5fc6226d7603a7f71ea; prethodne serije nisu uračunate kao nova današnja isporuka. Nije dodeljen bod;1 mesečni+0bonus=1/50. Korisnikova estetska ocena nije izmišljena.
-
-Sačuvati6 izvora i nacrte i nastaviti od pripreme/provera, bez ponovnog generisanja gotovih pozadina ili delimične objave. Ovo je propust u izvršenju i poštovanju roka. Detalji: [final-daily-check.json](final-daily-check.json), [source-files-check.json](source-files-check.json), [quality-checklist.json](quality-checklist.json).
+Sačuvano50 binarnih artefakata:6 izvora,2 ranije odbačena pokušaja,6 WebP pozadina,6 konačnih pregleda,18PNG i12PDF primera. Nove pozadine nisu generisane u nastavku. Objava i javna verifikacija slede posle ovog prolaska preobjavne kontrole. Bodovi ostaju1/50, bez nove dodele. Korisnik još nije ocenio novu seriju.

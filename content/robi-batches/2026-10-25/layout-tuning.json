@@ -1,1 +1,32 @@
-{}
+{
+  "sareni-vetric": {
+    "age": {
+      "x": 28.069883728027342,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 59.520806884765626
+    }
+  },
+  "sledeci-nivo": {
+    "age": {
+      "x": 26.262545776367187,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 58.517408752441405
+    }
+  },
+  "zamak-veselih-zastava": {
+    "age": {
+      "x": 25.951150512695314,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.890008544921876
+    }
+  },
+  "jesenji-vinograd": {},
+  "srebrno-zvonce": {},
+  "tigricev-nezni-san": {}
+}

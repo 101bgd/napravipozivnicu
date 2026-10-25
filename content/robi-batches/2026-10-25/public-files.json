@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/sareni-vetric-background-07745fd946af.webp",
+    "id": "32929b67-196f-507c-956c-0f48ed8b8fb4",
+    "bytes": 174370,
+    "sha256": "07745fd946af3052734391ac937542a39aa2d09302ec929f7c10a6bca7a2e2e1"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/sareni-vetric-thumbnail-c3c3c57abc0d.webp",
+    "id": "bacf3940-7d56-58a9-afc1-9b863cb8cc64",
+    "bytes": 39810,
+    "sha256": "c3c3c57abc0db5e25eec494e8da35a7b872377b55a651d6c9f2300c5fd40f756"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-background-e1e90559eee9.webp",
+    "id": "d05f5861-aa8d-5765-b194-aff4d39e4ef3",
+    "bytes": 122346,
+    "sha256": "e1e90559eee95f314c56bd0738bafb8255684bff3599701161c96c7fd18a5f0b"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-thumbnail-2a70f4fa1ecc.webp",
+    "id": "74354350-ead5-5996-80d5-8f8bacca0360",
+    "bytes": 35322,
+    "sha256": "2a70f4fa1ecc47030090f4b84db695eec9ad785e92af598fc38eb460170e90dd"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-background-4e9af4f631f6.webp",
+    "id": "5a6439dc-ca3c-5546-8b4a-9c5733985371",
+    "bytes": 330388,
+    "sha256": "4e9af4f631f63919d140d5673c4a5ef99c9ac42e921429823f6c2e2aac4d645d"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-thumbnail-5ff98b29dc3a.webp",
+    "id": "2ec833a7-fc71-5fb6-95c0-600e682c5a78",
+    "bytes": 70726,
+    "sha256": "5ff98b29dc3afbb2762179801f0f65a9953c6f1ee08bc43703d7eacdff248a1e"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-background-bc9354793563.webp",
+    "id": "450d9f2a-0540-599c-b94d-fd19bf0e1f93",
+    "bytes": 205038,
+    "sha256": "bc935479356365938f4c013b2e9cca497a25c638c371095dc1f29ee23b0f744e"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-thumbnail-6e10bfc51551.webp",
+    "id": "d6ded39e-5a4e-5094-8596-6daf60194c1f",
+    "bytes": 54212,
+    "sha256": "6e10bfc51551cf27d001933869e363eb596cd74d386cefeb3e837d4e40aa32d1"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-background-23e032af32e9.webp",
+    "id": "843944d4-8b07-55e7-9d30-b3c451b18986",
+    "bytes": 270846,
+    "sha256": "23e032af32e96061d8d23d52ceab779ef5a6f0a5944b6592b9475672df914827"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/srebrno-zvonce-thumbnail-5632cb53f80d.webp",
+    "id": "11b65bd9-7e3e-5aa2-b15d-557520ca4e5d",
+    "bytes": 61374,
+    "sha256": "5632cb53f80de76e31d917032fb802b32eb11e0bf3890ff5aac40ed2a694b21d"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-background-ece4097597fa.webp",
+    "id": "1f21f110-a5ca-56e6-8c66-33732337d03d",
+    "bytes": 250836,
+    "sha256": "ece4097597fa62de787a6a3831c50190b5d099a9fc1296422394fe43cffb4a2a"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-25/tigricev-nezni-san-thumbnail-1f2b66156d91.webp",
+    "id": "612aabfe-e07d-5c0a-814a-eccc5b67d338",
+    "bytes": 63554,
+    "sha256": "1f2b66156d91677080fd4d69cac3015a8a61548c3e80aaf37ae8ea6e72801d20"
+  }
+]

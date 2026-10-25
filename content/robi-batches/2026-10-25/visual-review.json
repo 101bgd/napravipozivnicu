@@ -1,0 +1,78 @@
+{
+  "reviewedAt": "2026-10-25T03:13:34Z",
+  "reviewer": "Robi",
+  "separateReviewPass": true,
+  "actualFilesReviewed": [
+    "all6 source backgrounds from prior generation",
+    "all6 actual default previews",
+    "all6 actual downloaded personalized PDF rasterizations"
+  ],
+  "groupPaletteReview": "All6 final compositions/palettes compared; children designs vivid and differentiated, other palettes suitable to occasion.",
+  "designs": {
+    "sareni-vetric": {
+      "palette": [
+        "lime green",
+        "yellow",
+        "red",
+        "turquoise",
+        "cobalt",
+        "dark green type"
+      ],
+      "composition": "Complete pinwheel and stick inset at lower left; large name/age above, event details deliberately right of illustration.",
+      "review": "Final default preview and actual personalized PDF viewed; no text over blades or stick."
+    },
+    "sledeci-nivo": {
+      "palette": [
+        "charcoal navy",
+        "scarlet",
+        "cyan",
+        "warm ivory type"
+      ],
+      "composition": "Whole unlabeled controller below typography; date/time/location raised after initial address touched controller.",
+      "review": "Corrected actual PDF has clear gap above controller; long name fits safely."
+    },
+    "zamak-veselih-zastava": {
+      "palette": [
+        "bright aqua",
+        "purple",
+        "coral",
+        "golden yellow",
+        "deep blue type"
+      ],
+      "composition": "Vivid castle occupies lower half; large name/age and details sit above flags.",
+      "review": "Actual personalized age10 export viewed; big name and nearby occasion remain separate and clear of castle."
+    },
+    "jesenji-vinograd": {
+      "palette": [
+        "brick red",
+        "purple grapes",
+        "ochre gold",
+        "warm ivory type"
+      ],
+      "composition": "Whole grapes upper left, large default couple names on right axis; lower event details in two columns.",
+      "review": "Both default and long two-word name exports viewed; ceremony/reception and lower RSVP clear of vine leaves."
+    },
+    "srebrno-zvonce": {
+      "palette": [
+        "azure",
+        "pale blue",
+        "silver",
+        "gold",
+        "navy type"
+      ],
+      "composition": "Whole bell and ribbon below centered name/occasion; two event columns remain above the bell.",
+      "review": "Actual personalized PDF viewed with Serbian letters and long name; details remain readable."
+    },
+    "tigricev-nezni-san": {
+      "palette": [
+        "midnight teal",
+        "copper orange",
+        "jade",
+        "warm ivory type"
+      ],
+      "composition": "Whole sleeping cub above large name, clear main text below; lowest details shift right around leaves.",
+      "review": "Actual personalized PDF viewed; whole cub intact and type clear of jungle foliage."
+    }
+  },
+  "userAestheticApproval": null
+}

@@ -28,8 +28,8 @@ export function batchDesign(id,{backgroundId=ids.designs[id]?.background,fontIds
  t('age','Broj godina','18',35,34,94,{family:serif,width:30}),
  t('occasion','Povod','ROĐENDAN',65,34,28,{width:46,bold:true}),
  t('note','Poruka gostima','Moji ljudi, dobra muzika\ni veče koje ćemo pamtiti.',50,46,20,{width:84}),
- date(50,56,{width:84,size:31}),time(50,62,{width:84,size:23}),
- t('location','Mesto i adresa proslave','Restoran Nova igra\nBeograd',50,68,19,{width:84}),
+ date(50,53,{width:84,size:31}),time(50,59,{width:84,size:23}),
+ t('location','Mesto i adresa proslave','Restoran Nova igra\nBeograd',50,64.5,18.5,{width:84}),
  t('rsvp','Potvrda dolaska','Potvrdite dolazak do 5. juna.',50,95,14,{width:86})
  ];
  if(m.category==='birthday')layers=[
