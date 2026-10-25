@@ -1420,7 +1420,7 @@
           "templatePrepared": true
         }
       ],
-      "lastConfirmedStep": "50 archived artifact hashes read back matched;24 old metadata entries preserved; complete6-design commit ready. Single main fast-forward about to run.",
+      "lastConfirmedStep": "Main fast-forwarded once with all6. All8 production text files and12 assets read back matched. Cloudflare deployment still running; public verification not yet attempted.",
       "totalGenerationAttempts": 8,
       "totalReturnedGenerations": 8,
       "rejectedDesignCount": 2,
@@ -1472,12 +1472,23 @@
       },
       "prePublicationIncompleteReasonResolvedAt": "2026-10-25T03:13:34Z",
       "publication": {
-        "status": "publishing",
+        "status": "deploying",
         "atomic": true,
         "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
         "expectedParent": "084b02c9e9cba0611f3dd5fc6226d7603a7f71ea",
         "allSixIncluded": true,
-        "recordedAt": "2026-10-25T03:17:49Z"
+        "recordedAt": "2026-10-25T03:17:49Z",
+        "mainUpdatedAt": "2026-10-25T03:18:05Z",
+        "cloudflareCheckId": 121062506955
+      },
+      "mainCommit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+      "mainUpdatedAt": "2026-10-25T03:18:05Z",
+      "productionReadback": {
+        "commit": "f7d75a90ce51e85e3db18919227b37dbb9ebe877",
+        "textFiles": 8,
+        "binaryAssets": 12,
+        "allMatched": true,
+        "evidence": "content/robi-batches/2026-10-25/production-readback.json"
       }
     }
   ],
@@ -1709,7 +1720,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T03:17:49Z",
+  "updatedAt": "2026-10-25T03:19:23Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-24",
     "recordedAt": "2026-10-23T16:41:44.281Z",
