@@ -1,13 +1,16 @@
 {
   "batchId": "2026-10-26",
-  "status": "ready_to_publish_but_unpublished",
+  "status": "deployed_live_verification_blocked",
+  "required": 6,
   "generated": 6,
   "prepared": 6,
-  "required": 6,
-  "prePublicationChecks": "passed",
-  "archivedBinaries": 67,
-  "publicationNotExecuted": true,
+  "deployed": 6,
   "publicVerified": 0,
+  "prePublicationChecks": "passed",
+  "commit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+  "cloudflare": "success",
+  "deployedAt": "2026-10-26T06:44:39Z",
   "deliveryDeadlineMet": false,
-  "noProductionChangesDuringAudit": true
+  "doNotRegenerateOrRepublish": true,
+  "pointsAwarded": 0
 }

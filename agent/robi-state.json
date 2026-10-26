@@ -1672,7 +1672,7 @@
       "date": "2026-10-26",
       "path": "content/robi-batches/2026-10-26",
       "timezone": "Asia/Tokyo",
-      "status": "publishing",
+      "status": "blocked",
       "scheduledAt": "2026-10-26T08:00:00+09:00",
       "deadlineAt": "2026-10-26T10:00:00+09:00",
       "startedAt": "2026-10-25T23:07:05Z",
@@ -1683,7 +1683,7 @@
       "productionBase": "2bedc5d33cc4d08797863f3629bd7c480b236157",
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -1694,7 +1694,7 @@
           "category": "first",
           "audience": "female",
           "age": 1,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1709,7 +1709,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/kolacic-prve-radosti.webp",
           "pngDpi": 300,
@@ -1724,7 +1724,7 @@
           "category": "eighteen",
           "audience": "female",
           "age": 18,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1739,7 +1739,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/rubinski-sjaj.webp",
           "pngDpi": 300,
@@ -1754,7 +1754,7 @@
           "category": "birthday",
           "audience": "female",
           "age": 5,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1769,7 +1769,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/aksolotlova-zurka.webp",
           "pngDpi": 300,
@@ -1784,7 +1784,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1799,7 +1799,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/jasminov-zavet.webp",
           "pngDpi": 300,
@@ -1814,7 +1814,7 @@
           "category": "baptism",
           "audience": "female",
           "age": null,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1829,7 +1829,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/biser-krstenja.webp",
           "pngDpi": 300,
@@ -1844,7 +1844,7 @@
           "category": "baby",
           "audience": "female",
           "age": null,
-          "status": "prepared_unpublished",
+          "status": "deployed_live_verification_blocked",
           "sourceDimensions": [
             1060,
             1484
@@ -1859,7 +1859,7 @@
             500,
             700
           ],
-          "publicUrl": null,
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/",
           "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/",
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/zvecka-nove-radosti.webp",
           "pngDpi": 300,
@@ -1871,7 +1871,7 @@
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "One20-file all-six commit fast-forwarded to main;8texts/12assets read back matched;434parent files unchanged. Cloudflare confirmation/public checks pending.",
+      "lastConfirmedStep": "All6 deployed in one20-file fast-forward commit; Cloudflare success 2026-10-26T15:44:39.000+09:00. Production20files/67archive binaries verified;434parent files unchanged. Real public tests blocked by proxy CONNECT403.",
       "userAestheticApproval": false,
       "pointsAwarded": 0,
       "totalGenerationAttempts": 13,
@@ -1898,7 +1898,7 @@
         "archivedAt": "2026-10-26T06:19:18Z"
       },
       "publication": {
-        "status": "publishing",
+        "status": "deployed",
         "candidateCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
         "expectedParent": "2bedc5d33cc4d08797863f3629bd7c480b236157",
         "allSix": true,
@@ -1995,43 +1995,44 @@
               "sha": "76def74d47f5a5fa60490c1c17f97ead244d7d2b"
             }
           ]
-        }
+        },
+        "cloudflareConclusion": "success",
+        "cloudflareCheckId": 121435932051,
+        "completedAt": "2026-10-26T06:44:39Z",
+        "completedAtTokyo": "2026-10-26T15:44:39.000+09:00",
+        "completedBeforeDeadline": false,
+        "lateBySeconds": 20679,
+        "deploymentEvidence": "content/robi-batches/2026-10-26/deployment-check.json",
+        "productionReadbackEvidence": "content/robi-batches/2026-10-26/production-readback.json"
       },
       "audit": {
-        "checkedAt": "2026-10-26T06:14:07Z",
-        "status": "incomplete_unpublished_after_deadline",
-        "userFacingStatus": "NEZAVRŠENO",
+        "checkedAt": "2026-10-26T06:48:15Z",
+        "status": "late_deployed_public_verification_blocked",
         "requiredCount": 6,
         "preparedCount": 6,
-        "deployedCount": 0,
+        "deployedCount": 6,
         "verifiedPublicCount": 0,
+        "completionVerified": false,
         "deadlineMet": false,
-        "deadlineAt": "2026-10-26T10:00:00+09:00",
-        "overdueAtObservationSeconds": 18847,
-        "lastMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
-        "evidence": "content/robi-batches/2026-10-26/final-daily-check.json",
-        "pointsAwarded": 0,
-        "initialReportRead": "404 Not Found",
-        "initialChecklistRead": "404 Not Found",
-        "specificExternalRootCauseForDelay": "not_established; do not attribute today's lack of deployment to403"
+        "previousMissedDeadlineEvidence": "content/robi-batches/2026-10-26/final-daily-check.json",
+        "evidence": "content/robi-batches/2026-10-26/publication-report.json",
+        "pointsAwarded": 0
       },
       "notification": {
         "channel": "ChatGPT",
         "reportPreparedAt": "2026-10-26T06:19:18Z",
         "preparedAfterDeadline": true,
-        "actualDeliveryTimestampNotInferred": true
+        "actualDeliveryTimestampNotInferred": true,
+        "latestPublicationReportPreparedAt": "2026-10-26T06:48:15Z"
       },
       "resumeActions": [
-        "Resume this saved2026-10-26 batch; do not generate new duplicates.",
-        "Before production work, reread current main and preserve all other changes.",
-        "Publish all6 in one fast-forward commit only after mandatory checks and then verify deployment/public result.",
-        "Keep missed10:00 delivery/notification deadline recorded; never count backlog as new daily batch.",
-        "No user aesthetic approval or points inferred."
+        "All6 are already deployed. Do not regenerate, duplicate or republish2026-10-26.",
+        "Resume only allowed real public verification when destination access is available.",
+        "Preserve missed10:00 deadline and prior incomplete audit evidence.",
+        "Confirmed audience/age counters remain unchanged until all mandatory public checks pass.",
+        "Await actual user aesthetic feedback; award no points."
       ],
       "unfinishedSteps": [
-        "single_atomic_production_commit",
-        "main_fast_forward",
-        "cloudflare_deployment",
         "post_deployment_public_pages_editor_exports_verification"
       ],
       "resumeAuthorization": {
@@ -2040,7 +2041,48 @@
         "recordedAt": "2026-10-26T06:42:40Z"
       },
       "mainCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
-      "mainUpdatedAt": "2026-10-26T06:42:57Z"
+      "mainUpdatedAt": "2026-10-26T06:42:57Z",
+      "blockedStage": "post_publication_verification",
+      "liveVerification": {
+        "status": "blocked_by_environment_network_policy",
+        "checkedAt": "2026-10-26T06:46:24.917625+00:00",
+        "reason": "All six HTTPS checks after confirmed Cloudflare success were denied by the inherited environment proxy at CONNECT403 before any response from the destination. Public pages/editor/exports/category/sitemap/SEO/AdSense remain unverified. This does not show the website itself returns403.",
+        "evidence": "content/robi-batches/2026-10-26/public-live-checks.json",
+        "allAttemptsAfterDeployment": true
+      },
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "status": "blocked",
+          "reason": "All six HTTPS checks after confirmed Cloudflare success were denied by the inherited environment proxy at CONNECT403 before any response from the destination. Public pages/editor/exports/category/sitemap/SEO/AdSense remain unverified. This does not show the website itself returns403.",
+          "evidence": "content/robi-batches/2026-10-26/public-live-checks.json"
+        }
+      ],
+      "auditHistory": [
+        {
+          "checkedAt": "2026-10-26T06:14:07Z",
+          "status": "incomplete_unpublished_after_deadline",
+          "userFacingStatus": "NEZAVRŠENO",
+          "requiredCount": 6,
+          "preparedCount": 6,
+          "deployedCount": 0,
+          "verifiedPublicCount": 0,
+          "deadlineMet": false,
+          "deadlineAt": "2026-10-26T10:00:00+09:00",
+          "overdueAtObservationSeconds": 18847,
+          "lastMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+          "evidence": "content/robi-batches/2026-10-26/final-daily-check.json",
+          "pointsAwarded": 0,
+          "initialReportRead": "404 Not Found",
+          "initialChecklistRead": "404 Not Found",
+          "specificExternalRootCauseForDelay": "not_established; do not attribute today's lack of deployment to403"
+        }
+      ],
+      "userReview": {
+        "status": "awaiting_post_publication_user_review",
+        "aestheticApprovalAssumed": false,
+        "pointsAwardedThisBatch": 0
+      }
     }
   ],
   "history": [
@@ -2263,6 +2305,38 @@
         "countsAsNewBatch": false,
         "userApproval": false
       }
+    },
+    {
+      "id": "2026-10-26",
+      "status": "deployed_verification_blocked",
+      "published": true,
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "designIds": [
+        "kolacic-prve-radosti",
+        "rubinski-sjaj",
+        "aksolotlova-zurka",
+        "jasminov-zavet",
+        "biser-krstenja",
+        "zvecka-nove-radosti"
+      ],
+      "motifs": [
+        "sa svečanim kolačićem i jagodicom",
+        "sa rubinskim brošem i zlatnim detaljima",
+        "sa ružičastim aksolotlom i mehurićima",
+        "sa belim jasminom i zelenim grančicama",
+        "sa sedefnom školjkom i zlatnim krstom",
+        "sa drvenom zvečkom i koralnom mašnom"
+      ],
+      "source": "content/robi-batches/2026-10-26/plan.json",
+      "mainCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+      "deployedAt": "2026-10-26T06:44:39Z",
+      "audience": "female",
+      "birthdayAge": 5,
+      "late": true,
+      "publicationAuthorizedBy": "objavi",
+      "userAestheticApproval": false
     }
   ],
   "automations": {
@@ -2286,7 +2360,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-26",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2308,7 +2382,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-26T06:44:42Z",
+  "updatedAt": "2026-10-26T06:48:15Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -2346,19 +2420,20 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "female",
+  "plannedNextAudience": "male",
   "plannedNextBirthdayAgeByAudience": {
     "male": 6,
-    "female": 5
+    "female": 6
   },
-  "planningNote": "Creative plan follows actual retained complete deployments through25Oct male5. Next plan female5. Confirmed counters unchanged pending required real public verification. Retired23Oct is not counted.",
-  "lastPublishedBatch": "2026-10-25",
+  "planningNote": "Creative plan follows retained complete deployments through26Oct female5. Next male6, female next6. Confirmed counters unchanged pending real public verification; retired23Oct excluded.",
+  "lastPublishedBatch": "2026-10-26",
   "latestUserDirective": {
     "quote": "objavi",
     "channel": "ChatGPT",
     "recordedAt": "2026-10-26T06:42:40Z",
     "batchId": "2026-10-26",
-    "status": "publishing_prepared_six"
+    "status": "published_six_cloudflare_success_public_verification_blocked",
+    "productionCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

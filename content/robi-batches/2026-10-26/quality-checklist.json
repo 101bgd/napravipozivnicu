@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batchId": "2026-10-26",
-  "checkedAt": "2026-10-26T06:14:07Z",
+  "checkedAt": "2026-10-26T06:48:15Z",
   "prePublicationStatus": "PROŠLO",
   "separateReviewPass": true,
   "designs": [
@@ -2779,12 +2779,17 @@
     }
   ],
   "publication": {
-    "status": "NEPROVERENO",
-    "reason": "No production commit/ref update or Cloudflare deployment exists for today's six; current main still2bedc5d33cc4d08797863f3629bd7c480b236157."
+    "status": "PROŠLO",
+    "atomic": true,
+    "commit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+    "cloudflare": "success",
+    "completedAtTokyo": "2026-10-26T15:44:39.000+09:00",
+    "evidence": "publication-report.json"
   },
   "publicVerification": {
     "status": "NEPROVERENO",
-    "reason": "Today's six are not deployed; no valid post-deployment public test can be claimed."
+    "reason": "All six HTTPS checks after confirmed Cloudflare success were denied by the inherited environment proxy at CONNECT403 before any response from the destination. Public pages/editor/exports/category/sitemap/SEO/AdSense remain unverified. This does not show the website itself returns403.",
+    "evidence": "public-live-checks.json"
   },
   "deadline": {
     "deadlineAt": "2026-10-26T10:00:00+09:00",
@@ -2798,5 +2803,5 @@
     "aestheticApprovalAssumed": false
   },
   "pointsAwarded": 0,
-  "finalStatus": "NEZAVRŠENO — PREPARED_BUT_NOT_PUBLISHED"
+  "finalStatus": "DEPLOYED_PUBLIC_VERIFICATION_BLOCKED"
 }

@@ -1,5 +1,5 @@
 {
-  "status": "publishing",
+  "status": "deployed",
   "candidateCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
   "expectedParent": "2bedc5d33cc4d08797863f3629bd7c480b236157",
   "allSix": true,
@@ -96,5 +96,13 @@
         "sha": "76def74d47f5a5fa60490c1c17f97ead244d7d2b"
       }
     ]
-  }
+  },
+  "cloudflareConclusion": "success",
+  "cloudflareCheckId": 121435932051,
+  "completedAt": "2026-10-26T06:44:39Z",
+  "completedAtTokyo": "2026-10-26T15:44:39.000+09:00",
+  "completedBeforeDeadline": false,
+  "lateBySeconds": 20679,
+  "deploymentEvidence": "content/robi-batches/2026-10-26/deployment-check.json",
+  "productionReadbackEvidence": "content/robi-batches/2026-10-26/production-readback.json"
 }

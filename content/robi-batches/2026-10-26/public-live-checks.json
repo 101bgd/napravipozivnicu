@@ -1,0 +1,58 @@
+{
+  "batchId": "2026-10-26",
+  "commit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+  "cloudflareCompletedAt": "2026-10-26T06:44:39Z",
+  "checks": [
+    {
+      "id": "kolacic-prve-radosti",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/",
+      "checkedAt": "2026-10-26T06:46:24.917625+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "rubinski-sjaj",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/",
+      "checkedAt": "2026-10-26T06:46:24.935015+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/",
+      "checkedAt": "2026-10-26T06:46:24.937613+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "jasminov-zavet",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/",
+      "checkedAt": "2026-10-26T06:46:24.939786+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "biser-krstenja",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/",
+      "checkedAt": "2026-10-26T06:46:24.942026+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/",
+      "checkedAt": "2026-10-26T06:46:24.944248+00:00",
+      "status": "NEPROVERENO",
+      "destinationResponseReceived": false,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "inheritedProxyAndTlsPreserved": true,
+  "allAttemptsAfterDeployment": true,
+  "noBypassAttempted": true
+}

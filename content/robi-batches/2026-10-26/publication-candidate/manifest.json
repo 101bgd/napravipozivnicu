@@ -1,5 +1,5 @@
 {
-  "status": "prepared_not_published",
+  "status": "published_used",
   "expectedSourceMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
   "allSixRequired": true,
   "textFiles": [
@@ -111,5 +111,8 @@
     }
   ],
   "mustRereadMainBeforeLaterPublication": true,
-  "productionChangedByAudit": false
+  "productionChangedByAudit": false,
+  "publicationCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+  "deployedAt": "2026-10-26T06:44:39Z",
+  "doNotRepublish": true
 }
