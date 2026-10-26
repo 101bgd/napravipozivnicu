@@ -1,0 +1,9 @@
+{
+  "quote": "objavi",
+  "recordedAt": "2026-10-26T06:42:40Z",
+  "scope": "publish_existing_six_2026-10-26",
+  "noNewGeneration": true,
+  "deadlineAlreadyMissed": true,
+  "candidateCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+  "expectedParent": "2bedc5d33cc4d08797863f3629bd7c480b236157"
+}

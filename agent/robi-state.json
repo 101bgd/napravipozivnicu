@@ -1672,7 +1672,7 @@
       "date": "2026-10-26",
       "path": "content/robi-batches/2026-10-26",
       "timezone": "Asia/Tokyo",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "scheduledAt": "2026-10-26T08:00:00+09:00",
       "deadlineAt": "2026-10-26T10:00:00+09:00",
       "startedAt": "2026-10-25T23:07:05Z",
@@ -1871,7 +1871,7 @@
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "Six editable templates passed all local checks;67 source/final/proof files archived with matching hashes. Publication not executed, main unchanged2bed; daily delivery remains incomplete and overdue.",
+      "lastConfirmedStep": "All19 prerequisites per design and67 archive hashes verified against current GitHub; one20-file commit prepared, main ref update pending.",
       "userAestheticApproval": false,
       "pointsAwarded": 0,
       "totalGenerationAttempts": 13,
@@ -1898,11 +1898,13 @@
         "archivedAt": "2026-10-26T06:19:18Z"
       },
       "publication": {
-        "status": "not_started",
-        "observedMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
-        "todayDesignsInMainCatalog": 0,
-        "productionCommit": null,
-        "cloudflareDeployment": null
+        "status": "ready_to_update_main",
+        "candidateCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+        "expectedParent": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "allSix": true,
+        "atomic": true,
+        "productionFiles": 20,
+        "authorizedAt": "2026-10-26T06:42:40Z"
       },
       "audit": {
         "checkedAt": "2026-10-26T06:14:07Z",
@@ -1940,7 +1942,13 @@
         "main_fast_forward",
         "cloudflare_deployment",
         "post_deployment_public_pages_editor_exports_verification"
-      ]
+      ],
+      "resumeAuthorization": {
+        "quote": "objavi",
+        "channel": "ChatGPT",
+        "recordedAt": "2026-10-26T06:42:40Z"
+      },
+      "mainCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9"
     }
   ],
   "history": [
@@ -2186,7 +2194,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-26",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2208,7 +2216,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-26T06:19:18Z",
+  "updatedAt": "2026-10-26T06:42:40Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -2254,13 +2262,11 @@
   "planningNote": "Creative plan follows actual retained complete deployments through25Oct male5. Next plan female5. Confirmed counters unchanged pending required real public verification. Retired23Oct is not counted.",
   "lastPublishedBatch": "2026-10-25",
   "latestUserDirective": {
-    "quote": "sad sve sablone izmeni, ne znam odakle si naucio da postavljas tako jeftin i ruzan font, pogotovo za svecanije prilike, menjaj font na svakoj da sajt zadrzi premium feeling, a ne random pozivnice od pre 20 godina sa paint msa. Na pocetku si perfektan bio, sad fusaris i forsiras jeftini izgled. Moras sve tacke ispunjavati da bih ti dao poen. Robi, fokusiraj se",
+    "quote": "objavi",
     "channel": "ChatGPT",
-    "recordedAt": "2026-10-25T03:44:45Z",
-    "batchId": "2026-10-25",
-    "status": "six_typography_revisions_deployed_live_verification_blocked",
-    "confirmedScope": "Svih šest iz današnje serije",
-    "productionCommit": "2bedc5d33cc4d08797863f3629bd7c480b236157"
+    "recordedAt": "2026-10-26T06:42:40Z",
+    "batchId": "2026-10-26",
+    "status": "publishing_prepared_six"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",
