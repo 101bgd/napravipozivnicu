@@ -1,0 +1,14 @@
+{
+  "batchId": "2026-10-26",
+  "status": "not_started",
+  "observedAt": "2026-10-26T06:14:07Z",
+  "preparedCount": 6,
+  "deployedCount": 0,
+  "verifiedPublicCount": 0,
+  "actualMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "productionCommit": null,
+  "cloudflareDeployment": null,
+  "deadlineMet": false,
+  "productionChangedByAudit": false,
+  "evidence": "content/robi-batches/2026-10-26/final-daily-check.json"
+}

@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-25T23:29:53.641Z",
+  "designs": [
+    {
+      "id": "kolacic-prve-radosti",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Fraunces SemiBold",
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Outfit",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "kolacic-prve-radosti-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "rubinski-sjaj",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Great Vibes",
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "rubinski-sjaj-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Outfit",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Bajka",
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "aksolotlova-zurka-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "jasminov-zavet",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Great Vibes",
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "jasminov-zavet-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "biser-krstenja",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "biser-krstenja-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Fraunces",
+          "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "zvecka-nove-radosti-mobile-expanded.png",
+      "status": "PROŠLO"
+    }
+  ],
+  "browserErrors": []
+}

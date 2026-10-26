@@ -1,0 +1,49 @@
+{
+  "fonts": [
+    {
+      "font": "Fraunces SemiBold",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Outfit",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Cormorant Garamond",
+      "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Great Vibes",
+      "path": "public/assets/pozivnice/ponocna-elegancija/great-vibes-sr-7ec0bdb540f9.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Bajka",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Fraunces",
+      "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    }
+  ],
+  "licenses": [
+    "public/assets/pozivnice/krstenje/OFL-cormorant.txt",
+    "public/assets/pozivnice/ponocna-elegancija/OFL-Great-Vibes.txt",
+    "public/assets/pozivnice/fonts/typography-20261025/OFL-fraunces.txt",
+    "public/assets/pozivnice/fonts/typography-20261025/OFL-outfit.txt",
+    "public/assets/pozivnice/fonts/typography-20261025/OFL-bree-serif.txt",
+    "public/assets/pozivnice/fonts/typography-20261025/OFL-libre-caslon-display.txt"
+  ],
+  "baseFont": "Existing licensed Libre Caslon Display and DM Sans packages, latin and latin-ext loaded together; actual Serbian names exported in mobile browser."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kolacic-prve-radosti",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "rubinski-sjaj",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "aksolotlova-zurka",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "jasminov-zavet",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "biser-krstenja",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  },
+  {
+    "id": "zvecka-nove-radosti",
+    "workerStartup": "passed",
+    "templateApi": "passed",
+    "page": "passed",
+    "sitemap": "passed",
+    "editableFields": "passed"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vidrin-biserni-dan",
+    "originalPath": "/workspace/generated_images/exec-f5729101-1bc9-4962-80d1-1a67874f0e38.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/vidrin-biserni-dan.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "b400b0058b9f8fd76e430781542297a67b22c6060bfc1153e257f0b0bcddebaa"
+  },
+  {
+    "id": "svilena-maskarada",
+    "originalPath": "/workspace/generated_images/exec-6d52b7d0-8a05-4934-b707-d3e5029dedc1.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/svilena-maskarada.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "341d8abb9031ed962fd13ad740306453d0560987dc1e44672e5904c700b4f979"
+  },
+  {
+    "id": "roleri-u-boji",
+    "originalPath": "/workspace/generated_images/exec-d8157e85-e413-4eb4-959d-a8c65a01ad98.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/roleri-u-boji.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "ea31a4739e209a4ff420195de90580b5f3b76c6b99e2869ae412ccd0e7397d01"
+  },
+  {
+    "id": "ginkov-zlatni-zavet",
+    "originalPath": "/workspace/generated_images/exec-fff48bf1-4f44-413d-8947-2006e967366e.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/ginkov-zlatni-zavet.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "6e888bf347e0cad52927b0eb23b557e8e09980fb588fa3d522db4796619efaf5"
+  },
+  {
+    "id": "ciklamin-blagoslov",
+    "originalPath": "/workspace/generated_images/exec-8ecdc6b4-2fbd-444f-8560-d03b243d907c.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/ciklamin-blagoslov.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "c09b88097fc3966bd7df753ee050a59911b7f58f6e4224265a410a8fc4341232"
+  },
+  {
+    "id": "lisicin-topli-zagrljaj",
+    "originalPath": "/workspace/generated_images/exec-c12d16bd-88d2-402f-8a5a-a2018dce66a6.png",
+    "archivedPath": "content/robi-batches/2026-10-26/rejected/lisicin-topli-zagrljaj.png",
+    "dimensions": [
+      1060,
+      1484
+    ],
+    "sha256": "dd50346178234ea99f530942dda150c0cf6c62756ca886b2e6951334c7b48b0c"
+  }
+]

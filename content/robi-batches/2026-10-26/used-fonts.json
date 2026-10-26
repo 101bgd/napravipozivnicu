@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Fraunces SemiBold",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces600-sr-a3c19ba100f4.woff2"
+  },
+  {
+    "name": "Outfit",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/outfit400-sr-6dab0030f54e.woff2"
+  },
+  {
+    "name": "Cormorant Garamond",
+    "path": "public/assets/pozivnice/krstenje/cormorant-500-sr-ed9b8855dfc2.woff2"
+  },
+  {
+    "name": "Great Vibes",
+    "path": "public/assets/pozivnice/ponocna-elegancija/great-vibes-sr-7ec0bdb540f9.woff2"
+  },
+  {
+    "name": "Napravi Bajka",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2"
+  },
+  {
+    "name": "Fraunces",
+    "path": "public/assets/pozivnice/fonts/typography-20261025/fraunces400-sr-aef3f0943c1c.woff2"
+  }
+]

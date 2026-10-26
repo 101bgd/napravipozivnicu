@@ -1,0 +1,32 @@
+{
+  "kolacic-prve-radosti": {
+    "age": {
+      "x": 25.71916961669922,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.85978393554687
+    }
+  },
+  "rubinski-sjaj": {
+    "age": {
+      "x": 26.235630798339844,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 58.35320129394531
+    }
+  },
+  "aksolotlova-zurka": {
+    "age": {
+      "x": 26.048268127441407,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.59069976806641
+    }
+  },
+  "jasminov-zavet": {},
+  "biser-krstenja": {},
+  "zvecka-nove-radosti": {}
+}

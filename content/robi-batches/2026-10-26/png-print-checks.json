@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "pngFiles": [
+    {
+      "file": "examples/aksolotlova-zurka-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/aksolotlova-zurka-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/aksolotlova-zurka.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/biser-krstenja-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/biser-krstenja-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/biser-krstenja.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/jasminov-zavet-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/jasminov-zavet-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/jasminov-zavet.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kolacic-prve-radosti-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kolacic-prve-radosti-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kolacic-prve-radosti.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/rubinski-sjaj-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/rubinski-sjaj-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/rubinski-sjaj.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zvecka-nove-radosti-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zvecka-nove-radosti-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zvecka-nove-radosti.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    }
+  ]
+}

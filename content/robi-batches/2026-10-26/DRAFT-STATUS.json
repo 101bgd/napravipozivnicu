@@ -1,0 +1,13 @@
+{
+  "batchId": "2026-10-26",
+  "status": "ready_to_publish_but_unpublished",
+  "generated": 6,
+  "prepared": 6,
+  "required": 6,
+  "prePublicationChecks": "passed",
+  "archivedBinaries": 67,
+  "publicationNotExecuted": true,
+  "publicVerified": 0,
+  "deliveryDeadlineMet": false,
+  "noProductionChangesDuringAudit": true
+}

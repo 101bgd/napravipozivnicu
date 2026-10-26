@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kolacic-prve-radosti",
+    "category": "first",
+    "page": "/pozivnice-za-prvi-rodjendan/",
+    "status": "PROŠLO"
+  },
+  {
+    "id": "rubinski-sjaj",
+    "category": "eighteen",
+    "page": "/pozivnice-za-18-rodjendan/",
+    "status": "PROŠLO"
+  },
+  {
+    "id": "aksolotlova-zurka",
+    "category": "birthday",
+    "page": "/pozivnice-za-rodjendan/",
+    "status": "PROŠLO"
+  },
+  {
+    "id": "jasminov-zavet",
+    "category": "wedding",
+    "page": "/pozivnice-za-vencanje/",
+    "status": "PROŠLO"
+  },
+  {
+    "id": "biser-krstenja",
+    "category": "baptism",
+    "page": "/pozivnice-za-krstenje/",
+    "status": "PROŠLO"
+  },
+  {
+    "id": "zvecka-nove-radosti",
+    "category": "baby",
+    "page": "/pozivnice-za-rodjenje-deteta/",
+    "status": "PROŠLO"
+  }
+]

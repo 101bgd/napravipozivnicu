@@ -1,0 +1,126 @@
+{
+  "reviewedAt": "2026-10-26T06:14:07Z",
+  "reviewer": "Robi_self_check_not_user",
+  "separateReviewPass": true,
+  "reviewedDefaults": [
+    "previews/kolacic-prve-radosti.webp",
+    "previews/rubinski-sjaj.webp",
+    "previews/aksolotlova-zurka.webp",
+    "previews/jasminov-zavet.webp",
+    "previews/biser-krstenja.webp",
+    "previews/zvecka-nove-radosti.webp"
+  ],
+  "reviewedMobile": [
+    "previews/kolacic-prve-radosti-mobile-expanded.png",
+    "previews/rubinski-sjaj-mobile-expanded.png",
+    "previews/aksolotlova-zurka-mobile-expanded.png",
+    "previews/jasminov-zavet-mobile-expanded.png",
+    "previews/biser-krstenja-mobile-expanded.png",
+    "previews/zvecka-nove-radosti-mobile-expanded.png"
+  ],
+  "reviewedPersonalizedPdfs": [
+    "examples/kolacic-prve-radosti-editor.pdf",
+    "examples/rubinski-sjaj-editor.pdf",
+    "examples/aksolotlova-zurka-editor.pdf",
+    "examples/jasminov-zavet-editor.pdf",
+    "examples/biser-krstenja-editor.pdf",
+    "examples/zvecka-nove-radosti-editor.pdf"
+  ],
+  "pngFilesOpened": 18,
+  "pdfFilesOpened": 12,
+  "allSixPalettesCompared": true,
+  "designs": [
+    {
+      "id": "kolacic-prve-radosti",
+      "fontPair": [
+        "Fraunces SemiBold",
+        "Outfit"
+      ],
+      "palette": "warm apricot, raspberry red, turquoise, cocoa",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    },
+    {
+      "id": "rubinski-sjaj",
+      "fontPair": [
+        "Great Vibes",
+        "Cormorant Garamond"
+      ],
+      "palette": "deep charcoal violet, ruby, antique gold",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "fontPair": [
+        "Napravi Bajka",
+        "Outfit"
+      ],
+      "palette": "cobalt blue, coral pink, turquoise, lemon accents",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    },
+    {
+      "id": "jasminov-zavet",
+      "fontPair": [
+        "Great Vibes",
+        "Cormorant Garamond"
+      ],
+      "palette": "deep forest green, warm ivory jasmine, soft antique gold",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    },
+    {
+      "id": "biser-krstenja",
+      "fontPair": [
+        "Libre Caslon Display",
+        "Cormorant Garamond"
+      ],
+      "palette": "soft porcelain rose, mother of pearl, antique gold, burgundy text space",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "fontPair": [
+        "Fraunces",
+        "Cormorant Garamond"
+      ],
+      "palette": "warm ivory, natural honey wood, coral, soft leaf green",
+      "alignment": "Actual ink and image clearance reviewed; asymmetric layouts intentional; centered compositions optically inspected.",
+      "ageGrouping": "Close age and birthday label checked where applicable.",
+      "sourceSafeInset": "Important objects fully inside5mm inset, with ample surrounding background.",
+      "technicalVisualReview": "PROŠLO",
+      "userAestheticReview": "not_given"
+    }
+  ],
+  "closestHistoricalComparison": {
+    "id": "zvecka-nove-radosti",
+    "distance63": 12,
+    "historical": "lastino-malo-cudo",
+    "review": "Old swallows/nest/branch and new complete wooden rattle/coral bow are clearly distinct subjects and illustrations; similar upper-right placement on light ground explains some hash similarity."
+  },
+  "corrections": [
+    "Discarded initial6 source images for unsafe trim inset; changed motifs and compositions completely.",
+    "Discarded koi wedding after actual long-location layout failed margin/contrast; replaced source motif/composition with jasmine.",
+    "Moved18th RSVP upward for long text.",
+    "Added6 motifs to existing SEO registry; rerun91-page title test passed."
+  ],
+  "userAestheticApproval": false,
+  "pointsAwarded": 0
+}

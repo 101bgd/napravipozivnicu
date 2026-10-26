@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "pdfFiles": [
+    {
+      "file": "examples/aksolotlova-zurka-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/aksolotlova-zurka.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/biser-krstenja-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/biser-krstenja.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/jasminov-zavet-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/jasminov-zavet.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kolacic-prve-radosti-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kolacic-prve-radosti.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/rubinski-sjaj-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/rubinski-sjaj.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zvecka-nove-radosti-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zvecka-nove-radosti.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    }
+  ]
+}

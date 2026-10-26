@@ -1,0 +1,110 @@
+[
+  {
+    "id": "kolacic-prve-radosti",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 710644
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 593508
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "rubinski-sjaj",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 871122
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 729921
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "aksolotlova-zurka",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "passed",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 882427
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 747733
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "jasminov-zavet",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 700815
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 580215
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "biser-krstenja",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 598982
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 467406
+    },
+    "browserErrors": []
+  },
+  {
+    "id": "zvecka-nove-radosti",
+    "seo": "passed",
+    "mobileEditor": "passed",
+    "nameEditing": "passed",
+    "age10Editing": "not_applicable",
+    "png": {
+      "width": 1500,
+      "height": 2100,
+      "bytes": 704990
+    },
+    "pdf": {
+      "widthPoints": 360,
+      "heightPoints": 504,
+      "bytes": 584466
+    },
+    "browserErrors": []
+  }
+]

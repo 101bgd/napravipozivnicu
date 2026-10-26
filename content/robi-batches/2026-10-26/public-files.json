@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-background-a3a1c7acb353.webp",
+    "id": "1726cada-8f45-5518-a05f-28ce6c0d9740",
+    "bytes": 67828,
+    "sha256": "a3a1c7acb35381a949d77612716ba1c6bafa2685b9f8d97eb569930a9ac7f1b7"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-thumbnail-d953f6bb7c04.webp",
+    "id": "ab0ea43f-a302-50fa-aa02-6a490508b3cb",
+    "bytes": 26050,
+    "sha256": "d953f6bb7c04e12a0a461c115a7247019a458fbe92288c29685c957455b1ff83"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-background-b01f527a57e5.webp",
+    "id": "8d3a15a2-6f4c-5e0b-9eec-21f24712c9dd",
+    "bytes": 95226,
+    "sha256": "b01f527a57e5f64ab74935c2843f8926f9408a4657fd7d59246c79154f57ff2b"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-thumbnail-94ed8981e3ba.webp",
+    "id": "8d87f6c4-472b-5ff7-9a74-eea4a66e2684",
+    "bytes": 31480,
+    "sha256": "94ed8981e3baa94c44197940633d10a4fd1ee11f4eb781eab7e47d5b4b8f811c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-background-374c5105850f.webp",
+    "id": "72a93cec-c632-59ff-af75-0f4278e403f9",
+    "bytes": 96242,
+    "sha256": "374c5105850f0117aa7ec4b5fecc47f7bd49df35a8060ad67a12c5d282dfe994"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-thumbnail-922f95aa86f0.webp",
+    "id": "9515dacd-669c-583e-a800-d47b6ff11fbc",
+    "bytes": 33878,
+    "sha256": "922f95aa86f03a5d3d83667ab4864fe9f1156210a8114cab767e08cdd3a1578d"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/jasminov-zavet-background-c795576af4c4.webp",
+    "id": "cc77caf0-0e3d-5f74-ac60-861b18858984",
+    "bytes": 60612,
+    "sha256": "c795576af4c46c710fe3d3666bb112ee09f6f25861486d5543b45d7f79934af7"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/jasminov-zavet-thumbnail-916093908a57.webp",
+    "id": "0b5058a2-393f-5b84-bb60-ccb92c22edb5",
+    "bytes": 31650,
+    "sha256": "916093908a570b38cd2429ef17374c56e3eed7ff4974633cd2c8f908bd249dd2"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/biser-krstenja-background-ba7d07b3f1ec.webp",
+    "id": "1ece25bb-bbb9-5a19-b786-3f09c9629ab0",
+    "bytes": 45296,
+    "sha256": "ba7d07b3f1ec476ee44ac1127b4b6a711442a459f3ebe827607f9e3648bf6f7a"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/biser-krstenja-thumbnail-30301ffec7b7.webp",
+    "id": "70a98880-6611-538d-9aec-bef0f08ab01c",
+    "bytes": 21308,
+    "sha256": "30301ffec7b79e666863fb196310868f2b697f9743ece04a6c3dbcc96ca45ce2"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-background-f712ba024ca7.webp",
+    "id": "b26c9ad5-d45b-5819-8d6d-a8fc90695839",
+    "bytes": 60442,
+    "sha256": "f712ba024ca78f03b23a6e5e0dc81be6dd8b96ce178cfa41e1c52ce3d56e88de"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-thumbnail-ad19f04a4179.webp",
+    "id": "872bc062-e005-5173-9852-927c7d888036",
+    "bytes": 22192,
+    "sha256": "ad19f04a417930f5de7fea4530b44b0994633cd949ba8e31d68a8682c8871aab"
+  }
+]

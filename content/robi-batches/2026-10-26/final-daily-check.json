@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-26T06:14:07Z",
+  "status": "incomplete_unpublished_after_deadline",
+  "userFacingStatus": "NEZAVRŠENO",
+  "requiredCount": 6,
+  "preparedCount": 6,
+  "deployedCount": 0,
+  "verifiedPublicCount": 0,
+  "deadlineMet": false,
+  "deadlineAt": "2026-10-26T10:00:00+09:00",
+  "overdueAtObservationSeconds": 18847,
+  "lastMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+  "evidence": "content/robi-batches/2026-10-26/final-daily-check.json",
+  "pointsAwarded": 0,
+  "initialReportRead": "404 Not Found",
+  "initialChecklistRead": "404 Not Found",
+  "specificExternalRootCauseForDelay": "not_established; do not attribute today's lack of deployment to403",
+  "categories": [
+    {
+      "id": "kolacic-prve-radosti",
+      "category": "first",
+      "name": "Kolačić prve radosti",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/kolacic-prve-radosti.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "rubinski-sjaj",
+      "category": "eighteen",
+      "name": "Rubinski sjaj",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/rubinski-sjaj.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "category": "birthday",
+      "name": "Aksolotlova žurka",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/aksolotlova-zurka.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "jasminov-zavet",
+      "category": "wedding",
+      "name": "Jasminov zavet",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/jasminov-zavet.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "biser-krstenja",
+      "category": "baptism",
+      "name": "Biser krštenja",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/biser-krstenja.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "category": "baby",
+      "name": "Zvečka nove radosti",
+      "status": "prepared_unpublished",
+      "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/zvecka-nove-radosti.webp",
+      "publicUrl": null,
+      "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ]
+    }
+  ],
+  "localEvidence": {
+    "all6Templates": true,
+    "all6BrowserExports": true,
+    "sourceDimensions": [
+      1060,
+      1484
+    ],
+    "exportDimensions": [
+      1500,
+      2100
+    ],
+    "cropped": false,
+    "upscaled": true,
+    "pngDpi": 300,
+    "pdfSizeMm": [
+      127,
+      177.8
+    ],
+    "fontFacesChecked": 6,
+    "historicalImagesCompared": 81,
+    "pngsOpened": 18,
+    "pdfsOpened": 12,
+    "seoPages": 91,
+    "adsenseMockPages": 107,
+    "initialJsGzipBytes": 7132
+  },
+  "productionChangedByAudit": false,
+  "pointSummary": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50
+  },
+  "archiveUpload": {
+    "files": 67,
+    "allBlobShasMatched": true
+  }
+}

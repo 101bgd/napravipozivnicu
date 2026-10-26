@@ -1,0 +1,475 @@
+{
+  "count": 67,
+  "observedAt": "2026-10-26T06:14:07Z",
+  "files": [
+    {
+      "path": "content/robi-batches/2026-10-26/sources/biser-krstenja.png",
+      "bytes": 1125668,
+      "sha256": "70f2a1d8e2fd44e0a6045d785e8a60799fbc7bf2e8723aae1fa439bc135c211c",
+      "gitSha": "8ff60d3a25c145d0b5c6f11ca7d850191ae925e1",
+      "blobSha": "8ff60d3a25c145d0b5c6f11ca7d850191ae925e1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/sources/zvecka-nove-radosti.png",
+      "bytes": 1165270,
+      "sha256": "3c202d9f1e4830fbf9a7b5f7371539029708b3d4ece04b001e37bc7321f70f76",
+      "gitSha": "33133042e4eac0467c752686c8558075ab9aa0f1",
+      "blobSha": "33133042e4eac0467c752686c8558075ab9aa0f1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/sources/jasminov-zavet.png",
+      "bytes": 1244869,
+      "sha256": "d55ccc4896dec3a8344087387c6bd8894ac3c14233abc83ea0cb20536488e220",
+      "gitSha": "d66bc5db148aaa411aea5c2a6bad86b0f4db50b9",
+      "blobSha": "d66bc5db148aaa411aea5c2a6bad86b0f4db50b9"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/sources/aksolotlova-zurka.png",
+      "bytes": 1344613,
+      "sha256": "4c34323cf72dd8824ebb69148ee6998865d9ae4a03e2f446ef2014caf290a399",
+      "gitSha": "5d801d5eea655acaa955e6189889c1c0bd4fd204",
+      "blobSha": "5d801d5eea655acaa955e6189889c1c0bd4fd204"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/sources/rubinski-sjaj.png",
+      "bytes": 1788783,
+      "sha256": "b4004bb0b9b1df10cc1ab49a4fb557f503f6ac4d3c54e7bce3d056339e7a17bf",
+      "gitSha": "fed5993c80614ed6a9553f1752e822a7f61f6a11",
+      "blobSha": "fed5993c80614ed6a9553f1752e822a7f61f6a11"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/sources/kolacic-prve-radosti.png",
+      "bytes": 1280621,
+      "sha256": "24a88dfde5892948c46543807c5ffce48549be3ce8d07da325c6e754d90d5ade",
+      "gitSha": "1e6d2433362c0df6ff290ffc3dc58b89dc244122",
+      "blobSha": "1e6d2433362c0df6ff290ffc3dc58b89dc244122"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/ciklamin-blagoslov.png",
+      "bytes": 1788763,
+      "sha256": "c09b88097fc3966bd7df753ee050a59911b7f58f6e4224265a410a8fc4341232",
+      "gitSha": "c59a880cda1954e3790f6a415378f7eb6783ba50",
+      "blobSha": "c59a880cda1954e3790f6a415378f7eb6783ba50"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/roleri-u-boji.png",
+      "bytes": 1603957,
+      "sha256": "ea31a4739e209a4ff420195de90580b5f3b76c6b99e2869ae412ccd0e7397d01",
+      "gitSha": "c5e788c117bc3a204d5df80af4885b5427edf5dd",
+      "blobSha": "c5e788c117bc3a204d5df80af4885b5427edf5dd"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/lisicin-topli-zagrljaj.png",
+      "bytes": 2321070,
+      "sha256": "dd50346178234ea99f530942dda150c0cf6c62756ca886b2e6951334c7b48b0c",
+      "gitSha": "dc25a5fb3f8fd97ef0358376a94bb235e40e20b2",
+      "blobSha": "dc25a5fb3f8fd97ef0358376a94bb235e40e20b2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/svilena-maskarada.png",
+      "bytes": 2105418,
+      "sha256": "341d8abb9031ed962fd13ad740306453d0560987dc1e44672e5904c700b4f979",
+      "gitSha": "c49b6b8b07dfd96db617ee63042c9849118377fb",
+      "blobSha": "c49b6b8b07dfd96db617ee63042c9849118377fb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/ginkov-zlatni-zavet.png",
+      "bytes": 2265027,
+      "sha256": "6e888bf347e0cad52927b0eb23b557e8e09980fb588fa3d522db4796619efaf5",
+      "gitSha": "5d84cfa168bd42c4eff81e1835a167b11f897dcf",
+      "blobSha": "5d84cfa168bd42c4eff81e1835a167b11f897dcf"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/backgrounds-koi-zavet.png",
+      "bytes": 2401395,
+      "sha256": "34795f7e832248a77db3f1f2dfd13e1a6ce79bb6e0c63dc943b7b511266b49e5",
+      "gitSha": "9e07fcb1b8c00bf6bc9eb6939b5ee19102d8d31c",
+      "blobSha": "9e07fcb1b8c00bf6bc9eb6939b5ee19102d8d31c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/vidrin-biserni-dan.png",
+      "bytes": 2361200,
+      "sha256": "b400b0058b9f8fd76e430781542297a67b22c6060bfc1153e257f0b0bcddebaa",
+      "gitSha": "76a877b428fd1f745f254b8bf6dcaf15908dc412",
+      "blobSha": "76a877b428fd1f745f254b8bf6dcaf15908dc412"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/examples-koi-zavet-long-text.png",
+      "bytes": 1489636,
+      "sha256": "04bbd68124d6dd875c0b8e09317effa0592d8e01943b9a4e98bfa634f7bd78b2",
+      "gitSha": "dfbf7641109edb81a3c7694721027a7bd8a0896c",
+      "blobSha": "dfbf7641109edb81a3c7694721027a7bd8a0896c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/koi-zavet.png",
+      "bytes": 1417671,
+      "sha256": "a90ac658f4d2a5de536aae8db97fe46f01634ff2a9642629eff36fa31ecebbe7",
+      "gitSha": "d8c39b403e1d69fe5b6db0fb4878f369ba9b02dd",
+      "blobSha": "d8c39b403e1d69fe5b6db0fb4878f369ba9b02dd"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/previews-koi-zavet.webp",
+      "bytes": 45334,
+      "sha256": "951f67202fba075c629d78ab172e1e9d3a9affbabbca3021270ede929dbfdeb9",
+      "gitSha": "f7668e9e3da53833a6a5af7dc74afd71a9ea8f94",
+      "blobSha": "f7668e9e3da53833a6a5af7dc74afd71a9ea8f94"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/backgrounds-koi-zavet.webp",
+      "bytes": 120066,
+      "sha256": "d5098abd6920c4e7e1cfcb2d79ed2f625726805bfae16318b63e027fd1599321",
+      "gitSha": "27f8138d810bb6240996a01d2255d707c707546c",
+      "blobSha": "27f8138d810bb6240996a01d2255d707c707546c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/rubinski-sjaj.webp",
+      "bytes": 95226,
+      "sha256": "b01f527a57e5f64ab74935c2843f8926f9408a4657fd7d59246c79154f57ff2b",
+      "gitSha": "3988dd31a020bec7c737e57a6599f7aefa04275c",
+      "blobSha": "3988dd31a020bec7c737e57a6599f7aefa04275c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/examples-koi-zavet.pdf",
+      "bytes": 440505,
+      "sha256": "f120311a3199d3614063378be0cb19e89efb69a99a45a5432827ded3b5d4dfdb",
+      "gitSha": "181b50fbb9cd0afe763f97aaf828cfcc1e8004d2",
+      "blobSha": "181b50fbb9cd0afe763f97aaf828cfcc1e8004d2"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/rejected/examples-koi-zavet.png",
+      "bytes": 1416195,
+      "sha256": "9513da90b94931cc37d21f844adb6ccb7a808c111aeaa320f8b518d87f95c6de",
+      "gitSha": "cd78567c3a922c465b0db984ce06c47b9ac9cb07",
+      "blobSha": "cd78567c3a922c465b0db984ce06c47b9ac9cb07"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/kolacic-prve-radosti.webp",
+      "bytes": 67828,
+      "sha256": "a3a1c7acb35381a949d77612716ba1c6bafa2685b9f8d97eb569930a9ac7f1b7",
+      "gitSha": "bbee670c1d762d87622f25414424b5fe5bc8a1ad",
+      "blobSha": "bbee670c1d762d87622f25414424b5fe5bc8a1ad"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/aksolotlova-zurka.webp",
+      "bytes": 96242,
+      "sha256": "374c5105850f0117aa7ec4b5fecc47f7bd49df35a8060ad67a12c5d282dfe994",
+      "gitSha": "ba2f61ab8d4d524378a48aca6660e15d4196d6b0",
+      "blobSha": "ba2f61ab8d4d524378a48aca6660e15d4196d6b0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/zvecka-nove-radosti.webp",
+      "bytes": 60442,
+      "sha256": "f712ba024ca78f03b23a6e5e0dc81be6dd8b96ce178cfa41e1c52ce3d56e88de",
+      "gitSha": "033adfb55a33012f2d5d83214bae8586cb005c4a",
+      "blobSha": "033adfb55a33012f2d5d83214bae8586cb005c4a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/jasminov-zavet.webp",
+      "bytes": 60612,
+      "sha256": "c795576af4c46c710fe3d3666bb112ee09f6f25861486d5543b45d7f79934af7",
+      "gitSha": "2b694fad95be150fad3edf9528d20cac23f8c625",
+      "blobSha": "2b694fad95be150fad3edf9528d20cac23f8c625"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/backgrounds/biser-krstenja.webp",
+      "bytes": 45296,
+      "sha256": "ba7d07b3f1ec476ee44ac1127b4b6a711442a459f3ebe827607f9e3648bf6f7a",
+      "gitSha": "7455a4937e5232e2824fd39266ebdec5509b46db",
+      "blobSha": "7455a4937e5232e2824fd39266ebdec5509b46db"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/rubinski-sjaj.webp",
+      "bytes": 31480,
+      "sha256": "94ed8981e3baa94c44197940633d10a4fd1ee11f4eb781eab7e47d5b4b8f811c",
+      "gitSha": "6b73d94be624869a5975ad956010aa5238278682",
+      "blobSha": "6b73d94be624869a5975ad956010aa5238278682"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/kolacic-prve-radosti.webp",
+      "bytes": 26050,
+      "sha256": "d953f6bb7c04e12a0a461c115a7247019a458fbe92288c29685c957455b1ff83",
+      "gitSha": "68b3492bbf588b6a943483a7128b5e219d57be9a",
+      "blobSha": "68b3492bbf588b6a943483a7128b5e219d57be9a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/aksolotlova-zurka.webp",
+      "bytes": 33878,
+      "sha256": "922f95aa86f03a5d3d83667ab4864fe9f1156210a8114cab767e08cdd3a1578d",
+      "gitSha": "416587b3401a1cd2167c8d71658960c983599a02",
+      "blobSha": "416587b3401a1cd2167c8d71658960c983599a02"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/zvecka-nove-radosti.webp",
+      "bytes": 22192,
+      "sha256": "ad19f04a417930f5de7fea4530b44b0994633cd949ba8e31d68a8682c8871aab",
+      "gitSha": "76def74d47f5a5fa60490c1c17f97ead244d7d2b",
+      "blobSha": "76def74d47f5a5fa60490c1c17f97ead244d7d2b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/jasminov-zavet.webp",
+      "bytes": 31650,
+      "sha256": "916093908a570b38cd2429ef17374c56e3eed7ff4974633cd2c8f908bd249dd2",
+      "gitSha": "f0986b7789a2383fd7e406d045e3ff43d37a4a6f",
+      "blobSha": "f0986b7789a2383fd7e406d045e3ff43d37a4a6f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/biser-krstenja.webp",
+      "bytes": 21308,
+      "sha256": "30301ffec7b79e666863fb196310868f2b697f9743ece04a6c3dbcc96ca45ce2",
+      "gitSha": "4bb16fb07afc1f9f6d5f7e95d758cd5e13de307f",
+      "blobSha": "4bb16fb07afc1f9f6d5f7e95d758cd5e13de307f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/kolacic-prve-radosti-mobile-expanded.png",
+      "bytes": 134324,
+      "sha256": "eaabc72b70e9e37f290e879417c3c37f30a795f14fcf45c767ab874057698241",
+      "gitSha": "819b3e34045cacf5f87f47fb33d3d16b903085b0",
+      "blobSha": "819b3e34045cacf5f87f47fb33d3d16b903085b0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/biser-krstenja-mobile-expanded.png",
+      "bytes": 135548,
+      "sha256": "a07d05da40d4785b2d31035dd696e45485a1081b6b5312a32e95735feb142046",
+      "gitSha": "14e6af045d1e232f2263ebbe862e396e4b542c9f",
+      "blobSha": "14e6af045d1e232f2263ebbe862e396e4b542c9f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/rubinski-sjaj-mobile-expanded.png",
+      "bytes": 169324,
+      "sha256": "1a8549b65141e6f4ebb060da76ebc797a8444a9ef15886249e1e37c9c69d779e",
+      "gitSha": "11c6270dbc9778a3f971150e501bde49b409f882",
+      "blobSha": "11c6270dbc9778a3f971150e501bde49b409f882"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/jasminov-zavet-mobile-expanded.png",
+      "bytes": 164661,
+      "sha256": "040bf7311307e8689f123879de5ae74367a7c370aeb9fb5085374086c53fe5df",
+      "gitSha": "c29baecc447a4caed61c1d937bebe2912eed4648",
+      "blobSha": "c29baecc447a4caed61c1d937bebe2912eed4648"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/zvecka-nove-radosti-mobile-expanded.png",
+      "bytes": 154568,
+      "sha256": "52059ada61bda27c74b32cc2d38eb9fb1a77a29077b828677a4fac67e51c2a1e",
+      "gitSha": "d3271e73e6e876ee0da8cd77e3e715544a41785a",
+      "blobSha": "d3271e73e6e876ee0da8cd77e3e715544a41785a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/previews/aksolotlova-zurka-mobile-expanded.png",
+      "bytes": 140591,
+      "sha256": "798747e81c23135925b828ec2f9c2f9f28b5a4c1cfb00dbb219c5dece7a3cc02",
+      "gitSha": "fecb1738de3015df842630aee3e4996fb64f1392",
+      "blobSha": "fecb1738de3015df842630aee3e4996fb64f1392"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/biser-krstenja.png",
+      "bytes": 667704,
+      "sha256": "e490974c84f41767a091aefa844b1e48186ef749db29658adbc89cd25af4583f",
+      "gitSha": "7c6d470fc406954e5c30b0b67d866f47f640f436",
+      "blobSha": "7c6d470fc406954e5c30b0b67d866f47f640f436"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/jasminov-zavet-long-text.png",
+      "bytes": 836856,
+      "sha256": "95e92164714012345467cbd276405b3371a241a64a09d9fec9138b6e4a9dd590",
+      "gitSha": "647d9374577ce14be237ea7f229e9828d7cc3793",
+      "blobSha": "647d9374577ce14be237ea7f229e9828d7cc3793"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/jasminov-zavet.png",
+      "bytes": 811160,
+      "sha256": "81acf978e67132b327fb5d4f376169d99ee20faabdde0208a0b5f0bf9807aa7c",
+      "gitSha": "4b0b68ac037d90328211cf8ef6c72d581e77a780",
+      "blobSha": "4b0b68ac037d90328211cf8ef6c72d581e77a780"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/jasminov-zavet-editor.png",
+      "bytes": 700815,
+      "sha256": "a5c7371869cae5a0903264f7ace4021bb4ce4fd1ad21785a87e7e34375476134",
+      "gitSha": "fbb52003d6c206d7319e07644f8d6d6cc5ef8113",
+      "blobSha": "fbb52003d6c206d7319e07644f8d6d6cc5ef8113"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/zvecka-nove-radosti-long-text.png",
+      "bytes": 829409,
+      "sha256": "fdb09e8453aff20be79d17873414e1f86f3958b0b124d2a667428421ed8e38e4",
+      "gitSha": "819c9c628060e2cd6dc306dcdd6a9f3f9a022211",
+      "blobSha": "819c9c628060e2cd6dc306dcdd6a9f3f9a022211"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/zvecka-nove-radosti.png",
+      "bytes": 814554,
+      "sha256": "d1bacb115ac37465609d415a4b6e6e0fb73e603e5ec45b9b4779c1146dfa7d7c",
+      "gitSha": "905962818ee0911010c47b4180f76f4047548e31",
+      "blobSha": "905962818ee0911010c47b4180f76f4047548e31"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/rubinski-sjaj.png",
+      "bytes": 1012968,
+      "sha256": "74c06af50df60ecfd7ea37afffc9f79b6ac6dc81ddfa9ee2b814216ca010deb7",
+      "gitSha": "5485223aafca3dfff651154fad2e9024b8061252",
+      "blobSha": "5485223aafca3dfff651154fad2e9024b8061252"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/aksolotlova-zurka-long-text.png",
+      "bytes": 1048814,
+      "sha256": "f119d9b436877ac685195e36f923d4b7f57101d0ca1510f53bb4706e284f6633",
+      "gitSha": "ead32b9e527e054dc45bd8dbbfee058f632eda48",
+      "blobSha": "ead32b9e527e054dc45bd8dbbfee058f632eda48"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/zvecka-nove-radosti-editor.png",
+      "bytes": 704990,
+      "sha256": "4dc5f6996444082a367afa6afe506d5da2355929537a4fd09d7cd59ea71705bc",
+      "gitSha": "9b0fea93dec4b31c13c76a3f67e85b56ead80b85",
+      "blobSha": "9b0fea93dec4b31c13c76a3f67e85b56ead80b85"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/rubinski-sjaj-long-text.png",
+      "bytes": 1026764,
+      "sha256": "66593c0d0b8ef0e95c089e1aa3f96f2661cc3e5081315447f25d1566bc4b1945",
+      "gitSha": "a08771ff486cebd742d0b4f4f88db8ca5bce2b74",
+      "blobSha": "a08771ff486cebd742d0b4f4f88db8ca5bce2b74"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/biser-krstenja-editor.png",
+      "bytes": 598982,
+      "sha256": "e7678f9b19c1e580871e7a2de96bd906fbc060e0523654e3f969976f7c3eb9a7",
+      "gitSha": "e67ed127ecaba34a129704e4f7f070b79403e87f",
+      "blobSha": "e67ed127ecaba34a129704e4f7f070b79403e87f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/kolacic-prve-radosti-long-text.png",
+      "bytes": 841363,
+      "sha256": "72b420ad23b4c13bee2bda9b735ff64f45b112dc4ea9b0ce72fda3cb454cc28d",
+      "gitSha": "6b697c441a5ae1a0131577e7cf33604076156404",
+      "blobSha": "6b697c441a5ae1a0131577e7cf33604076156404"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/aksolotlova-zurka.png",
+      "bytes": 1021227,
+      "sha256": "c4f3486e16814046fcbf9137064ccfda9ad62bf0a26516b073d290b5608f963d",
+      "gitSha": "0eefa4987b342ee91c02a166f1f67d7ebe426c93",
+      "blobSha": "0eefa4987b342ee91c02a166f1f67d7ebe426c93"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/aksolotlova-zurka-editor.png",
+      "bytes": 882427,
+      "sha256": "3fc1a0ae4dfda29ad735bd973bd701b175f0683276ecf13b2ec116855735ca63",
+      "gitSha": "e77f7a06fcb27411b34ff02ab3cb8acaaaa67cfa",
+      "blobSha": "e77f7a06fcb27411b34ff02ab3cb8acaaaa67cfa"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/rubinski-sjaj-editor.png",
+      "bytes": 871122,
+      "sha256": "a8a5bf238cb1b1e99c1f77f535a9489f0536439851e30d76fd111448ce2b47e7",
+      "gitSha": "e96ba9c3acd59be552d218ecd44926427e572e64",
+      "blobSha": "e96ba9c3acd59be552d218ecd44926427e572e64"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/biser-krstenja-long-text.png",
+      "bytes": 700456,
+      "sha256": "ebfc1c156a0623e8242a357a68dac78f8b637338641344c286cd43b7af1bd50b",
+      "gitSha": "bed6ed7671b375ff6571019dd89fad4278dc24d9",
+      "blobSha": "bed6ed7671b375ff6571019dd89fad4278dc24d9"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/kolacic-prve-radosti-editor.png",
+      "bytes": 710644,
+      "sha256": "31d85083c4c732030769995172a19b9397fee2bb1cadb2dbd89a6d79b97f584a",
+      "gitSha": "722b5fee9ca0c0fee41d98bfa7d0aacb44f5f6ca",
+      "blobSha": "722b5fee9ca0c0fee41d98bfa7d0aacb44f5f6ca"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/kolacic-prve-radosti.png",
+      "bytes": 814566,
+      "sha256": "0b644d7ec6f9296b38caeb9e1cd9871db73f006b7d30e0a695b290b6ad45f81f",
+      "gitSha": "31a284efeb2076c34738aa45fb64968b6bd4e451",
+      "blobSha": "31a284efeb2076c34738aa45fb64968b6bd4e451"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/zvecka-nove-radosti-editor.pdf",
+      "bytes": 584466,
+      "sha256": "b34478c93640d6870425c3436f7c435c3ae52711795d760b2b314f52080d5de8",
+      "gitSha": "32dee8a075016608a05ae1d025ed8cfb6cb5f971",
+      "blobSha": "32dee8a075016608a05ae1d025ed8cfb6cb5f971"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/zvecka-nove-radosti.pdf",
+      "bytes": 259365,
+      "sha256": "67a1c09db207168458b740798643602e183bfc41efae867048f02db71e41d6c6",
+      "gitSha": "eb8e1b7da071e2458441a7952dc801ca3a577e64",
+      "blobSha": "eb8e1b7da071e2458441a7952dc801ca3a577e64"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/kolacic-prve-radosti-editor.pdf",
+      "bytes": 593508,
+      "sha256": "24c4d589a45859f6fc273421b49025dcff186d614eebfaa9bfd4a3eade4965c4",
+      "gitSha": "334f89a06b03fe496c7950154ee00528e2a3b5f0",
+      "blobSha": "334f89a06b03fe496c7950154ee00528e2a3b5f0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/rubinski-sjaj-editor.pdf",
+      "bytes": 729921,
+      "sha256": "2ddfc44504e13151c75d80d94e1c56b29bedffb13d29fb8f6211c171cca6906d",
+      "gitSha": "7571dface03bca5fadcde03f11ced4e7ceb741d1",
+      "blobSha": "7571dface03bca5fadcde03f11ced4e7ceb741d1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/aksolotlova-zurka-editor.pdf",
+      "bytes": 747733,
+      "sha256": "e30ca106b89d51f0f3ca47eac325318987c9d58d6e9d8a634ddc9c122d4d3b65",
+      "gitSha": "2cb5b613ff4e33ab3ebc2a881a87e1cec09bd434",
+      "blobSha": "2cb5b613ff4e33ab3ebc2a881a87e1cec09bd434"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/biser-krstenja.pdf",
+      "bytes": 266588,
+      "sha256": "60d9caf12f80b636d25159d11a490fa18c66dfd9c4bb1cbe11e803f0a149da6a",
+      "gitSha": "c8b6cbb6b4050e9ed3870d76be13c7c26de7b37b",
+      "blobSha": "c8b6cbb6b4050e9ed3870d76be13c7c26de7b37b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/aksolotlova-zurka.pdf",
+      "bytes": 295059,
+      "sha256": "2b2b14e9b0982c586b3836422e95274c242a9b6037a2ae7672245aea3978a47f",
+      "gitSha": "888322f32ce6329faa17042a96d7ff5481472d71",
+      "blobSha": "888322f32ce6329faa17042a96d7ff5481472d71"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/jasminov-zavet.pdf",
+      "bytes": 324947,
+      "sha256": "981bbfeb1ad5abdda85d63c05c9b6943d229667460472edb2f426c107a1dab32",
+      "gitSha": "8dade2d0ac716b6ab9adf024dbee9568b3768dff",
+      "blobSha": "8dade2d0ac716b6ab9adf024dbee9568b3768dff"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/biser-krstenja-editor.pdf",
+      "bytes": 467406,
+      "sha256": "b3c5391d621c9af1b5ab7776b133cf404f86d8618b0fcefb0845a55fb12b3f84",
+      "gitSha": "e41b48f1b3b80e2546c07463b422d7a050acff8e",
+      "blobSha": "e41b48f1b3b80e2546c07463b422d7a050acff8e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/kolacic-prve-radosti.pdf",
+      "bytes": 259152,
+      "sha256": "d63b47704505b426d9b8ff020c0e30281a412671aec3718400d076464cca8ed7",
+      "gitSha": "7137509dc8694db4f59769174d811909c0877d02",
+      "blobSha": "7137509dc8694db4f59769174d811909c0877d02"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/rubinski-sjaj.pdf",
+      "bytes": 323539,
+      "sha256": "a3b04ac0a24a5f0f11802e17f539f9456bfd3c564e7e3aa8ba980511ed0d38cc",
+      "gitSha": "55993c8611b2b31db7714c286631a3941ce53b90",
+      "blobSha": "55993c8611b2b31db7714c286631a3941ce53b90"
+    },
+    {
+      "path": "content/robi-batches/2026-10-26/examples/jasminov-zavet-editor.pdf",
+      "bytes": 580215,
+      "sha256": "98a27c933b6d42b87e0b88aeaa6d020ff958ceafd3a34502d593575c1e5f11fe",
+      "gitSha": "900c90092357c4d281fd3dfa948d5234dc776c74",
+      "blobSha": "900c90092357c4d281fd3dfa948d5234dc776c74"
+    }
+  ]
+}

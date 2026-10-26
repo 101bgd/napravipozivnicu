@@ -1672,7 +1672,7 @@
       "date": "2026-10-26",
       "path": "content/robi-batches/2026-10-26",
       "timezone": "Asia/Tokyo",
-      "status": "checking",
+      "status": "ready_to_publish",
       "scheduledAt": "2026-10-26T08:00:00+09:00",
       "deadlineAt": "2026-10-26T10:00:00+09:00",
       "startedAt": "2026-10-25T23:07:05Z",
@@ -1694,7 +1694,7 @@
           "category": "first",
           "audience": "female",
           "age": 1,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1709,7 +1709,14 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-kolacic-jagodica/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/kolacic-prve-radosti.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "rubinski-sjaj",
@@ -1717,7 +1724,7 @@
           "category": "eighteen",
           "audience": "female",
           "age": 18,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1732,7 +1739,14 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-rubinski-bros/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/rubinski-sjaj.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "aksolotlova-zurka",
@@ -1740,7 +1754,7 @@
           "category": "birthday",
           "audience": "female",
           "age": 5,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1755,7 +1769,14 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-ruzicasti-aksolotl/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/aksolotlova-zurka.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "jasminov-zavet",
@@ -1763,7 +1784,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1778,7 +1799,14 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-beli-jasmin/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/jasminov-zavet.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "biser-krstenja",
@@ -1786,7 +1814,7 @@
           "category": "baptism",
           "audience": "female",
           "age": null,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1801,7 +1829,14 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-sedefna-skoljka-krst/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/biser-krstenja.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         },
         {
           "id": "zvecka-nove-radosti",
@@ -1809,7 +1844,7 @@
           "category": "baby",
           "audience": "female",
           "age": null,
-          "status": "checking",
+          "status": "prepared_unpublished",
           "sourceDimensions": [
             1060,
             1484
@@ -1824,17 +1859,88 @@
             500,
             700
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/"
+          "publicUrl": null,
+          "plannedPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-devojcice-drvena-zvecka/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-26/previews/zvecka-nove-radosti.webp",
+          "pngDpi": 300,
+          "pdfSizeMm": [
+            127,
+            177.8
+          ]
         }
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "Retained6 text-free originals after7 discarded attempts; actual renderer generated6 editable layouts and all default/long-text bounds/margins/contrast checks passed.",
+      "lastConfirmedStep": "Six editable templates passed all local checks;67 source/final/proof files archived with matching hashes. Publication not executed, main unchanged2bed; daily delivery remains incomplete and overdue.",
       "userAestheticApproval": false,
       "pointsAwarded": 0,
       "totalGenerationAttempts": 13,
       "totalReturnedGenerations": 13,
-      "rejectedDesignCount": 7
+      "rejectedDesignCount": 7,
+      "prePublicationChecks": "passed",
+      "deliveryDeadlineMet": false,
+      "finalReportPreparedAt": "2026-10-26T06:14:07Z",
+      "artifactPersistence": {
+        "status": "archived_with_final_audit",
+        "binaryFiles": 67,
+        "sourcePngs": 6,
+        "rejectedOriginals": 7,
+        "rejectedExtraProofs": 6,
+        "backgroundWebp": 6,
+        "previewWebp": 6,
+        "mobileEvidence": 6,
+        "pngExamples": 18,
+        "pdfExamples": 12,
+        "allBlobUploadsMatched": true,
+        "manifest": "content/robi-batches/2026-10-26/artifact-manifest.json",
+        "allBinaryReadBackMatched": true,
+        "readbackEvidence": "content/robi-batches/2026-10-26/archive-readback.json",
+        "archivedAt": "2026-10-26T06:19:18Z"
+      },
+      "publication": {
+        "status": "not_started",
+        "observedMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "todayDesignsInMainCatalog": 0,
+        "productionCommit": null,
+        "cloudflareDeployment": null
+      },
+      "audit": {
+        "checkedAt": "2026-10-26T06:14:07Z",
+        "status": "incomplete_unpublished_after_deadline",
+        "userFacingStatus": "NEZAVRŠENO",
+        "requiredCount": 6,
+        "preparedCount": 6,
+        "deployedCount": 0,
+        "verifiedPublicCount": 0,
+        "deadlineMet": false,
+        "deadlineAt": "2026-10-26T10:00:00+09:00",
+        "overdueAtObservationSeconds": 18847,
+        "lastMain": "2bedc5d33cc4d08797863f3629bd7c480b236157",
+        "evidence": "content/robi-batches/2026-10-26/final-daily-check.json",
+        "pointsAwarded": 0,
+        "initialReportRead": "404 Not Found",
+        "initialChecklistRead": "404 Not Found",
+        "specificExternalRootCauseForDelay": "not_established; do not attribute today's lack of deployment to403"
+      },
+      "notification": {
+        "channel": "ChatGPT",
+        "reportPreparedAt": "2026-10-26T06:19:18Z",
+        "preparedAfterDeadline": true,
+        "actualDeliveryTimestampNotInferred": true
+      },
+      "resumeActions": [
+        "Resume this saved2026-10-26 batch; do not generate new duplicates.",
+        "Before production work, reread current main and preserve all other changes.",
+        "Publish all6 in one fast-forward commit only after mandatory checks and then verify deployment/public result.",
+        "Keep missed10:00 delivery/notification deadline recorded; never count backlog as new daily batch.",
+        "No user aesthetic approval or points inferred."
+      ],
+      "unfinishedSteps": [
+        "single_atomic_production_commit",
+        "main_fast_forward",
+        "cloudflare_deployment",
+        "post_deployment_public_pages_editor_exports_verification"
+      ]
     }
   ],
   "history": [
@@ -2080,7 +2186,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-26",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2102,7 +2208,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-25T23:28:03Z",
+  "updatedAt": "2026-10-26T06:19:18Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",

@@ -1,0 +1,86 @@
+{
+  "generationChannel": "ChatGPT image generation",
+  "totalAttempts": 13,
+  "retained": 6,
+  "rejected": 7,
+  "sources": [
+    {
+      "id": "kolacic-prve-radosti",
+      "originalPath": "/workspace/generated_images/exec-6877a2ce-e114-4715-8433-2ba2e7187c2e.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/kolacic-prve-radosti.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1280621,
+      "sha256": "24a88dfde5892948c46543807c5ffce48549be3ce8d07da325c6e754d90d5ade",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    },
+    {
+      "id": "rubinski-sjaj",
+      "originalPath": "/workspace/generated_images/exec-5060f030-c0ee-4b61-bc17-4babc4afd4b6.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/rubinski-sjaj.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1788783,
+      "sha256": "b4004bb0b9b1df10cc1ab49a4fb557f503f6ac4d3c54e7bce3d056339e7a17bf",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "originalPath": "/workspace/generated_images/exec-a3748b0d-32ed-4624-a221-76cfa61bf340.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/aksolotlova-zurka.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1344613,
+      "sha256": "4c34323cf72dd8824ebb69148ee6998865d9ae4a03e2f446ef2014caf290a399",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    },
+    {
+      "id": "biser-krstenja",
+      "originalPath": "/workspace/generated_images/exec-5c70ad54-50cc-4dd0-af60-76b44a1b93d9.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/biser-krstenja.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1125668,
+      "sha256": "70f2a1d8e2fd44e0a6045d785e8a60799fbc7bf2e8723aae1fa439bc135c211c",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "originalPath": "/workspace/generated_images/exec-5763aa59-d2a8-4de5-8a05-0f7ccc73d0d8.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/zvecka-nove-radosti.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1165270,
+      "sha256": "3c202d9f1e4830fbf9a7b5f7371539029708b3d4ece04b001e37bc7321f70f76",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    },
+    {
+      "id": "jasminov-zavet",
+      "originalPath": "/workspace/generated_images/exec-0c4c1ba2-a740-40b7-a373-aed7cb0e97d2.png",
+      "savedSource": "content/robi-batches/2026-10-26/sources/jasminov-zavet.png",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "sourceBytes": 1244869,
+      "sha256": "d55ccc4896dec3a8344087387c6bd8894ac3c14233abc83ea0cb20536488e220",
+      "safeInsetVisualReview": "PROŠLO",
+      "backgroundTextFreeVisualReview": "PROŠLO"
+    }
+  ]
+}

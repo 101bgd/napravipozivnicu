@@ -1,0 +1,41 @@
+{
+  "fonts": {
+    "baloo2": "48a03fa0-af48-4b3b-809c-7182a31d1c86",
+    "dynapuff": "b9b13ee7-07df-4a20-a2fa-40606fff63cc",
+    "cormorant": "36abdc26-d404-4d00-b4c0-e402b72a8de0",
+    "marckscript": "727f2a76-fb57-45d9-815f-ba85d1fd0c07",
+    "fraunces600": "ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+    "fraunces400": "d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+    "outfit400": "78318d71-3fe0-59fe-ad64-34d96886fdc6",
+    "outfit600": "4a534d25-ca56-5a63-a88c-7d424d954ec4",
+    "bajka": "224da539-6db6-5093-a1fe-fa1e77deec5e",
+    "greatvibes": "a8a45639-0d15-4793-a5ea-9c806c035b17"
+  },
+  "designs": {
+    "kolacic-prve-radosti": {
+      "background": "1726cada-8f45-5518-a05f-28ce6c0d9740",
+      "thumbnail": "ab0ea43f-a302-50fa-aa02-6a490508b3cb"
+    },
+    "rubinski-sjaj": {
+      "background": "8d3a15a2-6f4c-5e0b-9eec-21f24712c9dd",
+      "thumbnail": "8d87f6c4-472b-5ff7-9a74-eea4a66e2684"
+    },
+    "aksolotlova-zurka": {
+      "background": "72a93cec-c632-59ff-af75-0f4278e403f9",
+      "thumbnail": "9515dacd-669c-583e-a800-d47b6ff11fbc"
+    },
+    "biser-krstenja": {
+      "background": "1ece25bb-bbb9-5a19-b786-3f09c9629ab0",
+      "thumbnail": "70a98880-6611-538d-9aec-bef0f08ab01c"
+    },
+    "zvecka-nove-radosti": {
+      "background": "b26c9ad5-d45b-5819-8d6d-a8fc90695839",
+      "thumbnail": "872bc062-e005-5173-9852-927c7d888036"
+    },
+    "jasminov-zavet": {
+      "background": "cc77caf0-0e3d-5f74-ac60-861b18858984",
+      "thumbnail": "0b5058a2-393f-5b84-bb60-ccb92c22edb5"
+    }
+  },
+  "publicationPreparedAt": "2026-10-25T23:28:07.369Z"
+}

@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "rubinski-sjaj",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/dino-avantura-pozadina-88905345bae9.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/kobaltna-noc-pozadina-23d817595141.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/vencanje/pismo-ljubavi-pozadina-7cce67a3e01a.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "kolacic-prve-radosti",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/kitov-prvi-talas-pozadina-a7542916225b.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/rakunicina-sarena-zurka-background-e0251f26851f.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/mala-sirena-pozadina-7751e875ecd8.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/krstenje/golubica-mira-pozadina-de44d57002c3.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/narova-prica-background-1728b424cc73.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+          "distance63": 12
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/smaragdna-premijera-pozadina-b5940e8056ee.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-25/jesenji-vinograd-background-bc9354793563.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "jasminov-zavet",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pozadina-f0ce23fe9003.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/ponocna-elegancija/pozadina-bd7ed2b4f10e.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/disko-sjaj-pozadina-fb5103d072c1.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "biser-krstenja",
+      "historyCount": 81,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/vencanje/zavet-u-prirodi-pozadina-bd265e38ec77.webp",
+          "distance63": 16
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/rakunicina-sarena-zurka-background-e0251f26851f.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/ponocna-elegancija/pozadina-bd7ed2b4f10e.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "rubinski-sjaj",
+      "b": "kolacic-prve-radosti",
+      "distance63": 30
+    },
+    {
+      "a": "rubinski-sjaj",
+      "b": "aksolotlova-zurka",
+      "distance63": 32
+    },
+    {
+      "a": "rubinski-sjaj",
+      "b": "zvecka-nove-radosti",
+      "distance63": 44
+    },
+    {
+      "a": "rubinski-sjaj",
+      "b": "jasminov-zavet",
+      "distance63": 26
+    },
+    {
+      "a": "rubinski-sjaj",
+      "b": "biser-krstenja",
+      "distance63": 28
+    },
+    {
+      "a": "kolacic-prve-radosti",
+      "b": "aksolotlova-zurka",
+      "distance63": 38
+    },
+    {
+      "a": "kolacic-prve-radosti",
+      "b": "zvecka-nove-radosti",
+      "distance63": 28
+    },
+    {
+      "a": "kolacic-prve-radosti",
+      "b": "jasminov-zavet",
+      "distance63": 30
+    },
+    {
+      "a": "kolacic-prve-radosti",
+      "b": "biser-krstenja",
+      "distance63": 18
+    },
+    {
+      "a": "aksolotlova-zurka",
+      "b": "zvecka-nove-radosti",
+      "distance63": 28
+    },
+    {
+      "a": "aksolotlova-zurka",
+      "b": "jasminov-zavet",
+      "distance63": 34
+    },
+    {
+      "a": "aksolotlova-zurka",
+      "b": "biser-krstenja",
+      "distance63": 42
+    },
+    {
+      "a": "zvecka-nove-radosti",
+      "b": "jasminov-zavet",
+      "distance63": 38
+    },
+    {
+      "a": "zvecka-nove-radosti",
+      "b": "biser-krstenja",
+      "distance63": 32
+    },
+    {
+      "a": "jasminov-zavet",
+      "b": "biser-krstenja",
+      "distance63": 32
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

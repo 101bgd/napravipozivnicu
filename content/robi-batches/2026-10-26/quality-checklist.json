@@ -1,0 +1,2802 @@
+{
+  "schemaVersion": 1,
+  "batchId": "2026-10-26",
+  "checkedAt": "2026-10-26T06:14:07Z",
+  "prePublicationStatus": "PROŠLO",
+  "separateReviewPass": true,
+  "designs": [
+    {
+      "id": "kolacic-prve-radosti",
+      "name": "Kolačić prve radosti",
+      "category": "first",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 15.5,
+          "x": 50,
+          "y": 9,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 1.1
+        },
+        {
+          "field": "names",
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "sizeAt500": 86,
+          "x": 50,
+          "y": 20.5,
+          "width": 84,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "age",
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "sizeAt500": 82,
+          "x": 25.71916961669922,
+          "y": 33,
+          "width": 30,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "occasion",
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "sizeAt500": 31,
+          "x": 56.85978393554687,
+          "y": 33,
+          "width": 46,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "note",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 20,
+          "x": 50,
+          "y": 43,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+          "sizeAt500": 25,
+          "x": 78,
+          "y": 54,
+          "width": 40,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 22,
+          "x": 80,
+          "y": 63,
+          "width": 34,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "location",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 18,
+          "x": 80,
+          "y": 73,
+          "width": 34,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "kolacic-prve-radosti",
+        "category": "first",
+        "name": "Kolačić prve radosti",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 106,
+              "right": 396,
+              "top": 53,
+              "bottom": 69,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.22,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 145,
+              "right": 358,
+              "top": 105,
+              "bottom": 169,
+              "minimumContrast": 6.13,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 146,
+              "right": 199,
+              "top": 196,
+              "bottom": 255,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 212,
+              "right": 355,
+              "top": 217,
+              "bottom": 239,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 128,
+              "right": 372,
+              "top": 281,
+              "bottom": 321,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 315,
+              "right": 464,
+              "top": 368,
+              "bottom": 390,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 373,
+              "right": 425,
+              "top": 431,
+              "bottom": 446,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.23,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 325,
+              "right": 475,
+              "top": 493,
+              "bottom": 530,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.22,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 106,
+              "right": 396,
+              "top": 53,
+              "bottom": 69,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.22,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 54,
+              "right": 446,
+              "top": 124,
+              "bottom": 155,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.19,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 146,
+              "right": 199,
+              "top": 196,
+              "bottom": 255,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 212,
+              "right": 355,
+              "top": 217,
+              "bottom": 239,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 128,
+              "right": 372,
+              "top": 281,
+              "bottom": 321,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 315,
+              "right": 464,
+              "top": 368,
+              "bottom": 390,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.16,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 373,
+              "right": 425,
+              "top": 431,
+              "bottom": 446,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.23,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 329,
+              "right": 470,
+              "top": 471,
+              "bottom": 551,
+              "minimumContrast": 6.16,
+              "p05Contrast": 6.21,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-ffac651c-7dfb-5e5d-b73b-70198eb946cf",
+            "loaded": true
+          },
+          {
+            "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "24a88dfde5892948c46543807c5ffce48549be3ce8d07da325c6e754d90d5ade",
+        "sourceBytes": 1280621,
+        "files": {
+          "backgrounds/kolacic-prve-radosti.webp": {
+            "bytes": 67828,
+            "sha256": "a3a1c7acb35381a949d77612716ba1c6bafa2685b9f8d97eb569930a9ac7f1b7"
+          },
+          "backgrounds/kolacic-prve-radosti.png": {
+            "bytes": 2061422,
+            "sha256": "e260d49a97ff044659bc99d82edd6a3f1d8f12cf1772ea2057a8d044bc77f579"
+          },
+          "previews/kolacic-prve-radosti.webp": {
+            "bytes": 26050,
+            "sha256": "d953f6bb7c04e12a0a461c115a7247019a458fbe92288c29685c957455b1ff83"
+          },
+          "examples/kolacic-prve-radosti.png": {
+            "bytes": 814566,
+            "sha256": "0b644d7ec6f9296b38caeb9e1cd9871db73f006b7d30e0a695b290b6ad45f81f"
+          },
+          "examples/kolacic-prve-radosti-long-text.png": {
+            "bytes": 841363,
+            "sha256": "72b420ad23b4c13bee2bda9b735ff64f45b112dc4ea9b0ce72fda3cb454cc28d"
+          },
+          "examples/kolacic-prve-radosti.pdf": {
+            "bytes": 259152,
+            "sha256": "d63b47704505b426d9b8ff020c0e30281a412671aec3718400d076464cca8ed7"
+          }
+        }
+      }
+    },
+    {
+      "id": "rubinski-sjaj",
+      "name": "Rubinski sjaj",
+      "category": "eighteen",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 17,
+          "x": 29,
+          "y": 12,
+          "width": 48,
+          "fitToWidth": false,
+          "letterSpacing": 1.2
+        },
+        {
+          "field": "names",
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "sizeAt500": 94,
+          "x": 27,
+          "y": 29,
+          "width": 44,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "age",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 92,
+          "x": 26.235630798339844,
+          "y": 48.5,
+          "width": 30,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "occasion",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 27,
+          "x": 58.35320129394531,
+          "y": 48.5,
+          "width": 46,
+          "fitToWidth": false,
+          "letterSpacing": 1
+        },
+        {
+          "field": "note",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 23,
+          "x": 50,
+          "y": 59,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 31,
+          "x": 50,
+          "y": 69,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 25,
+          "x": 50,
+          "y": 77,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 22,
+          "x": 50,
+          "y": 85,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "rsvp",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 50,
+          "y": 94,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "rubinski-sjaj",
+        "category": "eighteen",
+        "name": "Rubinski sjaj",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 47,
+              "right": 242,
+              "top": 74,
+              "bottom": 92,
+              "minimumContrast": 12.71,
+              "p05Contrast": 12.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 33,
+              "right": 244,
+              "top": 149,
+              "bottom": 225,
+              "minimumContrast": 12.73,
+              "p05Contrast": 12.73,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 135,
+              "right": 202,
+              "top": 311,
+              "bottom": 364,
+              "minimumContrast": 13.32,
+              "p05Contrast": 13.38,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 216,
+              "right": 369,
+              "top": 329,
+              "bottom": 346,
+              "minimumContrast": 13.17,
+              "p05Contrast": 13.51,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 141,
+              "right": 358,
+              "top": 389,
+              "bottom": 437,
+              "minimumContrast": 13.6,
+              "p05Contrast": 13.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 180,
+              "right": 319,
+              "top": 473,
+              "bottom": 499,
+              "minimumContrast": 14.13,
+              "p05Contrast": 14.13,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 228,
+              "right": 272,
+              "top": 535,
+              "bottom": 552,
+              "minimumContrast": 14.46,
+              "p05Contrast": 14.56,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 183,
+              "right": 317,
+              "top": 571,
+              "bottom": 619,
+              "minimumContrast": 14.69,
+              "p05Contrast": 14.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "rsvp",
+              "left": 149,
+              "right": 351,
+              "top": 650,
+              "bottom": 667,
+              "minimumContrast": 14.73,
+              "p05Contrast": 14.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 47,
+              "right": 242,
+              "top": 74,
+              "bottom": 92,
+              "minimumContrast": 12.71,
+              "p05Contrast": 12.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 32,
+              "right": 240,
+              "top": 184,
+              "bottom": 210,
+              "minimumContrast": 12.73,
+              "p05Contrast": 12.74,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 135,
+              "right": 202,
+              "top": 311,
+              "bottom": 364,
+              "minimumContrast": 13.32,
+              "p05Contrast": 13.38,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 216,
+              "right": 369,
+              "top": 329,
+              "bottom": 346,
+              "minimumContrast": 13.17,
+              "p05Contrast": 13.51,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 141,
+              "right": 358,
+              "top": 389,
+              "bottom": 437,
+              "minimumContrast": 13.6,
+              "p05Contrast": 13.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 180,
+              "right": 319,
+              "top": 473,
+              "bottom": 499,
+              "minimumContrast": 14.13,
+              "p05Contrast": 14.13,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 228,
+              "right": 272,
+              "top": 535,
+              "bottom": 552,
+              "minimumContrast": 14.46,
+              "p05Contrast": 14.56,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 143,
+              "right": 356,
+              "top": 571,
+              "bottom": 619,
+              "minimumContrast": 14.67,
+              "p05Contrast": 14.73,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "rsvp",
+              "left": 178,
+              "right": 321,
+              "top": 639,
+              "bottom": 677,
+              "minimumContrast": 14.78,
+              "p05Contrast": 14.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "loaded": true
+          },
+          {
+            "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "b4004bb0b9b1df10cc1ab49a4fb557f503f6ac4d3c54e7bce3d056339e7a17bf",
+        "sourceBytes": 1788783,
+        "files": {
+          "backgrounds/rubinski-sjaj.webp": {
+            "bytes": 95226,
+            "sha256": "b01f527a57e5f64ab74935c2843f8926f9408a4657fd7d59246c79154f57ff2b"
+          },
+          "backgrounds/rubinski-sjaj.png": {
+            "bytes": 3645472,
+            "sha256": "0aac2f1edd8dfb105715c185e84fec887ae417e23dcf1f663af3a37c0c47434e"
+          },
+          "previews/rubinski-sjaj.webp": {
+            "bytes": 31480,
+            "sha256": "94ed8981e3baa94c44197940633d10a4fd1ee11f4eb781eab7e47d5b4b8f811c"
+          },
+          "examples/rubinski-sjaj.png": {
+            "bytes": 1012968,
+            "sha256": "74c06af50df60ecfd7ea37afffc9f79b6ac6dc81ddfa9ee2b814216ca010deb7"
+          },
+          "examples/rubinski-sjaj-long-text.png": {
+            "bytes": 1026764,
+            "sha256": "66593c0d0b8ef0e95c089e1aa3f96f2661cc3e5081315447f25d1566bc4b1945"
+          },
+          "examples/rubinski-sjaj.pdf": {
+            "bytes": 323539,
+            "sha256": "a3b04ac0a24a5f0f11802e17f539f9456bfd3c564e7e3aa8ba980511ed0d38cc"
+          }
+        }
+      }
+    },
+    {
+      "id": "aksolotlova-zurka",
+      "name": "Aksolotlova žurka",
+      "category": "birthday",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 14.5,
+          "x": 50,
+          "y": 7,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0.8
+        },
+        {
+          "field": "names",
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "sizeAt500": 100,
+          "x": 50,
+          "y": 17,
+          "width": 84,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "age",
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "sizeAt500": 79,
+          "x": 26.048268127441407,
+          "y": 27.5,
+          "width": 30,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "occasion",
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "sizeAt500": 32,
+          "x": 56.59069976806641,
+          "y": 27.5,
+          "width": 46,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "note",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 19,
+          "x": 50,
+          "y": 35,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+          "sizeAt500": 23.5,
+          "x": 31,
+          "y": 42,
+          "width": 52,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 21,
+          "x": 78,
+          "y": 42,
+          "width": 30,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "location",
+          "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+          "sizeAt500": 17,
+          "x": 50,
+          "y": 47.5,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "aksolotlova-zurka",
+        "category": "birthday",
+        "name": "Aksolotlova žurka",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 108,
+              "right": 392,
+              "top": 43,
+              "bottom": 52,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.62,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 162,
+              "right": 337,
+              "top": 81,
+              "bottom": 148,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.55,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 150,
+              "right": 201,
+              "top": 159,
+              "bottom": 216,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.53,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 214,
+              "right": 351,
+              "top": 179,
+              "bottom": 201,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 127,
+              "right": 372,
+              "top": 233,
+              "bottom": 254,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 95,
+              "right": 214,
+              "top": 284,
+              "bottom": 305,
+              "minimumContrast": 6.39,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 365,
+              "right": 414,
+              "top": 286,
+              "bottom": 299,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 144,
+              "right": 355,
+              "top": 325,
+              "bottom": 339,
+              "minimumContrast": 6.39,
+              "p05Contrast": 6.39,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 108,
+              "right": 392,
+              "top": 43,
+              "bottom": 52,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.62,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 54,
+              "right": 445,
+              "top": 102,
+              "bottom": 132,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.55,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "age",
+              "left": 113,
+              "right": 201,
+              "top": 164,
+              "bottom": 216,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 214,
+              "right": 351,
+              "top": 179,
+              "bottom": 201,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 127,
+              "right": 372,
+              "top": 233,
+              "bottom": 254,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 95,
+              "right": 214,
+              "top": 284,
+              "bottom": 305,
+              "minimumContrast": 6.39,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 365,
+              "right": 414,
+              "top": 286,
+              "bottom": 299,
+              "minimumContrast": 6.47,
+              "p05Contrast": 6.47,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 155,
+              "right": 344,
+              "top": 316,
+              "bottom": 349,
+              "minimumContrast": 6.39,
+              "p05Contrast": 6.39,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-78318d71-3fe0-59fe-ad64-34d96886fdc6",
+            "loaded": true
+          },
+          {
+            "family": "custom-224da539-6db6-5093-a1fe-fa1e77deec5e",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "4c34323cf72dd8824ebb69148ee6998865d9ae4a03e2f446ef2014caf290a399",
+        "sourceBytes": 1344613,
+        "files": {
+          "backgrounds/aksolotlova-zurka.webp": {
+            "bytes": 96242,
+            "sha256": "374c5105850f0117aa7ec4b5fecc47f7bd49df35a8060ad67a12c5d282dfe994"
+          },
+          "backgrounds/aksolotlova-zurka.png": {
+            "bytes": 2256286,
+            "sha256": "651f361433f9ca7e068767e3269fe8ffd1b3e6b2c9259cd668a167c9d9e23371"
+          },
+          "previews/aksolotlova-zurka.webp": {
+            "bytes": 33878,
+            "sha256": "922f95aa86f03a5d3d83667ab4864fe9f1156210a8114cab767e08cdd3a1578d"
+          },
+          "examples/aksolotlova-zurka.png": {
+            "bytes": 1021227,
+            "sha256": "c4f3486e16814046fcbf9137064ccfda9ad62bf0a26516b073d290b5608f963d"
+          },
+          "examples/aksolotlova-zurka-long-text.png": {
+            "bytes": 1048814,
+            "sha256": "f119d9b436877ac685195e36f923d4b7f57101d0ca1510f53bb4706e284f6633"
+          },
+          "examples/aksolotlova-zurka.pdf": {
+            "bytes": 295059,
+            "sha256": "2b2b14e9b0982c586b3836422e95274c242a9b6037a2ae7672245aea3978a47f"
+          }
+        }
+      }
+    },
+    {
+      "id": "jasminov-zavet",
+      "name": "Jasminov zavet",
+      "category": "wedding",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 71.5,
+          "y": 9.5,
+          "width": 49,
+          "fitToWidth": false,
+          "letterSpacing": 1.5
+        },
+        {
+          "field": "bride",
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "sizeAt500": 76,
+          "x": 71.5,
+          "y": 22,
+          "width": 49,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "join",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 28,
+          "x": 71.5,
+          "y": 30,
+          "width": 20,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "groom",
+          "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+          "sizeAt500": 76,
+          "x": 71.5,
+          "y": 39,
+          "width": 49,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "note",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 23,
+          "x": 50,
+          "y": 50,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 31,
+          "x": 50,
+          "y": 60,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "ceremony_time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 19,
+          "x": 27,
+          "y": 68,
+          "width": 44,
+          "fitToWidth": false,
+          "letterSpacing": 0.6
+        },
+        {
+          "field": "ceremony_location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 21,
+          "x": 27,
+          "y": 76,
+          "width": 44,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 19,
+          "x": 73,
+          "y": 68,
+          "width": 44,
+          "fitToWidth": false,
+          "letterSpacing": 0.6
+        },
+        {
+          "field": "location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 21,
+          "x": 73,
+          "y": 76,
+          "width": 44,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "rsvp",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 50,
+          "y": 92,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "jasminov-zavet",
+        "category": "wedding",
+        "name": "Jasminov zavet",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 286,
+              "right": 431,
+              "top": 49,
+              "bottom": 86,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "bride",
+              "left": 253,
+              "right": 468,
+              "top": 112,
+              "bottom": 174,
+              "minimumContrast": 11.87,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "join",
+              "left": 349,
+              "right": 366,
+              "top": 199,
+              "bottom": 216,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "groom",
+              "left": 243,
+              "right": 476,
+              "top": 232,
+              "bottom": 288,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 155,
+              "right": 344,
+              "top": 326,
+              "bottom": 374,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 180,
+              "right": 319,
+              "top": 410,
+              "bottom": 436,
+              "minimumContrast": 11.85,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_time",
+              "left": 59,
+              "right": 210,
+              "top": 465,
+              "bottom": 485,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_location",
+              "left": 62,
+              "right": 208,
+              "top": 512,
+              "bottom": 555,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 290,
+              "right": 443,
+              "top": 468,
+              "bottom": 485,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 299,
+              "right": 430,
+              "top": 512,
+              "bottom": 555,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "rsvp",
+              "left": 149,
+              "right": 351,
+              "top": 636,
+              "bottom": 653,
+              "minimumContrast": 11.72,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 286,
+              "right": 431,
+              "top": 49,
+              "bottom": 86,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "bride",
+              "left": 243,
+              "right": 474,
+              "top": 131,
+              "bottom": 172,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "join",
+              "left": 349,
+              "right": 366,
+              "top": 199,
+              "bottom": 216,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "groom",
+              "left": 243,
+              "right": 474,
+              "top": 252,
+              "bottom": 283,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 155,
+              "right": 344,
+              "top": 326,
+              "bottom": 374,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 180,
+              "right": 319,
+              "top": 410,
+              "bottom": 436,
+              "minimumContrast": 11.85,
+              "p05Contrast": 11.89,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_time",
+              "left": 59,
+              "right": 210,
+              "top": 465,
+              "bottom": 485,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_location",
+              "left": 42,
+              "right": 228,
+              "top": 510,
+              "bottom": 555,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 290,
+              "right": 443,
+              "top": 468,
+              "bottom": 485,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 263,
+              "right": 466,
+              "top": 510,
+              "bottom": 555,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "rsvp",
+              "left": 178,
+              "right": 321,
+              "top": 625,
+              "bottom": 663,
+              "minimumContrast": 11.89,
+              "p05Contrast": 11.89,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "loaded": true
+          },
+          {
+            "family": "custom-a8a45639-0d15-4793-a5ea-9c806c035b17",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "d55ccc4896dec3a8344087387c6bd8894ac3c14233abc83ea0cb20536488e220",
+        "sourceBytes": 1244869,
+        "files": {
+          "backgrounds/jasminov-zavet.webp": {
+            "bytes": 60612,
+            "sha256": "c795576af4c46c710fe3d3666bb112ee09f6f25861486d5543b45d7f79934af7"
+          },
+          "backgrounds/jasminov-zavet.png": {
+            "bytes": 1906429,
+            "sha256": "0cb989d22e668975594ac1e39d6f6acc59f206ad301c48affec9c282f3f8ad33"
+          },
+          "previews/jasminov-zavet.webp": {
+            "bytes": 31650,
+            "sha256": "916093908a570b38cd2429ef17374c56e3eed7ff4974633cd2c8f908bd249dd2"
+          },
+          "examples/jasminov-zavet.png": {
+            "bytes": 811160,
+            "sha256": "81acf978e67132b327fb5d4f376169d99ee20faabdde0208a0b5f0bf9807aa7c"
+          },
+          "examples/jasminov-zavet-long-text.png": {
+            "bytes": 836856,
+            "sha256": "95e92164714012345467cbd276405b3371a241a64a09d9fec9138b6e4a9dd590"
+          },
+          "examples/jasminov-zavet.pdf": {
+            "bytes": 324947,
+            "sha256": "981bbfeb1ad5abdda85d63c05c9b6943d229667460472edb2f426c107a1dab32"
+          }
+        }
+      }
+    },
+    {
+      "id": "biser-krstenja",
+      "name": "Biser krštenja",
+      "category": "baptism",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 50,
+          "y": 8,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 1.5
+        },
+        {
+          "field": "names",
+          "family": "Libre Caslon Display",
+          "sizeAt500": 88,
+          "x": 50,
+          "y": 20,
+          "width": 84,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "occasion",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 34,
+          "x": 50,
+          "y": 31,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 4
+        },
+        {
+          "field": "note",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 23,
+          "x": 50,
+          "y": 38.5,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 30,
+          "x": 50,
+          "y": 45.5,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "ceremony_time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 25,
+          "y": 52,
+          "width": 42,
+          "fitToWidth": false,
+          "letterSpacing": 0.6
+        },
+        {
+          "field": "ceremony_location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 20,
+          "x": 25,
+          "y": 59,
+          "width": 42,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 18,
+          "x": 75,
+          "y": 52,
+          "width": 42,
+          "fitToWidth": false,
+          "letterSpacing": 0.6
+        },
+        {
+          "field": "location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 20,
+          "x": 75,
+          "y": 59,
+          "width": 42,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "biser-krstenja",
+        "category": "baptism",
+        "name": "Biser krštenja",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 109,
+              "right": 395,
+              "top": 50,
+              "bottom": 65,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 165,
+              "right": 335,
+              "top": 104,
+              "bottom": 165,
+              "minimumContrast": 7.76,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 159,
+              "right": 340,
+              "top": 197,
+              "bottom": 234,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 119,
+              "right": 379,
+              "top": 245,
+              "bottom": 294,
+              "minimumContrast": 7.76,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 182,
+              "right": 317,
+              "top": 308,
+              "bottom": 334,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_time",
+              "left": 70,
+              "right": 179,
+              "top": 358,
+              "bottom": 368,
+              "minimumContrast": 7.83,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_location",
+              "left": 46,
+              "right": 204,
+              "top": 392,
+              "bottom": 435,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 304,
+              "right": 449,
+              "top": 358,
+              "bottom": 371,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 319,
+              "right": 431,
+              "top": 394,
+              "bottom": 435,
+              "minimumContrast": 7.83,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 109,
+              "right": 395,
+              "top": 50,
+              "bottom": 65,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 55,
+              "right": 446,
+              "top": 116,
+              "bottom": 155,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 159,
+              "right": 340,
+              "top": 197,
+              "bottom": 234,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 119,
+              "right": 379,
+              "top": 245,
+              "bottom": 294,
+              "minimumContrast": 7.76,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 182,
+              "right": 317,
+              "top": 308,
+              "bottom": 334,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_time",
+              "left": 70,
+              "right": 179,
+              "top": 358,
+              "bottom": 368,
+              "minimumContrast": 7.83,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "ceremony_location",
+              "left": 36,
+              "right": 214,
+              "top": 392,
+              "bottom": 435,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 304,
+              "right": 449,
+              "top": 358,
+              "bottom": 371,
+              "minimumContrast": 7.77,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 278,
+              "right": 472,
+              "top": 392,
+              "bottom": 435,
+              "minimumContrast": 7.81,
+              "p05Contrast": 7.83,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "70f2a1d8e2fd44e0a6045d785e8a60799fbc7bf2e8723aae1fa439bc135c211c",
+        "sourceBytes": 1125668,
+        "files": {
+          "backgrounds/biser-krstenja.webp": {
+            "bytes": 45296,
+            "sha256": "ba7d07b3f1ec476ee44ac1127b4b6a711442a459f3ebe827607f9e3648bf6f7a"
+          },
+          "backgrounds/biser-krstenja.png": {
+            "bytes": 1829334,
+            "sha256": "69686e3b5b1d17820870b7066c68148e01127e2e87f1dd92a559f83cd2f18d16"
+          },
+          "previews/biser-krstenja.webp": {
+            "bytes": 21308,
+            "sha256": "30301ffec7b79e666863fb196310868f2b697f9743ece04a6c3dbcc96ca45ce2"
+          },
+          "examples/biser-krstenja.png": {
+            "bytes": 667704,
+            "sha256": "e490974c84f41767a091aefa844b1e48186ef749db29658adbc89cd25af4583f"
+          },
+          "examples/biser-krstenja-long-text.png": {
+            "bytes": 700456,
+            "sha256": "ebfc1c156a0623e8242a357a68dac78f8b637338641344c286cd43b7af1bd50b"
+          },
+          "examples/biser-krstenja.pdf": {
+            "bytes": 266588,
+            "sha256": "60d9caf12f80b636d25159d11a490fa18c66dfd9c4bb1cbe11e803f0a149da6a"
+          }
+        }
+      }
+    },
+    {
+      "id": "zvecka-nove-radosti",
+      "name": "Zvečka nove radosti",
+      "category": "baby",
+      "checks": [
+        {
+          "id": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json: six unique required categories, one each."
+        },
+        {
+          "id": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": "plan.json: female in five categories, couple wedding; planned from retained deployments, confirmed counters unchanged."
+        },
+        {
+          "id": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": "plan.json / browser-checks.json: birthday default5, editable10 tested, children3–10; separate audience planning preserved."
+        },
+        {
+          "id": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": "metadata.json / designs.json / browser-validation.log: invitation to birth celebration, no forbidden wording in new public content."
+        },
+        {
+          "id": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": "image-sources.json / report.json / png-print-checks.json: all6 sources1060x1484, all final1500x2100, exact5:7, upscaled without crop;300dpi PNG and127x177.8mm PDF."
+        },
+        {
+          "id": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": "Actual6 retained ChatGPT sources reviewed individually: one flat full-bleed background, no generated text/age/logos/watermarks/collage/mockup."
+        },
+        {
+          "id": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": "Actual retained source objects visually well inside required60px target inset; report.json default/long text masks all meet inset; initial6 unsafe sources rejected entirely."
+        },
+        {
+          "id": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: actual6 defaults,6 expanded390px editors and6 actual personalized PDF rasters inspected; malformed/clipped/awkward sources discarded."
+        },
+        {
+          "id": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": "similarity-checks.json:81 historic backgrounds, min history12/63 bits, min new-pair18; closest rattle/bird image manually compared, clearly different subjects; motifs and rejected history checked."
+        },
+        {
+          "id": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json: apricot/turquoise/berry cupcake, ruby/violet/gold, vivid cobalt/pink axolotl, forest/ivory jasmine, porcelain pink/gold shell, ivory/coral/honey rattle; all6 compared together."
+        },
+        {
+          "id": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": "report.json / actual previews: large balanced editable names, optically reviewed axes, close age/event groups, no default/long overlaps, sufficient source illustration clearance."
+        },
+        {
+          "id": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": "browser-checks.json / worker-checks.json:6 actual mobile editors and APIs; names,date,time,locations,age and ceremony/reception fields editable, fitToWidth names preserved."
+        },
+        {
+          "id": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": "font-checks.json / report.json and opened PDFs:6 licensed custom faces support ČĆŠŽĐčćšžđ, builtin Libre Caslon with latin-ext; long names/places tested."
+        },
+        {
+          "id": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": "font-browser-checks.json / previews/*-mobile-expanded.png:6 real390x844 editors and loaded intended fonts; production regression includes320–1440px."
+        },
+        {
+          "id": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": "png-print-checks.json / pdf-open-checks.json / browser-checks.json:18PNGs opened1500x2100 with300dpi;12PDFs opened/rasterized360x504pt (127x177.8mm);6 real mobile downloads each format."
+        },
+        {
+          "id": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": "public-files.json:6 WebP backgrounds45–121KB and500x700 WebP previews; existing licensed fonts reused lazily; production-validation.log initialJS7132gzip bytes under10KB."
+        },
+        {
+          "id": "page_seo",
+          "status": "PROŠLO",
+          "evidence": "titles-validation.log:91 distinct descriptive titles/H1/social/canonical/schema; category-checks.json all6 category entries; worker-checks.json pages/API/sitemap. Initial missing motif registry entries corrected and rerun passed."
+        },
+        {
+          "id": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": "adsense-validation.log:107 local public pages with single placement, mocked SDK once, settings inherited; no real Google requests/fill claimed, no ads in exports."
+        },
+        {
+          "id": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": "visual-review.json / font-browser-checks.json: refined occasion-specific pairs, formal Great Vibes/Cormorant and Libre Caslon/Cormorant; storybook and soft serifs for children; sizes/spacing/alignment reviewed. User aesthetic approval not inferred."
+        }
+      ],
+      "typography": [
+        {
+          "field": "title",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 19,
+          "x": 26,
+          "y": 23,
+          "width": 42,
+          "fitToWidth": false,
+          "letterSpacing": 1.2
+        },
+        {
+          "field": "names",
+          "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+          "sizeAt500": 86,
+          "x": 50,
+          "y": 57,
+          "width": 84,
+          "fitToWidth": true,
+          "letterSpacing": 0
+        },
+        {
+          "field": "occasion",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 26,
+          "x": 50,
+          "y": 66,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 1.3
+        },
+        {
+          "field": "note",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 23,
+          "x": 50,
+          "y": 73,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "date",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 29,
+          "x": 50,
+          "y": 81,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "time",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 25,
+          "x": 50,
+          "y": 88,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        },
+        {
+          "field": "location",
+          "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+          "sizeAt500": 19,
+          "x": 50,
+          "y": 94,
+          "width": 84,
+          "fitToWidth": false,
+          "letterSpacing": 0
+        }
+      ],
+      "renderedBounds": {
+        "id": "zvecka-nove-radosti",
+        "category": "baby",
+        "name": "Zvečka nove radosti",
+        "sourceWidth": 1060,
+        "sourceHeight": 1484,
+        "backgroundWidth": 1500,
+        "backgroundHeight": 2100,
+        "exportWidth": 1500,
+        "exportHeight": 2100,
+        "cropped": false,
+        "cropRect": null,
+        "upscaled": true,
+        "defaultCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 54,
+              "right": 204,
+              "top": 137,
+              "bottom": 178,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 111,
+              "right": 391,
+              "top": 361,
+              "bottom": 424,
+              "minimumContrast": 8.73,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 118,
+              "right": 389,
+              "top": 452,
+              "bottom": 474,
+              "minimumContrast": 8.75,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 109,
+              "right": 390,
+              "top": 487,
+              "bottom": 535,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 185,
+              "right": 315,
+              "top": 557,
+              "bottom": 583,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 227,
+              "right": 272,
+              "top": 612,
+              "bottom": 629,
+              "minimumContrast": 8.75,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 155,
+              "right": 344,
+              "top": 637,
+              "bottom": 679,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "longTextCheck": {
+          "boxes": [
+            {
+              "field": "title",
+              "left": 54,
+              "right": 204,
+              "top": 137,
+              "bottom": 178,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "names",
+              "left": 54,
+              "right": 446,
+              "top": 380,
+              "bottom": 410,
+              "minimumContrast": 8.73,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "occasion",
+              "left": 118,
+              "right": 389,
+              "top": 452,
+              "bottom": 474,
+              "minimumContrast": 8.75,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "note",
+              "left": 109,
+              "right": 390,
+              "top": 487,
+              "bottom": 535,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "date",
+              "left": 185,
+              "right": 315,
+              "top": 557,
+              "bottom": 583,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "time",
+              "left": 227,
+              "right": 272,
+              "top": 612,
+              "bottom": 629,
+              "minimumContrast": 8.75,
+              "p05Contrast": 8.75,
+              "threshold": 3,
+              "marginPass": true,
+              "contrastPass": true
+            },
+            {
+              "field": "location",
+              "left": 157,
+              "right": 342,
+              "top": 637,
+              "bottom": 679,
+              "minimumContrast": 8.74,
+              "p05Contrast": 8.75,
+              "threshold": 4.5,
+              "marginPass": true,
+              "contrastPass": true
+            }
+          ],
+          "overlaps": [],
+          "passed": true
+        },
+        "fontsLoaded": [
+          {
+            "family": "custom-36abdc26-d404-4d00-b4c0-e402b72a8de0",
+            "loaded": true
+          },
+          {
+            "family": "custom-d3c5f5bf-b8e7-538f-9443-8b04af776c20",
+            "loaded": true
+          }
+        ],
+        "sourceSha256": "3c202d9f1e4830fbf9a7b5f7371539029708b3d4ece04b001e37bc7321f70f76",
+        "sourceBytes": 1165270,
+        "files": {
+          "backgrounds/zvecka-nove-radosti.webp": {
+            "bytes": 60442,
+            "sha256": "f712ba024ca78f03b23a6e5e0dc81be6dd8b96ce178cfa41e1c52ce3d56e88de"
+          },
+          "backgrounds/zvecka-nove-radosti.png": {
+            "bytes": 1908325,
+            "sha256": "3f848e8347f9db978e9461c17c074fb35b307cc5b0848f7d8f4a376549fcd1ab"
+          },
+          "previews/zvecka-nove-radosti.webp": {
+            "bytes": 22192,
+            "sha256": "ad19f04a417930f5de7fea4530b44b0994633cd949ba8e31d68a8682c8871aab"
+          },
+          "examples/zvecka-nove-radosti.png": {
+            "bytes": 814554,
+            "sha256": "d1bacb115ac37465609d415a4b6e6e0fb73e603e5ec45b9b4779c1146dfa7d7c"
+          },
+          "examples/zvecka-nove-radosti-long-text.png": {
+            "bytes": 829409,
+            "sha256": "fdb09e8453aff20be79d17873414e1f86f3958b0b124d2a667428421ed8e38e4"
+          },
+          "examples/zvecka-nove-radosti.pdf": {
+            "bytes": 259365,
+            "sha256": "67a1c09db207168458b740798643602e183bfc41efae867048f02db71e41d6c6"
+          }
+        }
+      }
+    }
+  ],
+  "publication": {
+    "status": "NEPROVERENO",
+    "reason": "No production commit/ref update or Cloudflare deployment exists for today's six; current main still2bedc5d33cc4d08797863f3629bd7c480b236157."
+  },
+  "publicVerification": {
+    "status": "NEPROVERENO",
+    "reason": "Today's six are not deployed; no valid post-deployment public test can be claimed."
+  },
+  "deadline": {
+    "deadlineAt": "2026-10-26T10:00:00+09:00",
+    "status": "PALO",
+    "deliveryByDeadline": false,
+    "notificationByDeadlineNotEstablished": true,
+    "auditObservedAt": "2026-10-26T06:14:07Z"
+  },
+  "userReview": {
+    "status": "not_given",
+    "aestheticApprovalAssumed": false
+  },
+  "pointsAwarded": 0,
+  "finalStatus": "NEZAVRŠENO — PREPARED_BUT_NOT_PUBLISHED"
+}
