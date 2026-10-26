@@ -259,5 +259,53 @@ export const robiAssets = new Map([
   [
     "224da539-6db6-5093-a1fe-fa1e77deec5e",
     "/assets/pozivnice/fonts/typography-20261025/bajka-sr-ef5ff1d47771.woff2"
+  ],
+  [
+    "1726cada-8f45-5518-a05f-28ce6c0d9740",
+    "/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-background-a3a1c7acb353.webp"
+  ],
+  [
+    "ab0ea43f-a302-50fa-aa02-6a490508b3cb",
+    "/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-thumbnail-d953f6bb7c04.webp"
+  ],
+  [
+    "8d3a15a2-6f4c-5e0b-9eec-21f24712c9dd",
+    "/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-background-b01f527a57e5.webp"
+  ],
+  [
+    "8d87f6c4-472b-5ff7-9a74-eea4a66e2684",
+    "/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-thumbnail-94ed8981e3ba.webp"
+  ],
+  [
+    "72a93cec-c632-59ff-af75-0f4278e403f9",
+    "/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-background-374c5105850f.webp"
+  ],
+  [
+    "9515dacd-669c-583e-a800-d47b6ff11fbc",
+    "/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-thumbnail-922f95aa86f0.webp"
+  ],
+  [
+    "cc77caf0-0e3d-5f74-ac60-861b18858984",
+    "/assets/pozivnice/robi/2026-10-26/jasminov-zavet-background-c795576af4c4.webp"
+  ],
+  [
+    "0b5058a2-393f-5b84-bb60-ccb92c22edb5",
+    "/assets/pozivnice/robi/2026-10-26/jasminov-zavet-thumbnail-916093908a57.webp"
+  ],
+  [
+    "1ece25bb-bbb9-5a19-b786-3f09c9629ab0",
+    "/assets/pozivnice/robi/2026-10-26/biser-krstenja-background-ba7d07b3f1ec.webp"
+  ],
+  [
+    "70a98880-6611-538d-9aec-bef0f08ab01c",
+    "/assets/pozivnice/robi/2026-10-26/biser-krstenja-thumbnail-30301ffec7b7.webp"
+  ],
+  [
+    "b26c9ad5-d45b-5819-8d6d-a8fc90695839",
+    "/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-background-f712ba024ca7.webp"
+  ],
+  [
+    "872bc062-e005-5173-9852-927c7d888036",
+    "/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-thumbnail-ad19f04a4179.webp"
   ]
 ]);
