@@ -158,3 +158,12 @@ Test `tests/category-landings.mjs` koristi kompajlirani Worker i proverava šest
 - **Admin → Statistika** (`/admin/sabloni/#statistika`) prikazuje poslednjih 7/30/90 dana, ukupno i po šablonu. Zaštićen je postojećim Cloudflare Access pristupom. D1 tabela `usage_daily` sadrži samo dan UTC, ID javnog šablona, vrstu radnje i zbir. Kreira se automatski pri prvom zahtevu; `migrations/0002_usage.sql` je ista šema za ručnu instalaciju. Čisti podatke starije od poslednjih 90 kalendarskih dana pri prvom zahtevu tog dana. Nema istorijskih podataka pre ovog izdanja. Potrebna je postojeća D1 veza `DB`; na probnim domenima se ništa ne šalje. Svaka prihvaćena radnja troši jedan D1 upis i Worker zahtev.
 
 Provera ovog paketa: `npm run test:first-package`. Koristi kompajlirani Worker, privremenu D1/R2 bazu, Chromium i lokalno presretanje produkcionog domena; ne šalje test događaje na javni sajt. Pokriva i kvar skladišta/izvoza/mreže, privatnost zahteva i zaštićenu statistiku.
+
+
+## Glavne adrese javnih stranica
+
+Kanonski domen je `https://napravipozivnicu.com`. Javni HTML URL-ovi na `www.napravipozivnicu.com` vraćaju trajno 301 preusmeravanje na istu stranicu bez `www`, uz očuvane query parametre. Nedostajuća završna kosa crta i `index.html` normalizuju se u istom koraku, kako se ne bi pravili lanci preusmeravanja. Lokalni i `pages.dev` pregledi ostaju na svom domenu. Search Console HTML verifikacija, statičke datoteke, API i zaštićeni admin obrađuju se zasebno.
+
+Search Console status „Alternate page with proper canonical tag“ za `www` URL označava alternativnu verziju sadržaja. Posle ponovnog obilaska takve adrese mogu preći u „Page with redirect“; cilj je indeksiranje glavnih URL-ova iz sitemap-a, a ne indeksiranje svake varijante ili nula izostavljenih URL-ova. Ne uklanjati te adrese kroz Removals i ne blokirati `www` u robots pravilima, jer Google treba da vidi preusmeravanje.
+
+Ako Search Console prikazuje samo URL-prefix property `https://www.napravipozivnicu.com/`, glavne adrese treba pratiti kroz property `https://napravipozivnicu.com/` ili Domain property `napravipozivnicu.com`, koji obuhvata obe verzije.

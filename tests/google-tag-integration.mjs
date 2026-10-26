@@ -29,6 +29,10 @@ try{
   const htmlPages=new Map(),links=new Set(),images=new Set();
   for(const path of paths){
     const alias=await worker(`${path}index.html?izvor=provera`,{redirect:'manual'});assert.equal(alias.status,301);assert.equal(alias.headers.get('Location'),`${origin}${path}?izvor=provera`);await alias.arrayBuffer();
+    for(const variant of [path,`${path}index.html`,...(path==='/'?[]:[path.slice(0,-1)])]){
+      const redirect=await local.runtime.dispatchFetch(`https://www.napravipozivnicu.com${variant}?utm_source=provera&a=1%2F2`,{redirect:'manual'});
+      assert.equal(redirect.status,301,variant);assert.equal(redirect.headers.get('Location'),`${origin}${path}?utm_source=provera&a=1%2F2`);await redirect.arrayBuffer();
+    }
     const response=await worker(path);assert.equal(response.status,200,path);assert.match(response.headers.get('Content-Type'),/text\/html/);assert.equal(response.headers.get('X-Robots-Tag'),null);
     const html=await response.text();htmlPages.set(path,html);checkTags(html,path);
     assert.equal((html.match(/<h1\b/g)||[]).length,1,path);assert.equal(count(html,'rel="canonical"'),1,path);
@@ -53,26 +57,34 @@ try{
   await local.db.prepare('INSERT INTO templates (id,slug,name,category,draft_json,published_json,created_at,updated_at,published_at) VALUES (?,?,?,?,?,?,?,?,?)').bind(id,slug,design.name,design.category,JSON.stringify(design),JSON.stringify(design),now,now,now).run();
   checkTags(await (await worker(`/pozivnice/${slug}/`)).text(),'new admin publication');
   await local.db.prepare('DELETE FROM templates WHERE id=?').bind(id).run();
-  const www=await local.runtime.dispatchFetch('https://www.napravipozivnicu.com/');checkTags(await www.text(),'www');
+  for(const method of ['GET','HEAD']){
+    const www=await local.runtime.dispatchFetch('http://www.napravipozivnicu.com/pozivnice?izvor=provera',{method,redirect:'manual'});assert.equal(www.status,301);assert.equal(www.headers.get('Location'),`${origin}/pozivnice/?izvor=provera`);if(method==='HEAD')assert.equal(await www.text(),'');else await www.arrayBuffer();
+  }
+  const verification='googlec0ed609b94cd4896.html';
+  for(const host of ['napravipozivnicu.com','www.napravipozivnicu.com']){
+    const response=await local.runtime.dispatchFetch(`https://${host}/${verification}`,{redirect:'manual'});assert.equal(response.status,200);assert.equal(response.headers.get('Location'),null);assert.equal(await response.text(),`google-site-verification: ${verification}`);
+  }
   for(const host of ['preview.pages.dev','localhost','unrelated.invalid']){const r=await local.runtime.dispatchFetch(`https://${host}/`);const html=await r.text();assert.equal(html.includes(GOOGLE_TAG_URL),false);assert.equal(html.includes('pagead2.googlesyndication.com'),false);}
   const auth={'Cf-Access-Jwt-Assertion':await local.token()};
   for(const path of ['/admin/sabloni/','/api/catalog','/pozivnice/nema-ove-pozivnice/']){const r=await worker(path,{headers:auth});if(path.includes('nema-'))assert.equal(r.status,404);const body=await r.text();assert.equal(body.includes(GOOGLE_TAG_URL),false);assert.equal(body.includes('pagead2.googlesyndication.com'),false);}
   assert.equal((await worker('/admin/sabloni/')).status,401);
   const head=await worker('/',{method:'HEAD'});assert.equal(head.status,200);assert.equal(await head.text(),'');
-  console.log('PASS routing: future admin publications and www receive both tags; admin/API/404 and preview hosts do not.');
+  console.log('PASS routing: all www page variants redirect in one hop to the same canonical page; path/query and HEAD are preserved, verification remains public, and future admin publications receive both tags.');
 
   browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
   const context=await browser.newContext({viewport:{width:390,height:844},acceptDownloads:true}),requests=[],errors=[];let blocked=false;
   await context.route('**/*',async route=>{
     const req=route.request(),url=new URL(req.url());
-    if(url.origin===origin){const r=await local.runtime.dispatchFetch(req.url(),{method:req.method(),headers:req.headers(),body:req.postDataBuffer()||undefined});await route.fulfill({status:r.status,headers:Object.fromEntries(r.headers),body:Buffer.from(await r.arrayBuffer())});}
+    if(url.origin===origin||url.origin==='https://www.napravipozivnicu.com'){const r=await local.runtime.dispatchFetch(req.url(),{method:req.method(),headers:req.headers(),body:req.postDataBuffer()||undefined,redirect:'manual'});await route.fulfill({status:r.status,headers:Object.fromEntries(r.headers),body:Buffer.from(await r.arrayBuffer())});}
     else if(url.href===GOOGLE_TAG_URL||url.hostname==='pagead2.googlesyndication.com'){
       requests.push(url.href);if(blocked)return route.abort('blockedbyclient');
       return route.fulfill({contentType:'text/javascript',body:url.href===GOOGLE_TAG_URL?'window.__gaLoads=(window.__gaLoads||0)+1;':'window.__adLoads=(window.__adLoads||0)+1;'});
     }else await route.abort();
   });
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(origin);assert.equal(await page.evaluate(()=>window.__gaLoads),1);assert.equal(await page.evaluate(()=>window.__adLoads),1);
+  // Redirect status and final destinations are covered above. Playwright routes
+  // only the first request of a redirect chain; enter the final origin locally.
+  await page.goto(origin);assert.equal(page.url(),`${origin}/`);assert.equal(await page.evaluate(()=>window.__gaLoads),1);assert.equal(await page.evaluate(()=>window.__adLoads),1);
   assert.equal(await page.evaluate(()=>document.head.firstElementChild.src),GOOGLE_TAG_URL);
   let commands=await page.evaluate(()=>window.dataLayer.map(item=>Array.from(item)));
   assert.equal(commands.length,2);assert.equal(commands[0][0],'js');assert.deepEqual(commands[1],['config',GOOGLE_TAG_ID]);

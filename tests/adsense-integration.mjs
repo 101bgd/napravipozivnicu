@@ -73,7 +73,9 @@ try {
     html = await (await local.runtime.dispatchFetch(`https://${host}/`)).text();
     assert.equal(html.includes('id="adsense-config"'), false); assert.equal(html.includes('google-adsense-account'), false);assert.equal(html.includes('pagead2.googlesyndication.com'),false);
   }
-  html = await (await local.runtime.dispatchFetch('https://www.napravipozivnicu.com/')).text(); assert.ok(html.includes('id="adsense-config"'));
+  const www = await local.runtime.dispatchFetch('https://www.napravipozivnicu.com/', { redirect: 'manual' });
+  assert.equal(www.status, 301); assert.equal(www.headers.get('Location'), `${origin}/`); await www.arrayBuffer();
+  html = await (await local.runtime.dispatchFetch(`${origin}/`)).text(); assert.ok(html.includes('id="adsense-config"'));
   html = await (await worker('/admin/sabloni/', { headers })).text(); assert.equal(html.includes('id="adsense-config"'), false);assert.equal(html.includes('pagead2.googlesyndication.com'),false);
   assert.equal((await worker('/api/catalog')).headers.get('Content-Type').includes('application/json'), true);
   console.log(`PASS: ${paths.length} public pages have one disabled/enabled placement; authenticated CSRF-protected settings reject invalid codes, discard arbitrary scripts, migrate legacy blank settings, serve the supplied script in head by default and generate ads.txt; admin/previews have no ads.`);

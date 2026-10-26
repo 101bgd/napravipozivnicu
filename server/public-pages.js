@@ -27,10 +27,11 @@ export async function publishedCatalog(env) {
 export async function handlePublic(request, env, staticFetch) {
   const url = new URL(request.url), path = url.pathname, siteUrl = new URL(env.SITE_URL || SITE_URL).origin;
   if (!['GET', 'HEAD'].includes(request.method)) throw new HttpError(405, 'Metoda nije podržana.');
+  const pageOrigin = url.hostname === `www.${new URL(siteUrl).hostname}` ? siteUrl : url.origin;
   // Static index aliases otherwise bypass page rendering and its shared tags.
   const indexPath = path.endsWith('/index.html') ? path.slice(0, -'index.html'.length) : null;
   if (indexPath && (indexPath === '/' || indexPath === '/pozivnice/' || infoPageFromPath(indexPath) || guidePageFromPath(indexPath) || categoryFromPath(indexPath) || /^\/pozivnice\/[a-z0-9-]+\/$/.test(indexPath))) {
-    return Response.redirect(`${url.origin}${indexPath}${url.search}`, 301);
+    return Response.redirect(`${pageOrigin}${indexPath}${url.search}`, 301);
   }
   if (path === '/ads.txt') {
     const adsense = await readAdSense(env);
@@ -58,7 +59,12 @@ export async function handlePublic(request, env, staticFetch) {
   }
   const infoPage = infoPageFromPath(path), guidePage = guidePageFromPath(path), category = categoryFromPath(path), detail = path.match(/^\/pozivnice\/([a-z0-9-]+)\/?$/), collection = /^\/pozivnice\/?$/.test(path);
   if (path !== '/' && !infoPage && !guidePage && !category && !detail && !collection && path !== '/sitemap.xml' && path !== '/api/catalog') return null;
-  if ((infoPage || guidePage || category || detail || collection) && !path.endsWith('/')) return Response.redirect(`${url.origin}${path}/${url.search}`, 301);
+  const htmlPage = path === '/' || infoPage || guidePage || category || detail || collection;
+  if (htmlPage && (pageOrigin !== url.origin || !path.endsWith('/'))) {
+    // Combine host and path normalization in one hop, keeping the exact page
+    // and query string. Assets, API, verification files and admin are separate.
+    return Response.redirect(`${pageOrigin}${path.endsWith('/') ? path : `${path}/`}${url.search}`, 301);
+  }
   const catalog = (infoPage || guidePage?.id === 'guides') ? [] : await publishedCatalog(env);
   if (path === '/api/catalog') return Response.json({ templates: catalog }, { headers: { 'Cache-Control': 'no-cache', 'X-Robots-Tag': 'noindex' } });
   if (path === '/sitemap.xml') return new Response(request.method === 'HEAD' ? null : sitemap(catalog, siteUrl), { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=60' } });
