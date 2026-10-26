@@ -1871,7 +1871,7 @@
       ],
       "report": "content/robi-batches/2026-10-26/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-26/quality-checklist.json",
-      "lastConfirmedStep": "All19 prerequisites per design and67 archive hashes verified against current GitHub; one20-file commit prepared, main ref update pending.",
+      "lastConfirmedStep": "One20-file all-six commit fast-forwarded to main;8texts/12assets read back matched;434parent files unchanged. Cloudflare confirmation/public checks pending.",
       "userAestheticApproval": false,
       "pointsAwarded": 0,
       "totalGenerationAttempts": 13,
@@ -1898,13 +1898,104 @@
         "archivedAt": "2026-10-26T06:19:18Z"
       },
       "publication": {
-        "status": "ready_to_update_main",
+        "status": "publishing",
         "candidateCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
         "expectedParent": "2bedc5d33cc4d08797863f3629bd7c480b236157",
         "allSix": true,
         "atomic": true,
         "productionFiles": 20,
-        "authorizedAt": "2026-10-26T06:42:40Z"
+        "authorizedAt": "2026-10-26T06:42:40Z",
+        "commit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+        "mainUpdatedAt": "2026-10-26T06:42:57Z",
+        "readback": {
+          "commit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+          "textFiles": 8,
+          "binaryAssets": 12,
+          "all20Matched": true,
+          "unchangedParentBlobs": 434,
+          "files": [
+            {
+              "path": "src/robi-assets.js",
+              "sha": "d5e4fffd4b494cbe76a6b9116af31b0ea944447c"
+            },
+            {
+              "path": "src/robi-catalog.js",
+              "sha": "d2fb14ee0888d5ae93b62f32ea620dad01a004d9"
+            },
+            {
+              "path": "src/robi-designs.js",
+              "sha": "d5e712ad5a11deccc45f69d98d16860c20274622"
+            },
+            {
+              "path": "content/title-seo/motifs.json",
+              "sha": "68ca53cdc716996fdaf4db21dc586cad618c5270"
+            },
+            {
+              "path": "content/robi-batches/2026-10-26/designs.mjs",
+              "sha": "06b2db330f463df22c8d00922bfa403e0322b8ce"
+            },
+            {
+              "path": "content/robi-batches/2026-10-26/metadata.json",
+              "sha": "58cf63613e9b85c189ba172868ac14623a6bdb2e"
+            },
+            {
+              "path": "content/robi-batches/2026-10-26/asset-ids.json",
+              "sha": "da6636ff0df9c1df4a26787297efa9f978a466f2"
+            },
+            {
+              "path": "content/robi-batches/2026-10-26/layout-tuning.json",
+              "sha": "2c2286a485e58c0aab4f80c240cc2ad28957aaf9"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-background-a3a1c7acb353.webp",
+              "sha": "bbee670c1d762d87622f25414424b5fe5bc8a1ad"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/kolacic-prve-radosti-thumbnail-d953f6bb7c04.webp",
+              "sha": "68b3492bbf588b6a943483a7128b5e219d57be9a"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-background-b01f527a57e5.webp",
+              "sha": "3988dd31a020bec7c737e57a6599f7aefa04275c"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/rubinski-sjaj-thumbnail-94ed8981e3ba.webp",
+              "sha": "6b73d94be624869a5975ad956010aa5238278682"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-background-374c5105850f.webp",
+              "sha": "ba2f61ab8d4d524378a48aca6660e15d4196d6b0"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/aksolotlova-zurka-thumbnail-922f95aa86f0.webp",
+              "sha": "416587b3401a1cd2167c8d71658960c983599a02"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/jasminov-zavet-background-c795576af4c4.webp",
+              "sha": "2b694fad95be150fad3edf9528d20cac23f8c625"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/jasminov-zavet-thumbnail-916093908a57.webp",
+              "sha": "f0986b7789a2383fd7e406d045e3ff43d37a4a6f"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/biser-krstenja-background-ba7d07b3f1ec.webp",
+              "sha": "7455a4937e5232e2824fd39266ebdec5509b46db"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/biser-krstenja-thumbnail-30301ffec7b7.webp",
+              "sha": "4bb16fb07afc1f9f6d5f7e95d758cd5e13de307f"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-background-f712ba024ca7.webp",
+              "sha": "033adfb55a33012f2d5d83214bae8586cb005c4a"
+            },
+            {
+              "path": "public/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-thumbnail-ad19f04a4179.webp",
+              "sha": "76def74d47f5a5fa60490c1c17f97ead244d7d2b"
+            }
+          ]
+        }
       },
       "audit": {
         "checkedAt": "2026-10-26T06:14:07Z",
@@ -1948,7 +2039,8 @@
         "channel": "ChatGPT",
         "recordedAt": "2026-10-26T06:42:40Z"
       },
-      "mainCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9"
+      "mainCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9",
+      "mainUpdatedAt": "2026-10-26T06:42:57Z"
     }
   ],
   "history": [
@@ -2216,7 +2308,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-26T06:42:40Z",
+  "updatedAt": "2026-10-26T06:44:42Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
