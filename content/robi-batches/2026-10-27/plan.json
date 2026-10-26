@@ -1,0 +1,109 @@
+{
+  "id": "2026-10-27",
+  "dateTokyo": "2026-10-27",
+  "audience": "male",
+  "birthdayAge": 6,
+  "startedAt": "2026-10-26T23:08:10Z",
+  "deadline": "2026-10-27T10:00:00+09:00",
+  "productionParent": "2584dfb5558dd909bb42b3288b772568225a4505",
+  "priorBatchPreserved": true,
+  "historyReviewed": true,
+  "feedbackSources": [
+    "agent/feedback/2026-10-25-premium-typography.json",
+    "agent/feedback/2026-10-24-extra-01.json",
+    "agent/feedback/2026-10-24-restart.json",
+    "agent/feedback/2026-10-23-user-rejection.json",
+    "content/robi-batches/2026-10-22/restart-01/user-review.json",
+    "content/robi-batches/2026-10-21/user-review.json"
+  ],
+  "designs": [
+    {
+      "id": "fokin-prvi-osmeh",
+      "name": "Fokin prvi osmeh",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "motif": "sa malom fokom i prugastom loptom",
+      "concept": "Small harbor seal with red/yellow beach ball bottom-left, vibrant turquoise ground. Large text upper region and lower-right.",
+      "palette": [
+        "turquoise",
+        "coral",
+        "sunshine yellow"
+      ],
+      "fontPair": "Fraunces SemiBold + Outfit"
+    },
+    {
+      "id": "zlatni-saksofon",
+      "name": "Zlatni saksofon",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "motif": "sa zlatnim saksofonom na tamnoj podlozi",
+      "concept": "Sculptural brass saxophone compact upper-left on deep plum; title/name on right, broad elegant event details below.",
+      "palette": [
+        "aubergine",
+        "warm gold",
+        "ivory"
+      ],
+      "fontPair": "Libre Caslon Display + Cormorant Garamond"
+    },
+    {
+      "id": "satorska-avantura",
+      "name": "Šatorska avantura",
+      "category": "birthday",
+      "audience": "male",
+      "age": 6,
+      "motif": "sa narandžastim šatorom i fenjerom",
+      "concept": "Saturated ultramarine evening, orange A-frame tent and yellow lantern bottom band. Big inviting type in upper two-thirds.",
+      "palette": [
+        "ultramarine",
+        "orange",
+        "yellow"
+      ],
+      "fontPair": "Napravi Bajka + Outfit"
+    },
+    {
+      "id": "magnolijin-zavet",
+      "name": "Magnolijin zavet",
+      "category": "wedding",
+      "audience": "couple",
+      "motif": "sa belom magnolijom i zelenim listovima",
+      "concept": "Porcelain white magnolia branch sweeping compact lower-left on deep oxblood. Broad names above, event columns around/right of flower.",
+      "palette": [
+        "oxblood",
+        "porcelain white",
+        "forest green"
+      ],
+      "fontPair": "Great Vibes + Cormorant Garamond"
+    },
+    {
+      "id": "nit-blagoslova",
+      "name": "Nit blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "motif": "sa krštenom košuljicom i zlatnim krstom",
+      "concept": "Small ivory christening gown with embroidered gold cross upper-right on matte blue; large formal names centered lower field, ceremony details.",
+      "palette": [
+        "cerulean",
+        "ivory",
+        "gold"
+      ],
+      "fontPair": "Cormorant Garamond + Libre Caslon Display"
+    },
+    {
+      "id": "plava-kapica-radosti",
+      "name": "Plava kapica radosti",
+      "category": "baby",
+      "audience": "male",
+      "motif": "sa pletenom plavom kapicom i mašnom",
+      "concept": "Soft blue newborn bonnet with warm ochre bow top-left on pale apricot; dark cocoa classic type in broad lower field.",
+      "palette": [
+        "apricot",
+        "denim blue",
+        "ochre",
+        "cocoa"
+      ],
+      "fontPair": "Fraunces + Cormorant Garamond"
+    }
+  ]
+}

@@ -2083,6 +2083,124 @@
         "aestheticApprovalAssumed": false,
         "pointsAwardedThisBatch": 0
       }
+    },
+    {
+      "id": "2026-10-27",
+      "date": "2026-10-27",
+      "timezone": "Asia/Tokyo",
+      "path": "content/robi-batches/2026-10-27",
+      "status": "generating",
+      "audience": "male",
+      "birthdayAge": 6,
+      "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
+      "startedAt": "2026-10-26T23:08:10Z",
+      "scheduledAt": "2026-10-27T08:00:00+09:00",
+      "deadlineAt": "2026-10-27T10:00:00+09:00",
+      "requiredCount": 6,
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "designs": [
+        {
+          "id": "fokin-prvi-osmeh",
+          "name": "Fokin prvi osmeh",
+          "category": "first",
+          "audience": "male",
+          "age": 1,
+          "motif": "sa malom fokom i prugastom loptom",
+          "concept": "Small harbor seal with red/yellow beach ball bottom-left, vibrant turquoise ground. Large text upper region and lower-right.",
+          "palette": [
+            "turquoise",
+            "coral",
+            "sunshine yellow"
+          ],
+          "fontPair": "Fraunces SemiBold + Outfit",
+          "status": "planned"
+        },
+        {
+          "id": "zlatni-saksofon",
+          "name": "Zlatni saksofon",
+          "category": "eighteen",
+          "audience": "male",
+          "age": 18,
+          "motif": "sa zlatnim saksofonom na tamnoj podlozi",
+          "concept": "Sculptural brass saxophone compact upper-left on deep plum; title/name on right, broad elegant event details below.",
+          "palette": [
+            "aubergine",
+            "warm gold",
+            "ivory"
+          ],
+          "fontPair": "Libre Caslon Display + Cormorant Garamond",
+          "status": "planned"
+        },
+        {
+          "id": "satorska-avantura",
+          "name": "Šatorska avantura",
+          "category": "birthday",
+          "audience": "male",
+          "age": 6,
+          "motif": "sa narandžastim šatorom i fenjerom",
+          "concept": "Saturated ultramarine evening, orange A-frame tent and yellow lantern bottom band. Big inviting type in upper two-thirds.",
+          "palette": [
+            "ultramarine",
+            "orange",
+            "yellow"
+          ],
+          "fontPair": "Napravi Bajka + Outfit",
+          "status": "planned"
+        },
+        {
+          "id": "magnolijin-zavet",
+          "name": "Magnolijin zavet",
+          "category": "wedding",
+          "audience": "couple",
+          "motif": "sa belom magnolijom i zelenim listovima",
+          "concept": "Porcelain white magnolia branch sweeping compact lower-left on deep oxblood. Broad names above, event columns around/right of flower.",
+          "palette": [
+            "oxblood",
+            "porcelain white",
+            "forest green"
+          ],
+          "fontPair": "Great Vibes + Cormorant Garamond",
+          "status": "planned"
+        },
+        {
+          "id": "nit-blagoslova",
+          "name": "Nit blagoslova",
+          "category": "baptism",
+          "audience": "male",
+          "motif": "sa krštenom košuljicom i zlatnim krstom",
+          "concept": "Small ivory christening gown with embroidered gold cross upper-right on matte blue; large formal names centered lower field, ceremony details.",
+          "palette": [
+            "cerulean",
+            "ivory",
+            "gold"
+          ],
+          "fontPair": "Cormorant Garamond + Libre Caslon Display",
+          "status": "planned"
+        },
+        {
+          "id": "plava-kapica-radosti",
+          "name": "Plava kapica radosti",
+          "category": "baby",
+          "audience": "male",
+          "motif": "sa pletenom plavom kapicom i mašnom",
+          "concept": "Soft blue newborn bonnet with warm ochre bow top-left on pale apricot; dark cocoa classic type in broad lower field.",
+          "palette": [
+            "apricot",
+            "denim blue",
+            "ochre",
+            "cocoa"
+          ],
+          "fontPair": "Fraunces + Cormorant Garamond",
+          "status": "planned"
+        }
+      ],
+      "report": "content/robi-batches/2026-10-27/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json"
     }
   ],
   "history": [
@@ -2360,8 +2478,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
-  "activeBatch": "2026-10-26",
+  "status": "generating",
+  "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -2382,7 +2500,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-26T06:48:15Z",
+  "updatedAt": "2026-10-26T23:08:10Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
