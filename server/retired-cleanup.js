@@ -3,7 +3,7 @@ import { isRetiredRecord } from '../src/retired-templates.js';
 // Run only through the authenticated, CSRF-checked admin POST. Public requests
 // hide retired records immediately without performing database mutations.
 export async function removeRetiredTemplates(db) {
-  const marker = 'retired-templates:2026-10-16';
+  const marker = 'retired-templates:2026-10-27';
   if (await db.prepare('SELECT value FROM settings WHERE key = ?').bind(marker).first()) return { removed: 0 };
   const { results } = await db.prepare('SELECT * FROM templates').all();
   const retired = results.filter(isRetiredRecord);

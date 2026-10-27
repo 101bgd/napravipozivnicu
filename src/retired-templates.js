@@ -1,7 +1,8 @@
-// Removal requested by the owner on 2026-10-16. Name matching applies only to
+// Owner-requested retirement: original examples on2026-10-16 and six Robi IDs on2026-10-27.
+// Exact ID/source matching also hides published admin copies. Name matching applies only to
 // records that already existed then; future drafts can reuse a generic name.
 export const retirementCutoff = '2026-10-16T02:20:38Z';
-const ids = new Set(['olive', 'vows', 'confetti', 'garden', 'little-sun', 'moon']);
+const ids = new Set(['olive', 'vows', 'confetti', 'garden', 'little-sun', 'moon', 'magnolijin-zavet', 'perunika-blagoslova', 'plava-kapica-radosti', 'prva-melodija', 'satorska-avantura', 'zlatni-saksofon']);
 const key = name => String(name || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('sr').replaceAll('đ', 'dj').trim();
 const names = new Set(['Nova pozivnica', 'Razlog za slavlje', 'U zelenom vrtu', 'Maslinova priča', 'Zauvek zajedno', 'Malo sunce', 'Pod malim zvezdama'].map(key));
 export function isRetiredTemplate(template) {
