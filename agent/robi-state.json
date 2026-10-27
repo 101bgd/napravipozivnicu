@@ -2623,7 +2623,7 @@
       "audience": "male",
       "birthdayAge": 6,
       "requiredCount": 6,
-      "generatedCount": 0,
+      "generatedCount": 6,
       "preparedCount": 0,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
@@ -2637,12 +2637,12 @@
       "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
       "designs": [
         {
-          "id": "krug-prvih-zelja",
-          "name": "Krug prvih želja",
+          "id": "misji-prvi-piknik",
+          "name": "Mišji prvi piknik",
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "planned"
+          "status": "generated"
         },
         {
           "id": "kobaltni-prelom",
@@ -2650,43 +2650,45 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "planned"
+          "status": "generated"
         },
         {
-          "id": "stadion-malih-sampiona",
-          "name": "Stadion malih šampiona",
+          "id": "lemurova-dzungla",
+          "name": "Lemurova džungla",
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "planned"
+          "status": "generated"
         },
         {
-          "id": "vrt-pod-cempresima",
-          "name": "Vrt pod čempresima",
+          "id": "anemonin-potpis",
+          "name": "Anemonin potpis",
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "planned"
+          "status": "generated"
         },
         {
-          "id": "mozaik-blagoslova",
-          "name": "Mozaik blagoslova",
+          "id": "plava-nit-blagoslova",
+          "name": "Plava nit blagoslova",
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "planned"
+          "status": "generated"
         },
         {
-          "id": "hortenzijina-radost",
-          "name": "Hortenzijina radost",
+          "id": "polarni-mali-zagrljaj",
+          "name": "Polarni mali zagrljaj",
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "planned"
+          "status": "generated"
         }
       ],
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
-      "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json"
+      "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
+      "rejectedCount": 6,
+      "lastConfirmedStep": "Six entirely new original1060x1484 backgrounds selected; six initial attempts rejected; two unsupported fonts rejected, Serbian-compatible replacement prepared."
     }
   ],
   "history": [
@@ -3026,7 +3028,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T07:52:49Z",
+  "updatedAt": "2026-10-27T08:05:18Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",

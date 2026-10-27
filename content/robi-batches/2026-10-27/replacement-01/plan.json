@@ -15,21 +15,22 @@
   "premiumQualityIsAVisualGoalNotUserApproval": true,
   "designs": [
     {
-      "id": "sumska-prva-bajka",
-      "name": "Šumska prva bajka",
+      "id": "misji-prvi-piknik",
+      "name": "Mišji prvi piknik",
       "category": "first",
       "audience": "male",
       "age": 1,
-      "motif": "sa vevericom i hrastovom grančicom",
+      "motif": "sa malim mišem i šumskim jagodama",
       "fontPair": "Napravi Studio + Napravi Knjiga",
       "palette": [
-        "warm ivory",
-        "pistachio",
-        "russet",
-        "ink navy"
+        "warm apricot",
+        "berry red",
+        "forest green",
+        "ink brown"
       ],
-      "direction": "Fine woodland book illustration lower-right and small interior oakdetail above-left, large softdisplay name upper-center; detailslower-left.",
-      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Baby boy's firstbirthday. Exquisite fine-art woodland children's-book illustration of a little natural red squirrel, carefully painted soft fur, bright curious eyes, holding an acorn beside a delicate oakbranch with two russet/pistachio leaves. This charming detailed scene occupies LOWER RIGHT x50–79%,y60–84%, completely inside safe area, no flowers or scenery reaching edges. One much smaller complementary oakleaf pair at x22–31%,y17–24%. Warm light ivory field with a delicate faint pistachio pinstripe texture throughout. Upper-center x32–80%,y15–53% and lower-left x18–46%,y58–86% stay clear for substantial deepnavy lettering later. Sophisticated joyful heirloom nursery stationery, rich natural russet/green accents and meticulous ink/watercolor detail, no costume, balloons or floating clipart."
+      "direction": "Detailed storybookmouse/berries scene upper-middle, generous structured large-name/age hierarchy below, fine warmdiamondweaveground.",
+      "prompt": "Create ONE original premium firstbirthday invitation background for a baby boy. Portrait exact5:7,1500x2100target. Full-bleed warm lightapricot ground with a very subtle tone-on-tone fine diamondweave printed texture; no paper/mockup/table/hands/perspective/external shadow. Absolutely NO text, letters, numbers, logo, watermark, border or collage. All recognizable objects occupy ONLY the CENTRAL UPPER rectangle x30–70%,y17–41%, with huge empty margin beyond that. A tiny charming natural fieldmouse with soft gray-brown fur and a neat inward-curled tail, sitting next to three bright red wildstrawberries and delicately detailed green strawberryleaves on a small mossground. Fine illustrated children's-book craftsmanship, precise softfur and seed details, gently curious face, whole mouse and entire tail fully contained in that central rectangle. Nothing grows toward corners. Entire lowerhalf x17–83%,y50–88%clear warmapricot for substantial darkbrown editable typography later. Intricate delightful nursery art, refined warm colors, no clothes, balloons or candles.",
+      "sourcePath": "/workspace/generated_images/exec-2b452d44-446b-4ea2-9408-3569a4ff14b9.png"
     },
     {
       "id": "kobaltni-prelom",
@@ -64,7 +65,8 @@
         "warm ivory"
       ],
       "direction": "Saturated emeraldillustratedjungle, lemurleft/central foliagebelow, cleanupperfield for bigplayfulname; dateandlocationrightofscene.",
-      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. A boy's sixthbirthday. A beautifully illustrated lively ring-tailed lemur perched on a graceful branch, its complete striped tail curling inward, framed by a few richly detailed lush tropical leaves and one tangerine passionflower. A sophisticated vivid children's-book jungle scene fully inside x20–79%,y57–84%; all tail/leaf tips safely contained and separated from edges. Deep saturated emerald-green ground with very subtle darker tonal organic texture throughout, no perimeter leaves. Entire upper48%is clear deep emerald for large ivory editable name and birthday group; a calm emerald pocket at x62–82%,y48–64%for small practical details. Expressive warm natural face, credible anatomy, precise fur and botanical details, jewel green/lime/tangerine palette, no clothes, no random confetti."
+      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. A boy's sixthbirthday. A beautifully illustrated lively ring-tailed lemur perched on a graceful branch, its complete striped tail curling inward, framed by a few richly detailed lush tropical leaves and one tangerine passionflower. A sophisticated vivid children's-book jungle scene fully inside x20–79%,y57–84%; all tail/leaf tips safely contained and separated from edges. Deep saturated emerald-green ground with very subtle darker tonal organic texture throughout, no perimeter leaves. Entire upper48%is clear deep emerald for large ivory editable name and birthday group; a calm emerald pocket at x62–82%,y48–64%for small practical details. Expressive warm natural face, credible anatomy, precise fur and botanical details, jewel green/lime/tangerine palette, no clothes, no random confetti.",
+      "sourcePath": "/workspace/generated_images/exec-f14f3212-a15e-4419-bb37-fc64e6f02986.png"
     },
     {
       "id": "anemonin-potpis",
@@ -73,7 +75,7 @@
       "audience": "couple",
       "age": null,
       "motif": "sa belim anemonama i finim grančicama",
-      "fontPair": "Napravi Eleganza + Napravi Knjiga",
+      "fontPair": "Napravi Sonata (Bodoni Moda Italic) + Napravi Knjiga (Lora)",
       "palette": [
         "champagne ivory",
         "ink blue",
@@ -81,7 +83,8 @@
         "warm taupe"
       ],
       "direction": "Fine botanicalpanorama uppermiddle, two large refineddisplaynames below withwideclassicaltype details; no copiedflowercornerlayout.",
-      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Contemporary fine-art wedding stationery. Two exquisitely detailed ivory anemone flowers with deep ink-blue centers, slender sage stems and a few delicate buds, arranged as a graceful low horizontal botanical composition ONLY across upper-middle x28–72%,y15–29%. Precise engraving-like petal veins with refined watercolor shadows, no glossy3D effect. Warm champagne-ivory ground with a very delicate organic taupe silk-like printed texture. Broad central and lower x18–82%,y35–86%remain clear warmivory for very large elegant couple names and carefully spaced event details. Meticulous luxury artisan stationery, restrained botanical color, no other flowers, frame, ribbons, rings or goldornaments."
+      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Contemporary fine-art wedding stationery. Two exquisitely detailed ivory anemone flowers with deep ink-blue centers, slender sage stems and a few delicate buds, arranged as a graceful low horizontal botanical composition ONLY across upper-middle x28–72%,y15–29%. Precise engraving-like petal veins with refined watercolor shadows, no glossy3D effect. Warm champagne-ivory ground with a very delicate organic taupe silk-like printed texture. Broad central and lower x18–82%,y35–86%remain clear warmivory for very large elegant couple names and carefully spaced event details. Meticulous luxury artisan stationery, restrained botanical color, no other flowers, frame, ribbons, rings or goldornaments.",
+      "sourcePath": "/workspace/generated_images/exec-beef2954-dc57-46cc-a535-cbfe553008b4.png"
     },
     {
       "id": "plava-nit-blagoslova",
@@ -98,7 +101,8 @@
         "ivory"
       ],
       "direction": "Hand-rendered blue prayerrope upperright, elegant smallgreetingupperleft, large formalname andeventbelow; restrained textileground.",
-      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Refined Orthodox baptism invitation for a baby boy. A small exquisite deep-blue knotted prayerrope bracelet with a simple tiny silvercross charm, arranged as a neat oval, finely illustrated woven knots and restrained metallic highlights. Entire bracelet andcross fully inside UPPER RIGHT x59–77%,y17–34%, with plenty of empty ground beyond all sides. The full canvas is very pale Frenchblue with subtle tone-on-tone fine linen weave, not a real sheet of cloth or paper. Clear top-left and large lower area x17–83%,y40–86%for substantial darkink serif typography. Quiet heirloom quality, meticulous embroidery-like detail, sacred simplicity, no flowers, mosaic, borders, angel or book."
+      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Refined Orthodox baptism invitation for a baby boy. A small exquisite deep-blue knotted prayerrope bracelet with a simple tiny silvercross charm, arranged as a neat oval, finely illustrated woven knots and restrained metallic highlights. Entire bracelet andcross fully inside UPPER RIGHT x59–77%,y17–34%, with plenty of empty ground beyond all sides. The full canvas is very pale Frenchblue with subtle tone-on-tone fine linen weave, not a real sheet of cloth or paper. Clear top-left and large lower area x17–83%,y40–86%for substantial darkink serif typography. Quiet heirloom quality, meticulous embroidery-like detail, sacred simplicity, no flowers, mosaic, borders, angel or book.",
+      "sourcePath": "/workspace/generated_images/exec-775af4d7-49f5-4e47-877f-95c89adb4f23.png"
     },
     {
       "id": "polarni-mali-zagrljaj",
@@ -115,7 +119,8 @@
         "soft gold"
       ],
       "direction": "Delicatepolarparent/cub illustration upper-middle, large warmserif babyname below andcarefullyalignedpracticaldetails; no floatingnurseryobject.",
-      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. A premium invitation to celebrate the birth of a baby boy. A tender polar bear mother touching noses with a tiny cub, both complete animals in a graceful close composition across UPPER MIDDLE x28–73%,y18–44%. Exquisite fine-art storybook painting, soft ivoryfur with delicate pale-blue shadow and warm cream highlights, gentle natural anatomy, no clothes or accessories. A small elegant pale-blue snowwash grounds them, fully contained; no landscape extends to the edge. Background is a continuous very pale glacierblue with extremely subtle flowing tonal texture. Entire lower half x17–83%,y53–86%stays clear for a large darknavy italic-serif baby name and carefully spaced invitation details. Refined warm expression and detailed fur, no stars, moon, lettering, border or tiny scattered icons."
+      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. A premium invitation to celebrate the birth of a baby boy. A tender polar bear mother touching noses with a tiny cub, both complete animals in a graceful close composition across UPPER MIDDLE x28–73%,y18–44%. Exquisite fine-art storybook painting, soft ivoryfur with delicate pale-blue shadow and warm cream highlights, gentle natural anatomy, no clothes or accessories. A small elegant pale-blue snowwash grounds them, fully contained; no landscape extends to the edge. Background is a continuous very pale glacierblue with extremely subtle flowing tonal texture. Entire lower half x17–83%,y53–86%stays clear for a large darknavy italic-serif baby name and carefully spaced invitation details. Refined warm expression and detailed fur, no stars, moon, lettering, border or tiny scattered icons.",
+      "sourcePath": "/workspace/generated_images/exec-ea7c15be-d67f-4ac7-a444-7f06bdd7cba0.png"
     }
   ],
   "rejectedAttempts": [
@@ -223,6 +228,39 @@
       "status": "rejected",
       "reason": "Hydrangea clusters, leaves and bow are cut by left/right/bottom edges; unsafe trim composition.",
       "countsAsDelivery": false
+    },
+    {
+      "id": "sumska-prva-bajka",
+      "name": "Šumska prva bajka",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "motif": "sa vevericom i hrastovom grančicom",
+      "fontPair": "Napravi Studio + Napravi Knjiga",
+      "palette": [
+        "warm ivory",
+        "pistachio",
+        "russet",
+        "ink navy"
+      ],
+      "direction": "Fine woodland book illustration lower-right and small interior oakdetail above-left, large softdisplay name upper-center; detailslower-left.",
+      "prompt": "Original premium invitation background, portrait EXACT5:7,1500x2100target. ONLY flat full-bleed art, no paper/mockup/table/perspective/external shadow. No text, letters, numbers, logos or watermark. ONE design, no collage. CRITICAL TRIM RULE: the OUTER12%of all four sides contains ONLY the continuous background color/texture. ALL recognizable flowers, animals, ornaments and their complete tips MUST stay inside the central76%of the canvas. No border, no corner ornaments, no clipped objects. Generous calm space for large editable typography to be added later. Refined original illustration and integrated composition. Baby boy's firstbirthday. Exquisite fine-art woodland children's-book illustration of a little natural red squirrel, carefully painted soft fur, bright curious eyes, holding an acorn beside a delicate oakbranch with two russet/pistachio leaves. This charming detailed scene occupies LOWER RIGHT x50–79%,y60–84%, completely inside safe area, no flowers or scenery reaching edges. One much smaller complementary oakleaf pair at x22–31%,y17–24%. Warm light ivory field with a delicate faint pistachio pinstripe texture throughout. Upper-center x32–80%,y15–53% and lower-left x18–46%,y58–86% stay clear for substantial deepnavy lettering later. Sophisticated joyful heirloom nursery stationery, rich natural russet/green accents and meticulous ink/watercolor detail, no costume, balloons or floating clipart.",
+      "sourcePath": "/workspace/generated_images/exec-056d172d-858f-42d8-a3e4-9fb813fc2add.png",
+      "status": "rejected",
+      "reason": "Squirrel primary tail reaches within~10px of source right edge; fails60px trim inset.",
+      "countsAsDelivery": false
+    }
+  ],
+  "rejectedFonts": [
+    {
+      "family": "Italiana",
+      "reason": "Actual font cmap lacksall10Serbian ČĆŠŽĐčćšžđglyphs; not used.",
+      "replacement": "Prata"
+    },
+    {
+      "family": "Prata",
+      "reason": "Actual cmap lacksall10Serbian ČĆŠŽĐčćšžđglyphs; not used.",
+      "replacement": "Bodoni Moda500Italic"
     }
   ]
 }
