@@ -2216,7 +2216,7 @@
       "report": "content/robi-batches/2026-10-27/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json",
       "rejectedCount": 3,
-      "lastConfirmedStep": "All required artifacts committed and read back; all prepublication checks passed. One atomic20-file main publication now in progress.",
+      "lastConfirmedStep": "Single20-file non-force expected-SHA main fast-forward complete;20production hashes and8text contents read back,451parent blobs preserved. Cloudflare deployment pending.",
       "sourceDimensions": [
         1060,
         1484
@@ -2249,8 +2249,12 @@
         "status": "publishing",
         "atomic": true,
         "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
-        "startedAt": "2026-10-27T05:13:41Z"
-      }
+        "startedAt": "2026-10-27T05:13:41Z",
+        "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+        "mainUpdatedAt": "2026-10-27T05:14:07Z"
+      },
+      "mainCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+      "mainUpdatedAt": "2026-10-27T05:14:07Z"
     }
   ],
   "history": [
@@ -2550,7 +2554,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T05:13:41Z",
+  "updatedAt": "2026-10-27T05:14:07Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
