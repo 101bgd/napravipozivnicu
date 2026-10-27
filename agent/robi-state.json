@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "blocked",
+      "status": "removing_by_user",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2297,8 +2297,8 @@
           "fonts_look_too_cheap"
         ],
         "pointsAwardedThisBatch": 0,
-        "productionDeletionRequested": false,
-        "immediateReplacementExplicitlyRequested": false
+        "productionDeletionRequested": true,
+        "immediateReplacementExplicitlyRequested": true
       },
       "notification": {
         "channel": "ChatGPT",
@@ -2319,6 +2319,11 @@
         "typographyQuality": "PALO",
         "source": "agent/feedback/2026-10-27-visual-quality.json",
         "technicalHistoryPreserved": true
+      },
+      "removal": {
+        "status": "requested_in_progress",
+        "requestedAt": "2026-10-27T07:32:37Z",
+        "source": "agent/feedback/2026-10-27-remove-and-replace.json"
       }
     }
   ],
@@ -2633,7 +2638,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "blocked",
+  "status": "removing",
   "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2655,7 +2660,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T05:48:28Z",
+  "updatedAt": "2026-10-27T07:32:37Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
@@ -2696,21 +2701,21 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "female",
+  "plannedNextAudience": "male",
   "plannedNextBirthdayAgeByAudience": {
-    "male": 7,
+    "male": 6,
     "female": 6
   },
-  "planningNote": "Creative plan advances from all six retained deployments; confirmed nextAudience/nextBirthdayAgeByAudience and lastSuccessfulBatch remain unchanged because public verification is blocked. Next planned female age6.",
+  "planningNote": "Replacement of rejected male/age6 slot; previous retained batch26October was female/age5. Discarded series does not advance the retained creative sequence.",
   "lastPublishedBatch": "2026-10-27",
   "latestUserDirective": {
     "source": "ChatGPT",
+    "quote": "obrisi celu poslednju seriju potpuno sa sajta i kreni novu, potrudi se da je premium sve",
+    "recordedAt": "2026-10-27T07:32:37Z",
     "dateTokyo": "2026-10-27",
-    "quote": "Pripremi i objavi šest novih pozivnica za tekući datum u Asia/Tokyo",
-    "status": "all_six_deployed_cloudflare_success_public_verification_blocked",
-    "batchId": "2026-10-27",
-    "productionCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
-    "userAestheticApproval": false
+    "status": "removing_rejected_series_then_new_six",
+    "rejectedBatch": "2026-10-27",
+    "replacementBatch": "2026-10-27-replacement-01"
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",
@@ -2718,7 +2723,13 @@
     "robotova-zurka",
     "zdralov-zavet",
     "kap-blagoslova",
-    "lavlje-malo-sunce"
+    "lavlje-malo-sunce",
+    "prva-melodija",
+    "zlatni-saksofon",
+    "satorska-avantura",
+    "magnolijin-zavet",
+    "perunika-blagoslova",
+    "plava-kapica-radosti"
   ],
   "activeTypographyRevision": {
     "id": "2026-10-25-typography-01",

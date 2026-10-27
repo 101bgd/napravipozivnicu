@@ -351,10 +351,47 @@
       "robotova-zurka",
       "zdralov-zavet",
       "kap-blagoslova",
-      "lavlje-malo-sunce"
+      "lavlje-malo-sunce",
+      "prva-melodija",
+      "zlatni-saksofon",
+      "satorska-avantura",
+      "magnolijin-zavet",
+      "perunika-blagoslova",
+      "plava-kapica-radosti"
     ],
     "retainMinimalRejectionRecord": true,
     "deleteRejectedBatchBinaryArtifactsWhenExplicitlyRequested": true,
-    "countsAsDailyDelivery": false
+    "countsAsDailyDelivery": false,
+    "latestSource": "agent/feedback/2026-10-27-remove-and-replace.json"
+  },
+  "latestExplicitReplacement": {
+    "dateTokyo": "2026-10-27",
+    "recordedAt": "2026-10-27T07:32:37Z",
+    "source": {
+      "channel": "ChatGPT",
+      "quote": "obrisi celu poslednju seriju potpuno sa sajta i kreni novu, potrudi se da je premium sve"
+    },
+    "removeBatch": "2026-10-27",
+    "retiredDesignIds": [
+      "prva-melodija",
+      "zlatni-saksofon",
+      "satorska-avantura",
+      "magnolijin-zavet",
+      "perunika-blagoslova",
+      "plava-kapica-radosti"
+    ],
+    "replacementBatch": "2026-10-27-replacement-01",
+    "replacementPath": "content/robi-batches/2026-10-27/replacement-01",
+    "replacementAudience": "male",
+    "replacementChildAge": 6,
+    "assignmentReason": "Replacement of rejected male/age6 slot; previous retained batch26October was female/age5. Discarded series does not advance the retained creative sequence.",
+    "automaticRepublishingForbidden": true,
+    "allSixNewOriginalsRequired": true,
+    "backgroundsAndTypographyBothMustChange": true,
+    "initialCalibrationStillCancelled": true,
+    "publicationAuthorizedAfterAllPreChecks": true,
+    "noAdditionalUserApprovalRequired": true,
+    "pointsAwarded": 0,
+    "archivePolicy": "Remove public site templates/assets/routes; retain control evidence and minimal rejection history, no history rewriting."
   }
 }
