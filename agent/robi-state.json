@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "generating",
+      "status": "checking",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2156,7 +2156,7 @@
       "report": "content/robi-batches/2026-10-27/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json",
       "rejectedCount": 3,
-      "lastConfirmedStep": "Six newly generated 1060x1484 sources selected; existing renderer preparing editable layouts and actual exports.",
+      "lastConfirmedStep": "Six default and long-text render checks passed; local registry prepared; production build in progress.",
       "sourceDimensions": [
         1060,
         1484
@@ -2164,6 +2164,16 @@
       "exportDimensions": [
         1500,
         2100
+      ],
+      "deadlineMet": false,
+      "interruptions": [
+        {
+          "step": "after_renderer_before_build",
+          "observedToolResult": "aborted by user after7986.0s",
+          "resumedAt": "2026-10-27T01:33:30Z",
+          "rootCause": "not_established",
+          "effect": "10:00 Asia/Tokyo deadline missed; no production changes during interruption."
+        }
       ]
     }
   ],
@@ -2442,7 +2452,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2464,7 +2474,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-26T23:16:21Z",
+  "updatedAt": "2026-10-27T01:33:30Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
