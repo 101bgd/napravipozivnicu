@@ -1,0 +1,32 @@
+{
+  "prva-melodija": {
+    "age": {
+      "x": 25.324082946777345,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 56.93371429443359
+    }
+  },
+  "zlatni-saksofon": {
+    "age": {
+      "x": 26.32963409423828,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 58.44720458984375
+    }
+  },
+  "satorska-avantura": {
+    "age": {
+      "x": 26.56556396484375,
+      "align": "right"
+    },
+    "occasion": {
+      "x": 57.10799560546875
+    }
+  },
+  "magnolijin-zavet": {},
+  "perunika-blagoslova": {},
+  "plava-kapica-radosti": {}
+}

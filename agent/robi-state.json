@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "checking",
+      "status": "ready_to_publish",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2098,7 +2098,7 @@
       "deadlineAt": "2026-10-27T10:00:00+09:00",
       "requiredCount": 6,
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -2110,7 +2110,17 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/prva-melodija.webp"
         },
         {
           "id": "zlatni-saksofon",
@@ -2118,7 +2128,17 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp"
         },
         {
           "id": "satorska-avantura",
@@ -2126,7 +2146,17 @@
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/satorska-avantura.webp"
         },
         {
           "id": "magnolijin-zavet",
@@ -2134,7 +2164,17 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp"
         },
         {
           "id": "perunika-blagoslova",
@@ -2142,7 +2182,17 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp"
         },
         {
           "id": "plava-kapica-radosti",
@@ -2150,13 +2200,23 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp"
         }
       ],
       "report": "content/robi-batches/2026-10-27/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json",
       "rejectedCount": 3,
-      "lastConfirmedStep": "Six default and long-text render checks passed; local registry prepared; production build in progress.",
+      "lastConfirmedStep": "All six passed19/19prepublication checks;45binary uploads SHA matched; build,97page titles,113page AdSense mock, real mobilePNG/PDF and full production tests passed.",
       "sourceDimensions": [
         1060,
         1484
@@ -2174,7 +2234,15 @@
           "rootCause": "not_established",
           "effect": "10:00 Asia/Tokyo deadline missed; no production changes during interruption."
         }
-      ]
+      ],
+      "prePublicationChecks": "passed",
+      "preparedAt": "2026-10-27T05:11:59Z",
+      "artifactPersistence": {
+        "status": "binary_objects_uploaded_pending_control_commit",
+        "binaryFiles": 45,
+        "allUploadedHashesMatched": true,
+        "controlPath": "content/robi-batches/2026-10-27"
+      }
     }
   ],
   "history": [
@@ -2452,7 +2520,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2474,7 +2542,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T01:33:30Z",
+  "updatedAt": "2026-10-27T05:11:59Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",

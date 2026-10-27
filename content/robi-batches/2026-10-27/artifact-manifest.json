@@ -1,0 +1,277 @@
+{
+  "files": [
+    {
+      "path": "content/robi-batches/2026-10-27/sources/magnolijin-zavet.png",
+      "bytes": 2012147,
+      "sha": "c8c2e3dc80f56b7567e89f1a94d7818cf6590bbc",
+      "sha256": "964ffd6d468adb3649971cca91ad1550046228cbdf7f1f4466eece336a89d6f4"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/sources/perunika-blagoslova.png",
+      "bytes": 2201684,
+      "sha": "688d37669f6a1165d4d106d45be74f622e38aa1c",
+      "sha256": "1d04c9df06eafb414a164205d99ded115e7141ba0a3138d975f35a6a246a3a61"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/sources/plava-kapica-radosti.png",
+      "bytes": 2077410,
+      "sha": "5e37336d582b0ef9b0652383cea47b398e453ae0",
+      "sha256": "b18541d697cb16fb0e009ec12597782d4dae686665457dd5b27813a100c5b9f7"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/sources/prva-melodija.png",
+      "bytes": 2194803,
+      "sha": "9079a28d3667c32802be333e180a057c6ba23062",
+      "sha256": "bf7b4b7134fbb7ff7fbe45515b54547351fa40337d551542365188c68de41e73"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/sources/satorska-avantura.png",
+      "bytes": 1698438,
+      "sha": "553db22d5abf62641a913e4c4006399b71fdac09",
+      "sha256": "cdf6019d44b86703852382fae33de0ad174ee1e0c1e6c8c7ae61747e29699a86"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/sources/zlatni-saksofon.png",
+      "bytes": 2298254,
+      "sha": "746d82dc214ff95c9b7cb1cd07ff494e0ace5d82",
+      "sha256": "fd328063cb2dc26f8d1185501495cdc0d9aa64d5009e2aa2c6bfcfd6994f059e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/rejected/fokin-prvi-osmeh.png",
+      "bytes": 2683483,
+      "sha": "17f2f26188ce227b37a414eb40a6cffc6fc58900",
+      "sha256": "0a5ae1080e99021ce765ff784dad65ecaf3ef2a6c6b783590473f210f7a7f7af"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/rejected/jabucica-prvog-slavlja.png",
+      "bytes": 2234918,
+      "sha": "6d4cbb4d648905ebc7e65162d648a4b178e7c37b",
+      "sha256": "c28877b8b04a78dcc918c05ea7d82418913a50ce699bd204a4ba973bb66215d4"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/rejected/nit-blagoslova.png",
+      "bytes": 2813277,
+      "sha": "377f25a137574d34d06ffc682786a37e984c3e39",
+      "sha256": "79665a0ffb61a220bc090b143fe442eec0967ee770d71f7991b68550fa9b82cb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/magnolijin-zavet.webp",
+      "bytes": 131924,
+      "sha": "cde291423c2c9086e358607afe5a72a51355947f",
+      "sha256": "e82b816c00405ca32b8a5fe8270eb579e9990ac407d9ebbb72399927d1d491b7"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/perunika-blagoslova.webp",
+      "bytes": 190466,
+      "sha": "e4e2735893ee3a142f36af814189e678d359afda",
+      "sha256": "aae63a214553d1d7baa5f3b9ad14dbb8da9e20ebe3e85d7f61ec46c32baaec98"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/plava-kapica-radosti.webp",
+      "bytes": 157880,
+      "sha": "da1de944a8b1b90fead9d7c7362ccb66017c784a",
+      "sha256": "70d04c6b317d2170a9bc29d97bd843d6e82138ef90c447760c52aa95f8eb4949"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/prva-melodija.webp",
+      "bytes": 175276,
+      "sha": "ade54e35bffdc9902244007a30a65a4f78b07117",
+      "sha256": "4983ed97c8bdd490315e940950f92adf22b1291f1b320073c7484f367f5d4a53"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/satorska-avantura.webp",
+      "bytes": 126800,
+      "sha": "060c63c5590b502fbe043fba138bec29d6a77f99",
+      "sha256": "412016828ffaf20206bdda7cb3867b0c44f20e8bfe28a4ccd1e5314e7349eaa8"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/backgrounds/zlatni-saksofon.webp",
+      "bytes": 208842,
+      "sha": "548ef644b7b55e2ba9f1c25b4161b68e3839b450",
+      "sha256": "99956314516f40b52c55b6be398c82a2062d1fe0c83d7eff3fb9cf01216718f7"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp",
+      "bytes": 38022,
+      "sha": "11ab0fc4808fb4029e4200375585fdeab3e8ae6e",
+      "sha256": "b6e7088e9389552b0e33e4bb8ad2ecd70d9b80b3a0c3af1c24161b40b1bbb933"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp",
+      "bytes": 37068,
+      "sha": "81a2bb55176ed7c71cd9a2ade8344df80e38a7e2",
+      "sha256": "3c6f21772ef0e14bc780cb555cf752d81743c76ba4feafd449c9206008f8ab3c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp",
+      "bytes": 35806,
+      "sha": "6b7d1c9f2cd7a7141189672e2ed25a31275e7584",
+      "sha256": "3b901ef8d543ef5302ea27fec6f5373fb71c3c0545a4d2f2183867954c7489a8"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/prva-melodija.webp",
+      "bytes": 36964,
+      "sha": "3846bb86e3eab6cb27b53975effbc893951ad877",
+      "sha256": "6c9cf894efc398112536bc928905226304e1478bbb96299f6b04173684542980"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/satorska-avantura.webp",
+      "bytes": 41382,
+      "sha": "1c190811ac11ddf9ab9f11cc66e04342ddf541d2",
+      "sha256": "d70dc9b1bba4a8edbf27e6eb6652817103414d5b7b7187b3db0e86a22a37da1f"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp",
+      "bytes": 35134,
+      "sha": "50596035a4b5058c57bc7ebb07c6df3f063acc22",
+      "sha256": "d2cd789bd633147f40daee29ba9e38211a3cf4e74c47ea0b4b79cbaf629cd6db"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/magnolijin-zavet.png",
+      "bytes": 1982157,
+      "sha": "9db37143cc8a7d9f906efadda5ef05659ad0d7b4",
+      "sha256": "b19b3614bfc98bbea02746f8921523a1527d74107611fe7b1cc5c2a8850a1b3e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/perunika-blagoslova.png",
+      "bytes": 3144688,
+      "sha": "da6a1322702ede809813e73880103c319471f3d3",
+      "sha256": "3ef3a108ac7cdb935a6849d8c4d6a781a6d84c33ad4360688f6e3b0a4bf09300"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/plava-kapica-radosti.png",
+      "bytes": 2060198,
+      "sha": "c0f04948530a87546edd3a5600b935c62a7fd6f7",
+      "sha256": "7866643213c05a5cb98d08beef05ae07cdb26815a1373737a36cddc28b7b294b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/prva-melodija.png",
+      "bytes": 2757711,
+      "sha": "b2de12d6e07b955fc3301cd6b6badbf99f067b25",
+      "sha256": "18ac49c248794f599691f0dbdc63141b82e6f6f5f1b27400db91e8a4a463be7c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/satorska-avantura.png",
+      "bytes": 1466638,
+      "sha": "76719d4b350d7475a54ce7cc0ac825fb2f7fe621",
+      "sha256": "e36085f09accc12e876b21adfe73bdb946b9deb2f8080dd6acdbdf4116f1af2e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/zlatni-saksofon.png",
+      "bytes": 2889866,
+      "sha": "8c9255754940f51c88da644fad9f3c59f344f942",
+      "sha256": "6eda76debbb1239d4c808805b88e5667a0897e606e271caca8f8380880638f4a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/magnolijin-zavet-editor.pdf",
+      "bytes": 1415934,
+      "sha": "c51b00356c1f57975dc49c4114a66c018e3b83db",
+      "sha256": "d53423aff687f39b65cc03da754d94e54d863d8909efab7202f9bd444baf1c44"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/magnolijin-zavet.pdf",
+      "bytes": 465058,
+      "sha": "4a61825ffc471b9224bb0f22bd13c940abdbe0fd",
+      "sha256": "4c9a00b272f0a786d690abf180185d0a8554af5b48dbf842ba9a75dbc934f75e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/perunika-blagoslova-editor.pdf",
+      "bytes": 2062248,
+      "sha": "11f4883c8f364bf2edf9d15a2ed1ec3c53cad1ee",
+      "sha256": "153b89968167a13d665b912a0cc53bce17b5be621f0067067f150dc0d10c7ea0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/perunika-blagoslova.pdf",
+      "bytes": 549308,
+      "sha": "b92b87871d41145576ccc668049749121ea18070",
+      "sha256": "8bbf9395341669263672d646a2ffd9353658598c7e53d9d9ad98ff6730cd7f87"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/plava-kapica-radosti-editor.pdf",
+      "bytes": 1419291,
+      "sha": "a7ed34c6fdf19c236b32f3276748063c28335efb",
+      "sha256": "35213174ef61d7bbde388cc4a339a777555c7f183efc9d9e4bf35b9f2a044d22"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/plava-kapica-radosti.pdf",
+      "bytes": 455280,
+      "sha": "b88ad00cd00e8b7f28afb4497ba99204d18ae51b",
+      "sha256": "aae1b2fdd9ffb2c6380895315e5b55106352159744ec4a77b2925ff89944b63d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/prva-melodija-editor.pdf",
+      "bytes": 1756527,
+      "sha": "d2a681a1d871ebfc00497e1fff4c6e7d4d002b6a",
+      "sha256": "7dc27ea9c38de681e1903896bedfed2396fc879ef4d61626b53d21a09536b03a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/prva-melodija.pdf",
+      "bytes": 525300,
+      "sha": "31e2742f19b928b0d8566fcd2b260ed1c6984d66",
+      "sha256": "13ca9e07b01d1c6be1bc0cb67efe7596538bfe9b18045688b3a59383f488f9b4"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/satorska-avantura-editor.pdf",
+      "bytes": 1063228,
+      "sha": "a789a4e9ac0314776cba779c889aa40ea40783f4",
+      "sha256": "5b94b31cc55d54cd8cf4d3309dc99b92a795b585548852ab68580a5a9ac6a11d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/satorska-avantura.pdf",
+      "bytes": 384645,
+      "sha": "afd8be7c329116087becd30ea455a07b34e2918f",
+      "sha256": "a2c2141d3afe1fa8959b385fa15da585bd534ea7873132b1432f8d0a4f59ef66"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/zlatni-saksofon-editor.pdf",
+      "bytes": 1929669,
+      "sha": "a302ab9d634c7c43c8a90c8dd0c51ffa23cbab8c",
+      "sha256": "a1fa9f47a5837dbf3c283447e76f97ddbb3d1a534af9a3ff7808ed0be4eeeb4d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/examples/zlatni-saksofon.pdf",
+      "bytes": 530103,
+      "sha": "bb663e5ae1f653d25e777371033db2fc188e374f",
+      "sha256": "ceccdb1cf77b03453c18fdba7762fe5fa288a2cc3a7bb78e6a9992a9db9b744b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/magnolijin-zavet-mobile-expanded.png",
+      "bytes": 243152,
+      "sha": "673b44281042ef4a23c5c2bb0e48f8f44f96534b",
+      "sha256": "b29a97ecdb752b3c34181c7857e497f612d0fa80344a8d6bbc95fe48a613e86e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/perunika-blagoslova-mobile-expanded.png",
+      "bytes": 275871,
+      "sha": "3c4264ae2b1b25f695d2a94409b397c8eb09958e",
+      "sha256": "c61e429fef77facb58f5afba98574a831e106dfb95448c8063514a7a15c144fe"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/plava-kapica-radosti-mobile-expanded.png",
+      "bytes": 255045,
+      "sha": "b4667638e4a67f1a9d5ffd1f50e83c09c52881b2",
+      "sha256": "ed4cea1d8f63399ae5e72f1e3e374b3ff311f48dee3c04781d309378a0c01dff"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/prva-melodija-mobile-expanded.png",
+      "bytes": 257396,
+      "sha": "2a3db46256ab0aa31ed277d99cdbc0ea85f1b3f0",
+      "sha256": "eb6f5006cf93545d695d7785ac4b64f4cbf104548bb0a0be5044d2071eae5446"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/satorska-avantura-mobile-expanded.png",
+      "bytes": 187902,
+      "sha": "71f500147c6f23a0124351f40735a8db510f84a9",
+      "sha256": "81c8b054daecb1da846b16fde12d73ce8767b0bd64cd4596e94f44d026e78efa"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/previews/zlatni-saksofon-mobile-expanded.png",
+      "bytes": 267837,
+      "sha": "895c0a8d4ebd710f615fb7e8cbe1bf66c32a09be",
+      "sha256": "ba63231e0548f07518cef3d0defe2ad76dad6a7939853798ccdf28ded5a494c4"
+    }
+  ],
+  "binaryCount": 45,
+  "bytes": 49775030,
+  "localAdditionalEvidence": "Long-text PNGs, actual personalized editor PNGs and full editor screenshots retained locally; all opened and checked. Both default and personalized PDFs archived."
+}

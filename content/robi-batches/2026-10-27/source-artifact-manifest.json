@@ -1,0 +1,56 @@
+[
+  {
+    "path": "content/robi-batches/2026-10-27/sources/magnolijin-zavet.png",
+    "bytes": 2012147,
+    "sha": "c8c2e3dc80f56b7567e89f1a94d7818cf6590bbc",
+    "sha256": "964ffd6d468adb3649971cca91ad1550046228cbdf7f1f4466eece336a89d6f4"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/sources/perunika-blagoslova.png",
+    "bytes": 2201684,
+    "sha": "688d37669f6a1165d4d106d45be74f622e38aa1c",
+    "sha256": "1d04c9df06eafb414a164205d99ded115e7141ba0a3138d975f35a6a246a3a61"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/sources/plava-kapica-radosti.png",
+    "bytes": 2077410,
+    "sha": "5e37336d582b0ef9b0652383cea47b398e453ae0",
+    "sha256": "b18541d697cb16fb0e009ec12597782d4dae686665457dd5b27813a100c5b9f7"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/sources/prva-melodija.png",
+    "bytes": 2194803,
+    "sha": "9079a28d3667c32802be333e180a057c6ba23062",
+    "sha256": "bf7b4b7134fbb7ff7fbe45515b54547351fa40337d551542365188c68de41e73"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/sources/satorska-avantura.png",
+    "bytes": 1698438,
+    "sha": "553db22d5abf62641a913e4c4006399b71fdac09",
+    "sha256": "cdf6019d44b86703852382fae33de0ad174ee1e0c1e6c8c7ae61747e29699a86"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/sources/zlatni-saksofon.png",
+    "bytes": 2298254,
+    "sha": "746d82dc214ff95c9b7cb1cd07ff494e0ace5d82",
+    "sha256": "fd328063cb2dc26f8d1185501495cdc0d9aa64d5009e2aa2c6bfcfd6994f059e"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/rejected/fokin-prvi-osmeh.png",
+    "bytes": 2683483,
+    "sha": "17f2f26188ce227b37a414eb40a6cffc6fc58900",
+    "sha256": "0a5ae1080e99021ce765ff784dad65ecaf3ef2a6c6b783590473f210f7a7f7af"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/rejected/jabucica-prvog-slavlja.png",
+    "bytes": 2234918,
+    "sha": "6d4cbb4d648905ebc7e65162d648a4b178e7c37b",
+    "sha256": "c28877b8b04a78dcc918c05ea7d82418913a50ce699bd204a4ba973bb66215d4"
+  },
+  {
+    "path": "content/robi-batches/2026-10-27/rejected/nit-blagoslova.png",
+    "bytes": 2813277,
+    "sha": "377f25a137574d34d06ffc682786a37e984c3e39",
+    "sha256": "79665a0ffb61a220bc090b143fe442eec0967ee770d71f7991b68550fa9b82cb"
+  }
+]

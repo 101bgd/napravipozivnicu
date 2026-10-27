@@ -1,0 +1,74 @@
+[
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/prva-melodija-background-4983ed97c8bd.webp",
+    "id": "b96baca2-1404-5e6e-b01a-6f7302e60967",
+    "bytes": 175276,
+    "sha256": "4983ed97c8bdd490315e940950f92adf22b1291f1b320073c7484f367f5d4a53"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/prva-melodija-thumbnail-6c9cf894efc3.webp",
+    "id": "7001adf7-b491-5904-ae80-e17246e1014e",
+    "bytes": 36964,
+    "sha256": "6c9cf894efc398112536bc928905226304e1478bbb96299f6b04173684542980"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-background-99956314516f.webp",
+    "id": "0c98e90a-ed4b-55c4-b375-8d02032e0c65",
+    "bytes": 208842,
+    "sha256": "99956314516f40b52c55b6be398c82a2062d1fe0c83d7eff3fb9cf01216718f7"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-thumbnail-d2cd789bd633.webp",
+    "id": "3c7395c2-1543-5a1a-938b-ea7fc5f3d9c9",
+    "bytes": 35134,
+    "sha256": "d2cd789bd633147f40daee29ba9e38211a3cf4e74c47ea0b4b79cbaf629cd6db"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/satorska-avantura-background-412016828ffa.webp",
+    "id": "ceaeaed6-0d7f-55a9-a459-dbeadf44311f",
+    "bytes": 126800,
+    "sha256": "412016828ffaf20206bdda7cb3867b0c44f20e8bfe28a4ccd1e5314e7349eaa8"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/satorska-avantura-thumbnail-d70dc9b1bba4.webp",
+    "id": "c4d361d2-ab29-597e-89db-79b16f3c1485",
+    "bytes": 41382,
+    "sha256": "d70dc9b1bba4a8edbf27e6eb6652817103414d5b7b7187b3db0e86a22a37da1f"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-background-e82b816c0040.webp",
+    "id": "1ce3d6e3-7823-5402-95d8-957c6e70b2fb",
+    "bytes": 131924,
+    "sha256": "e82b816c00405ca32b8a5fe8270eb579e9990ac407d9ebbb72399927d1d491b7"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-thumbnail-b6e7088e9389.webp",
+    "id": "7a79aae0-88b7-5e80-abe8-ab1ef2e33b0d",
+    "bytes": 38022,
+    "sha256": "b6e7088e9389552b0e33e4bb8ad2ecd70d9b80b3a0c3af1c24161b40b1bbb933"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-background-aae63a214553.webp",
+    "id": "727ab1b6-102f-5873-a72e-9ad07dcd4ec1",
+    "bytes": 190466,
+    "sha256": "aae63a214553d1d7baa5f3b9ad14dbb8da9e20ebe3e85d7f61ec46c32baaec98"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-thumbnail-3c6f21772ef0.webp",
+    "id": "4bfaf7b7-3c9c-5379-8bd7-3661c9211afc",
+    "bytes": 37068,
+    "sha256": "3c6f21772ef0e14bc780cb555cf752d81743c76ba4feafd449c9206008f8ab3c"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-background-70d04c6b317d.webp",
+    "id": "d7369318-8d84-5ffa-b99b-0c68696dbe44",
+    "bytes": 157880,
+    "sha256": "70d04c6b317d2170a9bc29d97bd843d6e82138ef90c447760c52aa95f8eb4949"
+  },
+  {
+    "path": "public/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-thumbnail-3b901ef8d543.webp",
+    "id": "1757c510-e072-594c-8729-16cee69e2eaa",
+    "bytes": 35806,
+    "sha256": "3b901ef8d543ef5302ea27fec6f5373fb71c3c0545a4d2f2183867954c7489a8"
+  }
+]

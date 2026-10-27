@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "magnolijin-zavet",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pozadina-f0ce23fe9003.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/pun-gas-do-osamnaeste-pozadina-d322ac7e9602.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/nocni-kupe-background-59b2c03c7c8d.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "prva-melodija",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-background-063ea50a3b65.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/mala-sirena-pozadina-7751e875ecd8.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/leptirov-novi-let-pozadina-488e613c1176.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "satorska-avantura",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/kobaltna-noc-pozadina-23d817595141.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/zabac-zove-drugare-background-d3ea225bed2c.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/ponocna-elegancija/pozadina-bd7ed2b4f10e.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "plava-kapica-radosti",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/rodjenje-deteta/rodin-mali-dar-pozadina-8fe0d49d00d7.webp",
+          "distance63": 16
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/limunov-zavet.webp",
+          "distance63": 18
+        },
+        {
+          "file": "/workspace/work/robi-cancelled-trial-20261021/content/robi-batches/calibration/backgrounds/mali-graditelj.webp",
+          "distance63": 18
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "zlatni-saksofon",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/klas-blagoslova-background-02ec239748ed.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/terakota-ritam-pozadina-de8ed7e00446.webp",
+          "distance63": 24
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/tihi-izvor-background-7aad19315644.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "perunika-blagoslova",
+      "historyCount": 87,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/dva-zlatna-kruga-background-063ea50a3b65.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/zabac-zove-drugare-background-d3ea225bed2c.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-24/extra-01/ponocna-lepeza-background-d22ff3b71bb8.webp",
+          "distance63": 20
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "magnolijin-zavet",
+      "b": "prva-melodija",
+      "distance63": 18
+    },
+    {
+      "a": "magnolijin-zavet",
+      "b": "satorska-avantura",
+      "distance63": 36
+    },
+    {
+      "a": "magnolijin-zavet",
+      "b": "plava-kapica-radosti",
+      "distance63": 26
+    },
+    {
+      "a": "magnolijin-zavet",
+      "b": "zlatni-saksofon",
+      "distance63": 32
+    },
+    {
+      "a": "magnolijin-zavet",
+      "b": "perunika-blagoslova",
+      "distance63": 24
+    },
+    {
+      "a": "prva-melodija",
+      "b": "satorska-avantura",
+      "distance63": 36
+    },
+    {
+      "a": "prva-melodija",
+      "b": "plava-kapica-radosti",
+      "distance63": 28
+    },
+    {
+      "a": "prva-melodija",
+      "b": "zlatni-saksofon",
+      "distance63": 24
+    },
+    {
+      "a": "prva-melodija",
+      "b": "perunika-blagoslova",
+      "distance63": 32
+    },
+    {
+      "a": "satorska-avantura",
+      "b": "plava-kapica-radosti",
+      "distance63": 34
+    },
+    {
+      "a": "satorska-avantura",
+      "b": "zlatni-saksofon",
+      "distance63": 30
+    },
+    {
+      "a": "satorska-avantura",
+      "b": "perunika-blagoslova",
+      "distance63": 22
+    },
+    {
+      "a": "plava-kapica-radosti",
+      "b": "zlatni-saksofon",
+      "distance63": 34
+    },
+    {
+      "a": "plava-kapica-radosti",
+      "b": "perunika-blagoslova",
+      "distance63": 28
+    },
+    {
+      "a": "zlatni-saksofon",
+      "b": "perunika-blagoslova",
+      "distance63": 30
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

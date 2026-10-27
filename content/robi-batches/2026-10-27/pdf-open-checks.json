@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "pdfFiles": [
+    {
+      "file": "examples/magnolijin-zavet-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/magnolijin-zavet.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/perunika-blagoslova-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/perunika-blagoslova.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/plava-kapica-radosti-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/plava-kapica-radosti.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/prva-melodija-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/prva-melodija.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/satorska-avantura-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/satorska-avantura.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zlatni-saksofon-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/zlatni-saksofon.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    }
+  ]
+}

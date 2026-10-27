@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prva-melodija",
+    "category": "first",
+    "path": "/pozivnice-za-prvi-rodjendan/",
+    "entry": "PROŠLO"
+  },
+  {
+    "id": "zlatni-saksofon",
+    "category": "eighteen",
+    "path": "/pozivnice-za-18-rodjendan/",
+    "entry": "PROŠLO"
+  },
+  {
+    "id": "satorska-avantura",
+    "category": "birthday",
+    "path": "/pozivnice-za-rodjendan/",
+    "entry": "PROŠLO"
+  },
+  {
+    "id": "magnolijin-zavet",
+    "category": "wedding",
+    "path": "/pozivnice-za-vencanje/",
+    "entry": "PROŠLO"
+  },
+  {
+    "id": "perunika-blagoslova",
+    "category": "baptism",
+    "path": "/pozivnice-za-krstenje/",
+    "entry": "PROŠLO"
+  },
+  {
+    "id": "plava-kapica-radosti",
+    "category": "baby",
+    "path": "/pozivnice-za-rodjenje-deteta/",
+    "entry": "PROŠLO"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fokin-prvi-osmeh",
+    "name": "Fokin prvi osmeh",
+    "category": "first",
+    "audience": "male",
+    "age": 1,
+    "motif": "sa malom fokom i prugastom loptom",
+    "concept": "Small harbor seal with red/yellow beach ball bottom-left, vibrant turquoise ground. Large text upper region and lower-right.",
+    "palette": [
+      "turquoise",
+      "coral",
+      "sunshine yellow"
+    ],
+    "fontPair": "Fraunces SemiBold + Outfit",
+    "prompt": "Create one original premium invitation background, upright exact aspect ratio 5:7, target 1500 x 2100 px. Full-bleed flat graphic artwork only. Absolutely no text, lettering, numbers, logo, watermark, border, mockup, sheet of paper, desk, hands, perspective, or exterior shadow. ONLY ONE invitation background, never a collage or alternatives. All important illustrated objects must be fully inside a generous 8% inset on every edge (at least 120 px on target canvas); nothing important clipped. Keep the specified empty text area clean, calm and visually consistent for large editable text to be added later; no letters or placeholder text. Refined professional illustration, crisp considered details, expressive deliberate color, not generic stock clipart. First birthday for a little boy. A charming chubby small gray harbor seal smiling gently, beside ONE cheerful coral-red and golden-yellow striped beach ball. Compact illustration cluster entirely in the LOWER LEFT quadrant, spanning x12–47%, y66–88%. A little soft ground ripple under them but no sea horizon. Rich clean turquoise-teal field fills the canvas, gentle gouache texture with tonal variation only, joyful saturated warm accents. Upper 62% and the lower-right x56–91% remain clear turquoise for very large dark navy invitation typography. Hand-painted storybook sophistication; cute natural seal anatomy, no clothing, no other animals, no balloons, no extra confetti.",
+    "sourcePath": "/workspace/generated_images/exec-e7cb0ed1-c234-47c6-b801-813888356ede.png",
+    "reason": "Left tail at approximately x30 of1060 (~42px target) violates60px essential artwork trim inset.",
+    "status": "rejected",
+    "countsAsDelivery": false
+  },
+  {
+    "id": "jabucica-prvog-slavlja",
+    "name": "Jabučica prvog slavlja",
+    "category": "first",
+    "audience": "male",
+    "age": 1,
+    "motif": "sa zelenom gusenicom i crvenom jabukom",
+    "concept": "Bright yellow ground, green caterpillar on red apple compact upper-right, big friendly dark-purple typography lower field.",
+    "palette": [
+      "sunshine yellow",
+      "apple red",
+      "leaf green",
+      "dark plum"
+    ],
+    "fontPair": "Fraunces SemiBold + Outfit",
+    "prompt": "Create one original premium invitation background, upright exact aspect ratio 5:7, target 1500 x 2100 px. Full-bleed flat graphic artwork only. Absolutely no text, lettering, numbers, logo, watermark, border, mockup, sheet of paper, desk, hands, perspective, or exterior shadow. ONLY ONE invitation background, never a collage or alternatives. All important illustrated objects must be fully inside a generous 8% inset on every edge (at least 120 px on target canvas); nothing important clipped. Keep the specified empty text area clean, calm and visually consistent for large editable text to be added later; no letters or placeholder text. Refined professional illustration, crisp considered details, expressive deliberate color, not generic stock clipart. A joyful first birthday for a little boy. A friendly tiny leaf-green caterpillar resting on a single beautiful red apple, with a small green leaf. Premium whimsical hand-painted gouache, crisp shapes and endearing face, no clothes. This compact motif is entirely in the UPPER RIGHT area x58–83%, y13–35%, with very generous clear space around all sides; NOT at canvas edge. All other space is clean warm sunny golden-yellow color with fine tonal gouache grain, especially the entire lower60% and upperleft. Rich saturated red/green/yellow palette. No extra objects or border, no text. Designed for large dark-plum editable invitation type in the lower field.",
+    "sourcePath": "/workspace/generated_images/exec-3296f078-f532-47d1-a6d2-f77cb2cba450.png",
+    "reason": "Apple leaf reaches within approximately35px of source right edge (49.5px at target); essential illustration violates60px trim inset.",
+    "status": "rejected",
+    "countsAsDelivery": false
+  },
+  {
+    "id": "nit-blagoslova",
+    "name": "Nit blagoslova",
+    "category": "baptism",
+    "audience": "male",
+    "motif": "sa krštenom košuljicom i zlatnim krstom",
+    "concept": "Small ivory christening gown with embroidered gold cross upper-right on matte blue; large formal names centered lower field, ceremony details.",
+    "palette": [
+      "cerulean",
+      "ivory",
+      "gold"
+    ],
+    "fontPair": "Cormorant Garamond + Libre Caslon Display",
+    "prompt": "Create one original premium invitation background, upright exact aspect ratio 5:7, target 1500 x 2100 px. Full-bleed flat graphic artwork only. Absolutely no text, lettering, numbers, logo, watermark, border, mockup, sheet of paper, desk, hands, perspective, or exterior shadow. ONLY ONE invitation background, never a collage or alternatives. All important illustrated objects must be fully inside a generous 8% inset on every edge (at least 120 px on target canvas); nothing important clipped. Keep the specified empty text area clean, calm and visually consistent for large editable text to be added later; no letters or placeholder text. Refined professional illustration, crisp considered details, expressive deliberate color, not generic stock clipart. A dignified Orthodox baptism invitation for a baby boy. A tiny exquisite ivory linen christening shirt, laid as a flat carefully illustrated garment, with one small simple gold embroidered cross on its chest, fine lace hem, a restrained warm gold embroidery stitch. No letters or other symbols. The entire shirt, sleeves and hem are fully contained in the UPPER RIGHT x56–84%, y12–37%; no hanger, hands, body, table or scene. Matte medium-dark cerulean blue ground fills the whole canvas, subtle tonal textile grain. Entire lower58% and upper-left remain clear for large formal ivory typography. Painterly couture illustration, elegant heirloom quality, not a photographic mockup. One shirt only, normal garment construction.",
+    "sourcePath": "/workspace/generated_images/exec-ed4af3c6-7f43-42a7-ad72-24749499b892.png",
+    "reason": "Right sleeve reaches within approximately27px of source right edge (38px target); essential illustration violates60px trim inset.",
+    "status": "rejected",
+    "countsAsDelivery": false
+  }
+]

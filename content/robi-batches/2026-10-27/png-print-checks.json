@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "pngFiles": [
+    {
+      "file": "examples/magnolijin-zavet-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/magnolijin-zavet-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/magnolijin-zavet.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/perunika-blagoslova-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/perunika-blagoslova-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/perunika-blagoslova.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-kapica-radosti-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-kapica-radosti-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-kapica-radosti.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/prva-melodija-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/prva-melodija-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/prva-melodija.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/satorska-avantura-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/satorska-avantura-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/satorska-avantura.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zlatni-saksofon-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zlatni-saksofon-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/zlatni-saksofon.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    }
+  ]
+}
