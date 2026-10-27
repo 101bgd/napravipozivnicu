@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "publishing",
+      "status": "blocked",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2099,7 +2099,7 @@
       "requiredCount": 6,
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -2110,7 +2110,7 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2128,7 +2128,7 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2146,7 +2146,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2164,7 +2164,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2182,7 +2182,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2200,7 +2200,7 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2216,7 +2216,7 @@
       "report": "content/robi-batches/2026-10-27/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json",
       "rejectedCount": 3,
-      "lastConfirmedStep": "Single20-file non-force expected-SHA main fast-forward complete;20production hashes and8text contents read back,451parent blobs preserved. Cloudflare deployment pending.",
+      "lastConfirmedStep": "All6 deployed in one main commit;Cloudflare success14:17:01Tokyo,20production hashes/8texts and45archive binaries/50texts matched,451parent blobs and36oldtemplates preserved. All6 actual postdeploy public attempts blocked at proxyCONNECT403.",
       "sourceDimensions": [
         1060,
         1484
@@ -2246,15 +2246,57 @@
         "controlPath": "content/robi-batches/2026-10-27"
       },
       "publication": {
-        "status": "publishing",
+        "batchId": "2026-10-27",
+        "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+        "status": "deployed",
         "atomic": true,
         "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
-        "startedAt": "2026-10-27T05:13:41Z",
-        "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
-        "mainUpdatedAt": "2026-10-27T05:14:07Z"
+        "mainUpdatedAt": "2026-10-27T05:14:07Z",
+        "cloudflareCheckId": 122024334125,
+        "cloudflareConclusion": "success",
+        "startedAt": "2026-10-27T05:17:01Z",
+        "completedAt": "2026-10-27T05:17:01Z",
+        "completedAtTokyo": "2026-10-27T14:17:01+09:00",
+        "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e418e6f8-626a-4b9b-8c2a-a7612353df38",
+        "evidence": "deployment-check.json",
+        "completedBeforeDeadline": false,
+        "lateSeconds": 15421
       },
       "mainCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
-      "mainUpdatedAt": "2026-10-27T05:14:07Z"
+      "mainUpdatedAt": "2026-10-27T05:14:07Z",
+      "blockedStage": "post_publication_verification",
+      "deliveryDeadlineMet": false,
+      "publicVerification": {
+        "status": "blocked",
+        "checkedAt": "2026-10-27T05:18:09.004903+00:00",
+        "evidence": "content/robi-batches/2026-10-27/public-live-checks.json",
+        "reason": "All six HTTPS GET requests blocked at proxyCONNECT403 before any destination response; public editor/exports/SEO/category/sitemap/AdSense remainNEPROVERENO."
+      },
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "status": "blocked",
+          "reason": "Environment proxy CONNECT403 for all6 destination URLs; no bypass. Cloudflare success independently confirmed."
+        }
+      ],
+      "userReview": {
+        "status": "awaiting_user_review",
+        "aestheticApprovalAssumed": false,
+        "pointsAwardedThisBatch": 0
+      },
+      "notification": {
+        "channel": "ChatGPT",
+        "finalReportPreparedAt": "2026-10-27T05:18:09Z",
+        "deadlineAt": "2026-10-27T10:00:00+09:00",
+        "onTime": false,
+        "deliveryNote": "Final ChatGPT response is the user notification; file creation alone is not delivery confirmation."
+      },
+      "resumeActions": [
+        "Do not regenerate or republish27October: all6 deployed in commite4208580a0f7252838599b79f8213abd91008fd9.",
+        "Complete permitted real public page/editor/export/category/sitemap/SEO/AdSense checks when access becomes available. Never invent a pass or bypass network rules.",
+        "Next planned creative batch: female childage6, male next7. Confirmed counters unchanged pending full required verification.",
+        "Record only explicit user aesthetic feedback and awards."
+      ]
     }
   ],
   "history": [
@@ -2509,6 +2551,37 @@
       "late": true,
       "publicationAuthorizedBy": "objavi",
       "userAestheticApproval": false
+    },
+    {
+      "id": "2026-10-27",
+      "status": "deployed_verification_blocked",
+      "published": true,
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "designIds": [
+        "prva-melodija",
+        "zlatni-saksofon",
+        "satorska-avantura",
+        "magnolijin-zavet",
+        "perunika-blagoslova",
+        "plava-kapica-radosti"
+      ],
+      "motifs": [
+        "sa šarenim drvenim ksilofonom",
+        "sa zlatnim saksofonom na tamnoj podlozi",
+        "sa narandžastim šatorom i fenjerom",
+        "sa belom magnolijom i zelenim listovima",
+        "sa belom perunikom i zlatnim krstom",
+        "sa pletenom plavom kapicom i mašnom"
+      ],
+      "source": "content/robi-batches/2026-10-27/plan.json",
+      "mainCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+      "deployedAt": "2026-10-27T05:17:01Z",
+      "audience": "male",
+      "birthdayAge": 6,
+      "late": true,
+      "userAestheticApproval": false
     }
   ],
   "automations": {
@@ -2532,7 +2605,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2554,7 +2627,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T05:14:07Z",
+  "updatedAt": "2026-10-27T05:18:09Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
@@ -2592,20 +2665,21 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "male",
+  "plannedNextAudience": "female",
   "plannedNextBirthdayAgeByAudience": {
-    "male": 6,
+    "male": 7,
     "female": 6
   },
-  "planningNote": "Creative plan follows retained complete deployments through26Oct female5. Next male6, female next6. Confirmed counters unchanged pending real public verification; retired23Oct excluded.",
-  "lastPublishedBatch": "2026-10-26",
+  "planningNote": "Creative plan advances from all six retained deployments; confirmed nextAudience/nextBirthdayAgeByAudience and lastSuccessfulBatch remain unchanged because public verification is blocked. Next planned female age6.",
+  "lastPublishedBatch": "2026-10-27",
   "latestUserDirective": {
-    "quote": "objavi",
-    "channel": "ChatGPT",
-    "recordedAt": "2026-10-26T06:42:40Z",
-    "batchId": "2026-10-26",
-    "status": "published_six_cloudflare_success_public_verification_blocked",
-    "productionCommit": "8334d2f02b66bd1cd38c729d0cfdd544dea18fc9"
+    "source": "ChatGPT",
+    "dateTokyo": "2026-10-27",
+    "quote": "Pripremi i objavi šest novih pozivnica za tekući datum u Asia/Tokyo",
+    "status": "all_six_deployed_cloudflare_success_public_verification_blocked",
+    "batchId": "2026-10-27",
+    "productionCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+    "userAestheticApproval": false
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

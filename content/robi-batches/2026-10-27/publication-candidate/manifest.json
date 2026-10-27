@@ -1,6 +1,6 @@
 {
   "batchId": "2026-10-27",
-  "status": "tested_pending_publication",
+  "status": "published_used",
   "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
   "textFiles": [
     {
@@ -125,5 +125,25 @@
   },
   "allSixPreChecksPassed": true,
   "noForcePush": true,
-  "noOldDesignsRemoved": true
+  "noOldDesignsRemoved": true,
+  "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+  "mainUpdatedAt": "2026-10-27T05:14:07Z",
+  "doNotRepublish": true,
+  "deployment": {
+    "batchId": "2026-10-27",
+    "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+    "status": "deployed",
+    "atomic": true,
+    "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
+    "mainUpdatedAt": "2026-10-27T05:14:07Z",
+    "cloudflareCheckId": 122024334125,
+    "cloudflareConclusion": "success",
+    "startedAt": "2026-10-27T05:17:01Z",
+    "completedAt": "2026-10-27T05:17:01Z",
+    "completedAtTokyo": "2026-10-27T14:17:01+09:00",
+    "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e418e6f8-626a-4b9b-8c2a-a7612353df38",
+    "evidence": "deployment-check.json",
+    "completedBeforeDeadline": false,
+    "lateSeconds": 15421
+  }
 }

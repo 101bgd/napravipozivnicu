@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-27T05:18:09Z",
+  "batchId": "2026-10-27",
+  "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+  "status": "deployed",
+  "atomic": true,
+  "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
+  "mainUpdatedAt": "2026-10-27T05:14:07Z",
+  "cloudflareCheckId": 122024334125,
+  "cloudflareConclusion": "success",
+  "startedAt": "2026-10-27T05:17:01Z",
+  "completedAt": "2026-10-27T05:17:01Z",
+  "completedAtTokyo": "2026-10-27T14:17:01+09:00",
+  "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e418e6f8-626a-4b9b-8c2a-a7612353df38",
+  "evidence": "deployment-check.json",
+  "completedBeforeDeadline": false,
+  "lateSeconds": 15421,
+  "checkOutput": [
+    {
+      "id": 122024334125,
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "e4208580a0f7252838599b79f8213abd91008fd9",
+      "started_at": "2026-10-27T05:17:01Z",
+      "completed_at": "2026-10-27T05:17:01Z",
+      "details_url": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e418e6f8-626a-4b9b-8c2a-a7612353df38",
+      "output": {
+        "title": "Deployed successfully",
+        "summary": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>e420858</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://e418e6f8.napravipozivnicu.pages.dev'>https://e418e6f8.napravipozivnicu.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/e418e6f8-626a-4b9b-8c2a-a7612353df38)\n",
+        "text": null,
+        "annotations_count": 0,
+        "annotations_url": "https://api.github.com/repos/101bgd/napravipozivnicu/check-runs/122024334125/annotations"
+      }
+    }
+  ]
+}

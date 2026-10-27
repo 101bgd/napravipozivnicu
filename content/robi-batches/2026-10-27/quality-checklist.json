@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batchId": "2026-10-27",
-  "checkedAt": "2026-10-27T05:10:48Z",
+  "checkedAt": "2026-10-27T05:18:09Z",
   "prePublicationStatus": "PROŠLO",
   "prePublicationPassed": 19,
   "requiredPrePublicationChecks": 19,
@@ -180,7 +180,8 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
@@ -358,7 +359,8 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
@@ -536,7 +538,8 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
@@ -714,7 +717,8 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
@@ -892,7 +896,8 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
@@ -1070,19 +1075,30 @@
       ],
       "publicVerification": {
         "status": "NEPROVERENO",
-        "reason": "Not published yet at checkpoint."
+        "evidence": "public-live-checks.json",
+        "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
       "userAestheticReview": "awaiting_user",
       "pointsAwardedByAgent": 0
     }
   ],
   "publication": {
-    "status": "NEPROVERENO"
+    "status": "PROŠLO",
+    "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+    "atomic": true,
+    "cloudflare": "success",
+    "completedAt": "2026-10-27T05:17:01Z",
+    "evidence": [
+      "deployment-check.json",
+      "production-readback.json"
+    ]
   },
   "deadline": {
     "deadline": "2026-10-27T10:00:00+09:00",
     "status": "PALO",
-    "reason": "Interrupted execution exceeded deadline; late completion cannot be counted on time."
+    "reason": "Interrupted execution exceeded deadline; late completion cannot be counted on time.",
+    "completedAtTokyo": "2026-10-27T14:17:01+09:00",
+    "lateSeconds": 15421
   },
   "actualDimensions": {
     "source": [
@@ -1113,5 +1129,11 @@
     "total": 1,
     "target": 50,
     "awardedByThisRun": 0
-  }
+  },
+  "postPublication": {
+    "status": "NEPROVERENO",
+    "evidence": "public-live-checks.json",
+    "reason": "All six proxyCONNECT403 before destination response; no public page/editor/export/SEO/AdSense success asserted."
+  },
+  "finalStatus": "BLOKIRANO"
 }

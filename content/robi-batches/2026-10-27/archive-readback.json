@@ -1,0 +1,20 @@
+{
+  "commit": "acc185466a27347f4e11d00fbfb38498c7f449f5",
+  "binaryCount": 45,
+  "textCount": 50,
+  "allMatched": true,
+  "verifiedProduction": {
+    "commit": "e4208580a0f7252838599b79f8213abd91008fd9",
+    "files": 20,
+    "textFiles": 8,
+    "binaryFiles": 12,
+    "allExpectedHashesMatched": true,
+    "oldBlobCount": 455,
+    "preservedParentBlobs": 451,
+    "oldTemplatesPreserved": 36,
+    "noRetiredDesignRestored": true,
+    "force": false
+  },
+  "checkedAt": "2026-10-27T05:18:09Z",
+  "note": "Final updated control documents are read back after final commit; binary source objects are unchanged."
+}

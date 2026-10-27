@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-27T05:15:06.705549+00:00",
+  "productionCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+  "checks": [
+    {
+      "id": "prva-melodija",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+      "checkedAt": "2026-10-27T05:15:06.684981+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "zlatni-saksofon",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+      "checkedAt": "2026-10-27T05:15:06.685468+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "satorska-avantura",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+      "checkedAt": "2026-10-27T05:15:06.685739+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "magnolijin-zavet",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+      "checkedAt": "2026-10-27T05:15:06.685942+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "perunika-blagoslova",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+      "checkedAt": "2026-10-27T05:15:06.686134+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "plava-kapica-radosti",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+      "checkedAt": "2026-10-27T05:15:06.686392+00:00",
+      "method": "HTTPS GET via inherited proxy, TLS verification enabled",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    }
+  ],
+  "networkBypassUsed": false,
+  "proxyAndTlsPreserved": true,
+  "interpretation": "CONNECT403 is an environment proxy refusal before a destination HTTP response, not a403 response from the website. No public page/editor/export/AdSense pass is inferred."
+}

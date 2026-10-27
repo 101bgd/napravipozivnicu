@@ -1,0 +1,12 @@
+{
+  "id": "2026-10-27",
+  "status": "deployed_live_verification_blocked",
+  "generatedCount": 6,
+  "preparedCount": 6,
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "completionVerified": false,
+  "productionCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+  "deadlineMet": false,
+  "doNotRepublish": true
+}

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-27T05:18:09.004903+00:00",
+  "productionCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
+  "checks": [
+    {
+      "id": "prva-melodija",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+      "checkedAt": "2026-10-27T05:18:08.979910+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "zlatni-saksofon",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+      "checkedAt": "2026-10-27T05:18:08.980355+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "satorska-avantura",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+      "checkedAt": "2026-10-27T05:18:08.980626+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "magnolijin-zavet",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+      "checkedAt": "2026-10-27T05:18:08.980810+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "perunika-blagoslova",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+      "checkedAt": "2026-10-27T05:18:08.980984+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    },
+    {
+      "id": "plava-kapica-radosti",
+      "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+      "checkedAt": "2026-10-27T05:18:08.981175+00:00",
+      "method": "HTTPS GET via inherited proxy with TLS verification",
+      "status": "blocked",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "kind": "proxy_connect_denial",
+      "destinationResponseReceived": false,
+      "publicEditorAndExport": "NEPROVERENO"
+    }
+  ],
+  "networkBypassUsed": false,
+  "proxyAndTlsPreserved": true,
+  "interpretation": "CONNECT403 is a proxy refusal before a destination response. Repository deployment does not establish public editor/export or real AdSense success."
+}
