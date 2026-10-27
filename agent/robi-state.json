@@ -2120,7 +2120,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/prva-melodija.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/prva-melodija.webp",
+          "userAestheticReview": "rejected_visual_quality"
         },
         {
           "id": "zlatni-saksofon",
@@ -2138,7 +2139,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp",
+          "userAestheticReview": "rejected_visual_quality"
         },
         {
           "id": "satorska-avantura",
@@ -2156,7 +2158,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/satorska-avantura.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/satorska-avantura.webp",
+          "userAestheticReview": "rejected_visual_quality"
         },
         {
           "id": "magnolijin-zavet",
@@ -2174,7 +2177,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp",
+          "userAestheticReview": "rejected_visual_quality"
         },
         {
           "id": "perunika-blagoslova",
@@ -2192,7 +2196,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp",
+          "userAestheticReview": "rejected_visual_quality"
         },
         {
           "id": "plava-kapica-radosti",
@@ -2210,7 +2215,8 @@
             2100
           ],
           "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
-          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp"
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp",
+          "userAestheticReview": "rejected_visual_quality"
         }
       ],
       "report": "content/robi-batches/2026-10-27/REPORT.md",
@@ -2280,9 +2286,19 @@
         }
       ],
       "userReview": {
-        "status": "awaiting_user_review",
+        "status": "rejected_visual_quality",
+        "recordedAt": "2026-10-27T05:48:28Z",
+        "evidence": "content/robi-batches/2026-10-27/user-review.json",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "aestheticApproval": false,
         "aestheticApprovalAssumed": false,
-        "pointsAwardedThisBatch": 0
+        "findings": [
+          "backgrounds_look_too_cheap",
+          "fonts_look_too_cheap"
+        ],
+        "pointsAwardedThisBatch": 0,
+        "productionDeletionRequested": false,
+        "immediateReplacementExplicitlyRequested": false
       },
       "notification": {
         "channel": "ChatGPT",
@@ -2296,7 +2312,14 @@
         "Complete permitted real public page/editor/export/category/sitemap/SEO/AdSense checks when access becomes available. Never invent a pass or bypass network rules.",
         "Next planned creative batch: female childage6, male next7. Confirmed counters unchanged pending full required verification.",
         "Record only explicit user aesthetic feedback and awards."
-      ]
+      ],
+      "qualityOutcome": {
+        "userAestheticStatus": "PALO",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "technicalHistoryPreserved": true
+      }
     }
   ],
   "history": [
@@ -2581,7 +2604,12 @@
       "audience": "male",
       "birthdayAge": 6,
       "late": true,
-      "userAestheticApproval": false
+      "userAestheticApproval": false,
+      "userReview": {
+        "status": "rejected_visual_quality",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "recordedAt": "2026-10-27T05:48:28Z"
+      }
     }
   ],
   "automations": {
@@ -2627,20 +2655,21 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T05:18:09Z",
+  "updatedAt": "2026-10-27T05:48:28Z",
   "latestUserFeedback": {
-    "dateTokyo": "2026-10-25",
-    "recordedAt": "2026-10-25T03:44:45Z",
-    "source": "agent/feedback/2026-10-25-premium-typography.json",
+    "dateTokyo": "2026-10-27",
+    "recordedAt": "2026-10-27T05:48:28Z",
+    "source": "agent/feedback/2026-10-27-visual-quality.json",
     "previousSources": [
+      "agent/feedback/2026-10-25-premium-typography.json",
       "agent/feedback/2026-10-24-extra-01.json",
       "agent/feedback/2026-10-24-restart.json",
       "agent/feedback/2026-10-23-user-rejection.json",
       "content/robi-batches/2026-10-22/restart-01/user-review.json",
       "content/robi-batches/2026-10-21/user-review.json"
     ],
-    "effectiveFrom": "immediately_and_future_batches",
-    "appliedInBatch": "2026-10-25",
+    "effectiveFrom": "immediately_for_review_records_and_future_batches",
+    "appliedInBatch": "2026-10-27",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -2651,11 +2680,13 @@
       "review_actual_final_palettes_individually_and_as_a_batch",
       "premium_occasion_specific_typography",
       "formal_type_pairing_without_casual_marker_handwriting",
-      "review_all_required_checks_after_typography_revision"
+      "review_all_required_checks_after_typography_revision",
+      "premium_background_visual_quality",
+      "cohesive_background_typography_and_layout",
+      "aesthetic_review_requires_actual_visual_reasoning_not_font_names_or_technical_checks"
     ],
-    "newSeriesAestheticReview": "original_typography_rejected_revision_awaiting_user_review",
-    "requiredAction": "revise_all_current_six_type_designs_and_preserve_prior_history",
-    "typographyRevisionReport": "content/robi-batches/2026-10-25/typography-01/REPORT.md"
+    "newSeriesAestheticReview": "rejected_by_user_both_backgrounds_and_typography",
+    "requiredAction": "Record failed user aesthetic review, correct self-assessment and apply feedback to future designs; do not infer catalogue deletion or start an unsolicited extra batch."
   },
   "score": {
     "regularPoints": 1,

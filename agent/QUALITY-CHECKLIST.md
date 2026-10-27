@@ -31,6 +31,7 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Dizajn ispunjava ceo format; važni ukrasi ostaju najmanje 5 mm unutar ivica.
 - [ ] Nema vidljivih grešaka ilustracije, deformisanih detalja, neželjenih objekata ili neprikladnog sadržaja.
 - [ ] Prostor i kompozicija omogućavaju čitljiv tekst na ovoj konkretnoj pozadini.
+- [ ] Primenjena je ocena od27.10.2026: stvarna ilustracija, detalji i kompozicija pozadine ocenjeni su i po vizuelnoj obradi, uz konkretno obrazloženje. Sama originalnost, jarka boja ili ispravan format nisu dokaz premium izgleda. Izvor: `agent/feedback/2026-10-27-visual-quality.json`.
 - [ ] Paleta je vizuelno dovoljno živa i izražajna za konkretnu priliku, posebno za dečje rođendane, u skladu sa korisnikovom primedbom od 22.10.2026. Zabeležene su dominantne boje i procena stvarnog finalnog prikaza; same vrednosti boja nisu dokaz estetskog kvaliteta.
 - [ ] Čitljivost se postiže rasporedom i lokalnim kontrastom, bez izbleđivanja cele ilustracije. Pregledani su stvarni mobilni i PNG/PDF prikazi; paleta odgovara publici i prilici. Korisnik nije propisao fiksne boje ili numerički prag zasićenosti.
 
@@ -41,6 +42,7 @@ Za svaku stavku upisati **PROŠLO / PALO / NEPROVERENO**, dokaz (datoteka, izmer
 - [ ] Za venčanje su proverena imena i detalji događaja; za krštenje detalji obreda i proslave.
 - [ ] Raspored i fontovi odgovaraju pozadini; tekst ne prekriva važne ilustracije.
 - [ ] Primenjena je primedba25.10.2026: za svaki šablon obrazložen je prikladan, usklađen par fontova, sa jasnom hijerarhijom, pažljivim razmacima i stvarnim pregledom glifova. Svečane prilike imaju elegantnu kaligrafiju ili klasično serifno pismo; ležeran markerni rukopis nije automatski izbor.
+- [ ] Pozadina, fontovi i raspored pregledani su kao jedna završna pozivnica; obrazloženi su sklad, hijerarhija i obrada detalja. Naziv porodice fonta, licenca ili tehnički prolazak nisu zamena za ovu procenu. Korisnikova ocena od27.10.2026. da su i fontovi i pozadine jeftinog izgleda ostaje zabeležena kao estetski neuspeh.
 - [ ] Tipografija je stvarno pregledana na telefonu i u otvorenim PNG/PDF datotekama posle poslednje izmene. Promenjen font sam po sebi ne dokazuje kvalitet; korisnikovo estetsko odobrenje i bodovi se ne pretpostavljaju.
 - [ ] Testirana su duža imena i lokacije; nema preklapanja, odsecanja ili izlaska iz dozvoljenih margina.
 - [ ] Pravilno se prikazuju č, ć, š, ž i đ, kao i druga slova potrebna izabranom pismu.

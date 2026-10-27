@@ -66,6 +66,22 @@
         "quote": "sad sve sablone izmeni, ne znam odakle si naucio da postavljas tako jeftin i ruzan font, pogotovo za svecanije prilike, menjaj font na svakoj da sajt zadrzi premium feeling, a ne random pozivnice od pre 20 godina sa paint msa. Na pocetku si perfektan bio, sad fusaris i forsiras jeftini izgled. Moras sve tacke ispunjavati da bih ti dao poen. Robi, fokusiraj se"
       },
       "feedback": "agent/feedback/2026-10-25-premium-typography.json"
+    },
+    {
+      "id": "user-review-2026-10-27-visual-quality",
+      "batchId": "2026-10-27",
+      "dateTokyo": "2026-10-27",
+      "recordedAt": "2026-10-27T05:48:28Z",
+      "period": "2026-10",
+      "reviewer": "user",
+      "status": "rejected_visual_quality",
+      "pointType": "none",
+      "points": 0,
+      "source": {
+        "channel": "ChatGPT",
+        "quote": "previse jeftin izgled svih pozivnica kako fonta tako i pozadine"
+      },
+      "feedback": "agent/feedback/2026-10-27-visual-quality.json"
     }
   ],
   "bonusAwards": []

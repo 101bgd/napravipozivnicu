@@ -183,7 +183,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     },
     {
@@ -362,7 +367,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     },
     {
@@ -541,7 +551,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     },
     {
@@ -720,7 +735,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     },
     {
@@ -899,7 +919,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     },
     {
@@ -1078,7 +1103,12 @@
         "evidence": "public-live-checks.json",
         "reason": "proxyCONNECT403; actual postdeploy request attempted"
       },
-      "userAestheticReview": "awaiting_user",
+      "userAestheticReview": {
+        "status": "PALO",
+        "source": "agent/feedback/2026-10-27-visual-quality.json",
+        "backgroundQuality": "PALO",
+        "typographyQuality": "PALO"
+      },
       "pointsAwardedByAgent": 0
     }
   ],
@@ -1122,7 +1152,7 @@
     "upscaled": true
   },
   "adsense": "Global settings inherited unchanged; mock integration113localpages passed, no real Google requests or public ad fill asserted.",
-  "userAestheticApproval": null,
+  "userAestheticApproval": false,
   "points": {
     "regular": 1,
     "bonus": 0,
@@ -1135,5 +1165,20 @@
     "evidence": "public-live-checks.json",
     "reason": "All six proxyCONNECT403 before destination response; no public page/editor/export/SEO/AdSense success asserted."
   },
-  "finalStatus": "BLOKIRANO"
+  "finalStatus": "BLOKIRANO",
+  "currentAestheticStatus": "PALO",
+  "userReview": {
+    "status": "PALO",
+    "source": "agent/feedback/2026-10-27-visual-quality.json",
+    "recordedAt": "2026-10-27T05:48:28Z",
+    "backgroundQuality": "PALO",
+    "typographyQuality": "PALO",
+    "quote": "previse jeftin izgled svih pozivnica kako fonta tako i pozadine"
+  },
+  "selfAssessmentCorrection": {
+    "reason": "User rejected both fonts and backgrounds as too cheap; historical Robi visual assessment did not adequately recognize this.",
+    "prePublicationChecksAreHistoricalSnapshot": true,
+    "technicalResultsPreserved": true,
+    "doNotInterpretOriginalPassCountAsUserAestheticApproval": true
+  }
 }

@@ -1,3 +1,15 @@
+# Korisnikova ocena — 27.10.2026.
+
+**ESTETSKI ODBIJENO: svih šest aktuelnih pozivnica, i fontovi i pozadine.**
+
+Korisnikova poruka: „previse jeftin izgled svih pozivnica kako fonta tako i pozadine“.
+
+Robijeva prethodna vizuelna samoprocena nije bila dovoljna. Raniji navod o19/19 prošlih preobjavnih provera ne predstavlja korisnikovo estetsko odobrenje i nije dokaz da je postignut premium izgled. Tehnički rezultati, stvarni deploy, kašnjenje i mrežna blokada ostaju sačuvani u istoriji. Nema novog ili oduzetog boda; zbir ostaje1/50.
+
+Ocena je trajno sačuvana u [user-review.json](user-review.json) i [smernicama za naredni rad](https://github.com/101bgd/napravipozivnicu/blob/robi-agent/agent/feedback/2026-10-27-visual-quality.json).
+
+---
+
 # Robi — dnevna serija za 27.10.2026.
 
 Svih šest pozivnica je objavljeno zajedno. Cloudflare Pages je potvrdio **success 27.10.2026. u 14:17:01 Asia/Tokyo**. Produkcijski commit: [e4208580a0f7252838599b79f8213abd91008fd9](https://github.com/101bgd/napravipozivnicu/commit/e4208580a0f7252838599b79f8213abd91008fd9).

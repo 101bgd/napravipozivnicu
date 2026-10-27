@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "user-review-2026-10-27-visual-quality",
+  "batchId": "2026-10-27",
+  "dateTokyo": "2026-10-27",
+  "recordedAt": "2026-10-27T05:48:28Z",
+  "reviewer": "user",
+  "source": {
+    "channel": "ChatGPT",
+    "quote": "previse jeftin izgled svih pozivnica kako fonta tako i pozadine"
+  },
+  "status": "rejected_visual_quality",
+  "aestheticApproval": false,
+  "affectedDesignIds": [
+    "prva-melodija",
+    "zlatni-saksofon",
+    "satorska-avantura",
+    "magnolijin-zavet",
+    "perunika-blagoslova",
+    "plava-kapica-radosti"
+  ],
+  "scope": {
+    "currentBatch": "all_six_2026-10-27_templates",
+    "interpretation": "Current six-template report is the immediate context; no claim user inspected every older catalogue entry.",
+    "future": "all_new_or_edited_templates"
+  },
+  "findings": [
+    {
+      "area": "background_design",
+      "status": "PALO",
+      "finding": "Korisnik ocenjuje izgled pozadina kao previše jeftin."
+    },
+    {
+      "area": "typography",
+      "status": "PALO",
+      "finding": "Korisnik ocenjuje izgled fontova kao previše jeftin."
+    }
+  ],
+  "retainedRequirements": [
+    "Premium izgled celog sajta i pozivnica, primeren prilici.",
+    "Krupniji uravnotežen tekst, blizina uzrasta i povoda, optičko centriranje.",
+    "Življe i raznovrsne palete, posebno za dečje proslave.",
+    "Neuspešna pozadina se zamenjuje novom generacijom potpuno drugačijeg motiva i kompozicije."
+  ],
+  "operationalImprovements": [
+    {
+      "rule": "Review background, typography and layout together as one finished invitation, with concrete visual reasoning from actual previews, mobile and print outputs.",
+      "origin": "Robi operational response to user's premium-quality rejection"
+    },
+    {
+      "rule": "Font family names, license, size, saturated colors, file validity and test counts do not establish premium visual quality.",
+      "origin": "Correction of inadequate self-assessment after explicit user rejection"
+    },
+    {
+      "rule": "When a future replacement is requested, rejecting both fonts and backgrounds requires reconsidering the whole art direction, rather than changing only the font or recoloring the same rejected illustration.",
+      "origin": "Application of existing redesign policy and current two-part feedback"
+    }
+  ],
+  "specificNewPaletteOrFontNotSpecified": true,
+  "doNotInventUserStylePreferences": true,
+  "productionDeletionRequested": false,
+  "immediateReplacementExplicitlyRequested": false,
+  "productionChangesByThisFeedbackUpdate": false,
+  "technicalTestHistoryPreserved": true,
+  "technicalSuccessDoesNotOverrideUserRejection": true,
+  "points": {
+    "regularAwarded": 0,
+    "bonusAwarded": 0,
+    "revoked": 0,
+    "totalRemains": 1,
+    "target": 50
+  }
+}

@@ -35,5 +35,13 @@
     "awardedByThisRun": 0
   },
   "newProductionChangesByThisRun": true,
-  "duplicateCreated": false
+  "duplicateCreated": false,
+  "userReview": {
+    "status": "PALO",
+    "source": "agent/feedback/2026-10-27-visual-quality.json",
+    "recordedAt": "2026-10-27T05:48:28Z",
+    "backgroundQuality": "PALO",
+    "typographyQuality": "PALO"
+  },
+  "userAestheticApproval": false
 }

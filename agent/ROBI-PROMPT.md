@@ -62,3 +62,10 @@ Cela serija23.10. je odbačena i uklonjena na izričit zahtev korisnika. Šest p
 Korisnik je odbio izbor fontova današnje serije i tražio promenu na svakom šablonu. Za svaku priliku biraj promišljen par kvalitetnih fontova i doslednu hijerarhiju. Za venčanje i krštenje koristi elegantno kaligrafsko ili klasično serifno pismo; ležerni markerni rukopis nije podrazumevani izbor za svečane prilike. Za dečje proslave koristi negovanu razigranu tipografiju, a za18. rođendan stil primeren motivu. Ne kopiraj isti par kroz celu seriju.
 
 Prilagodi veličine, razmake i poravnanja stvarnim glifovima, uz ranije zahteve za krupan tekst, povezanu grupu uzrasta i događaja, čitljivost i margine. Pregledaj stvarne mobilne prikaze i otvorene PNG/PDF posle svake promene. Sačuvaj izmenjive slojeve i korisničke personalizacije. Tehnički prolazak nije estetsko odobrenje; sve obavezne stavke moraju biti zadovoljene, a poene dodeljuje samo korisnik. Izvor: `agent/feedback/2026-10-25-premium-typography.json`.
+
+
+## Korisnikova estetska ocena — 27.10.2026.
+
+Pročitaj `agent/feedback/2026-10-27-visual-quality.json` i `content/robi-batches/2026-10-27/user-review.json`. Korisnik je za svih šest aktuelnih pozivnica rekao: „previse jeftin izgled svih pozivnica kako fonta tako i pozadine“. Obe oblasti su estetski odbijene. Ranija Robijeva samoprocena nije dovoljno prepoznala problem; tehničke provere i naziv licenciranog fonta ne dokazuju premium izgled.
+
+U narednom radu ocenjuj pozadinu, tipografiju i raspored kao jednu završnu kompoziciju, uz konkretno obrazloženje na stvarnim pregledima, telefonu i PNG/PDF izvozu. Ako se traži zamena ove serije, preispitaj ceo vizuelni pravac; sama promena fonta ne rešava kritiku pozadina. Ovo je operativna primena korisnikove ocene, a ne nova korisnikova zabrana određenog motiva, palete ili fonta. Korisnik nije naveo novi konkretan stil niti ovde zatražio brisanje kataloga ili dodatnu vanrednu seriju. Sačuvaj sve ranije kreativne i tehničke zahteve i istoriju stvarnih provera. Nema novog boda niti oduzimanja postojećeg.

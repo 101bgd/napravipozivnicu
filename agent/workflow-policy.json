@@ -269,6 +269,21 @@
         "actual_opened_png_pdf",
         "long_text_bounds_and_contrast"
       ],
+      "userAestheticApprovalCannotBeInferred": true,
+      "latestAdditionalFeedback": "agent/feedback/2026-10-27-visual-quality.json"
+    },
+    "visualQualityReview": {
+      "source": "agent/feedback/2026-10-27-visual-quality.json",
+      "effectiveFrom": "immediately_and_future_batches",
+      "userFinding": "All current six invitations look too cheap in both typography and backgrounds.",
+      "requirements": [
+        "Treat premium background design and premium typography as a combined visual outcome, appropriate to each occasion.",
+        "Use the actual complete invitation, mobile view and print output for the visual assessment, documenting concrete strengths and defects rather than relying on font names or technical test counts.",
+        "Preserve the user's rejection separately from historical technical test results; do not claim a technically passed batch met the user's aesthetic standard.",
+        "Keep previous text, palette, full redesign, safe margins, editable export and publication requirements in force."
+      ],
+      "operationalGuidanceOrigin": "Robi implementation of explicit user visual-quality feedback; no specific new style/font/palette was supplied.",
+      "noNewNumericThresholds": true,
       "userAestheticApprovalCannotBeInferred": true
     }
   },
