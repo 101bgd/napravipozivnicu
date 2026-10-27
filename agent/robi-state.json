@@ -2623,7 +2623,7 @@
       "date": "2026-10-27",
       "path": "content/robi-batches/2026-10-27/replacement-01",
       "kind": "explicit_replacement_of_rejected_series",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "audience": "male",
       "birthdayAge": 6,
       "requiredCount": 6,
@@ -2752,12 +2752,14 @@
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
       "rejectedCount": 6,
-      "lastConfirmedStep": "All6 passed19/19 prepublicationchecks including actual completevisualreview/mobile/PNG/PDF;48binaryobjects uploaded andhashmatched; archive commit/readback pending.",
+      "lastConfirmedStep": "Complete48binary/79textarchive readbackpassed; all6prechecks passed; publishing one31-filemaincommit.",
       "preliminaryRenderChecks": "passed_default_and_long_text",
       "artifactPersistence": {
-        "status": "all48objects_uploaded_pending_control_commit",
+        "status": "required_artifacts_saved_and_read_back",
         "binaryFiles": 48,
-        "allUploadedHashesMatched": true
+        "textFiles": 79,
+        "allHashesMatched": true,
+        "controlCommit": "534dbe66864ef8ab4fca02494784d3537f1b2a9f"
       },
       "prePublicationChecks": "passed",
       "preparedAt": "2026-10-27T11:36:14Z",
@@ -2765,6 +2767,12 @@
         "status": "awaiting_user_review",
         "aestheticApproval": null,
         "pointsAwardedThisBatch": 0
+      },
+      "publication": {
+        "status": "publishing",
+        "atomic": true,
+        "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+        "startedAt": "2026-10-27T11:50:24Z"
       }
     }
   ],
@@ -3083,7 +3091,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-27-replacement-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -3105,7 +3113,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T11:36:14Z",
+  "updatedAt": "2026-10-27T11:50:24Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
