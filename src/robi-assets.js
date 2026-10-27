@@ -307,5 +307,53 @@ export const robiAssets = new Map([
   [
     "872bc062-e005-5173-9852-927c7d888036",
     "/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-thumbnail-ad19f04a4179.webp"
+  ],
+  [
+    "b96baca2-1404-5e6e-b01a-6f7302e60967",
+    "/assets/pozivnice/robi/2026-10-27/prva-melodija-background-4983ed97c8bd.webp"
+  ],
+  [
+    "7001adf7-b491-5904-ae80-e17246e1014e",
+    "/assets/pozivnice/robi/2026-10-27/prva-melodija-thumbnail-6c9cf894efc3.webp"
+  ],
+  [
+    "0c98e90a-ed4b-55c4-b375-8d02032e0c65",
+    "/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-background-99956314516f.webp"
+  ],
+  [
+    "3c7395c2-1543-5a1a-938b-ea7fc5f3d9c9",
+    "/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-thumbnail-d2cd789bd633.webp"
+  ],
+  [
+    "ceaeaed6-0d7f-55a9-a459-dbeadf44311f",
+    "/assets/pozivnice/robi/2026-10-27/satorska-avantura-background-412016828ffa.webp"
+  ],
+  [
+    "c4d361d2-ab29-597e-89db-79b16f3c1485",
+    "/assets/pozivnice/robi/2026-10-27/satorska-avantura-thumbnail-d70dc9b1bba4.webp"
+  ],
+  [
+    "1ce3d6e3-7823-5402-95d8-957c6e70b2fb",
+    "/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-background-e82b816c0040.webp"
+  ],
+  [
+    "7a79aae0-88b7-5e80-abe8-ab1ef2e33b0d",
+    "/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-thumbnail-b6e7088e9389.webp"
+  ],
+  [
+    "727ab1b6-102f-5873-a72e-9ad07dcd4ec1",
+    "/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-background-aae63a214553.webp"
+  ],
+  [
+    "4bfaf7b7-3c9c-5379-8bd7-3661c9211afc",
+    "/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-thumbnail-3c6f21772ef0.webp"
+  ],
+  [
+    "d7369318-8d84-5ffa-b99b-0c68696dbe44",
+    "/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-background-70d04c6b317d.webp"
+  ],
+  [
+    "1757c510-e072-594c-8729-16cee69e2eaa",
+    "/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-thumbnail-3b901ef8d543.webp"
   ]
 ]);

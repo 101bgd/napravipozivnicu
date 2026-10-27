@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T23:28:07.369Z",
+  "updatedAt": "2026-10-27T01:33:14.875Z",
   "motifs": {
     "jeziceva-radost": "sa ježićem i kruškom",
     "noc-na-vinilu": "sa vinilnom pločom",
@@ -91,6 +91,12 @@
     "aksolotlova-zurka": "sa ružičastim aksolotlom i mehurićima",
     "jasminov-zavet": "sa belim jasminom i zelenim grančicama",
     "biser-krstenja": "sa sedefnom školjkom i zlatnim krstom",
-    "zvecka-nove-radosti": "sa drvenom zvečkom i koralnom mašnom"
+    "zvecka-nove-radosti": "sa drvenom zvečkom i koralnom mašnom",
+    "prva-melodija": "sa šarenim drvenim ksilofonom",
+    "zlatni-saksofon": "sa zlatnim saksofonom na tamnoj podlozi",
+    "satorska-avantura": "sa narandžastim šatorom i fenjerom",
+    "magnolijin-zavet": "sa belom magnolijom i zelenim listovima",
+    "perunika-blagoslova": "sa belom perunikom i zlatnim krstom",
+    "plava-kapica-radosti": "sa pletenom plavom kapicom i mašnom"
   }
 }
