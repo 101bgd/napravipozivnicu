@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "ready_to_publish",
+      "status": "publishing",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2216,7 +2216,7 @@
       "report": "content/robi-batches/2026-10-27/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/quality-checklist.json",
       "rejectedCount": 3,
-      "lastConfirmedStep": "All six passed19/19prepublication checks;45binary uploads SHA matched; build,97page titles,113page AdSense mock, real mobilePNG/PDF and full production tests passed.",
+      "lastConfirmedStep": "All required artifacts committed and read back; all prepublication checks passed. One atomic20-file main publication now in progress.",
       "sourceDimensions": [
         1060,
         1484
@@ -2238,10 +2238,18 @@
       "prePublicationChecks": "passed",
       "preparedAt": "2026-10-27T05:11:59Z",
       "artifactPersistence": {
-        "status": "binary_objects_uploaded_pending_control_commit",
+        "status": "required_artifacts_saved_and_read_back",
         "binaryFiles": 45,
-        "allUploadedHashesMatched": true,
+        "textFiles": 50,
+        "allHashesMatched": true,
+        "controlCommit": "acc185466a27347f4e11d00fbfb38498c7f449f5",
         "controlPath": "content/robi-batches/2026-10-27"
+      },
+      "publication": {
+        "status": "publishing",
+        "atomic": true,
+        "expectedParent": "2584dfb5558dd909bb42b3288b772568225a4505",
+        "startedAt": "2026-10-27T05:13:41Z"
       }
     }
   ],
@@ -2520,7 +2528,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "ready_to_publish",
+  "status": "publishing",
   "activeBatch": "2026-10-27",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -2542,7 +2550,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T05:11:59Z",
+  "updatedAt": "2026-10-27T05:13:41Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-25",
     "recordedAt": "2026-10-25T03:44:45Z",
