@@ -2276,13 +2276,12 @@
       },
       "mainCommit": "e4208580a0f7252838599b79f8213abd91008fd9",
       "mainUpdatedAt": "2026-10-27T05:14:07Z",
-      "blockedStage": "post_publication_verification",
+      "blockedStage": "live_removal_verification",
       "deliveryDeadlineMet": false,
       "publicVerification": {
-        "status": "blocked",
-        "checkedAt": "2026-10-27T05:18:09.004903+00:00",
-        "evidence": "content/robi-batches/2026-10-27/public-live-checks.json",
-        "reason": "All six HTTPS GET requests blocked at proxyCONNECT403 before any destination response; public editor/exports/SEO/category/sitemap/AdSense remainNEPROVERENO."
+        "status": "removed_live_verification_unverified",
+        "evidence": "agent/removals/2026-10-27.json",
+        "reason": "RemovalCloudflare deployment succeeded; six actual destinationchecks blocked by proxyCONNECT403."
       },
       "blockers": [
         {
@@ -2314,10 +2313,9 @@
         "deliveryNote": "Final ChatGPT response is the user notification; file creation alone is not delivery confirmation."
       },
       "resumeActions": [
-        "Do not regenerate or republish27October: all6 deployed in commite4208580a0f7252838599b79f8213abd91008fd9.",
-        "Complete permitted real public page/editor/export/category/sitemap/SEO/AdSense checks when access becomes available. Never invent a pass or bypass network rules.",
-        "Next planned creative batch: female childage6, male next7. Confirmed counters unchanged pending full required verification.",
-        "Record only explicit user aesthetic feedback and awards."
+        "Never restore any of the six retired27October designs.",
+        "If permitted publicaccess becomesavailable, verify removal404only; do not resume their editors/publication.",
+        "Current authorized work is the entirelynew2026-10-27-replacement-01 batch."
       ],
       "qualityOutcome": {
         "userAestheticStatus": "PALO",
@@ -2612,14 +2610,20 @@
         }
       },
       "currentlyPublishedCount": 0,
-      "deployedCatalogEntriesRemaining": 0
+      "deployedCatalogEntriesRemaining": 0,
+      "previousPublicVerification": {
+        "status": "blocked",
+        "checkedAt": "2026-10-27T05:18:09.004903+00:00",
+        "evidence": "content/robi-batches/2026-10-27/public-live-checks.json",
+        "reason": "All six HTTPS GET requests blocked at proxyCONNECT403 before any destination response; public editor/exports/SEO/category/sitemap/AdSense remainNEPROVERENO."
+      }
     },
     {
       "id": "2026-10-27-replacement-01",
       "date": "2026-10-27",
       "path": "content/robi-batches/2026-10-27/replacement-01",
       "kind": "explicit_replacement_of_rejected_series",
-      "status": "checking",
+      "status": "ready_to_publish",
       "audience": "male",
       "birthdayAge": 6,
       "requiredCount": 6,
@@ -2642,7 +2646,17 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/misji-prvi-piknik.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-mis-sumske-jagode/"
         },
         {
           "id": "kobaltni-prelom",
@@ -2650,7 +2664,17 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/kobaltni-prelom.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-kobaltni-lukovi/"
         },
         {
           "id": "lemurova-dzungla",
@@ -2658,7 +2682,17 @@
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/lemurova-dzungla.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-lemur-tropska-dzungla/"
         },
         {
           "id": "anemonin-potpis",
@@ -2666,7 +2700,17 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/anemonin-potpis.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bele-anemone/"
         },
         {
           "id": "plava-nit-blagoslova",
@@ -2674,7 +2718,17 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/plava-nit-blagoslova.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-plava-brojanica-srebrni-krst/"
         },
         {
           "id": "polarni-mali-zagrljaj",
@@ -2682,18 +2736,35 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "generated"
+          "status": "ready_to_publish",
+          "sourceDimensions": [
+            1060,
+            1484
+          ],
+          "exportDimensions": [
+            1500,
+            2100
+          ],
+          "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/replacement-01/previews/polarni-mali-zagrljaj.webp",
+          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-polarni-medvedi/"
         }
       ],
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
       "rejectedCount": 6,
-      "lastConfirmedStep": "All6 render checks passed; production buildpassed; sources/rejected attempts/newfontfaces saved. Mobile/editor/actualPNG/PDF tests underway.",
+      "lastConfirmedStep": "All6 passed19/19 prepublicationchecks including actual completevisualreview/mobile/PNG/PDF;48binaryobjects uploaded andhashmatched; archive commit/readback pending.",
       "preliminaryRenderChecks": "passed_default_and_long_text",
       "artifactPersistence": {
-        "status": "sources_and_fonts_committed_pending_final_examples",
-        "binaryObjects": 18,
+        "status": "all48objects_uploaded_pending_control_commit",
+        "binaryFiles": 48,
         "allUploadedHashesMatched": true
+      },
+      "prePublicationChecks": "passed",
+      "preparedAt": "2026-10-27T11:36:14Z",
+      "userReview": {
+        "status": "awaiting_user_review",
+        "aestheticApproval": null,
+        "pointsAwardedThisBatch": 0
       }
     }
   ],
@@ -3012,7 +3083,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "checking",
+  "status": "ready_to_publish",
   "activeBatch": "2026-10-27-replacement-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -3034,7 +3105,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T11:25:02Z",
+  "updatedAt": "2026-10-27T11:36:14Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
@@ -3048,7 +3119,7 @@
       "content/robi-batches/2026-10-21/user-review.json"
     ],
     "effectiveFrom": "immediately_for_review_records_and_future_batches",
-    "appliedInBatch": "2026-10-27",
+    "appliedInBatch": "2026-10-27-replacement-01",
     "requiredImprovements": [
       "larger_text_and_better_space_use",
       "closer_age_and_birthday_group",
@@ -3064,8 +3135,9 @@
       "cohesive_background_typography_and_layout",
       "aesthetic_review_requires_actual_visual_reasoning_not_font_names_or_technical_checks"
     ],
-    "newSeriesAestheticReview": "rejected_by_user_both_backgrounds_and_typography",
-    "requiredAction": "Record failed user aesthetic review, correct self-assessment and apply feedback to future designs; do not infer catalogue deletion or start an unsolicited extra batch."
+    "newSeriesAestheticReview": "replacement_awaiting_user_review",
+    "requiredAction": "Record failed user aesthetic review, correct self-assessment and apply feedback to future designs; do not infer catalogue deletion or start an unsolicited extra batch.",
+    "lastRejectedBatch": "2026-10-27"
   },
   "score": {
     "regularPoints": 1,
@@ -3081,7 +3153,7 @@
     "female": 6
   },
   "planningNote": "Replacement of rejected male/age6 slot; previous retained batch26October was female/age5. Discarded series does not advance the retained creative sequence.",
-  "lastPublishedBatch": "2026-10-27",
+  "lastPublishedBatch": "2026-10-26",
   "latestUserDirective": {
     "source": "ChatGPT",
     "quote": "obrisi celu poslednju seriju potpuno sa sajta i kreni novu, potrudi se da je premium sve",

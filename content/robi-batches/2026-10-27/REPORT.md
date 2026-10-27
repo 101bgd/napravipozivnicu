@@ -1,3 +1,11 @@
+# Prethodna serija je UKLONJENA po zahtevu korisnika
+
+Svih šest odbačenih pozivnica uklonjeno je iz produkcije; Cloudflare success27.10.2026.u16:40:31Asia/Tokyo, commit 27529a436917069a9988f3a6aeb1bfdd3000961a. Nijedna se ne vraća automatski. Javnu proveru uklanjanja blokira proxyCONNECT403. Trenutna zamenska serija je u [replacement-01/REPORT.md](replacement-01/REPORT.md).
+
+Sledi sačuvan istorijski izveštaj i ocena prethodne serije; njihove stare adrese nisu aktuelne pozivnice.
+
+---
+
 # Korisnikova ocena — 27.10.2026.
 
 **ESTETSKI ODBIJENO: svih šest aktuelnih pozivnica, i fontovi i pozadine.**

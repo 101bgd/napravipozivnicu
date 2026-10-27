@@ -1,0 +1,1 @@
+Fontsource5.3.0 OFL sources; provenance stored with batch. Latin and Latin-ext subsets merged for Serbian. WOFF2 export with unchanged glyph outlines. Family, full and PostScript names renamed to the Napravi aliases to respect any Reserved Font Names. Original licenses retained.

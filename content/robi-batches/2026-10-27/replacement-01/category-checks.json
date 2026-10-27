@@ -1,0 +1,43 @@
+{
+  "newDesigns": [
+    {
+      "id": "misji-prvi-piknik",
+      "category": "first",
+      "path": "/pozivnice-za-prvi-rodjendan/",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "kobaltni-prelom",
+      "category": "eighteen",
+      "path": "/pozivnice-za-18-rodjendan/",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "lemurova-dzungla",
+      "category": "birthday",
+      "path": "/pozivnice-za-rodjendan/",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "anemonin-potpis",
+      "category": "wedding",
+      "path": "/pozivnice-za-vencanje/",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "plava-nit-blagoslova",
+      "category": "baptism",
+      "path": "/pozivnice-za-krstenje/",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "polarni-mali-zagrljaj",
+      "category": "baby",
+      "path": "/pozivnice-za-rodjenje-deteta/",
+      "status": "PROŠLO"
+    }
+  ],
+  "oldSixRemainAbsent": true,
+  "retainedRobiTemplates": 36,
+  "newRobiTemplates": 6
+}

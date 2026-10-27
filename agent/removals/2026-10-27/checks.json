@@ -1,0 +1,65 @@
+{
+  "status": "PROŠLO",
+  "designs": [
+    {
+      "id": "prva-melodija",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    },
+    {
+      "id": "zlatni-saksofon",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    },
+    {
+      "id": "satorska-avantura",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    },
+    {
+      "id": "magnolijin-zavet",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    },
+    {
+      "id": "perunika-blagoslova",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    },
+    {
+      "id": "plava-kapica-radosti",
+      "catalog": "PROŠLO",
+      "category": "PROŠLO",
+      "sitemap": "PROŠLO",
+      "page404": "PROŠLO",
+      "api404": "PROŠLO",
+      "asset404": "PROŠLO"
+    }
+  ],
+  "publishedAdminCopiesHidden": 6,
+  "unrelatedCopyPreserved": true,
+  "publicReadsDoNotMutateDatabase": true,
+  "authenticatedCleanupDeletesOnlyTargets": true,
+  "cleanupTestWasLocal": true,
+  "productionD1MutationPerformed": false
+}

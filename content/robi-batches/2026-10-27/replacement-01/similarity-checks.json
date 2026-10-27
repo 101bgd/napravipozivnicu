@@ -1,0 +1,196 @@
+{
+  "designs": [
+    {
+      "id": "anemonin-potpis",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "/workspace/work/robi-20261027/content/robi-batches/2026-10-27/backgrounds/plava-kapica-radosti.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-26/zvecka-nove-radosti-background-f712ba024ca7.webp",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/ledeni-hologram-pozadina-f0ce23fe9003.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "misji-prvi-piknik",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/smaragdna-premijera-pozadina-b5940e8056ee.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/savanska-druzina-pozadina-af7b6822e950.webp",
+          "distance63": 26
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "polarni-mali-zagrljaj",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/prva-tresnjica-pozadina-7297b8612a61.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-22/kolica-puna-radosti-background-49a04352c77a.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-25/zamak-veselih-zastava-background-4e9af4f631f6.webp",
+          "distance63": 24
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "lemurova-dzungla",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-25/sledeci-nivo-background-e1e90559eee9.webp",
+          "distance63": 20
+        },
+        {
+          "file": "content/robi-batches/2026-10-27/replacement-01/rejected/mozaik-blagoslova.png",
+          "distance63": 20
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/bordo-nokturno-pozadina-9b87a98d1c4e.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "kobaltni-prelom",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/deciji-rodjendani/svemirska-misija-pozadina-dc7e04e77e3c.webp",
+          "distance63": 22
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo/saten-i-biseri-pozadina-8d5283cae12f.webp",
+          "distance63": 22
+        },
+        {
+          "file": "/workspace/work/robi-20261027/content/robi-batches/2026-10-27/backgrounds/satorska-avantura.webp",
+          "distance63": 22
+        }
+      ],
+      "exactDuplicate": false
+    },
+    {
+      "id": "plava-nit-blagoslova",
+      "historyCount": 99,
+      "nearest": [
+        {
+          "file": "public/assets/pozivnice/robi/2026-10-21/lastino-malo-cudo-background-54d9f1e7827b.webp",
+          "distance63": 14
+        },
+        {
+          "file": "public/assets/pozivnice/prvi-rodjendan/medin-mesecev-san-pozadina-1334329de2a3.webp",
+          "distance63": 18
+        },
+        {
+          "file": "public/assets/pozivnice/punoletstvo-kolekcija/smaragdna-premijera-pozadina-b5940e8056ee.webp",
+          "distance63": 18
+        }
+      ],
+      "exactDuplicate": false
+    }
+  ],
+  "pairwise": [
+    {
+      "a": "anemonin-potpis",
+      "b": "misji-prvi-piknik",
+      "distance63": 44
+    },
+    {
+      "a": "anemonin-potpis",
+      "b": "polarni-mali-zagrljaj",
+      "distance63": 40
+    },
+    {
+      "a": "anemonin-potpis",
+      "b": "lemurova-dzungla",
+      "distance63": 22
+    },
+    {
+      "a": "anemonin-potpis",
+      "b": "kobaltni-prelom",
+      "distance63": 30
+    },
+    {
+      "a": "anemonin-potpis",
+      "b": "plava-nit-blagoslova",
+      "distance63": 34
+    },
+    {
+      "a": "misji-prvi-piknik",
+      "b": "polarni-mali-zagrljaj",
+      "distance63": 22
+    },
+    {
+      "a": "misji-prvi-piknik",
+      "b": "lemurova-dzungla",
+      "distance63": 34
+    },
+    {
+      "a": "misji-prvi-piknik",
+      "b": "kobaltni-prelom",
+      "distance63": 30
+    },
+    {
+      "a": "misji-prvi-piknik",
+      "b": "plava-nit-blagoslova",
+      "distance63": 26
+    },
+    {
+      "a": "polarni-mali-zagrljaj",
+      "b": "lemurova-dzungla",
+      "distance63": 30
+    },
+    {
+      "a": "polarni-mali-zagrljaj",
+      "b": "kobaltni-prelom",
+      "distance63": 26
+    },
+    {
+      "a": "polarni-mali-zagrljaj",
+      "b": "plava-nit-blagoslova",
+      "distance63": 36
+    },
+    {
+      "a": "lemurova-dzungla",
+      "b": "kobaltni-prelom",
+      "distance63": 28
+    },
+    {
+      "a": "lemurova-dzungla",
+      "b": "plava-nit-blagoslova",
+      "distance63": 32
+    },
+    {
+      "a": "kobaltni-prelom",
+      "b": "plava-nit-blagoslova",
+      "distance63": 26
+    }
+  ],
+  "visualReview": "New focal subjects, layouts and palettes reviewed against catalog motifs and retained rejection history; perceptual hash is supplementary, not aesthetic approval."
+}

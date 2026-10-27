@@ -1,0 +1,185 @@
+{
+  "batchId": "2026-10-27-replacement-01",
+  "status": "tested_pending_publication",
+  "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+  "textFiles": [
+    {
+      "path": "src/robi-assets.js",
+      "sha": "3daaea26cd080d58d82c750b9ecc628fe7fd7342"
+    },
+    {
+      "path": "src/robi-catalog.js",
+      "sha": "da757ea7da68a83e479ebb17cd85305a1e706a72"
+    },
+    {
+      "path": "src/robi-designs.js",
+      "sha": "5c67d9e6d246ae2254e8289a89523ffea6dcbfd8"
+    },
+    {
+      "path": "content/title-seo/motifs.json",
+      "sha": "06c674b11bc64dc800372c85eac31e6519c77aee"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/designs.mjs",
+      "sha": "a89530abbc2b7d5a0cd4e47fe1607c9eaf4f8c5a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/metadata.json",
+      "sha": "f3f3b8e10fa8e35edcba3f9e23e74d96e337bfdf"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/asset-ids.json",
+      "sha": "99722c09a5c24bb26bf667a9664c338158aa274b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/layout-tuning.json",
+      "sha": "f94ff50e6cadae0aeebc907f6b7e9a90a8211571"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/MODIFICATIONS.txt",
+      "sha": "583242a052112e9e634a2cf3e7d6bd4fb49f5618"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/OFL-bodoni-moda.txt",
+      "sha": "547fad241653825c15d13a782f3c58cf7b5723fd"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/OFL-bricolage-grotesque.txt",
+      "sha": "49135ef7afae97fd0746177f0975d23c125f5637"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/OFL-lora.txt",
+      "sha": "372d3cb875058b56de434648a1ef62b4ac085f52"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/OFL-sora.txt",
+      "sha": "915fb7706ae07366748cd32c4de64551efb970bb"
+    }
+  ],
+  "publicFiles": [
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/studio-sr-8f39fb907e75.woff2",
+      "id": "8a59d048-e40b-5e47-abea-1682acbd6f1e",
+      "bytes": 29116,
+      "sha256": "8f39fb907e7556b9ee5462bfa1de5cf988fa94e77d22ae6d9e758f7a46b2d394",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/linear-sr-e20cc6f61f05.woff2",
+      "id": "77248557-fdb9-51ec-832b-27cc98db15d1",
+      "bytes": 18936,
+      "sha256": "e20cc6f61f0566d1ae14f348e74199981f9a4d15f66960ebd4b235552f451c17",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/gala-sr-ac9c8b1a2a7e.woff2",
+      "id": "2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+      "bytes": 19248,
+      "sha256": "ac9c8b1a2a7e74fd6d8e984eb11f1f125546b7a7a29ee5eccff7a2e40a064539",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/sonata-sr-a54b94c5e9bc.woff2",
+      "id": "4c6072f5-63f9-5c5a-9640-cd59b8383f00",
+      "bytes": 21336,
+      "sha256": "a54b94c5e9bc9f41ad4c48b6b7869d39dbc93a07dd5d6ee8949e065aa91798f2",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjiga-sr-a8bbafa8400f.woff2",
+      "id": "e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+      "bytes": 28224,
+      "sha256": "a8bbafa8400f5633d3be838279453eacd6162fb6610bed0dff710ea3ba14da01",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjigaItalic-sr-85e6ad19036b.woff2",
+      "id": "3389b30b-68f9-5b06-a1a9-3253baa9144c",
+      "bytes": 29440,
+      "sha256": "85e6ad19036b6126e7bd83e47ee425388b795e5f0cba2d37db86f5673f6a6227",
+      "role": "font"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/misji-prvi-piknik-background-337b12645cfb.webp",
+      "id": "6604af04-bccd-5f75-9920-4d25cda1a955",
+      "bytes": 303372,
+      "sha256": "337b12645cfbc5843411736472f6d4466ef06f877db610d58c09681873497237"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/misji-prvi-piknik-thumbnail-e3befa65550a.webp",
+      "id": "f973586f-c77c-5cf4-a728-a00721a9949e",
+      "bytes": 39402,
+      "sha256": "e3befa65550aa8cceca175fad725ca42bc0042adb920b0b4a9e55bb79e1397db"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/kobaltni-prelom-background-5f13cb957c01.webp",
+      "id": "0b0ce63b-51df-54ba-8e3b-d5567551a2ae",
+      "bytes": 335800,
+      "sha256": "5f13cb957c01105c4328b2b3cf44107b5431c95069e8da4bd86ad4f41b74c9bb"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/kobaltni-prelom-thumbnail-04ce0c898cc9.webp",
+      "id": "bc043fa2-88e0-5dc4-91ee-443675cc96c3",
+      "bytes": 47694,
+      "sha256": "04ce0c898cc90f4bb59076d6dd7084767ad5ccac2110edbbcb2470846286587a"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/lemurova-dzungla-background-3a07cffbd6eb.webp",
+      "id": "cffb9b9e-f77d-5664-a588-6bc78e58895d",
+      "bytes": 450036,
+      "sha256": "3a07cffbd6eb287a095a651e9e6ed86bf8ce182cfbacbcec9f21e693786d86d1"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/lemurova-dzungla-thumbnail-76041ca7a786.webp",
+      "id": "39a651e8-ba44-5b6d-8222-18c4c70b2ae7",
+      "bytes": 89210,
+      "sha256": "76041ca7a7867f29ff7462a9fa129d6b61800c44cc57fc626cbe9aca99514dfb"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/anemonin-potpis-background-9f62d87dde13.webp",
+      "id": "8f8ee8ca-4eea-5818-bea8-2cda9e202038",
+      "bytes": 212596,
+      "sha256": "9f62d87dde131e5c4d0ce86af6a2c4d81383bfe7e24999d8c8a1795994bc2542"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/anemonin-potpis-thumbnail-20c4aba0b7d6.webp",
+      "id": "6fb97f2e-7dae-523c-a690-72ad1c950fa8",
+      "bytes": 46322,
+      "sha256": "20c4aba0b7d6e2624b61b1eb9c36864cd1ac661f9ba9b0f43076ccdf01516ac0"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/plava-nit-blagoslova-background-4fa279fb368f.webp",
+      "id": "4cee2cf3-e44d-5815-93b6-7a0472be944e",
+      "bytes": 425266,
+      "sha256": "4fa279fb368f1cb252dfe63a30c747d896bb2b0f3e0706b3c418e11784f9fc9b"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/plava-nit-blagoslova-thumbnail-2fada0a45e07.webp",
+      "id": "084de00b-bfb2-5813-9915-3a546e286673",
+      "bytes": 43298,
+      "sha256": "2fada0a45e0733831f9d071f355ca2a6fae98c28a033d2d31619cdf786438f84"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/polarni-mali-zagrljaj-background-9b785e0bb590.webp",
+      "id": "5764d454-0dc4-518e-bbc8-60b0cb83c43c",
+      "bytes": 124854,
+      "sha256": "9b785e0bb5906fc974bd609f4244b70fb11e1911d4287c499afe2c233e64d625"
+    },
+    {
+      "path": "public/assets/pozivnice/robi/2026-10-27/replacement-01/polarni-mali-zagrljaj-thumbnail-b54bf9377015.webp",
+      "id": "0a2296bb-c8b9-5ad6-84fe-0cd4f10767c1",
+      "bytes": 34530,
+      "sha256": "b54bf9377015d136bc404bfb3868c5a2b411400c9412a37009ecfc6a52929128"
+    }
+  ],
+  "baseline": {
+    "oldBlobCount": 455,
+    "preservedOldBlobs": 451,
+    "oldRobiTemplates": 36,
+    "allUnrelatedFilesUnchanged": true,
+    "parent": "27529a436917069a9988f3a6aeb1bfdd3000961a"
+  },
+  "prePublicationChecksPassed": true,
+  "doNotRepublishAfterSuccess": true,
+  "allSixAtomic": true
+}

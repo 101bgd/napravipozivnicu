@@ -1,0 +1,1 @@
+PASS: all 97 invitation pages expose distinct descriptive H1/title/social/image names without JavaScript; canonical URLs and card names stay intact; future automatic/custom titles, published snapshots and responsive headings work.

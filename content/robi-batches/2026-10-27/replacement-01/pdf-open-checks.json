@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "pdfFiles": [
+    {
+      "file": "examples/anemonin-potpis-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/anemonin-potpis.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kobaltni-prelom-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/kobaltni-prelom.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/lemurova-dzungla-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/lemurova-dzungla.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/misji-prvi-piknik-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/misji-prvi-piknik.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/plava-nit-blagoslova-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/plava-nit-blagoslova.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/polarni-mali-zagrljaj-editor.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    },
+    {
+      "file": "examples/polarni-mali-zagrljaj.pdf",
+      "opened": "passed",
+      "sizePoints": [
+        360,
+        504
+      ],
+      "rasterized": "passed"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "fonts": {
+    "studio": "8a59d048-e40b-5e47-abea-1682acbd6f1e",
+    "linear": "77248557-fdb9-51ec-832b-27cc98db15d1",
+    "gala": "2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+    "sonata": "4c6072f5-63f9-5c5a-9640-cd59b8383f00",
+    "knjiga": "e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+    "knjigaItalic": "3389b30b-68f9-5b06-a1a9-3253baa9144c"
+  },
+  "designs": {
+    "misji-prvi-piknik": {
+      "background": "6604af04-bccd-5f75-9920-4d25cda1a955",
+      "thumbnail": "f973586f-c77c-5cf4-a728-a00721a9949e"
+    },
+    "kobaltni-prelom": {
+      "background": "0b0ce63b-51df-54ba-8e3b-d5567551a2ae",
+      "thumbnail": "bc043fa2-88e0-5dc4-91ee-443675cc96c3"
+    },
+    "lemurova-dzungla": {
+      "background": "cffb9b9e-f77d-5664-a588-6bc78e58895d",
+      "thumbnail": "39a651e8-ba44-5b6d-8222-18c4c70b2ae7"
+    },
+    "anemonin-potpis": {
+      "background": "8f8ee8ca-4eea-5818-bea8-2cda9e202038",
+      "thumbnail": "6fb97f2e-7dae-523c-a690-72ad1c950fa8"
+    },
+    "plava-nit-blagoslova": {
+      "background": "4cee2cf3-e44d-5815-93b6-7a0472be944e",
+      "thumbnail": "084de00b-bfb2-5813-9915-3a546e286673"
+    },
+    "polarni-mali-zagrljaj": {
+      "background": "5764d454-0dc4-518e-bbc8-60b0cb83c43c",
+      "thumbnail": "0a2296bb-c8b9-5ad6-84fe-0cd4f10767c1"
+    }
+  },
+  "publicationPreparedAt": "2026-10-27T11:23:20.670Z"
+}

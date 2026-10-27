@@ -1,0 +1,80 @@
+[
+  {
+    "key": "studio",
+    "name": "Napravi Studio",
+    "origin": "bricolage-grotesque",
+    "weight": 600,
+    "style": "normal",
+    "assetId": "8a59d048-e40b-5e47-abea-1682acbd6f1e",
+    "family": "custom-8a59d048-e40b-5e47-abea-1682acbd6f1e",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/studio-sr-8f39fb907e75.woff2",
+    "bytes": 29116,
+    "sha256": "8f39fb907e7556b9ee5462bfa1de5cf988fa94e77d22ae6d9e758f7a46b2d394",
+    "serbianGlyphs": "passed"
+  },
+  {
+    "key": "linear",
+    "name": "Napravi Linear",
+    "origin": "sora",
+    "weight": 400,
+    "style": "normal",
+    "assetId": "77248557-fdb9-51ec-832b-27cc98db15d1",
+    "family": "custom-77248557-fdb9-51ec-832b-27cc98db15d1",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/linear-sr-e20cc6f61f05.woff2",
+    "bytes": 18936,
+    "sha256": "e20cc6f61f0566d1ae14f348e74199981f9a4d15f66960ebd4b235552f451c17",
+    "serbianGlyphs": "passed"
+  },
+  {
+    "key": "gala",
+    "name": "Napravi Gala",
+    "origin": "bodoni-moda",
+    "weight": 500,
+    "style": "normal",
+    "assetId": "2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+    "family": "custom-2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/gala-sr-ac9c8b1a2a7e.woff2",
+    "bytes": 19248,
+    "sha256": "ac9c8b1a2a7e74fd6d8e984eb11f1f125546b7a7a29ee5eccff7a2e40a064539",
+    "serbianGlyphs": "passed"
+  },
+  {
+    "key": "sonata",
+    "name": "Napravi Sonata",
+    "origin": "bodoni-moda",
+    "weight": 500,
+    "style": "italic",
+    "assetId": "4c6072f5-63f9-5c5a-9640-cd59b8383f00",
+    "family": "custom-4c6072f5-63f9-5c5a-9640-cd59b8383f00",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/sonata-sr-a54b94c5e9bc.woff2",
+    "bytes": 21336,
+    "sha256": "a54b94c5e9bc9f41ad4c48b6b7869d39dbc93a07dd5d6ee8949e065aa91798f2",
+    "serbianGlyphs": "passed"
+  },
+  {
+    "key": "knjiga",
+    "name": "Napravi Knjiga",
+    "origin": "lora",
+    "weight": 400,
+    "style": "normal",
+    "assetId": "e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+    "family": "custom-e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/knjiga-sr-a8bbafa8400f.woff2",
+    "bytes": 28224,
+    "sha256": "a8bbafa8400f5633d3be838279453eacd6162fb6610bed0dff710ea3ba14da01",
+    "serbianGlyphs": "passed"
+  },
+  {
+    "key": "knjigaItalic",
+    "name": "Napravi Knjiga Italic",
+    "origin": "lora",
+    "weight": 400,
+    "style": "italic",
+    "assetId": "3389b30b-68f9-5b06-a1a9-3253baa9144c",
+    "family": "custom-3389b30b-68f9-5b06-a1a9-3253baa9144c",
+    "path": "public/assets/pozivnice/fonts/premium-20261027/knjigaItalic-sr-85e6ad19036b.woff2",
+    "bytes": 29440,
+    "sha256": "85e6ad19036b6126e7bd83e47ee425388b795e5f0cba2d37db86f5673f6a6227",
+    "serbianGlyphs": "passed"
+  }
+]

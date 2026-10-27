@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "pngFiles": [
+    {
+      "file": "examples/anemonin-potpis-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/anemonin-potpis-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/anemonin-potpis.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kobaltni-prelom-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kobaltni-prelom-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/kobaltni-prelom.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lemurova-dzungla-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lemurova-dzungla-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/lemurova-dzungla.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/misji-prvi-piknik-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/misji-prvi-piknik-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/misji-prvi-piknik.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-nit-blagoslova-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-nit-blagoslova-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/plava-nit-blagoslova.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/polarni-mali-zagrljaj-editor.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/polarni-mali-zagrljaj-long-text.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    },
+    {
+      "file": "examples/polarni-mali-zagrljaj.png",
+      "size": [
+        1500,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pngIntegrity": "passed"
+    }
+  ]
+}

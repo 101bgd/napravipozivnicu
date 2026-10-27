@@ -1,0 +1,1073 @@
+{
+  "batchId": "2026-10-27-replacement-01",
+  "checkedAt": "2026-10-27T11:36:14Z",
+  "prePublicationStatus": "PROŠLO",
+  "requiredChecks": 19,
+  "designs": [
+    {
+      "id": "misji-prvi-piknik",
+      "name": "Mišji prvi piknik",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    },
+    {
+      "id": "kobaltni-prelom",
+      "name": "Kobaltni prelom",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    },
+    {
+      "id": "lemurova-dzungla",
+      "name": "Lemurova džungla",
+      "category": "birthday",
+      "audience": "male",
+      "age": 6,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    },
+    {
+      "id": "anemonin-potpis",
+      "name": "Anemonin potpis",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    },
+    {
+      "id": "plava-nit-blagoslova",
+      "name": "Plava nit blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    },
+    {
+      "id": "polarni-mali-zagrljaj",
+      "name": "Polarni mali zagrljaj",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "status": "PROŠLO",
+      "checks": [
+        {
+          "check": "complete_batch",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "category_and_audience",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "plan.json"
+          ]
+        },
+        {
+          "check": "birthday_age",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "birth_celebration_wording",
+          "status": "PROŠLO",
+          "evidence": [
+            "metadata.json",
+            "logs/browser.log"
+          ]
+        },
+        {
+          "check": "actual_dimensions",
+          "status": "PROŠLO",
+          "evidence": [
+            "image-sources.json",
+            "png-print-checks.json",
+            "pdf-open-checks.json"
+          ]
+        },
+        {
+          "check": "single_background_no_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "safe_inset",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "visual_integrity",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "sources/"
+          ]
+        },
+        {
+          "check": "distinctiveness",
+          "status": "PROŠLO",
+          "evidence": [
+            "similarity-checks.json",
+            "plan.json",
+            "visual-review.json"
+          ]
+        },
+        {
+          "check": "palette_vibrancy_and_variety",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "composition_and_text_space",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "report.json"
+          ]
+        },
+        {
+          "check": "editable_template_fields",
+          "status": "PROŠLO",
+          "evidence": [
+            "browser-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "serbian_glyphs_and_long_text",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-checks.json",
+            "report.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "mobile_preview",
+          "status": "PROŠLO",
+          "evidence": [
+            "font-browser-checks.json",
+            "previews/"
+          ]
+        },
+        {
+          "check": "png_and_pdf_export",
+          "status": "PROŠLO",
+          "evidence": [
+            "png-print-checks.json",
+            "pdf-open-checks.json",
+            "browser-checks.json"
+          ]
+        },
+        {
+          "check": "optimized_assets",
+          "status": "PROŠLO",
+          "evidence": [
+            "public-files.json",
+            "font-assets.json"
+          ]
+        },
+        {
+          "check": "page_seo",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/titles.log",
+            "category-checks.json",
+            "worker-checks.json"
+          ]
+        },
+        {
+          "check": "inherited_adsense",
+          "status": "PROŠLO",
+          "evidence": [
+            "logs/adsense.log",
+            "logs/production.log"
+          ]
+        },
+        {
+          "check": "premium_occasion_specific_typography",
+          "status": "PROŠLO",
+          "evidence": [
+            "visual-review.json",
+            "font-assets.json",
+            "font-checks.json",
+            "font-browser-checks.json"
+          ]
+        }
+      ],
+      "userAestheticReview": "awaiting_user",
+      "userAestheticApproval": null
+    }
+  ],
+  "sourceDimensions": [
+    1060,
+    1484
+  ],
+  "exportDimensions": [
+    1500,
+    2100
+  ],
+  "previewDimensions": [
+    500,
+    700
+  ],
+  "upscaled": true,
+  "cropped": false,
+  "printDpi": 300,
+  "pdfMm": [
+    127,
+    177.8
+  ],
+  "publication": {
+    "status": "NEPROVERENO"
+  },
+  "postPublication": {
+    "status": "NEPROVERENO"
+  },
+  "deadline": {
+    "original": "2026-10-27T10:00:00+09:00",
+    "status": "PALO",
+    "manualReplacementExplicitlyAuthorized": true,
+    "notAnOnTimeMorningDelivery": true
+  },
+  "aestheticReview": "Actual completecompositions/mobile/openedPNG/PDF reviewed with concrete visualreasoning. Fontnames/licenses/tests alone are not proof of premiumquality. Userreviewawaiting.",
+  "points": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50,
+    "awardedByThisRun": 0
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "family": "bricolage-grotesque",
+    "weight": 600,
+    "style": "normal",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/bricolage-grotesque/-/bricolage-grotesque-5.3.0.tgz"
+  },
+  {
+    "family": "sora",
+    "weight": 400,
+    "style": "normal",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/sora/-/sora-5.3.0.tgz"
+  },
+  {
+    "family": "bodoni-moda",
+    "weight": 500,
+    "style": "normal",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/bodoni-moda/-/bodoni-moda-5.3.0.tgz"
+  },
+  {
+    "family": "italiana",
+    "weight": 400,
+    "style": "normal",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/italiana/-/italiana-5.3.0.tgz"
+  },
+  {
+    "family": "lora",
+    "weight": 400,
+    "style": "normal",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/lora/-/lora-5.3.0.tgz"
+  },
+  {
+    "family": "lora",
+    "weight": 400,
+    "style": "italic",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "source": "https://registry.npmjs.org/@fontsource/lora/-/lora-5.3.0.tgz"
+  },
+  {
+    "family": "prata",
+    "weight": 400,
+    "style": "normal",
+    "version": "5.3.0",
+    "source": "https://registry.npmjs.org/@fontsource/prata/-/prata-5.3.0.tgz",
+    "license": "OFL-1.1"
+  },
+  {
+    "family": "bodoni-moda",
+    "weight": 500,
+    "style": "italic",
+    "version": "5.3.0",
+    "source": "https://registry.npmjs.org/@fontsource/bodoni-moda/-/bodoni-moda-5.3.0.tgz",
+    "license": "OFL-1.1"
+  }
+]

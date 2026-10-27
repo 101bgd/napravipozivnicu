@@ -1,0 +1,236 @@
+{
+  "batchId": "2026-10-27-replacement-01",
+  "checkedAt": "2026-10-27T11:36:14Z",
+  "method": "Separate visual inspection of6 selected original backgrounds,6 actualfinal500pxpreviews together,6 expanded390pxmobileeditor views and6 personalizedPDFrasters. Glyph bounds/contrast inreport.json.",
+  "backgroundAndTypographyReviewedTogether": true,
+  "priorUserFeedback": "agent/feedback/2026-10-27-visual-quality.json",
+  "userAestheticApproval": null,
+  "notUserApproval": true,
+  "paletteReview": "Rich emerald/tangerine childbirthday and cobalt/graphite18thbirthday contrast with warmapricotfirstbirthday, refinedivorywedding, palebluebaptism and glacierbluebirthcelebration; no universal background/fontpair/layout.",
+  "fonts": {
+    "faces": 6,
+    "origins": [
+      "Bricolage Grotesque",
+      "Sora",
+      "Bodoni Moda",
+      "Lora"
+    ],
+    "licenses": "OFL-1.1, originallicenses retained, modifiednames renamed",
+    "rejectedMissingSerbian": [
+      "Italiana",
+      "Prata"
+    ],
+    "actualSelectedGlyphsChecked": "ČĆŠŽĐčćšžđ"
+  },
+  "history": {
+    "images": 99,
+    "minDistance63": 14,
+    "minNewPair63": 22,
+    "limitation": "Supporting comparison, not aesthetic approval; actual motifs/compositions reviewed."
+  },
+  "designs": [
+    {
+      "id": "misji-prvi-piknik",
+      "name": "Mišji prvi piknik",
+      "category": "first",
+      "age": 1,
+      "audience": "male",
+      "motif": "sa malim mišem i šumskim jagodama",
+      "slug": "pozivnica-prvi-rodjendan-mis-sumske-jagode",
+      "bg": "#ffdbb4",
+      "description": "Pozivnica za prvi rođendan dečaka sa malim mišem i šumskim jagodama na toploj podlozi. Uredi veliko ime, broj jedan, datum i mesto proslave.",
+      "imageAlt": "Detaljno ilustrovan mali miš među crvenim šumskim jagodama i zelenim listovima na podlozi boje kajsije",
+      "details": "Mali miš, šumske jagode i nežan geometrijski dezen oblikuju toplu rođendansku priču. Ilustracija vodi gornji deo, a veliko ime, povezan broj jedan i povod i praktični podaci raspoređeni su ispod. Svi tekstovi se menjaju u editoru, a pozadina ostaje bez ugrađenih slova.",
+      "isNew": true,
+      "reason": "Detailed fur, seeds and leaves share the warm apricot/cocoa palette with a restrained woven texture. Large geometric name/age below the storybook scene are balanced by measured serif supporting lines.",
+      "composition": "Upper-middle illustration; lower large name/age; splitdate/time; wide location.",
+      "trim": "Entire mouse, curledtail, berries and principalfoliage safely inside60px targetinset; fine continuous texture bleeds.",
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/misji-prvi-piknik-mobile-expanded.png",
+      "pngEvidence": "examples/misji-prvi-piknik.png",
+      "pdfEvidence": "examples/misji-prvi-piknik.pdf",
+      "personalizedPdfLocalEvidence": "examples/misji-prvi-piknik-editor.pdf",
+      "fontPair": "Napravi Studio + Napravi Knjiga"
+    },
+    {
+      "id": "kobaltni-prelom",
+      "name": "Kobaltni prelom",
+      "category": "eighteen",
+      "age": 18,
+      "audience": "male",
+      "motif": "sa kobaltnim geometrijskim lukovima i finim metalik linijama",
+      "slug": "pozivnica-18-rodjendan-kobaltni-lukovi",
+      "bg": "#11151b",
+      "description": "Moderna pozivnica za 18. rođendan sa kobaltnim lukovima, tamnom podlogom i finim metalik linijama. Personalizuj ime, veliki broj osamnaest i podatke večeri.",
+      "imageAlt": "Kobaltni i grafitni zakrivljeni geometrijski oblici sa tankim toplim metalik linijama",
+      "details": "Kobalt, grafit i tanke metalik linije grade savremenu geometrijsku kompoziciju. Veliko ime i izražen broj osamnaest prate široko tamno polje, dok praktični podaci ostaju čitljivi ispod. Uredi ime, broj godina, poruku, datum, vreme, adresu i potvrdu dolaska.",
+      "isNew": true,
+      "reason": "Cobalt/graphite geometry and fine metallic contours support a contemporary editorial invitation. Oversized Bodoni-derived name/18 and neutralSora details share restrained ivory. All type sits in the clear darkfield, preserving the lower graphic sweep.",
+      "composition": "Asymmetric left-centred type; broad graphicbands right/below.",
+      "trim": "Abstract colorfields intentionally bleed; all text has measured60px safety.",
+      "repairs": [
+        "First timefield crossed a brightline. Name/age/details repositioned inupperdarkfield; default/long/mobile/PNG/PDF checks repeated."
+      ],
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/kobaltni-prelom-mobile-expanded.png",
+      "pngEvidence": "examples/kobaltni-prelom.png",
+      "pdfEvidence": "examples/kobaltni-prelom.pdf",
+      "personalizedPdfLocalEvidence": "examples/kobaltni-prelom-editor.pdf",
+      "fontPair": "Napravi Gala (Bodoni Moda) + Napravi Linear (Sora)"
+    },
+    {
+      "id": "lemurova-dzungla",
+      "name": "Lemurova džungla",
+      "category": "birthday",
+      "age": 6,
+      "audience": "male",
+      "motif": "sa lemurom i tropskim listovima",
+      "slug": "pozivnica-deciji-rodjendan-lemur-tropska-dzungla",
+      "bg": "#00543e",
+      "description": "Živopisna pozivnica za dečji rođendan sa lemurom, tropskim listovima i narandžastim cvetom. Primer je za šest godina; ime i uzrast od 3 do 10 se uređuju.",
+      "imageAlt": "Lemur prstenastog repa na grani među bujnim zelenim listovima i narandžastim cvetom na smaragdnoj podlozi",
+      "details": "Detaljno ilustrovan lemur i izražajne zelene i narandžaste boje stvaraju veselu džunglu. Ime i uzrast vode gornji levi deo, a datum, vreme i mesto imaju zaseban prostor desno. Primer je za šesti rođendan dečaka; uzrast od tri do deset, ime i sve detalje proslave možeš promeniti.",
+      "isNew": true,
+      "reason": "Precise fur, expressive face and a complete inward-curledtail are integrated with richly painted tropicalfoliage and a tangerine passionflower. Emerald/ivory contrast and a large geometric name/age give a vivid childappropriate result; right eventcolumn uses the clearfield beside the animal.",
+      "composition": "Upperleft name/age; upperright date/time/place/message; jungleillustration flows below.",
+      "trim": "Primary lemur, complete tail and orangeflower are safely inset. Secondary continuous foliage/branch intentionally forms a fullbleed ground; not every backgroundleaf is claimed inset.",
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/lemurova-dzungla-mobile-expanded.png",
+      "pngEvidence": "examples/lemurova-dzungla.png",
+      "pdfEvidence": "examples/lemurova-dzungla.pdf",
+      "personalizedPdfLocalEvidence": "examples/lemurova-dzungla-editor.pdf",
+      "fontPair": "Napravi Studio + Napravi Linear"
+    },
+    {
+      "id": "anemonin-potpis",
+      "name": "Anemonin potpis",
+      "category": "wedding",
+      "age": null,
+      "audience": "couple",
+      "motif": "sa belim anemonama i finim grančicama",
+      "slug": "pozivnica-za-vencanje-bele-anemone",
+      "bg": "#f7eddd",
+      "description": "Svečana pozivnica za venčanje sa belim anemonama i velikim imenima mladenaca. Uredi datum, obred, restoran i potvrdu dolaska, pa preuzmi PNG ili PDF.",
+      "imageAlt": "Dve bele anemone tamnoplavih središta sa zelenim grančicama na toploj svetloj teksturi",
+      "details": "Bele anemone i fine grančice oblikuju botanički gornji deo. Velika kurzivna serifna imena imaju širok prostor ispod, uz zajednički datum i odvojene podatke venčanja i svadbene proslave. Oba imena, lokacije, vremena i potvrda dolaska uređuju se zasebno.",
+      "isNew": true,
+      "reason": "Fine petalveins, inkblue flowercentres and restrained neutraltexture form a cohesive botanicalsurface. Large italicBodoni-derived names share a clearaxis; serif details and generous spacing carry the ceremonial tone without markerhandwriting.",
+      "composition": "Horizontal upperbotanical arrangement; large names below; paired ceremony/reception columns.",
+      "trim": "Both primary anemoneblooms/centres safely inset. Minor peripheralstem/leaf tips are backgrounddetail. All text meets measured60px safety.",
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/anemonin-potpis-mobile-expanded.png",
+      "pngEvidence": "examples/anemonin-potpis.png",
+      "pdfEvidence": "examples/anemonin-potpis.pdf",
+      "personalizedPdfLocalEvidence": "examples/anemonin-potpis-editor.pdf",
+      "fontPair": "Napravi Sonata (Bodoni Moda Italic) + Napravi Knjiga (Lora)"
+    },
+    {
+      "id": "plava-nit-blagoslova",
+      "name": "Plava nit blagoslova",
+      "category": "baptism",
+      "age": null,
+      "audience": "male",
+      "motif": "sa plavom brojanicom i srebrnim krstom",
+      "slug": "pozivnica-za-krstenje-plava-brojanica-srebrni-krst",
+      "bg": "#cfe5f5",
+      "description": "Elegantna pozivnica za krštenje dečaka sa plavom brojanicom i srebrnim krstom. Promeni veliko ime, datum i odvojene podatke obreda i porodične proslave.",
+      "imageAlt": "Plava pletena brojanica sa malim srebrnim krstom na svetloplavoj teksturi tkanja",
+      "details": "Plava brojanica sa srebrnim krstom prati mirnu svetloplavu teksturu. Kratak uvod stoji uz motiv, a veliko klasično ime, naziv događaja i praktični podaci ispod. Vreme i lokacija obreda i proslave imaju zasebna izmenjiva polja.",
+      "isNew": true,
+      "reason": "Carefully rendered wovenknots and small silvercross relate to paleblue linen and deepink type. A restrained intro balances the bracelet, while the large classicalname anchors separate readableceremony/reception columns below.",
+      "composition": "Upperright prayerrope; upperleft intro; broad centred name/details below.",
+      "trim": "Complete prayerrope andcross safely inset; continuous linen ground bleeds; all text measured.",
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/plava-nit-blagoslova-mobile-expanded.png",
+      "pngEvidence": "examples/plava-nit-blagoslova.png",
+      "pdfEvidence": "examples/plava-nit-blagoslova.pdf",
+      "personalizedPdfLocalEvidence": "examples/plava-nit-blagoslova-editor.pdf",
+      "fontPair": "Napravi Gala + Napravi Knjiga"
+    },
+    {
+      "id": "polarni-mali-zagrljaj",
+      "name": "Polarni mali zagrljaj",
+      "category": "baby",
+      "age": null,
+      "audience": "male",
+      "motif": "sa polarnom medvedicom i mladunčetom",
+      "slug": "pozivnica-proslava-rodjenja-decaka-polarni-medvedi",
+      "bg": "#d9edfb",
+      "description": "Poziv na proslavu rođenja dečaka sa polarnom medvedicom i mladunčetom. Dodaj veliko ime bebe, toplu poruku i podatke proslave, pa izvezi PNG ili PDF.",
+      "imageAlt": "Polarna medvedica i malo mladunče dodiruju se njuškama na nežnoj ledenoplavoj pozadini",
+      "details": "Nežan susret polarne medvedice i mladunčeta najavljuje novu porodičnu radost. Ilustracija ostaje u gornjem delu, a veliko kurzivno ime i jasan poziv na proslavu rođenja imaju prostor ispod. Ime, poruka, datum, vreme i mesto menjaju se u editoru.",
+      "isNew": true,
+      "reason": "Detailed ivoryfur, a gentle naturalgesture and a softly painted snowground support the familytheme. A large Lora-derived italicname supplies a warm focalpoint; neutral supportingtext preserves clear hierarchy and birthcelebration wording.",
+      "composition": "Mother/cubscene above; wide italicname below; paireddate/time and centredlocation.",
+      "trim": "Complete mother/cub figures safely inset; tonal ground may bleed; all text measured.",
+      "selfReview": "PROŠLO",
+      "sourceDimensions": [
+        1060,
+        1484
+      ],
+      "exportDimensions": [
+        1500,
+        2100
+      ],
+      "upscaled": true,
+      "cropped": false,
+      "mobileEvidence": "previews/polarni-mali-zagrljaj-mobile-expanded.png",
+      "pngEvidence": "examples/polarni-mali-zagrljaj.png",
+      "pdfEvidence": "examples/polarni-mali-zagrljaj.pdf",
+      "personalizedPdfLocalEvidence": "examples/polarni-mali-zagrljaj-editor.pdf",
+      "fontPair": "Napravi Knjiga Italic + Napravi Linear"
+    }
+  ],
+  "rejectedBackgrounds": 6,
+  "rejectedImagesEdited": false
+}

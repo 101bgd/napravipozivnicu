@@ -1,0 +1,47 @@
+{
+  "fonts": [
+    {
+      "font": "Napravi Studio",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/studio-sr-8f39fb907e75.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Linear",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/linear-sr-e20cc6f61f05.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Gala",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/gala-sr-ac9c8b1a2a7e.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Sonata",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/sonata-sr-a54b94c5e9bc.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Knjiga",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjiga-sr-a8bbafa8400f.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    },
+    {
+      "font": "Napravi Knjiga Italic",
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjigaItalic-sr-85e6ad19036b.woff2",
+      "serbianGlyphs": "passed",
+      "missing": []
+    }
+  ],
+  "licenses": [
+    "public/assets/pozivnice/fonts/premium-20261027/OFL-bricolage-grotesque.txt",
+    "public/assets/pozivnice/fonts/premium-20261027/OFL-sora.txt",
+    "public/assets/pozivnice/fonts/premium-20261027/OFL-bodoni-moda.txt",
+    "public/assets/pozivnice/fonts/premium-20261027/OFL-lora.txt"
+  ],
+  "baseFont": "Six new licensed font faces fromBricolageGrotesque/Sora/BodoniModa/Lora, Latin+Latin-ext merged and renamed Napravi aliases; actual Serbian names exported in mobilebrowser."
+}

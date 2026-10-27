@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-10-27T11:25:46.617Z",
+  "designs": [
+    {
+      "id": "misji-prvi-piknik",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Studio",
+          "family": "custom-8a59d048-e40b-5e47-abea-1682acbd6f1e",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Linear",
+          "family": "custom-77248557-fdb9-51ec-832b-27cc98db15d1",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga",
+          "family": "custom-e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "misji-prvi-piknik-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "kobaltni-prelom",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Linear",
+          "family": "custom-77248557-fdb9-51ec-832b-27cc98db15d1",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Gala",
+          "family": "custom-2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "kobaltni-prelom-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "lemurova-dzungla",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Studio",
+          "family": "custom-8a59d048-e40b-5e47-abea-1682acbd6f1e",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Linear",
+          "family": "custom-77248557-fdb9-51ec-832b-27cc98db15d1",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "lemurova-dzungla-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "anemonin-potpis",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Sonata",
+          "family": "custom-4c6072f5-63f9-5c5a-9640-cd59b8383f00",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga",
+          "family": "custom-e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga Italic",
+          "family": "custom-3389b30b-68f9-5b06-a1a9-3253baa9144c",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "anemonin-potpis-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "plava-nit-blagoslova",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Gala",
+          "family": "custom-2c6ce2d9-10d7-5e91-abd7-fce0e2797cf8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga",
+          "family": "custom-e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "plava-nit-blagoslova-mobile-expanded.png",
+      "status": "PROŠLO"
+    },
+    {
+      "id": "polarni-mali-zagrljaj",
+      "viewport": [
+        390,
+        844
+      ],
+      "fonts": [
+        {
+          "name": "Napravi Linear",
+          "family": "custom-77248557-fdb9-51ec-832b-27cc98db15d1",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga",
+          "family": "custom-e9b67699-ffd5-5c96-b42a-e429a6bad5b8",
+          "loaded": true,
+          "faceStatus": "loaded"
+        },
+        {
+          "name": "Napravi Knjiga Italic",
+          "family": "custom-3389b30b-68f9-5b06-a1a9-3253baa9144c",
+          "loaded": true,
+          "faceStatus": "loaded"
+        }
+      ],
+      "expandedPreviewBox": {
+        "x": 18,
+        "y": 182,
+        "width": 354,
+        "height": 495.59375
+      },
+      "screenshot": "polarni-mali-zagrljaj-mobile-expanded.png",
+      "status": "PROŠLO"
+    }
+  ],
+  "browserErrors": []
+}

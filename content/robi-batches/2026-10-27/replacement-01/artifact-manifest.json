@@ -1,0 +1,295 @@
+{
+  "binaryCount": 48,
+  "bytes": 61225274,
+  "files": [
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/anemonin-potpis.png",
+      "bytes": 2332570,
+      "sha": "4804bbb0dee5a1053307ce0b2381a90d8e1ac9b8",
+      "sha256": "1991102450a90716bb8e615b5ee5989cd59a1417fae6b741aa709f09c832cf4c"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/kobaltni-prelom.png",
+      "bytes": 2634899,
+      "sha": "4abfde5b4987068f6869d146b6445965ae6a44a8",
+      "sha256": "2b670926400f7db9cf4e58bdfba36345b64f65296ffb4056f8cd4065329acdee"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/lemurova-dzungla.png",
+      "bytes": 2683580,
+      "sha": "8c26c61842db72fbb2ef4d1e97db03784cd4f274",
+      "sha256": "419a3d95ec68d5b5287e3887bff3159d558367d429f42a5677119ff17f2e2f35"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/misji-prvi-piknik.png",
+      "bytes": 2367970,
+      "sha": "9783a0cfacc5ec8557d9f500563c7cb565da38f5",
+      "sha256": "dcaa8412227dedd85e3c896f3c929ff227611ee7e02adfe02efa39d1fcf1ccfc"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/plava-nit-blagoslova.png",
+      "bytes": 3007632,
+      "sha": "000c6d8d856599d7fe18a81f21e96cae63c0f31e",
+      "sha256": "f9cf83bb6997e6c8be66b944d1221e699c9ec40ea1b072bbf739072131fba8f4"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/sources/polarni-mali-zagrljaj.png",
+      "bytes": 1915731,
+      "sha": "3eb2e6b9adc39fd89ebfeafd3bfad17ac37394b9",
+      "sha256": "8c3c0731f07f1097a67e5790f52adec94f25af4994902dd311869456ab590523"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/hortenzijina-radost.png",
+      "bytes": 2242902,
+      "sha": "66ed43141b1acfcca131ec23887f6ada8ba55a8a",
+      "sha256": "e8750c845952e3eaf21e1243ff0feaba7558b4042b174acb043a9365aba7b145"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/krug-prvih-zelja.png",
+      "bytes": 2497035,
+      "sha": "02688ef8287f63e341a1d0977f22f9d16ef1b4e3",
+      "sha256": "9c60f3c3540753d3c8c0d1d052781527beec6bd090b2de300486e366f25528e4"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/mozaik-blagoslova.png",
+      "bytes": 3270168,
+      "sha": "d56011e43b28a4a15c0edf8104c552e671a99105",
+      "sha256": "69090fc1adaa4398ca22af7d3b67847e2493c30677c340a6d9cd119b96d6bf26"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/stadion-malih-sampiona.png",
+      "bytes": 2490413,
+      "sha": "978e3b5c1c94fe1fa7b4bea90fda81ff89d9ace5",
+      "sha256": "33326ea84cb585a4997874ad318d8e7a844a736d68e60033c96924afa66700fa"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/sumska-prva-bajka.png",
+      "bytes": 1879831,
+      "sha": "aa281d99ec19c89dda2381d503e35b6aff491d65",
+      "sha256": "37619f9cc3856d2ae06b6bd56e2b3be9ccf8385c58dbec7564963a240a131dcf"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/rejected/vrt-pod-cempresima.png",
+      "bytes": 2797790,
+      "sha": "081257c02f1b163876430bfa64f1c2db837d1c30",
+      "sha256": "f4436b4feb40a4cb43d22714cd57e3bc3ef7117e6472ca85d73663dbeb0f0fd1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/anemonin-potpis.webp",
+      "bytes": 212596,
+      "sha": "6a584d5da31cb5ee16873b650c154c92369ddbec",
+      "sha256": "9f62d87dde131e5c4d0ce86af6a2c4d81383bfe7e24999d8c8a1795994bc2542"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/kobaltni-prelom.webp",
+      "bytes": 335800,
+      "sha": "b288f0920fd78e516041532a13f9b14bc7bda3ab",
+      "sha256": "5f13cb957c01105c4328b2b3cf44107b5431c95069e8da4bd86ad4f41b74c9bb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/lemurova-dzungla.webp",
+      "bytes": 450036,
+      "sha": "6d3d766246f5680005bf7c9dc9a6a024d9ce8d33",
+      "sha256": "3a07cffbd6eb287a095a651e9e6ed86bf8ce182cfbacbcec9f21e693786d86d1"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/misji-prvi-piknik.webp",
+      "bytes": 303372,
+      "sha": "896bde83552ddaf5355e059e4403cde8b9c2938f",
+      "sha256": "337b12645cfbc5843411736472f6d4466ef06f877db610d58c09681873497237"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/plava-nit-blagoslova.webp",
+      "bytes": 425266,
+      "sha": "eb721a20a71946201c35ead5d1caa362dcd44921",
+      "sha256": "4fa279fb368f1cb252dfe63a30c747d896bb2b0f3e0706b3c418e11784f9fc9b"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/backgrounds/polarni-mali-zagrljaj.webp",
+      "bytes": 124854,
+      "sha": "1e5fc4880ba3892189fce381bf6e6ebab9964892",
+      "sha256": "9b785e0bb5906fc974bd609f4244b70fb11e1911d4287c499afe2c233e64d625"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/anemonin-potpis.webp",
+      "bytes": 46322,
+      "sha": "f9da2f687dfd0a3059e8b2d9947ffb7abb2feae3",
+      "sha256": "20c4aba0b7d6e2624b61b1eb9c36864cd1ac661f9ba9b0f43076ccdf01516ac0"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/kobaltni-prelom.webp",
+      "bytes": 47694,
+      "sha": "7b9fa3a6296ae827d76b2b7e3cea4cae7abd00ce",
+      "sha256": "04ce0c898cc90f4bb59076d6dd7084767ad5ccac2110edbbcb2470846286587a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/lemurova-dzungla.webp",
+      "bytes": 89210,
+      "sha": "190c7665eed15ea1c5b72e12d5631338ee331a4d",
+      "sha256": "76041ca7a7867f29ff7462a9fa129d6b61800c44cc57fc626cbe9aca99514dfb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/misji-prvi-piknik.webp",
+      "bytes": 39402,
+      "sha": "0b2b9f8d1cb1c240deb394d3f7cd6b15a357a608",
+      "sha256": "e3befa65550aa8cceca175fad725ca42bc0042adb920b0b4a9e55bb79e1397db"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/plava-nit-blagoslova.webp",
+      "bytes": 43298,
+      "sha": "009ccc4293cdbcc5f688e9fb0cf1a08750dd5c8a",
+      "sha256": "2fada0a45e0733831f9d071f355ca2a6fae98c28a033d2d31619cdf786438f84"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/polarni-mali-zagrljaj.webp",
+      "bytes": 34530,
+      "sha": "1543f4248d9964af2af3dc796100b82b39cdeec9",
+      "sha256": "b54bf9377015d136bc404bfb3868c5a2b411400c9412a37009ecfc6a52929128"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/anemonin-potpis.png",
+      "bytes": 3206654,
+      "sha": "a86556cc87b8a9e81fc1836c480a6fa02b2dbfca",
+      "sha256": "5703a59ab0d2f2abf9de2535aa538e8bfa3a898089e26de3414484e93d468730"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/kobaltni-prelom.png",
+      "bytes": 3868820,
+      "sha": "4e73f5525ee11a8358b836208155dcf8886c4239",
+      "sha256": "6f618b4591f8bb3d33f0f65d597f7fc63bafe17b3d90db9b847ba0d9895620f3"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/lemurova-dzungla.png",
+      "bytes": 4634252,
+      "sha": "278b73cd127f23842704a4d22f4db302f0f3f170",
+      "sha256": "ffe2921d714ad98f9f321fede159505c944df5d16e11e2303b49ae6a607e68fb"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/misji-prvi-piknik.png",
+      "bytes": 4377743,
+      "sha": "c363000fac0ba3fd0eb8f68ec3163068f4065294",
+      "sha256": "4042878c14c207c32770085de15ca535944ccf606a3694a4203da37034540ba8"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/plava-nit-blagoslova.png",
+      "bytes": 4996910,
+      "sha": "61d4bf1cf2368ac7e312bb74c5fe6cf35ec411c0",
+      "sha256": "8e006f44e290cbb8cb9781d2f462f748716698e3961981b5ddf33f1a8b12fd08"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/polarni-mali-zagrljaj.png",
+      "bytes": 1901316,
+      "sha": "dcd5a94a92dfd1667655655498e04cc2c75d7adc",
+      "sha256": "75ed83e1dcc028c25f4ce007669e6225608c6b58ac33241f60187ec71007413e"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/anemonin-potpis.pdf",
+      "bytes": 605444,
+      "sha": "faa88cbb3d84f41209549d52ab71cf99a5ab9069",
+      "sha256": "7c55f61237934c549168201adcfd8967f4fef24f9e9ab3776a5a821b376e2aa9"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/kobaltni-prelom.pdf",
+      "bytes": 681404,
+      "sha": "4dfc8c415d13aa0a4e723fa24baf79c95f9b2f83",
+      "sha256": "473d5c1b4f622633a843a7c1e7bdf482e6882e465b863a461c20ec44a139430d"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/lemurova-dzungla.pdf",
+      "bytes": 846285,
+      "sha": "310e2f6d68663c6d90530f0a3b4931c7e7bcd0be",
+      "sha256": "99f8437d5da7fabd9352ab6161b8c2f5900dc6626c32a5ab143f9cf27b27eab9"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/misji-prvi-piknik.pdf",
+      "bytes": 626043,
+      "sha": "3ebc8368fe030b6514bd1fb98fc5f78ae04a71ba",
+      "sha256": "3df96ad674b87a6635d7a1f606aa5db1b22e41e1ed774bb9b4ba5c13b9bf6230"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/plava-nit-blagoslova.pdf",
+      "bytes": 840648,
+      "sha": "3044716021598dc77b0e0be1ad075ef68a9da265",
+      "sha256": "cdff671090d045d482275cac0d1053c20142c384ffcc0acdc4551e4a47ef92ed"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/examples/polarni-mali-zagrljaj.pdf",
+      "bytes": 424608,
+      "sha": "cbc998de260a14eadd57625ae75db3428771f755",
+      "sha256": "374bdafa027c55c2aa7c9594a264dd8a32ee224265b83491109105b0d8a56b83"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/anemonin-potpis-mobile-expanded.png",
+      "bytes": 279614,
+      "sha": "5d88c414e0072ba221294d7072f0a6ff272d47c2",
+      "sha256": "22d67eff019144e7b9ff509036de2d2ddb780b6c84e1d521edfc79ede1cbb95a"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/kobaltni-prelom-mobile-expanded.png",
+      "bytes": 286956,
+      "sha": "8ea9151592b1abcd1ded5515654a92d4c0ee6c2d",
+      "sha256": "83231ff119af65a73803d6872551d7647b8869bbef2443b09bf0a91a00c3c119"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/lemurova-dzungla-mobile-expanded.png",
+      "bytes": 353123,
+      "sha": "378a0fdccf63f0e2764511905775234cba80422d",
+      "sha256": "4586758874d71bfac11be2d2ab8d42f3b41b27dfbc0ce82fd2b23ef356e16d46"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/misji-prvi-piknik-mobile-expanded.png",
+      "bytes": 325430,
+      "sha": "333ef391eff56c9cd7adcc4cd19c9d548b4f4468",
+      "sha256": "b249e78ed0f302480210f777cfd3b17f70c72a407c121b3266925661f0869d08"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/plava-nit-blagoslova-mobile-expanded.png",
+      "bytes": 313355,
+      "sha": "2d10ffb92872e407993524497bce4fd4e19a0678",
+      "sha256": "bb9b30112079720cbab1d415b154bba9aeac9ad6a3a191e43ac62a80a2f21314"
+    },
+    {
+      "path": "content/robi-batches/2026-10-27/replacement-01/previews/polarni-mali-zagrljaj-mobile-expanded.png",
+      "bytes": 237468,
+      "sha": "5c916c712b61cdb8cfd0ce472d3e1cb28a8afb9f",
+      "sha256": "033371fe455641c426913295f9b4a242fd0fde54633215444fecd9187a052245"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/studio-sr-8f39fb907e75.woff2",
+      "bytes": 29116,
+      "sha": "352822ae9dcabe75738767cd60fecf0f8996394d",
+      "sha256": "8f39fb907e7556b9ee5462bfa1de5cf988fa94e77d22ae6d9e758f7a46b2d394"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/linear-sr-e20cc6f61f05.woff2",
+      "bytes": 18936,
+      "sha": "f000c068445e46816f84e4721e4680df3efd3ab9",
+      "sha256": "e20cc6f61f0566d1ae14f348e74199981f9a4d15f66960ebd4b235552f451c17"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/gala-sr-ac9c8b1a2a7e.woff2",
+      "bytes": 19248,
+      "sha": "ab70d001707ce5f000752ba98b22fb1263555a91",
+      "sha256": "ac9c8b1a2a7e74fd6d8e984eb11f1f125546b7a7a29ee5eccff7a2e40a064539"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/sonata-sr-a54b94c5e9bc.woff2",
+      "bytes": 21336,
+      "sha": "24110281b419a903a327ed69ce2e45e369fffb89",
+      "sha256": "a54b94c5e9bc9f41ad4c48b6b7869d39dbc93a07dd5d6ee8949e065aa91798f2"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjiga-sr-a8bbafa8400f.woff2",
+      "bytes": 28224,
+      "sha": "68c2e1a23cf73a6a6cd5b61b7fd955afe4057280",
+      "sha256": "a8bbafa8400f5633d3be838279453eacd6162fb6610bed0dff710ea3ba14da01"
+    },
+    {
+      "path": "public/assets/pozivnice/fonts/premium-20261027/knjigaItalic-sr-85e6ad19036b.woff2",
+      "bytes": 29440,
+      "sha": "e4cebb6d8b2b7521df9f70b189c9e734ed54a17f",
+      "sha256": "85e6ad19036b6126e7bd83e47ee425388b795e5f0cba2d37db86f5673f6a6227"
+    }
+  ],
+  "additionalLocalEvidence": "All six personalized editorPNG/PDF and six long-textPNG retained locally, opened and checked; representative defaultPNG/PDF and expandedmobile previews saved inGitHub."
+}
