@@ -1,0 +1,121 @@
+{
+  "id": "2026-10-27-replacement-01",
+  "dateTokyo": "2026-10-27",
+  "kind": "explicit_replacement_of_rejected_series",
+  "audience": "male",
+  "birthdayAge": 6,
+  "path": "content/robi-batches/2026-10-27/replacement-01",
+  "startedAt": "2026-10-27T07:43:49Z",
+  "originalDeadline": "2026-10-27T10:00:00+09:00",
+  "manualStartAuthorized": true,
+  "priorSixRemoved": true,
+  "removedBatch": "2026-10-27",
+  "newMotifsAndTypography": true,
+  "historyReviewed": true,
+  "premiumQualityIsAVisualGoalNotUserApproval": true,
+  "designs": [
+    {
+      "id": "krug-prvih-zelja",
+      "name": "Krug prvih želja",
+      "category": "first",
+      "audience": "male",
+      "age": 1,
+      "motif": "sa panoramskim točkom i prugastim ukrasima",
+      "fontPair": "Napravi Studio (Bricolage Grotesque) + Napravi Knjiga (Lora)",
+      "palette": [
+        "French blue",
+        "butter yellow",
+        "burnt coral",
+        "warm ivory"
+      ],
+      "direction": "Hand-painted fairground stationery, lower-left detailedwheel and measured pinstripes, large upper name and connectedagegroup, lower-rightdetails.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. A firstbirthday for a baby boy: finely illustrated small fairground Ferris wheel, charming individual striped gondolas, French blue framework and coral/yellow cabins, elegant artisan watercolor with precise ink details. The wheel is integrated into the lower-left half x9–49%, y52–89%, not floating as a tiny icon. Restrained French-blue and butter-yellow striped/scalloped graphic accents on the upper corners and lower edge, all important ornaments inside inset. Warm ivory central ground with very subtle print grain. Preserve a broad calm ivory area across upper-middle x16–89%, y15–48%, and lower-right x56–90%, y55–86%, for substantial navy typography later. Sophisticated celebratory nursery stationery, lively but refined colors, no balloons, no cartoon faces, no signs."
+    },
+    {
+      "id": "kobaltni-prelom",
+      "name": "Kobaltni prelom",
+      "category": "eighteen",
+      "audience": "male",
+      "age": 18,
+      "motif": "sa kobaltnim geometrijskim lukovima i platinastim linijama",
+      "fontPair": "Napravi Gala (Bodoni Moda) + Napravi Linear (Sora)",
+      "palette": [
+        "midnight graphite",
+        "electric cobalt",
+        "platinum",
+        "ivory"
+      ],
+      "direction": "Contemporary editorial graphic geometry and oversized Bodoni age/name, generous refined spacing, no stockpartyobjects.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. A sophisticated young man's eighteenth birthday. Contemporary luxury editorial graphic composition: rich midnight graphite fields interlock with electric-cobalt broad architectural curved bands across the right third and lower quarter; exquisite thin platinum curved inlay lines trace selected contours and a subtle fine metallic grain enriches dark fields. Completely flat graphic design, no literal3D objects, no ribbons, no foil-letter mockup, no music, no balloons or confetti. Upper-left to middle x9–70%, y10–65% is uninterrupted deep graphite for very large ivory display typography; a broad lower-left dark area remains clear for event details. Cobalt arcs and platinum detail give energy and precise rhythm to the whole canvas. Distinctive fashion-invitation art direction, crisp expertly balanced forms."
+    },
+    {
+      "id": "stadion-malih-sampiona",
+      "name": "Stadion malih šampiona",
+      "category": "birthday",
+      "audience": "male",
+      "age": 6,
+      "motif": "sa fudbalskom loptom i stilizovanim stadionom",
+      "fontPair": "Napravi Studio (Bricolage Grotesque) + Napravi Linear (Sora)",
+      "palette": [
+        "grass green",
+        "cobalt",
+        "tangerine",
+        "warm ivory"
+      ],
+      "direction": "Vivid crafted sporting print, stadiumcurves as part ofcomposition, broad ivoryupper field, large playful displayname.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. An energetic premium football birthday invitation for a six-year-old boy. Crafted contemporary illustrated sports-poster stationery: a beautifully drawn classic black-and-white football in lower-left x10–39%,y63–86%, integrated with sweeping emerald grass-green and cobalt stadium-track curves around the lower half. Fine precise field-line details and a few restrained tangerine geometric accents; no badges, jerseys, logos, lettering or scores. A large asymmetrical warm-ivory shape opens across upper-center x12–90%,y10–53% for substantial dark-green editable text; lower-right x52–90%,y60–86% is clean deep green for practical details. Rich confident green/blue/orange, subtle crafted print texture, elegant clear shapes. Dynamic whole-page composition, not scattered clipart, not photorealistic."
+    },
+    {
+      "id": "vrt-pod-cempresima",
+      "name": "Vrt pod čempresima",
+      "category": "wedding",
+      "audience": "couple",
+      "age": null,
+      "motif": "sa čempresima i mediteranskim vrtom",
+      "fontPair": "Napravi Eleganza (Italiana) + Napravi Knjiga (Lora)",
+      "palette": [
+        "warm ivory",
+        "deep olive",
+        "dusty French blue",
+        "terracotta"
+      ],
+      "direction": "Fine European garden illustration frames names in opencentralfield, classic architecturalstationery with contemporarylargeuppercase serif.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. Bespoke fine-art wedding stationery inspired by a quiet Mediterranean formal garden. Exquisite delicate watercolor-and-engraving illustration: tall slender darkolive cypress trees frame the left and right inner sides x8–19% and x81–92%, with tiny terracotta planters and clipped garden hedges confined to the lowest18%. Gentle French-blue stonework and a hint of pale garden paving, viewed as flat ornamental elevation, absolutely no vanishing-point scene or paper mockup. Warm ivory ground fills the image with subtle pale fresco texture. Keep the broad central area x23–77%,y12–78% calm ivory for large elegant couple names and formal details later. Cypresses and garden forms fully inside6%inset. Understated meticulous hand craftsmanship, gracious spacing, no flowers, rings, ribbon, text or decorative frame."
+    },
+    {
+      "id": "mozaik-blagoslova",
+      "name": "Mozaik blagoslova",
+      "category": "baptism",
+      "audience": "male",
+      "age": null,
+      "motif": "sa plavo-zlatnim mozaikom i krstom",
+      "fontPair": "Napravi Gala (Bodoni Moda) + Napravi Knjiga (Lora)",
+      "palette": [
+        "cobalt",
+        "antique gold",
+        "ivory",
+        "cerulean"
+      ],
+      "direction": "Refined Byzantine mosaic relief renderedflat, centralgoldcrossmedallion, substantial classicaltype below, symmetricdonecarefully.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. Heirloom baptism invitation background for a baby boy. Refined Byzantine-inspired mosaic craftsmanship rendered as completely flat ornament: a small exquisite goldcross inside a circular cobalt/cerulean mosaic medallion at topcenter x39–61%,y10–28%. Tiny individually considered tesserae, antiquegold highlights, blue glass and ivory stone detail. Very slender blue-gold mosaic patterned bands run along inner left/right sides x6–10% and x90–94%, and a narrow lower band y90–94%, with no outer frame shadow. Important medallion and ornaments fully inside6%inset. Broad central warmivory stone field x16–84%,y33–86% remains calm and light for darkblue elegant editable name and ceremony details. Restrained sacred dignity, meticulous pattern, no angels, flowers, book, symbols besides thecross, no text."
+    },
+    {
+      "id": "hortenzijina-radost",
+      "name": "Hortenzijina radost",
+      "category": "baby",
+      "audience": "male",
+      "age": null,
+      "motif": "sa plavom hortenzijom i kariranom trakom",
+      "fontPair": "Napravi Knjiga Italic (Lora) + Napravi Linear (Sora)",
+      "palette": [
+        "hydrangea blue",
+        "periwinkle",
+        "warm ivory",
+        "soft sage"
+      ],
+      "direction": "Heirloom floral nursery invitation, detailedblue flowercluster and finegingham tiedribbon, deliberate asymmetricframe with bigbabyname.",
+      "prompt": "One original premium invitation background, portrait EXACT5:7, target1500x2100px. Flat full-bleed artwork only, no sheet of paper, mockup, table, hands, perspective or exterior drop shadow. Absolutely no text, letters, numbers, monogram, logos or watermark. One background only, never collage/alternatives. Compose the illustration and clear future typography area together as refined bespoke stationery, with intentional detail and hierarchy, not a stock icon on a blank color field. All important motifs fully inside a generous6%inset on every edge; only abstract background color fields may bleed. Refined birth-celebration invitation for a newborn boy. Original artisan botanical stationery: a lush finely hand-painted Frenchblue and periwinkle hydrangea cluster with soft sage leaves and a narrow neatly tied blue-and-ivory gingham ribbon, integrated in upper-left x8–34%,y9–38%. A smaller related hydrangea sprig balances lower-right x73–90%,y76–89%. Every leaf, petal and ribbon tail is inside the inset, no clipped flowers. Warmivory background with a very faint wide-spaced blue pinstripe texture, no fake paper sheet, no external shadow. Large central-right and middle-lower warmivory space x37–88%,y15–69% and x12–69%,y43–86% for a substantial darkblue baby name and invitation details. Intricate graceful illustration, controlled scale and refined color, no baby face, clothes, lettering or numbers."
+    }
+  ],
+  "rejectedAttempts": []
+}

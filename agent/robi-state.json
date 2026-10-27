@@ -2321,10 +2321,84 @@
         "technicalHistoryPreserved": true
       },
       "removal": {
-        "status": "requested_in_progress",
-        "requestedAt": "2026-10-27T07:32:37Z",
-        "source": "agent/feedback/2026-10-27-remove-and-replace.json"
+        "status": "main_removed_deploy_pending",
+        "mainCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+        "evidence": "agent/removals/2026-10-27.json"
       }
+    },
+    {
+      "id": "2026-10-27-replacement-01",
+      "date": "2026-10-27",
+      "path": "content/robi-batches/2026-10-27/replacement-01",
+      "kind": "explicit_replacement_of_rejected_series",
+      "status": "generating",
+      "audience": "male",
+      "birthdayAge": 6,
+      "requiredCount": 6,
+      "generatedCount": 0,
+      "preparedCount": 0,
+      "deployedCount": 0,
+      "verifiedPublicCount": 0,
+      "completedCount": 0,
+      "completionVerified": false,
+      "startedAt": "2026-10-27T07:43:49Z",
+      "manualStart": true,
+      "deadlineAt": "2026-10-27T10:00:00+09:00",
+      "deadlineMet": false,
+      "replacesBatch": "2026-10-27",
+      "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+      "designs": [
+        {
+          "id": "krug-prvih-zelja",
+          "name": "Krug prvih želja",
+          "category": "first",
+          "audience": "male",
+          "age": 1,
+          "status": "planned"
+        },
+        {
+          "id": "kobaltni-prelom",
+          "name": "Kobaltni prelom",
+          "category": "eighteen",
+          "audience": "male",
+          "age": 18,
+          "status": "planned"
+        },
+        {
+          "id": "stadion-malih-sampiona",
+          "name": "Stadion malih šampiona",
+          "category": "birthday",
+          "audience": "male",
+          "age": 6,
+          "status": "planned"
+        },
+        {
+          "id": "vrt-pod-cempresima",
+          "name": "Vrt pod čempresima",
+          "category": "wedding",
+          "audience": "couple",
+          "age": null,
+          "status": "planned"
+        },
+        {
+          "id": "mozaik-blagoslova",
+          "name": "Mozaik blagoslova",
+          "category": "baptism",
+          "audience": "male",
+          "age": null,
+          "status": "planned"
+        },
+        {
+          "id": "hortenzijina-radost",
+          "name": "Hortenzijina radost",
+          "category": "baby",
+          "audience": "male",
+          "age": null,
+          "status": "planned"
+        }
+      ],
+      "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
+      "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json"
     }
   ],
   "history": [
@@ -2638,8 +2712,8 @@
       "resumeAt0045": false
     }
   },
-  "status": "removing",
-  "activeBatch": "2026-10-27",
+  "status": "generating",
+  "activeBatch": "2026-10-27-replacement-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
     "timezone": "Asia/Tokyo",
@@ -2660,7 +2734,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T07:32:37Z",
+  "updatedAt": "2026-10-27T07:43:49Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
