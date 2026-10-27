@@ -2752,7 +2752,7 @@
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
       "rejectedCount": 6,
-      "lastConfirmedStep": "Complete48binary/79textarchive readbackpassed; all6prechecks passed; publishing one31-filemaincommit.",
+      "lastConfirmedStep": "One31-file mainpublicationcomplete;31productionSHA/13text readbackmatched,451parentfiles/36oldtemplatespreserved,16retiredfilesstillabsent. Cloudflare deploypending.",
       "preliminaryRenderChecks": "passed_default_and_long_text",
       "artifactPersistence": {
         "status": "required_artifacts_saved_and_read_back",
@@ -2772,8 +2772,12 @@
         "status": "publishing",
         "atomic": true,
         "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
-        "startedAt": "2026-10-27T11:50:24Z"
-      }
+        "startedAt": "2026-10-27T11:50:24Z",
+        "commit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+        "mainUpdatedAt": "2026-10-27T11:51:32Z"
+      },
+      "mainCommit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+      "mainUpdatedAt": "2026-10-27T11:51:32Z"
     }
   ],
   "history": [
@@ -3113,7 +3117,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T11:50:24Z",
+  "updatedAt": "2026-10-27T11:51:32Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
