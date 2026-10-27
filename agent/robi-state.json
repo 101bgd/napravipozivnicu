@@ -2623,13 +2623,13 @@
       "date": "2026-10-27",
       "path": "content/robi-batches/2026-10-27/replacement-01",
       "kind": "explicit_replacement_of_rejected_series",
-      "status": "publishing",
+      "status": "blocked",
       "audience": "male",
       "birthdayAge": 6,
       "requiredCount": 6,
       "generatedCount": 6,
       "preparedCount": 6,
-      "deployedCount": 0,
+      "deployedCount": 6,
       "verifiedPublicCount": 0,
       "completedCount": 0,
       "completionVerified": false,
@@ -2646,7 +2646,7 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2664,7 +2664,7 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2682,7 +2682,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2700,7 +2700,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2718,7 +2718,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2736,7 +2736,7 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "ready_to_publish",
+          "status": "deployed_unverified",
           "sourceDimensions": [
             1060,
             1484
@@ -2752,7 +2752,7 @@
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
       "rejectedCount": 6,
-      "lastConfirmedStep": "One31-file mainpublicationcomplete;31productionSHA/13text readbackmatched,451parentfiles/36oldtemplatespreserved,16retiredfilesstillabsent. Cloudflare deploypending.",
+      "lastConfirmedStep": "All6replacementtemplates deployed inone31file maincommit; Cloudflare success2026-10-27T20:53:04+09:00.31productionhashes/13texts,48archivebinaries/79texts matched;451parentfiles/36oldertemplates preserved;16retiredfilesstillabsent. All6actualpostdeployrequests blocked atproxyCONNECT403.",
       "preliminaryRenderChecks": "passed_default_and_long_text",
       "artifactPersistence": {
         "status": "required_artifacts_saved_and_read_back",
@@ -2766,18 +2766,56 @@
       "userReview": {
         "status": "awaiting_user_review",
         "aestheticApproval": null,
+        "aestheticApprovalAssumed": false,
         "pointsAwardedThisBatch": 0
       },
       "publication": {
-        "status": "publishing",
+        "batchId": "2026-10-27-replacement-01",
+        "status": "deployed",
         "atomic": true,
-        "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
-        "startedAt": "2026-10-27T11:50:24Z",
         "commit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
-        "mainUpdatedAt": "2026-10-27T11:51:32Z"
+        "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+        "mainUpdatedAt": "2026-10-27T11:51:32Z",
+        "cloudflareCheckId": 122173226574,
+        "cloudflareConclusion": "success",
+        "completedAt": "2026-10-27T11:53:04Z",
+        "completedAtTokyo": "2026-10-27T20:53:04+09:00",
+        "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/9581dc86-4eff-44be-88e6-4aeab632aa90",
+        "completedBeforeOriginalDeadline": false,
+        "originalDeadline": "2026-10-27T10:00:00+09:00",
+        "lateSecondsFromOriginalDeadline": 39184,
+        "manualReplacement": true
       },
       "mainCommit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
-      "mainUpdatedAt": "2026-10-27T11:51:32Z"
+      "mainUpdatedAt": "2026-10-27T11:51:32Z",
+      "blockedStage": "post_publication_verification",
+      "deliveryDeadlineMet": false,
+      "publicVerification": {
+        "status": "blocked",
+        "checkedAt": "2026-10-27T11:56:10.595090+00:00",
+        "evidence": "content/robi-batches/2026-10-27/replacement-01/public-live-checks.json",
+        "reason": "All6 HTTPS requests blocked by proxyCONNECT403 before any destinationresponse; public page/editor/exports/category/sitemap/SEO/realAdSense remainNEPROVERENO."
+      },
+      "blockers": [
+        {
+          "step": "live_public_verification",
+          "reason": "EnvironmentproxyCONNECT403; no destination response and no networkbypass."
+        }
+      ],
+      "notification": {
+        "channel": "ChatGPT",
+        "reportPreparedAt": "2026-10-27T11:56:10Z",
+        "onTime": false,
+        "originalDeadline": "2026-10-27T10:00:00+09:00",
+        "deliveryNote": "FinalChatGPTresponse is the notification; writingafile alone doesnot prove delivery."
+      },
+      "resumeActions": [
+        "Do not regenerate or republish the six replacementtemplates: deploymentcommite2e846cd54ec31cb686db5bfd8c93d24ae1a9812isconfirmed.",
+        "Neverrestorethe sixretired original27Octtemplates.",
+        "Complete only permitted public page/editor/export/category/sitemap/SEO/AdSense checks when accessisavailable; do notbypass networkrules.",
+        "Nextplannedcreativebatch isfemale childage6; male nextage7. Confirmedcountersawaitfullrequiredverification.",
+        "Onlyrecordexplicituseraestheticreviews andpointawards."
+      ]
     }
   ],
   "history": [
@@ -3072,6 +3110,40 @@
       "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
       "removedAt": "2026-10-27T07:40:31Z",
       "automaticRepublishingForbidden": true
+    },
+    {
+      "id": "2026-10-27-replacement-01",
+      "date": "2026-10-27",
+      "kind": "explicit_replacement_of_rejected_series",
+      "status": "deployed_verification_blocked",
+      "published": true,
+      "countsAsDailyDelivery": false,
+      "advanceAudience": false,
+      "reuseForDailyPublication": false,
+      "designIds": [
+        "misji-prvi-piknik",
+        "kobaltni-prelom",
+        "lemurova-dzungla",
+        "anemonin-potpis",
+        "plava-nit-blagoslova",
+        "polarni-mali-zagrljaj"
+      ],
+      "motifs": [
+        "sa malim mišem i šumskim jagodama",
+        "sa kobaltnim geometrijskim lukovima i finim metalik linijama",
+        "sa lemurom i tropskim listovima",
+        "sa belim anemonama i finim grančicama",
+        "sa plavom brojanicom i srebrnim krstom",
+        "sa polarnom medvedicom i mladunčetom"
+      ],
+      "source": "content/robi-batches/2026-10-27/replacement-01/plan.json",
+      "mainCommit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+      "deployedAt": "2026-10-27T11:53:04Z",
+      "audience": "male",
+      "birthdayAge": 6,
+      "replacesBatch": "2026-10-27",
+      "late": true,
+      "userAestheticApproval": null
     }
   ],
   "automations": {
@@ -3095,7 +3167,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "publishing",
+  "status": "blocked",
   "activeBatch": "2026-10-27-replacement-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -3117,7 +3189,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T11:51:32Z",
+  "updatedAt": "2026-10-27T11:56:10Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
@@ -3159,21 +3231,24 @@
     "ledger": "agent/review-ledger.json",
     "updatedAt": "2026-10-21T03:43:31Z"
   },
-  "plannedNextAudience": "male",
+  "plannedNextAudience": "female",
   "plannedNextBirthdayAgeByAudience": {
-    "male": 6,
+    "male": 7,
     "female": 6
   },
-  "planningNote": "Replacement of rejected male/age6 slot; previous retained batch26October was female/age5. Discarded series does not advance the retained creative sequence.",
-  "lastPublishedBatch": "2026-10-26",
+  "planningNote": "Rejected27Octmale/age6serieswasremoved; itsreplacementnowdeployed. Retainedsequence proceeds to female/age6. Confirmedcounters andlastSuccessfulBatch unchangedpendingrequiredpublicverification.",
+  "lastPublishedBatch": "2026-10-27-replacement-01",
   "latestUserDirective": {
+    "dateTokyo": "2026-10-27",
+    "recordedAt": "2026-10-27T11:56:10Z",
     "source": "ChatGPT",
     "quote": "obrisi celu poslednju seriju potpuno sa sajta i kreni novu, potrudi se da je premium sve",
-    "recordedAt": "2026-10-27T07:32:37Z",
-    "dateTokyo": "2026-10-27",
-    "status": "removing_rejected_series_then_new_six",
-    "rejectedBatch": "2026-10-27",
-    "replacementBatch": "2026-10-27-replacement-01"
+    "status": "old_six_removed_and_new_six_deployed_public_verification_blocked",
+    "removedBatch": "2026-10-27",
+    "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+    "replacementBatch": "2026-10-27-replacement-01",
+    "replacementCommit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+    "userAestheticApproval": null
   },
   "retiredDesignIds": [
     "kornjacina-prva-radost",

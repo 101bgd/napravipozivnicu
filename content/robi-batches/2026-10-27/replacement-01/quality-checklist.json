@@ -1,6 +1,6 @@
 {
   "batchId": "2026-10-27-replacement-01",
-  "checkedAt": "2026-10-27T11:36:14Z",
+  "checkedAt": "2026-10-27T11:56:10Z",
   "prePublicationStatus": "PROŠLO",
   "requiredChecks": 19,
   "designs": [
@@ -1051,16 +1051,28 @@
     177.8
   ],
   "publication": {
-    "status": "NEPROVERENO"
+    "status": "PROŠLO",
+    "commit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+    "atomic": true,
+    "cloudflare": "success",
+    "completedAtTokyo": "2026-10-27T20:53:04+09:00",
+    "evidence": [
+      "deployment-check.json",
+      "production-readback.json"
+    ]
   },
   "postPublication": {
-    "status": "NEPROVERENO"
+    "status": "NEPROVERENO",
+    "evidence": "public-live-checks.json",
+    "reason": "All6actualpostdeployrequests blocked byproxyCONNECT403."
   },
   "deadline": {
     "original": "2026-10-27T10:00:00+09:00",
     "status": "PALO",
     "manualReplacementExplicitlyAuthorized": true,
-    "notAnOnTimeMorningDelivery": true
+    "notAnOnTimeMorningDelivery": true,
+    "completedAtTokyo": "2026-10-27T20:53:04+09:00",
+    "lateSeconds": 39184
   },
   "aestheticReview": "Actual completecompositions/mobile/openedPNG/PDF reviewed with concrete visualreasoning. Fontnames/licenses/tests alone are not proof of premiumquality. Userreviewawaiting.",
   "points": {
@@ -1069,5 +1081,6 @@
     "total": 1,
     "target": 50,
     "awardedByThisRun": 0
-  }
+  },
+  "finalStatus": "BLOKIRANO"
 }

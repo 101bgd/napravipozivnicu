@@ -1,0 +1,41 @@
+{
+  "batchId": "2026-10-27-replacement-01",
+  "dateTokyo": "2026-10-27",
+  "checkedAt": "2026-10-27T11:56:10Z",
+  "kind": "manual_replacement",
+  "oldSixRemoved": true,
+  "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+  "newSixDeployed": true,
+  "productionCommit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+  "status": "blocked_public_verification",
+  "deployedCount": 6,
+  "verifiedPublicCount": 0,
+  "deadlineMet": false,
+  "morningDeadline": "2026-10-27T10:00:00+09:00",
+  "deployment": {
+    "batchId": "2026-10-27-replacement-01",
+    "status": "deployed",
+    "atomic": true,
+    "commit": "e2e846cd54ec31cb686db5bfd8c93d24ae1a9812",
+    "expectedParent": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+    "mainUpdatedAt": "2026-10-27T11:51:32Z",
+    "cloudflareCheckId": 122173226574,
+    "cloudflareConclusion": "success",
+    "completedAt": "2026-10-27T11:53:04Z",
+    "completedAtTokyo": "2026-10-27T20:53:04+09:00",
+    "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/9581dc86-4eff-44be-88e6-4aeab632aa90",
+    "completedBeforeOriginalDeadline": false,
+    "originalDeadline": "2026-10-27T10:00:00+09:00",
+    "lateSecondsFromOriginalDeadline": 39184,
+    "manualReplacement": true
+  },
+  "publicLiveEvidence": "public-live-checks.json",
+  "points": {
+    "regular": 1,
+    "bonus": 0,
+    "total": 1,
+    "target": 50,
+    "awardedByAgent": 0
+  },
+  "userAestheticApproval": null
+}
