@@ -2619,12 +2619,12 @@
       "date": "2026-10-27",
       "path": "content/robi-batches/2026-10-27/replacement-01",
       "kind": "explicit_replacement_of_rejected_series",
-      "status": "generating",
+      "status": "checking",
       "audience": "male",
       "birthdayAge": 6,
       "requiredCount": 6,
       "generatedCount": 6,
-      "preparedCount": 0,
+      "preparedCount": 6,
       "deployedCount": 0,
       "verifiedPublicCount": 0,
       "completedCount": 0,
@@ -2688,7 +2688,13 @@
       "report": "content/robi-batches/2026-10-27/replacement-01/REPORT.md",
       "qualityChecklist": "content/robi-batches/2026-10-27/replacement-01/quality-checklist.json",
       "rejectedCount": 6,
-      "lastConfirmedStep": "Six entirely new original1060x1484 backgrounds selected; six initial attempts rejected; two unsupported fonts rejected, Serbian-compatible replacement prepared."
+      "lastConfirmedStep": "All6 render checks passed; production buildpassed; sources/rejected attempts/newfontfaces saved. Mobile/editor/actualPNG/PDF tests underway.",
+      "preliminaryRenderChecks": "passed_default_and_long_text",
+      "artifactPersistence": {
+        "status": "sources_and_fonts_committed_pending_final_examples",
+        "binaryObjects": 18,
+        "allUploadedHashesMatched": true
+      }
     }
   ],
   "history": [
@@ -3006,7 +3012,7 @@
       "resumeAt0045": false
     }
   },
-  "status": "generating",
+  "status": "checking",
   "activeBatch": "2026-10-27-replacement-01",
   "firstScheduledBatch": {
     "date": "2026-10-21",
@@ -3028,7 +3034,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T08:05:18Z",
+  "updatedAt": "2026-10-27T11:25:02Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",
