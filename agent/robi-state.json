@@ -2089,7 +2089,7 @@
       "date": "2026-10-27",
       "timezone": "Asia/Tokyo",
       "path": "content/robi-batches/2026-10-27",
-      "status": "removing_by_user",
+      "status": "removed_by_user",
       "audience": "male",
       "birthdayAge": 6,
       "audienceAssignment": "planned_from_retained_complete_deployments_confirmed_counters_unchanged",
@@ -2110,7 +2110,7 @@
           "category": "first",
           "audience": "male",
           "age": 1,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2119,9 +2119,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/prva-melodija.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/"
         },
         {
           "id": "zlatni-saksofon",
@@ -2129,7 +2130,7 @@
           "category": "eighteen",
           "audience": "male",
           "age": 18,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2138,9 +2139,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/"
         },
         {
           "id": "satorska-avantura",
@@ -2148,7 +2150,7 @@
           "category": "birthday",
           "audience": "male",
           "age": 6,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2157,9 +2159,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/satorska-avantura.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/"
         },
         {
           "id": "magnolijin-zavet",
@@ -2167,7 +2170,7 @@
           "category": "wedding",
           "audience": "couple",
           "age": null,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2176,9 +2179,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/"
         },
         {
           "id": "perunika-blagoslova",
@@ -2186,7 +2190,7 @@
           "category": "baptism",
           "audience": "male",
           "age": null,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2195,9 +2199,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/"
         },
         {
           "id": "plava-kapica-radosti",
@@ -2205,7 +2210,7 @@
           "category": "baby",
           "audience": "male",
           "age": null,
-          "status": "deployed_unverified",
+          "status": "removed_by_user",
           "sourceDimensions": [
             1060,
             1484
@@ -2214,9 +2219,10 @@
             1500,
             2100
           ],
-          "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+          "publicUrl": null,
           "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp",
-          "userAestheticReview": "rejected_visual_quality"
+          "userAestheticReview": "rejected_visual_quality",
+          "previousPublicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/"
         }
       ],
       "report": "content/robi-batches/2026-10-27/REPORT.md",
@@ -2321,10 +2327,292 @@
         "technicalHistoryPreserved": true
       },
       "removal": {
-        "status": "main_removed_deploy_pending",
-        "mainCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
-        "evidence": "agent/removals/2026-10-27.json"
-      }
+        "batchId": "2026-10-27",
+        "status": "removed_deploy_verified_public_unverified",
+        "requestedBy": "user",
+        "source": {
+          "channel": "ChatGPT",
+          "quote": "obrisi celu poslednju seriju potpuno sa sajta i kreni novu, potrudi se da je premium sve"
+        },
+        "productionCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+        "productionParent": "e4208580a0f7252838599b79f8213abd91008fd9",
+        "designs": [
+          {
+            "id": "prva-melodija",
+            "name": "Prva melodija",
+            "category": "first",
+            "audience": "male",
+            "age": 1,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/prva-melodija.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          },
+          {
+            "id": "zlatni-saksofon",
+            "name": "Zlatni saksofon",
+            "category": "eighteen",
+            "audience": "male",
+            "age": 18,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/zlatni-saksofon.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          },
+          {
+            "id": "satorska-avantura",
+            "name": "Šatorska avantura",
+            "category": "birthday",
+            "audience": "male",
+            "age": 6,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/satorska-avantura.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          },
+          {
+            "id": "magnolijin-zavet",
+            "name": "Magnolijin zavet",
+            "category": "wedding",
+            "audience": "couple",
+            "age": null,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/magnolijin-zavet.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          },
+          {
+            "id": "perunika-blagoslova",
+            "name": "Perunika blagoslova",
+            "category": "baptism",
+            "audience": "male",
+            "age": null,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/perunika-blagoslova.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          },
+          {
+            "id": "plava-kapica-radosti",
+            "name": "Plava kapica radosti",
+            "category": "baby",
+            "audience": "male",
+            "age": null,
+            "status": "deployed_unverified",
+            "sourceDimensions": [
+              1060,
+              1484
+            ],
+            "exportDimensions": [
+              1500,
+              2100
+            ],
+            "publicUrl": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+            "preview": "https://github.com/101bgd/napravipozivnicu/blob/robi-agent/content/robi-batches/2026-10-27/previews/plava-kapica-radosti.webp",
+            "userAestheticReview": "rejected_visual_quality"
+          }
+        ],
+        "removedProductionFiles": [
+          "content/robi-batches/2026-10-27/asset-ids.json",
+          "content/robi-batches/2026-10-27/designs.mjs",
+          "content/robi-batches/2026-10-27/layout-tuning.json",
+          "content/robi-batches/2026-10-27/metadata.json",
+          "public/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-background-e82b816c0040.webp",
+          "public/assets/pozivnice/robi/2026-10-27/magnolijin-zavet-thumbnail-b6e7088e9389.webp",
+          "public/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-background-aae63a214553.webp",
+          "public/assets/pozivnice/robi/2026-10-27/perunika-blagoslova-thumbnail-3c6f21772ef0.webp",
+          "public/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-background-70d04c6b317d.webp",
+          "public/assets/pozivnice/robi/2026-10-27/plava-kapica-radosti-thumbnail-3b901ef8d543.webp",
+          "public/assets/pozivnice/robi/2026-10-27/prva-melodija-background-4983ed97c8bd.webp",
+          "public/assets/pozivnice/robi/2026-10-27/prva-melodija-thumbnail-6c9cf894efc3.webp",
+          "public/assets/pozivnice/robi/2026-10-27/satorska-avantura-background-412016828ffa.webp",
+          "public/assets/pozivnice/robi/2026-10-27/satorska-avantura-thumbnail-d70dc9b1bba4.webp",
+          "public/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-background-99956314516f.webp",
+          "public/assets/pozivnice/robi/2026-10-27/zlatni-saksofon-thumbnail-d2cd789bd633.webp"
+        ],
+        "checks": {
+          "status": "PROŠLO",
+          "designs": [
+            {
+              "id": "prva-melodija",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            },
+            {
+              "id": "zlatni-saksofon",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            },
+            {
+              "id": "satorska-avantura",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            },
+            {
+              "id": "magnolijin-zavet",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            },
+            {
+              "id": "perunika-blagoslova",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            },
+            {
+              "id": "plava-kapica-radosti",
+              "catalog": "PROŠLO",
+              "category": "PROŠLO",
+              "sitemap": "PROŠLO",
+              "page404": "PROŠLO",
+              "api404": "PROŠLO",
+              "asset404": "PROŠLO"
+            }
+          ],
+          "publishedAdminCopiesHidden": 6,
+          "unrelatedCopyPreserved": true,
+          "publicReadsDoNotMutateDatabase": true,
+          "authenticatedCleanupDeletesOnlyTargets": true,
+          "cleanupTestWasLocal": true,
+          "productionD1MutationPerformed": false
+        },
+        "readback": {
+          "commit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+          "removedFiles": 16,
+          "changedFiles": 6,
+          "preservedBlobs": 449,
+          "unrelatedRobiTemplatesPreserved": 36,
+          "allMatched": true
+        },
+        "publicVerification": "not_yet_checked",
+        "historicalGitObjectsPurged": false,
+        "controlEvidenceRetained": true,
+        "productionD1RowsPhysicallyPurged": false,
+        "productionD1CopiesPubliclyHiddenByRetirementGuard": true,
+        "replacementBatch": "2026-10-27-replacement-01",
+        "pointsAwarded": 0,
+        "cloudflare": {
+          "id": 122069740435,
+          "status": "completed",
+          "conclusion": "success",
+          "completedAt": "2026-10-27T07:40:31Z",
+          "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/0b01a68b-38b7-4ffc-8801-8c331bce92f3"
+        },
+        "completedAt": "2026-10-27T07:40:31Z",
+        "completedAtTokyo": "2026-10-27T16:40:31+09:00",
+        "liveVerification": {
+          "checkedAt": "2026-10-27T07:50:56.409393+00:00",
+          "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+          "checks": [
+            {
+              "id": "prva-melodija",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            },
+            {
+              "id": "zlatni-saksofon",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            },
+            {
+              "id": "satorska-avantura",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            },
+            {
+              "id": "magnolijin-zavet",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            },
+            {
+              "id": "perunika-blagoslova",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            },
+            {
+              "id": "plava-kapica-radosti",
+              "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+              "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+              "destinationResponseReceived": false,
+              "status": "NEPROVERENO"
+            }
+          ],
+          "proxyAndTlsPreserved": true,
+          "networkBypassUsed": false,
+          "interpretation": "CONNECT403 blocks destination verification; no live404 or cache-purge success claimed."
+        }
+      },
+      "currentlyPublishedCount": 0,
+      "deployedCatalogEntriesRemaining": 0
     },
     {
       "id": "2026-10-27-replacement-01",
@@ -2656,8 +2944,8 @@
     },
     {
       "id": "2026-10-27",
-      "status": "deployed_verification_blocked",
-      "published": true,
+      "status": "removed_by_user",
+      "published": false,
       "countsAsDailyDelivery": false,
       "advanceAudience": false,
       "reuseForDailyPublication": false,
@@ -2688,7 +2976,11 @@
         "status": "rejected_visual_quality",
         "source": "agent/feedback/2026-10-27-visual-quality.json",
         "recordedAt": "2026-10-27T05:48:28Z"
-      }
+      },
+      "previouslyPublished": true,
+      "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+      "removedAt": "2026-10-27T07:40:31Z",
+      "automaticRepublishingForbidden": true
     }
   ],
   "automations": {
@@ -2734,7 +3026,7 @@
     "recordedAt": "2026-10-21T03:43:31Z",
     "awardLedgerEntry": "user-review-2026-10-21"
   },
-  "updatedAt": "2026-10-27T07:43:49Z",
+  "updatedAt": "2026-10-27T07:52:49Z",
   "latestUserFeedback": {
     "dateTokyo": "2026-10-27",
     "recordedAt": "2026-10-27T05:48:28Z",

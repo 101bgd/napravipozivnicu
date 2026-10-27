@@ -1,6 +1,6 @@
 {
   "batchId": "2026-10-27",
-  "status": "main_removed_deploy_pending",
+  "status": "removed_deploy_verified_public_unverified",
   "requestedBy": "user",
   "source": {
     "channel": "ChatGPT",
@@ -221,5 +221,65 @@
   "productionD1RowsPhysicallyPurged": false,
   "productionD1CopiesPubliclyHiddenByRetirementGuard": true,
   "replacementBatch": "2026-10-27-replacement-01",
-  "pointsAwarded": 0
+  "pointsAwarded": 0,
+  "cloudflare": {
+    "id": 122069740435,
+    "status": "completed",
+    "conclusion": "success",
+    "completedAt": "2026-10-27T07:40:31Z",
+    "detailsUrl": "https://dash.cloudflare.com/?to=/a14d504120b162819ae4860d2ad9bd56/pages/view/napravipozivnicu/0b01a68b-38b7-4ffc-8801-8c331bce92f3"
+  },
+  "completedAt": "2026-10-27T07:40:31Z",
+  "completedAtTokyo": "2026-10-27T16:40:31+09:00",
+  "liveVerification": {
+    "checkedAt": "2026-10-27T07:50:56.409393+00:00",
+    "removalCommit": "27529a436917069a9988f3a6aeb1bfdd3000961a",
+    "checks": [
+      {
+        "id": "prva-melodija",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-prvi-rodjendan-drveni-ksilofon/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      },
+      {
+        "id": "zlatni-saksofon",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-18-rodjendan-zlatni-saksofon/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      },
+      {
+        "id": "satorska-avantura",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-deciji-rodjendan-sator-fenjer/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      },
+      {
+        "id": "magnolijin-zavet",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-vencanje-bela-magnolija-bordo/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      },
+      {
+        "id": "perunika-blagoslova",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-za-krstenje-bela-perunika-zlatni-krst/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      },
+      {
+        "id": "plava-kapica-radosti",
+        "url": "https://napravipozivnicu.com/pozivnice/pozivnica-proslava-rodjenja-decaka-plava-kapica/",
+        "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+        "destinationResponseReceived": false,
+        "status": "NEPROVERENO"
+      }
+    ],
+    "proxyAndTlsPreserved": true,
+    "networkBypassUsed": false,
+    "interpretation": "CONNECT403 blocks destination verification; no live404 or cache-purge success claimed."
+  }
 }
