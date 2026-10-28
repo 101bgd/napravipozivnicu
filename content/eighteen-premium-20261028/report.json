@@ -1,0 +1,257 @@
+[
+  {
+    "id": "bordo-gala",
+    "source": 1,
+    "originalSha256": "14ed27ed5e08ad72932da6778fae7de2db76b0030f5b5ff66aeee8ef51937607",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2202950,
+    "backgroundBytes": 295152,
+    "thumbnailBytes": 61222,
+    "reductionPercent": 86.6,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-premium-20261028/bordo-gala-background-d5bab93987cf.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-premium-20261028/bordo-gala-thumbnail-40f0f39d3f34.webp",
+    "bounds": [
+      {
+        "id": "bordo-gala-age",
+        "field": "age",
+        "x": 55,
+        "y": 17.5,
+        "rotation": 0,
+        "width": 325,
+        "height": 144
+      },
+      {
+        "id": "bordo-gala-signature",
+        "field": "signature",
+        "x": 15.5,
+        "y": 43,
+        "rotation": -90,
+        "width": 260,
+        "height": 44.800000000000004
+      },
+      {
+        "id": "bordo-gala-title",
+        "field": "title",
+        "x": 58,
+        "y": 32,
+        "rotation": 0,
+        "width": 330,
+        "height": 15.36
+      },
+      {
+        "id": "bordo-gala-names",
+        "field": "names",
+        "x": 58,
+        "y": 40,
+        "rotation": 0,
+        "width": 335,
+        "height": 55.04
+      },
+      {
+        "id": "bordo-gala-occasion",
+        "field": "occasion",
+        "x": 58,
+        "y": 47,
+        "rotation": 0,
+        "width": 335,
+        "height": 21.12
+      },
+      {
+        "id": "bordo-gala-note",
+        "field": "note",
+        "x": 58,
+        "y": 55,
+        "rotation": 0,
+        "width": 330,
+        "height": 45.900000000000006
+      },
+      {
+        "id": "bordo-gala-date_label",
+        "field": "date_label",
+        "x": 55,
+        "y": 62.5,
+        "rotation": 0,
+        "width": 170,
+        "height": 13.44
+      },
+      {
+        "id": "bordo-gala-time_label",
+        "field": "time_label",
+        "x": 81,
+        "y": 62.5,
+        "rotation": 0,
+        "width": 125,
+        "height": 13.44
+      },
+      {
+        "id": "bordo-gala-date",
+        "field": "date",
+        "x": 55,
+        "y": 66.5,
+        "rotation": 0,
+        "width": 170,
+        "height": 25.6
+      },
+      {
+        "id": "bordo-gala-time",
+        "field": "time",
+        "x": 81,
+        "y": 66.5,
+        "rotation": 0,
+        "width": 125,
+        "height": 33.28
+      },
+      {
+        "id": "bordo-gala-separator",
+        "field": "separator",
+        "x": 68,
+        "y": 70.5,
+        "rotation": 0,
+        "width": 200,
+        "height": 20.48
+      },
+      {
+        "id": "bordo-gala-location",
+        "field": "location",
+        "x": 68,
+        "y": 75,
+        "rotation": 0,
+        "width": 260,
+        "height": 51.300000000000004
+      },
+      {
+        "id": "bordo-gala-rsvp",
+        "field": "rsvp",
+        "x": 73,
+        "y": 85,
+        "rotation": 0,
+        "width": 240,
+        "height": 37.7
+      }
+    ]
+  },
+  {
+    "id": "oniks-potpis",
+    "source": 2,
+    "originalSha256": "740846466be7cd2607762b6207e597f2bbefb235d974effe9c4d61cf0e3b926c",
+    "width": 1060,
+    "height": 1484,
+    "originalBytes": 2607117,
+    "backgroundBytes": 414990,
+    "thumbnailBytes": 52198,
+    "reductionPercent": 84.1,
+    "backgroundUrl": "/assets/pozivnice/punoletstvo-premium-20261028/oniks-potpis-background-aa7fdac8b511.webp",
+    "thumbnailUrl": "/assets/pozivnice/punoletstvo-premium-20261028/oniks-potpis-thumbnail-0c55d4cd1c31.webp",
+    "bounds": [
+      {
+        "id": "oniks-potpis-title",
+        "field": "title",
+        "x": 43,
+        "y": 24,
+        "rotation": 0,
+        "width": 345,
+        "height": 14.72
+      },
+      {
+        "id": "oniks-potpis-names",
+        "field": "names",
+        "x": 43,
+        "y": 35,
+        "rotation": 0,
+        "width": 365,
+        "height": 84.48
+      },
+      {
+        "id": "oniks-potpis-name_rule",
+        "field": "name_rule",
+        "x": 43,
+        "y": 43,
+        "rotation": 0,
+        "width": 230,
+        "height": 21.76
+      },
+      {
+        "id": "oniks-potpis-age",
+        "field": "age",
+        "x": 43,
+        "y": 50,
+        "rotation": 0,
+        "width": 285,
+        "height": 144
+      },
+      {
+        "id": "oniks-potpis-occasion",
+        "field": "occasion",
+        "x": 43,
+        "y": 60.4,
+        "rotation": 0,
+        "width": 320,
+        "height": 26.88
+      },
+      {
+        "id": "oniks-potpis-note",
+        "field": "note",
+        "x": 43,
+        "y": 65.7,
+        "rotation": 0,
+        "width": 345,
+        "height": 19.84
+      },
+      {
+        "id": "oniks-potpis-date_label",
+        "field": "date_label",
+        "x": 34,
+        "y": 70,
+        "rotation": 0,
+        "width": 215,
+        "height": 13.44
+      },
+      {
+        "id": "oniks-potpis-time_label",
+        "field": "time_label",
+        "x": 68,
+        "y": 70,
+        "rotation": 0,
+        "width": 125,
+        "height": 13.44
+      },
+      {
+        "id": "oniks-potpis-date",
+        "field": "date",
+        "x": 34,
+        "y": 74,
+        "rotation": 0,
+        "width": 215,
+        "height": 25.6
+      },
+      {
+        "id": "oniks-potpis-time",
+        "field": "time",
+        "x": 68,
+        "y": 74,
+        "rotation": 0,
+        "width": 130,
+        "height": 32
+      },
+      {
+        "id": "oniks-potpis-location",
+        "field": "location",
+        "x": 53,
+        "y": 79.7,
+        "rotation": 0,
+        "width": 330,
+        "height": 44.550000000000004
+      },
+      {
+        "id": "oniks-potpis-rsvp",
+        "field": "rsvp",
+        "x": 53,
+        "y": 85,
+        "rotation": 0,
+        "width": 340,
+        "height": 16
+      }
+    ]
+  }
+]
