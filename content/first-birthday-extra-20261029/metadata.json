@@ -1,0 +1,28 @@
+[
+  {
+    "source": 1,
+    "id": "prva-morska-plovidba",
+    "name": "Prva morska plovidba",
+    "category": "first",
+    "slug": "besplatna-pozivnica-za-1-rodjendan-jedrilica-kit",
+    "motif": "sa jedrilicom i nasmejanim kitom",
+    "description": "Besplatna pozivnica za 1. rođendan sa jedrilicom i kitom. Promeni ime, datum i tekst online i preuzmi PNG ili PDF za štampu, bez fotografije.",
+    "imageAlt": "Pozivnica za 1. rođendan sa plavim morem, jedrilicom, nasmejanim kitom i balonima, krupnim plavim imenom i razigranom zlatnosmeđom jedinicom u nebu",
+    "details": "Jedrilica sa prugastim jedrom, nasmejani kit i morski talasi donose temu prve male avanture. Zaobljeno plavo ime i zlatnosmeđi broj jedan nalaze se u vedrom nebu, a datum i vreme su razdvojeni radi lakšeg čitanja. Uredi poruku, mesto i potvrdu dolaska bez dodavanja fotografije. Besplatno preuzmi PNG za slanje preko Vibera ili WhatsApp-a, ili PDF za štampu.",
+    "bg": "#d3edf7",
+    "seoTitle": "Pozivnica za 1. rođendan sa jedrilicom i nasmejanim kitom — Prva morska plovidba"
+  },
+  {
+    "source": 2,
+    "id": "labudicev-prvi-ples",
+    "name": "Labudićev prvi ples",
+    "category": "first",
+    "slug": "besplatna-pozivnica-za-prvi-rodjendan-labudic-masna",
+    "motif": "sa labudićem i roze mašnom",
+    "description": "Besplatna pozivnica za prvi rođendan sa labudićem, cvećem i roze mašnom. Uredi ime i podatke proslave i preuzmi PNG ili PDF, bez registracije.",
+    "imageAlt": "Roze pozivnica za prvi rođendan sa belim labudićem, cvećem, leptirima i mašnom, malinastim rukopisnim imenom i podacima proslave desno od labuda",
+    "details": "Beli labudić, ružičasta mašna i nežni cvetovi ostaju vidljivi uz slobodan svetli prostor za tekst. Rukopisno ime u boji maline i velika jedinica daju bajkovit ton, dok su datum, vreme, lokacija i potvrda dolaska izdvojeni desno od ilustracije. Šablon nema mesto za fotografiju. Napravi besplatnu digitalnu pozivnicu za 1. rođendan, prilagodi poruku i preuzmi sliku ili PDF za štampu.",
+    "bg": "#faeee8",
+    "seoTitle": "Pozivnica za 1. rođendan sa labudićem i roze mašnom — Labudićev prvi ples"
+  }
+]

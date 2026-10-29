@@ -18,11 +18,14 @@ import { eighteenCollectionDesign } from '../content/eighteen-collection/designs
 
 import { birthdayCollectionAssetIds } from './birthday-collection-assets.js';
 import { birthdayCollectionDesign } from '../content/birthday-collection/designs.mjs';
+import { firstBirthdayExtraAssetIds } from './first-birthday-extra-assets.js';
+import { firstBirthdayExtraDesign } from '../content/first-birthday-extra-20261029/designs.mjs';
 import { eighteenPremiumAssetIds } from './eighteen-premium-assets.js';
 import { eighteenPremiumDesign } from '../content/eighteen-premium-20261028/designs.mjs';
 import { robiBatches } from './robi-designs.js';
 
 const batches = [
+  { assets: firstBirthdayExtraAssetIds, build: firstBirthdayExtraDesign },
   { assets: eighteenPremiumAssetIds, build: eighteenPremiumDesign },
   ...robiBatches,
   { assets: birthdayCollectionAssetIds, build: birthdayCollectionDesign },

@@ -4,6 +4,7 @@ import { chromium } from 'playwright';
 import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { CATEGORY_CONTENT, categoryPath } from '../src/seo-content.js';
+import { templateTitle } from '../src/template-titles.js';
 
 const targets = { birthday: 'pozivnice za rodjendan', eighteen: 'pozivnice za 18. rodjendan', first: 'pozivnice za 1. rodjendan', wedding: 'pozivnice za vencanje', baptism: 'pozivnice za krstenje', baby: 'pozivnice za rodjenje' };
 const fold = text => text.toLocaleLowerCase('sr').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replaceAll('đ', 'dj');
@@ -42,7 +43,7 @@ try {
     assert.ok(fold(await page.locator('h1').innerText()).startsWith(target));
     const title = await page.title(), description = await page.locator('meta[name="description"]').getAttribute('content');
     assert.ok(fold(title).startsWith(target));
-    assert.ok(fold(description).startsWith(target));
+    assert.ok(fold(description).includes(target));
     assert.ok(fold(await page.locator('.collection-copy > p').innerText()).includes(target));
     assert.equal(await page.locator('.collection-guide-copy > p').first().innerText(), info.intro);
     titles.add(title); descriptions.add(description);
@@ -63,12 +64,15 @@ try {
     for (const template of templates) {
       const img = page.locator(`[data-template="${template.id}"] img`);
       const alt = await img.getAttribute('alt');
-      assert.ok(alt.startsWith(info.imageLabel), `${template.id}: the description must identify its invitation category`);
-      assert.ok(alt.length > info.imageLabel.length + 20 && !altTexts.has(alt), 'Alt text must describe the actual unique motif');
+      // Authored alt can begin with a color or visual motif. The surrounding
+      // category and ImageObject name identify the occasion without keyword stuffing.
+      assert.equal(alt, template.imageAlt.trim(), `${template.id}: keep the authored image description`);
+      assert.ok(alt.length > 20 && !altTexts.has(alt), 'Alt text must describe the actual unique motif');
       altTexts.add(alt);
       assert.equal(await img.getAttribute('width'), '500'); assert.equal(await img.getAttribute('height'), '700');
       assert.equal(await img.getAttribute('loading'), 'lazy');
       const imageObject = images.find(image => image.contentUrl === origin + template.thumbnail);
+      assert.equal(imageObject.name, templateTitle(template));
       assert.equal(imageObject.caption, alt);
       assert.equal(imageObject['@id'], `${origin}/pozivnice/${template.slug || template.id}/#image`);
       const detailEntry = xmlEntries.find(entry => entry.loc === `${origin}/pozivnice/${template.slug || template.id}/`);

@@ -2,12 +2,12 @@
 export const CATEGORY_EXPERIENCE = {
   first: {
     kicker: 'Jedna svećica. Toliko ljubavi.',
-    lead: 'Pozivnice za 1. rođendan sa nežnim ilustracijama i tvojom porukom. Izaberi dizajn, dodaj ime svog mališana i besplatno preuzmi PNG ili PDF.',
+    lead: 'Besplatne pozivnice za 1. rođendan sa nežnim ilustracijama i tvojom porukom. Izaberi dizajn, dodaj ime svog mališana i besplatno preuzmi PNG ili PDF.',
     signature: 'Godina dana. Ceo svet radosti.', symbol: '1',
     highlights: ['medin-mesecev-san', 'savanska-druzina', 'prva-tresnjica'],
     edit: 'Ime deteta, datum, vreme i mesto prve velike proslave.',
     guideTitle: 'Kako napraviti pozivnice za 1. rođendan?',
-    guide: 'Za prvi rođendan biraj motive koji prate dekoraciju: životinjice za safari proslavu, zeku i oblake za nežne tonove ili trešnjice za veselu letnju zabavu. Na pozivnici ostavi dovoljno prostora za ime i podatke koje gosti treba lako da pročitaju.',
+    guide: 'Za prvi rođendan biraj motive koji prate dekoraciju: jedrilicu i kita za morsku temu, labudića sa mašnom za nežne roze tonove, životinjice za safari proslavu ili trešnjice za veselu letnju zabavu. Na pozivnici ostavi dovoljno prostora za ime i podatke koje gosti treba lako da pročitaju.',
     checklist: ['Ime deteta i prvi rođendan', 'Datum i vreme početka proslave', 'Naziv i adresa igraonice ili restorana', 'Kontakt i rok za potvrdu dolaska'],
     examples: [
       ['Iz ugla mališana', 'Mala svećica, velika želja: da svi koje volim budu uz mene!\nDođite da zajedno proslavimo moj prvi rođendan.\n[Ime] · [datum] u [vreme]\n[Mesto i adresa]\nJavite nam do [rok] da li dolazite: [kontakt].'],

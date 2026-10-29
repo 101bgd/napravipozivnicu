@@ -32,11 +32,11 @@ export const CATEGORY_CONTENT = {
     "keyword": "Pozivnice za 1. rođendan",
     "imageLabel": "Pozivnica za 1. rođendan",
     "seoTitle": "Pozivnice za 1. rođendan — besplatni šabloni online",
-    "description": "Pozivnice za 1. rođendan sa ježićem, safari družinom, zekom ili medom. Uredi ime i tekst za prvi rođendan, pa besplatno preuzmi sliku ili PDF.",
-    "intro": "Pozivnice za 1. rođendan pripremi uz motive za prvu veliku proslavu: ježića, safari družinu, vozić, labudove, vilu, kita, psića pilota, medu, zeku ili trešnjice. Dizajni za prvi rođendan imaju ilustracije, čitljive fontove i prostor za tvoju poruku. Unesi ime deteta, datum, vreme, mesto i potvrdu dolaska. Sve uređuješ online, a gotov PNG ili PDF preuzimaš besplatno, bez registracije.",
+    "description": "Besplatne pozivnice za 1. rođendan: jedrilica, labudić, safari i druge ilustracije. Uredi ime i tekst online, pa preuzmi PNG ili PDF bez registracije.",
+    "intro": "Besplatne pozivnice za 1. rođendan pripremi uz motive za prvu veliku proslavu: jedrilicu i kita, labudića sa mašnom, safari družinu, vozić, zeku ili medu. Izaberi morski, cvetni ili bajkoviti stil koji prati temu proslave. Unesi ime deteta, poruku, datum, vreme, mesto i rok za potvrdu dolaska. Sve uređuješ online, bez registracije, a gotov PNG za slanje gostima ili PDF za štampu preuzimaš besplatno.",
     "sample": "Godina osmeha, zagrljaja i prvih koraka! Pozivamo vas da zajedno proslavimo moj prvi rođendan.",
     "tip": "Navedi početak proslave, naziv i adresu prostora i rok za potvrdu dolaska. Pre preuzimanja proveri tekst na telefonu.",
-    "updatedAt": "2026-10-21T00:00:00Z"
+    "updatedAt": "2026-10-29T00:00:00Z"
   },
   "wedding": {
     "slug": "pozivnice-za-vencanje",
