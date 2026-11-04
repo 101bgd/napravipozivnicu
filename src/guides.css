@@ -19,7 +19,6 @@
 .guide-index{padding-top:20px;padding-bottom:70px}
 .guide-index-intro{max-width:800px;padding-block:30px 36px}
 .guide-index-intro h1{margin:20px 0;font-size:clamp(38px,9vw,64px);line-height:1.1;letter-spacing:-.06em}
-.guide-index-intro h1>span{color:#6985c7}
 .guide-index-intro p{max-width:640px;color:var(--muted);font-size:16px;line-height:1.85}
 .guide-index-title{margin:0 0 23px;font-size:22px;font-weight:650;letter-spacing:-.65px}
 .guide-index-action{margin-top:40px;padding:32px 24px;border:1px solid #e4e9f4;border-radius:26px;background:#f2f5fc;text-align:center}

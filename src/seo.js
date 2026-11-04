@@ -15,8 +15,8 @@ export function pageMeta({ category = 'all', template = null, infoPage = null, g
   if (guidePage) return guidePageMeta(guidePage, siteUrl);
   const info = CATEGORY_CONTENT[category];
   const path = infoPage?.path || (template ? `/pozivnice/${template.slug || template.id}/` : info ? categoryPath(category) : view === 'catalog' ? '/pozivnice/' : '/');
-  const title = infoPage ? `${infoPage.title} — Napravi pozivnicu` : template ? templateTitle(template) : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Izaberi pozivnicu — besplatni šabloni za svaku proslavu' : 'Besplatne pozivnice online — Napravi pozivnicu';
-  const description = infoPage?.description || (template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || 'Napravi besplatnu pozivnicu za rođendan, venčanje, krštenje ili rođenje deteta. Uredi tekst i fotografiju i preuzmi PNG ili PDF, bez registracije.');
+  const title = infoPage ? `${infoPage.title} — Napravi pozivnicu` : template ? templateTitle(template) : info ? info.seoTitle || `${info.title} — besplatno pravljenje online` : view === 'catalog' ? 'Besplatne pozivnice — izaberi dizajn za proslavu' : 'Napravi pozivnicu besplatno — za slanje ili štampu';
+  const description = infoPage?.description || (template ? template.description || `Personalizuj pozivnicu „${template.name}“. Promeni tekst, dodaj fotografiju i preuzmi besplatnu sliku ili PDF za štampu.` : info?.description || (view === 'catalog' ? 'Pronađi pozivnicu za svoju proslavu. Pregledaj dizajne po povodu, izaberi onaj koji ti odgovara i prilagodi ga svojim podacima.' : 'Napravi pozivnicu za rođendan, venčanje ili krštenje. Izaberi dizajn, unesi podatke i preuzmi gotovu pozivnicu besplatno, bez registracije.'));
   const url = `${siteUrl}${path}`;
   const featured = template || (info ? categoryHighlights(catalog, category)[0] : null);
   const image = `${siteUrl}${featured?.thumbnail || '/social-preview.png'}`;

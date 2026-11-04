@@ -5,12 +5,12 @@ import { CATEGORY_CONTENT, categoryPath } from './seo-content.js';
 import { icon, escapeHtml as esc } from './ui.js';
 
 const occasionCopy = {
-  first: 'Prva svećica. Velika radost.',
-  eighteen: 'Jedna noć. Tvoj novi početak.',
-  birthday: 'Još jedan razlog za slavlje.',
-  wedding: 'Početak vašeg zauvek.',
-  baptism: 'Mali korak. Velika ljubav.',
-  baby: 'Dobro došla, mala srećo.',
+  first: "Za poziv porodici i prijateljima na prvi rođendan.",
+  eighteen: "Za žurku sa društvom ili svečanu večeru.",
+  birthday: "Za dečji rođendan u igraonici, parku ili kod kuće.",
+  wedding: "Za ceremoniju, svadbeno slavlje ili oba dela dana.",
+  baptism: "Za krštenje deteta i okupljanje posle obreda.",
+  baby: "Za proslavu rođenja bebe sa najbližima.",
 };
 
 const occasionColors = {
@@ -43,13 +43,13 @@ function designCount(count) {
 
 export function renderCatalogPage({ catalog = builtinTemplates, category = 'all' } = {}) {
   const activeCategory = categories.some(c => c.id === category) ? category : 'all';
-  const heading = CATEGORY_CONTENT[activeCategory]?.title || 'Šta slavimo?';
+  const heading = CATEGORY_CONTENT[activeCategory]?.title || 'Izaberi pozivnicu za svoju proslavu';
   return `<section class="catalog-page container" id="templates">
     <header class="catalog-intro">
       <a class="catalog-back" href="/">${icon('arrow')} Početna</a>
-      <div class="eyebrow"><span class="eyebrow-dot"></span> TVOJ MALI DIZAJN STUDIO</div>
+      <div class="eyebrow"><span class="eyebrow-dot"></span> KATALOG POZIVNICA</div>
       <h1>${esc(heading)}</h1>
-      <p>Izaberi povod, pronađi svoj dizajn i dodaj mu nešto tvoje.</p>
+      <p>Počni od povoda ili pretraži dizajne po nazivu. Klik na sliku otvara uređivanje; naziv pozivnice vodi na njenu stranicu sa detaljima.</p>
       <ol class="catalog-progress" aria-label="Koraci do tvoje pozivnice">
         <li class="current" aria-current="step"><span>1</span> Izaberi dizajn</li>
         <li><span>2</span> Dodaj detalje</li>
@@ -58,7 +58,7 @@ export function renderCatalogPage({ catalog = builtinTemplates, category = 'all'
     </header>
 
     <nav class="category-tabs occasion-picker" aria-label="Kategorije pozivnica">
-      <div class="occasion-picker-heading"><h2>Jedan lep povod.</h2><a href="/pozivnice/" class="category-tab category-all ${activeCategory === 'all' ? 'active' : ''}" data-category="all" data-category-url="/pozivnice/" ${activeCategory === 'all' ? 'aria-current="page"' : ''}>${icon('grid')} Sve pozivnice <span>${catalog.length}</span></a></div>
+      <div class="occasion-picker-heading"><h2>Za koji povod?</h2><a href="/pozivnice/" class="category-tab category-all ${activeCategory === 'all' ? 'active' : ''}" data-category="all" data-category-url="/pozivnice/" ${activeCategory === 'all' ? 'aria-current="page"' : ''}>${icon('grid')} Sve pozivnice <span>${catalog.length}</span></a></div>
       <div class="occasion-grid">${categories.filter(c => c.id !== 'all').map(c => {
         const count = catalog.filter(t => t.category === c.id).length;
         return `<a href="${categoryPath(c.id)}" class="category-tab occasion-card occasion-${c.id} ${activeCategory === c.id ? 'active' : ''}" data-category="${c.id}" data-category-url="${categoryPath(c.id)}" ${activeCategory === c.id ? 'aria-current="page"' : ''}>
@@ -76,8 +76,8 @@ export function renderCatalogPage({ catalog = builtinTemplates, category = 'all'
 export function renderDesigns(catalog, category, categoryLanding = false) {
   const visible = catalog.filter(t => category === 'all' || t.category === category);
   return `    <section class="catalog-designs" id="designs" tabindex="-1" aria-labelledby="designs-title">
-      <div class="catalog-tools">
-        <div class="catalog-results"><span class="eyebrow">MALI DETALJI. VELIKI UTISAK.</span><h2 id="designs-title" tabindex="-1">Pronađi svoj dizajn.</h2><span id="result-count" aria-live="polite">Prikazano ${visible.length} pozivnica</span>${categoryLanding ? '<a class="catalog-change" href="/pozivnice/">Drugi povod →</a>' : '<button class="catalog-change" type="button">Promeni povod ↑</button>'}</div>
+      <p class="catalog-choice-help">Polja se razlikuju među dizajnima. Za pomoć oko teksta ili preuzimanja pogledaj <a href="/vodici/">praktične vodiče</a>.</p><div class="catalog-tools">
+        <div class="catalog-results"><span class="eyebrow">DOSTUPNI DIZAJNI</span><h2 id="designs-title" tabindex="-1">Pogledaj pozivnice</h2><span id="result-count" aria-live="polite">Prikazano ${visible.length} pozivnica</span>${categoryLanding ? '<a class="catalog-change" href="/pozivnice/">Drugi povod →</a>' : '<button class="catalog-change" type="button">Promeni povod ↑</button>'}</div>
         <label class="search-box">${icon('search')}<input id="search" type="search" placeholder="Pronađi dizajn…" aria-label="Pretraži dizajne" autocomplete="off"></label>
       </div>
       <div class="template-grid" id="template-grid">${renderCards(visible)}</div>

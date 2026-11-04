@@ -1,125 +1,359 @@
 // Server-rendered editorial content. It never ships in the application JS bundle.
 export const CATEGORY_EXPERIENCE = {
-  first: {
-    kicker: 'Jedna svećica. Toliko ljubavi.',
-    lead: 'Besplatne pozivnice za 1. rođendan sa nežnim ilustracijama i tvojom porukom. Izaberi dizajn, dodaj ime svog mališana i besplatno preuzmi PNG ili PDF.',
-    signature: 'Godina dana. Ceo svet radosti.', symbol: '1',
-    highlights: ['medin-mesecev-san', 'savanska-druzina', 'prva-tresnjica'],
-    edit: 'Ime deteta, datum, vreme i mesto prve velike proslave.',
-    guideTitle: 'Kako napraviti pozivnice za 1. rođendan?',
-    guide: 'Za prvi rođendan biraj motive koji prate dekoraciju: jedrilicu i kita za morsku temu, labudića sa mašnom za nežne roze tonove, životinjice za safari proslavu ili trešnjice za veselu letnju zabavu. Na pozivnici ostavi dovoljno prostora za ime i podatke koje gosti treba lako da pročitaju.',
-    checklist: ['Ime deteta i prvi rođendan', 'Datum i vreme početka proslave', 'Naziv i adresa igraonice ili restorana', 'Kontakt i rok za potvrdu dolaska'],
-    examples: [
-      ['Iz ugla mališana', 'Mala svećica, velika želja: da svi koje volim budu uz mene!\nDođite da zajedno proslavimo moj prvi rođendan.\n[Ime] · [datum] u [vreme]\n[Mesto i adresa]\nJavite nam do [rok] da li dolazite: [kontakt].'],
-      ['Od mame i tate', 'Pre godinu dana naš svet je postao lepši. Sada tu radost želimo da podelimo sa vama.\nPozivamo vas na prvi rođendan našeg deteta, [ime].\n[Datum] · [vreme] · [mesto i adresa]\nRadujemo se zajedničkim uspomenama!'],
+  "first": {
+    "advice": [
+      [
+        "Restoran, igraonica ili kuća",
+        "Uz naziv restorana ili igraonice napiši adresu. Za proslavu kod kuće dodaj ulaz i sprat ako ih je teško pronaći. Za potvrdu dolaska ostavi kontakt roditelja i datum do kog očekuješ odgovor."
+      ],
+      [
+        "Kada ime ili poruka ne staju",
+        "Najpre unesi celo ime, pa tek onda biraj veličinu slova. Skrati uvod ako zauzima previše mesta, a uputstvo za parking pošalji uz sliku. Motiv biraj prema onome što ti se dopada, bez obzira na to da li se obično vezuje za devojčice ili dečake."
+      ]
     ],
-    faqs: [
-      ['Kako da napravim pozivnicu za prvi rođendan?', 'Izaberi šablon, upiši ime deteta i podatke o proslavi. U editoru proveri tekst i raspored, pa preuzmi PNG za slanje gostima ili PDF za štampu. Sve možeš da uradiš na telefonu.'],
-      ['Da li mi je potrebna fotografija deteta?', 'Ne. Pripremljeni dizajni za prvi rođendan osmišljeni su sa ilustracijama i bez mesta za fotografiju. Dovoljno je da uneseš svoje podatke.'],
-      ['Mogu li da promenim tekst i boju slova?', 'Da. U editoru možeš da promeniš poruku, font, veličinu i boju teksta. Posle izmene proveri da li se ime i adresa jasno vide preko pozadine.'],
-      ['Šta da napišem za potvrdu dolaska?', 'Dodaj kratku rečenicu, na primer: „Molimo vas da potvrdite dolazak do [datum] na [broj telefona].“ Tako ćeš lakše znati koliko mesta da pripremiš.'],
+    "kicker": "ZA PRVI ROĐENDAN",
+    "lead": "Izaberi pozivnicu za prvi rođendan svog deteta i upiši kada i gde slavite. Ako još tražiš prave reči, ispod dizajna su primeri koje možeš da kopiraš.",
+    "signature": "Poziv za porodicu i prijatelje.",
+    "symbol": "1",
+    "highlights": [
+      "medin-mesecev-san",
+      "savanska-druzina",
+      "prva-tresnjica"
     ],
+    "edit": "Upiši ime deteta i podatke o proslavi.",
+    "guideTitle": "Kako napisati poziv za prvi rođendan",
+    "guide": "Ako već imaš temu za tortu ili dekoraciju, možeš da je ponoviš na pozivnici. Ne mora sve da se uklapa: važnije je da se ime i adresa lako pročitaju.",
+    "checklist": [
+      "Ime deteta i prvi rođendan",
+      "Datum i vreme početka proslave",
+      "Mesto proslave i puna adresa",
+      "Kontakt i rok za potvrdu dolaska"
+    ],
+    "examples": [
+      [
+        "Iz ugla mališana",
+        "Mala svećica, velika želja: da svi koje volim budu uz mene!\nDođite da zajedno proslavimo moj prvi rođendan.\n[Ime] · [datum] u [vreme]\n[Mesto i adresa]\nJavite nam do [rok] da li dolazite: [kontakt]."
+      ],
+      [
+        "Od mame i tate",
+        "Pre godinu dana naš svet je postao lepši. Sada tu radost želimo da podelimo sa vama.\nPozivamo vas na prvi rođendan našeg deteta, [ime].\n[Datum] · [vreme] · [mesto i adresa]\nRadujemo se zajedničkim uspomenama!"
+      ]
+    ],
+    "faqs": [
+      [
+        "Kako da napravim pozivnicu za prvi rođendan?",
+        "Izaberi šablon, upiši ime deteta i podatke o proslavi. U editoru proveri tekst i raspored, pa preuzmi PNG za slanje gostima ili PDF za štampu. Sve možeš da uradiš na telefonu."
+      ],
+      [
+        "Da li mi je potrebna fotografija deteta?",
+        "Ne. Pripremljeni dizajni za prvi rođendan osmišljeni su sa ilustracijama i bez mesta za fotografiju. Dovoljno je da uneseš svoje podatke."
+      ],
+      [
+        "Mogu li da promenim tekst i boju slova?",
+        "Da. U editoru možeš da promeniš poruku, font, veličinu i boju teksta. Posle izmene proveri da li se ime i adresa jasno vide preko pozadine."
+      ],
+      [
+        "Šta da napišem za potvrdu dolaska?",
+        "Dodaj kratku rečenicu, na primer: „Molimo vas da potvrdite dolazak do [datum] na [broj telefona].“ Tako ćeš lakše znati koliko mesta da pripremiš."
+      ]
+    ],
+    "intro": "Poziv može da bude napisan kao da ga šalje dete ili u ime roditelja. Izaberi ono što ti zvuči prirodno; u oba slučaja gostima su najvažniji datum, vreme i mesto."
   },
-  eighteen: {
-    kicker: 'Tvoja noć. Tvoja pravila.',
-    lead: 'Pozivnice za 18. rođendan koje prate tvoje punoletstvo. Izaberi stil, upiši svoje podatke i besplatno preuzmi pozivnicu za svoju noć.',
-    signature: 'Novo poglavlje počinje ovde.', symbol: '18',
-    highlights: ['ledeni-hologram', 'bordo-nokturno', 'zlatni-disko-ritam'],
-    edit: 'Tvoje ime, datum, lokacija, poruka i potvrda dolaska.',
-    guideTitle: 'Kako napraviti pozivnice za 18. rođendan?',
-    guide: 'Disko sjaj, elegantna mašna, holografski odsjaj ili trkački detalji: stil pozivnice može da najavi atmosferu punoletstva. Za svečanu večeru biraj mirniji raspored, a za žurku izražajan broj 18 i kraću poruku. Najvažnije informacije u oba slučaja ostaju jasne.',
-    checklist: ['Ime slavljenika i 18. rođendan', 'Datum, vreme i puna adresa proslave', 'Rok i kontakt za potvrdu dolaska', 'Dogovoren stil oblačenja, ako postoji'],
-    examples: [
-      ['Za noć bez ponavljanja', 'Osamnaest se slavi jednom. Tu noć želim da pamtim sa tobom!\n[Ime] te zove na proslavu punoletstva.\n[Datum] u [vreme] · [mesto i adresa]\nPonesi dobro raspoloženje, ostalo je spremno.\nPotvrdi dolazak do [rok]: [kontakt].'],
-      ['Za svečani početak', 'Počinje jedno novo poglavlje, a najlepše je kada ga otvaramo zajedno.\nPozivam vas da budete deo proslave mog 18. rođendana.\n[Ime] · [datum] · [vreme]\n[Mesto i adresa]\nRadujem se vašem dolasku.'],
+  "eighteen": {
+    "advice": [
+      [
+        "Ako postoji dress code",
+        "Napiši ga kratko, na primer „Oblačenje: svečano“. Ako ga niste dogovorili, nema potrebe da ga dodaješ. Napomenu stavi u polje za poruku, ako staje, ili je pošalji uz pozivnicu."
+      ],
+      [
+        "Kada tražiti potvrdu dolaska",
+        "Ako rezervišeš mesta ili dogovaraš večeru, navedi do kog datuma gosti treba da se jave i kome. „Potvrdi dolazak do [datum] na [kontakt]“ jasnije je od samog „RSVP“."
+      ]
     ],
-    faqs: [
-      ['Da li su pozivnice za punoletstvo i 18. rođendan ista kolekcija?', 'Da. Ovde su zajedno dizajni za proslavu osamnaestog rođendana i punoletstva, od elegantnih do razigranih. Izaberi izgled koji odgovara tvojoj proslavi.'],
-      ['Mogu li da dodam dress code ili posebnu poruku?', 'Da. U polje za poruku ili napomenu možeš da upišeš dogovoren stil oblačenja, detalje okupljanja ili svoju rečenicu. Duži tekst proveri u pregledu pre preuzimanja.'],
-      ['Kako da pošaljem pozivnicu društvu?', 'Preuzmi PNG na telefon, zatim ga priloži u poruci preko Vibera, WhatsApp-a ili druge aplikacije. Za očuvanje originalnog kvaliteta pošalji sliku kao datoteku kada aplikacija to omogućava.'],
-      ['Da li mogu da promenim font i boje?', 'Da. U podešavanjima dizajna možeš da biraš font, boju i veličinu teksta, kao i efekte. Pozadina ostaje deo izabranog šablona, pa proveri kontrast nakon svake promene.'],
+    "kicker": "ZA TVOJE PUNOLETSTVO",
+    "lead": "Velika žurka ili večera sa najbližima? Pronađi stil koji ti odgovara, upiši detalje svog 18. rođendana i preuzmi pozivnicu za goste.",
+    "signature": "Za društvo i porodicu.",
+    "symbol": "18",
+    "highlights": [
+      "ledeni-hologram",
+      "bordo-nokturno",
+      "zlatni-disko-ritam"
     ],
+    "edit": "Dodaj svoje ime, datum, vreme i mesto proslave.",
+    "guideTitle": "Tekst za žurku ili svečanu večeru",
+    "guide": "Mirniji raspored pristaje pozivu na večeru, dok za žurku možeš da izabereš upečatljiviji motiv. Pre izbora proveri da li ima mesta za adresu i eventualnu napomenu o oblačenju.",
+    "checklist": [
+      "Ime slavljenika i 18. rođendan",
+      "Datum, vreme i puna adresa proslave",
+      "Rok i kontakt za potvrdu dolaska",
+      "Dogovoren stil oblačenja, ako postoji"
+    ],
+    "examples": [
+      [
+        "Za žurku sa društvom",
+        "Osamnaest se slavi jednom. Dođi da zajedno proslavimo moje punoletstvo!\n[Ime]\n[Datum] u [vreme] · [mesto i adresa]\nPonesi dobro raspoloženje, ostalo je spremno.\nPotvrdi dolazak do [rok]: [kontakt]."
+      ],
+      [
+        "Za svečanu proslavu",
+        "Počinje jedno novo poglavlje, a najlepše je kada ga otvaramo zajedno.\nPozivam vas da budete deo proslave mog 18. rođendana.\n[Ime] · [datum] · [vreme]\n[Mesto i adresa]\nRadujem se vašem dolasku."
+      ]
+    ],
+    "faqs": [
+      [
+        "Da li su pozivnice za punoletstvo i 18. rođendan ista kolekcija?",
+        "Da. Ovde su zajedno dizajni za proslavu osamnaestog rođendana i punoletstva, od elegantnih do razigranih. Izaberi izgled koji odgovara tvojoj proslavi."
+      ],
+      [
+        "Mogu li da dodam dress code ili posebnu poruku?",
+        "Ako izabrani dizajn ima polje za poruku ili napomenu, tu dodaj dress code. Ako tekst ne staje, pošalji ga uz sliku. Proveri da napomena ne prekriva datum ili adresu."
+      ],
+      [
+        "Kako da pošaljem pozivnicu društvu?",
+        "Preuzmi PNG na telefon, zatim ga priloži u poruci preko Vibera, WhatsApp-a ili druge aplikacije. Za očuvanje originalnog kvaliteta pošalji sliku kao datoteku kada aplikacija to omogućava."
+      ],
+      [
+        "Da li mogu da promenim font i boje?",
+        "Da. U podešavanjima dizajna možeš da biraš font, boju i veličinu teksta, kao i efekte. Pozadina ostaje deo izabranog šablona, pa proveri kontrast nakon svake promene."
+      ]
+    ],
+    "intro": "Za prijatelje možeš da napišeš „Vidimo se na mom osamnaestom“, a za svečaniju proslavu „Pozivam vas na proslavu punoletstva“. Ne moraš da koristiš isti ton za sve goste."
   },
-  birthday: {
-    kicker: 'Velika mašta. Još veći osmeh.',
-    lead: 'Pozivnice za rođendan pune dinosaurusa, sirena i svemirskih avantura. Upiši ime, godine i detalje proslave, pa besplatno preuzmi svoj dizajn.',
-    signature: 'Ovde počinje rođendanska avantura.', symbol: '★',
-    highlights: ['dino-ekspedicija', 'biserna-bajka', 'galakticka-posada'],
-    edit: 'Ime, broj godina, datum i adresa igraonice ili proslave.',
-    guideTitle: 'Kako napraviti pozivnice za rođendan?',
-    guide: 'Pozivnicu za dečiji rođendan lako je uklopiti sa tortom i dekoracijom. Dinosaurusi pozivaju na istraživanje, svemir na novu misiju, a sirena i ringišpil u svet bajke. Broj godina je izmenjiv, pa odabrani dizajn može da prati različite dečije rođendane.',
-    checklist: ['Ime deteta i broj godina', 'Datum i početak rođendana', 'Naziv i tačna adresa igraonice', 'Kontakt roditelja za potvrdu dolaska'],
-    examples: [
-      ['Poziv u avanturu', 'Ekipo, spremite se za rođendansku avanturu!\n[Ime] slavi [broj] rođendan i čuva mesto baš za tebe.\n[Datum] u [vreme]\n[Igraonica i adresa]\nČekaju nas igra, torta i mnogo smeha!'],
-      ['Kratko i veselo', 'Još jedna svećica, još jedan razlog za druženje!\nDođi na moj [broj] rođendan.\n[Ime] · [datum] · [vreme]\n[Mesto i adresa]\nMolimo roditelje da potvrde dolazak: [kontakt].'],
+  "birthday": {
+    "advice": [
+      [
+        "Napiši tačno mesto okupljanja",
+        "Za igraonicu navedi naziv i adresu; za kućnu proslavu i ulaz ili sprat, ako treba. Za park opiši gde čekate goste i dogovorite šta radite ako padne kiša."
+      ],
+      [
+        "Šta poslati uz sliku",
+        "U poruci napiši da li roditelji ostaju, kada dolaze po decu i da li nešto treba poneti. Na samoj pozivnici ostavi kontakt roditelja. Pre preuzimanja proveri da li broj godina u izabranom dizajnu odgovara uzrastu deteta."
+      ]
     ],
-    faqs: [
-      ['Za koji uzrast su ovi šabloni?', 'Broj godina i ime menjaju se u editoru, pa su dizajni prilagodljivi različitim dečijim rođendanima. Za prvi rođendan postoji i posebna kolekcija sa motivima za najmlađe.'],
-      ['Mogu li da promenim broj godina na pozivnici?', 'Da. Otvori šablon i promeni polje sa brojem godina. Promenu odmah vidiš u pregledu; zatim proveri da li ostatak poruke odgovara novom broju.'],
-      ['Kako da navedem igraonicu?', 'Upiši naziv igraonice i ulicu sa brojem, a po potrebi i grad. Ako postoje posebna pravila dolaska ili preuzimanja dece, dodaj ih kao kratku napomenu.'],
-      ['Da li su dizajni bez fotografije?', 'Pripremljeni dizajni sa dinosaurusima, svemirom, sirenom i ringišpilom imaju ilustracije i nemaju okvir za fotografiju. Uređuješ tekst preko odabrane pozadine.'],
+    "kicker": "ZA DEČJE PROSLAVE",
+    "lead": "Za rođendan u igraonici, kod kuće ili u parku: izaberi dizajn koji se detetu dopada i dodaj podatke o proslavi. U ovoj kolekciji su prvenstveno pozivnice za decu.",
+    "signature": "Izaberi motiv zajedno sa detetom.",
+    "symbol": "★",
+    "highlights": [
+      "dino-ekspedicija",
+      "biserna-bajka",
+      "galakticka-posada"
     ],
+    "edit": "Upiši ime, broj godina i podatke o rođendanu.",
+    "guideTitle": "Šta roditelji gostiju treba da znaju",
+    "guide": "Dete može da izabere omiljeni motiv, a ti proveri prostor za tekst. Kod šarenijih dizajna ostavi poruku kratkom i nemoj smanjivati adresu samo da bi stala još jedna rečenica.",
+    "checklist": [
+      "Ime deteta i broj godina",
+      "Datum i početak rođendana",
+      "Mesto i tačna adresa proslave",
+      "Kontakt roditelja za potvrdu dolaska"
+    ],
+    "examples": [
+      [
+        "Poziv u avanturu",
+        "Spremi se za rođendansku avanturu!\n[Ime] slavi [broj]. rođendan i čuva mesto baš za tebe.\n[Datum] u [vreme]\n[Igraonica i adresa]\nČekaju nas igra, torta i mnogo smeha!"
+      ],
+      [
+        "Kratko i veselo",
+        "Još jedna svećica, još jedan razlog za druženje!\nDođi na moj [broj]. rođendan.\n[Ime] · [datum] · [vreme]\n[Mesto i adresa]\nMolimo roditelje da potvrde dolazak: [kontakt]."
+      ]
+    ],
+    "faqs": [
+      [
+        "Za koji uzrast su ovi šabloni?",
+        "Kolekcija je namenjena dečjim rođendanima. Proveri broj godina u izabranom dizajnu i ponuđena polja za izmenu. Za prvi rođendan postoji i posebna kolekcija."
+      ],
+      [
+        "Mogu li da promenim broj godina na pozivnici?",
+        "Ako šablon nudi polje za uzrast, promeni broj u editoru. U pregledu proveri i ostatak poruke, posebno ako se godine pominju više puta."
+      ],
+      [
+        "Kako da navedem igraonicu?",
+        "Upiši naziv igraonice, ulicu i broj, a po potrebi i grad. U poruci uz sliku objasni kada roditelji dolaze po decu i da li treba nešto da ponesu."
+      ],
+      [
+        "Da li su dizajni bez fotografije?",
+        "Pripremljeni dizajni sa dinosaurusima, svemirom, sirenom i ringišpilom imaju ilustracije i nemaju okvir za fotografiju. Uređuješ tekst preko odabrane pozadine."
+      ]
+    ],
+    "intro": "Na pozivnici treba da se vide ime deteta, koliko godina puni, datum, vreme i adresa. Ako dete voli temu proslave, možeš je pomenuti u jednoj kratkoj rečenici."
   },
-  wedding: {
-    kicker: 'Vaša priča. Njihov prvi pogled.',
-    lead: 'Pozivnice za venčanje koje najavljuju vaš zajednički dan. Izaberite dizajn, dodajte imena i detalje svadbe, pa preuzmite besplatan PNG ili PDF.',
-    signature: 'Ljubav je u malim detaljima.', symbol: '&',
-    highlights: ['ponocna-elegancija', 'sapat-bozura', 'maslinov-zavet'],
-    edit: 'Vaša imena, ceremonija, restoran i potvrda dolaska.',
-    guideTitle: 'Kako napraviti pozivnice za venčanje?',
-    guide: 'Cvetni motivi, maslinove grančice, more ili večernje zlato mogu da povežu pozivnicu sa atmosferom svadbe. Imena mladenaca imaju svoje mesto, a detalji ceremonije i proslave odvojena polja. Tako gosti lako vide gde i kada počinje svaki deo dana.',
-    checklist: ['Imena mladenaca i datum venčanja', 'Mesto, adresa i vreme ceremonije', 'Restoran i početak svadbene proslave', 'Rok i kontakt za potvrdu dolaska'],
-    examples: [
-      ['Romantično i lično', 'Naša priča dobija novo poglavlje. Voleli bismo da budete deo njega.\n[Ime] i [ime]\nPozivamo vas na naše venčanje [datum].\nCeremonija: [vreme, mesto i adresa]\nProslava: [vreme, restoran i adresa]\nRadujemo se da zajedno slavimo ljubav.'],
-      ['Svečano i jednostavno', 'Sa velikom radošću pozivamo vas da prisustvujete našem venčanju.\n[Ime] i [ime] · [datum]\nVenčanje: [vreme i mesto]\nSvadbena proslava: [vreme i mesto]\nMolimo vas da potvrdite dolazak do [rok] na [kontakt].'],
+  "wedding": {
+    "advice": [
+      [
+        "Jedna adresa ili dve",
+        "Ako su ceremonija i slavlje na istom mestu, dovoljna je jedna adresa, ali navedite oba vremena ako se razlikuju. Za dve lokacije jasno odvojite „Ceremonija“ i „Proslava“. Nemaju svi dizajni zasebna polja za oba dela, pa to proverite pre nego što prenesete ceo tekst."
+      ],
+      [
+        "Potvrda dolaska i poslednja provera",
+        "Navedite rok i kontakt za odgovor. Pravilo oblačenja dodajte samo ako postoji, u napomenu ili poruku uz pozivnicu. Pre slanja proverite datum, vreme početka ceremonije i proslave, kao i adrese koje ste naveli."
+      ]
     ],
-    faqs: [
-      ['Da li mogu da upišem različita mesta venčanja i proslave?', 'Da. Pripremljeni dizajni imaju odvojene podatke za ceremoniju i svadbenu proslavu. Unesite vreme i adresu za oba mesta i proverite ih pre slanja gostima.'],
-      ['Mogu li odvojeno da uredim imena mladenaca?', 'Da. Svako ime ima svoje polje. Ako je ime duže, prilagodite veličinu fonta u podešavanjima dizajna i proverite raspored u pregledu.'],
-      ['Da li je pozivnica pogodna za slanje i za štampu?', 'Da. PNG možete poslati porukom, a PDF odštampati u formatu 12,7 × 17,78 cm, na 100% veličine. Za profesionalnu štampu sa prepustom prethodno proverite zahteve štamparije.'],
-      ['Gde da napišem potvrdu dolaska?', 'U polje za napomenu ili potvrdu dolaska unesite datum do kog očekujete odgovor i broj telefona. Kratka, jasna rečenica gostima olakšava organizaciju.'],
+    "kicker": "ZA VAŠE VENČANJE",
+    "lead": "Pronađite pozivnicu koja vam se dopada i prilagodite je svom venčanju. Pre izbora pogledajte koliko mesta ima za imena, ceremoniju i slavlje — raspored polja razlikuje se od dizajna do dizajna.",
+    "signature": "Imena, datum i mesto venčanja.",
+    "symbol": "&",
+    "highlights": [
+      "ponocna-elegancija",
+      "sapat-bozura",
+      "maslinov-zavet"
     ],
+    "edit": "U ponuđena polja unesite imena, datum, vreme i mesto.",
+    "guideTitle": "Da gosti znaju gde i kada da dođu",
+    "guide": "Za duga imena, poput „Aleksandra Petrović i Konstantin Jovanović“, birajte raspored sa više slobodnog prostora. Unesite oba imena pre nego što podešavate font. Cvetni motiv može da prati dekoraciju, a na jednostavnijem dizajnu tekst lakše dolazi do izražaja.",
+    "checklist": [
+      "Imena mladenaca i datum venčanja",
+      "Mesto, adresa i vreme ceremonije",
+      "Restoran i početak svadbene proslave",
+      "Rok i kontakt za potvrdu dolaska"
+    ],
+    "examples": [
+      [
+        "Romantično i lično",
+        "Naša priča dobija novo poglavlje. Voleli bismo da budete deo njega.\n[Ime] i [ime]\nPozivamo vas na naše venčanje [datum].\nCeremonija: [vreme, mesto i adresa]\nProslava: [vreme, restoran i adresa]\nRadujemo se zajedničkom slavlju."
+      ],
+      [
+        "Svečano i jednostavno",
+        "Sa velikom radošću pozivamo vas da prisustvujete našem venčanju.\n[Ime] i [ime] · [datum]\nVenčanje: [vreme i mesto]\nSvadbena proslava: [vreme i mesto]\nMolimo vas da potvrdite dolazak do [rok] na [kontakt]."
+      ]
+    ],
+    "faqs": [
+      [
+        "Da li mogu da upišem različita mesta venčanja i proslave?",
+        "Na dizajnima koji imaju odvojena polja unesite podatke za oba mesta. Ako ih izabrani dizajn nema, proverite da li detalji staju u poruku ili izaberite drugi raspored. Nikada ne izostavljajte adresu koja je gostima potrebna."
+      ],
+      [
+        "Mogu li odvojeno da uredim imena mladenaca?",
+        "Raspored polja zavisi od dizajna. Unesite oba imena u dostupna polja. Ako je ime duže, prilagodite veličinu fonta u podešavanjima dizajna i proverite raspored u pregledu."
+      ],
+      [
+        "Da li je pozivnica pogodna za slanje i za štampu?",
+        "Da. PNG možete poslati porukom, a PDF odštampati u formatu 12,7 × 17,78 cm, na 100% veličine. Za profesionalnu štampu sa prepustom prethodno proverite zahteve štamparije."
+      ],
+      [
+        "Gde da napišem potvrdu dolaska?",
+        "Ako dizajn ima polje za napomenu ili potvrdu dolaska, upišite rok i kontakt. U suprotnom ih dodajte u poruku uz pozivnicu. Gosti se javljaju vama; sajt ne prikuplja njihove odgovore."
+      ]
+    ],
+    "intro": "Poziv na svečano venčanje može početi sa „Sa radošću vas pozivamo“, a za manje okupljanje dovoljno je „Voleli bismo da ovaj dan provedete sa nama“. Nastavite imenima, datumom i rasporedom."
   },
-  baptism: {
-    kicker: 'Dan ispunjen ljubavlju i mirom.',
-    lead: 'Pozivnice za krštenje sa nežnim simbolima i svečanim slovima. Dodaj ime deteta, crkvu i podatke proslave, pa besplatno preuzmi PNG ili PDF.',
-    signature: 'Za trenutke koji se čuvaju.', symbol: '✦',
-    highlights: ['andjeoski-blagoslov', 'golubica-mira', 'put-svetlosti'],
-    edit: 'Ime deteta, crkva, vreme obreda i porodična proslava.',
-    guideTitle: 'Kako pripremiti pozivnice za krštenje?',
-    guide: 'Za pozivnicu za pravoslavno krštenje biraj svečan i čitljiv raspored sa anđelom, golubicom, crkvom ili krstom. Najpre navedi vreme i mesto obreda, a potom detalje porodičnog ručka. Klasična slova ostavljaju prostor da ime deteta bude u prvom planu.',
-    checklist: ['Ime deteta koje se krsti', 'Datum, vreme i naziv crkve', 'Adresa i vreme porodične proslave', 'Kontakt za potvrdu dolaska'],
-    examples: [
-      ['Svečan porodični poziv', 'Sa ljubavlju vas pozivamo na krštenje našeg deteta, [ime].\nObred će se održati [datum] u [vreme], u [naziv i adresa crkve].\nRadost nastavljamo uz porodičnu proslavu u [mesto], od [vreme].\nVaše prisustvo učiniće ovaj dan još lepšim.'],
-      ['Primer na ćirilici', 'Драга породицо и пријатељи,\nпозивамо вас да будете уз нас на крштењу нашег детета, [име].\n[Датум] · [време] · [назив цркве]\nПородично окупљање: [место и време]\nРадујемо се вашем доласку.'],
+  "baptism": {
+    "advice": [
+      [
+        "Ako pozivate samo na ručak",
+        "To napišite u samom pozivu: „Pridružite nam se na porodičnom ručku povodom krštenja našeg deteta“. Ako su gosti pozvani i na obred, jasno navedite oba dela. Proverite da li izabrani dizajn ima odgovarajuća polja."
+      ],
+      [
+        "Ćirilica i dugi nazivi",
+        "Ako pišete ćirilicom, izaberite font koji podržava sva potrebna slova. Proverite celo ime, naziv hrama i mesec u datumu, pa otvorite i preuzetu datoteku. Duža uputstva za dolazak možete poslati uz pozivnicu."
+      ]
     ],
-    faqs: [
-      ['Da li mogu da napišem pozivnicu za krštenje ćirilicom?', 'Da. Pripremljeni dizajni sa anđelom, golubicom, crkvom i krstom koriste fontove sa srpskom ćirilicom i latinicom. U podešavanjima možeš da izabereš i pismo naziva meseca.'],
-      ['Da li su šabloni prilagođeni pravoslavnom krštenju?', 'Pripremljena kolekcija sadrži motive pravoslavne crkve, krsta, sveće, anđela i golubice. Izaberi motiv koji odgovara vašoj porodici i prilagodi tekst.'],
-      ['Kako da odvojim crkvu i restoran?', 'U editoru unesi podatke obreda i proslave u njihova zasebna polja. Za svaki deo navedi mesto i vreme, a uz naziv dodaj i adresu koja gostima može biti potrebna.'],
-      ['Mogu li da napravim pozivnicu bez slike deteta?', 'Da. Pripremljeni dizajni osmišljeni su bez fotografije. Ilustracije ostaju deo pozadine, dok ime i druge podatke menjaš u editoru.'],
+    "kicker": "POZIV NA KRŠTENJE",
+    "lead": "Pripremite poziv za krštenje deteta i, ako je planirana, proslavu posle obreda. Izaberite dizajn, unesite podatke i sačuvajte pozivnicu kao sliku ili PDF.",
+    "signature": "Obred i porodično slavlje.",
+    "symbol": "✦",
+    "highlights": [
+      "andjeoski-blagoslov",
+      "golubica-mira",
+      "put-svetlosti"
     ],
+    "edit": "Unesite ime deteta, datum i podatke o obredu i proslavi.",
+    "guideTitle": "Kako jasno navesti obred i proslavu",
+    "guide": "Izaberite motiv koji odgovara vašoj porodici. Za duži naziv crkve ili dve adrese korisniji je raspored sa više mesta za tekst nego bogato ukrašena pozadina.",
+    "checklist": [
+      "Ime deteta koje se krsti",
+      "Datum, vreme i naziv crkve",
+      "Adresa i vreme porodične proslave",
+      "Kontakt za potvrdu dolaska"
+    ],
+    "examples": [
+      [
+        "Svečan porodični poziv",
+        "Sa ljubavlju vas pozivamo na krštenje našeg deteta, [ime].\nObred će se održati [datum] u [vreme], u [naziv i adresa crkve].\nPorodična proslava: [vreme, mesto i adresa].\nVaše prisustvo učiniće ovaj dan još lepšim."
+      ],
+      [
+        "Primer na ćirilici",
+        "Драга породицо и пријатељи,\nпозивамо вас да будете уз нас на крштењу нашег детета, [име].\n[Датум] · [време] · [назив цркве]\nПородично окупљање: [место и време]\nРадујемо се вашем доласку."
+      ]
+    ],
+    "faqs": [
+      [
+        "Može li pozivnica da bude na ćirilici?",
+        "Može, uz font koji podržava ćirilicu. Proverite sva slova u imenu i nazivima mesta. Ako dizajn nudi izbor pisma datuma, podesite i njega pre preuzimanja."
+      ],
+      [
+        "Da li postoje motivi za pravoslavno krštenje?",
+        "U kolekciji su, između ostalog, motivi pravoslavne crkve, krsta i sveće. Izaberite onaj koji odgovara vašoj porodici i unesite podatke o obredu."
+      ],
+      [
+        "Kako da odvojimo crkvu i restoran?",
+        "Ako dizajn ima posebna polja, unesite podatke za svako mesto. Ako ih nema, proverite da li oba dela staju u poruku ili izaberite drugi raspored. Uz svaku lokaciju navedite vreme i adresu."
+      ],
+      [
+        "Da li je potrebna fotografija deteta?",
+        "Nije. U ovoj kolekciji postoje dizajni sa ilustracijama, bez mesta za fotografiju. Dovoljno je da izmenite tekst."
+      ]
+    ],
+    "intro": "Najpre potvrdite vreme obreda i tačan naziv hrama. Ako se posle toga okupljate na ručku, navedite i mesto i vreme proslave. Gosti ne treba da pretpostavljaju da jedan poziv podrazumeva oba dela."
   },
-  baby: {
-    kicker: 'Mala osoba. Najveća radost.',
-    lead: 'Pozivnice za rođenje deteta kojima delite najlepšu vest. Dodaj ime bebe i detalje proslave, pa besplatno preuzmi pozivnicu za svoje ljude.',
-    signature: 'Dobro došla, mala srećo.', symbol: '☾',
-    highlights: ['kolevka-puna-ljubavi', 'mali-konjic-velika-radost', 'cvet-nase-porodice'],
-    edit: 'Ime bebe, vaša poruka i detalji porodičnog okupljanja.',
-    guideTitle: 'Kako pripremiti pozivnice za rođenje deteta?',
-    guide: 'Zvezdano nebo, roda, kolevka ili prvi mali koraci daju nežan ton pozivnici za rođenje deteta. Tekst prilagodi vrsti okupljanja: proslavi dolaska bebe ili dogovorenoj poseti za babine. Pre slanja proveri da li poruka jasno navodi povod i dogovoreno vreme dolaska.',
-    checklist: ['Ime bebe i povod okupljanja', 'Datum i vreme dogovorene proslave', 'Mesto i adresa okupljanja', 'Kontakt za dogovor ili potvrdu dolaska'],
-    examples: [
-      ['Slavimo dolazak bebe', 'Stigla je naša najveća radost — [ime]!\nPozivamo vas da zajedno proslavimo rođenje naše bebe.\n[Datum] u [vreme]\n[Mesto i adresa]\nDođite da podelimo osmehe i lepe želje.'],
-      ['Za mali krug najbližih', 'Naša porodica je bogatija za jedno malo srce.\nVoleli bismo da podelimo radost sa vama na okupljanju povodom rođenja [ime bebe].\n[Datum] · [vreme] · [mesto]\nJavite nam se da potvrdimo dogovor: [kontakt].'],
+  "baby": {
+    "advice": [
+      [
+        "Izaberite boje koje vam se dopadaju",
+        "Motiv ne morate birati prema polu deteta. Pogledajte kako se vaša poruka uklapa uz ilustraciju i ostavite detaljna uputstva za zasebnu poruku."
+      ],
+      [
+        "Šta želite da podelite sa gostima",
+        "Na pozivnici nisu potrebni datum rođenja, težina bebe ili drugi privatni podaci. Dodajte samo ono što želite da podelite. Kućnu adresu šaljite ljudima sa kojima ste dogovorili dolazak, umesto da pozivnicu objavljujete javno."
+      ]
     ],
-    faqs: [
-      ['Da li su ovo pozivnice za rođenje ili čestitke?', 'Šabloni su pripremljeni kao pozivnice za proslavu rođenja bebe, sa imenom i podacima okupljanja. Poruku i podatke o okupljanju možeš da izmeniš u editoru.'],
-      ['Mogu li da ih koristim za poziv na babine?', 'Možeš da prilagodiš poruku i navedeš dogovoren termin posete. Pre slanja pozivnice uskladite vreme okupljanja sa porodicom.'],
-      ['Postoje li dizajni za devojčice i dečake?', 'Kolekcija ima roze, plave i neutralne motive, od božura i konjića do kolevke i patofnica. Ime i poruku menjaš slobodno, pa izaberi tonove koji ti se dopadaju.'],
-      ['Da li moram da dodam fotografiju bebe?', 'Ne. Pripremljeni dizajni imaju ilustracije i ne traže ličnu fotografiju. Dovoljno je da izmeniš ime, poruku i podatke o proslavi.'],
+    "kicker": "PROSLAVA ROĐENJA BEBE",
+    "lead": "Pozovite porodicu i prijatelje da zajedno proslavite dolazak bebe. Dodajte ime, mesto i vreme okupljanja, pa preuzmite pozivnicu i pošaljite je gostima.",
+    "signature": "Pozovite svoje najbliže.",
+    "symbol": "☾",
+    "highlights": [
+      "kolevka-puna-ljubavi",
+      "mali-konjic-velika-radost",
+      "cvet-nase-porodice"
     ],
-  },
+    "edit": "Dodajte ime bebe i podatke o okupljanju.",
+    "guideTitle": "Poziv na proslavu ili dogovorenu posetu",
+    "guide": "Za porodicu možete napisati „Podelite našu radost“, a za prijatelje „Dođite da proslavimo dolazak naše bebe“. Kratka poruka ostavlja dovoljno mesta za adresu i kontakt.",
+    "checklist": [
+      "Ime bebe i povod okupljanja",
+      "Datum i vreme dogovorene proslave",
+      "Mesto i adresa okupljanja",
+      "Kontakt za dogovor ili potvrdu dolaska"
+    ],
+    "examples": [
+      [
+        "Slavimo dolazak bebe",
+        "Stigla je naša najveća radost — [ime]!\nPozivamo vas da zajedno proslavimo rođenje naše bebe.\n[Datum] u [vreme]\n[Mesto i adresa]\nDođite da podelimo osmehe i lepe želje."
+      ],
+      [
+        "Za mali krug najbližih",
+        "Naša porodica je bogatija za jedno malo srce.\nVoleli bismo da podelimo radost sa vama na okupljanju povodom rođenja naše bebe, [ime].\n[Datum] · [vreme] · [mesto]\nJavite nam se da potvrdimo dogovor: [kontakt]."
+      ]
+    ],
+    "faqs": [
+      [
+        "Da li su ovo pozivnice ili čestitke?",
+        "Ovi dizajni služe za pozivanje na proslavu rođenja bebe: sadrže poruku i podatke o okupljanju. Nisu namenjeni samo slanju čestitke roditeljima."
+      ],
+      [
+        "Možemo li da ih koristimo za poziv na babine?",
+        "Možete da prilagodite poruku dogovorenoj poseti. Pre slanja uskladite termin sa roditeljima i navedite kontakt za dogovor."
+      ],
+      [
+        "Kako da izaberemo boju pozivnice?",
+        "U pregledu proverite da li se ime i poruka jasno vide na pozadini. Ako se svetla slova gube na pozadini, probajte tamniju boju teksta."
+      ],
+      [
+        "Da li moramo da dodamo fotografiju bebe?",
+        "Ne. Možete izabrati dizajn sa ilustracijom i promeniti samo ime, poruku i podatke o proslavi."
+      ]
+    ],
+    "intro": "Za proslavu rođenja napišite gde i kada se okupljate. Ako pozivate na posetu porodici, termin prvo dogovorite sa roditeljima. Čestitka ima drugu svrhu: ovde birate dizajn sa podacima za dolazak."
+  }
 };
 
 // Pick only currently published items, including admin replacements with the same slug.
