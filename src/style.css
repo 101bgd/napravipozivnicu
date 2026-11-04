@@ -45,3 +45,15 @@
 
 .detail-edit-action{margin-top:16px;text-align:center}.detail-edit-action .button{width:100%;min-height:54px;font-size:16px}.detail-edit-action .detail-benefits{font-size:11px;margin:10px 0 0;color:#43536d}.detail-mobile-action{display:none}
 @media(max-width:767px){.detail-mobile-action{display:block;position:fixed;bottom:0;left:0;right:0;padding:10px 20px max(10px,env(safe-area-inset-bottom));z-index:30;border-top:1px solid #dfe7f4;background:#ffffffed;backdrop-filter:blur(18px);transform:translateY(110%);visibility:hidden;transition:transform .3s var(--ease),visibility .3s}.detail-mobile-action.is-visible{transform:translateY(0);visibility:visible}.detail-mobile-action .button{width:100%;min-height:52px}.modal-open .detail-mobile-action{display:none}.template-detail{padding-bottom:95px}}
+
+/* Phase 1: category descriptions stay local to the home page. */
+.landing .home-occasions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.landing .home-occasions a{min-width:0;border-radius:18px;justify-content:flex-start;padding:16px;gap:12px;text-align:left}
+.landing .home-occasions img{width:50px;height:70px;object-fit:cover;border-radius:6px;flex-shrink:0}
+.landing .home-occasions a>span{flex:1;min-width:0}
+.landing .home-occasions strong{display:block;font-size:14px}
+.landing .home-occasions small{display:block;font-size:12px;line-height:1.5;font-weight:400;margin-top:4px}
+.landing .home-occasions a>svg{flex-shrink:0}
+@media(max-width:600px){.landing .hero h1{font-size:clamp(32px,9vw,48px)}}
+@media(max-width:900px){.landing .home-occasions{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.landing .home-occasions{grid-template-columns:1fr}}

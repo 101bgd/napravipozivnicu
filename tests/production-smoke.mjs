@@ -42,9 +42,10 @@ try {
   const noJs = await browser.newContext({ javaScriptEnabled: false });
   const staticPage = await noJs.newPage();
   await staticPage.goto(origin);
-  assert.match(await staticPage.locator('h1').innerText(), /Mali poziv[\s\S]*Veliki trenutak/i);
+  assert.match(await staticPage.locator('h1').innerText(), /Napravi pozivnicu\s+besplatno/i);
+  assert.equal(await staticPage.locator('.hero-kicker').innerText(), 'Mali poziv. Veliki trenutak.');
   assert.equal(await staticPage.locator('.hero-cta').getAttribute('href'), '/pozivnice/');
-  assert.equal(await staticPage.locator('.faq details').count(), 5);
+  assert.equal(await staticPage.locator('.faq details').count(), 8);
   assert.equal(await staticPage.locator('#template-grid').count(), 0, 'The landing page should lead to a dedicated catalog');
   await staticPage.locator('.hero-cta').click();
   await staticPage.waitForURL(`${origin}/pozivnice/`);
