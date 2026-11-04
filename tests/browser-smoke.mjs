@@ -43,7 +43,8 @@ try {
   await page.goto(origin);
   await page.evaluate(() => document.fonts.ready);
   assert.equal(await page.locator('h1').count(), 1);
-  assert.match(await page.locator('h1').innerText(), /Mali poziv[\s\S]*Veliki trenutak/i);
+  assert.match(await page.locator('h1').innerText(), /Napravi pozivnicu\s+besplatno/i);
+  assert.equal(await page.locator('.hero-kicker').innerText(), 'Mali poziv. Veliki trenutak.');
   assert.equal(await page.locator('.hero-cta').getAttribute('href'), '/pozivnice/');
   await page.screenshot({ path: '/tmp/napravi-desktop.png', fullPage: true });
   await page.locator('.hero-cta').click();

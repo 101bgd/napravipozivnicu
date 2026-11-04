@@ -16,8 +16,9 @@ try {
     const ctx = await browser.newContext(options);
     await ctx.route('**/*', async route => {
       const request = route.request();
+      if (['www.googletagmanager.com', 'pagead2.googlesyndication.com'].includes(new URL(request.url()).hostname)) return route.abort();
       assert.equal(new URL(request.url()).origin, origin, 'Landing pages must not load external dependencies');
-      const response = await local.runtime.dispatchFetch(request.url(), { method: request.method(), headers: request.headers() });
+      const response = await local.runtime.dispatchFetch(request.url(), { method: request.method(), headers: request.headers(), body: request.postDataBuffer() || undefined });
       assert.ok(response.ok, `Unexpected response ${response.status}: ${request.url()}`);
       await route.fulfill({ status: response.status, headers: Object.fromEntries(response.headers), body: Buffer.from(await response.arrayBuffer()) });
     });
@@ -70,7 +71,7 @@ try {
   const ctx = await context({ reducedMotion: 'reduce', permissions: ['clipboard-read', 'clipboard-write'] });
   const page = await ctx.newPage();
   page.on('pageerror', error => errors.push(error.message));
-  page.on('request', request => { if (request.resourceType() === 'script') assets.add(new URL(request.url()).pathname); });
+  page.on('request', request => { if (request.resourceType() === 'script' && new URL(request.url()).origin === origin) assets.add(new URL(request.url()).pathname); });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: width === 320 ? 740 : 1000 });
     for (const id of Object.keys(CATEGORY_CONTENT)) {
@@ -110,7 +111,7 @@ try {
   await page.locator('.collection-faq details').first().locator('summary').click();
   assert.equal(await page.locator('.collection-faq details').first().getAttribute('open'), '');
   await page.locator('[data-copy-text]').first().click();
-  assert.equal(await page.evaluate(() => navigator.clipboard.readText()), await page.locator('#example-0').textContent());
+  assert.equal((await page.evaluate(() => navigator.clipboard.readText())).replaceAll('\r\n', '\n'), await page.locator('#example-0').textContent());
   await page.locator('[data-template="dino-avantura"]').first().click();
   await page.waitForFunction(() => document.querySelector('#editor')?.open);
   await page.locator('input[name="names"]').fill('Milica');

@@ -4,9 +4,18 @@ import { chromium } from 'playwright';
 import { createLocalRuntime, root } from '../scripts/local-runtime.mjs';
 import { publicTemplates } from '../src/curated-catalog.js';
 import { CATEGORY_CONTENT, categoryPath } from '../src/seo-content.js';
+import { CATEGORY_EXPERIENCE } from '../src/category-content.js';
 import { templateTitle } from '../src/template-titles.js';
 
 const targets = { birthday: 'pozivnice za rodjendan', eighteen: 'pozivnice za 18. rodjendan', first: 'pozivnice za 1. rodjendan', wedding: 'pozivnice za vencanje', baptism: 'pozivnice za krstenje', baby: 'pozivnice za rodjenje' };
+const occasions = {
+  birthday: /\brodjendan\w*\b/,
+  eighteen: /\b(?:18\.\s*rodjendan\w*|punoletstv\w*)\b/,
+  first: /\b(?:prv\w*|1\.)\s+rodjendan\w*\b/,
+  wedding: /\bvencanj\w*\b/,
+  baptism: /\bkrstenj\w*\b/,
+  baby: /\b(?:rodjenj\w*|dolazak)\s+(?:deteta|bebe)\b/,
+};
 const fold = text => text.toLocaleLowerCase('sr').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replaceAll('đ', 'dj');
 const origin = 'https://napravipozivnicu.com';
 const local = await createLocalRuntime();
@@ -43,9 +52,14 @@ try {
     assert.ok(fold(await page.locator('h1').innerText()).startsWith(target));
     const title = await page.title(), description = await page.locator('meta[name="description"]').getAttribute('content');
     assert.ok(fold(title).startsWith(target));
-    assert.ok(fold(description).includes(target));
-    assert.ok(fold(await page.locator('.collection-copy > p').innerText()).includes(target));
-    assert.equal(await page.locator('.collection-guide-copy > p').first().innerText(), info.intro);
+    assert.equal(description, info.description);
+    const lead = await page.locator('.collection-copy > p').innerText();
+    // Check the lead itself, allowing ordinary Serbian inflection and synonyms.
+    for (const [field, copy] of [['description', description], ['lead', lead]]) {
+      assert.match(fold(copy), occasions[category], `${category}: ${field} names the occasion`);
+      assert.match(fold(copy), /\bpozivnic\w*\b/, `${category}: ${field} mentions invitations`);
+    }
+    assert.equal(await page.locator('.collection-guide-copy > p').first().innerText(), CATEGORY_EXPERIENCE[category].intro);
     titles.add(title); descriptions.add(description);
     assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), origin + categoryPath(category));
     assert.equal(await page.locator('.template-card img').count(), templates.length);
@@ -60,7 +74,7 @@ try {
     assert.ok(categoryEntry.date >= '2026-10-21');
     assert.deepEqual(new Set(categoryEntry.images), new Set(templates.map(t => origin + t.thumbnail)));
     const built = await fs.readFile(`${root}dist${categoryPath(category)}index.html`, 'utf8');
-    assert.ok(built.includes(info.intro) && built.includes(`<title>${info.seoTitle}</title>`));
+    assert.ok(built.includes(CATEGORY_EXPERIENCE[category].intro) && built.includes(`<title>${info.seoTitle}</title>`));
     for (const template of templates) {
       const img = page.locator(`[data-template="${template.id}"] img`);
       const alt = await img.getAttribute('alt');

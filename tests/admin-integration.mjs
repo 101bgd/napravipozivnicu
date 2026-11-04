@@ -42,7 +42,7 @@ try{
   assert.equal(catalogPayload(landingHtml).pageType,'landing');assert.equal(landingHtml.includes('id="template-grid"'),false,'Landing CTA should lead to the dedicated catalog');
   const catalogRedirect=await fetchWorker('/pozivnice?izvor=test',{redirect:'manual'});assert.equal(catalogRedirect.status,301);assert.equal(catalogRedirect.headers.get('Location'),`${origin}/pozivnice/?izvor=test`);
   const catalogResponse=await fetchWorker('/pozivnice/');assert.equal(catalogResponse.status,200);const catalogHtml=await catalogResponse.text(),initialCatalog=await (await fetchWorker('/api/catalog')).json();
-  assert.match(catalogHtml,/<link rel="canonical" href="https:\/\/napravipozivnicu.com\/pozivnice\/">/);assert.match(catalogHtml,/<h1>Šta slavimo\?<\/h1>/);
+  assert.match(catalogHtml,/<link rel="canonical" href="https:\/\/napravipozivnicu.com\/pozivnice\/">/);assert.match(catalogHtml,/<h1>Izaberi pozivnicu za svoju proslavu<\/h1>/);
   assert.equal((catalogHtml.match(/<title>/g)||[]).length,1);assert.equal((catalogHtml.match(/rel="canonical"/g)||[]).length,1);
   assert.equal(catalogPayload(catalogHtml).pageType,'catalog');assert.equal(catalogPayload(catalogHtml).category,'all');assert.deepEqual(catalogPayload(catalogHtml).templates,initialCatalog.templates);
   assert.equal((catalogHtml.match(/data-category=/g)||[]).length,7);assert.equal((catalogHtml.match(/class="template-card /g)||[]).length,initialCatalog.templates.length);

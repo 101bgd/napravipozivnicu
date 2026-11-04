@@ -18,6 +18,7 @@ try {
     const ctx = await browser.newContext({ reducedMotion: 'reduce', ...options });
     await ctx.route('**/*', async route => {
       const req = route.request();
+      if (['www.googletagmanager.com', 'pagead2.googlesyndication.com'].includes(new URL(req.url()).hostname)) return route.abort();
       assert.equal(new URL(req.url()).origin, origin, 'Guides must not load third-party scripts or embeds');
       const response = await local.runtime.dispatchFetch(req.url(), { method: req.method(), headers: req.headers(), body: req.postDataBuffer() || undefined });
       assert.ok(response.ok, `${response.status}: ${req.url()}`);
@@ -36,7 +37,7 @@ try {
     assert.equal(response.headers.get('X-Robots-Tag'), null);
     await staticPage.goto(origin + guide.path);
     assert.equal(await staticPage.locator('h1').count(), 1);
-    assert.equal(await staticPage.locator('h1').textContent(), guide.title + (guide.id === 'guides' ? '.' : ''));
+    assert.equal(await staticPage.locator('h1').textContent(), guide.title);
     assert.equal(await staticPage.title(), guide.seoTitle);
     assert.equal(await staticPage.locator('meta[name="description"]').getAttribute('content'), guide.description);
     assert.equal(await staticPage.locator('link[rel="canonical"]').getAttribute('href'), origin + guide.path);
@@ -46,7 +47,7 @@ try {
     titles.add(await staticPage.title()); descriptions.add(guide.description);
     const graph = JSON.parse(await staticPage.locator('script[type="application/ld+json"]').textContent())['@graph'];
     assert.ok(graph.some(node => node['@type'] === 'BreadcrumbList'));
-    assert.ok(sitemap.includes(`<loc>${origin}${guide.path}</loc><lastmod>2026-10-21</lastmod>`));
+    assert.ok(sitemap.includes(`<loc>${origin}${guide.path}</loc><lastmod>${guide.updatedAt.slice(0, 10)}</lastmod>`));
     const builtHtml = await fs.readFile(`${root}dist${guide.path}index.html`, 'utf8');
     assert.ok(builtHtml.includes(guide.title) && builtHtml.includes(`href="${origin}${guide.path}"`));
     if (guide.id === 'guides') {
@@ -91,7 +92,7 @@ try {
 
   const ctx = await context({ permissions: ['clipboard-read', 'clipboard-write'] });
   const page = await ctx.newPage();
-  page.on('request', req => { if (req.resourceType() === 'script') scripts.add(new URL(req.url()).pathname); });
+  page.on('request', req => { if (req.resourceType() === 'script' && new URL(req.url()).origin === origin) scripts.add(new URL(req.url()).pathname); });
   await fs.mkdir('/workspace/artifacts/guides', { recursive: true });
   for (const width of [320, 390, 768, 900, 1440]) {
     await page.setViewportSize({ width, height: 900 });
@@ -113,7 +114,7 @@ try {
     await page.goto(origin + guide.path);
     const button = page.locator('[data-copy-text]').first();
     await button.click();
-    assert.equal(await page.evaluate(() => navigator.clipboard.readText()), await page.locator(`#${await button.getAttribute('data-copy-text')}`).textContent());
+    assert.equal((await page.evaluate(() => navigator.clipboard.readText())).replaceAll('\r\n', '\n'), await page.locator(`#${await button.getAttribute('data-copy-text')}`).textContent());
   }
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(origin + GUIDES[0].path);

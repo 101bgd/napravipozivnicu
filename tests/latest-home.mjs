@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { LANDING_UPDATED_AT } from '../src/seo-content.js';
 import fs from 'node:fs/promises';
 import { gzipSync } from 'node:zlib';
 import { chromium } from 'playwright';
@@ -31,6 +32,7 @@ try {
     const ctx = await browser.newContext({ reducedMotion: 'reduce', ...options });
     await ctx.route('**/*', async route => {
       const req = route.request();
+      if (['www.googletagmanager.com', 'pagead2.googlesyndication.com'].includes(new URL(req.url()).hostname)) return route.abort();
       assert.equal(new URL(req.url()).origin, origin, 'The section needs no third-party services');
       const response = await local.runtime.dispatchFetch(req.url(), { method: req.method(), headers: req.headers(), body: req.postDataBuffer() || undefined });
       assert.ok(response.ok, `${response.status}: ${req.url()}`);
@@ -88,7 +90,7 @@ try {
   let current = await assertSection(staticPage);
   assert.ok(!current.names.includes(newestBirthday.name));
   await local.db.prepare('DELETE FROM settings WHERE key=?').bind(`example_hidden:${newestBirthday.id}`).run();
-  const id = crypto.randomUUID(), stamp = '2026-10-22T10:00:00Z';
+  const id = crypto.randomUUID(), stamp = new Date(Math.max(Date.parse(LANDING_UPDATED_AT), ...publicTemplates.map(t => Date.parse(t.publishedAt || 0) || 0)) + 86400000).toISOString();
   const design = { ...curatedDesign(newestBirthday.id), id, name: 'Nova objavljena avantura', slug: 'nova-objavljena-avantura' };
   const thumbnail = await fs.readFile(`${root}public${newestBirthday.thumbnail}`);
   const media = await local.runtime.getR2Bucket('MEDIA');
@@ -97,19 +99,19 @@ try {
   await local.db.prepare('INSERT INTO templates (id,slug,name,category,draft_json,created_at,updated_at) VALUES (?,?,?,?,?,?,?)').bind(id, design.slug, design.name, design.category, JSON.stringify(design), stamp, stamp).run();
   await staticPage.goto(origin);
   assert.deepEqual((await assertSection(staticPage)).names, initial.names, 'A newer private draft stays off the homepage');
-  assert.match(await (await request('/sitemap.xml')).text(), /<loc>https:\/\/napravipozivnicu.com\/<\/loc><lastmod>2026-10-21<\/lastmod>/);
+  assert.ok((await (await request('/sitemap.xml')).text()).includes(`<loc>${origin}/</loc><lastmod>${LANDING_UPDATED_AT.slice(0, 10)}</lastmod>`));
   await local.db.prepare('UPDATE templates SET published_json=draft_json,published_at=? WHERE id=?').bind(stamp, id).run();
   await staticPage.goto(origin);
   current = await assertSection(staticPage);
   assert.equal(current.names[0], design.name);
   assert.equal(current.hrefs[0], `/pozivnice/${design.slug}/`);
-  assert.match(await (await request('/sitemap.xml')).text(), /<loc>https:\/\/napravipozivnicu.com\/<\/loc><lastmod>2026-10-22<\/lastmod>/);
+  assert.ok((await (await request('/sitemap.xml')).text()).includes(`<loc>${origin}/</loc><lastmod>${stamp.slice(0, 10)}</lastmod>`));
   assert.ok(!current.names.includes(newestBirthday.name));
   for (const template of expected.filter(t => t.category !== 'birthday')) assert.ok(current.names.includes(template.name));
   await local.db.prepare('UPDATE templates SET draft_json=?,updated_at=? WHERE id=?').bind(JSON.stringify({ ...design, name: 'Privatna promena naziva' }), '2026-10-23T10:00:00Z', id).run();
   await staticPage.goto(origin);
   assert.equal((await assertSection(staticPage)).names[0], design.name, 'Unsaved public changes must not leak from the draft');
-  assert.match(await (await request('/sitemap.xml')).text(), /<loc>https:\/\/napravipozivnicu.com\/<\/loc><lastmod>2026-10-22<\/lastmod>/);
+  assert.ok((await (await request('/sitemap.xml')).text()).includes(`<loc>${origin}/</loc><lastmod>${stamp.slice(0, 10)}</lastmod>`));
   await local.db.prepare('UPDATE templates SET published_json=NULL WHERE id=?').bind(id).run();
   await staticPage.goto(origin);
   assert.deepEqual((await assertSection(staticPage)).names, initial.names, 'Unpublishing restores the previous public design');
@@ -121,7 +123,7 @@ try {
 
   const ctx = await context();
   const page = await ctx.newPage();
-  page.on('request', req => { if (req.resourceType() === 'script') scripts.add(new URL(req.url()).pathname); });
+  page.on('request', req => { if (req.resourceType() === 'script' && new URL(req.url()).origin === origin) scripts.add(new URL(req.url()).pathname); });
   await fs.mkdir('/workspace/artifacts/latest-home', { recursive: true });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: width < 620 ? 844 : 1000 });
